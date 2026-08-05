@@ -1,0 +1,182 @@
+[
+  {
+    "deck": "Class",
+    "en": "you come",
+    "pt": "vocês vêm",
+    "frontWord": "you come",
+    "frontBadges": [
+      "PL"
+    ],
+    "frontBadgeTitles": [
+      "plural — vocês / eles"
+    ],
+    "backWord": "vocês vêm",
+    "backBadges": [],
+    "hint": null
+  },
+  {
+    "deck": "Class",
+    "en": "you can",
+    "pt": "vocês podem",
+    "frontWord": "you can",
+    "frontBadges": [
+      "PL"
+    ],
+    "frontBadgeTitles": [
+      "plural — vocês / eles"
+    ],
+    "backWord": "vocês podem",
+    "backBadges": [],
+    "hint": null
+  },
+  {
+    "deck": "Class",
+    "en": "him / it",
+    "pt": "o",
+    "frontWord": "him / it",
+    "frontBadges": [
+      "M",
+      "OBJ"
+    ],
+    "frontBadgeTitles": [
+      "masculine",
+      "object pronoun"
+    ],
+    "backWord": "o",
+    "backBadges": [
+      "OBJ"
+    ],
+    "hint": null
+  },
+  {
+    "deck": "Common Verbs",
+    "en": "to be",
+    "pt": "ser",
+    "frontWord": "to be",
+    "frontBadges": [],
+    "frontBadgeTitles": [],
+    "backWord": "ser",
+    "backBadges": [],
+    "hint": "permanent / identity"
+  },
+  {
+    "deck": "Greetings & Polite Expressions",
+    "en": "thank you",
+    "pt": "obrigado",
+    "frontWord": "thank you",
+    "frontBadges": [],
+    "frontBadgeTitles": [],
+    "backWord": "obrigado",
+    "backBadges": [],
+    "hint": "said by a man"
+  },
+  {
+    "deck": "Pronouns & Basic Words",
+    "en": "friend",
+    "pt": "o amigo",
+    "frontWord": "friend",
+    "frontBadges": [
+      "M"
+    ],
+    "frontBadgeTitles": [
+      "masculine"
+    ],
+    "backWord": "o amigo",
+    "backBadges": [],
+    "hint": null
+  },
+  {
+    "deck": "Pronouns & Basic Words",
+    "en": "your",
+    "pt": "teu",
+    "frontWord": "your",
+    "frontBadges": [
+      "M",
+      "INF"
+    ],
+    "frontBadgeTitles": [
+      "masculine",
+      "informal — tu"
+    ],
+    "backWord": "teu",
+    "backBadges": [],
+    "hint": null
+  },
+  {
+    "deck": "Class",
+    "en": "all",
+    "pt": "todos",
+    "frontWord": "all",
+    "frontBadges": [
+      "M",
+      "PL"
+    ],
+    "frontBadgeTitles": [
+      "masculine",
+      "plural — vocês / eles"
+    ],
+    "backWord": "todos",
+    "backBadges": [],
+    "hint": null
+  },
+  {
+    "deck": "Greetings & Polite Expressions",
+    "en": "how are you?",
+    "pt": "como estás?",
+    "frontWord": "how are you?",
+    "frontBadges": [
+      "INF"
+    ],
+    "frontBadgeTitles": [
+      "informal — tu"
+    ],
+    "backWord": "como estás?",
+    "backBadges": [],
+    "hint": null
+  },
+  {
+    "deck": "Pronouns & Basic Words",
+    "en": "they",
+    "pt": "eles",
+    "frontWord": "they",
+    "frontBadges": [
+      "M+"
+    ],
+    "frontBadgeTitles": [
+      "masculine or mixed group"
+    ],
+    "backWord": "eles",
+    "backBadges": [],
+    "hint": null
+  },
+  {
+    "deck": "Class",
+    "en": "in / at / on",
+    "pt": "no",
+    "frontWord": "in / at / on",
+    "frontBadges": [
+      "M",
+      "CTR"
+    ],
+    "frontBadgeTitles": [
+      "masculine",
+      "contraction — preposition + article"
+    ],
+    "backWord": "no",
+    "backBadges": [
+      "CTR"
+    ],
+    "hint": null
+  },
+  {
+    "deck": "Adjectives & Opposites",
+    "en": "light",
+    "pt": "leve",
+    "frontWord": "light",
+    "frontBadges": [],
+    "frontBadgeTitles": [],
+    "backWord": "leve",
+    "backBadges": [],
+    "hint": "not heavy"
+  }
+]

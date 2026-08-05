@@ -1,0 +1,67 @@
+/* Ported unchanged from the single-file app. Stage 4 is where the redesign lives. */
+:root {
+  --bg:#0f172a; --panel:#111827; --panel2:#1f2937; --text:#e5e7eb; --muted:#94a3b8;
+  --accent:#38bdf8; --good:#22c55e; --bad:#fb7185; --border:rgba(148,163,184,.24);
+}
+* { box-sizing:border-box; }
+html, body {
+  margin:0;
+  min-height:100%;
+  background:var(--bg);
+  color:var(--text);
+  font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+body {
+  background:
+    radial-gradient(circle at top left, rgba(56,189,248,.18), transparent 24rem),
+    radial-gradient(circle at bottom right, rgba(34,197,94,.10), transparent 26rem),
+    var(--bg);
+}
+
+select, button { font:inherit; }
+select {
+  width:100%;
+  min-height:44px;
+  padding:8px 10px;
+  border:1px solid var(--border);
+  border-radius:12px;
+  color:var(--text);
+  background:rgba(15,23,42,.92);
+}
+button {
+  min-height:44px;
+  padding:8px 12px;
+  border:1px solid var(--border);
+  border-radius:12px;
+  color:var(--text);
+  background:rgba(15,23,42,.86);
+  cursor:pointer;
+}
+button:active { transform:translateY(1px); }
+.primary { border-color:rgba(56,189,248,.55); background:rgba(56,189,248,.16); }
+.good { border-color:rgba(34,197,94,.55); background:rgba(34,197,94,.15); }
+.bad { border-color:rgba(251,113,133,.55); background:rgba(251,113,133,.14); }
+
+/* Installed on iOS the app runs under the notch and home indicator. */
+.app {
+  min-height:100svh;
+  width:min(1080px, 100%);
+  margin:0 auto;
+  padding:16px;
+  padding-top:calc(16px + env(safe-area-inset-top));
+  padding-bottom:calc(16px + env(safe-area-inset-bottom));
+  padding-left:calc(16px + env(safe-area-inset-left));
+  padding-right:calc(16px + env(safe-area-inset-right));
+  display:grid;
+  grid-template-rows:auto auto 1fr auto;
+  gap:12px;
+}
+
+@media (max-width:760px) {
+  .app {
+    padding:8px;
+    padding-top:calc(8px + env(safe-area-inset-top));
+    padding-bottom:calc(8px + env(safe-area-inset-bottom));
+    gap:8px;
+  }
+}
