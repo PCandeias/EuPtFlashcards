@@ -6,6 +6,7 @@
   import Stats from './components/Stats.svelte'
   import BackupBar from './components/BackupBar.svelte'
   import UpdatePrompt from './components/UpdatePrompt.svelte'
+  import TypeAnswer from './components/TypeAnswer.svelte'
 
   import { CARDS, deckCounts } from './lib/cards/index.js'
   import { cardId } from './lib/cards/schema.js'
@@ -28,6 +29,7 @@
   let settings = $state<Settings>(loadSettings(localStorage))
   let flipped = $state(false)
   let now = $state(Date.now())
+  let typing = $state(false)
 
   const counts = deckCounts()
   const deckOptions: Array<[string, number]> = [
@@ -63,6 +65,8 @@
   })
 
   let current = $derived(currentCard(session))
+  // In typing mode the answer is whatever the hidden face holds.
+  let answerText = $derived(current ? (settings.direction === 'a-b' ? current.pt : current.en) : '')
   let currentState = $derived(current ? stateFor(progress, current) : undefined)
   let summary = $derived(stats(progress))
 
@@ -87,6 +91,11 @@
     session = completeCurrent(session, rating === 'again')
     flipped = false
     if (!session.cards.length) newSession()
+  }
+
+  function toggleTyping() {
+    typing = !typing
+    flipped = false
   }
 
   function changeSettings(next: Partial<Settings>) {
@@ -117,6 +126,7 @@
     if (rating) { rate(rating); return }
 
     if (event.code === 'Space') { event.preventDefault(); flip() }
+    else if (event.key.toLowerCase() === 't') { toggleTyping() }
     else if (event.key === 'ArrowRight') move(1)
     else if (event.key === 'ArrowLeft') move(-1)
   }
@@ -144,9 +154,11 @@
   <TopBar
     {settings}
     {deckOptions}
+    {typing}
     onchange={changeSettings}
     onshuffle={newSession}
     onreset={resetDeck}
+    ontoggletyping={toggleTyping}
   />
 
   <main class="study">
@@ -168,6 +180,13 @@
       />
     {:else}
       <div class="empty">No cards in this deck.</div>
+    {/if}
+
+    {#if typing && current}
+      <TypeAnswer
+        expected={answerText}
+        onchecked={() => { flipped = true }}
+      />
     {/if}
 
     {#if currentState}

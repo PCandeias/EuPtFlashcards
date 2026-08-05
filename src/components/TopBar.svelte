@@ -2,13 +2,15 @@
   import type { Direction, Settings } from '../lib/storage/progress.js'
 
   let {
-    settings, deckOptions, onchange, onshuffle, onreset,
+    settings, deckOptions, typing, onchange, onshuffle, onreset, ontoggletyping,
   }: {
     settings: Settings
     deckOptions: Array<[string, number]>
+    typing: boolean
     onchange: (next: Partial<Settings>) => void
     onshuffle: () => void
     onreset: () => void
+    ontoggletyping: () => void
   } = $props()
 </script>
 
@@ -34,6 +36,13 @@
     <option value="b-a">Portuguese · Portugal → English</option>
   </select>
 
+  <button
+    id="typeBtn"
+    class:primary={typing}
+    aria-pressed={typing}
+    title="Type the answer instead of flipping (t)"
+    onclick={ontoggletyping}
+  >{typing ? 'Typing' : 'Type'}</button>
   <button id="shuffleBtn" onclick={onshuffle}>Shuffle</button>
   <button id="resetBtn" onclick={onreset}>Reset deck</button>
 </section>
@@ -41,14 +50,14 @@
 <style>
   .topbar {
     display: grid;
-    grid-template-columns: minmax(180px, 1fr) minmax(180px, 260px) auto auto;
+    grid-template-columns: minmax(160px, 1fr) minmax(180px, 240px) auto auto auto;
     gap: 8px;
     align-items: center;
   }
   @media (max-width: 760px) {
     .topbar { grid-template-columns: 1fr 1fr; gap: 6px; }
     #deckSelect { grid-column: 1 / -1; }
-    #shuffleBtn, #resetBtn { min-height: 38px; font-size: 13px; }
+    #typeBtn, #shuffleBtn, #resetBtn { min-height: 38px; font-size: 13px; }
     select { min-height: 40px; font-size: 14px; }
   }
   @media (max-width: 420px) {

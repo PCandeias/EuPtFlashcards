@@ -266,3 +266,73 @@ test('offers audio on the Portuguese face only', async ({ page }) => {
   await expect(page.locator('.face.back .speak')).toHaveCount(1)
   await expect(page.locator('.face.front .speak')).toHaveCount(0)
 })
+
+test.describe('typing mode', () => {
+  test('checks a typed answer and reveals the card', async ({ page }) => {
+    await page.goto('./')
+    await page.selectOption('#deckSelect', 'Numbers')
+    await page.click('#typeBtn')
+
+    const answer = (await page.locator('.face.back .word').textContent())!.trim()
+    await page.fill('#answerInput', answer)
+    await page.click('#checkBtn')
+
+    await expect(page.locator('#answerVerdict')).toHaveText('Correct')
+    // Answering is what reveals the card in this mode.
+    await expect(page.locator('.card')).toHaveClass(/flipped/)
+  })
+
+  test('accepts a missing accent but shows the correct spelling', async ({ page }) => {
+    await page.goto('./')
+    await page.click('#typeBtn')
+
+    // Find a card whose answer actually carries an accent.
+    const plain = await page.evaluate(async () => {
+      for (let i = 0; i < 300; i++) {
+        const back = document.querySelector('.face.back .word')?.textContent?.trim() ?? ''
+        const stripped = back.normalize('NFD').replace(/\p{Diacritic}/gu, '')
+        if (stripped !== back && !back.includes('/')) return { back, stripped }
+        ;(document.getElementById('nextBtn') as HTMLButtonElement).click()
+        await new Promise(r => requestAnimationFrame(r))
+      }
+      return null
+    })
+    expect(plain).not.toBeNull()
+
+    await page.fill('#answerInput', plain!.stripped)
+    await page.click('#checkBtn')
+    const verdict = page.locator('#answerVerdict')
+    await expect(verdict).toContainText('Almost')
+    await expect(verdict).toContainText(plain!.back)
+  })
+
+  test('rejects a wrong answer and names the right one', async ({ page }) => {
+    await page.goto('./')
+    await page.selectOption('#deckSelect', 'Numbers')
+    await page.click('#typeBtn')
+
+    const answer = (await page.locator('.face.back .word').textContent())!.trim()
+    await page.fill('#answerInput', 'definitely not the answer')
+    await page.click('#checkBtn')
+
+    await expect(page.locator('#answerVerdict')).toContainText('Not quite')
+    await expect(page.locator('#answerVerdict')).toContainText(answer)
+  })
+
+  test('clears the box when the card changes', async ({ page }) => {
+    await page.goto('./')
+    await page.selectOption('#deckSelect', 'Numbers')
+    await page.click('#typeBtn')
+    await page.fill('#answerInput', 'something')
+    await page.click('#nextBtn')
+    await expect(page.locator('#answerInput')).toHaveValue('')
+  })
+
+  test('toggles off again, restoring tap to flip', async ({ page }) => {
+    await page.goto('./')
+    await page.click('#typeBtn')
+    await expect(page.locator('#answerInput')).toBeVisible()
+    await page.click('#typeBtn')
+    await expect(page.locator('#answerInput')).toHaveCount(0)
+  })
+})
