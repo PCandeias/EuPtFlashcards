@@ -1,5 +1,6 @@
 <script lang="ts">
   import Badge from './Badge.svelte'
+  import SpeakButton from './SpeakButton.svelte'
   import { badgesFor, hintFor } from '../lib/render/tags.js'
   import type { Card } from '../lib/cards/schema.js'
   import type { Direction } from '../lib/storage/progress.js'
@@ -27,14 +28,24 @@
   let startY = 0
   let tracking = false
 
+  /**
+   * Controls sitting on a face must not double as a tap-to-flip. The flip fires on
+   * pointerup, so stopPropagation on the button's click would come too late.
+   */
+  function fromControl(event: Event): boolean {
+    const target = event.target as HTMLElement | null
+    return !!target?.closest('button, a, input, select, textarea')
+  }
+
   function onPointerDown(event: PointerEvent) {
+    if (fromControl(event)) { tracking = false; return }
     startX = event.clientX
     startY = event.clientY
     tracking = true
   }
 
   function onPointerUp(event: PointerEvent) {
-    if (!tracking) return
+    if (!tracking || fromControl(event)) return
     tracking = false
     const dx = event.clientX - startX
     const dy = event.clientY - startY
@@ -72,6 +83,10 @@
         </div>
         {#if hintFor(card, f.side)}
           <div class="hint">{hintFor(card, f.side)}</div>
+        {/if}
+        <!-- Only the Portuguese: hearing the English back teaches nothing. -->
+        {#if f.side === 'pt'}
+          <SpeakButton text={card.pt} />
         {/if}
         <div class="note">{f.note}</div>
       </section>

@@ -249,3 +249,20 @@ test('registers a service worker and serves a manifest', async ({ page, request 
   expect(body.display).toBe('standalone')
   expect(body.icons.length).toBeGreaterThan(0)
 })
+
+test('the speak button does not also flip the card', async ({ page }) => {
+  await page.goto('./')
+  await page.click('#flipBtn')                       // reveal the Portuguese face
+  await expect(page.locator('.card')).toHaveClass(/flipped/)
+
+  await page.locator('.face.back .speak').click()
+  // Tapping the card flips it, so the speaker must swallow the gesture or the
+  // card turns away the moment you ask to hear it.
+  await expect(page.locator('.card')).toHaveClass(/flipped/)
+})
+
+test('offers audio on the Portuguese face only', async ({ page }) => {
+  await page.goto('./')
+  await expect(page.locator('.face.back .speak')).toHaveCount(1)
+  await expect(page.locator('.face.front .speak')).toHaveCount(0)
+})

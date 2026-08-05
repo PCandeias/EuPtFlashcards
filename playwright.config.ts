@@ -37,7 +37,9 @@ export default defineConfig({
   webServer: {
     command: 'npm run build && npm run preview -- --port 4173',
     url: 'http://localhost:4173/EuPtFlashcards/',
-    reuseExistingServer: !process.env.CI,
+    // Never reuse: a leftover server from an earlier build silently serves stale
+    // code, and the suite then passes or fails for reasons unrelated to the diff.
+    reuseExistingServer: false,
     timeout: 120_000,
   },
 })
