@@ -1,0 +1,109 @@
+{
+  "deck": "Daily Routine",
+  "cards": [
+    {
+      "en": "to take a shower",
+      "pt": "tomar duche"
+    },
+    {
+      "en": "to wash oneself",
+      "pt": "lavar-se"
+    },
+    {
+      "en": "to brush teeth",
+      "pt": "lavar os dentes"
+    },
+    {
+      "en": "to get dressed",
+      "pt": "vestir-se"
+    },
+    {
+      "en": "to have breakfast",
+      "pt": "tomar o pequeno-almoço"
+    },
+    {
+      "en": "to go to work",
+      "pt": "ir para o trabalho"
+    },
+    {
+      "en": "to go to school",
+      "pt": "ir para a escola"
+    },
+    {
+      "en": "to work / study",
+      "pt": "trabalhar / estudar"
+    },
+    {
+      "en": "to have lunch",
+      "pt": "almoçar"
+    },
+    {
+      "en": "to return home",
+      "pt": "voltar para casa"
+    },
+    {
+      "en": "to shop",
+      "pt": "fazer compras"
+    },
+    {
+      "en": "to have dinner",
+      "pt": "jantar"
+    },
+    {
+      "en": "to watch TV",
+      "pt": "ver televisão"
+    },
+    {
+      "en": "to read a book",
+      "pt": "ler um livro"
+    },
+    {
+      "en": "to listen to music",
+      "pt": "ouvir música"
+    },
+    {
+      "en": "to do sports",
+      "pt": "fazer desporto"
+    },
+    {
+      "en": "to take a walk",
+      "pt": "dar um passeio"
+    },
+    {
+      "en": "to rest",
+      "pt": "descansar"
+    },
+    {
+      "en": "I get up every morning",
+      "pt": "levanto-me todas as manhãs"
+    },
+    {
+      "en": "I am having breakfast",
+      "pt": "estou a tomar o pequeno-almoço"
+    },
+    {
+      "en": "I am going to work",
+      "pt": "vou para o trabalho"
+    },
+    {
+      "en": "I am returning home",
+      "pt": "estou a voltar para casa"
+    },
+    {
+      "en": "I am cooking",
+      "pt": "estou a cozinhar"
+    },
+    {
+      "en": "I am reading a book",
+      "pt": "estou a ler um livro"
+    },
+    {
+      "en": "I am listening to music",
+      "pt": "estou a ouvir música"
+    },
+    {
+      "en": "I am sleeping",
+      "pt": "estou a dormir"
+    }
+  ]
+}

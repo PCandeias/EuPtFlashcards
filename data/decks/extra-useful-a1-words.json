@@ -1,0 +1,301 @@
+{
+  "deck": "Extra Useful A1 Words",
+  "cards": [
+    {
+      "en": "paper",
+      "pt": "o papel"
+    },
+    {
+      "en": "scissors",
+      "pt": "a tesoura"
+    },
+    {
+      "en": "tape",
+      "pt": "a fita-cola"
+    },
+    {
+      "en": "box",
+      "pt": "a caixa"
+    },
+    {
+      "en": "umbrella",
+      "pt": "o guarda-chuva"
+    },
+    {
+      "en": "comb",
+      "pt": "o pente"
+    },
+    {
+      "en": "brush",
+      "pt": "a escova"
+    },
+    {
+      "en": "perfume",
+      "pt": "o perfume"
+    },
+    {
+      "en": "cream",
+      "pt": "o creme"
+    },
+    {
+      "en": "medicine box",
+      "pt": "a caixa de medicamentos"
+    },
+    {
+      "en": "ticket office",
+      "pt": "a bilheteira"
+    },
+    {
+      "en": "information desk",
+      "pt": "o balcão de informações"
+    },
+    {
+      "en": "reception",
+      "pt": "a receção"
+    },
+    {
+      "en": "room key",
+      "pt": "a chave do quarto"
+    },
+    {
+      "en": "pool",
+      "pt": "a piscina"
+    },
+    {
+      "en": "gym",
+      "pt": "o ginásio"
+    },
+    {
+      "en": "coffee machine",
+      "pt": "a máquina de café"
+    },
+    {
+      "en": "kettle",
+      "pt": "a chaleira"
+    },
+    {
+      "en": "laundry",
+      "pt": "roupa para lavar / a lavandaria"
+    },
+    {
+      "en": "iron",
+      "pt": "o ferro de engomar"
+    },
+    {
+      "en": "curtain",
+      "pt": "a cortina"
+    },
+    {
+      "en": "carpet",
+      "pt": "o tapete"
+    },
+    {
+      "en": "coffee table",
+      "pt": "a mesa de centro"
+    },
+    {
+      "en": "picture / painting",
+      "pt": "o quadro"
+    },
+    {
+      "en": "radio",
+      "pt": "rádio"
+    },
+    {
+      "en": "newspaper",
+      "pt": "o jornal"
+    },
+    {
+      "en": "magazine",
+      "pt": "a revista"
+    },
+    {
+      "en": "toy",
+      "pt": "o brinquedo"
+    },
+    {
+      "en": "ball",
+      "pt": "a bola"
+    },
+    {
+      "en": "game",
+      "pt": "o jogo"
+    },
+    {
+      "en": "gift",
+      "pt": "o presente"
+    },
+    {
+      "en": "florist",
+      "pt": "o/a florista"
+    },
+    {
+      "en": "barber",
+      "pt": "o barbeiro"
+    },
+    {
+      "en": "hairdresser",
+      "pt": "o cabeleireiro / a cabeleireira"
+    },
+    {
+      "en": "tailor",
+      "pt": "o alfaiate"
+    },
+    {
+      "en": "repairer",
+      "pt": "o técnico de reparações / a técnica de reparações"
+    },
+    {
+      "en": "main road",
+      "pt": "a estrada principal"
+    },
+    {
+      "en": "side road",
+      "pt": "a estrada secundária"
+    },
+    {
+      "en": "traffic light",
+      "pt": "o semáforo"
+    },
+    {
+      "en": "pedestrian crossing",
+      "pt": "a passadeira"
+    },
+    {
+      "en": "stop sign",
+      "pt": "o sinal de stop"
+    },
+    {
+      "en": "speed limit",
+      "pt": "o limite de velocidade"
+    },
+    {
+      "en": "parking lot",
+      "pt": "o parque de estacionamento"
+    },
+    {
+      "en": "garage",
+      "pt": "a garagem"
+    },
+    {
+      "en": "petrol / gasoline",
+      "pt": "a gasolina"
+    },
+    {
+      "en": "petrol station",
+      "pt": "a bomba de gasolina"
+    },
+    {
+      "en": "tire",
+      "pt": "o pneu"
+    },
+    {
+      "en": "engine",
+      "pt": "o motor"
+    },
+    {
+      "en": "steering wheel",
+      "pt": "o volante"
+    },
+    {
+      "en": "seat belt",
+      "pt": "o cinto de segurança"
+    },
+    {
+      "en": "train ticket",
+      "pt": "o bilhete de comboio"
+    },
+    {
+      "en": "plane ticket",
+      "pt": "o bilhete de avião"
+    },
+    {
+      "en": "boarding pass",
+      "pt": "o cartão de embarque"
+    },
+    {
+      "en": "gate number",
+      "pt": "o número da porta"
+    },
+    {
+      "en": "delay",
+      "pt": "o atraso"
+    },
+    {
+      "en": "arrival",
+      "pt": "a chegada"
+    },
+    {
+      "en": "departure",
+      "pt": "a partida"
+    },
+    {
+      "en": "customs",
+      "pt": "a alfândega"
+    },
+    {
+      "en": "passport control",
+      "pt": "o controlo de passaportes"
+    },
+    {
+      "en": "security check",
+      "pt": "o controlo de segurança"
+    },
+    {
+      "en": "room service",
+      "pt": "o serviço de quartos"
+    },
+    {
+      "en": "double room",
+      "pt": "o quarto duplo"
+    },
+    {
+      "en": "single room",
+      "pt": "o quarto individual"
+    },
+    {
+      "en": "available room",
+      "pt": "o quarto livre"
+    },
+    {
+      "en": "cleaning",
+      "pt": "a limpeza"
+    },
+    {
+      "en": "I want a towel",
+      "pt": "quero uma toalha"
+    },
+    {
+      "en": "the room is cold",
+      "pt": "o quarto está frio"
+    },
+    {
+      "en": "the room is hot",
+      "pt": "o quarto está quente"
+    },
+    {
+      "en": "the key does not work",
+      "pt": "a chave não funciona"
+    },
+    {
+      "en": "the internet does not work",
+      "pt": "a internet não funciona"
+    },
+    {
+      "en": "air conditioner",
+      "pt": "ar condicionado"
+    },
+    {
+      "en": "heating",
+      "pt": "o aquecimento"
+    },
+    {
+      "en": "hot water",
+      "pt": "a água quente"
+    },
+    {
+      "en": "cold water",
+      "pt": "a água fria"
+    }
+  ]
+}

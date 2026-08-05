@@ -1,0 +1,221 @@
+{
+  "deck": "Useful Verb Phrases",
+  "cards": [
+    {
+      "en": "I am going",
+      "pt": "eu vou"
+    },
+    {
+      "en": "you are coming",
+      "pt": "tu vens",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she is working",
+      "pt": "ele / ela está a trabalhar"
+    },
+    {
+      "en": "we are eating",
+      "pt": "nós estamos a comer"
+    },
+    {
+      "en": "are you waiting?",
+      "pt": "está à espera?",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "they are speaking",
+      "pt": "eles / elas estão a falar"
+    },
+    {
+      "en": "I do not know",
+      "pt": "não sei"
+    },
+    {
+      "en": "I want",
+      "pt": "quero"
+    },
+    {
+      "en": "I do not want",
+      "pt": "não quero"
+    },
+    {
+      "en": "I want to go",
+      "pt": "quero ir"
+    },
+    {
+      "en": "I want to eat",
+      "pt": "quero comer"
+    },
+    {
+      "en": "I want to drink water",
+      "pt": "quero beber água"
+    },
+    {
+      "en": "I want to sleep",
+      "pt": "quero dormir"
+    },
+    {
+      "en": "I want to go home",
+      "pt": "quero ir para casa"
+    },
+    {
+      "en": "I want to buy this",
+      "pt": "quero comprar isto"
+    },
+    {
+      "en": "I do not want this",
+      "pt": "não quero isto"
+    },
+    {
+      "en": "I want to help",
+      "pt": "quero ajudar"
+    },
+    {
+      "en": "can you help me?",
+      "pt": "podes ajudar-me?",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "can you help me?",
+      "pt": "pode ajudar-me?",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "I want to make a phone call",
+      "pt": "quero telefonar"
+    },
+    {
+      "en": "I want to make a reservation",
+      "pt": "quero fazer uma reserva"
+    },
+    {
+      "en": "I am learning Portuguese",
+      "pt": "estou a aprender português"
+    },
+    {
+      "en": "I speak English",
+      "pt": "falo inglês"
+    },
+    {
+      "en": "I speak Portuguese",
+      "pt": "falo português"
+    },
+    {
+      "en": "I am working today",
+      "pt": "hoje estou a trabalhar"
+    },
+    {
+      "en": "I am not working tomorrow",
+      "pt": "amanhã não trabalho"
+    },
+    {
+      "en": "I came yesterday",
+      "pt": "vim ontem"
+    },
+    {
+      "en": "I will come tomorrow",
+      "pt": "venho amanhã"
+    },
+    {
+      "en": "I am going now",
+      "pt": "vou agora"
+    },
+    {
+      "en": "I will call later",
+      "pt": "telefono mais tarde"
+    },
+    {
+      "en": "I am waiting",
+      "pt": "estou à espera"
+    },
+    {
+      "en": "I am waiting for you",
+      "pt": "estou à tua espera / estou à sua espera"
+    },
+    {
+      "en": "where are you going?",
+      "pt": "para onde vais?",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "where do you live?",
+      "pt": "onde moras?",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "what are you doing?",
+      "pt": "o que estás a fazer?",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "what do you want?",
+      "pt": "o que deseja?",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "how do I do this?",
+      "pt": "como é que faço isto?"
+    },
+    {
+      "en": "may I sit here?",
+      "pt": "posso sentar-me aqui?"
+    },
+    {
+      "en": "may I take a photo?",
+      "pt": "posso tirar uma fotografia?"
+    },
+    {
+      "en": "can you open the door?",
+      "pt": "pode abrir a porta?",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "can you close the window?",
+      "pt": "pode fechar a janela?",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "can you wait one minute?",
+      "pt": "pode esperar um minuto?",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "can you say it again?",
+      "pt": "pode dizer outra vez?",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "can you write it?",
+      "pt": "pode escrever?"
+    },
+    {
+      "en": "can you show me?",
+      "pt": "pode mostrar-me?"
+    }
+  ]
+}

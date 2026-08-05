@@ -1,0 +1,173 @@
+{
+  "deck": "Restaurant & Ordering",
+  "cards": [
+    {
+      "en": "restaurant",
+      "pt": "o restaurante"
+    },
+    {
+      "en": "café",
+      "pt": "o café"
+    },
+    {
+      "en": "menu",
+      "pt": "a ementa"
+    },
+    {
+      "en": "bill / check",
+      "pt": "a conta"
+    },
+    {
+      "en": "table",
+      "pt": "a mesa"
+    },
+    {
+      "en": "chair",
+      "pt": "a cadeira"
+    },
+    {
+      "en": "reservation",
+      "pt": "a reserva"
+    },
+    {
+      "en": "order",
+      "pt": "o pedido"
+    },
+    {
+      "en": "fork",
+      "pt": "o garfo"
+    },
+    {
+      "en": "knife",
+      "pt": "a faca"
+    },
+    {
+      "en": "spoon",
+      "pt": "a colher"
+    },
+    {
+      "en": "plate",
+      "pt": "o prato"
+    },
+    {
+      "en": "glass",
+      "pt": "o copo"
+    },
+    {
+      "en": "cup",
+      "pt": "a chávena"
+    },
+    {
+      "en": "napkin",
+      "pt": "o guardanapo"
+    },
+    {
+      "en": "bottle",
+      "pt": "a garrafa"
+    },
+    {
+      "en": "portion",
+      "pt": "a dose"
+    },
+    {
+      "en": "small portion",
+      "pt": "a meia dose"
+    },
+    {
+      "en": "large portion",
+      "pt": "a dose grande"
+    },
+    {
+      "en": "takeaway",
+      "pt": "para levar"
+    },
+    {
+      "en": "I will eat here",
+      "pt": "vou comer aqui"
+    },
+    {
+      "en": "what do you recommend?",
+      "pt": "o que recomenda?"
+    },
+    {
+      "en": "one coffee, please",
+      "pt": "um café, por favor"
+    },
+    {
+      "en": "one tea, please",
+      "pt": "um chá, por favor"
+    },
+    {
+      "en": "one water, please",
+      "pt": "uma água, por favor"
+    },
+    {
+      "en": "can I order?",
+      "pt": "posso pedir?"
+    },
+    {
+      "en": "can I have the bill?",
+      "pt": "pode trazer-me a conta?"
+    },
+    {
+      "en": "is service included?",
+      "pt": "o serviço está incluído?"
+    },
+    {
+      "en": "tip",
+      "pt": "a gorjeta"
+    },
+    {
+      "en": "without onion, please",
+      "pt": "sem cebola, por favor"
+    },
+    {
+      "en": "not spicy, please",
+      "pt": "sem picante, por favor"
+    },
+    {
+      "en": "a little spicy",
+      "pt": "um pouco picante"
+    },
+    {
+      "en": "without salt, please",
+      "pt": "sem sal, por favor"
+    },
+    {
+      "en": "without sugar, please",
+      "pt": "sem açúcar, por favor"
+    },
+    {
+      "en": "coffee with milk",
+      "pt": "o café com leite"
+    },
+    {
+      "en": "espresso",
+      "pt": "a bica / o café"
+    },
+    {
+      "en": "black coffee",
+      "pt": "o café sem leite"
+    },
+    {
+      "en": "still water",
+      "pt": "a água sem gás"
+    },
+    {
+      "en": "sparkling water",
+      "pt": "a água com gás"
+    },
+    {
+      "en": "rare",
+      "pt": "mal passado"
+    },
+    {
+      "en": "medium",
+      "pt": "médio"
+    },
+    {
+      "en": "well done",
+      "pt": "bem passado"
+    }
+  ]
+}

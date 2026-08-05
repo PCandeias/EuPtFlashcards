@@ -1,0 +1,137 @@
+{
+  "deck": "Technology & Phone",
+  "cards": [
+    {
+      "en": "smartphone",
+      "pt": "smartphone"
+    },
+    {
+      "en": "laptop",
+      "pt": "o portátil"
+    },
+    {
+      "en": "tablet",
+      "pt": "o tablet"
+    },
+    {
+      "en": "internet",
+      "pt": "a internet"
+    },
+    {
+      "en": "Wi-Fi",
+      "pt": "o Wi-Fi"
+    },
+    {
+      "en": "password",
+      "pt": "a palavra-passe"
+    },
+    {
+      "en": "username",
+      "pt": "o nome de utilizador"
+    },
+    {
+      "en": "account",
+      "pt": "a conta"
+    },
+    {
+      "en": "app",
+      "pt": "a aplicação"
+    },
+    {
+      "en": "phone call",
+      "pt": "chamada telefónica"
+    },
+    {
+      "en": "camera",
+      "pt": "a câmara"
+    },
+    {
+      "en": "photo",
+      "pt": "a fotografia"
+    },
+    {
+      "en": "video",
+      "pt": "o vídeo"
+    },
+    {
+      "en": "headphones",
+      "pt": "auscultadores"
+    },
+    {
+      "en": "speaker",
+      "pt": "a coluna"
+    },
+    {
+      "en": "microphone",
+      "pt": "microfone"
+    },
+    {
+      "en": "charge",
+      "pt": "a carga"
+    },
+    {
+      "en": "battery",
+      "pt": "a bateria"
+    },
+    {
+      "en": "key / button",
+      "pt": "a tecla / o botão"
+    },
+    {
+      "en": "folder",
+      "pt": "a pasta"
+    },
+    {
+      "en": "picture",
+      "pt": "a imagem"
+    },
+    {
+      "en": "sound / voice",
+      "pt": "o som / a voz"
+    },
+    {
+      "en": "to turn on / open",
+      "pt": "ligar / abrir"
+    },
+    {
+      "en": "to turn off / close",
+      "pt": "desligar / fechar"
+    },
+    {
+      "en": "to download",
+      "pt": "descarregar"
+    },
+    {
+      "en": "to upload",
+      "pt": "carregar"
+    },
+    {
+      "en": "to install",
+      "pt": "instalar"
+    },
+    {
+      "en": "to send",
+      "pt": "enviar"
+    },
+    {
+      "en": "to receive",
+      "pt": "receber"
+    },
+    {
+      "en": "to delete",
+      "pt": "apagar"
+    },
+    {
+      "en": "to connect",
+      "pt": "ligar / conectar"
+    },
+    {
+      "en": "it is not working",
+      "pt": "não está a funcionar"
+    },
+    {
+      "en": "broken",
+      "pt": "avariado / avariada"
+    }
+  ]
+}

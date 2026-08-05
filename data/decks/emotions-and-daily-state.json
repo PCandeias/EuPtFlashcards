@@ -1,0 +1,117 @@
+{
+  "deck": "Emotions & Daily State",
+  "cards": [
+    {
+      "en": "nervous",
+      "pt": "nervoso / nervosa"
+    },
+    {
+      "en": "excited",
+      "pt": "entusiasmado / entusiasmada"
+    },
+    {
+      "en": "scared",
+      "pt": "assustado / assustada"
+    },
+    {
+      "en": "worried",
+      "pt": "preocupado / preocupada"
+    },
+    {
+      "en": "surprised",
+      "pt": "surpreendido / surpreendida"
+    },
+    {
+      "en": "embarrassed",
+      "pt": "envergonhado / envergonhada"
+    },
+    {
+      "en": "proud",
+      "pt": "orgulhoso / orgulhosa"
+    },
+    {
+      "en": "comfortable / relaxed",
+      "pt": "confortável / relaxado"
+    },
+    {
+      "en": "peaceful",
+      "pt": "tranquilo / tranquila"
+    },
+    {
+      "en": "energetic",
+      "pt": "com energia"
+    },
+    {
+      "en": "well",
+      "pt": "bem"
+    },
+    {
+      "en": "bad",
+      "pt": "mal"
+    },
+    {
+      "en": "I am late",
+      "pt": "estou atrasado / atrasada"
+    },
+    {
+      "en": "I am in a hurry",
+      "pt": "estou com pressa"
+    },
+    {
+      "en": "I have time",
+      "pt": "tenho tempo"
+    },
+    {
+      "en": "I do not have time",
+      "pt": "não tenho tempo"
+    },
+    {
+      "en": "I am bored",
+      "pt": "estou aborrecido / aborrecida"
+    },
+    {
+      "en": "I am happy",
+      "pt": "estou feliz"
+    },
+    {
+      "en": "I am sad",
+      "pt": "estou triste"
+    },
+    {
+      "en": "I am tired",
+      "pt": "estou cansado / cansada"
+    },
+    {
+      "en": "I am sick",
+      "pt": "estou doente"
+    },
+    {
+      "en": "I am hungry",
+      "pt": "tenho fome"
+    },
+    {
+      "en": "I am full",
+      "pt": "estou cheio / cheia"
+    },
+    {
+      "en": "I am thirsty",
+      "pt": "tenho sede"
+    },
+    {
+      "en": "I am cold",
+      "pt": "tenho frio"
+    },
+    {
+      "en": "I am hot",
+      "pt": "tenho calor"
+    },
+    {
+      "en": "I am afraid",
+      "pt": "tenho medo"
+    },
+    {
+      "en": "I am glad",
+      "pt": "fico contente"
+    }
+  ]
+}

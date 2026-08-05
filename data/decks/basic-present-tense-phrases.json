@@ -1,0 +1,561 @@
+{
+  "deck": "Basic Present Tense Phrases",
+  "cards": [
+    {
+      "en": "I am going",
+      "pt": "eu estou a ir"
+    },
+    {
+      "en": "I am coming",
+      "pt": "eu estou a vir"
+    },
+    {
+      "en": "I am eating",
+      "pt": "eu estou a comer"
+    },
+    {
+      "en": "I am drinking",
+      "pt": "eu estou a beber"
+    },
+    {
+      "en": "I am reading",
+      "pt": "eu estou a ler"
+    },
+    {
+      "en": "I am writing",
+      "pt": "eu estou a escrever"
+    },
+    {
+      "en": "I am working",
+      "pt": "eu estou a trabalhar"
+    },
+    {
+      "en": "I am studying",
+      "pt": "eu estou a estudar"
+    },
+    {
+      "en": "I am waiting",
+      "pt": "eu estou a esperar"
+    },
+    {
+      "en": "I am speaking",
+      "pt": "eu estou a falar"
+    },
+    {
+      "en": "I am listening",
+      "pt": "eu estou a ouvir"
+    },
+    {
+      "en": "I am looking",
+      "pt": "eu estou a olhar"
+    },
+    {
+      "en": "I am calling",
+      "pt": "eu estou a telefonar"
+    },
+    {
+      "en": "I am buying",
+      "pt": "eu estou a comprar"
+    },
+    {
+      "en": "I am paying",
+      "pt": "eu estou a pagar"
+    },
+    {
+      "en": "I am cooking",
+      "pt": "eu estou a cozinhar"
+    },
+    {
+      "en": "you are going",
+      "pt": "tu estás a ir",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "you are coming",
+      "pt": "tu estás a vir",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "you are eating",
+      "pt": "tu estás a comer",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "you are drinking",
+      "pt": "tu estás a beber",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "you are reading",
+      "pt": "tu estás a ler",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "you are writing",
+      "pt": "tu estás a escrever",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "you are working",
+      "pt": "tu estás a trabalhar",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "you are studying",
+      "pt": "tu estás a estudar",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "you are waiting",
+      "pt": "tu estás a esperar",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "you are speaking",
+      "pt": "tu estás a falar",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "you are listening",
+      "pt": "tu estás a ouvir",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "you are looking",
+      "pt": "tu estás a olhar",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "you are calling",
+      "pt": "tu estás a telefonar",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "you are buying",
+      "pt": "tu estás a comprar",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "you are paying",
+      "pt": "tu estás a pagar",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "you are cooking",
+      "pt": "tu estás a cozinhar",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he/she is going",
+      "pt": "ele / ela está a ir"
+    },
+    {
+      "en": "he/she is coming",
+      "pt": "ele / ela está a vir"
+    },
+    {
+      "en": "he/she is eating",
+      "pt": "ele / ela está a comer"
+    },
+    {
+      "en": "he/she is drinking",
+      "pt": "ele / ela está a beber"
+    },
+    {
+      "en": "he/she is reading",
+      "pt": "ele / ela está a ler"
+    },
+    {
+      "en": "he/she is writing",
+      "pt": "ele / ela está a escrever"
+    },
+    {
+      "en": "he/she is working",
+      "pt": "ele / ela está a trabalhar"
+    },
+    {
+      "en": "he/she is studying",
+      "pt": "ele / ela está a estudar"
+    },
+    {
+      "en": "he/she is waiting",
+      "pt": "ele / ela está a esperar"
+    },
+    {
+      "en": "he/she is speaking",
+      "pt": "ele / ela está a falar"
+    },
+    {
+      "en": "he/she is listening",
+      "pt": "ele / ela está a ouvir"
+    },
+    {
+      "en": "he/she is looking",
+      "pt": "ele / ela está a olhar"
+    },
+    {
+      "en": "he/she is calling",
+      "pt": "ele / ela está a telefonar"
+    },
+    {
+      "en": "he/she is buying",
+      "pt": "ele / ela está a comprar"
+    },
+    {
+      "en": "he/she is paying",
+      "pt": "ele / ela está a pagar"
+    },
+    {
+      "en": "he/she is cooking",
+      "pt": "ele / ela está a cozinhar"
+    },
+    {
+      "en": "we are going",
+      "pt": "nós estamos a ir"
+    },
+    {
+      "en": "we are coming",
+      "pt": "nós estamos a vir"
+    },
+    {
+      "en": "we are drinking",
+      "pt": "nós estamos a beber"
+    },
+    {
+      "en": "we are reading",
+      "pt": "nós estamos a ler"
+    },
+    {
+      "en": "we are writing",
+      "pt": "nós estamos a escrever"
+    },
+    {
+      "en": "we are working",
+      "pt": "nós estamos a trabalhar"
+    },
+    {
+      "en": "we are studying",
+      "pt": "nós estamos a estudar"
+    },
+    {
+      "en": "we are waiting",
+      "pt": "nós estamos a esperar"
+    },
+    {
+      "en": "we are speaking",
+      "pt": "nós estamos a falar"
+    },
+    {
+      "en": "we are listening",
+      "pt": "nós estamos a ouvir"
+    },
+    {
+      "en": "we are looking",
+      "pt": "nós estamos a olhar"
+    },
+    {
+      "en": "we are calling",
+      "pt": "nós estamos a telefonar"
+    },
+    {
+      "en": "we are buying",
+      "pt": "nós estamos a comprar"
+    },
+    {
+      "en": "we are paying",
+      "pt": "nós estamos a pagar"
+    },
+    {
+      "en": "we are cooking",
+      "pt": "nós estamos a cozinhar"
+    },
+    {
+      "en": "you are going",
+      "pt": "vocês estão a ir",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "you are coming",
+      "pt": "vocês estão a vir",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "you are eating",
+      "pt": "vocês estão a comer",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "you are drinking",
+      "pt": "vocês estão a beber",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "you are reading",
+      "pt": "vocês estão a ler",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "you are writing",
+      "pt": "vocês estão a escrever",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "you are working",
+      "pt": "vocês estão a trabalhar",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "you are studying",
+      "pt": "vocês estão a estudar",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "you are waiting",
+      "pt": "vocês estão a esperar",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "you are speaking",
+      "pt": "vocês estão a falar",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "you are listening",
+      "pt": "vocês estão a ouvir",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "you are looking",
+      "pt": "vocês estão a olhar",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "you are calling",
+      "pt": "vocês estão a telefonar",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "you are buying",
+      "pt": "vocês estão a comprar",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "you are paying",
+      "pt": "vocês estão a pagar",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "you are cooking",
+      "pt": "vocês estão a cozinhar",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "they are going",
+      "pt": "eles / elas estão a ir"
+    },
+    {
+      "en": "they are coming",
+      "pt": "eles / elas estão a vir"
+    },
+    {
+      "en": "they are eating",
+      "pt": "eles / elas estão a comer"
+    },
+    {
+      "en": "they are drinking",
+      "pt": "eles / elas estão a beber"
+    },
+    {
+      "en": "they are reading",
+      "pt": "eles / elas estão a ler"
+    },
+    {
+      "en": "they are writing",
+      "pt": "eles / elas estão a escrever"
+    },
+    {
+      "en": "they are working",
+      "pt": "eles / elas estão a trabalhar"
+    },
+    {
+      "en": "they are studying",
+      "pt": "eles / elas estão a estudar"
+    },
+    {
+      "en": "they are waiting",
+      "pt": "eles / elas estão a esperar"
+    },
+    {
+      "en": "they are listening",
+      "pt": "eles / elas estão a ouvir"
+    },
+    {
+      "en": "they are looking",
+      "pt": "eles / elas estão a olhar"
+    },
+    {
+      "en": "they are calling",
+      "pt": "eles / elas estão a telefonar"
+    },
+    {
+      "en": "they are buying",
+      "pt": "eles / elas estão a comprar"
+    },
+    {
+      "en": "they are paying",
+      "pt": "eles / elas estão a pagar"
+    },
+    {
+      "en": "they are cooking",
+      "pt": "eles / elas estão a cozinhar"
+    },
+    {
+      "en": "I am drinking water",
+      "pt": "estou a beber água"
+    },
+    {
+      "en": "I am drinking tea",
+      "pt": "estou a beber chá"
+    },
+    {
+      "en": "I am drinking coffee",
+      "pt": "estou a beber café"
+    },
+    {
+      "en": "I am eating bread",
+      "pt": "estou a comer pão"
+    },
+    {
+      "en": "I am eating an apple",
+      "pt": "estou a comer uma maçã"
+    },
+    {
+      "en": "I am watching television",
+      "pt": "estou a ver televisão"
+    },
+    {
+      "en": "I am using a mobile phone",
+      "pt": "estou a usar o telemóvel"
+    },
+    {
+      "en": "I am writing an email",
+      "pt": "estou a escrever um e-mail"
+    },
+    {
+      "en": "I am going to school",
+      "pt": "vou para a escola"
+    },
+    {
+      "en": "I am going home",
+      "pt": "vou para casa"
+    },
+    {
+      "en": "I am going to the supermarket",
+      "pt": "vou ao supermercado"
+    },
+    {
+      "en": "I am getting on the bus",
+      "pt": "estou a entrar no autocarro"
+    },
+    {
+      "en": "I am calling a taxi",
+      "pt": "estou a chamar um táxi"
+    },
+    {
+      "en": "I am buying a ticket",
+      "pt": "estou a comprar um bilhete"
+    },
+    {
+      "en": "I am paying",
+      "pt": "estou a pagar"
+    },
+    {
+      "en": "I am calling you",
+      "pt": "estou a telefonar-te / estou a ligar-lhe"
+    },
+    {
+      "en": "I am opening the door",
+      "pt": "estou a abrir a porta"
+    },
+    {
+      "en": "I am closing the window",
+      "pt": "estou a fechar a janela"
+    },
+    {
+      "en": "I am washing my hands",
+      "pt": "estou a lavar as mãos"
+    },
+    {
+      "en": "I am brushing my teeth",
+      "pt": "estou a lavar os dentes"
+    },
+    {
+      "en": "I am taking a shower",
+      "pt": "estou a tomar duche"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "deck": "Countries & Languages",
+  "cards": [
+    {
+      "en": "Portugal",
+      "pt": "Portugal"
+    },
+    {
+      "en": "Portuguese person",
+      "pt": "o português",
+      "tags": [
+        "masc"
+      ]
+    },
+    {
+      "en": "Portuguese person",
+      "pt": "portuguesa",
+      "tags": [
+        "fem"
+      ]
+    },
+    {
+      "en": "Portuguese language",
+      "pt": "o português"
+    },
+    {
+      "en": "England",
+      "pt": "Inglaterra"
+    },
+    {
+      "en": "English person",
+      "pt": "o inglês / a inglesa"
+    },
+    {
+      "en": "English language",
+      "pt": "o inglês"
+    },
+    {
+      "en": "United States",
+      "pt": "Estados Unidos"
+    },
+    {
+      "en": "American person",
+      "pt": "o americano / a americana"
+    },
+    {
+      "en": "France",
+      "pt": "França"
+    },
+    {
+      "en": "French person",
+      "pt": "o francês / a francesa"
+    },
+    {
+      "en": "French language",
+      "pt": "o francês"
+    },
+    {
+      "en": "Spain",
+      "pt": "Espanha"
+    },
+    {
+      "en": "Spanish person",
+      "pt": "o espanhol / a espanhola"
+    },
+    {
+      "en": "Spanish language",
+      "pt": "o espanhol"
+    },
+    {
+      "en": "Italy",
+      "pt": "Itália"
+    },
+    {
+      "en": "Italian person",
+      "pt": "o italiano / a italiana"
+    },
+    {
+      "en": "Italian language",
+      "pt": "o italiano"
+    },
+    {
+      "en": "Germany",
+      "pt": "Alemanha"
+    },
+    {
+      "en": "German person",
+      "pt": "o alemão / a alemã"
+    },
+    {
+      "en": "German language",
+      "pt": "o alemão"
+    },
+    {
+      "en": "Switzerland",
+      "pt": "a Suíça"
+    },
+    {
+      "en": "Swiss person",
+      "pt": "o suíço / a suíça"
+    },
+    {
+      "en": "Brazil",
+      "pt": "Brasil"
+    },
+    {
+      "en": "Brazilian person",
+      "pt": "o brasileiro / a brasileira"
+    },
+    {
+      "en": "Greece",
+      "pt": "Grécia"
+    },
+    {
+      "en": "Greek person",
+      "pt": "o grego / a grega"
+    },
+    {
+      "en": "Netherlands",
+      "pt": "Países Baixos"
+    },
+    {
+      "en": "Dutch person",
+      "pt": "o holandês / a holandesa"
+    },
+    {
+      "en": "China",
+      "pt": "China"
+    },
+    {
+      "en": "Chinese person",
+      "pt": "o chinês / a chinesa"
+    },
+    {
+      "en": "Chinese language",
+      "pt": "o chinês"
+    },
+    {
+      "en": "Japan",
+      "pt": "Japão"
+    },
+    {
+      "en": "Japanese person",
+      "pt": "o japonês / a japonesa"
+    },
+    {
+      "en": "Japanese language",
+      "pt": "o japonês"
+    },
+    {
+      "en": "Korea",
+      "pt": "Coreia"
+    },
+    {
+      "en": "Korean person",
+      "pt": "o coreano / a coreana"
+    },
+    {
+      "en": "Russia",
+      "pt": "Rússia"
+    },
+    {
+      "en": "Russian person",
+      "pt": "o russo / a russa"
+    },
+    {
+      "en": "Russian language",
+      "pt": "o russo"
+    },
+    {
+      "en": "Turkey",
+      "pt": "Turquia"
+    },
+    {
+      "en": "Turkish person",
+      "pt": "o turco / a turca"
+    },
+    {
+      "en": "Turkish language",
+      "pt": "o turco"
+    },
+    {
+      "en": "nationality",
+      "pt": "a nacionalidade"
+    },
+    {
+      "en": "foreign",
+      "pt": "estrangeiro / estrangeira"
+    },
+    {
+      "en": "local",
+      "pt": "local"
+    }
+  ]
+}

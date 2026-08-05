@@ -1,0 +1,225 @@
+{
+  "deck": "Body & Health",
+  "cards": [
+    {
+      "en": "body",
+      "pt": "o corpo"
+    },
+    {
+      "en": "head",
+      "pt": "a cabeça"
+    },
+    {
+      "en": "hair",
+      "pt": "o cabelo"
+    },
+    {
+      "en": "face",
+      "pt": "a cara / o rosto"
+    },
+    {
+      "en": "forehead",
+      "pt": "a testa"
+    },
+    {
+      "en": "eye",
+      "pt": "o olho"
+    },
+    {
+      "en": "ear",
+      "pt": "a orelha"
+    },
+    {
+      "en": "nose",
+      "pt": "o nariz"
+    },
+    {
+      "en": "mouth",
+      "pt": "a boca"
+    },
+    {
+      "en": "tooth",
+      "pt": "o dente"
+    },
+    {
+      "en": "tongue",
+      "pt": "a língua"
+    },
+    {
+      "en": "lip",
+      "pt": "o lábio"
+    },
+    {
+      "en": "neck",
+      "pt": "o pescoço"
+    },
+    {
+      "en": "shoulder",
+      "pt": "o ombro"
+    },
+    {
+      "en": "arm",
+      "pt": "o braço"
+    },
+    {
+      "en": "elbow",
+      "pt": "o cotovelo"
+    },
+    {
+      "en": "hand",
+      "pt": "a mão"
+    },
+    {
+      "en": "finger",
+      "pt": "o dedo"
+    },
+    {
+      "en": "nail",
+      "pt": "a unha"
+    },
+    {
+      "en": "chest",
+      "pt": "o peito"
+    },
+    {
+      "en": "back",
+      "pt": "as costas"
+    },
+    {
+      "en": "stomach / belly",
+      "pt": "a barriga"
+    },
+    {
+      "en": "leg",
+      "pt": "a perna"
+    },
+    {
+      "en": "knee",
+      "pt": "o joelho"
+    },
+    {
+      "en": "foot",
+      "pt": "o pé"
+    },
+    {
+      "en": "ankle",
+      "pt": "o tornozelo"
+    },
+    {
+      "en": "heart",
+      "pt": "o coração"
+    },
+    {
+      "en": "blood",
+      "pt": "o sangue"
+    },
+    {
+      "en": "bone",
+      "pt": "o osso"
+    },
+    {
+      "en": "sick",
+      "pt": "doente"
+    },
+    {
+      "en": "healthy",
+      "pt": "saudável"
+    },
+    {
+      "en": "pain",
+      "pt": "a dor"
+    },
+    {
+      "en": "headache",
+      "pt": "a dor de cabeça"
+    },
+    {
+      "en": "stomachache",
+      "pt": "a dor de barriga"
+    },
+    {
+      "en": "toothache",
+      "pt": "a dor de dentes"
+    },
+    {
+      "en": "fever",
+      "pt": "a febre"
+    },
+    {
+      "en": "cough",
+      "pt": "a tosse"
+    },
+    {
+      "en": "sneeze",
+      "pt": "o espirro"
+    },
+    {
+      "en": "cold illness",
+      "pt": "a constipação"
+    },
+    {
+      "en": "flu",
+      "pt": "a gripe"
+    },
+    {
+      "en": "medicine",
+      "pt": "o medicamento"
+    },
+    {
+      "en": "pill",
+      "pt": "o comprimido"
+    },
+    {
+      "en": "doctor",
+      "pt": "o médico / a médica"
+    },
+    {
+      "en": "hospital",
+      "pt": "o hospital"
+    },
+    {
+      "en": "pharmacy",
+      "pt": "a farmácia"
+    },
+    {
+      "en": "prescription",
+      "pt": "a receita"
+    },
+    {
+      "en": "appointment",
+      "pt": "a consulta"
+    },
+    {
+      "en": "ambulance",
+      "pt": "a ambulância"
+    },
+    {
+      "en": "urgent",
+      "pt": "urgente"
+    },
+    {
+      "en": "injured",
+      "pt": "ferido / ferida"
+    },
+    {
+      "en": "tired",
+      "pt": "cansado / cansada"
+    },
+    {
+      "en": "sleepy",
+      "pt": "com sono"
+    },
+    {
+      "en": "my head hurts",
+      "pt": "dói-me a cabeça"
+    },
+    {
+      "en": "my stomach hurts",
+      "pt": "dói-me a barriga"
+    },
+    {
+      "en": "I have a fever",
+      "pt": "tenho febre"
+    }
+  ]
+}

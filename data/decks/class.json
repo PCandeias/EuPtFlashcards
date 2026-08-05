@@ -1,0 +1,2160 @@
+{
+  "deck": "Class",
+  "cards": [
+    {
+      "en": "good morning",
+      "pt": "bom dia"
+    },
+    {
+      "en": "good afternoon",
+      "pt": "boa tarde"
+    },
+    {
+      "en": "good evening / good night",
+      "pt": "boa noite"
+    },
+    {
+      "en": "the morning",
+      "pt": "a manhã"
+    },
+    {
+      "en": "the afternoon",
+      "pt": "a tarde"
+    },
+    {
+      "en": "the night",
+      "pt": "a noite"
+    },
+    {
+      "en": "please",
+      "pt": "por favor"
+    },
+    {
+      "en": "please / if you please",
+      "pt": "se faz favor"
+    },
+    {
+      "en": "thank you",
+      "pt": "obrigado",
+      "sense": "said by a man"
+    },
+    {
+      "en": "thank you",
+      "pt": "obrigada",
+      "sense": "said by a woman"
+    },
+    {
+      "en": "thank you very much",
+      "pt": "muito obrigado",
+      "sense": "said by a man"
+    },
+    {
+      "en": "thank you very much",
+      "pt": "muito obrigada",
+      "sense": "said by a woman"
+    },
+    {
+      "en": "you are welcome",
+      "pt": "de nada"
+    },
+    {
+      "en": "no need to thank me",
+      "pt": "não tens de quê",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "no need to thank me",
+      "pt": "não tem de quê",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "of course / sure",
+      "pt": "com certeza"
+    },
+    {
+      "en": "not at all / don't mention it",
+      "pt": "ora essa"
+    },
+    {
+      "en": "yes / no",
+      "pt": "sim / não"
+    },
+    {
+      "en": "sorry",
+      "pt": "desculpa",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "sorry",
+      "pt": "desculpe",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "to excuse",
+      "pt": "desculpar"
+    },
+    {
+      "en": "excuse me / pardon me",
+      "pt": "com licença"
+    },
+    {
+      "en": "I'm sorry / I sympathise",
+      "pt": "sinto muito"
+    },
+    {
+      "en": "I'm sorry to hear that / I regret",
+      "pt": "lamento"
+    },
+    {
+      "en": "pardon",
+      "pt": "perdão"
+    },
+    {
+      "en": "get well soon",
+      "pt": "as melhoras"
+    },
+    {
+      "en": "see you very soon",
+      "pt": "até já"
+    },
+    {
+      "en": "see you later",
+      "pt": "até logo"
+    },
+    {
+      "en": "see you tomorrow",
+      "pt": "até amanhã"
+    },
+    {
+      "en": "see you soon",
+      "pt": "até breve"
+    },
+    {
+      "en": "see you next time",
+      "pt": "até à próxima"
+    },
+    {
+      "en": "until",
+      "pt": "até"
+    },
+    {
+      "en": "see you then",
+      "pt": "até lá"
+    },
+    {
+      "en": "see you next week",
+      "pt": "até para a semana"
+    },
+    {
+      "en": "stay well / take care",
+      "pt": "fica bem"
+    },
+    {
+      "en": "kisses",
+      "pt": "beijinhos"
+    },
+    {
+      "en": "to be",
+      "pt": "ser",
+      "sense": "permanent / identity"
+    },
+    {
+      "en": "I am",
+      "pt": "eu sou",
+      "sense": "permanent / identity"
+    },
+    {
+      "en": "you are",
+      "pt": "tu és",
+      "tags": [
+        "informal"
+      ],
+      "sense": "permanent / identity"
+    },
+    {
+      "en": "he / she / you is",
+      "pt": "ele / ela / você é",
+      "tags": [
+        "formal"
+      ],
+      "sense": "permanent / identity"
+    },
+    {
+      "en": "we are",
+      "pt": "nós somos",
+      "sense": "permanent / identity"
+    },
+    {
+      "en": "they / you are",
+      "pt": "eles / elas / vocês são",
+      "tags": [
+        "plural"
+      ],
+      "sense": "permanent / identity"
+    },
+    {
+      "en": "to be",
+      "pt": "estar",
+      "sense": "temporary / location"
+    },
+    {
+      "en": "I am",
+      "pt": "eu estou",
+      "sense": "temporary / location"
+    },
+    {
+      "en": "you are",
+      "pt": "tu estás",
+      "tags": [
+        "informal"
+      ],
+      "sense": "temporary / location"
+    },
+    {
+      "en": "he / she / you is",
+      "pt": "ele / ela / você está",
+      "tags": [
+        "formal"
+      ],
+      "sense": "temporary / location"
+    },
+    {
+      "en": "we are",
+      "pt": "nós estamos",
+      "sense": "temporary / location"
+    },
+    {
+      "en": "they / you are",
+      "pt": "eles / elas / vocês estão",
+      "tags": [
+        "plural"
+      ],
+      "sense": "temporary / location"
+    },
+    {
+      "en": "to live / reside",
+      "pt": "morar"
+    },
+    {
+      "en": "I live / reside",
+      "pt": "eu moro"
+    },
+    {
+      "en": "you live / reside",
+      "pt": "tu moras",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she lives / resides",
+      "pt": "ele / ela mora"
+    },
+    {
+      "en": "we live / reside",
+      "pt": "nós moramos"
+    },
+    {
+      "en": "they live / reside",
+      "pt": "eles / elas moram"
+    },
+    {
+      "en": "to inhabit",
+      "pt": "habitar"
+    },
+    {
+      "en": "to work",
+      "pt": "trabalhar"
+    },
+    {
+      "en": "to work in the hospital",
+      "pt": "trabalhar no hospital"
+    },
+    {
+      "en": "work / job",
+      "pt": "o trabalho"
+    },
+    {
+      "en": "to travel",
+      "pt": "viajar"
+    },
+    {
+      "en": "to know / to meet",
+      "pt": "conhecer"
+    },
+    {
+      "en": "I know / I meet",
+      "pt": "eu conheço"
+    },
+    {
+      "en": "you know / you meet",
+      "pt": "tu conheces",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she knows / meets",
+      "pt": "ele / ela conhece"
+    },
+    {
+      "en": "we know / meet",
+      "pt": "nós conhecemos"
+    },
+    {
+      "en": "they know / meet",
+      "pt": "eles / elas conhecem"
+    },
+    {
+      "en": "but",
+      "pt": "mas"
+    },
+    {
+      "en": "the person",
+      "pt": "a pessoa"
+    },
+    {
+      "en": "the people",
+      "pt": "as pessoas"
+    },
+    {
+      "en": "to occupy",
+      "pt": "ocupar"
+    },
+    {
+      "en": "the time",
+      "pt": "o tempo"
+    },
+    {
+      "en": "free",
+      "pt": "livre"
+    },
+    {
+      "en": "to tighten / squeeze",
+      "pt": "apertar"
+    },
+    {
+      "en": "with",
+      "pt": "com"
+    },
+    {
+      "en": "without",
+      "pt": "sem"
+    },
+    {
+      "en": "now",
+      "pt": "agora"
+    },
+    {
+      "en": "in / at / on",
+      "pt": "no",
+      "tags": [
+        "masc",
+        "contraction"
+      ],
+      "ptTags": [
+        "contraction"
+      ]
+    },
+    {
+      "en": "in / at / on",
+      "pt": "na",
+      "tags": [
+        "fem",
+        "contraction"
+      ],
+      "ptTags": [
+        "contraction"
+      ]
+    },
+    {
+      "en": "for / to",
+      "pt": "para"
+    },
+    {
+      "en": "where",
+      "pt": "onde"
+    },
+    {
+      "en": "to study",
+      "pt": "estudar"
+    },
+    {
+      "en": "to walk",
+      "pt": "caminhar"
+    },
+    {
+      "en": "to arrive",
+      "pt": "chegar"
+    },
+    {
+      "en": "to buy",
+      "pt": "comprar"
+    },
+    {
+      "en": "to speak",
+      "pt": "falar"
+    },
+    {
+      "en": "to have dinner",
+      "pt": "jantar"
+    },
+    {
+      "en": "the school",
+      "pt": "a escola"
+    },
+    {
+      "en": "to listen",
+      "pt": "escutar"
+    },
+    {
+      "en": "to do / to make",
+      "pt": "fazer"
+    },
+    {
+      "en": "what do you want to do?",
+      "pt": "o que é que tu queres fazer?"
+    },
+    {
+      "en": "to call",
+      "pt": "chamar"
+    },
+    {
+      "en": "to be called",
+      "pt": "chamar-se"
+    },
+    {
+      "en": "to walk / to go around",
+      "pt": "andar"
+    },
+    {
+      "en": "I walk to work",
+      "pt": "eu ando para o trabalho"
+    },
+    {
+      "en": "he / she walks",
+      "pt": "ele / ela caminha"
+    },
+    {
+      "en": "free / unoccupied",
+      "pt": "livre"
+    },
+    {
+      "en": "occupied / busy",
+      "pt": "ocupado / ocupada"
+    },
+    {
+      "en": "nice / kind",
+      "pt": "simpático / simpática"
+    },
+    {
+      "en": "beautiful / pretty",
+      "pt": "bonito / bonita"
+    },
+    {
+      "en": "beautiful / lovely",
+      "pt": "lindo / linda"
+    },
+    {
+      "en": "ugly",
+      "pt": "feio / feia"
+    },
+    {
+      "en": "the student",
+      "pt": "o estudante / a estudante"
+    },
+    {
+      "en": "currently",
+      "pt": "atualmente"
+    },
+    {
+      "en": "I am hungry",
+      "pt": "tenho fome"
+    },
+    {
+      "en": "I am hungry",
+      "pt": "estou com fome"
+    },
+    {
+      "en": "closed",
+      "pt": "fechado / fechada"
+    },
+    {
+      "en": "open",
+      "pt": "aberto / aberta"
+    },
+    {
+      "en": "the café is closed",
+      "pt": "o café está fechado"
+    },
+    {
+      "en": "full",
+      "pt": "cheio / cheia"
+    },
+    {
+      "en": "the shop / store",
+      "pt": "a loja"
+    },
+    {
+      "en": "on / connected",
+      "pt": "ligado / ligada"
+    },
+    {
+      "en": "off / disconnected",
+      "pt": "desligado / desligada"
+    },
+    {
+      "en": "the computer is on",
+      "pt": "o computador está ligado"
+    },
+    {
+      "en": "rich",
+      "pt": "rico / rica"
+    },
+    {
+      "en": "poor",
+      "pt": "pobre"
+    },
+    {
+      "en": "good",
+      "pt": "bom / boa"
+    },
+    {
+      "en": "bad",
+      "pt": "mau / má"
+    },
+    {
+      "en": "ready",
+      "pt": "pronto / pronta"
+    },
+    {
+      "en": "new",
+      "pt": "novo / nova"
+    },
+    {
+      "en": "old",
+      "pt": "velho / velha"
+    },
+    {
+      "en": "small",
+      "pt": "pequeno / pequena"
+    },
+    {
+      "en": "big / large",
+      "pt": "grande"
+    },
+    {
+      "en": "hot",
+      "pt": "quente"
+    },
+    {
+      "en": "cold",
+      "pt": "frio / fria"
+    },
+    {
+      "en": "to sleep",
+      "pt": "dormir"
+    },
+    {
+      "en": "sleepiness",
+      "pt": "o sono"
+    },
+    {
+      "en": "I am sleepy",
+      "pt": "estou com sono"
+    },
+    {
+      "en": "the dream",
+      "pt": "o sonho"
+    },
+    {
+      "en": "to greet each other",
+      "pt": "cumprimentar-se"
+    },
+    {
+      "en": "the handshake",
+      "pt": "o aperto de mão"
+    },
+    {
+      "en": "tiredness",
+      "pt": "o cansaço"
+    },
+    {
+      "en": "while",
+      "pt": "enquanto"
+    },
+    {
+      "en": "to have",
+      "pt": "ter"
+    },
+    {
+      "en": "to return something",
+      "pt": "devolver"
+    },
+    {
+      "en": "to understand",
+      "pt": "compreender"
+    },
+    {
+      "en": "to think / to find",
+      "pt": "achar"
+    },
+    {
+      "en": "to take / to drink",
+      "pt": "tomar"
+    },
+    {
+      "en": "to take a shower",
+      "pt": "tomar um duche"
+    },
+    {
+      "en": "to make a decision",
+      "pt": "tomar uma decisão"
+    },
+    {
+      "en": "the lunch",
+      "pt": "o almoço"
+    },
+    {
+      "en": "the dinner",
+      "pt": "o jantar"
+    },
+    {
+      "en": "the apple",
+      "pt": "a maçã"
+    },
+    {
+      "en": "the apples",
+      "pt": "as maçãs"
+    },
+    {
+      "en": "the letter",
+      "pt": "a carta"
+    },
+    {
+      "en": "the map",
+      "pt": "o mapa"
+    },
+    {
+      "en": "the wine",
+      "pt": "o vinho"
+    },
+    {
+      "en": "the father / the mother",
+      "pt": "o pai / a mãe"
+    },
+    {
+      "en": "the house",
+      "pt": "a casa"
+    },
+    {
+      "en": "the table",
+      "pt": "a mesa"
+    },
+    {
+      "en": "the glass",
+      "pt": "o copo"
+    },
+    {
+      "en": "the room",
+      "pt": "a sala"
+    },
+    {
+      "en": "the wedding / marriage",
+      "pt": "o casamento"
+    },
+    {
+      "en": "married",
+      "pt": "casado / casada"
+    },
+    {
+      "en": "happy",
+      "pt": "feliz"
+    },
+    {
+      "en": "worried",
+      "pt": "preocupado / preocupada"
+    },
+    {
+      "en": "my son is sick",
+      "pt": "o meu filho está doente"
+    },
+    {
+      "en": "today he is better",
+      "pt": "hoje está melhor"
+    },
+    {
+      "en": "the beach",
+      "pt": "a praia"
+    },
+    {
+      "en": "the city",
+      "pt": "a cidade"
+    },
+    {
+      "en": "the foreigner",
+      "pt": "o estrangeiro / a estrangeira"
+    },
+    {
+      "en": "to pay",
+      "pt": "pagar"
+    },
+    {
+      "en": "to wait",
+      "pt": "esperar"
+    },
+    {
+      "en": "to cook",
+      "pt": "cozinhar"
+    },
+    {
+      "en": "to wash",
+      "pt": "lavar"
+    },
+    {
+      "en": "to close",
+      "pt": "fechar"
+    },
+    {
+      "en": "to open",
+      "pt": "abrir"
+    },
+    {
+      "en": "to help",
+      "pt": "ajudar"
+    },
+    {
+      "en": "to ask",
+      "pt": "perguntar"
+    },
+    {
+      "en": "the question",
+      "pt": "a pergunta"
+    },
+    {
+      "en": "to wonder / to ask oneself",
+      "pt": "perguntar-se"
+    },
+    {
+      "en": "to enter",
+      "pt": "entrar"
+    },
+    {
+      "en": "to use",
+      "pt": "usar"
+    },
+    {
+      "en": "to eat",
+      "pt": "comer"
+    },
+    {
+      "en": "to drink",
+      "pt": "beber"
+    },
+    {
+      "en": "to learn",
+      "pt": "aprender"
+    },
+    {
+      "en": "to sell",
+      "pt": "vender"
+    },
+    {
+      "en": "to run",
+      "pt": "correr"
+    },
+    {
+      "en": "to answer",
+      "pt": "responder"
+    },
+    {
+      "en": "to live",
+      "pt": "viver"
+    },
+    {
+      "en": "to receive",
+      "pt": "receber"
+    },
+    {
+      "en": "to write",
+      "pt": "escrever"
+    },
+    {
+      "en": "to read",
+      "pt": "ler"
+    },
+    {
+      "en": "to forget",
+      "pt": "esquecer"
+    },
+    {
+      "en": "to lose",
+      "pt": "perder"
+    },
+    {
+      "en": "to choose",
+      "pt": "escolher"
+    },
+    {
+      "en": "to turn on / to light",
+      "pt": "acender"
+    },
+    {
+      "en": "to turn off / to erase",
+      "pt": "apagar"
+    },
+    {
+      "en": "to hit / to knock",
+      "pt": "bater"
+    },
+    {
+      "en": "to promise",
+      "pt": "prometer"
+    },
+    {
+      "en": "after / later",
+      "pt": "depois"
+    },
+    {
+      "en": "once",
+      "pt": "uma vez"
+    },
+    {
+      "en": "twice",
+      "pt": "duas vezes"
+    },
+    {
+      "en": "many times",
+      "pt": "muitas vezes"
+    },
+    {
+      "en": "sometimes",
+      "pt": "às vezes"
+    },
+    {
+      "en": "again / another time",
+      "pt": "outra vez"
+    },
+    {
+      "en": "none",
+      "pt": "nenhum",
+      "tags": [
+        "masc"
+      ]
+    },
+    {
+      "en": "none",
+      "pt": "nenhuma",
+      "tags": [
+        "fem"
+      ]
+    },
+    {
+      "en": "better",
+      "pt": "melhor"
+    },
+    {
+      "en": "worse",
+      "pt": "pior"
+    },
+    {
+      "en": "to come",
+      "pt": "vir"
+    },
+    {
+      "en": "I come",
+      "pt": "eu venho"
+    },
+    {
+      "en": "you come",
+      "pt": "tu vens",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she comes",
+      "pt": "ele / ela vem"
+    },
+    {
+      "en": "we come",
+      "pt": "nós vimos"
+    },
+    {
+      "en": "they come",
+      "pt": "eles / elas vêm"
+    },
+    {
+      "en": "I come from Boston",
+      "pt": "venho de Boston"
+    },
+    {
+      "en": "more",
+      "pt": "mais"
+    },
+    {
+      "en": "less",
+      "pt": "menos"
+    },
+    {
+      "en": "more than five kilos",
+      "pt": "mais de cinco quilos"
+    },
+    {
+      "en": "old / new",
+      "pt": "velho / novo"
+    },
+    {
+      "en": "pretty / ugly",
+      "pt": "bonito / feio"
+    },
+    {
+      "en": "I am learning",
+      "pt": "estou a aprender"
+    },
+    {
+      "en": "to teach",
+      "pt": "ensinar"
+    },
+    {
+      "en": "all",
+      "pt": "todas",
+      "tags": [
+        "fem",
+        "plural"
+      ]
+    },
+    {
+      "en": "all",
+      "pt": "todos",
+      "tags": [
+        "masc",
+        "plural"
+      ]
+    },
+    {
+      "en": "everyone / the whole world",
+      "pt": "todo o mundo"
+    },
+    {
+      "en": "also / too",
+      "pt": "também"
+    },
+    {
+      "en": "I have",
+      "pt": "eu tenho"
+    },
+    {
+      "en": "you have",
+      "pt": "tu tens",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she has",
+      "pt": "ele / ela tem"
+    },
+    {
+      "en": "we have",
+      "pt": "nós temos"
+    },
+    {
+      "en": "they have",
+      "pt": "eles / elas têm"
+    },
+    {
+      "en": "the class / lesson",
+      "pt": "a aula"
+    },
+    {
+      "en": "the classes / lessons",
+      "pt": "as aulas"
+    },
+    {
+      "en": "neither / nor",
+      "pt": "nem"
+    },
+    {
+      "en": "to return / to come back",
+      "pt": "voltar"
+    },
+    {
+      "en": "to wake up",
+      "pt": "acordar"
+    },
+    {
+      "en": "to start / to begin",
+      "pt": "começar"
+    },
+    {
+      "en": "to do sport",
+      "pt": "fazer desporto"
+    },
+    {
+      "en": "to get used to",
+      "pt": "acostumar-se"
+    },
+    {
+      "en": "to pretend",
+      "pt": "fingir"
+    },
+    {
+      "en": "to rest",
+      "pt": "descansar"
+    },
+    {
+      "en": "tired",
+      "pt": "cansado / cansada"
+    },
+    {
+      "en": "today",
+      "pt": "hoje"
+    },
+    {
+      "en": "to return home by train",
+      "pt": "voltar para casa de comboio"
+    },
+    {
+      "en": "around ten",
+      "pt": "por volta das dez"
+    },
+    {
+      "en": "during the week",
+      "pt": "durante a semana"
+    },
+    {
+      "en": "to prefer",
+      "pt": "preferir"
+    },
+    {
+      "en": "to want",
+      "pt": "querer"
+    },
+    {
+      "en": "I want",
+      "pt": "eu quero"
+    },
+    {
+      "en": "you want",
+      "pt": "tu queres",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she wants",
+      "pt": "ele / ela quer"
+    },
+    {
+      "en": "we want",
+      "pt": "nós queremos"
+    },
+    {
+      "en": "they want",
+      "pt": "eles / elas querem"
+    },
+    {
+      "en": "to sit down",
+      "pt": "sentar-se"
+    },
+    {
+      "en": "to get up",
+      "pt": "levantar-se"
+    },
+    {
+      "en": "to take / to carry",
+      "pt": "levar"
+    },
+    {
+      "en": "to wash oneself",
+      "pt": "lavar-se"
+    },
+    {
+      "en": "to leave the house",
+      "pt": "sair de casa"
+    },
+    {
+      "en": "to comb one's hair",
+      "pt": "pentear-se"
+    },
+    {
+      "en": "I comb my hair",
+      "pt": "eu penteio-me"
+    },
+    {
+      "en": "you comb your hair",
+      "pt": "tu penteias-te",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she combs his / her hair",
+      "pt": "ele / ela penteia-se"
+    },
+    {
+      "en": "we comb our hair",
+      "pt": "nós penteamo-nos"
+    },
+    {
+      "en": "they comb their hair",
+      "pt": "eles / elas penteiam-se"
+    },
+    {
+      "en": "to get dressed",
+      "pt": "vestir-se"
+    },
+    {
+      "en": "I get dressed",
+      "pt": "eu visto-me"
+    },
+    {
+      "en": "you get dressed",
+      "pt": "tu vestes-te",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she gets dressed",
+      "pt": "ele / ela veste-se"
+    },
+    {
+      "en": "we get dressed",
+      "pt": "nós vestimo-nos"
+    },
+    {
+      "en": "they get dressed",
+      "pt": "eles / elas vestem-se"
+    },
+    {
+      "en": "to give",
+      "pt": "dar"
+    },
+    {
+      "en": "to arrive / to leave",
+      "pt": "chegar / sair"
+    },
+    {
+      "en": "to leave",
+      "pt": "partir"
+    },
+    {
+      "en": "to be able to / can",
+      "pt": "poder"
+    },
+    {
+      "en": "I can",
+      "pt": "eu posso"
+    },
+    {
+      "en": "you can",
+      "pt": "tu podes",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she can",
+      "pt": "ele / ela pode"
+    },
+    {
+      "en": "we can",
+      "pt": "nós podemos"
+    },
+    {
+      "en": "they can",
+      "pt": "eles / elas podem"
+    },
+    {
+      "en": "little / not much",
+      "pt": "pouco"
+    },
+    {
+      "en": "a lot / very much",
+      "pt": "muito"
+    },
+    {
+      "en": "the warehouse / storage room",
+      "pt": "o armazém"
+    },
+    {
+      "en": "empty",
+      "pt": "vazio / vazia"
+    },
+    {
+      "en": "to be anxious / worried",
+      "pt": "estar preocupado / preocupada"
+    },
+    {
+      "en": "to speak on the phone",
+      "pt": "falar ao telefone"
+    },
+    {
+      "en": "few people speak Portuguese",
+      "pt": "poucas pessoas falam português"
+    },
+    {
+      "en": "to attend / to frequent",
+      "pt": "frequentar"
+    },
+    {
+      "en": "the name",
+      "pt": "o nome"
+    },
+    {
+      "en": "the surname",
+      "pt": "o apelido"
+    },
+    {
+      "en": "the age",
+      "pt": "a idade"
+    },
+    {
+      "en": "Italian person",
+      "pt": "italiano / italiana"
+    },
+    {
+      "en": "Japanese person",
+      "pt": "japonês / japonesa"
+    },
+    {
+      "en": "Canadian person",
+      "pt": "canadense"
+    },
+    {
+      "en": "Turkish person",
+      "pt": "turco / turca"
+    },
+    {
+      "en": "Spanish person",
+      "pt": "espanhol / espanhola"
+    },
+    {
+      "en": "German person",
+      "pt": "alemão / alemã"
+    },
+    {
+      "en": "Swiss person",
+      "pt": "suíço / suíça"
+    },
+    {
+      "en": "Switzerland",
+      "pt": "a Suíça"
+    },
+    {
+      "en": "Portugal",
+      "pt": "Portugal"
+    },
+    {
+      "en": "Brazil",
+      "pt": "o Brasil"
+    },
+    {
+      "en": "Italy",
+      "pt": "a Itália"
+    },
+    {
+      "en": "Germany",
+      "pt": "a Alemanha"
+    },
+    {
+      "en": "France",
+      "pt": "a França"
+    },
+    {
+      "en": "United States",
+      "pt": "os Estados Unidos"
+    },
+    {
+      "en": "Egypt",
+      "pt": "o Egito"
+    },
+    {
+      "en": "Spain",
+      "pt": "a Espanha"
+    },
+    {
+      "en": "Greece",
+      "pt": "a Grécia"
+    },
+    {
+      "en": "England",
+      "pt": "a Inglaterra"
+    },
+    {
+      "en": "Canada",
+      "pt": "o Canadá"
+    },
+    {
+      "en": "Turkey",
+      "pt": "a Turquia"
+    },
+    {
+      "en": "Cuba",
+      "pt": "Cuba"
+    },
+    {
+      "en": "Israel",
+      "pt": "Israel"
+    },
+    {
+      "en": "teacher",
+      "pt": "o professor / a professora"
+    },
+    {
+      "en": "nurse",
+      "pt": "o enfermeiro / a enfermeira"
+    },
+    {
+      "en": "seller / salesperson",
+      "pt": "o vendedor / a vendedora"
+    },
+    {
+      "en": "accountant",
+      "pt": "o contador / a contadora"
+    },
+    {
+      "en": "engineer",
+      "pt": "o engenheiro / a engenheira"
+    },
+    {
+      "en": "police officer",
+      "pt": "o polícia"
+    },
+    {
+      "en": "veterinarian",
+      "pt": "o veterinário / a veterinária"
+    },
+    {
+      "en": "dentist",
+      "pt": "o dentista / a dentista"
+    },
+    {
+      "en": "doctor",
+      "pt": "o médico / a médica"
+    },
+    {
+      "en": "doctor",
+      "pt": "o doutor / a doutora"
+    },
+    {
+      "en": "driver",
+      "pt": "o chofer / a motorista"
+    },
+    {
+      "en": "painter",
+      "pt": "o pintor / a pintora"
+    },
+    {
+      "en": "hairdresser",
+      "pt": "o cabeleireiro / a cabeleireira"
+    },
+    {
+      "en": "barber",
+      "pt": "o barbeiro"
+    },
+    {
+      "en": "I",
+      "pt": "eu"
+    },
+    {
+      "en": "you",
+      "pt": "tu",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "you",
+      "pt": "você",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "he",
+      "pt": "ele"
+    },
+    {
+      "en": "she",
+      "pt": "ela"
+    },
+    {
+      "en": "we",
+      "pt": "nós"
+    },
+    {
+      "en": "you",
+      "pt": "vocês",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "they",
+      "pt": "eles",
+      "tags": [
+        "masc-mixed"
+      ]
+    },
+    {
+      "en": "they",
+      "pt": "elas",
+      "tags": [
+        "fem"
+      ]
+    },
+    {
+      "en": "you are",
+      "pt": "vocês são",
+      "tags": [
+        "plural"
+      ],
+      "sense": "permanent / identity"
+    },
+    {
+      "en": "they are",
+      "pt": "eles são",
+      "tags": [
+        "masc-mixed"
+      ],
+      "sense": "permanent / identity"
+    },
+    {
+      "en": "they are",
+      "pt": "elas são",
+      "tags": [
+        "fem"
+      ],
+      "sense": "permanent / identity"
+    },
+    {
+      "en": "he / she / you lives / resides",
+      "pt": "ele / ela / você mora",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "you live / reside",
+      "pt": "vocês moram",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "you are",
+      "pt": "vocês estão",
+      "tags": [
+        "plural"
+      ],
+      "sense": "temporary / location"
+    },
+    {
+      "en": "they are",
+      "pt": "eles / elas estão",
+      "sense": "temporary / location"
+    },
+    {
+      "en": "I am working",
+      "pt": "estou a trabalhar"
+    },
+    {
+      "en": "I am walking",
+      "pt": "estou a caminhar / andar"
+    },
+    {
+      "en": "I am talking on the phone",
+      "pt": "estou a falar com o chefe ao telemóvel"
+    },
+    {
+      "en": "I am sleeping",
+      "pt": "estou a dormir"
+    },
+    {
+      "en": "I am eating",
+      "pt": "estou a jantar"
+    },
+    {
+      "en": "I am going for a walk",
+      "pt": "estou a passear"
+    },
+    {
+      "en": "I am in France",
+      "pt": "estou em França"
+    },
+    {
+      "en": "I am in Portugal",
+      "pt": "estou em Portugal"
+    },
+    {
+      "en": "to stroll / go for a walk",
+      "pt": "passear"
+    },
+    {
+      "en": "this",
+      "pt": "este",
+      "tags": [
+        "masc"
+      ]
+    },
+    {
+      "en": "this",
+      "pt": "esta",
+      "tags": [
+        "fem"
+      ]
+    },
+    {
+      "en": "these",
+      "pt": "estes",
+      "tags": [
+        "masc-mixed"
+      ]
+    },
+    {
+      "en": "these",
+      "pt": "estas",
+      "tags": [
+        "fem"
+      ]
+    },
+    {
+      "en": "that near you",
+      "pt": "esse",
+      "tags": [
+        "masc"
+      ]
+    },
+    {
+      "en": "that near you",
+      "pt": "essa",
+      "tags": [
+        "fem"
+      ]
+    },
+    {
+      "en": "those near you",
+      "pt": "esses",
+      "tags": [
+        "masc-mixed"
+      ]
+    },
+    {
+      "en": "those near you",
+      "pt": "essas",
+      "tags": [
+        "fem"
+      ]
+    },
+    {
+      "en": "that over there",
+      "pt": "aquele",
+      "tags": [
+        "masc"
+      ]
+    },
+    {
+      "en": "that over there",
+      "pt": "aquela",
+      "tags": [
+        "fem"
+      ]
+    },
+    {
+      "en": "those over there",
+      "pt": "aqueles",
+      "tags": [
+        "masc-mixed"
+      ]
+    },
+    {
+      "en": "those over there",
+      "pt": "aquelas",
+      "tags": [
+        "fem"
+      ]
+    },
+    {
+      "en": "this cat",
+      "pt": "este gato"
+    },
+    {
+      "en": "this house",
+      "pt": "esta casa"
+    },
+    {
+      "en": "this dress",
+      "pt": "este vestido"
+    },
+    {
+      "en": "this watch",
+      "pt": "este relógio"
+    },
+    {
+      "en": "these houses",
+      "pt": "estas casas"
+    },
+    {
+      "en": "these apartments",
+      "pt": "estes apartamentos"
+    },
+    {
+      "en": "that chair near you",
+      "pt": "essa cadeira"
+    },
+    {
+      "en": "those cars near you",
+      "pt": "esses carros"
+    },
+    {
+      "en": "that dress over there",
+      "pt": "aquele vestido"
+    },
+    {
+      "en": "those stores over there",
+      "pt": "aquelas lojas"
+    },
+    {
+      "en": "I am having breakfast",
+      "pt": "estou a tomar o pequeno-almoço"
+    },
+    {
+      "en": "I am talking to my boss",
+      "pt": "estou a falar com o chefe"
+    },
+    {
+      "en": "I am cooking",
+      "pt": "estou a cozinhar"
+    },
+    {
+      "en": "I am eating dinner",
+      "pt": "estou a jantar"
+    },
+    {
+      "en": "I am taking a walk",
+      "pt": "estou a passear"
+    },
+    {
+      "en": "meat with rice",
+      "pt": "carne com arroz"
+    },
+    {
+      "en": "beef with rice",
+      "pt": "carne de boi com arroz"
+    },
+    {
+      "en": "French bread",
+      "pt": "pão francês"
+    },
+    {
+      "en": "less expensive",
+      "pt": "menos caro"
+    },
+    {
+      "en": "price / cost",
+      "pt": "o custo"
+    },
+    {
+      "en": "normally",
+      "pt": "normalmente"
+    },
+    {
+      "en": "on",
+      "pt": "em"
+    },
+    {
+      "en": "in Portugal",
+      "pt": "em Portugal"
+    },
+    {
+      "en": "in Brazil",
+      "pt": "no Brasil"
+    },
+    {
+      "en": "normal",
+      "pt": "normal"
+    },
+    {
+      "en": "to like",
+      "pt": "gostar de"
+    },
+    {
+      "en": "I like",
+      "pt": "eu gosto de"
+    },
+    {
+      "en": "I like coffee",
+      "pt": "eu gosto de café"
+    },
+    {
+      "en": "I like Portuguese coffee",
+      "pt": "eu gosto do café português"
+    },
+    {
+      "en": "I like counting",
+      "pt": "eu gosto de contar"
+    },
+    {
+      "en": "I do not like",
+      "pt": "eu não gosto de"
+    },
+    {
+      "en": "he / she does not like",
+      "pt": "ele / ela não gosta de"
+    },
+    {
+      "en": "to ask a question",
+      "pt": "fazer uma pergunta"
+    },
+    {
+      "en": "to answer a question",
+      "pt": "responder a uma pergunta"
+    },
+    {
+      "en": "I like to ask questions",
+      "pt": "eu gosto de perguntar"
+    },
+    {
+      "en": "I like to answer questions",
+      "pt": "eu gosto de responder"
+    },
+    {
+      "en": "me",
+      "pt": "me"
+    },
+    {
+      "en": "you",
+      "pt": "te",
+      "tags": [
+        "informal",
+        "object"
+      ],
+      "ptTags": [
+        "object"
+      ]
+    },
+    {
+      "en": "him / it",
+      "pt": "o",
+      "tags": [
+        "masc",
+        "object"
+      ],
+      "ptTags": [
+        "object"
+      ]
+    },
+    {
+      "en": "her / it",
+      "pt": "a",
+      "tags": [
+        "fem",
+        "object"
+      ],
+      "ptTags": [
+        "object"
+      ]
+    },
+    {
+      "en": "us",
+      "pt": "nos"
+    },
+    {
+      "en": "you",
+      "pt": "vos",
+      "tags": [
+        "plural",
+        "object"
+      ],
+      "ptTags": [
+        "object"
+      ]
+    },
+    {
+      "en": "them",
+      "pt": "os",
+      "tags": [
+        "masc-mixed",
+        "object"
+      ],
+      "ptTags": [
+        "object"
+      ]
+    },
+    {
+      "en": "them",
+      "pt": "as",
+      "tags": [
+        "fem",
+        "object"
+      ],
+      "ptTags": [
+        "object"
+      ]
+    },
+    {
+      "en": "I love you",
+      "pt": "eu amo-te"
+    },
+    {
+      "en": "I see him / it",
+      "pt": "eu vejo-o"
+    },
+    {
+      "en": "I open them",
+      "pt": "eu abro-as",
+      "tags": [
+        "fem"
+      ]
+    },
+    {
+      "en": "I help him",
+      "pt": "eu ajudo-o"
+    },
+    {
+      "en": "I help her",
+      "pt": "eu ajudo-a"
+    },
+    {
+      "en": "I ask them",
+      "pt": "eu pergunto-as",
+      "tags": [
+        "fem"
+      ]
+    },
+    {
+      "en": "I call him / it",
+      "pt": "eu chamo-o"
+    },
+    {
+      "en": "I call her",
+      "pt": "eu chamo-a"
+    },
+    {
+      "en": "I answer them",
+      "pt": "eu respondo-os",
+      "tags": [
+        "masc-mixed"
+      ]
+    },
+    {
+      "en": "I see them",
+      "pt": "eu vejo-os"
+    },
+    {
+      "en": "I answer them",
+      "pt": "eu respondo-lhes"
+    },
+    {
+      "en": "I like you",
+      "pt": "eu gosto de ti"
+    },
+    {
+      "en": "I like him",
+      "pt": "eu gosto dele"
+    },
+    {
+      "en": "I like her",
+      "pt": "eu gosto dela"
+    },
+    {
+      "en": "I like us",
+      "pt": "eu gosto de nós"
+    },
+    {
+      "en": "I like you",
+      "pt": "eu gosto de vós",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I like them",
+      "pt": "eu gosto deles",
+      "tags": [
+        "masc-mixed"
+      ]
+    },
+    {
+      "en": "I like them",
+      "pt": "eu gosto delas",
+      "tags": [
+        "fem"
+      ]
+    },
+    {
+      "en": "to go",
+      "pt": "ir"
+    },
+    {
+      "en": "I go",
+      "pt": "eu vou"
+    },
+    {
+      "en": "you go",
+      "pt": "tu vais",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she goes",
+      "pt": "ele / ela vai"
+    },
+    {
+      "en": "we go",
+      "pt": "nós vamos"
+    },
+    {
+      "en": "you go",
+      "pt": "vocês vão",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "they go",
+      "pt": "eles / elas vão"
+    },
+    {
+      "en": "I go to work by bus",
+      "pt": "vou para o trabalho de autocarro"
+    },
+    {
+      "en": "you come",
+      "pt": "vocês vêm",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "to leave / go out",
+      "pt": "sair"
+    },
+    {
+      "en": "I leave / go out",
+      "pt": "eu saio"
+    },
+    {
+      "en": "you leave / go out",
+      "pt": "tu sais",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she leaves / goes out",
+      "pt": "ele / ela sai"
+    },
+    {
+      "en": "we leave / go out",
+      "pt": "nós saímos"
+    },
+    {
+      "en": "you leave / go out",
+      "pt": "vocês saem",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "they leave / go out",
+      "pt": "eles / elas saem"
+    },
+    {
+      "en": "I sit down",
+      "pt": "eu sento-me"
+    },
+    {
+      "en": "you sit down",
+      "pt": "tu sentas-te",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she sits down",
+      "pt": "ele / ela senta-se"
+    },
+    {
+      "en": "we sit down",
+      "pt": "nós sentamo-nos"
+    },
+    {
+      "en": "you sit down",
+      "pt": "vocês sentam-se",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "they sit down",
+      "pt": "eles / elas sentam-se"
+    },
+    {
+      "en": "you can",
+      "pt": "vocês podem",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "can I speak Portuguese?",
+      "pt": "posso falar português?"
+    },
+    {
+      "en": "to ask for / to order",
+      "pt": "pedir"
+    },
+    {
+      "en": "I ask for / order",
+      "pt": "eu peço"
+    },
+    {
+      "en": "you ask for / order",
+      "pt": "tu pedes",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she asks for / orders",
+      "pt": "ele / ela pede"
+    },
+    {
+      "en": "we ask for / order",
+      "pt": "nós pedimos"
+    },
+    {
+      "en": "you ask for / order",
+      "pt": "vocês pedem",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "they ask for / order",
+      "pt": "eles / elas pedem"
+    },
+    {
+      "en": "Portuguese people are born in Portugal",
+      "pt": "os portugueses nascem em Portugal"
+    },
+    {
+      "en": "Brazilian people are born in Brazil",
+      "pt": "os brasileiros nascem no Brasil"
+    },
+    {
+      "en": "in",
+      "pt": "em"
+    },
+    {
+      "en": "from / of",
+      "pt": "de"
+    },
+    {
+      "en": "still / yet",
+      "pt": "ainda"
+    },
+    {
+      "en": "to / for",
+      "pt": "para"
+    },
+    {
+      "en": "because",
+      "pt": "porque"
+    },
+    {
+      "en": "for what / why",
+      "pt": "para quê"
+    },
+    {
+      "en": "where to",
+      "pt": "para onde"
+    },
+    {
+      "en": "where from",
+      "pt": "de onde"
+    },
+    {
+      "en": "in which",
+      "pt": "no qual"
+    },
+    {
+      "en": "in which",
+      "pt": "na qual",
+      "tags": [
+        "fem"
+      ]
+    },
+    {
+      "en": "between",
+      "pt": "entre"
+    },
+    {
+      "en": "from",
+      "pt": "de"
+    },
+    {
+      "en": "from here",
+      "pt": "daqui"
+    },
+    {
+      "en": "from there",
+      "pt": "dali"
+    },
+    {
+      "en": "from there near you",
+      "pt": "daí"
+    },
+    {
+      "en": "from there",
+      "pt": "dela",
+      "tags": [
+        "fem"
+      ]
+    },
+    {
+      "en": "from there",
+      "pt": "dele",
+      "tags": [
+        "masc"
+      ]
+    },
+    {
+      "en": "from there",
+      "pt": "delas",
+      "tags": [
+        "fem",
+        "plural"
+      ]
+    },
+    {
+      "en": "from there",
+      "pt": "deles",
+      "tags": [
+        "masc-mixed",
+        "plural"
+      ]
+    },
+    {
+      "en": "from the",
+      "pt": "do / da / dos / das"
+    },
+    {
+      "en": "in the",
+      "pt": "no / na / nos / nas"
+    }
+  ]
+}

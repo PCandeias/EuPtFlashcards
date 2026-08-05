@@ -1,0 +1,238 @@
+{
+  "deck": "Greetings & Polite Expressions",
+  "cards": [
+    {
+      "en": "hello",
+      "pt": "olá"
+    },
+    {
+      "en": "hi",
+      "pt": "olá"
+    },
+    {
+      "en": "good morning",
+      "pt": "bom dia"
+    },
+    {
+      "en": "good afternoon",
+      "pt": "boa tarde"
+    },
+    {
+      "en": "good evening / good night",
+      "pt": "boa noite"
+    },
+    {
+      "en": "goodbye",
+      "pt": "adeus"
+    },
+    {
+      "en": "bye",
+      "pt": "xau"
+    },
+    {
+      "en": "see you later",
+      "pt": "até logo"
+    },
+    {
+      "en": "see you tomorrow",
+      "pt": "até amanhã"
+    },
+    {
+      "en": "see you soon",
+      "pt": "até breve"
+    },
+    {
+      "en": "thank you",
+      "pt": "obrigado",
+      "sense": "said by a man"
+    },
+    {
+      "en": "thank you",
+      "pt": "obrigada",
+      "sense": "said by a woman"
+    },
+    {
+      "en": "thanks",
+      "pt": "obrigado / obrigada"
+    },
+    {
+      "en": "thank you very much",
+      "pt": "muito obrigado / muito obrigada"
+    },
+    {
+      "en": "you are welcome",
+      "pt": "de nada"
+    },
+    {
+      "en": "please",
+      "pt": "por favor"
+    },
+    {
+      "en": "yes",
+      "pt": "sim"
+    },
+    {
+      "en": "no",
+      "pt": "não"
+    },
+    {
+      "en": "okay",
+      "pt": "está bem"
+    },
+    {
+      "en": "fine / okay",
+      "pt": "bem"
+    },
+    {
+      "en": "of course",
+      "pt": "claro"
+    },
+    {
+      "en": "excuse me",
+      "pt": "com licença"
+    },
+    {
+      "en": "sorry",
+      "pt": "desculpe"
+    },
+    {
+      "en": "I am sorry",
+      "pt": "peço desculpa"
+    },
+    {
+      "en": "welcome",
+      "pt": "bem-vindo"
+    },
+    {
+      "en": "welcome",
+      "pt": "bem-vinda",
+      "sense": "said to a woman"
+    },
+    {
+      "en": "nice to meet you",
+      "pt": "muito prazer"
+    },
+    {
+      "en": "pleased to meet you",
+      "pt": "prazer em conhecê-lo / conhecê-la"
+    },
+    {
+      "en": "how are you?",
+      "pt": "como estás?",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "how are you?",
+      "pt": "como está?",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "I am fine",
+      "pt": "estou bem"
+    },
+    {
+      "en": "I am very well",
+      "pt": "estou muito bem"
+    },
+    {
+      "en": "not bad",
+      "pt": "nada mal"
+    },
+    {
+      "en": "so-so",
+      "pt": "mais ou menos"
+    },
+    {
+      "en": "and you?",
+      "pt": "e tu?",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "and you?",
+      "pt": "e o senhor? / e a senhora?",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "what is your name?",
+      "pt": "como te chamas?",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "what is your name?",
+      "pt": "como se chama?",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "my name is Pedro",
+      "pt": "chamo-me Pedro"
+    },
+    {
+      "en": "get well soon",
+      "pt": "as melhoras"
+    },
+    {
+      "en": "enjoy your meal",
+      "pt": "bom apetite"
+    },
+    {
+      "en": "good luck",
+      "pt": "boa sorte"
+    },
+    {
+      "en": "congratulations",
+      "pt": "parabéns"
+    },
+    {
+      "en": "happy birthday",
+      "pt": "feliz aniversário"
+    },
+    {
+      "en": "merry Christmas",
+      "pt": "feliz Natal"
+    },
+    {
+      "en": "happy New Year",
+      "pt": "feliz Ano Novo"
+    },
+    {
+      "en": "cheers",
+      "pt": "saúde"
+    },
+    {
+      "en": "have a good trip",
+      "pt": "boa viagem"
+    },
+    {
+      "en": "take care",
+      "pt": "cuida-te"
+    },
+    {
+      "en": "no problem",
+      "pt": "sem problema"
+    },
+    {
+      "en": "it does not matter",
+      "pt": "não faz mal"
+    },
+    {
+      "en": "one moment",
+      "pt": "um momento"
+    },
+    {
+      "en": "just a second",
+      "pt": "só um segundo"
+    }
+  ]
+}
