@@ -14,7 +14,8 @@ const LEGACY_DECK = 'pt_standalone_deck'
 const LEGACY_DIRECTION = 'pt_standalone_direction'
 const LEGACY_DELAY = 'pt_standalone_delay'
 const V3_PROGRESS = 'eupt:v3:progress'
-const V3_MIGRATED = 'eupt:v3:migrated'
+const V4_PROGRESS = 'eupt:v4:progress'
+const V4_MIGRATED = 'eupt:v4:migrated'
 
 test('carries progress across from the original single-file app', async ({ page }) => {
   await page.goto('./')
@@ -37,21 +38,24 @@ test('carries progress across from the original single-file app', async ({ page 
   await page.reload()
   await expect(page.locator('.card')).toBeVisible()
 
-  const migrated = await page.evaluate(k => JSON.parse(localStorage.getItem(k) ?? '{}'), V3_PROGRESS)
+  const migrated = await page.evaluate(k => JSON.parse(localStorage.getItem(k) ?? '{}'), V4_PROGRESS)
 
-  // v1 id, rewritten to the current scheme.
-  expect(migrated['Class::you come::vocês vêm']).toEqual({ knownCount: 3, nextDue: 1 })
-  expect(migrated['Pronouns & Basic Words::friend::o amigo']).toEqual({ knownCount: 6, nextDue: 2 })
-  // v2 id, carried through untouched.
+  // Legacy id, rewritten to the current scheme. Scheduling starts fresh, but the
+  // due date is preserved so nothing floods back at once.
+  expect(migrated['Class::you come::vocês vêm'])
+    .toMatchObject({ reps: 0, interval: 0, ease: 2.5, due: 1, reviews: 3 })
+  expect(migrated['Pronouns & Basic Words::friend::o amigo'])
+    .toMatchObject({ due: 2, reviews: 6 })
+  // Current id, carried through.
   expect(migrated['Greetings & Polite Expressions::hello::olá'])
-    .toEqual({ knownCount: 9, nextDue: null })
+    .toMatchObject({ due: null, reviews: 9 })
   // Unmatched entries are dropped rather than attached to the wrong card.
   expect(Object.keys(migrated)).toHaveLength(3)
 
-  await expect(page.locator('#knownCount')).toHaveText('3')
+  // Nothing is "learned" yet in SM-2 terms — the old count measured taps, not recall.
+  await expect(page.locator('#learnedCount')).toHaveText('0')
   await expect(page.locator('#deckSelect')).toHaveValue('Numbers')
   await expect(page.locator('#directionSelect')).toHaveValue('b-a')
-  await expect(page.locator('#delaySelect')).toHaveValue('7')
 
   // The original data is left in place as a backstop.
   const legacyStillThere = await page.evaluate(k => localStorage.getItem(k), LEGACY_PROGRESS)
@@ -68,15 +72,35 @@ test('runs only once and does not re-migrate over newer progress', async ({ page
   }, [LEGACY_PROGRESS])
 
   await page.reload()
-  await expect(page.locator('#knownCount')).toHaveText('1')
-  const stamp = await page.evaluate(k => localStorage.getItem(k), V3_MIGRATED)
+  const stamp = await page.evaluate(k => localStorage.getItem(k), V4_MIGRATED)
   expect(stamp).toBeTruthy()
+  const first = await page.evaluate(k => localStorage.getItem(k), V4_PROGRESS)
+  expect(JSON.parse(first ?? '{}')['Greetings & Polite Expressions::hello::olá'].reviews).toBe(9)
 
-  // Reset everything, reload, and the migration must not resurrect the old data.
-  await page.click('#resetBtn')
-  await page.evaluate(k => localStorage.setItem(k, '{}'), V3_PROGRESS)
+  // Wipe the migrated data and reload: the migration must not resurrect it.
+  await page.evaluate(k => localStorage.setItem(k, '{}'), V4_PROGRESS)
   await page.reload()
-  await expect(page.locator('#knownCount')).toHaveText('0')
+  const second = await page.evaluate(k => localStorage.getItem(k), V4_PROGRESS)
+  expect(JSON.parse(second ?? '{}')).toEqual({})
+})
+
+test('upgrades progress written by the previous fixed-delay version', async ({ page }) => {
+  await page.goto('./')
+  await page.evaluate(([v3]) => {
+    localStorage.clear()
+    localStorage.setItem(v3!, JSON.stringify({
+      'Greetings & Polite Expressions::hello::olá': { knownCount: 4, nextDue: 999 },
+    }))
+  }, [V3_PROGRESS])
+
+  await page.reload()
+  await expect(page.locator('.card')).toBeVisible()
+  const migrated = await page.evaluate(k => JSON.parse(localStorage.getItem(k) ?? '{}'), V4_PROGRESS)
+  expect(migrated['Greetings & Polite Expressions::hello::olá'])
+    .toMatchObject({ reps: 0, ease: 2.5, due: 999, reviews: 4 })
+  // The v3 record is left where it is, as a backstop.
+  const v3Still = await page.evaluate(k => localStorage.getItem(k), V3_PROGRESS)
+  expect(v3Still).toContain('knownCount')
 })
 
 test('leaves unreadable legacy data alone rather than destroying it', async ({ page }) => {
@@ -89,7 +113,7 @@ test('leaves unreadable legacy data alone rather than destroying it', async ({ p
   await page.reload()
   // The app still starts.
   await expect(page.locator('.card')).toBeVisible()
-  await expect(page.locator('#knownCount')).toHaveText('0')
+  await expect(page.locator('#learnedCount')).toHaveText('0')
   // And the damaged original is still recoverable by hand.
   const legacy = await page.evaluate(k => localStorage.getItem(k), LEGACY_PROGRESS)
   expect(legacy).toBe('{ this was corrupted somehow')
@@ -101,9 +125,9 @@ test('exports a backup that can be imported back', async ({ page }) => {
   await page.reload()
 
   await page.selectOption('#deckSelect', 'Numbers')
-  await page.click('#knownBtn')
-  await page.click('#knownBtn')
-  await expect(page.locator('#knownCount')).toHaveText('2')
+  await page.click('#goodBtn')
+  await page.click('#goodBtn')
+  await expect(page.locator('#learnedCount')).toHaveText('2')
 
   const download = await Promise.all([
     page.waitForEvent('download'),
@@ -121,12 +145,12 @@ test('exports a backup that can be imported back', async ({ page }) => {
   // Wipe, then restore from the file.
   await page.evaluate(() => localStorage.clear())
   await page.reload()
-  await expect(page.locator('#knownCount')).toHaveText('0')
+  await expect(page.locator('#learnedCount')).toHaveText('0')
 
   await page.setInputFiles('input[type=file]', {
     name: 'backup.json',
     mimeType: 'application/json',
     buffer: Buffer.from(JSON.stringify(backup)),
   })
-  await expect(page.locator('#knownCount')).toHaveText('2')
+  await expect(page.locator('#learnedCount')).toHaveText('2')
 })

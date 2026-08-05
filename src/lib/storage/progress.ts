@@ -8,7 +8,8 @@
  * Reads are defensive: anything unparseable falls back to a default and the
  * stored value is left alone so it stays recoverable.
  */
-import type { Progress, CardProgress } from '../study/scheduler.js'
+import type { Progress } from '../study/scheduler.js'
+import type { ReviewState } from '../study/sm2.js'
 
 export interface StorageLike {
   getItem(key: string): string | null
@@ -24,10 +25,16 @@ export const LEGACY_KEYS = {
   delay: 'pt_standalone_delay',
 } as const
 
-export const KEYS = {
+/** The fixed-delay schema, superseded by SM-2. Read during migration only. */
+export const V3_KEYS = {
   progress: 'eupt:v3:progress',
-  settings: 'eupt:v3:settings',
   migrated: 'eupt:v3:migrated',
+} as const
+
+export const KEYS = {
+  progress: 'eupt:v4:progress',
+  settings: 'eupt:v4:settings',
+  migrated: 'eupt:v4:migrated',
 } as const
 
 export type Direction = 'a-b' | 'b-a'
@@ -35,12 +42,9 @@ export type Direction = 'a-b' | 'b-a'
 export interface Settings {
   deck: string
   direction: Direction
-  delayDays: number
 }
 
-export const DELAY_OPTIONS = [1, 3, 7, 14, 30] as const
-
-export const DEFAULT_SETTINGS: Settings = { deck: 'All', direction: 'a-b', delayDays: 3 }
+export const DEFAULT_SETTINGS: Settings = { deck: 'All', direction: 'a-b' }
 
 function readJson(storage: StorageLike, key: string): unknown {
   const raw = storage.getItem(key)
@@ -53,18 +57,31 @@ function readJson(storage: StorageLike, key: string): unknown {
   }
 }
 
-function isCardProgress(value: unknown): value is CardProgress {
+function isReviewState(value: unknown): value is ReviewState {
   if (typeof value !== 'object' || value === null) return false
   const v = value as Record<string, unknown>
-  return typeof v.knownCount === 'number'
-    && (v.nextDue === null || typeof v.nextDue === 'number')
+  return typeof v.ease === 'number'
+    && typeof v.interval === 'number'
+    && typeof v.reps === 'number'
+    && typeof v.lapses === 'number'
+    && typeof v.reviews === 'number'
+    && (v.due === null || typeof v.due === 'number')
 }
 
 export function sanitizeProgress(value: unknown): Progress {
   if (typeof value !== 'object' || value === null) return {}
   const out: Progress = {}
   for (const [id, entry] of Object.entries(value as Record<string, unknown>)) {
-    if (isCardProgress(entry)) out[id] = { knownCount: entry.knownCount, nextDue: entry.nextDue }
+    if (isReviewState(entry)) {
+      out[id] = {
+        ease: entry.ease,
+        interval: entry.interval,
+        reps: entry.reps,
+        lapses: entry.lapses,
+        due: entry.due,
+        reviews: entry.reviews,
+      }
+    }
   }
   return out
 }
@@ -80,13 +97,11 @@ export function saveProgress(storage: StorageLike, progress: Progress): void {
 export function sanitizeSettings(value: unknown): Settings {
   if (typeof value !== 'object' || value === null) return { ...DEFAULT_SETTINGS }
   const v = value as Record<string, unknown>
-  const delay = typeof v.delayDays === 'number' && (DELAY_OPTIONS as readonly number[]).includes(v.delayDays)
-    ? v.delayDays
-    : DEFAULT_SETTINGS.delayDays
   return {
     deck: typeof v.deck === 'string' && v.deck ? v.deck : DEFAULT_SETTINGS.deck,
-    direction: v.direction === 'a-b' || v.direction === 'b-a' ? v.direction : DEFAULT_SETTINGS.direction,
-    delayDays: delay,
+    direction: v.direction === 'a-b' || v.direction === 'b-a'
+      ? v.direction
+      : DEFAULT_SETTINGS.direction,
   }
 }
 

@@ -1,73 +1,93 @@
 import { describe, it, expect } from 'vitest'
-import {
-  isDue, dueCards, markKnown, markAgain, knownCount, DAY_MS, type Progress,
-} from '../src/lib/study/scheduler.js'
+import { dueCards, gradeCard, stateFor, stats, type Progress } from '../src/lib/study/scheduler.js'
+import { newState, DAY_MS } from '../src/lib/study/sm2.js'
 import { shuffle, wrapIndex, orderKey } from '../src/lib/study/order.js'
 import type { Card } from '../src/lib/cards/schema.js'
 
 const NOW = 1_700_000_000_000
+const noFuzz = () => 0.5
 const a: Card = { deck: 'D', en: 'a', pt: 'aa' }
 const b: Card = { deck: 'D', en: 'b', pt: 'bb' }
 
-describe('isDue', () => {
-  it('treats an unseen card as due', () => {
-    expect(isDue({}, a, NOW)).toBe(true)
+describe('stateFor', () => {
+  it('gives an unseen card a fresh state', () => {
+    expect(stateFor({}, a)).toEqual(newState())
   })
 
-  it('treats a card with no deferral as due', () => {
-    expect(isDue({ 'D::a::aa': { knownCount: 2, nextDue: null } }, a, NOW)).toBe(true)
-  })
-
-  it('defers a card whose time has not come', () => {
-    expect(isDue({ 'D::a::aa': { knownCount: 1, nextDue: NOW + 1 } }, a, NOW)).toBe(false)
-  })
-
-  it('releases a card exactly at its due moment', () => {
-    expect(isDue({ 'D::a::aa': { knownCount: 1, nextDue: NOW } }, a, NOW)).toBe(true)
-  })
-})
-
-describe('markKnown', () => {
-  it('defers by the requested number of days', () => {
-    const next = markKnown({}, a, 3, NOW)
-    expect(next['D::a::aa']).toEqual({ knownCount: 1, nextDue: NOW + 3 * DAY_MS })
-  })
-
-  it('accumulates the success count', () => {
-    let p: Progress = {}
-    p = markKnown(p, a, 1, NOW)
-    p = markKnown(p, a, 1, NOW)
-    expect(p['D::a::aa']!.knownCount).toBe(2)
-  })
-
-  it('does not mutate the input', () => {
-    const before: Progress = {}
-    markKnown(before, a, 3, NOW)
-    expect(before).toEqual({})
-  })
-})
-
-describe('markAgain', () => {
-  it('clears the deferral but keeps the success count', () => {
-    const p = markAgain(markKnown({}, a, 30, NOW), a)
-    expect(p['D::a::aa']).toEqual({ knownCount: 1, nextDue: null })
-    expect(isDue(p, a, NOW)).toBe(true)
+  it('returns the stored state when there is one', () => {
+    const stored = { ...newState(), reps: 2 }
+    expect(stateFor({ 'D::a::aa': stored }, a)).toBe(stored)
   })
 })
 
 describe('dueCards', () => {
-  it('filters out only the deferred ones', () => {
-    const p = markKnown({}, a, 5, NOW)
+  it('includes every unseen card', () => {
+    expect(dueCards({}, [a, b], NOW)).toEqual([a, b])
+  })
+
+  it('excludes a card scheduled for later', () => {
+    const p = gradeCard({}, a, 'good', NOW, noFuzz)
     expect(dueCards(p, [a, b], NOW)).toEqual([b])
-    expect(dueCards(p, [a, b], NOW + 6 * DAY_MS)).toEqual([a, b])
+  })
+
+  it('brings it back once the interval has elapsed', () => {
+    const p = gradeCard({}, a, 'good', NOW, noFuzz)
+    expect(dueCards(p, [a, b], NOW + DAY_MS)).toEqual([a, b])
+  })
+
+  // A lapsed card should reappear in the same session, not tomorrow.
+  it('returns a lapsed card almost immediately', () => {
+    const p = gradeCard({}, a, 'again', NOW, noFuzz)
+    expect(dueCards(p, [a], NOW)).toEqual([])
+    expect(dueCards(p, [a], NOW + 60_000)).toEqual([a])
   })
 })
 
-describe('knownCount', () => {
-  it('counts cards answered correctly at least once', () => {
-    let p: Progress = markKnown({}, a, 1, NOW)
-    p = markAgain(p, b)
-    expect(knownCount(p)).toBe(1)
+describe('gradeCard', () => {
+  it('records a rating against the right card', () => {
+    const p = gradeCard({}, a, 'good', NOW, noFuzz)
+    expect(p['D::a::aa']!.reps).toBe(1)
+    expect(p['D::b::bb']).toBeUndefined()
+  })
+
+  it('does not mutate the input', () => {
+    const before: Progress = {}
+    gradeCard(before, a, 'good', NOW, noFuzz)
+    expect(before).toEqual({})
+  })
+
+  it('accumulates across reviews', () => {
+    let p = gradeCard({}, a, 'good', NOW, noFuzz)
+    p = gradeCard(p, a, 'good', NOW, noFuzz)
+    expect(p['D::a::aa']!.interval).toBe(6)
+    expect(p['D::a::aa']!.reviews).toBe(2)
+  })
+})
+
+describe('stats', () => {
+  it('counts a card as learned once it has been answered correctly', () => {
+    const p = gradeCard({}, a, 'good', NOW, noFuzz)
+    expect(stats(p).learned).toBe(1)
+  })
+
+  it('does not count a lapsed card as learned', () => {
+    let p = gradeCard({}, a, 'good', NOW, noFuzz)
+    p = gradeCard(p, a, 'again', NOW, noFuzz)
+    expect(stats(p).learned).toBe(0)
+  })
+
+  it('counts a card as mature past three weeks', () => {
+    const young: Progress = { x: { ...newState(), interval: 20, reps: 3 } }
+    const old: Progress = { x: { ...newState(), interval: 21, reps: 3 } }
+    expect(stats(young).mature).toBe(0)
+    expect(stats(old).mature).toBe(1)
+  })
+
+  it('totals every review ever made', () => {
+    let p = gradeCard({}, a, 'good', NOW, noFuzz)
+    p = gradeCard(p, a, 'again', NOW, noFuzz)
+    p = gradeCard(p, b, 'good', NOW, noFuzz)
+    expect(stats(p).reviews).toBe(3)
   })
 })
 

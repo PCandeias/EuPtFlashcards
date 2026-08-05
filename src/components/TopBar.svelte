@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { DELAY_OPTIONS, type Direction, type Settings } from '../lib/storage/progress.js'
+  import type { Direction, Settings } from '../lib/storage/progress.js'
 
   let {
     settings, deckOptions, onchange, onshuffle, onreset,
@@ -34,17 +34,6 @@
     <option value="b-a">Portuguese · Portugal → English</option>
   </select>
 
-  <select
-    id="delaySelect"
-    aria-label="Known-card delay"
-    value={String(settings.delayDays)}
-    onchange={(e) => onchange({ delayDays: Number(e.currentTarget.value) })}
-  >
-    {#each DELAY_OPTIONS as days (days)}
-      <option value={String(days)}>Delay: {days} day{days === 1 ? '' : 's'}</option>
-    {/each}
-  </select>
-
   <button id="shuffleBtn" onclick={onshuffle}>Shuffle</button>
   <button id="resetBtn" onclick={onreset}>Reset deck</button>
 </section>
@@ -52,7 +41,7 @@
 <style>
   .topbar {
     display: grid;
-    grid-template-columns: minmax(180px, 1fr) minmax(160px, 220px) minmax(160px, 220px) auto auto;
+    grid-template-columns: minmax(180px, 1fr) minmax(180px, 260px) auto auto;
     gap: 8px;
     align-items: center;
   }

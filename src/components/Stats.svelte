@@ -1,17 +1,22 @@
 <script lang="ts">
-  let { total, due, known }: { total: number; due: number; known: number } = $props()
+  let {
+    total, due, learned, mature,
+  }: { total: number; due: number; learned: number; mature: number } = $props()
 </script>
 
 <div class="stats">
   <div class="stat"><b id="totalCount">{total}</b><span>Total</span></div>
   <div class="stat"><b id="dueCount">{due}</b><span>Due</span></div>
-  <div class="stat"><b id="knownCount">{known}</b><span>Known</span></div>
+  <div class="stat"><b id="learnedCount">{learned}</b><span>Learned</span></div>
+  <div class="stat" title="Cards with an interval of three weeks or more">
+    <b id="matureCount">{mature}</b><span>Mature</span>
+  </div>
 </div>
 
 <style>
   .stats { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
   .stat {
-    min-width: 86px;
+    min-width: 78px;
     padding: 10px 12px;
     background: rgba(17, 24, 39, 0.72);
     border: 1px solid var(--border);

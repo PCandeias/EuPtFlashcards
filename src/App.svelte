@@ -1,5 +1,5 @@
 <script lang="ts">
-  import '../src/styles/tokens.css'
+  import './styles/tokens.css'
   import TopBar from './components/TopBar.svelte'
   import CardView from './components/Card.svelte'
   import Controls from './components/Controls.svelte'
@@ -8,11 +8,14 @@
   import UpdatePrompt from './components/UpdatePrompt.svelte'
 
   import { CARDS, deckCounts } from './lib/cards/index.js'
-  import { cardId, type Card } from './lib/cards/schema.js'
+  import { cardId } from './lib/cards/schema.js'
+  import { dueCards, gradeCard, stateFor, stats, type Progress } from './lib/study/scheduler.js'
+  import type { Rating } from './lib/study/sm2.js'
+  import { shuffle } from './lib/study/order.js'
   import {
-    dueCards, markKnown, markAgain, knownCount, type Progress,
-  } from './lib/study/scheduler.js'
-  import { shuffle, orderKey, wrapIndex } from './lib/study/order.js'
+    startSession, currentCard, move as moveSession, completeCurrent,
+    type Session,
+  } from './lib/study/session.js'
   import {
     loadProgress, saveProgress, loadSettings, saveSettings, type Settings,
   } from './lib/storage/progress.js'
@@ -23,9 +26,8 @@
 
   let progress = $state<Progress>(loadProgress(localStorage))
   let settings = $state<Settings>(loadSettings(localStorage))
-  let index = $state(0)
   let flipped = $state(false)
-  let shuffleNonce = $state(0)
+  let now = $state(Date.now())
 
   const counts = deckCounts()
   const deckOptions: Array<[string, number]> = [
@@ -33,31 +35,36 @@
     ...[...counts.entries()].sort((a, b) => a[0].localeCompare(b[0])),
   ]
 
-  let now = $state(Date.now())
-
   let deckCards = $derived(
     settings.deck === 'All' ? [...CARDS] : CARDS.filter(c => c.deck === settings.deck),
   )
   let due = $derived(dueCards(progress, deckCards, now))
 
-  // When nothing is due the whole deck comes back, so the app is never a dead end.
-  let pool = $derived(due.length ? due : deckCards)
+  // The queue is built once per sitting and then mutated deliberately. Deriving it
+  // from `due` would reshuffle the deck on every answer, since answering is what
+  // changes what is due.
+  let session = $state<Session>({ cards: [], index: 0 })
 
-  // Reshuffles only when the pool identity changes or Shuffle is pressed — paging
-  // back and forth must not reorder the deck under you.
-  let orderedKey = $derived(`${orderKey(settings.deck, due.length === 0, pool)}::${shuffleNonce}`)
-  let ordered = $state<Card[]>([])
-  let lastKey = ''
+  function newSession() {
+    // When nothing is due the whole deck comes back, so the app is never a dead end.
+    const pool = dueCards(progress, deckCards, Date.now())
+    session = startSession(shuffle(pool.length ? pool : deckCards))
+    flipped = false
+  }
 
+  // Rebuild only when the deck selection changes, never in response to grading.
+  let selectedDeck = $derived(settings.deck)
+  let lastDeck: string | null = null
   $effect(() => {
-    if (orderedKey !== lastKey) {
-      lastKey = orderedKey
-      ordered = shuffle(pool)
-      index = 0
+    if (selectedDeck !== lastDeck) {
+      lastDeck = selectedDeck
+      newSession()
     }
   })
 
-  let current = $derived(ordered.length ? ordered[wrapIndex(index, ordered.length)] : undefined)
+  let current = $derived(currentCard(session))
+  let currentState = $derived(current ? stateFor(progress, current) : undefined)
+  let summary = $derived(stats(progress))
 
   function persist() {
     saveProgress(localStorage, progress)
@@ -65,27 +72,21 @@
   }
 
   function move(delta: number) {
-    if (!ordered.length) return
-    index = wrapIndex(index + delta, ordered.length)
+    session = moveSession(session, delta)
     flipped = false
   }
 
   function flip() { flipped = !flipped }
 
-  function known() {
+  function rate(rating: Rating) {
     if (!current) return
-    progress = markKnown(progress, current, settings.delayDays, Date.now())
+    progress = gradeCard(progress, current, rating, Date.now())
     now = Date.now()
     persist()
-    move(1)
-  }
-
-  function again() {
-    if (!current) return
-    progress = markAgain(progress, current)
-    now = Date.now()
-    persist()
-    move(1)
+    // A failed card returns later this sitting rather than tomorrow.
+    session = completeCurrent(session, rating === 'again')
+    flipped = false
+    if (!session.cards.length) newSession()
   }
 
   function changeSettings(next: Partial<Settings>) {
@@ -100,20 +101,24 @@
     for (const [id, entry] of Object.entries(progress)) if (!ids.has(id)) next[id] = entry
     progress = next
     now = Date.now()
-    flipped = false
-    shuffleNonce++
     persist()
+    newSession()
+  }
+
+  const RATING_KEYS: Record<string, Rating> = {
+    '1': 'again', '2': 'hard', '3': 'good', '4': 'easy',
   }
 
   function onKeydown(event: KeyboardEvent) {
     const tag = (event.target as HTMLElement | null)?.tagName
     if (tag && ['SELECT', 'INPUT', 'BUTTON'].includes(tag)) return
-    const key = event.key.toLowerCase()
+
+    const rating = RATING_KEYS[event.key]
+    if (rating) { rate(rating); return }
+
     if (event.code === 'Space') { event.preventDefault(); flip() }
-    else if (event.key === 'ArrowRight' || key === 'n') move(1)
+    else if (event.key === 'ArrowRight') move(1)
     else if (event.key === 'ArrowLeft') move(-1)
-    else if (key === 'k') known()
-    else if (key === 'r') again()
   }
 </script>
 
@@ -124,18 +129,23 @@
     <div>
       <h1>European Portuguese Flashcards</h1>
       <p class="sub">
-        {CARDS.length} cards across {deckOptions.length - 1} decks, including a Class deck
-        from your Portuguese course notes. Works offline.
+        {CARDS.length} cards across {deckOptions.length - 1} decks, scheduled by spaced
+        repetition. Works offline.
       </p>
     </div>
-    <Stats total={CARDS.length} due={due.length} known={knownCount(progress)} />
+    <Stats
+      total={CARDS.length}
+      due={due.length}
+      learned={summary.learned}
+      mature={summary.mature}
+    />
   </header>
 
   <TopBar
     {settings}
     {deckOptions}
     onchange={changeSettings}
-    onshuffle={() => { shuffleNonce++; flipped = false }}
+    onshuffle={newSession}
     onreset={resetDeck}
   />
 
@@ -143,7 +153,7 @@
     <div class="meta">
       <span class="deckname">{current?.deck ?? ''}</span>
       <span id="progressText">
-        {ordered.length ? `Card ${wrapIndex(index, ordered.length) + 1} / ${ordered.length}` : ''}
+        {session.cards.length ? `Card ${session.index + 1} / ${session.cards.length}` : ''}
         · {due.length} due
       </span>
     </div>
@@ -160,13 +170,15 @@
       <div class="empty">No cards in this deck.</div>
     {/if}
 
-    <Controls
-      onprev={() => move(-1)}
-      onflip={flip}
-      onnext={() => move(1)}
-      onagain={again}
-      onknown={known}
-    />
+    {#if currentState}
+      <Controls
+        state={currentState}
+        onprev={() => move(-1)}
+        onflip={flip}
+        onnext={() => move(1)}
+        onrate={rate}
+      />
+    {/if}
   </main>
 
   <BackupBar

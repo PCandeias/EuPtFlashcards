@@ -109,49 +109,131 @@ test('keyboard shortcuts drive the deck', async ({ page }) => {
   await expect(page.locator('#progressText')).toContainText('Card 1 /')
 })
 
+test('number keys grade the card', async ({ page }) => {
+  await page.goto('./')
+  await page.selectOption('#deckSelect', 'Numbers')
+  await page.keyboard.press('3')            // good
+  await expect(page.locator('#learnedCount')).toHaveText('1')
+  await page.keyboard.press('1')            // again
+  await expect(page.locator('#learnedCount')).toHaveText('1')
+})
+
 test('tapping the card flips it', async ({ page }) => {
   await page.goto('./')
   await page.locator('.card').click({ position: { x: 40, y: 40 } })
   await expect(page.locator('.card')).toHaveClass(/flipped/)
 })
 
-test('marking known defers the card and persists across a reload', async ({ page }) => {
+test('rating a card defers it and persists across a reload', async ({ page }) => {
   await page.goto('./')
   await page.selectOption('#deckSelect', 'Numbers')
   const dueBefore = Number(await page.locator('#dueCount').textContent())
 
-  await page.click('#knownBtn')
+  await page.click('#goodBtn')
   await expect(page.locator('#dueCount')).toHaveText(String(dueBefore - 1))
-  await expect(page.locator('#knownCount')).toHaveText('1')
+  await expect(page.locator('#learnedCount')).toHaveText('1')
 
   await page.reload()
-  await expect(page.locator('#knownCount')).toHaveText('1')
+  await expect(page.locator('#learnedCount')).toHaveText('1')
   await expect(page.locator('#dueCount')).toHaveText(String(dueBefore - 1))
+})
+
+test('the rating buttons show what each answer will cost', async ({ page }) => {
+  await page.goto('./')
+  await page.selectOption('#deckSelect', 'Numbers')
+
+  // A brand new card: again returns it immediately, easy skips the learning steps.
+  await expect(page.locator('#againBtn .interval')).toHaveText('<1m')
+  await expect(page.locator('#goodBtn .interval')).toHaveText('1d')
+  await expect(page.locator('#easyBtn .interval')).toHaveText('4d')
+})
+
+test('the preview reflects the card, not a fixed schedule', async ({ page }) => {
+  await page.goto('./')
+  // Seed one card as already graduated, so its preview must differ from a new one.
+  await page.evaluate(() => {
+    localStorage.setItem('eupt:v4:progress', JSON.stringify({
+      'Numbers::zero::zero': {
+        ease: 2.5, interval: 6, reps: 2, lapses: 0, due: 0, reviews: 2,
+      },
+    }))
+  })
+  await page.reload()
+  await page.selectOption('#deckSelect', 'Numbers')
+
+  const found = await page.evaluate(async () => {
+    for (let i = 0; i < 200; i++) {
+      if (document.querySelector('.face.front .word')?.textContent?.trim().startsWith('zero')) {
+        return true
+      }
+      ;(document.getElementById('nextBtn') as HTMLButtonElement).click()
+      await new Promise(r => requestAnimationFrame(r))
+    }
+    return false
+  })
+  expect(found).toBe(true)
+  // 6 days x ease 2.5 = 15, versus 1d for an unseen card.
+  await expect(page.locator('#goodBtn .interval')).toHaveText('15d')
+})
+
+test('again requeues the card into the same session', async ({ page }) => {
+  await page.goto('./')
+  await page.selectOption('#deckSelect', 'Numbers')
+  const queueBefore = await page.locator('#progressText').textContent()
+  const size = Number(queueBefore!.match(/\/\s*(\d+)/)![1])
+
+  const word = (await page.locator('.face.front .word').textContent())!.trim()
+  await page.click('#againBtn')
+
+  // The queue keeps its length: a failed card comes back this sitting.
+  await expect(page.locator('#progressText')).toContainText(`/ ${size}`)
+  await expect(page.locator('#learnedCount')).toHaveText('0')
+
+  // And it really is still in there, a few cards further on.
+  const returns = await page.evaluate(async (w) => {
+    for (let i = 0; i < 20; i++) {
+      if (document.querySelector('.face.front .word')?.textContent?.trim() === w) return i
+      ;(document.getElementById('nextBtn') as HTMLButtonElement).click()
+      await new Promise(r => requestAnimationFrame(r))
+    }
+    return -1
+  }, word)
+  expect(returns).toBeGreaterThan(0)
+})
+
+test('grading does not reshuffle the deck under you', async ({ page }) => {
+  await page.goto('./')
+  await page.selectOption('#deckSelect', 'Numbers')
+
+  // Note the card after this one, grade the current card, and it should be next.
+  await page.click('#nextBtn')
+  const second = (await page.locator('.face.front .word').textContent())!.trim()
+  await page.click('#prevBtn')
+  await page.click('#goodBtn')
+  await expect(page.locator('.face.front .word')).toHaveText(second)
 })
 
 test('reset clears progress for the selected deck only', async ({ page }) => {
   await page.goto('./')
   await page.selectOption('#deckSelect', 'Numbers')
-  await page.click('#knownBtn')
-  await expect(page.locator('#knownCount')).toHaveText('1')
+  await page.click('#goodBtn')
+  await expect(page.locator('#learnedCount')).toHaveText('1')
 
   await page.selectOption('#deckSelect', 'Class')
-  await page.click('#knownBtn')
-  await expect(page.locator('#knownCount')).toHaveText('2')
+  await page.click('#goodBtn')
+  await expect(page.locator('#learnedCount')).toHaveText('2')
 
   await page.click('#resetBtn')
   // Only the Class card is cleared; the Numbers one survives.
-  await expect(page.locator('#knownCount')).toHaveText('1')
+  await expect(page.locator('#learnedCount')).toHaveText('1')
 })
 
 test('settings survive a reload', async ({ page }) => {
   await page.goto('./')
   await page.selectOption('#directionSelect', 'b-a')
-  await page.selectOption('#delaySelect', '14')
   await page.selectOption('#deckSelect', 'Numbers')
   await page.reload()
   await expect(page.locator('#directionSelect')).toHaveValue('b-a')
-  await expect(page.locator('#delaySelect')).toHaveValue('14')
   await expect(page.locator('#deckSelect')).toHaveValue('Numbers')
 })
 

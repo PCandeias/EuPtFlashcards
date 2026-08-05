@@ -1,10 +1,11 @@
 import { describe, it, expect, beforeEach } from 'vitest'
 import {
-  LEGACY_KEYS, KEYS, loadProgress, saveProgress, loadSettings, saveSettings,
+  LEGACY_KEYS, V3_KEYS, KEYS, loadProgress, saveProgress, loadSettings, saveSettings,
   DEFAULT_SETTINGS, type StorageLike,
 } from '../src/lib/storage/progress.js'
-import { migrateLegacy, runMigration } from '../src/lib/storage/migrate.js'
-import { buildBackup, parseBackup } from '../src/lib/storage/backup.js'
+import { remapIds, seedFromFixedDelay, runMigration } from '../src/lib/storage/migrate.js'
+import { buildBackup, parseBackup, mergeProgress } from '../src/lib/storage/backup.js'
+import { newState } from '../src/lib/study/sm2.js'
 import type { Card } from '../src/lib/cards/schema.js'
 import type { Progress } from '../src/lib/study/scheduler.js'
 
@@ -22,7 +23,6 @@ const CARDS: Card[] = [
   { deck: 'Class', en: 'you come', pt: 'tu vens', tags: ['informal'] },
   { deck: 'Class', en: 'friend', pt: 'o amigo', tags: ['masc'] },
   { deck: 'Greetings', en: 'hello', pt: 'olá' },
-  // Two cards sharing deck+pt — the ambiguous case.
   { deck: 'Class', en: 'they', pt: 'eles', tags: ['masc-mixed'] },
   { deck: 'Class', en: 'they masculine', pt: 'eles' },
 ]
@@ -30,36 +30,34 @@ const CARDS: Card[] = [
 let store: FakeStorage
 beforeEach(() => { store = new FakeStorage() })
 
-describe('migrateLegacy', () => {
-  it('remaps a v1 id whose English still contained metadata', () => {
-    const r = migrateLegacy(
-      { 'Class::you plural come::vocês vêm': { knownCount: 3, nextDue: 1 } }, CARDS)
+describe('remapIds', () => {
+  it('rewrites an id whose English still contained metadata', () => {
+    const r = remapIds({ 'Class::you plural come::vocês vêm': { knownCount: 3, nextDue: 1 } }, CARDS)
     expect(r.progress['Class::you come::vocês vêm']).toEqual({ knownCount: 3, nextDue: 1 })
     expect(r.migrated).toBe(1)
   })
 
-  it('carries a v2 id through untouched', () => {
-    const r = migrateLegacy({ 'Greetings::hello::olá': { knownCount: 9, nextDue: null } }, CARDS)
-    expect(r.progress['Greetings::hello::olá']!.knownCount).toBe(9)
+  it('carries a current id through untouched', () => {
+    const r = remapIds({ 'Greetings::hello::olá': { knownCount: 9, nextDue: null } }, CARDS)
     expect(r.carried).toBe(1)
     expect(r.migrated).toBe(0)
   })
 
   it('drops a key matching no card rather than inventing one', () => {
-    const r = migrateLegacy({ 'Class::ghost::não existe': { knownCount: 5, nextDue: 1 } }, CARDS)
+    const r = remapIds({ 'Class::ghost::não existe': { knownCount: 5, nextDue: 1 } }, CARDS)
     expect(r.progress).toEqual({})
     expect(r.dropped).toBe(1)
   })
 
   // Guessing here would silently attach study history to the wrong card.
   it('skips an ambiguous deck+pt pair instead of guessing', () => {
-    const r = migrateLegacy({ 'Class::they whatever::eles': { knownCount: 4, nextDue: 1 } }, CARDS)
+    const r = remapIds({ 'Class::they whatever::eles': { knownCount: 4, nextDue: 1 } }, CARDS)
     expect(r.progress).toEqual({})
     expect(r.ambiguous).toBe(1)
   })
 
   it('does not let a remapped id clobber an existing one', () => {
-    const r = migrateLegacy({
+    const r = remapIds({
       'Class::you come::vocês vêm': { knownCount: 10, nextDue: 99 },
       'Class::you plural come::vocês vêm': { knownCount: 1, nextDue: 1 },
     }, CARDS)
@@ -67,20 +65,61 @@ describe('migrateLegacy', () => {
   })
 
   it('ignores entries that are not shaped like progress', () => {
-    const r = migrateLegacy({ 'Greetings::hello::olá': 'nonsense' as unknown }, CARDS)
+    const r = remapIds({ 'Greetings::hello::olá': 'nonsense' as unknown }, CARDS)
     expect(r.progress).toEqual({})
     expect(r.dropped).toBe(1)
   })
 })
 
+describe('seedFromFixedDelay', () => {
+  // knownCount counted taps on a button, not retention, so it cannot honestly
+  // become an interval. Scheduling starts fresh.
+  it('starts every card fresh in SM-2 terms', () => {
+    const seeded = seedFromFixedDelay({ 'a': { knownCount: 7, nextDue: 123 } })
+    expect(seeded['a']!.reps).toBe(0)
+    expect(seeded['a']!.interval).toBe(0)
+    expect(seeded['a']!.ease).toBe(2.5)
+  })
+
+  it('preserves the due date so nothing floods back at once', () => {
+    expect(seedFromFixedDelay({ 'a': { knownCount: 1, nextDue: 123 } })['a']!.due).toBe(123)
+    expect(seedFromFixedDelay({ 'a': { knownCount: 1, nextDue: null } })['a']!.due).toBeNull()
+  })
+
+  it('keeps the review count for statistics', () => {
+    expect(seedFromFixedDelay({ 'a': { knownCount: 7, nextDue: null } })['a']!.reviews).toBe(7)
+  })
+})
+
 describe('runMigration', () => {
-  it('migrates legacy progress into the v3 key', () => {
+  it('migrates legacy progress into SM-2 state', () => {
     store.setItem(LEGACY_KEYS.progress, JSON.stringify({
       'Class::you plural come::vocês vêm': { knownCount: 3, nextDue: 1 },
     }))
     const result = runMigration(store, CARDS)
     expect(result?.migrated).toBe(1)
-    expect(loadProgress(store)['Class::you come::vocês vêm']!.knownCount).toBe(3)
+    const migrated = loadProgress(store)['Class::you come::vocês vêm']
+    expect(migrated).toMatchObject({ reps: 0, ease: 2.5, due: 1, reviews: 3 })
+  })
+
+  it('migrates v3 progress into SM-2 state', () => {
+    store.setItem(V3_KEYS.progress, JSON.stringify({
+      'Greetings::hello::olá': { knownCount: 9, nextDue: 42 },
+    }))
+    const result = runMigration(store, CARDS)
+    expect(result?.carried).toBe(1)
+    expect(loadProgress(store)['Greetings::hello::olá']).toMatchObject({ due: 42, reviews: 9 })
+  })
+
+  it('prefers v3 over legacy when both exist', () => {
+    store.setItem(LEGACY_KEYS.progress, JSON.stringify({
+      'Greetings::hello::olá': { knownCount: 1, nextDue: 1 },
+    }))
+    store.setItem(V3_KEYS.progress, JSON.stringify({
+      'Greetings::hello::olá': { knownCount: 99, nextDue: 2 },
+    }))
+    runMigration(store, CARDS)
+    expect(loadProgress(store)['Greetings::hello::olá']!.reviews).toBe(99)
   })
 
   it('runs only once', () => {
@@ -101,17 +140,16 @@ describe('runMigration', () => {
     expect(store.getItem(KEYS.progress)).toBe(first)
   })
 
-  // Losing months of study history to a parse error would be unforgivable, so
-  // the unreadable original is never overwritten.
-  it('preserves unreadable legacy data instead of destroying it', () => {
+  // Losing months of study history to a parse error would be unforgivable.
+  it('preserves unreadable data instead of destroying it', () => {
     store.setItem(LEGACY_KEYS.progress, '{ this is not json')
     const result = runMigration(store, CARDS)
-    expect(result?.dropped).toBe(0)
     expect(result?.failed).toBe(true)
     expect(store.getItem(LEGACY_KEYS.progress)).toBe('{ this is not json')
+    expect(store.getItem(KEYS.progress)).toBeNull()
   })
 
-  it('leaves the legacy key intact after a successful migration', () => {
+  it('leaves the earlier keys intact after a successful migration', () => {
     const raw = JSON.stringify({ 'Greetings::hello::olá': { knownCount: 9, nextDue: null } })
     store.setItem(LEGACY_KEYS.progress, raw)
     runMigration(store, CARDS)
@@ -121,13 +159,13 @@ describe('runMigration', () => {
   it('carries legacy settings across', () => {
     store.setItem(LEGACY_KEYS.deck, 'Class')
     store.setItem(LEGACY_KEYS.direction, 'b-a')
-    store.setItem(LEGACY_KEYS.delay, '7')
     runMigration(store, CARDS)
-    expect(loadSettings(store)).toEqual({ deck: 'Class', direction: 'b-a', delayDays: 7 })
+    expect(loadSettings(store)).toEqual({ deck: 'Class', direction: 'b-a' })
   })
 
-  it('does nothing when there is no legacy data', () => {
+  it('stamps the flag even with nothing to migrate, so it never reruns', () => {
     expect(runMigration(store, CARDS)).toBeNull()
+    expect(store.getItem(KEYS.migrated)).toBeTruthy()
   })
 })
 
@@ -142,8 +180,13 @@ describe('loadProgress', () => {
     expect(store.getItem(KEYS.progress)).toBe('not json')
   })
 
+  it('rejects entries that are not review states', () => {
+    store.setItem(KEYS.progress, JSON.stringify({ a: { knownCount: 2, nextDue: 1 } }))
+    expect(loadProgress(store)).toEqual({})
+  })
+
   it('round-trips through save', () => {
-    const p: Progress = { 'D::a::b': { knownCount: 2, nextDue: 123 } }
+    const p: Progress = { 'D::a::b': { ...newState(), interval: 6, reps: 2, reviews: 3 } }
     saveProgress(store, p)
     expect(loadProgress(store)).toEqual(p)
   })
@@ -154,23 +197,23 @@ describe('settings', () => {
     expect(loadSettings(store)).toEqual(DEFAULT_SETTINGS)
   })
 
-  it('rejects an out-of-range delay rather than trusting it', () => {
-    saveSettings(store, { deck: 'All', direction: 'a-b', delayDays: 9999 })
-    expect(loadSettings(store).delayDays).toBe(DEFAULT_SETTINGS.delayDays)
+  it('rejects an unknown direction', () => {
+    store.setItem(KEYS.settings, JSON.stringify({ deck: 'All', direction: 'sideways' }))
+    expect(loadSettings(store).direction).toBe(DEFAULT_SETTINGS.direction)
   })
 
-  it('rejects an unknown direction', () => {
-    store.setItem(KEYS.settings, JSON.stringify({ deck: 'All', direction: 'sideways', delayDays: 3 }))
-    expect(loadSettings(store).direction).toBe(DEFAULT_SETTINGS.direction)
+  it('round-trips', () => {
+    saveSettings(store, { deck: 'Numbers', direction: 'b-a' })
+    expect(loadSettings(store)).toEqual({ deck: 'Numbers', direction: 'b-a' })
   })
 })
 
 describe('backup', () => {
-  const progress: Progress = { 'D::a::b': { knownCount: 2, nextDue: 123 } }
-  const settings = { deck: 'Class', direction: 'b-a' as const, delayDays: 7 }
+  const progress: Progress = { 'D::a::b': { ...newState(), interval: 6, reps: 2, reviews: 4 } }
+  const settings = { deck: 'Class', direction: 'b-a' as const }
 
   it('round-trips', () => {
-    const file = buildBackup(progress, settings, '2026-08-05T00:00:00.000Z')
+    const file = buildBackup(progress, settings, '2026-08-06T00:00:00.000Z')
     const parsed = parseBackup(JSON.stringify(file))
     expect(parsed.progress).toEqual(progress)
     expect(parsed.settings).toEqual(settings)
@@ -186,7 +229,20 @@ describe('backup', () => {
   })
 
   it('rejects progress entries of the wrong shape', () => {
-    const bad = { app: 'eu-pt-flashcards', version: 1, exportedAt: 'x', progress: { k: 5 } }
+    const bad = { app: 'eu-pt-flashcards', version: 2, exportedAt: 'x', progress: { k: 5 } }
     expect(() => parseBackup(JSON.stringify(bad))).toThrow(/progress/i)
+  })
+})
+
+describe('mergeProgress', () => {
+  it('keeps whichever record shows more review history', () => {
+    const current: Progress = { a: { ...newState(), reviews: 1 } }
+    const incoming: Progress = { a: { ...newState(), reviews: 5 } }
+    expect(mergeProgress(current, incoming)['a']!.reviews).toBe(5)
+    expect(mergeProgress(incoming, current)['a']!.reviews).toBe(5)
+  })
+
+  it('adds cards the current record has never seen', () => {
+    expect(Object.keys(mergeProgress({}, { a: newState() }))).toEqual(['a'])
   })
 })

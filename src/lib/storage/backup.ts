@@ -13,7 +13,7 @@ import { sanitizeProgress, sanitizeSettings, type Settings } from './progress.js
 import type { Progress } from '../study/scheduler.js'
 
 export const BACKUP_APP = 'eu-pt-flashcards'
-export const BACKUP_VERSION = 1
+export const BACKUP_VERSION = 2
 
 export interface BackupFile {
   app: typeof BACKUP_APP
@@ -74,12 +74,12 @@ export function parseBackup(text: string): BackupFile {
   }
 }
 
-/** Import is additive: the better record of a card wins, so a restore never loses ground. */
+/** Import is additive: the better-established record wins, so a restore never loses ground. */
 export function mergeProgress(current: Progress, incoming: Progress): Progress {
   const out: Progress = { ...current }
   for (const [id, entry] of Object.entries(incoming)) {
     const existing = out[id]
-    if (!existing || entry.knownCount > existing.knownCount) out[id] = entry
+    if (!existing || entry.reviews > existing.reviews) out[id] = entry
   }
   return out
 }

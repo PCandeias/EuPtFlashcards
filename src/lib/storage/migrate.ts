@@ -1,25 +1,35 @@
 /**
- * One-time migration from the single-file app.
+ * Migration from earlier versions of this app.
  *
- * Two earlier id schemes exist on this origin:
+ * Three schemas exist on this origin:
  *
- *   v1  `deck::<English with metadata words>::pt`   e.g. "Class::you plural come::vocês vêm"
- *   v2  `deck::<English>::pt`                       e.g. "Class::you come::vocês vêm"
+ *   legacy  ids `deck::<English with metadata words>::pt`, progress {knownCount, nextDue}
+ *   v3      ids `deck::<English>::pt`,                     progress {knownCount, nextDue}
+ *   v4      same ids,                                      progress = SM-2 ReviewState
  *
- * v2 ids are already correct. v1 ids are remapped by `deck::pt`, which the badge
- * work left untouched. localStorage is scoped per origin rather than per path, so
- * the app at /EuPtFlashcards/ can read what the loose HTML file wrote.
+ * The steps chain and each is independently flagged, so a user arriving from any
+ * version lands in the same place. localStorage is scoped per origin rather than
+ * per path, so the app at /EuPtFlashcards/ can read what the loose HTML file wrote.
  *
- * Where the mapping is not certain, the entry is dropped rather than guessed —
+ * Where a mapping is not certain the entry is dropped rather than guessed —
  * attaching study history to the wrong card is worse than losing one card's.
  */
 import { cardId, type Card } from '../cards/schema.js'
-import { sanitizeProgress, LEGACY_KEYS, KEYS, saveProgress, saveSettings, sanitizeSettings, type StorageLike } from './progress.js'
+import { newState, type ReviewState } from '../study/sm2.js'
+import {
+  LEGACY_KEYS, V3_KEYS, KEYS, saveProgress, saveSettings, sanitizeSettings,
+  type StorageLike,
+} from './progress.js'
 import type { Progress } from '../study/scheduler.js'
 
+/** The shape both legacy and v3 stored. */
+interface FixedDelayEntry {
+  knownCount: number
+  nextDue: number | null
+}
+
 export interface MigrationResult {
-  progress: Progress
-  /** Entries whose id was rewritten from a v1 id. */
+  /** Entries whose id was rewritten from a legacy id. */
   migrated: number
   /** Entries already using the current id scheme. */
   carried: number
@@ -27,11 +37,31 @@ export interface MigrationResult {
   dropped: number
   /** Entries whose deck+pt pair matched more than one card, so were left alone. */
   ambiguous: number
-  /** True when the legacy value could not be parsed and was left untouched. */
+  /** True when stored data could not be parsed and was left untouched. */
   failed: boolean
 }
 
-export function migrateLegacy(raw: unknown, cards: readonly Card[]): MigrationResult {
+function isFixedDelayEntry(value: unknown): value is FixedDelayEntry {
+  if (typeof value !== 'object' || value === null) return false
+  const v = value as Record<string, unknown>
+  return typeof v.knownCount === 'number'
+    && (v.nextDue === null || typeof v.nextDue === 'number')
+}
+
+function sanitizeFixedDelay(value: unknown): Record<string, FixedDelayEntry> {
+  if (typeof value !== 'object' || value === null) return {}
+  const out: Record<string, FixedDelayEntry> = {}
+  for (const [id, entry] of Object.entries(value as Record<string, unknown>)) {
+    if (isFixedDelayEntry(entry)) out[id] = { knownCount: entry.knownCount, nextDue: entry.nextDue }
+  }
+  return out
+}
+
+/** Rewrites legacy ids onto current cards. Shape is unchanged. */
+export function remapIds(
+  raw: unknown,
+  cards: readonly Card[],
+): { progress: Record<string, FixedDelayEntry> } & Omit<MigrationResult, 'failed'> {
   const live = new Set(cards.map(cardId))
 
   // deck::pt -> id, or null when more than one card shares the pair.
@@ -41,78 +71,109 @@ export function migrateLegacy(raw: unknown, cards: readonly Card[]): MigrationRe
     byDeckPt.set(key, byDeckPt.has(key) ? null : cardId(card))
   }
 
-  const result: MigrationResult = {
-    progress: {}, migrated: 0, carried: 0, dropped: 0, ambiguous: 0, failed: false,
-  }
+  const progress: Record<string, FixedDelayEntry> = {}
+  let migrated = 0
+  let carried = 0
+  let dropped = 0
+  let ambiguous = 0
 
-  const entries = sanitizeProgress(raw)
+  const entries = sanitizeFixedDelay(raw)
   const total = typeof raw === 'object' && raw !== null ? Object.keys(raw).length : 0
-  // Entries dropped by sanitizeProgress were malformed, not merely unmatched.
-  result.dropped += total - Object.keys(entries).length
+  // Entries dropped by the sanitizer were malformed, not merely unmatched.
+  dropped += total - Object.keys(entries).length
 
   for (const [id, value] of Object.entries(entries)) {
     if (live.has(id)) {
-      result.progress[id] = value
-      result.carried++
+      progress[id] = value
+      carried++
       continue
     }
 
     const parts = id.split('::')
-    if (parts.length < 3) { result.dropped++; continue }
+    if (parts.length < 3) { dropped++; continue }
 
     const target = byDeckPt.get(`${parts[0]}::${parts[parts.length - 1]}`)
-    if (target === undefined) { result.dropped++; continue }
-    if (target === null) { result.ambiguous++; continue }
+    if (target === undefined) { dropped++; continue }
+    if (target === null) { ambiguous++; continue }
     // Never let a remapped entry overwrite one that already arrived correctly.
-    if (result.progress[target]) { result.dropped++; continue }
+    if (progress[target]) { dropped++; continue }
 
-    result.progress[target] = value
-    result.migrated++
+    progress[target] = value
+    migrated++
   }
 
-  return result
+  return { progress, migrated, carried, dropped, ambiguous }
 }
 
 /**
- * Runs the migration once. Returns null when there is nothing to do, so the
- * caller can tell "migrated" from "already current".
+ * Seeds SM-2 state from fixed-delay progress.
  *
- * The legacy keys are never cleared — they are the backstop if this goes wrong.
+ * Scheduling starts fresh — the old `knownCount` said how many times a card was
+ * marked known, not how well it is retained, so it cannot honestly be turned into
+ * an interval. The existing due date is preserved so nothing floods back at once,
+ * and the review count is kept for statistics only.
+ */
+export function seedFromFixedDelay(
+  entries: Record<string, FixedDelayEntry>,
+): Record<string, ReviewState> {
+  const out: Record<string, ReviewState> = {}
+  for (const [id, entry] of Object.entries(entries)) {
+    out[id] = { ...newState(entry.nextDue), reviews: Math.max(0, entry.knownCount) }
+  }
+  return out
+}
+
+function readRaw(storage: StorageLike, key: string): { value: unknown; failed: boolean } {
+  const raw = storage.getItem(key)
+  if (raw == null) return { value: undefined, failed: false }
+  try {
+    return { value: JSON.parse(raw), failed: false }
+  } catch {
+    return { value: undefined, failed: true }
+  }
+}
+
+/**
+ * Runs every outstanding migration step. Returns null when there was nothing to
+ * do, so the caller can tell "upgraded" from "already current".
+ *
+ * Earlier keys are never cleared — they are the backstop if this goes wrong.
  */
 export function runMigration(storage: StorageLike, cards: readonly Card[]): MigrationResult | null {
   if (storage.getItem(KEYS.migrated)) return null
 
-  const rawProgress = storage.getItem(LEGACY_KEYS.progress)
-  const rawDeck = storage.getItem(LEGACY_KEYS.deck)
-  const rawDirection = storage.getItem(LEGACY_KEYS.direction)
-  const rawDelay = storage.getItem(LEGACY_KEYS.delay)
+  const legacy = readRaw(storage, LEGACY_KEYS.progress)
+  const v3 = readRaw(storage, V3_KEYS.progress)
 
-  if (rawProgress == null && rawDeck == null && rawDirection == null && rawDelay == null) {
+  const hasLegacy = storage.getItem(LEGACY_KEYS.progress) != null
+    || storage.getItem(LEGACY_KEYS.deck) != null
+    || storage.getItem(LEGACY_KEYS.direction) != null
+  const hasV3 = storage.getItem(V3_KEYS.progress) != null
+
+  if (!hasLegacy && !hasV3) {
+    // Nothing to carry forward, but stamp the flag so this never runs again.
+    storage.setItem(KEYS.migrated, new Date().toISOString())
     return null
   }
 
-  let parsed: unknown
-  let failed = false
-  if (rawProgress != null) {
-    try {
-      parsed = JSON.parse(rawProgress)
-    } catch {
-      failed = true
-    }
+  // v3 is nearer, so it wins where both exist.
+  const source = hasV3 ? v3 : legacy
+  const result: MigrationResult = {
+    migrated: 0, carried: 0, dropped: 0, ambiguous: 0, failed: source.failed,
   }
 
-  const result = failed
-    ? { progress: {}, migrated: 0, carried: 0, dropped: 0, ambiguous: 0, failed: true }
-    : { ...migrateLegacy(parsed, cards), failed: false }
-
-  // On failure nothing is written to the progress key either, so a later manual
-  // recovery is not competing with an empty record.
-  if (!failed) saveProgress(storage, result.progress)
+  if (!source.failed) {
+    const remapped = remapIds(source.value, cards)
+    result.migrated = remapped.migrated
+    result.carried = remapped.carried
+    result.dropped = remapped.dropped
+    result.ambiguous = remapped.ambiguous
+    saveProgress(storage, seedFromFixedDelay(remapped.progress) as Progress)
+  }
 
   saveSettings(storage, sanitizeSettings({
-    deck: rawDeck ?? undefined,
-    direction: rawDirection ?? undefined,
-    delayDays: rawDelay != null ? Number(rawDelay) : undefined,
+    deck: storage.getItem(LEGACY_KEYS.deck) ?? undefined,
+    direction: storage.getItem(LEGACY_KEYS.direction) ?? undefined,
   }))
 
   storage.setItem(KEYS.migrated, new Date().toISOString())
