@@ -1,0 +1,28 @@
+{
+  "name": "eu-pt-flashcards",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "European Portuguese flashcards — offline-capable PWA",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "extract": "node scripts/extract-decks.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@sveltejs/vite-plugin-svelte": "^7.2.0",
+    "@tsconfig/svelte": "^5.0.4",
+    "svelte": "^5.56.8",
+    "svelte-check": "^4.7.4",
+    "typescript": "^5.9.3",
+    "vite": "^8.2.0",
+    "vite-plugin-pwa": "^1.3.0",
+    "vitest": "^4.1.10"
+  }
+}

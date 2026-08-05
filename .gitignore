@@ -1,0 +1,8 @@
+node_modules/
+dist/
+dev-dist/
+test-results/
+playwright-report/
+*.local
+.DS_Store
+*:Zone.Identifier
