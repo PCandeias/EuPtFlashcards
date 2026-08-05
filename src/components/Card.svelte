@@ -140,8 +140,11 @@
   }
   .note { color: var(--muted); font-size: 13px; margin-top: 16px; text-align: center; }
 
+  /* The offsets subtract the surrounding chrome from the viewport. The backup row
+     is new in this version, so it is subtracted too — otherwise the card grows by
+     its height and pushes Known/Again further off screen. */
   @media (max-width: 760px) {
-    .card { min-height: 0; height: calc(100svh - 292px); max-height: 52svh; }
+    .card { min-height: 0; height: calc(100svh - 328px); max-height: 48svh; }
     .face { padding: 16px; border-radius: 20px; }
     .label { font-size: 10px; margin-bottom: 10px; }
     .word { font-size: clamp(26px, 10vw, 48px); letter-spacing: -0.025em; }
@@ -150,12 +153,12 @@
     .note { font-size: 11px; margin-top: 10px; }
   }
   @media (max-width: 420px) {
-    .card { height: calc(100svh - 264px); max-height: 54svh; }
+    .card { height: calc(100svh - 300px); max-height: 49svh; }
   }
   /* Short screens drop the static instruction but never the hint, which the
      card cannot be answered without. */
   @media (max-height: 700px) and (max-width: 760px) {
-    .card { height: calc(100svh - 220px); max-height: 58svh; }
+    .card { height: calc(100svh - 256px); max-height: 54svh; }
     .note { display: none; }
   }
 </style>
