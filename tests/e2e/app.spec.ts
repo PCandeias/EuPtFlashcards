@@ -311,7 +311,15 @@ test.describe('typing mode', () => {
     await page.selectOption('#deckSelect', 'Numbers')
     await page.click('#typeBtn')
 
-    const answer = (await page.locator('.face.back .word').textContent())!.trim()
+    // Read the word itself: textContent would also pick up any badge text, and a
+    // card offering alternatives ("um / uma") is named by the first of them.
+    const answer = await page.evaluate(() => {
+      const word = document.querySelector('.face.back .word')
+      const text = word?.childNodes[0]?.textContent?.trim() ?? ''
+      return text.split('/')[0]!.trim()
+    })
+    expect(answer).not.toBe('')
+
     await page.fill('#answerInput', 'definitely not the answer')
     await page.click('#checkBtn')
 
@@ -334,5 +342,81 @@ test.describe('typing mode', () => {
     await expect(page.locator('#answerInput')).toBeVisible()
     await page.click('#typeBtn')
     await expect(page.locator('#answerInput')).toHaveCount(0)
+  })
+})
+
+test.describe('review history', () => {
+  test('records a streak and a recall rate as you grade', async ({ page }) => {
+    await page.goto('./')
+    await page.evaluate(() => localStorage.clear())
+    await page.reload()
+    await page.selectOption('#deckSelect', 'Numbers')
+
+    // Nothing measured yet reads as a dash, not as 0%.
+    await expect(page.locator('#retentionCount')).toHaveText('—')
+    await expect(page.locator('#streakCount')).toHaveText('0')
+
+    await page.click('#goodBtn')
+    await expect(page.locator('#streakCount')).toHaveText('1')
+    await expect(page.locator('#retentionCount')).toHaveText('100%')
+
+    // One failure in four reviews is 75% recall.
+    await page.click('#goodBtn')
+    await page.click('#easyBtn')
+    await page.click('#againBtn')
+    await expect(page.locator('#retentionCount')).toHaveText('75%')
+  })
+
+  test('survives a reload', async ({ page }) => {
+    await page.goto('./')
+    await page.evaluate(() => localStorage.clear())
+    await page.reload()
+    await page.selectOption('#deckSelect', 'Numbers')
+    await page.click('#goodBtn')
+    await page.reload()
+    await expect(page.locator('#streakCount')).toHaveText('1')
+    await expect(page.locator('#retentionCount')).toHaveText('100%')
+  })
+
+  test('shows the streak on the phone layout, where the panel is hidden', async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 844 })
+    await page.goto('./')
+    await page.evaluate(() => localStorage.clear())
+    await page.reload()
+    await page.selectOption('#deckSelect', 'Numbers')
+    await page.click('#goodBtn')
+    await expect(page.locator('.stats')).toBeHidden()
+    await expect(page.locator('#streakInline')).toBeVisible()
+    await expect(page.locator('#recallInline')).toContainText('100% recall')
+  })
+
+  test('a backup carries the history, so a restore keeps the streak', async ({ page }) => {
+    await page.goto('./')
+    await page.evaluate(() => localStorage.clear())
+    await page.reload()
+    await page.selectOption('#deckSelect', 'Numbers')
+    await page.click('#goodBtn')
+    await expect(page.locator('#streakCount')).toHaveText('1')
+
+    const download = await Promise.all([
+      page.waitForEvent('download'),
+      page.getByRole('button', { name: 'Export backup' }).click(),
+    ]).then(([d]) => d)
+    const stream = await download.createReadStream()
+    const chunks: Buffer[] = []
+    for await (const chunk of stream) chunks.push(chunk as Buffer)
+    const backup = JSON.parse(Buffer.concat(chunks).toString('utf8'))
+    expect(Object.keys(backup.history)).toHaveLength(1)
+
+    await page.evaluate(() => localStorage.clear())
+    await page.reload()
+    await expect(page.locator('#streakCount')).toHaveText('0')
+
+    await page.setInputFiles('input[type=file]', {
+      name: 'backup.json',
+      mimeType: 'application/json',
+      buffer: Buffer.from(JSON.stringify(backup)),
+    })
+    await expect(page.locator('#streakCount')).toHaveText('1')
   })
 })

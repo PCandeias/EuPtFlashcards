@@ -6,11 +6,13 @@
   import type { Direction } from '../lib/storage/progress.js'
 
   let {
-    card, direction, flipped, onflip, onswipe,
+    card, direction, flipped, compact = false, onflip, onswipe,
   }: {
     card: Card
     direction: Direction
     flipped: boolean
+    /** Typing mode adds an input row, so the card yields that space to it. */
+    compact?: boolean
     onflip: () => void
     onswipe: (delta: number) => void
   } = $props()
@@ -61,6 +63,7 @@
   <div
     class="card"
     class:flipped
+    class:compact
     role="button"
     tabindex="0"
     aria-label="Flashcard, activate to flip"
@@ -68,7 +71,7 @@
     onpointerup={onPointerUp}
     onkeydown={(e) => { if (e.key === 'Enter') onflip() }}
   >
-    {#each [{ side: frontSide, label: frontLabel, face: 'front', note: 'Tap to flip · swipe left/right to move' }, { side: backSide, label: backLabel, face: 'back', note: 'Mark as known to delay this card' }] as f (f.face)}
+    {#each [{ side: frontSide, label: frontLabel, face: 'front', note: 'Tap to flip · swipe left/right to move' }, { side: backSide, label: backLabel, face: 'back', note: 'Grade it to schedule the next review' }] as f (f.face)}
       <section class="face {f.face}">
         <div class="label">{f.label}</div>
         <div class="word">
@@ -167,8 +170,12 @@
     .hint { font-size: 12px; margin-top: 8px; }
     .note { font-size: 11px; margin-top: 10px; }
   }
+  @media (max-width: 760px) {
+    .card.compact { max-height: 42svh; }
+  }
   @media (max-width: 420px) {
-    .card { height: calc(100svh - 300px); max-height: 49svh; }
+    .card { height: calc(100svh - 300px); max-height: 47svh; }
+    .card.compact { max-height: 42svh; }
   }
   /* Short screens drop the static instruction but never the hint, which the
      card cannot be answered without. */

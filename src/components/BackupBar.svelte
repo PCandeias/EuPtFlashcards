@@ -1,16 +1,20 @@
 <script lang="ts">
-  import { buildBackup, parseBackup, backupFilename, mergeProgress } from '../lib/storage/backup.js'
+  import {
+    buildBackup, parseBackup, backupFilename, mergeProgress, mergeHistory,
+  } from '../lib/storage/backup.js'
+  import type { History } from '../lib/study/history.js'
   import type { Settings } from '../lib/storage/progress.js'
   import type { Progress } from '../lib/study/scheduler.js'
   import type { MigrationResult } from '../lib/storage/migrate.js'
 
   let {
-    progress, settings, migrationNote, onimport,
+    progress, settings, history, migrationNote, onimport,
   }: {
     progress: Progress
     settings: Settings
+    history: History
     migrationNote: MigrationResult | null
-    onimport: (next: Progress) => void
+    onimport: (progress: Progress, history: History) => void
   } = $props()
 
   let message = $state('')
@@ -20,7 +24,7 @@
   // deleting an installed web app takes its data with it. This is the safety net.
   function exportBackup() {
     const exportedAt = new Date().toISOString()
-    const file = buildBackup(progress, settings, exportedAt)
+    const file = buildBackup(progress, settings, exportedAt, history)
     const blob = new Blob([JSON.stringify(file, null, 2)], { type: 'application/json' })
     const url = URL.createObjectURL(blob)
     const link = document.createElement('a')
@@ -39,7 +43,7 @@
       const parsed = parseBackup(await file.text())
       // Additive: a restore should never lose ground you have since gained.
       const merged = mergeProgress(progress, parsed.progress)
-      onimport(merged)
+      onimport(merged, mergeHistory(history, parsed.history))
       message = `Restored ${Object.keys(parsed.progress).length} cards.`
     } catch (error) {
       message = error instanceof Error ? error.message : 'That backup could not be read.'
@@ -77,7 +81,7 @@
     />
   </div>
   {#if message}<p class="message">{message}</p>{/if}
-  <p class="keys">Keyboard: Space flips, ←/→ moves, K known, R again.</p>
+  <p class="keys">Keyboard: Space flips · ←/→ moves · 1–4 grades · T types.</p>
 </footer>
 
 <style>

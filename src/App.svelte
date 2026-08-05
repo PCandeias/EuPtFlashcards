@@ -11,6 +11,7 @@
   import { CARDS, deckCounts } from './lib/cards/index.js'
   import { cardId } from './lib/cards/schema.js'
   import { dueCards, gradeCard, stateFor, stats, type Progress } from './lib/study/scheduler.js'
+  import { recordReview, streak, retention, type History } from './lib/study/history.js'
   import type { Rating } from './lib/study/sm2.js'
   import { shuffle } from './lib/study/order.js'
   import {
@@ -18,7 +19,8 @@
     type Session,
   } from './lib/study/session.js'
   import {
-    loadProgress, saveProgress, loadSettings, saveSettings, type Settings,
+    loadProgress, saveProgress, loadSettings, saveSettings,
+    loadHistory, saveHistory, type Settings,
   } from './lib/storage/progress.js'
   import { runMigration } from './lib/storage/migrate.js'
 
@@ -26,6 +28,7 @@
   const migration = runMigration(localStorage, CARDS)
 
   let progress = $state<Progress>(loadProgress(localStorage))
+  let history = $state<History>(loadHistory(localStorage))
   let settings = $state<Settings>(loadSettings(localStorage))
   let flipped = $state(false)
   let now = $state(Date.now())
@@ -69,10 +72,13 @@
   let answerText = $derived(current ? (settings.direction === 'a-b' ? current.pt : current.en) : '')
   let currentState = $derived(current ? stateFor(progress, current) : undefined)
   let summary = $derived(stats(progress))
+  let currentStreak = $derived(streak(history, now))
+  let recall = $derived(retention(history, 30, now))
 
   function persist() {
     saveProgress(localStorage, progress)
     saveSettings(localStorage, settings)
+    saveHistory(localStorage, history)
   }
 
   function move(delta: number) {
@@ -84,8 +90,10 @@
 
   function rate(rating: Rating) {
     if (!current) return
-    progress = gradeCard(progress, current, rating, Date.now())
-    now = Date.now()
+    const at = Date.now()
+    progress = gradeCard(progress, current, rating, at)
+    history = recordReview(history, rating, at)
+    now = at
     persist()
     // A failed card returns later this sitting rather than tomorrow.
     session = completeCurrent(session, rating === 'again')
@@ -148,6 +156,8 @@
       due={due.length}
       learned={summary.learned}
       mature={summary.mature}
+      {history}
+      {now}
     />
   </header>
 
@@ -167,6 +177,8 @@
       <span id="progressText">
         {session.cards.length ? `Card ${session.index + 1} / ${session.cards.length}` : ''}
         · {due.length} due
+        {#if currentStreak}· <span id="streakInline">{currentStreak}d streak</span>{/if}
+        {#if recall !== null}· <span id="recallInline">{Math.round(recall * 100)}% recall</span>{/if}
       </span>
     </div>
 
@@ -175,6 +187,7 @@
         card={current}
         direction={settings.direction}
         {flipped}
+        compact={typing}
         onflip={flip}
         onswipe={move}
       />
@@ -204,7 +217,13 @@
     {progress}
     {settings}
     migrationNote={migration}
-    onimport={(next) => { progress = next; now = Date.now(); persist() }}
+    {history}
+    onimport={(nextProgress, nextHistory) => {
+      progress = nextProgress
+      history = nextHistory
+      now = Date.now()
+      persist()
+    }}
   />
 
   <UpdatePrompt />

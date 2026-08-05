@@ -11,6 +11,7 @@
  */
 import { sanitizeProgress, sanitizeSettings, type Settings } from './progress.js'
 import type { Progress } from '../study/scheduler.js'
+import { sanitizeHistory, type History } from '../study/history.js'
 
 export const BACKUP_APP = 'eu-pt-flashcards'
 export const BACKUP_VERSION = 2
@@ -21,15 +22,22 @@ export interface BackupFile {
   exportedAt: string
   progress: Progress
   settings: Settings
+  history: History
 }
 
-export function buildBackup(progress: Progress, settings: Settings, exportedAt: string): BackupFile {
+export function buildBackup(
+  progress: Progress,
+  settings: Settings,
+  exportedAt: string,
+  history: History = {},
+): BackupFile {
   return {
     app: BACKUP_APP,
     version: BACKUP_VERSION,
     exportedAt,
     progress: sanitizeProgress(progress),
     settings: sanitizeSettings(settings),
+    history: sanitizeHistory(history),
   }
 }
 
@@ -71,6 +79,8 @@ export function parseBackup(text: string): BackupFile {
     exportedAt: typeof v.exportedAt === 'string' ? v.exportedAt : '',
     progress,
     settings: sanitizeSettings(v.settings),
+    // Older backups predate the review log; an empty one is correct, not an error.
+    history: sanitizeHistory(v.history),
   }
 }
 
@@ -80,6 +90,17 @@ export function mergeProgress(current: Progress, incoming: Progress): Progress {
   for (const [id, entry] of Object.entries(incoming)) {
     const existing = out[id]
     if (!existing || entry.reviews > existing.reviews) out[id] = entry
+  }
+  return out
+}
+
+/** Days are additive too: whichever record shows more reviews for a day wins. */
+export function mergeHistory(current: History, incoming: History): History {
+  const out: History = { ...current }
+  for (const [key, day] of Object.entries(incoming)) {
+    const existing = out[key]
+    const total = (d: typeof day) => d.again + d.hard + d.good + d.easy
+    if (!existing || total(day) > total(existing)) out[key] = day
   }
   return out
 }

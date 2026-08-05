@@ -47,7 +47,7 @@ struggle; the interval multiplies by that ease each time you get it right.
 | **Easy** | Interval × ease × 1.3, ease +0.15 |
 
 Each button shows the interval it will produce, so grading is a choice rather than
-a guess. Keys `1`–`4` grade, `Space` flips, `←`/`→` move.
+a guess. Keys `1`–`4` grade, `Space` flips, `←`/`→` move, `T` toggles typing.
 
 Ease has a floor of 1.3: without it, a card you keep failing would return forever
 at ever-shorter intervals. Intervals over a few days get ±5% jitter so a batch
@@ -57,6 +57,40 @@ studied together does not come back in lockstep.
 queue rather than rebuilding the queue from what is currently due — otherwise every
 answer would reshuffle the deck and reset your position. A card you rate *Again* is
 pushed back a few places so it returns before you finish.
+
+## Study modes
+
+**Flip** reveals the answer. **Typing** asks you to write it, which tests recall
+rather than recognition.
+
+Typed answers are graded strictly on meaning but kindly on input. A missing accent
+is never simply *correct* — `avô` is a grandfather and `avó` is a grandmother, so
+blurring them would teach the wrong word — but it is accepted as *almost*, with the
+correct spelling shown, because typing accents on a phone is awkward enough that
+outright rejection teaches nothing either. Same for a missing article, which is
+what carries a noun's gender. Cards offering alternatives (`obrigado / obrigada`)
+accept any of them.
+
+## Audio
+
+The speaker button reads the Portuguese aloud through the Web Speech API.
+
+Voice selection is explicit rather than left to the language tag: this deck is
+deliberately European Portuguese, so a Brazilian voice would undo the point. When
+only a Brazilian voice — or none — is available, the app says so rather than
+letting the accent pass as correct. On iOS this happens more than you would like;
+Safari's voice list is unreliable and the system often chooses for you.
+
+## Statistics
+
+Reviews are logged per local calendar day, separately from card scheduling, because
+they answer a different question: not *when is this card due* but *am I turning up*.
+
+- **Streak** — consecutive days studied. Not having studied yet today does not break
+  it; missing a whole day does.
+- **Recall** — share of the last 30 days' reviews you did not fail. Shows `—` rather
+  than `0%` when there is nothing to measure.
+- A 14-day bar chart of review volume.
 
 ## Editing cards
 
@@ -79,7 +113,8 @@ npm run build      # production build to dist/
 
 ```
 src/lib/cards/      card model, validation, deck loading
-src/lib/study/      SM-2, session queue, ordering — no DOM knowledge
+src/lib/study/      SM-2, session queue, typed-answer checking, history
+src/lib/speech/     voice selection for pronunciation
 src/lib/storage/    persistence, legacy migration, backup
 src/lib/render/     tag to badge mapping
 src/components/     Svelte components

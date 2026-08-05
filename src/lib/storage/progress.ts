@@ -10,6 +10,7 @@
  */
 import type { Progress } from '../study/scheduler.js'
 import type { ReviewState } from '../study/sm2.js'
+import { sanitizeHistory, type History } from '../study/history.js'
 
 export interface StorageLike {
   getItem(key: string): string | null
@@ -34,6 +35,7 @@ export const V3_KEYS = {
 export const KEYS = {
   progress: 'eupt:v4:progress',
   settings: 'eupt:v4:settings',
+  history: 'eupt:v4:history',
   migrated: 'eupt:v4:migrated',
 } as const
 
@@ -111,4 +113,12 @@ export function loadSettings(storage: StorageLike): Settings {
 
 export function saveSettings(storage: StorageLike, settings: Settings): void {
   storage.setItem(KEYS.settings, JSON.stringify(sanitizeSettings(settings)))
+}
+
+export function loadHistory(storage: StorageLike): History {
+  return sanitizeHistory(readJson(storage, KEYS.history))
+}
+
+export function saveHistory(storage: StorageLike, history: History): void {
+  storage.setItem(KEYS.history, JSON.stringify(history))
 }
