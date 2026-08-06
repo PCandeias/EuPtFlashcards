@@ -267,6 +267,12 @@
   }
   .note { color: var(--muted); font-size: 12px; margin-top: 18px; text-align: center; }
 
+  /* Landscape on a phone: the card gives up height like it does on a small one. */
+  @media (max-height: 520px) {
+    .card { min-height: 88px; }
+    .word { font-size: clamp(20px, 4.5vw, 34px); }
+  }
+
   @media (max-width: 760px) {
     .face { padding: 16px; border-radius: 20px; }
     .label { font-size: 10px; margin-bottom: 10px; letter-spacing: 0.14em; }

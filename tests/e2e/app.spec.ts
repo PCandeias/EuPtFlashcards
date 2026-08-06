@@ -895,6 +895,39 @@ test.describe('studying by tense', () => {
     expect(present, 'the infinitive should survive the filter').toBe(true)
   })
 
+  /**
+   * The study queue is built once per sitting and deliberately survives grading.
+   * It must not survive a change to what belongs in it: switching a tense off
+   * used to leave its cards in the queue, so the counter said they were gone
+   * while the deck went on teaching them.
+   */
+  test('takes cards out of the running session, not just out of the count', async ({ page }) => {
+    await page.goto('./#/pt')
+    await page.selectOption('#deckSelect', 'Past Tense (Perfeito)')
+    await expect(page.locator('#progressText')).toContainText('Card 1 / 64')
+
+    // Through the dialog, because the bug was in the running app rather than in
+    // what it reads at startup.
+    await openSettings(page)
+    await page.locator('#settingsDialog label', { hasText: 'Pretérito perfeito' })
+      .locator('input').uncheck()
+    await closeSettings(page)
+
+    await expect(page.locator('#emptyDeck')).toContainText('switched off')
+    await expect(page.locator('.card')).toHaveCount(0)
+  })
+
+  test('rebuilds for the filter but never for a grade', async ({ page }) => {
+    await page.goto('./#/pt')
+    await page.selectOption('#deckSelect', 'Numbers')
+    const before = await page.locator('#progressText').textContent()
+    expect(before).toContain('Card 1 / 62')
+
+    // Grading advances within the same queue rather than starting a new one.
+    await page.click('#goodBtn')
+    await expect(page.locator('#progressText')).toContainText('Card 1 / 61')
+  })
+
   test('the deck menu counts what will actually be shown', async ({ page }) => {
     await page.goto('./#/pt')
     const before = await page.locator('#deckSelect option', { hasText: 'Basic Present Tense' })

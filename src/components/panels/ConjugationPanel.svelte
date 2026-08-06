@@ -30,9 +30,9 @@
 </script>
 
 <!--
-  Rendered outside the card on purpose, and below it rather than over it. Inside,
-  it would be clipped by the face's overflow and trapped in the flip's 3D context;
-  over it, it covered the very word being explained on a short screen.
+  Rendered outside the card but drawn over it: inside, it would be clipped by the
+  face's overflow and trapped in the flip's 3D context. Its height is capped so it
+  covers the lower part of the card only, never the word it is explaining.
 -->
 <div class="panel" id="conjugationPanel" role="dialog" aria-label="Conjugation of {infinitive}">
   <div class="head">
@@ -78,15 +78,23 @@
 
 <style>
   .panel {
-    /* In the flow, in its own grid row: see the comment where it is rendered. */
-    width: 100%;
-    margin: 0 auto;
-    /* Scrolls rather than growing without limit: the card can only give up so
-       much room before it stops being a card, and on the shortest screens the
-       page is allowed to scroll instead. */
-    max-height: min(36svh, 220px);
+    position: absolute;
+    left: 50%;
+    bottom: 8px;
+    transform: translateX(-50%);
+    z-index: 20;
+    width: max-content;
+    /*
+     * Capped at 45% of the card area, so the top 55% — the word being explained
+     * and the markers beside it — is never covered. Without the cap, a tall
+     * panel on a short screen reached the middle of the card and swallowed both,
+     * and the other marker could not be tapped at all. Long content scrolls
+     * inside the panel rather than growing over the word.
+     */
+    max-height: min(45%, 240px);
     overflow-y: auto;
-    max-width: 420px;
+    overscroll-behavior: contain;
+    max-width: min(92%, 420px);
     padding: 12px 14px;
     text-align: left;
     border: 1px solid var(--accent-line);

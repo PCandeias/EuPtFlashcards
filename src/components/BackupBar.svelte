@@ -35,7 +35,9 @@
   .migration { margin: 0 0 6px; color: var(--accent); }
   .message { margin: 0 0 6px; }
   .keys { margin: 0; }
-  @media (max-width: 760px) {
+  /* There is no keyboard on a phone, in either orientation, and the hint is the
+     last thing worth 23px of a landscape screen. */
+  @media (max-width: 760px), (max-height: 520px) {
     .keys { display: none; }
   }
 </style>

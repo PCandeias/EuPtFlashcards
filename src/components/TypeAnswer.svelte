@@ -55,6 +55,12 @@
 {/if}
 
 <style>
+  /* Landscape on a phone leaves no room for generous padding. */
+  @media (max-height: 520px) {
+    input { min-height: 34px; }
+    .row { gap: 6px; }
+  }
+
   .type { display: flex; gap: 8px; }
   input {
     flex: 1;

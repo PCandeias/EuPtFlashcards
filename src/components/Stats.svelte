@@ -79,7 +79,9 @@
   }
   .bar.empty { background: var(--border); opacity: 1; }
 
-  @media (max-width: 760px) {
+  /* Also on any short screen: a phone held sideways has 390px of height, and
+     the counters were taking 122px of it before the card got any. */
+  @media (max-width: 760px), (max-height: 520px) {
     .stats, .sparkline { display: none; }
   }
 </style>

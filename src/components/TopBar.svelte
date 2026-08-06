@@ -78,13 +78,21 @@
 </section>
 
 <style>
+  /*
+   * Flex rather than grid so the actions can wrap to their own line when the
+   * two selects and five buttons do not fit side by side. As a grid its
+   * min-content was 765px, which is wider than an iPad in portrait has room for
+   * once the page padding is taken off — the whole page scrolled sideways.
+   */
   .topbar {
-    display: grid;
-    grid-template-columns: minmax(170px, 1fr) minmax(160px, 220px) auto;
+    display: flex;
+    flex-wrap: wrap;
     gap: 8px;
     align-items: center;
   }
-  .actions { display: flex; gap: 8px; }
+  #deckSelect { flex: 1 1 220px; min-width: 0; }
+  #directionSelect { flex: 0 1 220px; min-width: 0; }
+  .actions { display: flex; gap: 8px; flex: 0 0 auto; margin-left: auto; }
   #settingsBtn { display: inline-flex; align-items: center; justify-content: center; gap: 7px; }
 
   /*
@@ -92,14 +100,19 @@
    * one — three rows rather than six, which is what leaves room for the card.
    */
   @media (max-width: 760px) {
-    .topbar { grid-template-columns: 1fr; gap: 6px; }
+    .topbar { display: grid; grid-template-columns: 1fr; gap: 6px; }
     .actions { display: grid; grid-template-columns: repeat(5, 1fr); gap: 5px; }
     .actions button { min-height: 38px; padding: 4px 4px; font-size: 12px; }
     #settingsBtn .label { display: none; }
   }
-  @media (max-height: 700px) and (max-width: 760px) {
+  /* Short screens, at any width: a phone in landscape has 390px of height and
+     needs the same compact toolbar a small phone does. */
+  @media (max-height: 700px) {
     .topbar { gap: 5px; }
     .actions button { min-height: 34px; font-size: 12px; }
     select { min-height: 34px; }
+  }
+  @media (max-height: 520px) {
+    #settingsBtn .label { display: none; }
   }
 </style>

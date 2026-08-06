@@ -113,12 +113,20 @@
     flipped = false
   }
 
-  // Rebuild only when the deck selection changes, never in response to grading.
-  let selectedDeck = $derived(settings.deck)
-  let lastDeck: string | null = null
+  /**
+   * Rebuilt when what belongs in the session changes, and only then.
+   *
+   * That is the deck chosen and the tenses being studied: switching a tense off
+   * used to leave its cards in the queue, so the counter said they were gone
+   * while the deck went on teaching them. Never on grading — surviving that is
+   * the whole reason the session exists — and never on a report, which is
+   * handled where it happens so it costs you your place in the deck.
+   */
+  let deckSignature = $derived(`${settings.deck}\u0000${settings.tenses.join(',')}`)
+  let lastSignature: string | null = null
   $effect(() => {
-    if (selectedDeck !== lastDeck) {
-      lastDeck = selectedDeck
+    if (deckSignature !== lastSignature) {
+      lastSignature = deckSignature
       newSession()
     }
   })
@@ -355,14 +363,10 @@
         onannotate={(id) => { openAnnotation = openAnnotation === id ? null : id }}
         onreport={() => { reportOpen = true }}
       />
-      </div>
       <!--
-        In its own row rather than floating over the card. Over it, on a short
-        screen — a real phone, once Safari's chrome is taken off the viewport —
-        the panel reached the middle of the card and covered both the word being
-        explained and the marker for the other panel, which then could not be
-        clicked at all. As a row it takes its space from the card, which is the
-        flexible one, so it cannot overlap anything by construction.
+        Over the card, as a tooltip on it. It is anchored to the bottom and
+        capped so it can never reach the word it is explaining or the marker
+        beside it — see the panel's own stylesheet.
       -->
       {#if activeAnnotation}
         {@const Panel = activeAnnotation.kind.panel}
@@ -372,6 +376,7 @@
           onclose={() => { openAnnotation = null }}
         />
       {/if}
+      </div>
     {:else}
       <div class="empty" id="emptyDeck">
         {#if hiddenByTense}
@@ -463,9 +468,7 @@
   .study {
     min-height: 0;
     display: grid;
-    /* meta · card · annotation panel · typing · controls. Only the card row is
-       flexible, so opening a panel shrinks the card rather than covering it. */
-    grid-template-rows: auto minmax(0, 1fr) auto auto auto;
+    grid-template-rows: auto minmax(0, 1fr) auto auto;
     gap: 10px;
   }
   .meta {
@@ -477,6 +480,8 @@
     font-size: 13px;
   }
   .meta .deckname { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  /* The annotation panels are positioned against this, not against the card —
+     the card's face clips its children and lives in the flip's 3D context. */
   .cardarea { position: relative; min-height: 0; display: grid; }
   .empty { padding: 40px; text-align: center; color: var(--muted); }
 
@@ -497,5 +502,13 @@
   @media (max-width: 420px) {
     h1 { font-size: 20px; }
     .sub { display: none; }
+  }
+  /* A phone held sideways is 390px tall and wide enough to miss every rule
+     above. The title has to give up its space to the card there. */
+  @media (max-height: 520px) {
+    h1 { font-size: 18px; }
+    .sub { display: none; }
+    .study { gap: 6px; }
+    .meta { font-size: 11px; }
   }
 </style>

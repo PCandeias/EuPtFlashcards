@@ -21,8 +21,8 @@ jobs:
     name: Type-check, unit and browser tests
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: npm
@@ -35,7 +35,7 @@ jobs:
         run: npx playwright install --with-deps chromium
       - name: End-to-end tests
         run: npm run test:e2e
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: failure()
         with:
           name: playwright-report
@@ -52,8 +52,8 @@ jobs:
     runs-on: ubuntu-latest
     continue-on-error: true
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: npm
@@ -62,7 +62,7 @@ jobs:
       - run: npx playwright test --project=ios-safari
         env:
           WEBKIT: '1'
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: failure()
         with:
           name: webkit-report
@@ -74,26 +74,49 @@ jobs:
     if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     permissions:
+      # Job-level permissions replace the top-level block rather than adding to
+      # it, so contents: read has to be repeated here or checkout has nothing but
+      # anonymous access — which happens to work while the repo is public and
+      # would break the moment it is not.
+      contents: read
       pages: write
       id-token: write
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment-retry.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: npm
       - run: npm ci
       - run: npm run build
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6
         # Turns Pages on for the repository if it is not already, so the site does
         # not need a setting changed by hand before the first deploy.
         with:
           enablement: true
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: dist
+          # dist/.nojekyll is a dotfile, and this action drops dotfiles unless
+          # told otherwise.
+          include-hidden-files: true
+
+      # Creating the deployment mints a fresh OIDC token and hands it to the
+      # Pages API, which occasionally rejects it ("No keys from key endpoint
+      # match the id token") while GitHub rotates its signing keys. It is a
+      # GitHub-side hiccup, not a problem with the build, and re-running the
+      # failed job does not help: the retry reuses the same run and fails the
+      # same way. Retrying inside the run, after a pause long enough for the new
+      # key to have propagated, turns a red deploy into a slow one.
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
+        continue-on-error: true
+      - name: Wait before retrying
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 60
+      - id: deployment-retry
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v5
