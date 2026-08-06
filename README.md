@@ -142,6 +142,16 @@ The installed app's status bar follows the theme too.
 
 ## Layout
 
+Checked at every size a current phone reports, at both its full height and the
+height a browser leaves once its own chrome is on screen — Galaxy S22 and S23,
+iPhone 13 through 15 Pro Max — and at tablet and desktop widths. Nothing scrolls
+sideways and nothing lands off screen at any of them.
+
+The annotation panels are tooltips: they are drawn over the card and take none of
+its space. Their height is capped at 42% of the card so they can never reach the
+word being explained or the markers beside it, and longer content scrolls inside
+the panel.
+
 The card is sized by the CSS grid, not by arithmetic. It used to be
 `calc(100svh - 300px)` with viewport-height caps — guesses at the surrounding
 chrome that broke twice when a row was added. The study row is now the only
@@ -326,6 +336,10 @@ Portuguese — the keys it has always written, so existing history survived the
 change untouched — and `eutr:v1:` for Turkish. A backup records which language it
 came from, and restoring one into the other is refused rather than merged into a
 deck it has nothing to do with.
+
+Storage that refuses to work — Safari with cookies blocked, a device out of
+space — degrades instead of taking the app down: reads come back empty, writes
+are kept for the session, and the deck still works until the tab closes.
 
 **Back it up.** iOS clears script-writable storage after 7 days without
 interaction. An installed home-screen app is exempt while you keep using it, but a

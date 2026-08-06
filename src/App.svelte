@@ -31,6 +31,7 @@
   import { annotationsFor } from './lib/annotations/index.js'
   import type { LanguageDef } from './lib/languages/types.js'
   import { THEME_KEY } from './lib/router.js'
+  import { store } from './lib/storage/safe.js'
   import {
     loadReports, saveReports, reportCard, unreportCard, withoutReported,
     reportsAsText, reportsFilename, type Reports,
@@ -54,11 +55,11 @@
   const keys = keysFor(deck.storagePrefix)
 
   // Runs before the first read, so a returning user's history is already in place.
-  const migration = deck.migrate?.(localStorage) ?? null
+  const migration = deck.migrate?.(store) ?? null
 
-  let progress = $state<Progress>(loadProgress(localStorage, keys))
-  let history = $state<History>(loadHistory(localStorage, keys))
-  let settings = $state<Settings>(loadSettings(localStorage, keys, deck))
+  let progress = $state<Progress>(loadProgress(store, keys))
+  let history = $state<History>(loadHistory(store, keys))
+  let settings = $state<Settings>(loadSettings(store, keys, deck))
   let flipped = $state(false)
   let now = $state(Date.now())
   let typing = $state(false)
@@ -66,7 +67,7 @@
   let settingsOpen = $state(false)
   let resetOpen = $state(false)
   let reportOpen = $state(false)
-  let reports = $state<Reports>(loadReports(localStorage, keys))
+  let reports = $state<Reports>(loadReports(store, keys))
   let backupMessage = $state('')
 
   // Counted after the tense filter, so the menu never promises cards the filter
@@ -156,7 +157,7 @@
   // bar match, which is the difference between installed and "a website".
   $effect(() => {
     document.documentElement.dataset.theme = settings.theme
-    localStorage.setItem(THEME_KEY, settings.theme)
+    store.setItem(THEME_KEY, settings.theme)
     const meta = document.querySelector('meta[name="theme-color"]')
     const bar = getComputedStyle(document.documentElement).getPropertyValue('--status-bar').trim()
     if (meta && bar) meta.setAttribute('content', bar)
@@ -174,7 +175,7 @@
   function confirmReport() {
     if (!current) return
     reports = reportCard(reports, current, new Date().toISOString())
-    saveReports(localStorage, keys, reports)
+    saveReports(store, keys, reports)
     reportOpen = false
     // The card has just left the deck, so move on rather than sit on a gap.
     session = completeCurrent(session, false)
@@ -184,7 +185,7 @@
 
   function restoreReport(id: string) {
     reports = unreportCard(reports, id)
-    saveReports(localStorage, keys, reports)
+    saveReports(store, keys, reports)
     newSession()
   }
 
@@ -200,9 +201,9 @@
   }
 
   function persist() {
-    saveProgress(localStorage, keys, progress)
-    saveSettings(localStorage, keys, language, settings)
-    saveHistory(localStorage, keys, history)
+    saveProgress(store, keys, progress)
+    saveSettings(store, keys, language, settings)
+    saveHistory(store, keys, history)
   }
 
   function move(delta: number) {
@@ -269,7 +270,7 @@
       history = mergeHistory(history, parsed.history)
       // Additive, like the rest of a restore.
       reports = { ...reports, ...parsed.reported }
-      saveReports(localStorage, keys, reports)
+      saveReports(store, keys, reports)
       now = Date.now()
       persist()
       backupMessage = `Restored ${Object.keys(parsed.progress).length} cards.`

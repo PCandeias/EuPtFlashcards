@@ -91,7 +91,7 @@
      * and the other marker could not be tapped at all. Long content scrolls
      * inside the panel rather than growing over the word.
      */
-    max-height: min(45%, 240px);
+    max-height: min(42%, 240px);
     overflow-y: auto;
     overscroll-behavior: contain;
     max-width: min(92%, 420px);

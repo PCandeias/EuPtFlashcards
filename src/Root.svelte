@@ -5,6 +5,7 @@
   import { LANGUAGES, languageById } from './lib/languages/index.js'
   import { currentRoute, leave, onRouteChange, open, THEME_KEY } from './lib/router.js'
   import { THEMES, type Theme } from './lib/storage/progress.js'
+  import { store } from './lib/storage/safe.js'
 
   let route = $state(currentRoute())
   $effect(() => onRouteChange(next => { route = next }))
@@ -20,24 +21,32 @@
    * default palette on the way out.
    */
   function storedTheme(): Theme {
-    const raw = localStorage.getItem(THEME_KEY)
+    const raw = store.getItem(THEME_KEY)
     return THEMES.includes(raw as Theme) ? (raw as Theme) : 'slate'
   }
   let pickerTheme = $state<Theme>(storedTheme())
 
   function setTheme(next: Theme) {
     pickerTheme = next
-    localStorage.setItem(THEME_KEY, next)
+    store.setItem(THEME_KEY, next)
   }
+
+  // Re-read on the way back from a deck, which may have changed it.
+  $effect(() => {
+    if (!language) pickerTheme = storedTheme()
+  })
 
   // The picker owns the document only while it is showing; the study screen sets
   // its own theme and title from the settings of the language being studied.
+  // Kept apart from the effect above so neither writes what the other reads.
   $effect(() => {
     if (language) return
-    pickerTheme = storedTheme()
     document.documentElement.dataset.theme = pickerTheme
     document.documentElement.lang = 'en'
     document.title = 'Flashcards'
+    const meta = document.querySelector('meta[name="theme-color"]')
+    const bar = getComputedStyle(document.documentElement).getPropertyValue('--status-bar').trim()
+    if (meta && bar) meta.setAttribute('content', bar)
   })
 
   // A route naming a language that does not exist is a typo or a stale

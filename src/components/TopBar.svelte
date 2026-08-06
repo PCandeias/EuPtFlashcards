@@ -101,7 +101,9 @@
    */
   @media (max-width: 760px) {
     .topbar { display: grid; grid-template-columns: 1fr; gap: 6px; }
-    .actions { display: grid; grid-template-columns: repeat(5, 1fr); gap: 5px; }
+    /* margin-left:auto is for pushing the buttons to the end of a flex row; in
+       the stacked layout they share the full width instead. */
+    .actions { display: grid; grid-template-columns: repeat(5, 1fr); gap: 5px; margin-left: 0; }
     .actions button { min-height: 38px; padding: 4px 4px; font-size: 12px; }
     #settingsBtn .label { display: none; }
   }

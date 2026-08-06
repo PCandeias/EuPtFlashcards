@@ -1018,12 +1018,37 @@ test.describe('usage examples', () => {
   })
 
   /**
-   * An open panel must never cover the card, and least of all the other marker.
-   * It used to: the panel floated over the card, and on a short viewport — a real
-   * phone, once Safari's chrome is taken off the 844 the spec sheet claims — it
-   * reached the middle of the card and swallowed both the word and the marker
-   * beside it. iOS Safari found this before anyone else did.
+   * A panel is a tooltip drawn on the card: it floats over it and takes none of
+   * its space. What it must not do is reach the word it is explaining, or the
+   * marker beside it — on a short viewport, a real phone once Safari's chrome is
+   * off the 844 the spec sheet claims, it used to swallow both and the other
+   * marker could not be tapped at all. iOS Safari found that before anyone else.
    */
+  test('floats over the card without taking its space', async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 664 })
+    await page.goto('./#/pt')
+    await goToVerb(page, 'Common Verbs', 'dormir')
+
+    // The card area, not the card: a card mid-flip is rotated under a
+    // perspective, and its projected box is a few pixels shorter than its real
+    // one. The area around it is what would change if the panel took space.
+    const areaHeight = () =>
+      page.locator('.cardarea').boundingBox().then(b => Math.round(b!.height))
+    const before = await areaHeight()
+
+    await page.click('.face.back [data-annotation="conjugation"]')
+    await expect(page.locator('#conjugationPanel')).toBeVisible()
+    expect(await areaHeight(), 'the card must not shrink to make room').toBe(before)
+
+    // And the panel is drawn inside the card's own bounds, not below it.
+    const inside = await page.evaluate(() => {
+      const card = document.querySelector('.card')!.getBoundingClientRect()
+      const panel = document.querySelector('#conjugationPanel')!.getBoundingClientRect()
+      return panel.bottom <= card.bottom + 1 && panel.top >= card.top - 1
+    })
+    expect(inside).toBe(true)
+  })
+
   test('leaves the word and the other marker clear on a short screen', async ({ page }) => {
     await page.setViewportSize({ width: 390, height: 664 })
     await page.goto('./#/pt')

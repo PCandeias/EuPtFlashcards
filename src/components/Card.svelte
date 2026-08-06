@@ -267,10 +267,15 @@
   }
   .note { color: var(--muted); font-size: 12px; margin-top: 18px; text-align: center; }
 
-  /* Landscape on a phone: the card gives up height like it does on a small one. */
+  /*
+   * Landscape on a phone. There is barely a card left at 390px of height, so it
+   * shows the word and nothing else: the face label and the tap hint go, and the
+   * word shrinks, which is what keeps it clear of an open panel.
+   */
   @media (max-height: 520px) {
     .card { min-height: 88px; }
-    .word { font-size: clamp(20px, 4.5vw, 34px); }
+    .word { font-size: clamp(18px, 3.4vw, 26px); }
+    .lang, .note { display: none; }
   }
 
   @media (max-width: 760px) {

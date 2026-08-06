@@ -43,9 +43,15 @@ export function safeStorage(storage: Storage | undefined): SafeStorage {
   }
 
   const fallback = memoryStorage(true)
+  // Keys whose write the real store refused — out of quota, most likely. Reads
+  // have to come back here for them, or the value would be written to memory and
+  // then read straight past.
+  const inMemory = new Set<string>()
+
   return {
     available: true,
     getItem(key) {
+      if (inMemory.has(key)) return fallback.getItem(key)
       try {
         return storage.getItem(key)
       } catch {
@@ -55,16 +61,19 @@ export function safeStorage(storage: Storage | undefined): SafeStorage {
     setItem(key, value) {
       try {
         storage.setItem(key, value)
+        inMemory.delete(key)
       } catch {
-        // Out of quota, most likely. Keep it for this session at least.
         fallback.setItem(key, value)
+        inMemory.add(key)
       }
     },
     removeItem(key) {
+      inMemory.delete(key)
+      fallback.removeItem(key)
       try {
         storage.removeItem(key)
       } catch {
-        fallback.removeItem(key)
+        // Already gone from the copy that is being read.
       }
     },
   }

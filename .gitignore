@@ -4,5 +4,8 @@ dev-dist/
 test-results/
 playwright-report/
 *.local
+# Throwaway measuring scripts. One got committed by a careless `git add -A`.
+*.tmp.mjs
+shot-*.png
 .DS_Store
 *:Zone.Identifier
