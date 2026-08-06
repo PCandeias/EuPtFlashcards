@@ -2,7 +2,13 @@
   import { createSpeaker, buildUtterance } from '../lib/speech/speaker.js'
   import { describeVoice, isMisleading } from '../lib/speech/voices.js'
 
-  let { text }: { text: string } = $props()
+  let {
+    text, compact = false,
+  }: {
+    text: string
+    /** Smaller, for a list of sentences rather than the card's own word. */
+    compact?: boolean
+  } = $props()
 
   const synthesis = typeof window !== 'undefined' ? window.speechSynthesis : undefined
   const speaker = createSpeaker(synthesis, buildUtterance)
@@ -23,8 +29,14 @@
 </script>
 
 {#if speaker.available}
-  <button class="speak" onclick={speak} aria-label="Hear this in Portuguese" title="Hear it">
-    <svg viewBox="0 0 24 24" aria-hidden="true" width="20" height="20">
+  <button
+    class="speak"
+    class:compact
+    onclick={speak}
+    aria-label="Hear this in Portuguese"
+    title="Hear it"
+  >
+    <svg viewBox="0 0 24 24" aria-hidden="true" width={compact ? 14 : 20} height={compact ? 14 : 20}>
       <path
         d="M4 9v6h4l5 4V5L8 9H4z M16.5 8.5a5 5 0 0 1 0 7 M19 6a8 8 0 0 1 0 12"
         fill="none" stroke="currentColor" stroke-width="1.8"
@@ -59,8 +71,16 @@
     text-align: center;
     max-width: 28ch;
   }
+  .speak.compact {
+    min-height: 26px;
+    width: 26px;
+    margin: 0;
+    border-radius: 8px;
+  }
+
   @media (max-width: 760px) {
     .speak { min-height: 34px; width: 38px; margin-top: 8px; }
+    .speak.compact { min-height: 24px; width: 24px; }
     .warning { font-size: 10px; }
   }
 </style>

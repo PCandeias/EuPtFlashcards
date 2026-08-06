@@ -68,6 +68,8 @@ export interface Settings {
   theme: Theme
   /** Tenses offered in the conjugation panel. Empty means the panel is off. */
   tenses: TenseId[]
+  /** Whether to offer spoken pronunciation at all. Off hides every speaker. */
+  speech: boolean
 }
 
 export const DEFAULT_SETTINGS: Settings = {
@@ -77,6 +79,7 @@ export const DEFAULT_SETTINGS: Settings = {
   // Everything: this list also decides which cards appear, so anything less
   // would hide part of the deck before the user had asked for that.
   tenses: [...TENSE_IDS],
+  speech: true,
 }
 
 function readJson(storage: StorageLike, key: string): unknown {
@@ -144,6 +147,7 @@ export function sanitizeSettings(value: unknown): Settings {
           (a, b) => TENSE_IDS.indexOf(a) - TENSE_IDS.indexOf(b),
         )
       : [...DEFAULT_SETTINGS.tenses],
+    speech: typeof v.speech === 'boolean' ? v.speech : DEFAULT_SETTINGS.speech,
   }
 }
 

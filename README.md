@@ -126,6 +126,10 @@ accept any of them.
 
 ## Audio
 
+**Settings → Audio** turns spoken pronunciation on or off. Off hides every speaker
+— on the card and in the example sentences alike. On, each example sentence gets
+its own speaker beside it, so you can hear the word in context rather than alone.
+
 The speaker button reads the Portuguese aloud through the Web Speech API.
 
 Voice selection is explicit rather than left to the language tag: this deck is

@@ -1039,3 +1039,85 @@ test.describe('usage examples', () => {
     await expect(page.locator('.face.back .marker')).toHaveCount(0)
   })
 })
+
+test.describe('the speech setting', () => {
+  async function goToVerbCard(page: Page, deck: string, pt: string) {
+    await page.selectOption('#deckSelect', deck)
+    const found = await page.evaluate(async (want) => {
+      for (let i = 0; i < 600; i++) {
+        const back = document.querySelector('.face.back .word')
+        if (back?.childNodes[0]?.textContent?.trim() === want) return true
+        ;(document.getElementById('nextBtn') as HTMLButtonElement).click()
+        await new Promise(r => requestAnimationFrame(r))
+      }
+      return false
+    }, pt)
+    expect(found, `should reach ${pt}`).toBe(true)
+    await page.click('#flipBtn')
+    await expect(page.locator('.card')).toHaveClass(/flipped/)
+  }
+
+  const setSpeech = (page: Page, on: boolean) => page.evaluate((v) => {
+    const s = JSON.parse(localStorage.getItem('eupt:v4:settings') ?? '{}')
+    s.speech = v
+    localStorage.setItem('eupt:v4:settings', JSON.stringify(s))
+  }, on)
+
+  test('is on by default and offers audio on the card', async ({ page }) => {
+    await page.goto('./')
+    await page.evaluate(() => localStorage.clear())
+    await page.reload()
+    await page.click('#settingsBtn')
+    await expect(page.locator('#speechToggle')).toBeChecked()
+    await page.click('#settingsCloseBtn')
+
+    const speech = await page.evaluate(() => typeof window.speechSynthesis !== 'undefined')
+    await expect(page.locator('.face.back .speak')).toHaveCount(speech ? 1 : 0)
+  })
+
+  test('switching it off removes every speaker', async ({ page }) => {
+    await page.goto('./')
+    await setSpeech(page, false)
+    await page.reload()
+
+    await expect(page.locator('.speak')).toHaveCount(0)
+    await goToVerbCard(page, 'Common Verbs', 'ser')
+    await expect(page.locator('.face.back .speak')).toHaveCount(0)
+
+    // Including inside the examples, not just on the card.
+    await page.click('.face.back [data-annotation="examples"]')
+    await expect(page.locator('#examplesPanel')).toBeVisible()
+    await expect(page.locator('#examplesPanel .speak')).toHaveCount(0)
+  })
+
+  test('with it on, every example sentence can be heard', async ({ page }) => {
+    await page.goto('./')
+    const speech = await page.evaluate(() => typeof window.speechSynthesis !== 'undefined')
+    test.skip(!speech, 'no speech synthesis in this browser')
+
+    await setSpeech(page, true)
+    await page.reload()
+    await goToVerbCard(page, 'Common Verbs', 'ser')
+    await page.click('.face.back [data-annotation="examples"]')
+
+    const sentences = await page.locator('#examplesPanel li').count()
+    expect(sentences).toBeGreaterThan(0)
+    await expect(page.locator('#examplesPanel .speak')).toHaveCount(sentences)
+  })
+
+  test('the toggle takes effect and persists', async ({ page }) => {
+    await page.goto('./')
+    await page.evaluate(() => localStorage.clear())
+    await page.reload()
+
+    await page.click('#settingsBtn')
+    await page.uncheck('#speechToggle')
+    await page.click('#settingsCloseBtn')
+    await expect(page.locator('.speak')).toHaveCount(0)
+
+    await page.reload()
+    await expect(page.locator('.speak')).toHaveCount(0)
+    await page.click('#settingsBtn')
+    await expect(page.locator('#speechToggle')).not.toBeChecked()
+  })
+})

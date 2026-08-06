@@ -107,7 +107,17 @@
   // Closes itself if the card changes, or its kind stops having anything to say.
   let activeAnnotation = $derived(annotations.find(a => a.kind.id === openAnnotation))
 
-  $effect(() => { void current; openAnnotation = null })
+  // Close only when the card genuinely changes. Reading `current` in an effect
+  // would also fire on any re-derivation, which could shut a panel the moment it
+  // was opened.
+  let lastCardId: string | null = null
+  $effect(() => {
+    const id = current ? cardId(current) : null
+    if (id !== lastCardId) {
+      lastCardId = id
+      openAnnotation = null
+    }
+  })
   let summary = $derived(stats(progress))
   // The attribute drives every palette variable; the meta tag makes the iOS status
   // bar match, which is the difference between installed and "a website".
@@ -267,6 +277,7 @@
         {flipped}
         {annotations}
         {openAnnotation}
+        speech={settings.speech}
         compact={typing}
         onflip={flip}
         onswipe={move}

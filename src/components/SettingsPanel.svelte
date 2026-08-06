@@ -55,6 +55,24 @@
 
 
     <section>
+      <h3>Audio</h3>
+      <label class="toggle">
+        <input
+          id="speechToggle"
+          type="checkbox"
+          checked={settings.speech}
+          onchange={(e) => onchange({ speech: e.currentTarget.checked })}
+        />
+        <span>Offer spoken pronunciation</span>
+      </label>
+      <p class="note">
+        Adds a speaker to the Portuguese side of a card and to each example
+        sentence. Off hides them entirely. On iOS the voice is largely the
+        system's choice, and the app says so when it is not European Portuguese.
+      </p>
+    </section>
+
+    <section>
       <h3>Tenses</h3>
       <TenseSettings
         selected={settings.tenses}
@@ -126,6 +144,8 @@
   }
 
   .note { margin: 8px 0 0; font-size: 12px; color: var(--muted); line-height: 1.5; }
+  .toggle { display: flex; align-items: center; gap: 10px; cursor: pointer; font-size: 14px; }
+  .toggle input { accent-color: var(--accent); width: 16px; height: 16px; }
   .buttons { display: flex; flex-wrap: wrap; gap: 8px; }
   .buttons button { font-size: 13px; }
 

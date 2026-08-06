@@ -1,6 +1,7 @@
 <script lang="ts">
   import type { ExamplesPayload } from '../../lib/annotations/examples.js'
   import { tenseById } from '../../lib/verbs/tenses.js'
+  import SpeakButton from '../SpeakButton.svelte'
 
   let {
     payload, onclose,
@@ -26,7 +27,12 @@
   <ul>
     {#each payload.examples as example (example.pt)}
       <li>
-        <p class="pt">{example.pt}</p>
+        <div class="line">
+          <p class="pt">{example.pt}</p>
+          {#if payload.speech}
+            <SpeakButton text={example.pt} compact />
+          {/if}
+        </div>
         <p class="en">{example.en}</p>
         <!-- Named, so it is clear which tense you are looking at. -->
         <p class="tense">{tenseById(example.tense)?.label ?? example.tense}</p>
@@ -78,6 +84,8 @@
 
   ul { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 10px; }
   li { display: grid; gap: 1px; }
+  .line { display: flex; align-items: center; gap: 8px; }
+  .line .pt { flex: 1; }
   .pt { margin: 0; font-size: 14px; font-weight: 700; }
   .en { margin: 0; font-size: 12px; color: var(--muted); }
   .tense { margin: 1px 0 0; font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--warn); opacity: 0.85; }

@@ -71,12 +71,38 @@ describe('verb examples', () => {
 
   /**
    * The point of the coverage: narrowing your tenses must not empty the panel.
-   * Every verb has at least one sentence in every tense, so whatever single tense
-   * is selected there is still something to show.
+   *
+   * Not quite every verb in every tense — a few refuse honestly. "Ontem chamei-me
+   * Pedro" is not a stilted sentence, it is a false one, so `chamar-se` has no
+   * past. The bar is that nearly every verb is covered in each tense, and that no
+   * verb is thin across the board.
    */
-  it.each(TENSE_IDS)('every verb has a sentence in %s', (tense) => {
-    const missing = entries.filter(([, ex]) => !ex.some(e => e.tense === tense)).map(([v]) => v)
-    expect(missing).toEqual([])
+  it.each(TENSE_IDS)('nearly every verb has a sentence in %s', (tense) => {
+    const covered = entries.filter(([, ex]) => ex.some(e => e.tense === tense))
+    expect(covered.length / entries.length).toBeGreaterThan(0.9)
+  })
+
+  it('gives every verb at least two tenses, and almost all of them four', () => {
+    const tensesOf = ([, ex]: [string, Ex[]]) => new Set(ex.map(e => e.tense)).size
+    expect(entries.filter(e => tensesOf(e) < 2).map(([v]) => v)).toEqual([])
+    // `chamar-se` is the honest exception: a name has no past or future to speak of.
+    expect(entries.filter(e => tensesOf(e) < 4).map(([v]) => v)).toEqual(['chamar-se'])
+  })
+
+  // The generator moved every verb through every tense mechanically, which is
+  // false for a verb about identity rather than action.
+  it('does not claim a permanent property changed yesterday', () => {
+    const ser = EXAMPLES['ser']!
+    expect(ser.some(e => /ontem fui português/i.test(e.pt))).toBe(false)
+    expect(ser[0]!.pt).toBe('Eu sou português.')
+  })
+
+  it('never writes "I be" for a present-tense be verb', () => {
+    const bad: string[] = []
+    for (const [, ex] of [...entries, ...Object.entries(WORDS)]) {
+      for (const e of ex) if (/^I be\b/.test(e.en)) bad.push(e.en)
+    }
+    expect(bad).toEqual([])
   })
 
   it('labels every sentence with a tense from the registry', () => {
@@ -214,5 +240,25 @@ describe('tense filtering', () => {
     const payload = found!.payload as { examples: unknown[] }
     expect(payload.examples.length).toBeLessThanOrEqual(MAX_EXAMPLES)
     expect(payload.examples.length).toBeGreaterThanOrEqual(2)
+  })
+})
+
+describe('speech in the examples payload', () => {
+  const card = () => CARDS.find(c => c.en === 'to sleep')!
+  const payload = (speech: boolean) =>
+    annotationsFor(card(), { settings: { ...DEFAULT_SETTINGS, speech } })
+      .find(a => a.kind.id === 'examples')!.payload as { speech: boolean }
+
+  // Carried in the payload so the panel needs no settings of its own.
+  it('follows the setting', () => {
+    expect(payload(true).speech).toBe(true)
+    expect(payload(false).speech).toBe(false)
+  })
+
+  it('does not otherwise change what is offered', () => {
+    const on = annotationsFor(card(), { settings: DEFAULT_SETTINGS }).map(a => a.kind.id)
+    const off = annotationsFor(card(), { settings: { ...DEFAULT_SETTINGS, speech: false } })
+      .map(a => a.kind.id)
+    expect(off).toEqual(on)
   })
 })

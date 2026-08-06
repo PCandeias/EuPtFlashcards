@@ -9,7 +9,7 @@
 
   let {
     card, direction, flipped, annotations = [], openAnnotation = null, compact = false,
-    onflip, onswipe, onannotate,
+    speech = true, onflip, onswipe, onannotate,
   }: {
     card: Card
     direction: Direction
@@ -18,6 +18,8 @@
     annotations?: ResolvedAnnotation[]
     /** The id of the annotation whose panel is open, if any. */
     openAnnotation?: string | null
+    /** Whether spoken pronunciation is offered at all. */
+    speech?: boolean
     /** Typing mode adds an input row, so the card yields that space to it. */
     compact?: boolean
     onflip: () => void
@@ -124,7 +126,7 @@
               <div class="hint">{hintFor(card, f.side)}</div>
             {/if}
             <!-- Only the Portuguese: hearing the English back teaches nothing. -->
-            {#if f.side === 'pt'}
+            {#if speech && f.side === 'pt'}
               <SpeakButton text={card.pt} />
             {/if}
             <div class="note">{f.note}</div>

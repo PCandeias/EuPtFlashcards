@@ -32,6 +32,9 @@ export interface ExamplesPayload {
   examples: Example[]
   /** How many were left out because their tense is not selected. */
   hidden: number
+  /** Whether to offer each sentence aloud. Carried here so the panel needs no
+   *  settings of its own — the kind already has them when it resolves. */
+  speech: boolean
 }
 
 /** Shown at once. More than a few stops being an example and becomes a list. */
@@ -75,6 +78,7 @@ export const examplesKind: AnnotationKind<ExamplesPayload> = {
       subject,
       examples: matching.slice(0, MAX_EXAMPLES),
       hidden: all.length - matching.length,
+      speech: settings.speech,
     }
   },
   panel: ExamplesPanel as AnnotationKind<ExamplesPayload>['panel'],

@@ -208,7 +208,7 @@ describe('settings', () => {
   it('round-trips', () => {
     const settings = {
       deck: 'Numbers', direction: 'b-a' as const, theme: 'azulejo' as const,
-      tenses: ['presente' as const, 'futuro' as const],
+      tenses: ['presente' as const, 'futuro' as const], speech: true,
     }
     saveSettings(store, settings)
     expect(loadSettings(store)).toEqual(settings)
@@ -266,7 +266,7 @@ describe('backup', () => {
   const progress: Progress = { 'D::a::b': { ...newState(), interval: 6, reps: 2, reviews: 4 } }
   const settings = {
     deck: 'Class', direction: 'b-a' as const, theme: 'azulejo' as const,
-    tenses: ['presente' as const],
+    tenses: ['presente' as const], speech: true,
   }
 
   it('round-trips', () => {
@@ -310,7 +310,7 @@ describe('migrateTenseScope', () => {
   // remove every card in the tenses it left out.
   it('widens a selection made when the setting meant less', () => {
     saveSettings(store, {
-      deck: 'All', direction: 'a-b', theme: 'slate', tenses: ['presente'],
+      deck: 'All', direction: 'a-b', theme: 'slate', tenses: ['presente'], speech: true,
     })
     expect(migrateTenseScope(store)).toBe(true)
     expect(loadSettings(store).tenses).toEqual([...TENSE_IDS])
@@ -318,12 +318,12 @@ describe('migrateTenseScope', () => {
 
   it('runs only once, so a later narrowing sticks', () => {
     saveSettings(store, {
-      deck: 'All', direction: 'a-b', theme: 'slate', tenses: ['presente'],
+      deck: 'All', direction: 'a-b', theme: 'slate', tenses: ['presente'], speech: true,
     })
     migrateTenseScope(store)
 
     saveSettings(store, {
-      deck: 'All', direction: 'a-b', theme: 'slate', tenses: ['presente'],
+      deck: 'All', direction: 'a-b', theme: 'slate', tenses: ['presente'], speech: true,
     })
     expect(migrateTenseScope(store)).toBe(false)
     expect(loadSettings(store).tenses).toEqual(['presente'])
@@ -336,8 +336,36 @@ describe('migrateTenseScope', () => {
 
   it('does nothing when every tense was already selected', () => {
     saveSettings(store, {
-      deck: 'All', direction: 'a-b', theme: 'slate', tenses: [...TENSE_IDS],
+      deck: 'All', direction: 'a-b', theme: 'slate', tenses: [...TENSE_IDS], speech: true,
     })
     expect(migrateTenseScope(store)).toBe(false)
+  })
+})
+
+describe('the speech setting', () => {
+  it('is on by default', () => {
+    expect(loadSettings(store).speech).toBe(true)
+  })
+
+  it('round-trips when switched off', () => {
+    saveSettings(store, {
+      deck: 'All', direction: 'a-b', theme: 'slate', tenses: [], speech: false,
+    })
+    expect(loadSettings(store).speech).toBe(false)
+  })
+
+  // A stored setting from before this existed must not read as "off".
+  it('defaults to on when the stored settings predate it', () => {
+    store.setItem(KEYS.settings, JSON.stringify({
+      deck: 'All', direction: 'a-b', theme: 'slate', tenses: ['presente'],
+    }))
+    expect(loadSettings(store).speech).toBe(true)
+  })
+
+  it('ignores a value that is not a boolean', () => {
+    store.setItem(KEYS.settings, JSON.stringify({
+      deck: 'All', direction: 'a-b', theme: 'slate', tenses: [], speech: 'yes',
+    }))
+    expect(loadSettings(store).speech).toBe(true)
   })
 })

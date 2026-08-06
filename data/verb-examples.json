@@ -11,11 +11,6 @@
       "tense": "presente"
     },
     {
-      "pt": "Abro a janela.",
-      "en": "I open the window.",
-      "tense": "presente"
-    },
-    {
       "pt": "Estou a abrir a janela.",
       "en": "I am opening the window.",
       "tense": "presenteContinuo"
@@ -817,33 +812,13 @@
     },
     {
       "pt": "Chamo-me Pedro.",
-      "en": "I be called Pedro.",
+      "en": "I am called Pedro.",
       "tense": "presente"
-    },
-    {
-      "pt": "Estou a chamar-me Pedro.",
-      "en": "I am being called Pedro.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "pt": "Ontem chamei-me Pedro.",
-      "en": "Yesterday I was called Pedro.",
-      "tense": "perfeito"
     },
     {
       "pt": "Antigamente chamava-me Pedro.",
       "en": "I used to be called Pedro.",
       "tense": "imperfeito"
-    },
-    {
-      "pt": "Amanhã chamarei-me Pedro.",
-      "en": "Tomorrow I will be called Pedro.",
-      "tense": "futuro"
-    },
-    {
-      "pt": "Vou chamar-me Pedro.",
-      "en": "I am going to be called Pedro.",
-      "tense": "futuroProximo"
     }
   ],
   "chegar": [
@@ -1137,18 +1112,18 @@
       "tense": "presente"
     },
     {
+      "pt": "Conheci-a na escola.",
+      "en": "I met her at school.",
+      "tense": "perfeito"
+    },
+    {
       "pt": "Conheço a cidade.",
       "en": "I know the city.",
       "tense": "presente"
     },
     {
-      "pt": "Estou a conhecer a cidade.",
-      "en": "I am getting to know the city.",
-      "tense": "presenteContinuo"
-    },
-    {
       "pt": "Ontem conheci a cidade.",
-      "en": "Yesterday I knew the city.",
+      "en": "Yesterday I got to know the city.",
       "tense": "perfeito"
     },
     {
@@ -2017,7 +1992,7 @@
     },
     {
       "pt": "Estou em Lisboa.",
-      "en": "I be in Lisbon.",
+      "en": "I am in Lisbon.",
       "tense": "presente"
     },
     {
@@ -2384,19 +2359,9 @@
       "tense": "presente"
     },
     {
-      "pt": "Muitas pessoas habitam aqui.",
-      "en": "Many people live here.",
-      "tense": "presente"
-    },
-    {
       "pt": "Habito nesta cidade.",
       "en": "I live in this city.",
       "tense": "presente"
-    },
-    {
-      "pt": "Estou a habitar nesta cidade.",
-      "en": "I am living in this city.",
-      "tense": "presenteContinuo"
     },
     {
       "pt": "Ontem habitei nesta cidade.",
@@ -2851,11 +2816,6 @@
       "pt": "Moro em Lisboa.",
       "en": "I live in Lisbon.",
       "tense": "presente"
-    },
-    {
-      "pt": "Estou a morar em Lisboa.",
-      "en": "I am living in Lisbon.",
-      "tense": "presenteContinuo"
     },
     {
       "pt": "Ontem morei em Lisboa.",
@@ -3459,13 +3419,8 @@
     },
     {
       "pt": "Posso ajudar.",
-      "en": "I be able to help.",
+      "en": "I am able to help.",
       "tense": "presente"
-    },
-    {
-      "pt": "Estou a poder ajudar.",
-      "en": "I am being able to help.",
-      "tense": "presenteContinuo"
     },
     {
       "pt": "Ontem pude ajudar.",
@@ -3540,11 +3495,6 @@
       "pt": "Prefiro chá.",
       "en": "I prefer tea.",
       "tense": "presente"
-    },
-    {
-      "pt": "Estou a preferir chá.",
-      "en": "I am preferring tea.",
-      "tense": "presenteContinuo"
     },
     {
       "pt": "Ontem preferi chá.",
@@ -3821,11 +3771,6 @@
       "tense": "presente"
     },
     {
-      "pt": "Estou a saber a resposta.",
-      "en": "I am knowing the answer.",
-      "tense": "presenteContinuo"
-    },
-    {
       "pt": "Ontem soube a resposta.",
       "en": "Yesterday I knew the answer.",
       "tense": "perfeito"
@@ -3969,33 +3914,28 @@
       "tense": "presente"
     },
     {
-      "pt": "Sou português.",
-      "en": "I be Portuguese.",
+      "pt": "Sou pontual.",
+      "en": "I am punctual.",
       "tense": "presente"
     },
     {
-      "pt": "Estou a ser português.",
-      "en": "I am being Portuguese.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "pt": "Ontem fui português.",
-      "en": "Yesterday I was Portuguese.",
+      "pt": "Ontem fui pontual.",
+      "en": "Yesterday I was punctual.",
       "tense": "perfeito"
     },
     {
-      "pt": "Antigamente era português.",
-      "en": "I used to be Portuguese.",
+      "pt": "Antigamente era pontual.",
+      "en": "I used to be punctual.",
       "tense": "imperfeito"
     },
     {
-      "pt": "Amanhã serei português.",
-      "en": "Tomorrow I will be Portuguese.",
+      "pt": "Amanhã serei pontual.",
+      "en": "Tomorrow I will be punctual.",
       "tense": "futuro"
     },
     {
-      "pt": "Vou ser português.",
-      "en": "I am going to be Portuguese.",
+      "pt": "Vou ser pontual.",
+      "en": "I am going to be punctual.",
       "tense": "futuroProximo"
     }
   ],
@@ -4038,38 +3978,38 @@
   ],
   "ter": [
     {
-      "pt": "Tens tempo agora?",
-      "en": "Do you have time now?",
-      "tense": "presente"
-    },
-    {
       "pt": "Tenho dois irmãos.",
       "en": "I have two brothers.",
       "tense": "presente"
     },
     {
-      "pt": "Estou a ter dois irmãos.",
-      "en": "I am having two brothers.",
-      "tense": "presenteContinuo"
+      "pt": "Tens tempo agora?",
+      "en": "Do you have time now?",
+      "tense": "presente"
     },
     {
-      "pt": "Ontem tive dois irmãos.",
-      "en": "Yesterday I had two brothers.",
+      "pt": "Tenho tempo.",
+      "en": "I have time.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Ontem tive tempo.",
+      "en": "Yesterday I had time.",
       "tense": "perfeito"
     },
     {
-      "pt": "Antigamente tinha dois irmãos.",
-      "en": "I used to have two brothers.",
+      "pt": "Antigamente tinha tempo.",
+      "en": "I used to have time.",
       "tense": "imperfeito"
     },
     {
-      "pt": "Amanhã terei dois irmãos.",
-      "en": "Tomorrow I will have two brothers.",
+      "pt": "Amanhã terei tempo.",
+      "en": "Tomorrow I will have time.",
       "tense": "futuro"
     },
     {
-      "pt": "Vou ter dois irmãos.",
-      "en": "I am going to have two brothers.",
+      "pt": "Vou ter tempo.",
+      "en": "I am going to have time.",
       "tense": "futuroProximo"
     }
   ],
@@ -4522,14 +4462,14 @@
   ],
   "viver": [
     {
-      "pt": "Vivo em Portugal.",
-      "en": "I live in Portugal.",
+      "pt": "Vivemos aqui há cinco anos.",
+      "en": "We have lived here for five years.",
       "tense": "presente"
     },
     {
-      "pt": "Estou a viver em Portugal.",
-      "en": "I am living in Portugal.",
-      "tense": "presenteContinuo"
+      "pt": "Vivo em Portugal.",
+      "en": "I live in Portugal.",
+      "tense": "presente"
     },
     {
       "pt": "Ontem vivi em Portugal.",
