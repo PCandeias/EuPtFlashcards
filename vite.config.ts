@@ -31,6 +31,10 @@ export default defineConfig({
       workbox: {
         // The whole app, cards included, is precached — it must work with no network.
         globPatterns: ['**/*.{js,css,html,png,svg,webmanifest}'],
+        // Every navigation otherwise falls back to index.html, which would serve
+        // this app in place of the standalone backup copy — making the backup
+        // unreachable for exactly the people who have the app installed.
+        navigateFallbackDenylist: [/european_portugese_flashcards\.html$/],
       },
     }),
   ],

@@ -8,6 +8,12 @@ offline web app with spaced repetition.
 Add it to your iPhone home screen (Share → Add to Home Screen) and it runs
 standalone with no network.
 
+**Fallback:** the original single-file version is kept at
+[`/european_portugese_flashcards.html`](https://pcandeias.github.io/EuPtFlashcards/european_portugese_flashcards.html),
+carrying the same corrected cards. It stores its progress separately, and it is
+excluded from the service worker's navigation fallback — otherwise, once the app
+is installed, that URL would quietly serve the new app instead of the backup.
+
 ## The card model
 
 Grammatical metadata never appears inside the word. `"you come"` is the word;
