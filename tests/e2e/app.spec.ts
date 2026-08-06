@@ -57,7 +57,7 @@ test('loads the full corpus', async ({ page }) => {
   await page.goto('./')
   await expect(page.locator('.card')).toBeVisible()
   await expect(page.locator('h1')).toContainText('European Portuguese')
-  await expect(page.locator('#totalCount')).toHaveText('1852')
+  await expect(page.locator('#totalCount')).toHaveText('2093')
 })
 
 test('renders a plural badge on the English face and none on the Portuguese', async ({ page }) => {
@@ -842,7 +842,7 @@ test.describe('studying by tense', () => {
     await page.goto('./')
     await page.evaluate(() => localStorage.clear())
     await page.reload()
-    await expect(page.locator('#totalCount')).toHaveText('1852')
+    await expect(page.locator('#totalCount')).toHaveText('2093')
   })
 
   test('hides cards in a tense that is switched off', async ({ page }) => {
@@ -850,15 +850,15 @@ test.describe('studying by tense', () => {
     await setTenses(page, ['presente', 'perfeito', 'imperfeito', 'futuro', 'futuroProximo'])
     await page.reload()
     // The 139 continuous cards drop out; nothing else does.
-    await expect(page.locator('#totalCount')).toHaveText(String(1852 - 139))
+    await expect(page.locator('#totalCount')).toHaveText(String(2093 - 139))
   })
 
   test('keeps vocabulary and infinitives whatever is selected', async ({ page }) => {
     await page.goto('./')
     await setTenses(page, [])
     await page.reload()
-    // Only the 260 tense-bearing cards go.
-    await expect(page.locator('#totalCount')).toHaveText(String(1852 - 260))
+    // Only the 501 tense-bearing cards go.
+    await expect(page.locator('#totalCount')).toHaveText(String(2093 - 501))
 
     // A noun and an infinitive are both still reachable.
     await page.selectOption('#deckSelect', 'Common Verbs')
@@ -908,6 +908,6 @@ test.describe('studying by tense', () => {
       }))
     })
     await page.reload()
-    await expect(page.locator('#totalCount')).toHaveText('1852')
+    await expect(page.locator('#totalCount')).toHaveText('2093')
   })
 })

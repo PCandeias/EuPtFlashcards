@@ -1,6 +1,6 @@
 # European Portuguese Flashcards
 
-1853 European Portuguese vocabulary cards across 27 decks, as an installable
+2093 European Portuguese vocabulary cards across 31 decks, as an installable
 offline web app with spaced repetition.
 
 **Live:** https://pcandeias.github.io/EuPtFlashcards/

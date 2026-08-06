@@ -25,7 +25,7 @@ test('carries the same corrected cards as the app', async ({ page }) => {
   const cards = await page.evaluate(() =>
     JSON.parse(document.getElementById('cards-data')!.textContent!))
 
-  expect(cards).toHaveLength(1852)
+  expect(cards).toHaveLength(2093)
   // The accuracy review's corrections must be in the fallback too, or it would
   // sit there teaching the errors we removed.
   const gloss = (pt: string) =>

@@ -1,0 +1,355 @@
+{
+  "deck": "Past Habits (Imperfeito)",
+  "cards": [
+    {
+      "en": "I used to be",
+      "pt": "eu era",
+      "tense": "imperfeito",
+      "sense": "permanent / identity"
+    },
+    {
+      "en": "you used to be",
+      "pt": "tu eras",
+      "tense": "imperfeito",
+      "tags": [
+        "informal"
+      ],
+      "sense": "permanent / identity"
+    },
+    {
+      "en": "he / she used to be",
+      "pt": "ele / ela era",
+      "tense": "imperfeito",
+      "sense": "permanent / identity"
+    },
+    {
+      "en": "we used to be",
+      "pt": "nós éramos",
+      "tense": "imperfeito",
+      "sense": "permanent / identity"
+    },
+    {
+      "en": "they used to be",
+      "pt": "eles / elas eram",
+      "tense": "imperfeito",
+      "sense": "permanent / identity"
+    },
+    {
+      "en": "I used to be",
+      "pt": "eu estava",
+      "tense": "imperfeito",
+      "sense": "temporary / location"
+    },
+    {
+      "en": "you used to be",
+      "pt": "tu estavas",
+      "tense": "imperfeito",
+      "tags": [
+        "informal"
+      ],
+      "sense": "temporary / location"
+    },
+    {
+      "en": "he / she used to be",
+      "pt": "ele / ela estava",
+      "tense": "imperfeito",
+      "sense": "temporary / location"
+    },
+    {
+      "en": "we used to be",
+      "pt": "nós estávamos",
+      "tense": "imperfeito",
+      "sense": "temporary / location"
+    },
+    {
+      "en": "they used to be",
+      "pt": "eles / elas estavam",
+      "tense": "imperfeito",
+      "sense": "temporary / location"
+    },
+    {
+      "en": "I used to have",
+      "pt": "eu tinha",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "you used to have",
+      "pt": "tu tinhas",
+      "tense": "imperfeito",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she used to have",
+      "pt": "ele / ela tinha",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "we used to have",
+      "pt": "nós tínhamos",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "they used to have",
+      "pt": "eles / elas tinham",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "I used to go",
+      "pt": "eu ia",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "you used to go",
+      "pt": "tu ias",
+      "tense": "imperfeito",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she used to go",
+      "pt": "ele / ela ia",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "we used to go",
+      "pt": "nós íamos",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "they used to go",
+      "pt": "eles / elas iam",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "I used to do",
+      "pt": "eu fazia",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "you used to do",
+      "pt": "tu fazias",
+      "tense": "imperfeito",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she used to do",
+      "pt": "ele / ela fazia",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "we used to do",
+      "pt": "nós fazíamos",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "they used to do",
+      "pt": "eles / elas faziam",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "I used to eat",
+      "pt": "eu comia",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "you used to eat",
+      "pt": "tu comias",
+      "tense": "imperfeito",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she used to eat",
+      "pt": "ele / ela comia",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "we used to eat",
+      "pt": "nós comíamos",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "they used to eat",
+      "pt": "eles / elas comiam",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "I used to drink",
+      "pt": "eu bebia",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "you used to drink",
+      "pt": "tu bebias",
+      "tense": "imperfeito",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she used to drink",
+      "pt": "ele / ela bebia",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "we used to drink",
+      "pt": "nós bebíamos",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "they used to drink",
+      "pt": "eles / elas bebiam",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "I used to speak",
+      "pt": "eu falava",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "you used to speak",
+      "pt": "tu falavas",
+      "tense": "imperfeito",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she used to speak",
+      "pt": "ele / ela falava",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "we used to speak",
+      "pt": "nós falávamos",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "they used to speak",
+      "pt": "eles / elas falavam",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "I used to work",
+      "pt": "eu trabalhava",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "you used to work",
+      "pt": "tu trabalhavas",
+      "tense": "imperfeito",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she used to work",
+      "pt": "ele / ela trabalhava",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "we used to work",
+      "pt": "nós trabalhávamos",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "they used to work",
+      "pt": "eles / elas trabalhavam",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "I used to see",
+      "pt": "eu via",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "you used to see",
+      "pt": "tu vias",
+      "tense": "imperfeito",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she used to see",
+      "pt": "ele / ela via",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "we used to see",
+      "pt": "nós víamos",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "they used to see",
+      "pt": "eles / elas viam",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "I used to live in Porto",
+      "pt": "eu morava no Porto",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "when I was a child",
+      "pt": "quando eu era criança",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "we used to go to the beach",
+      "pt": "íamos à praia",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "she used to work here",
+      "pt": "ela trabalhava aqui",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "I used to have a dog",
+      "pt": "eu tinha um cão",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "the weather was good",
+      "pt": "estava bom tempo",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "we used to speak Portuguese",
+      "pt": "falávamos português",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "he used to be my neighbour",
+      "pt": "ele era o meu vizinho",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "I used to eat there every day",
+      "pt": "eu comia ali todos os dias",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "there were a lot of people",
+      "pt": "havia muita gente",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "I was very tired",
+      "pt": "estava muito cansado / cansada",
+      "tense": "imperfeito"
+    },
+    {
+      "en": "we used to study together",
+      "pt": "estudávamos juntos",
+      "tense": "imperfeito"
+    }
+  ]
+}

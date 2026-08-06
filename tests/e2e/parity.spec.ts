@@ -7,10 +7,10 @@ import { dirname, join } from 'node:path'
  * Guards the card corpus against drifting by accident.
  *
  * The reference began as a frozen snapshot of the single-file app and has been
- * updated once since, deliberately: the 2026-08 accuracy review corrected twelve
- * cards (see the commit for each one and why). The renders snapshot alongside it
- * still records what the original app drew for cards covering every branch of the
- * badge logic.
+ * updated deliberately since — the accuracy review corrected twelve cards, and the
+ * tense decks added several hundred. Each update is its own commit, saying which
+ * cards changed and why. The renders snapshot alongside it still records what the
+ * original app drew for cards covering every branch of the badge logic.
  *
  * Regenerate deliberately, never to make a red test green: a diff here means
  * either a real regression or an intended change to how cards read.
@@ -27,6 +27,7 @@ interface LegacyCard {
   tags?: string[]
   ptTags?: string[]
   sense?: string
+  tense?: string
 }
 
 interface LegacyRender {
@@ -45,6 +46,9 @@ const key = (c: LegacyCard) => `${c.deck}::${c.en}::${c.pt}`
 const shape = (c: LegacyCard) => JSON.stringify({
   en: c.en, pt: c.pt,
   tags: c.tags ?? [], ptTags: c.ptTags ?? [], sense: c.sense ?? null,
+  // Tracked too: the tense decides whether a card is shown at all, so a stray
+  // retag would quietly change what the deck contains.
+  tense: c.tense ?? null,
 })
 
 function loadPorted(): LegacyCard[] {
