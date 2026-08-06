@@ -172,7 +172,10 @@ button:active { transform: translateY(1px); }
 
 /* Installed on iOS the app runs under the notch and home indicator. */
 .app {
-  height: 100svh;
+  /* min-height, not height: the layout fills the screen when it fits, and scrolls
+     rather than letting the card paint over the controls when something expands
+     (the tense settings, for instance). */
+  min-height: 100svh;
   width: min(1080px, 100%);
   margin: 0 auto;
   padding: 16px;

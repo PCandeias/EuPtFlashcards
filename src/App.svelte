@@ -23,6 +23,8 @@
     loadHistory, saveHistory, type Settings,
   } from './lib/storage/progress.js'
   import { runMigration } from './lib/storage/migrate.js'
+  import { verbOf } from './lib/verbs/detect.js'
+  import ConjugationPanel from './components/ConjugationPanel.svelte'
 
   // Runs before the first read, so a returning user's history is already in place.
   const migration = runMigration(localStorage, CARDS)
@@ -33,6 +35,7 @@
   let flipped = $state(false)
   let now = $state(Date.now())
   let typing = $state(false)
+  let conjugating = $state(false)
 
   const counts = deckCounts()
   const deckOptions: Array<[string, number]> = [
@@ -71,6 +74,11 @@
   // In typing mode the answer is whatever the hidden face holds.
   let answerText = $derived(current ? (settings.direction === 'a-b' ? current.pt : current.en) : '')
   let currentState = $derived(current ? stateFor(progress, current) : undefined)
+  let currentVerb = $derived(current ? verbOf(current) : null)
+  // Closes itself when the card changes or the verb becomes unavailable.
+  let showConjugation = $derived(conjugating && !!currentVerb && settings.tenses.length > 0)
+
+  $effect(() => { void current; conjugating = false })
   let summary = $derived(stats(progress))
   // The attribute drives every palette variable; the meta tag makes the iOS status
   // bar match, which is the difference between installed and "a website".
@@ -192,14 +200,26 @@
     </div>
 
     {#if current}
+      <div class="cardarea">
       <CardView
         card={current}
         direction={settings.direction}
         {flipped}
+        verb={settings.tenses.length ? currentVerb : null}
+        {conjugating}
         compact={typing}
         onflip={flip}
         onswipe={move}
+        onconjugate={() => { conjugating = !conjugating }}
       />
+      {#if showConjugation && currentVerb}
+        <ConjugationPanel
+          infinitive={currentVerb}
+          enabledTenses={settings.tenses}
+          onclose={() => { conjugating = false }}
+        />
+      {/if}
+      </div>
     {:else}
       <div class="empty">No cards in this deck.</div>
     {/if}
@@ -227,6 +247,7 @@
     {settings}
     migrationNote={migration}
     {history}
+    ontenses={(tenses) => changeSettings({ tenses })}
     onimport={(nextProgress, nextHistory) => {
       progress = nextProgress
       history = nextHistory
@@ -259,6 +280,9 @@
     font-size: 13px;
   }
   .meta .deckname { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  /* The conjugation panel is positioned against this, not against the card — the
+     card's face clips its children and lives in the flip's 3D context. */
+  .cardarea { position: relative; min-height: 0; display: grid; }
   .empty { padding: 40px; text-align: center; color: var(--muted); }
 
   @media (max-width: 760px) {

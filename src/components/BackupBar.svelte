@@ -6,15 +6,18 @@
   import type { Settings } from '../lib/storage/progress.js'
   import type { Progress } from '../lib/study/scheduler.js'
   import type { MigrationResult } from '../lib/storage/migrate.js'
+  import TenseSettings from './TenseSettings.svelte'
+  import type { TenseId } from '../lib/verbs/tenses.js'
 
   let {
-    progress, settings, history, migrationNote, onimport,
+    progress, settings, history, migrationNote, onimport, ontenses,
   }: {
     progress: Progress
     settings: Settings
     history: History
     migrationNote: MigrationResult | null
     onimport: (progress: Progress, history: History) => void
+    ontenses: (tenses: TenseId[]) => void
   } = $props()
 
   let message = $state('')
@@ -69,6 +72,8 @@
   {#if migrationMessage}
     <p class="migration">{migrationMessage}</p>
   {/if}
+  <TenseSettings selected={settings.tenses} onchange={ontenses} />
+
   <div class="row">
     <button onclick={exportBackup}>Export backup</button>
     <button onclick={() => fileInput.click()}>Import backup</button>

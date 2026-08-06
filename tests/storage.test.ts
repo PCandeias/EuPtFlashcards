@@ -203,8 +203,48 @@ describe('settings', () => {
   })
 
   it('round-trips', () => {
-    saveSettings(store, { deck: 'Numbers', direction: 'b-a', theme: 'azulejo' })
-    expect(loadSettings(store)).toEqual({ deck: 'Numbers', direction: 'b-a', theme: 'azulejo' })
+    const settings = {
+      deck: 'Numbers', direction: 'b-a' as const, theme: 'azulejo' as const,
+      tenses: ['presente' as const, 'futuro' as const],
+    }
+    saveSettings(store, settings)
+    expect(loadSettings(store)).toEqual(settings)
+  })
+
+  it('defaults to the tenses a beginner needs first', () => {
+    expect(loadSettings(store).tenses).toEqual(['presente', 'futuroProximo'])
+  })
+
+  // A tense could be renamed or dropped in a later version; the rest must survive.
+  it('drops unknown tenses without discarding the known ones', () => {
+    store.setItem(KEYS.settings, JSON.stringify({
+      deck: 'All', direction: 'a-b', theme: 'slate',
+      tenses: ['presente', 'mais-que-perfeito', 'futuro'],
+    }))
+    expect(loadSettings(store).tenses).toEqual(['presente', 'futuro'])
+  })
+
+  it('keeps tenses in registry order however they were stored', () => {
+    store.setItem(KEYS.settings, JSON.stringify({
+      deck: 'All', direction: 'a-b', theme: 'slate',
+      tenses: ['futuro', 'presente'],
+    }))
+    expect(loadSettings(store).tenses).toEqual(['presente', 'futuro'])
+  })
+
+  it('deduplicates', () => {
+    store.setItem(KEYS.settings, JSON.stringify({
+      deck: 'All', direction: 'a-b', theme: 'slate', tenses: ['presente', 'presente'],
+    }))
+    expect(loadSettings(store).tenses).toEqual(['presente'])
+  })
+
+  // Turning every tense off is a legitimate way to switch the feature off.
+  it('accepts an empty selection', () => {
+    store.setItem(KEYS.settings, JSON.stringify({
+      deck: 'All', direction: 'a-b', theme: 'slate', tenses: [],
+    }))
+    expect(loadSettings(store).tenses).toEqual([])
   })
 
   it('defaults to the original palette', () => {
@@ -219,7 +259,10 @@ describe('settings', () => {
 
 describe('backup', () => {
   const progress: Progress = { 'D::a::b': { ...newState(), interval: 6, reps: 2, reviews: 4 } }
-  const settings = { deck: 'Class', direction: 'b-a' as const, theme: 'azulejo' as const }
+  const settings = {
+    deck: 'Class', direction: 'b-a' as const, theme: 'azulejo' as const,
+    tenses: ['presente' as const],
+  }
 
   it('round-trips', () => {
     const file = buildBackup(progress, settings, '2026-08-06T00:00:00.000Z')

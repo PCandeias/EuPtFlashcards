@@ -71,8 +71,11 @@
     #typeBtn, #shuffleBtn, #resetBtn { min-height: 38px; font-size: 13px; }
     select { min-height: 40px; font-size: 14px; }
   }
+  /* Six full-width rows on a narrow phone left no room for the card. Two columns
+     halves the toolbar's height, which is what the card needs back. */
   @media (max-width: 420px) {
-    .topbar { grid-template-columns: 1fr; }
+    .topbar { grid-template-columns: 1fr 1fr; }
+    #deckSelect { grid-column: 1 / -1; }
   }
   /* These used to be hidden on short screens to claw back vertical space. The
      card now absorbs the slack instead, and hiding them would put the typing

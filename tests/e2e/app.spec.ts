@@ -483,6 +483,27 @@ test.describe('themes', () => {
   })
 })
 
+/**
+ * The settled height, not whatever frame we happen to catch.
+ *
+ * Opening typing mode changes the card's cap and runs a short animation, so an
+ * immediate read can catch a transient value — which showed up as an occasional
+ * failure only under parallel load.
+ */
+async function settledScrollHeight(page: import('@playwright/test').Page): Promise<number> {
+  return page.evaluate(async () => {
+    const read = () => document.documentElement.scrollHeight
+    let previous = read()
+    for (let i = 0; i < 30; i++) {
+      await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)))
+      const current = read()
+      if (current === previous) return current
+      previous = current
+    }
+    return previous
+  })
+}
+
 test.describe('layout', () => {
   // The card used to be sized by calc(100svh - 300px); adding a single row broke
   // it twice. The grid now guarantees the fit, so this is the regression guard.
@@ -492,12 +513,12 @@ test.describe('layout', () => {
       await page.goto('./')
       await expect(page.locator('.card')).toBeVisible()
 
-      const flip = await page.evaluate(() => document.documentElement.scrollHeight)
+      const flip = await settledScrollHeight(page)
       expect(flip, 'flip mode should not overflow').toBeLessThanOrEqual(height!)
 
       await page.click('#typeBtn')
       await expect(page.locator('#answerInput')).toBeVisible()
-      const typing = await page.evaluate(() => document.documentElement.scrollHeight)
+      const typing = await settledScrollHeight(page)
       expect(typing, 'typing mode should not overflow').toBeLessThanOrEqual(height!)
     })
   }
@@ -508,5 +529,154 @@ test.describe('layout', () => {
     await page.goto('./')
     await expect(page.locator('#typeBtn')).toBeVisible()
     await expect(page.locator('#shuffleBtn')).toBeVisible()
+  })
+})
+
+test.describe('verb conjugation', () => {
+  /** Walks to a specific card in a deck. */
+  async function goToCard(page: import('@playwright/test').Page, deck: string, pt: string) {
+    await page.selectOption('#deckSelect', deck)
+    const found = await page.evaluate(async (want) => {
+      for (let i = 0; i < 600; i++) {
+        const back = document.querySelector('.face.back .word')
+        if (back?.childNodes[0]?.textContent?.trim() === want) return true
+        ;(document.getElementById('nextBtn') as HTMLButtonElement).click()
+        await new Promise(r => requestAnimationFrame(r))
+      }
+      return false
+    }, pt)
+    expect(found, `should reach ${pt}`).toBe(true)
+    // Controls on a face are only reachable once that face is showing — the
+    // hidden side does not take clicks.
+    await page.click('#flipBtn')
+    await expect(page.locator('.card')).toHaveClass(/flipped/)
+  }
+
+  async function enableAllTenses(page: import('@playwright/test').Page) {
+    await page.evaluate(() => {
+      const s = JSON.parse(localStorage.getItem('eupt:v4:settings') ?? '{}')
+      s.tenses = ['presente', 'perfeito', 'imperfeito', 'futuro', 'futuroProximo']
+      localStorage.setItem('eupt:v4:settings', JSON.stringify(s))
+    })
+    await page.reload()
+    await expect(page.locator('.card')).toBeVisible()
+  }
+
+  test('marks a verb and shows its conjugation', async ({ page }) => {
+    await page.goto('./')
+    await enableAllTenses(page)
+    await goToCard(page, 'Common Verbs', 'dormir')
+
+    await page.click('.face.back .marker')
+    const panel = page.locator('#conjugationPanel')
+    await expect(panel).toBeVisible()
+
+    // The whole point: a regular rule would give "eu dormo", which is wrong.
+    await expect(panel).toContainText('durmo')
+    await expect(panel).toContainText('dormes')
+    await expect(panel).toContainText('dormimos')
+  })
+
+  test('does not mark a card that is not a verb', async ({ page }) => {
+    await page.goto('./')
+    await enableAllTenses(page)
+    await goToCard(page, 'Numbers', 'zero')
+    await expect(page.locator('.marker')).toHaveCount(0)
+  })
+
+  test('switches tense from the dropdown', async ({ page }) => {
+    await page.goto('./')
+    await enableAllTenses(page)
+    await goToCard(page, 'Common Verbs', 'dormir')
+    await page.click('.face.back .marker')
+
+    await page.selectOption('#tenseSelect', 'perfeito')
+    await expect(page.locator('#conjugationPanel')).toContainText('dormi')
+    await page.selectOption('#tenseSelect', 'futuroProximo')
+    await expect(page.locator('#conjugationPanel')).toContainText('vou dormir')
+  })
+
+  test('opening the conjugation does not flip the card', async ({ page }) => {
+    await page.goto('./')
+    await enableAllTenses(page)
+    await goToCard(page, 'Common Verbs', 'dormir')
+    await page.click('.face.back .marker')
+    // Tapping the card flips it, so the marker must swallow the gesture.
+    await expect(page.locator('.card')).toHaveClass(/flipped/)
+  })
+
+  test('closes on Escape, on the close button, and when the card changes', async ({ page }) => {
+    await page.goto('./')
+    await enableAllTenses(page)
+    await goToCard(page, 'Common Verbs', 'dormir')
+
+    await page.click('.face.back .marker')
+    await expect(page.locator('#conjugationPanel')).toBeVisible()
+    await page.keyboard.press('Escape')
+    await expect(page.locator('#conjugationPanel')).toHaveCount(0)
+
+    await page.click('.face.back .marker')
+    await page.click('#conjugationPanel .close')
+    await expect(page.locator('#conjugationPanel')).toHaveCount(0)
+
+    await page.click('.face.back .marker')
+    await expect(page.locator('#conjugationPanel')).toBeVisible()
+    await page.click('#nextBtn')
+    await expect(page.locator('#conjugationPanel')).toHaveCount(0)
+  })
+
+  test('offers only the tenses selected in settings', async ({ page }) => {
+    await page.goto('./')
+    await page.evaluate(() => {
+      const s = JSON.parse(localStorage.getItem('eupt:v4:settings') ?? '{}')
+      s.tenses = ['presente']
+      localStorage.setItem('eupt:v4:settings', JSON.stringify(s))
+    })
+    await page.reload()
+    await goToCard(page, 'Common Verbs', 'dormir')
+    await page.click('.face.back .marker')
+
+    // A single tense needs no dropdown.
+    await expect(page.locator('#tenseSelect')).toHaveCount(0)
+    await expect(page.locator('#conjugationPanel')).toContainText('Presente')
+    await expect(page.locator('#conjugationPanel')).not.toContainText('Futuro')
+  })
+
+  test('turning every tense off removes the marker entirely', async ({ page }) => {
+    await page.goto('./')
+    await page.evaluate(() => {
+      const s = JSON.parse(localStorage.getItem('eupt:v4:settings') ?? '{}')
+      s.tenses = []
+      localStorage.setItem('eupt:v4:settings', JSON.stringify(s))
+    })
+    await page.reload()
+    await goToCard(page, 'Common Verbs', 'dormir')
+    await expect(page.locator('.marker')).toHaveCount(0)
+  })
+
+  test('the settings checkboxes drive it, and persist', async ({ page }) => {
+    await page.goto('./')
+    await page.evaluate(() => localStorage.clear())
+    await page.reload()
+
+    await page.click('#tenseSettings')
+    await page.check('input[value="imperfeito"]')
+    await page.reload()
+
+    await page.click('#tenseSettings')
+    await expect(page.locator('input[value="imperfeito"]')).toBeChecked()
+
+    await goToCard(page, 'Common Verbs', 'dormir')
+    await page.click('.face.back .marker')
+    await page.selectOption('#tenseSelect', 'imperfeito')
+    await expect(page.locator('#conjugationPanel')).toContainText('dormia')
+  })
+
+  test('conjugates a phrase, keeping what follows the verb', async ({ page }) => {
+    await page.goto('./')
+    await enableAllTenses(page)
+    await goToCard(page, 'Daily Routine', 'tomar o pequeno-almoço')
+    await page.click('.face.back .marker')
+    await expect(page.locator('#conjugationPanel')).toContainText('tomo o pequeno-almoço')
   })
 })

@@ -1,20 +1,26 @@
 <script lang="ts">
   import Badge from './Badge.svelte'
   import SpeakButton from './SpeakButton.svelte'
+  import ConjugationButton from './ConjugationButton.svelte'
   import { badgesFor, hintFor } from '../lib/render/tags.js'
   import { cardId, type Card } from '../lib/cards/schema.js'
   import type { Direction } from '../lib/storage/progress.js'
 
   let {
-    card, direction, flipped, compact = false, onflip, onswipe,
+    card, direction, flipped, verb = null, conjugating = false, compact = false,
+    onflip, onswipe, onconjugate,
   }: {
     card: Card
     direction: Direction
     flipped: boolean
+    /** The conjugable infinitive on this card, if it has one. */
+    verb?: string | null
+    conjugating?: boolean
     /** Typing mode adds an input row, so the card yields that space to it. */
     compact?: boolean
     onflip: () => void
     onswipe: (delta: number) => void
+    onconjugate?: () => void
   } = $props()
 
   const LANG_LABEL = 'Portuguese · Portugal'
@@ -99,6 +105,15 @@
                   {/each}
                 </span>
               {/if}
+              <!-- The conjugation belongs to the Portuguese verb, so the marker
+                   sits with it; the panel itself is rendered outside the card. -->
+              {#if verb && f.side === 'pt' && onconjugate}
+                <ConjugationButton
+                  infinitive={verb}
+                  active={conjugating}
+                  ontoggle={onconjugate}
+                />
+              {/if}
             </div>
             {#if hintFor(card, f.side)}
               <div class="hint">{hintFor(card, f.side)}</div>
@@ -134,7 +149,7 @@
   }
   .card {
     height: 100%;
-    min-height: 140px;
+    min-height: 120px;
     position: relative;
     transform-style: preserve-3d;
     transition: transform var(--t-flip) var(--ease);
@@ -157,6 +172,11 @@
     overflow: hidden;
   }
   .back { transform: rotateY(180deg); }
+
+  /* Hit-testing should match what is visible: the hidden face must not catch
+     clicks aimed at the one facing you, or intercept clicks meant for the card. */
+  .card:not(.flipped) .back,
+  .card.flipped .front { pointer-events: none; }
 
   .content {
     display: flex;
@@ -218,5 +238,6 @@
      cannot be answered without it. */
   @media (max-height: 700px) and (max-width: 760px) {
     .note { display: none; }
+    .card { min-height: 96px; }
   }
 </style>

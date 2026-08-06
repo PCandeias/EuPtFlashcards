@@ -11,6 +11,7 @@
 import type { Progress } from '../study/scheduler.js'
 import type { ReviewState } from '../study/sm2.js'
 import { sanitizeHistory, type History } from '../study/history.js'
+import { TENSE_IDS, isTenseId, type TenseId } from '../verbs/tenses.js'
 
 export interface StorageLike {
   getItem(key: string): string | null
@@ -58,9 +59,17 @@ export interface Settings {
   deck: string
   direction: Direction
   theme: Theme
+  /** Tenses offered in the conjugation panel. Empty means the panel is off. */
+  tenses: TenseId[]
 }
 
-export const DEFAULT_SETTINGS: Settings = { deck: 'All', direction: 'a-b', theme: 'slate' }
+export const DEFAULT_SETTINGS: Settings = {
+  deck: 'All',
+  direction: 'a-b',
+  theme: 'slate',
+  // The two a beginner needs first; the rest are opt-in.
+  tenses: ['presente', 'futuroProximo'],
+}
 
 function readJson(storage: StorageLike, key: string): unknown {
   const raw = storage.getItem(key)
@@ -119,6 +128,14 @@ export function sanitizeSettings(value: unknown): Settings {
       ? v.direction
       : DEFAULT_SETTINGS.direction,
     theme: THEMES.includes(v.theme as Theme) ? (v.theme as Theme) : DEFAULT_SETTINGS.theme,
+    // Unknown ids are dropped rather than rejected wholesale, so a stored setting
+    // survives a tense being renamed or removed. An empty list is legitimate: it
+    // turns the panel off.
+    tenses: Array.isArray(v.tenses)
+      ? [...new Set(v.tenses.filter(isTenseId))].sort(
+          (a, b) => TENSE_IDS.indexOf(a) - TENSE_IDS.indexOf(b),
+        )
+      : [...DEFAULT_SETTINGS.tenses],
   }
 }
 
