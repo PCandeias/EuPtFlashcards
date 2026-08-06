@@ -95,18 +95,25 @@ function groupOf(stem: string): Group | null {
  * Spelling changes that keep a sound constant across endings. These are not
  * irregularities — the verb sounds regular, the orthography just has to work for
  * it — so they are rules rather than table entries.
+ *
+ * Which change applies is decided by the infinitive's ending, not by the root's
+ * last letter. `pagar` and `fingir` both leave a root ending in `g`, but only
+ * `fingir` takes a `j`: it is `finjo` and `pago`, never `pajo`.
  */
-function adjust(root: string, ending: string, tense: TenseId, person: PersonId): string {
-  // -cer / -çar / -ger / -gir only shift before the vowel that would change the sound.
+function adjust(
+  stem: string, root: string, ending: string, tense: TenseId, person: PersonId,
+): string {
   if (tense === 'presente' && person === 'eu') {
-    if (root.endsWith('c')) return root.slice(0, -1) + 'ç' + ending     // conhecer -> conheço
-    if (root.endsWith('g')) return root.slice(0, -1) + 'j' + ending     // fingir -> finjo
-    if (root.endsWith('gu')) return root.slice(0, -2) + 'g' + ending    // seguir -> sigo
+    // A soft c or g stays soft before the o.
+    if (/(cer|cir)$/.test(stem)) return root.slice(0, -1) + 'ç' + ending   // conhecer -> conheço
+    if (/(ger|gir)$/.test(stem)) return root.slice(0, -1) + 'j' + ending   // fingir -> finjo
+    if (/guir$/.test(stem)) return root.slice(0, -2) + 'g' + ending        // seguir -> sigo
   }
   if (tense === 'perfeito' && person === 'eu') {
-    if (root.endsWith('c')) return root.slice(0, -1) + 'qu' + ending    // ficar -> fiquei
-    if (root.endsWith('g')) return root.slice(0, -1) + 'gu' + ending    // chegar -> cheguei
-    if (root.endsWith('ç')) return root.slice(0, -1) + 'c' + ending     // começar -> comecei
+    // A hard c or g stays hard before the ei.
+    if (/car$/.test(stem)) return root.slice(0, -1) + 'qu' + ending        // ficar -> fiquei
+    if (/gar$/.test(stem)) return root.slice(0, -1) + 'gu' + ending        // chegar -> cheguei
+    if (/çar$/.test(stem)) return root.slice(0, -1) + 'c' + ending         // começar -> comecei
   }
   return root + ending
 }
@@ -158,7 +165,7 @@ function regularForms(stem: string, group: Group, tense: TenseId): Forms | null 
       out[person] = root.slice(0, -1) + 'ei' + ending
       return
     }
-    out[person] = adjust(root, ending, tense, person)
+    out[person] = adjust(stem, root, ending, tense, person)
   })
   return out
 }

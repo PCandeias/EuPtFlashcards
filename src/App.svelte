@@ -30,8 +30,8 @@
   import {
     buildBackup, parseBackup, backupFilename, mergeProgress, mergeHistory,
   } from './lib/storage/backup.js'
-  import { verbOf } from './lib/verbs/detect.js'
-  import ConjugationPanel from './components/ConjugationPanel.svelte'
+  import { annotationsFor } from './lib/annotations/index.js'
+
 
   // Runs before the first read, so a returning user's history is already in place.
   const migration = runMigration(localStorage, CARDS)
@@ -43,7 +43,7 @@
   let flipped = $state(false)
   let now = $state(Date.now())
   let typing = $state(false)
-  let conjugating = $state(false)
+  let openAnnotation = $state<string | null>(null)
   let settingsOpen = $state(false)
   let resetOpen = $state(false)
   let backupMessage = $state('')
@@ -102,11 +102,12 @@
   // In typing mode the answer is whatever the hidden face holds.
   let answerText = $derived(current ? (settings.direction === 'a-b' ? current.pt : current.en) : '')
   let currentState = $derived(current ? stateFor(progress, current) : undefined)
-  let currentVerb = $derived(current ? verbOf(current) : null)
-  // Closes itself when the card changes or the verb becomes unavailable.
-  let showConjugation = $derived(conjugating && !!currentVerb && settings.tenses.length > 0)
+  // Whatever the registry has to say about this card, in registry order.
+  let annotations = $derived(current ? annotationsFor(current, { settings }) : [])
+  // Closes itself if the card changes, or its kind stops having anything to say.
+  let activeAnnotation = $derived(annotations.find(a => a.kind.id === openAnnotation))
 
-  $effect(() => { void current; conjugating = false })
+  $effect(() => { void current; openAnnotation = null })
   let summary = $derived(stats(progress))
   // The attribute drives every palette variable; the meta tag makes the iOS status
   // bar match, which is the difference between installed and "a website".
@@ -264,18 +265,19 @@
         card={current}
         direction={settings.direction}
         {flipped}
-        verb={settings.tenses.length ? currentVerb : null}
-        {conjugating}
+        {annotations}
+        {openAnnotation}
         compact={typing}
         onflip={flip}
         onswipe={move}
-        onconjugate={() => { conjugating = !conjugating }}
+        onannotate={(id) => { openAnnotation = openAnnotation === id ? null : id }}
       />
-      {#if showConjugation && currentVerb}
-        <ConjugationPanel
-          infinitive={currentVerb}
-          enabledTenses={settings.tenses}
-          onclose={() => { conjugating = false }}
+      {#if activeAnnotation}
+        {@const Panel = activeAnnotation.kind.panel}
+        <Panel
+          card={current}
+          payload={activeAnnotation.payload as never}
+          onclose={() => { openAnnotation = null }}
         />
       {/if}
       </div>

@@ -69,6 +69,22 @@ describe('spelling adjustments', () => {
     expect(form('fingir', 'presente', 'tu')).toBe('finges')
   })
 
+  // The rule keys off the infinitive's ending, not the root's last letter:
+  // pagar and fingir both leave a root ending in g, and only one takes a j.
+  it('does not soften a -gar or -car verb in the present', () => {
+    expect(form('pagar', 'presente', 'eu')).toBe('pago')
+    expect(form('ligar', 'presente', 'eu')).toBe('ligo')
+    expect(form('chegar', 'presente', 'eu')).toBe('chego')
+    expect(form('apagar', 'presente', 'eu')).toBe('apago')
+    expect(form('ficar', 'presente', 'eu')).toBe('fico')
+  })
+
+  it('does not harden a -cer or -gir verb in the preterite', () => {
+    expect(form('conhecer', 'perfeito', 'eu')).toBe('conheci')
+    expect(form('esquecer', 'perfeito', 'eu')).toBe('esqueci')
+    expect(form('fingir', 'perfeito', 'eu')).toBe('fingi')
+  })
+
   it('keeps the hard sound in -car, -gar and -çar preterites', () => {
     expect(form('ficar', 'perfeito', 'eu')).toBe('fiquei')
     expect(form('chegar', 'perfeito', 'eu')).toBe('cheguei')
@@ -101,6 +117,14 @@ describe('irregular verbs', () => {
     expect(form('dizer', 'presente', 'eu')).toBe('digo')
     expect(form('trazer', 'presente', 'eu')).toBe('trago')
     expect(form('pôr', 'presente', 'eu')).toBe('ponho')
+  })
+
+  it('drops the ending in the third person of a -uzir verb', () => {
+    expect(form('conduzir', 'presente', 'ele')).toBe('conduz')
+    expect(form('conduzir', 'presente', 'eu')).toBe('conduzo')
+    expect(form('conduzir', 'presente', 'eles')).toBe('conduzem')
+    // Regular everywhere else.
+    expect(form('conduzir', 'perfeito', 'eu')).toBe('conduzi')
   })
 
   it('knows the stem-changing -ir verbs', () => {

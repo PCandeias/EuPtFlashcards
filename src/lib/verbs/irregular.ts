@@ -23,6 +23,8 @@ export const KNOWN_IRREGULAR = new Set([
   // Defective or irregular verbs with no table entry: listed so they are refused
   // rather than run through the regular rules and answered wrongly.
   'precaver', 'reaver', 'polir', 'aderir', 'agredir', 'prevenir',
+  // -uzir verbs drop the ending in the third person singular: ele conduz.
+  'conduzir', 'produzir', 'traduzir', 'reduzir',
 ])
 
 export const IRREGULAR: Record<string, Conjugation> = {
@@ -124,6 +126,20 @@ export const IRREGULAR: Record<string, Conjugation> = {
   valer: { presente: { eu: 'valho', tu: 'vales', ele: 'vale', nos: 'valemos', eles: 'valem' } },
   caber: { presente: { eu: 'caibo', tu: 'cabes', ele: 'cabe', nos: 'cabemos', eles: 'cabem' } },
   crer: { presente: { eu: 'creio', tu: 'crês', ele: 'crê', nos: 'cremos', eles: 'creem' } },
+
+  // -uzir verbs: third person singular has no ending — `conduz`, not `conduze`.
+  conduzir: {
+    presente: { eu: 'conduzo', tu: 'conduzes', ele: 'conduz', nos: 'conduzimos', eles: 'conduzem' },
+  },
+  traduzir: {
+    presente: { eu: 'traduzo', tu: 'traduzes', ele: 'traduz', nos: 'traduzimos', eles: 'traduzem' },
+  },
+  produzir: {
+    presente: { eu: 'produzo', tu: 'produzes', ele: 'produz', nos: 'produzimos', eles: 'produzem' },
+  },
+  reduzir: {
+    presente: { eu: 'reduzo', tu: 'reduzes', ele: 'reduz', nos: 'reduzimos', eles: 'reduzem' },
+  },
 
   // Stem-changing -ir verbs: irregular in the present only, regular elsewhere.
   pedir: { presente: { eu: 'peço', tu: 'pedes', ele: 'pede', nos: 'pedimos', eles: 'pedem' } },

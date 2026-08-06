@@ -1,21 +1,18 @@
 <script lang="ts">
-  import { conjugatePhrase } from '../lib/verbs/conjugate.js'
-  import { TENSES, PERSONS, type TenseId } from '../lib/verbs/tenses.js'
+  import { TENSES, PERSONS, type TenseId } from '../../lib/verbs/tenses.js'
+  import type { ConjugationPayload } from '../../lib/annotations/conjugation.js'
 
   let {
-    infinitive, enabledTenses, onclose,
+    payload, onclose,
   }: {
-    infinitive: string
-    /** From settings. Registry order, not the order they were switched on. */
-    enabledTenses: TenseId[]
+    payload: ConjugationPayload
     onclose: () => void
   } = $props()
 
-  let conjugation = $derived(conjugatePhrase(infinitive))
-
-  // Only tenses both switched on and actually present for this verb. A verb
-  // missing a tense simply does not offer it — nothing ever renders blank.
-  let available = $derived(TENSES.filter(t => enabledTenses.includes(t.id) && conjugation?.[t.id]))
+  let infinitive = $derived(payload.infinitive)
+  let conjugation = $derived(payload.conjugation)
+  // Already narrowed to the tenses both switched on and present for this verb.
+  let available = $derived(TENSES.filter(t => payload.tenses.includes(t.id)))
 
   let chosen = $state<TenseId | null>(null)
   let active = $derived(available.find(t => t.id === chosen) ?? available[0])

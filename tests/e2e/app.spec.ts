@@ -634,7 +634,7 @@ test.describe('verb conjugation', () => {
     await enableAllTenses(page)
     await goToCard(page, 'Common Verbs', 'dormir')
 
-    await page.click('.face.back .marker')
+    await page.click('.face.back [data-annotation="conjugation"]')
     const panel = page.locator('#conjugationPanel')
     await expect(panel).toBeVisible()
 
@@ -648,14 +648,14 @@ test.describe('verb conjugation', () => {
     await page.goto('./')
     await enableAllTenses(page)
     await goToCard(page, 'Numbers', 'zero')
-    await expect(page.locator('.marker')).toHaveCount(0)
+    await expect(page.locator('[data-annotation="conjugation"]')).toHaveCount(0)
   })
 
   test('switches tense from the dropdown', async ({ page }) => {
     await page.goto('./')
     await enableAllTenses(page)
     await goToCard(page, 'Common Verbs', 'dormir')
-    await page.click('.face.back .marker')
+    await page.click('.face.back [data-annotation="conjugation"]')
 
     await page.selectOption('#tenseSelect', 'perfeito')
     await expect(page.locator('#conjugationPanel')).toContainText('dormi')
@@ -667,7 +667,7 @@ test.describe('verb conjugation', () => {
     await page.goto('./')
     await enableAllTenses(page)
     await goToCard(page, 'Common Verbs', 'dormir')
-    await page.click('.face.back .marker')
+    await page.click('.face.back [data-annotation="conjugation"]')
     // Tapping the card flips it, so the marker must swallow the gesture.
     await expect(page.locator('.card')).toHaveClass(/flipped/)
   })
@@ -677,16 +677,16 @@ test.describe('verb conjugation', () => {
     await enableAllTenses(page)
     await goToCard(page, 'Common Verbs', 'dormir')
 
-    await page.click('.face.back .marker')
+    await page.click('.face.back [data-annotation="conjugation"]')
     await expect(page.locator('#conjugationPanel')).toBeVisible()
     await page.keyboard.press('Escape')
     await expect(page.locator('#conjugationPanel')).toHaveCount(0)
 
-    await page.click('.face.back .marker')
+    await page.click('.face.back [data-annotation="conjugation"]')
     await page.click('#conjugationPanel .close')
     await expect(page.locator('#conjugationPanel')).toHaveCount(0)
 
-    await page.click('.face.back .marker')
+    await page.click('.face.back [data-annotation="conjugation"]')
     await expect(page.locator('#conjugationPanel')).toBeVisible()
     await page.click('#nextBtn')
     await expect(page.locator('#conjugationPanel')).toHaveCount(0)
@@ -701,7 +701,7 @@ test.describe('verb conjugation', () => {
     })
     await page.reload()
     await goToCard(page, 'Common Verbs', 'dormir')
-    await page.click('.face.back .marker')
+    await page.click('.face.back [data-annotation="conjugation"]')
 
     // A single tense needs no dropdown.
     await expect(page.locator('#tenseSelect')).toHaveCount(0)
@@ -718,7 +718,7 @@ test.describe('verb conjugation', () => {
     })
     await page.reload()
     await goToCard(page, 'Common Verbs', 'dormir')
-    await expect(page.locator('.marker')).toHaveCount(0)
+    await expect(page.locator('[data-annotation="conjugation"]')).toHaveCount(0)
   })
 
   test('the settings checkboxes drive it, and persist', async ({ page }) => {
@@ -736,7 +736,7 @@ test.describe('verb conjugation', () => {
     await closeSettings(page)
 
     await goToCard(page, 'Common Verbs', 'dormir')
-    await page.click('.face.back .marker')
+    await page.click('.face.back [data-annotation="conjugation"]')
     await page.selectOption('#tenseSelect', 'imperfeito')
     await expect(page.locator('#conjugationPanel')).toContainText('dormia')
   })
@@ -745,7 +745,7 @@ test.describe('verb conjugation', () => {
     await page.goto('./')
     await enableAllTenses(page)
     await goToCard(page, 'Daily Routine', 'tomar o pequeno-almoço')
-    await page.click('.face.back .marker')
+    await page.click('.face.back [data-annotation="conjugation"]')
     await expect(page.locator('#conjugationPanel')).toContainText('tomo o pequeno-almoço')
   })
 })
@@ -909,5 +909,97 @@ test.describe('studying by tense', () => {
     })
     await page.reload()
     await expect(page.locator('#totalCount')).toHaveText('2093')
+  })
+})
+
+test.describe('usage examples', () => {
+  async function goToVerb(page: Page, deck: string, pt: string) {
+    await page.selectOption('#deckSelect', deck)
+    const found = await page.evaluate(async (want) => {
+      for (let i = 0; i < 600; i++) {
+        const back = document.querySelector('.face.back .word')
+        if (back?.childNodes[0]?.textContent?.trim() === want) return true
+        ;(document.getElementById('nextBtn') as HTMLButtonElement).click()
+        await new Promise(r => requestAnimationFrame(r))
+      }
+      return false
+    }, pt)
+    expect(found, `should reach ${pt}`).toBe(true)
+    await page.click('#flipBtn')
+    await expect(page.locator('.card')).toHaveClass(/flipped/)
+  }
+
+  test('shows sentences using the verb', async ({ page }) => {
+    await page.goto('./')
+    await goToVerb(page, 'Common Verbs', 'ser')
+    await page.click('.face.back [data-annotation="examples"]')
+
+    const panel = page.locator('#examplesPanel')
+    await expect(panel).toBeVisible()
+    await expect(panel).toContainText('Eu sou português')
+    await expect(panel).toContainText('I am Portuguese')
+    // More than one, so the usage is varied.
+    await expect(panel.locator('li')).toHaveCount(2)
+  })
+
+  test('sits beside the conjugation marker without replacing it', async ({ page }) => {
+    await page.goto('./')
+    await goToVerb(page, 'Common Verbs', 'dormir')
+    await expect(page.locator('.face.back [data-annotation="conjugation"]')).toHaveCount(1)
+    await expect(page.locator('.face.back [data-annotation="examples"]')).toHaveCount(1)
+  })
+
+  test('opening one closes the other', async ({ page }) => {
+    await page.goto('./')
+    await goToVerb(page, 'Common Verbs', 'dormir')
+
+    await page.click('.face.back [data-annotation="conjugation"]')
+    await expect(page.locator('#conjugationPanel')).toBeVisible()
+
+    await page.click('.face.back [data-annotation="examples"]')
+    await expect(page.locator('#examplesPanel')).toBeVisible()
+    await expect(page.locator('#conjugationPanel')).toHaveCount(0)
+  })
+
+  test('closes on Escape and when the card changes', async ({ page }) => {
+    await page.goto('./')
+    await goToVerb(page, 'Common Verbs', 'ser')
+
+    await page.click('.face.back [data-annotation="examples"]')
+    await page.keyboard.press('Escape')
+    await expect(page.locator('#examplesPanel')).toHaveCount(0)
+
+    await page.click('.face.back [data-annotation="examples"]')
+    await expect(page.locator('#examplesPanel')).toBeVisible()
+    await page.click('#nextBtn')
+    await expect(page.locator('#examplesPanel')).toHaveCount(0)
+  })
+
+  test('opening the examples does not flip the card', async ({ page }) => {
+    await page.goto('./')
+    await goToVerb(page, 'Common Verbs', 'ser')
+    await page.click('.face.back [data-annotation="examples"]')
+    await expect(page.locator('.card')).toHaveClass(/flipped/)
+  })
+
+  // Each kind decides for itself whether it has anything to say.
+  test('survives every tense being switched off, unlike the conjugation', async ({ page }) => {
+    await page.goto('./')
+    await page.evaluate(() => {
+      const s = JSON.parse(localStorage.getItem('eupt:v4:settings') ?? '{}')
+      s.tenses = []
+      localStorage.setItem('eupt:v4:settings', JSON.stringify(s))
+      localStorage.setItem('eupt:v4:tense-scope', 'test')
+    })
+    await page.reload()
+    await goToVerb(page, 'Common Verbs', 'ser')
+    await expect(page.locator('.face.back [data-annotation="conjugation"]')).toHaveCount(0)
+    await expect(page.locator('.face.back [data-annotation="examples"]')).toHaveCount(1)
+  })
+
+  test('offers nothing on a card that is not a verb', async ({ page }) => {
+    await page.goto('./')
+    await goToVerb(page, 'Numbers', 'zero')
+    await expect(page.locator('.face.back .marker')).toHaveCount(0)
   })
 })

@@ -1,0 +1,1152 @@
+{
+  "abrir": [
+    {
+      "pt": "Eu abro a janela.",
+      "en": "I open the window."
+    },
+    {
+      "pt": "A loja abre às nove.",
+      "en": "The shop opens at nine."
+    }
+  ],
+  "acabar": [
+    {
+      "pt": "O filme acaba tarde.",
+      "en": "The film finishes late."
+    },
+    {
+      "pt": "Já acabei o trabalho.",
+      "en": "I have already finished the work."
+    }
+  ],
+  "acender": [
+    {
+      "pt": "Acende a luz, por favor.",
+      "en": "Turn on the light, please."
+    },
+    {
+      "pt": "Ela acendeu uma vela.",
+      "en": "She lit a candle."
+    }
+  ],
+  "achar": [
+    {
+      "pt": "Acho que sim.",
+      "en": "I think so."
+    },
+    {
+      "pt": "Não acho as chaves.",
+      "en": "I cannot find the keys."
+    }
+  ],
+  "acordar": [
+    {
+      "pt": "Acordo às sete.",
+      "en": "I wake up at seven."
+    },
+    {
+      "pt": "Ontem acordei tarde.",
+      "en": "Yesterday I woke up late."
+    }
+  ],
+  "acostumar-se": [
+    {
+      "pt": "Acostumei-me depressa ao frio.",
+      "en": "I got used to the cold quickly."
+    },
+    {
+      "pt": "Ele acostuma-se a tudo.",
+      "en": "He gets used to anything."
+    }
+  ],
+  "acreditar": [
+    {
+      "pt": "Não acredito nisso.",
+      "en": "I do not believe that."
+    },
+    {
+      "pt": "Acreditamos nele.",
+      "en": "We believe him."
+    }
+  ],
+  "adorar": [
+    {
+      "pt": "Adoro café.",
+      "en": "I love coffee."
+    },
+    {
+      "pt": "Ela adora viajar.",
+      "en": "She loves to travel."
+    }
+  ],
+  "ajudar": [
+    {
+      "pt": "Podes ajudar-me?",
+      "en": "Can you help me?"
+    },
+    {
+      "pt": "Ele ajudou a minha mãe.",
+      "en": "He helped my mother."
+    }
+  ],
+  "almoçar": [
+    {
+      "pt": "Almoço ao meio-dia.",
+      "en": "I have lunch at noon."
+    },
+    {
+      "pt": "Almoçámos no restaurante.",
+      "en": "We had lunch at the restaurant."
+    }
+  ],
+  "andar": [
+    {
+      "pt": "Ando a pé para o trabalho.",
+      "en": "I walk to work."
+    },
+    {
+      "pt": "Ele anda muito depressa.",
+      "en": "He walks very fast."
+    }
+  ],
+  "apagar": [
+    {
+      "pt": "Apaga a luz.",
+      "en": "Turn off the light."
+    },
+    {
+      "pt": "Apaguei a mensagem.",
+      "en": "I deleted the message."
+    }
+  ],
+  "apanhar": [
+    {
+      "pt": "Apanho o autocarro às oito.",
+      "en": "I catch the bus at eight."
+    },
+    {
+      "pt": "Apanhei um táxi.",
+      "en": "I took a taxi."
+    }
+  ],
+  "apertar": [
+    {
+      "pt": "Estes sapatos apertam-me.",
+      "en": "These shoes are too tight for me."
+    },
+    {
+      "pt": "Ele aperta o cinto de segurança.",
+      "en": "He fastens the seat belt."
+    }
+  ],
+  "aprender": [
+    {
+      "pt": "Estou a aprender português.",
+      "en": "I am learning Portuguese."
+    },
+    {
+      "pt": "Aprendi muito na aula.",
+      "en": "I learned a lot in the lesson."
+    }
+  ],
+  "bater": [
+    {
+      "pt": "Alguém bateu à porta.",
+      "en": "Somebody knocked at the door."
+    },
+    {
+      "pt": "Ele bate à porta antes de entrar.",
+      "en": "He knocks at the door before coming in."
+    }
+  ],
+  "beber": [
+    {
+      "pt": "Bebo água todos os dias.",
+      "en": "I drink water every day."
+    },
+    {
+      "pt": "Bebemos um café juntos.",
+      "en": "We drank a coffee together."
+    }
+  ],
+  "caminhar": [
+    {
+      "pt": "Caminho no parque ao domingo.",
+      "en": "I walk in the park on Sundays."
+    },
+    {
+      "pt": "Caminhámos até à praia.",
+      "en": "We walked to the beach."
+    }
+  ],
+  "carregar": [
+    {
+      "pt": "Preciso de carregar o telemóvel.",
+      "en": "I need to charge the phone."
+    },
+    {
+      "pt": "Carreguei as fotografias.",
+      "en": "I uploaded the photos."
+    }
+  ],
+  "chamar": [
+    {
+      "pt": "Chamo um táxi.",
+      "en": "I am calling a taxi."
+    },
+    {
+      "pt": "Ela chamou o médico.",
+      "en": "She called the doctor."
+    }
+  ],
+  "chamar-se": [
+    {
+      "pt": "Chamo-me Pedro.",
+      "en": "My name is Pedro."
+    },
+    {
+      "pt": "Como te chamas?",
+      "en": "What is your name?"
+    }
+  ],
+  "chegar": [
+    {
+      "pt": "O comboio chega às dez.",
+      "en": "The train arrives at ten."
+    },
+    {
+      "pt": "Cheguei tarde ontem.",
+      "en": "I arrived late yesterday."
+    }
+  ],
+  "chorar": [
+    {
+      "pt": "O bebé está a chorar.",
+      "en": "The baby is crying."
+    },
+    {
+      "pt": "Ela chorou de alegria.",
+      "en": "She cried with joy."
+    }
+  ],
+  "começar": [
+    {
+      "pt": "A aula começa às nove.",
+      "en": "The lesson starts at nine."
+    },
+    {
+      "pt": "Comecei a estudar português.",
+      "en": "I started studying Portuguese."
+    }
+  ],
+  "comer": [
+    {
+      "pt": "Como pão ao pequeno-almoço.",
+      "en": "I eat bread for breakfast."
+    },
+    {
+      "pt": "Comemos peixe ontem.",
+      "en": "We ate fish yesterday."
+    }
+  ],
+  "comprar": [
+    {
+      "pt": "Compro pão todos os dias.",
+      "en": "I buy bread every day."
+    },
+    {
+      "pt": "Comprei um livro novo.",
+      "en": "I bought a new book."
+    }
+  ],
+  "compreender": [
+    {
+      "pt": "Não compreendo a pergunta.",
+      "en": "I do not understand the question."
+    },
+    {
+      "pt": "Compreendes o que digo?",
+      "en": "Do you understand what I am saying?"
+    }
+  ],
+  "conduzir": [
+    {
+      "pt": "Ele conduz muito bem.",
+      "en": "He drives very well."
+    },
+    {
+      "pt": "Não sei conduzir.",
+      "en": "I cannot drive."
+    }
+  ],
+  "conhecer": [
+    {
+      "pt": "Conheço bem Lisboa.",
+      "en": "I know Lisbon well."
+    },
+    {
+      "pt": "Conheci-a na escola.",
+      "en": "I met her at school."
+    }
+  ],
+  "correr": [
+    {
+      "pt": "Corro todas as manhãs.",
+      "en": "I run every morning."
+    },
+    {
+      "pt": "Ele correu para o autocarro.",
+      "en": "He ran for the bus."
+    }
+  ],
+  "cozinhar": [
+    {
+      "pt": "Cozinho todos os dias.",
+      "en": "I cook every day."
+    },
+    {
+      "pt": "Ela cozinhou peixe.",
+      "en": "She cooked fish."
+    }
+  ],
+  "cumprimentar-se": [
+    {
+      "pt": "Cumprimentam-se com um aperto de mão.",
+      "en": "They greet each other with a handshake."
+    },
+    {
+      "pt": "Cumprimentámo-nos na rua.",
+      "en": "We greeted each other in the street."
+    }
+  ],
+  "dar": [
+    {
+      "pt": "Dou-te o meu número.",
+      "en": "I will give you my number."
+    },
+    {
+      "pt": "Ela deu-me um presente.",
+      "en": "She gave me a present."
+    }
+  ],
+  "descansar": [
+    {
+      "pt": "Descanso ao fim de semana.",
+      "en": "I rest at the weekend."
+    },
+    {
+      "pt": "Descansámos depois do almoço.",
+      "en": "We rested after lunch."
+    }
+  ],
+  "descarregar": [
+    {
+      "pt": "Descarrego a aplicação.",
+      "en": "I am downloading the app."
+    },
+    {
+      "pt": "Descarreguei o ficheiro.",
+      "en": "I downloaded the file."
+    }
+  ],
+  "desculpar": [
+    {
+      "pt": "Ele desculpa sempre os meus erros.",
+      "en": "He always excuses my mistakes."
+    },
+    {
+      "pt": "Desculpei o atraso dela.",
+      "en": "I excused her delay."
+    }
+  ],
+  "desligar": [
+    {
+      "pt": "Desliga a televisão.",
+      "en": "Turn off the television."
+    },
+    {
+      "pt": "Desliguei o computador.",
+      "en": "I turned off the computer."
+    }
+  ],
+  "devolver": [
+    {
+      "pt": "Quero devolver estes sapatos.",
+      "en": "I want to return these shoes."
+    },
+    {
+      "pt": "Devolvi o livro à biblioteca.",
+      "en": "I returned the book to the library."
+    }
+  ],
+  "dizer": [
+    {
+      "pt": "Digo sempre a verdade.",
+      "en": "I always tell the truth."
+    },
+    {
+      "pt": "O que é que ele disse?",
+      "en": "What did he say?"
+    }
+  ],
+  "dormir": [
+    {
+      "pt": "Durmo oito horas.",
+      "en": "I sleep eight hours."
+    },
+    {
+      "pt": "Ontem dormi mal.",
+      "en": "I slept badly yesterday."
+    }
+  ],
+  "encontrar": [
+    {
+      "pt": "Não encontro as chaves.",
+      "en": "I cannot find the keys."
+    },
+    {
+      "pt": "Encontrei-a no café.",
+      "en": "I met her at the café."
+    }
+  ],
+  "ensinar": [
+    {
+      "pt": "Ela ensina português.",
+      "en": "She teaches Portuguese."
+    },
+    {
+      "pt": "Ensinou-me a cozinhar.",
+      "en": "He taught me to cook."
+    }
+  ],
+  "entrar": [
+    {
+      "pt": "Entro no escritório às nove.",
+      "en": "I get into the office at nine."
+    },
+    {
+      "pt": "Entrámos no museu.",
+      "en": "We went into the museum."
+    }
+  ],
+  "enviar": [
+    {
+      "pt": "Envio uma mensagem.",
+      "en": "I am sending a message."
+    },
+    {
+      "pt": "Enviei o e-mail ontem.",
+      "en": "I sent the email yesterday."
+    }
+  ],
+  "escolher": [
+    {
+      "pt": "Escolhes tu.",
+      "en": "You choose."
+    },
+    {
+      "pt": "Escolhi o prato do dia.",
+      "en": "I chose the dish of the day."
+    }
+  ],
+  "escrever": [
+    {
+      "pt": "Escrevo uma carta.",
+      "en": "I am writing a letter."
+    },
+    {
+      "pt": "Escreveste o teu nome?",
+      "en": "Did you write your name?"
+    }
+  ],
+  "escutar": [
+    {
+      "pt": "Escuto música no comboio.",
+      "en": "I listen to music on the train."
+    },
+    {
+      "pt": "Ela escuta com atenção.",
+      "en": "She listens carefully."
+    }
+  ],
+  "esperar": [
+    {
+      "pt": "Espero o autocarro.",
+      "en": "I am waiting for the bus."
+    },
+    {
+      "pt": "Esperámos meia hora.",
+      "en": "We waited half an hour."
+    }
+  ],
+  "esquecer": [
+    {
+      "pt": "Ele esquece sempre as chaves.",
+      "en": "He always forgets the keys."
+    },
+    {
+      "pt": "Esqueci o nome dele.",
+      "en": "I forgot his name."
+    }
+  ],
+  "esquecer-se": [
+    {
+      "pt": "Esqueci-me do nome.",
+      "en": "I forgot the name."
+    },
+    {
+      "pt": "Ela esqueceu-se da reunião.",
+      "en": "She forgot the meeting."
+    }
+  ],
+  "estar": [
+    {
+      "pt": "Estou cansado.",
+      "en": "I am tired."
+    },
+    {
+      "pt": "O café está fechado.",
+      "en": "The café is closed."
+    }
+  ],
+  "estudar": [
+    {
+      "pt": "Estudo português à noite.",
+      "en": "I study Portuguese in the evening."
+    },
+    {
+      "pt": "Estudámos juntos.",
+      "en": "We studied together."
+    }
+  ],
+  "experimentar": [
+    {
+      "pt": "Posso experimentar este casaco?",
+      "en": "Can I try on this jacket?"
+    },
+    {
+      "pt": "Experimentei o vestido.",
+      "en": "I tried on the dress."
+    }
+  ],
+  "falar": [
+    {
+      "pt": "Falo um pouco de português.",
+      "en": "I speak a little Portuguese."
+    },
+    {
+      "pt": "Falámos ao telefone.",
+      "en": "We spoke on the phone."
+    }
+  ],
+  "fazer": [
+    {
+      "pt": "Faço o jantar hoje.",
+      "en": "I am making dinner today."
+    },
+    {
+      "pt": "O que é que fazes?",
+      "en": "What do you do?"
+    }
+  ],
+  "fechar": [
+    {
+      "pt": "A loja fecha às sete.",
+      "en": "The shop closes at seven."
+    },
+    {
+      "pt": "Fechei a janela.",
+      "en": "I closed the window."
+    }
+  ],
+  "fingir": [
+    {
+      "pt": "Ele finge que não ouve.",
+      "en": "He pretends not to hear."
+    },
+    {
+      "pt": "Fingi que não vi.",
+      "en": "I pretended I had not seen."
+    }
+  ],
+  "frequentar": [
+    {
+      "pt": "Frequento um curso de línguas.",
+      "en": "I attend a language course."
+    },
+    {
+      "pt": "Ela frequentava a universidade.",
+      "en": "She used to attend the university."
+    }
+  ],
+  "guardar": [
+    {
+      "pt": "Guardo o dinheiro no banco.",
+      "en": "I keep the money in the bank."
+    },
+    {
+      "pt": "Guardei as fotografias.",
+      "en": "I saved the photos."
+    }
+  ],
+  "habitar": [
+    {
+      "pt": "Habito nesta cidade há dez anos.",
+      "en": "I have lived in this city for ten years."
+    },
+    {
+      "pt": "Muitas pessoas habitam aqui.",
+      "en": "Many people live here."
+    }
+  ],
+  "instalar": [
+    {
+      "pt": "Instalo a aplicação.",
+      "en": "I am installing the app."
+    },
+    {
+      "pt": "Instalámos o programa.",
+      "en": "We installed the program."
+    }
+  ],
+  "ir": [
+    {
+      "pt": "Vou ao supermercado.",
+      "en": "I am going to the supermarket."
+    },
+    {
+      "pt": "Fomos à praia no domingo.",
+      "en": "We went to the beach on Sunday."
+    }
+  ],
+  "jantar": [
+    {
+      "pt": "Janto às oito.",
+      "en": "I have dinner at eight."
+    },
+    {
+      "pt": "Jantámos fora ontem.",
+      "en": "We ate out yesterday."
+    }
+  ],
+  "lavar": [
+    {
+      "pt": "Lavo a roupa ao sábado.",
+      "en": "I wash the clothes on Saturdays."
+    },
+    {
+      "pt": "Lavei os pratos.",
+      "en": "I washed the dishes."
+    }
+  ],
+  "lavar-se": [
+    {
+      "pt": "Lavo-me de manhã.",
+      "en": "I wash in the morning."
+    },
+    {
+      "pt": "Ela lava-se depressa.",
+      "en": "She washes quickly."
+    }
+  ],
+  "lembrar-se": [
+    {
+      "pt": "Não me lembro do nome.",
+      "en": "I do not remember the name."
+    },
+    {
+      "pt": "Lembras-te dela?",
+      "en": "Do you remember her?"
+    }
+  ],
+  "ler": [
+    {
+      "pt": "Leio um livro por mês.",
+      "en": "I read a book a month."
+    },
+    {
+      "pt": "Li o jornal hoje.",
+      "en": "I read the newspaper today."
+    }
+  ],
+  "levantar-se": [
+    {
+      "pt": "Levanto-me às sete.",
+      "en": "I get up at seven."
+    },
+    {
+      "pt": "Levantámo-nos cedo.",
+      "en": "We got up early."
+    }
+  ],
+  "levar": [
+    {
+      "pt": "Levo o guarda-chuva.",
+      "en": "I am taking the umbrella."
+    },
+    {
+      "pt": "Ela levou as malas.",
+      "en": "She took the suitcases."
+    }
+  ],
+  "ligar": [
+    {
+      "pt": "Ligo a televisão.",
+      "en": "I turn on the television."
+    },
+    {
+      "pt": "Ligo-te amanhã.",
+      "en": "I will call you tomorrow."
+    }
+  ],
+  "limpar": [
+    {
+      "pt": "Limpo a casa ao sábado.",
+      "en": "I clean the house on Saturdays."
+    },
+    {
+      "pt": "Limpámos a cozinha.",
+      "en": "We cleaned the kitchen."
+    }
+  ],
+  "morar": [
+    {
+      "pt": "Moro em Lisboa.",
+      "en": "I live in Lisbon."
+    },
+    {
+      "pt": "Onde é que moras?",
+      "en": "Where do you live?"
+    }
+  ],
+  "ocupar": [
+    {
+      "pt": "A mesa ocupa muito espaço.",
+      "en": "The table takes up a lot of space."
+    },
+    {
+      "pt": "Ocupámos os últimos lugares.",
+      "en": "We took the last seats."
+    }
+  ],
+  "olhar": [
+    {
+      "pt": "Olho pela janela.",
+      "en": "I look out of the window."
+    },
+    {
+      "pt": "Ela olhou para mim.",
+      "en": "She looked at me."
+    }
+  ],
+  "ouvir": [
+    {
+      "pt": "Ouço música todos os dias.",
+      "en": "I listen to music every day."
+    },
+    {
+      "pt": "Ouviste o que ele disse?",
+      "en": "Did you hear what he said?"
+    }
+  ],
+  "pagar": [
+    {
+      "pt": "Pago com cartão.",
+      "en": "I pay by card."
+    },
+    {
+      "pt": "Paguei a conta.",
+      "en": "I paid the bill."
+    }
+  ],
+  "parar": [
+    {
+      "pt": "O autocarro para aqui.",
+      "en": "The bus stops here."
+    },
+    {
+      "pt": "Parámos para descansar.",
+      "en": "We stopped to rest."
+    }
+  ],
+  "partir": [
+    {
+      "pt": "O comboio parte às nove.",
+      "en": "The train leaves at nine."
+    },
+    {
+      "pt": "Partimos amanhã de manhã.",
+      "en": "We leave tomorrow morning."
+    }
+  ],
+  "passear": [
+    {
+      "pt": "Passeio no parque ao domingo.",
+      "en": "I stroll in the park on Sundays."
+    },
+    {
+      "pt": "Passeámos pela cidade.",
+      "en": "We walked around the city."
+    }
+  ],
+  "pedir": [
+    {
+      "pt": "Peço um café, por favor.",
+      "en": "I will have a coffee, please."
+    },
+    {
+      "pt": "Pedi ajuda.",
+      "en": "I asked for help."
+    }
+  ],
+  "pensar": [
+    {
+      "pt": "Penso que sim.",
+      "en": "I think so."
+    },
+    {
+      "pt": "Pensei muito nisso.",
+      "en": "I thought about it a lot."
+    }
+  ],
+  "pentear-se": [
+    {
+      "pt": "Penteio-me de manhã.",
+      "en": "I comb my hair in the morning."
+    },
+    {
+      "pt": "Ela penteia-se depressa.",
+      "en": "She combs her hair quickly."
+    }
+  ],
+  "perceber": [
+    {
+      "pt": "Não percebo nada.",
+      "en": "I do not understand anything."
+    },
+    {
+      "pt": "Percebeste a pergunta?",
+      "en": "Did you understand the question?"
+    }
+  ],
+  "perder": [
+    {
+      "pt": "Perco sempre as chaves.",
+      "en": "I always lose the keys."
+    },
+    {
+      "pt": "Perdi o comboio.",
+      "en": "I missed the train."
+    }
+  ],
+  "perguntar": [
+    {
+      "pt": "Pergunto ao professor.",
+      "en": "I will ask the teacher."
+    },
+    {
+      "pt": "Ele perguntou o meu nome.",
+      "en": "He asked my name."
+    }
+  ],
+  "perguntar-se": [
+    {
+      "pt": "Pergunto-me se ele vem.",
+      "en": "I wonder whether he is coming."
+    },
+    {
+      "pt": "Ela perguntou-se porquê.",
+      "en": "She wondered why."
+    }
+  ],
+  "poder": [
+    {
+      "pt": "Posso ajudar?",
+      "en": "Can I help?"
+    },
+    {
+      "pt": "Não pude vir ontem.",
+      "en": "I could not come yesterday."
+    }
+  ],
+  "pôr": [
+    {
+      "pt": "Ponho a mesa.",
+      "en": "I am setting the table."
+    },
+    {
+      "pt": "Ele pôs o livro na mesa.",
+      "en": "He put the book on the table."
+    }
+  ],
+  "preferir": [
+    {
+      "pt": "Prefiro chá a café.",
+      "en": "I prefer tea to coffee."
+    },
+    {
+      "pt": "Ela prefere ficar em casa.",
+      "en": "She prefers to stay at home."
+    }
+  ],
+  "procurar": [
+    {
+      "pt": "Procuro o meu telemóvel.",
+      "en": "I am looking for my phone."
+    },
+    {
+      "pt": "Procurámos a chave toda a manhã.",
+      "en": "We looked for the key all morning."
+    }
+  ],
+  "prometer": [
+    {
+      "pt": "Prometo que venho.",
+      "en": "I promise I will come."
+    },
+    {
+      "pt": "Ele prometeu ajudar.",
+      "en": "He promised to help."
+    }
+  ],
+  "querer": [
+    {
+      "pt": "Quero um café.",
+      "en": "I want a coffee."
+    },
+    {
+      "pt": "O que é que queres?",
+      "en": "What do you want?"
+    }
+  ],
+  "receber": [
+    {
+      "pt": "Recebo o salário no fim do mês.",
+      "en": "I get my salary at the end of the month."
+    },
+    {
+      "pt": "Recebi a tua mensagem.",
+      "en": "I got your message."
+    }
+  ],
+  "responder": [
+    {
+      "pt": "Respondo já.",
+      "en": "I will answer right away."
+    },
+    {
+      "pt": "Ela respondeu à pergunta.",
+      "en": "She answered the question."
+    }
+  ],
+  "rir": [
+    {
+      "pt": "Ele ri sempre.",
+      "en": "He is always laughing."
+    },
+    {
+      "pt": "Rimos muito ontem.",
+      "en": "We laughed a lot yesterday."
+    }
+  ],
+  "saber": [
+    {
+      "pt": "Sei falar português.",
+      "en": "I can speak Portuguese."
+    },
+    {
+      "pt": "Não sei onde ele está.",
+      "en": "I do not know where he is."
+    }
+  ],
+  "sair": [
+    {
+      "pt": "Saio de casa às oito.",
+      "en": "I leave home at eight."
+    },
+    {
+      "pt": "Saímos ontem à noite.",
+      "en": "We went out last night."
+    }
+  ],
+  "sentar-se": [
+    {
+      "pt": "Posso sentar-me aqui?",
+      "en": "May I sit here?"
+    },
+    {
+      "pt": "Sentámo-nos no café.",
+      "en": "We sat down in the café."
+    }
+  ],
+  "sentir": [
+    {
+      "pt": "Sinto-me bem.",
+      "en": "I feel well."
+    },
+    {
+      "pt": "Senti muito frio.",
+      "en": "I felt very cold."
+    }
+  ],
+  "ser": [
+    {
+      "pt": "Eu sou português.",
+      "en": "I am Portuguese."
+    },
+    {
+      "pt": "Ela é médica.",
+      "en": "She is a doctor."
+    }
+  ],
+  "telefonar": [
+    {
+      "pt": "Telefono-te logo.",
+      "en": "I will call you later."
+    },
+    {
+      "pt": "Ele telefonou ontem.",
+      "en": "He called yesterday."
+    }
+  ],
+  "ter": [
+    {
+      "pt": "Tenho dois irmãos.",
+      "en": "I have two brothers."
+    },
+    {
+      "pt": "Tens tempo agora?",
+      "en": "Do you have time now?"
+    }
+  ],
+  "tirar": [
+    {
+      "pt": "Tiro os sapatos à porta.",
+      "en": "I take my shoes off at the door."
+    },
+    {
+      "pt": "Tirei uma fotografia.",
+      "en": "I took a photo."
+    }
+  ],
+  "tomar": [
+    {
+      "pt": "Tomo um café de manhã.",
+      "en": "I have a coffee in the morning."
+    },
+    {
+      "pt": "Tomámos o pequeno-almoço juntos.",
+      "en": "We had breakfast together."
+    }
+  ],
+  "trabalhar": [
+    {
+      "pt": "Trabalho num hospital.",
+      "en": "I work in a hospital."
+    },
+    {
+      "pt": "Trabalhei ontem até tarde.",
+      "en": "I worked late yesterday."
+    }
+  ],
+  "trazer": [
+    {
+      "pt": "Trago o jantar.",
+      "en": "I am bringing dinner."
+    },
+    {
+      "pt": "Ela trouxe um bolo.",
+      "en": "She brought a cake."
+    }
+  ],
+  "usar": [
+    {
+      "pt": "Uso o computador todos os dias.",
+      "en": "I use the computer every day."
+    },
+    {
+      "pt": "Usei o teu telemóvel.",
+      "en": "I used your phone."
+    }
+  ],
+  "vender": [
+    {
+      "pt": "Vendem pão fresco aqui.",
+      "en": "They sell fresh bread here."
+    },
+    {
+      "pt": "Vendi o meu carro.",
+      "en": "I sold my car."
+    }
+  ],
+  "ver": [
+    {
+      "pt": "Vejo televisão à noite.",
+      "en": "I watch television in the evening."
+    },
+    {
+      "pt": "Vimos um filme ontem.",
+      "en": "We saw a film yesterday."
+    }
+  ],
+  "vestir-se": [
+    {
+      "pt": "Visto-me depressa.",
+      "en": "I get dressed quickly."
+    },
+    {
+      "pt": "Ela vestiu-se de preto.",
+      "en": "She dressed in black."
+    }
+  ],
+  "viajar": [
+    {
+      "pt": "Viajo muito por trabalho.",
+      "en": "I travel a lot for work."
+    },
+    {
+      "pt": "Viajámos para Espanha.",
+      "en": "We travelled to Spain."
+    }
+  ],
+  "vir": [
+    {
+      "pt": "Venho já.",
+      "en": "I am coming right away."
+    },
+    {
+      "pt": "Ela veio ontem.",
+      "en": "She came yesterday."
+    }
+  ],
+  "virar": [
+    {
+      "pt": "Viras à direita no semáforo.",
+      "en": "You turn right at the traffic light."
+    },
+    {
+      "pt": "Virámos à esquerda.",
+      "en": "We turned left."
+    }
+  ],
+  "viver": [
+    {
+      "pt": "Vivo em Portugal.",
+      "en": "I live in Portugal."
+    },
+    {
+      "pt": "Vivemos aqui há cinco anos.",
+      "en": "We have lived here for five years."
+    }
+  ],
+  "voltar": [
+    {
+      "pt": "Volto já.",
+      "en": "I will be right back."
+    },
+    {
+      "pt": "Voltámos tarde para casa.",
+      "en": "We got home late."
+    }
+  ]
+}

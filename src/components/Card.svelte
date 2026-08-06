@@ -1,26 +1,28 @@
 <script lang="ts">
   import Badge from './Badge.svelte'
   import SpeakButton from './SpeakButton.svelte'
-  import ConjugationButton from './ConjugationButton.svelte'
+  import AnnotationMarker from './AnnotationMarker.svelte'
   import { badgesFor, hintFor } from '../lib/render/tags.js'
   import { cardId, type Card } from '../lib/cards/schema.js'
   import type { Direction } from '../lib/storage/progress.js'
+  import type { ResolvedAnnotation } from '../lib/annotations/index.js'
 
   let {
-    card, direction, flipped, verb = null, conjugating = false, compact = false,
-    onflip, onswipe, onconjugate,
+    card, direction, flipped, annotations = [], openAnnotation = null, compact = false,
+    onflip, onswipe, onannotate,
   }: {
     card: Card
     direction: Direction
     flipped: boolean
-    /** The conjugable infinitive on this card, if it has one. */
-    verb?: string | null
-    conjugating?: boolean
+    /** Whatever the registry found to say about this card. */
+    annotations?: ResolvedAnnotation[]
+    /** The id of the annotation whose panel is open, if any. */
+    openAnnotation?: string | null
     /** Typing mode adds an input row, so the card yields that space to it. */
     compact?: boolean
     onflip: () => void
     onswipe: (delta: number) => void
-    onconjugate?: () => void
+    onannotate?: (id: string) => void
   } = $props()
 
   const LANG_LABEL = 'Portuguese · Portugal'
@@ -105,14 +107,17 @@
                   {/each}
                 </span>
               {/if}
-              <!-- The conjugation belongs to the Portuguese verb, so the marker
-                   sits with it; the panel itself is rendered outside the card. -->
-              {#if verb && f.side === 'pt' && onconjugate}
-                <ConjugationButton
-                  infinitive={verb}
-                  active={conjugating}
-                  ontoggle={onconjugate}
-                />
+              <!-- Annotations describe the Portuguese, so the markers sit with
+                   it; the panels themselves are rendered outside the card. -->
+              {#if f.side === 'pt' && onannotate}
+                {#each annotations as annotation (annotation.kind.id)}
+                  <AnnotationMarker
+                    kind={annotation.kind}
+                    {card}
+                    active={openAnnotation === annotation.kind.id}
+                    ontoggle={() => onannotate(annotation.kind.id)}
+                  />
+                {/each}
               {/if}
             </div>
             {#if hintFor(card, f.side)}
