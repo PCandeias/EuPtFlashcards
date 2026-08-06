@@ -135,7 +135,7 @@
     {
       "en": "automobile",
       "target": "otomobil",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "minibus",
@@ -150,7 +150,7 @@
     {
       "en": "motorcycle",
       "target": "motosiklet",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "pedestrian",
@@ -160,7 +160,7 @@
     {
       "en": "one way",
       "target": "tek yön",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "round trip",
@@ -175,13 +175,13 @@
     {
       "en": "gate",
       "target": "kapı",
-      "level": "a2",
+      "level": "a1",
       "sense": "at an airport"
     },
     {
       "en": "seat",
       "target": "koltuk",
-      "level": "a2",
+      "level": "a1",
       "sense": "on a plane or bus"
     },
     {
@@ -252,6 +252,66 @@
     {
       "en": "stop here",
       "target": "burada dur",
+      "level": "a1"
+    },
+    {
+      "en": "ticket machine",
+      "target": "bilet makinesi",
+      "level": "a2"
+    },
+    {
+      "en": "travel card",
+      "target": "ulaşım kartı",
+      "level": "a2"
+    },
+    {
+      "en": "timetable",
+      "target": "sefer saatleri",
+      "level": "a2"
+    },
+    {
+      "en": "delay",
+      "target": "rötar",
+      "level": "a2"
+    },
+    {
+      "en": "carriage",
+      "target": "vagon",
+      "level": "a2"
+    },
+    {
+      "en": "traffic jam",
+      "target": "trafik sıkışıklığı",
+      "level": "a2"
+    },
+    {
+      "en": "toll",
+      "target": "geçiş ücreti",
+      "level": "b1"
+    },
+    {
+      "en": "motorway",
+      "target": "otoyol",
+      "level": "a2"
+    },
+    {
+      "en": "shared taxi",
+      "target": "dolmuş",
+      "level": "a2"
+    },
+    {
+      "en": "to change buses",
+      "target": "otobüs değiştirmek",
+      "level": "a2"
+    },
+    {
+      "en": "to miss the bus",
+      "target": "otobüsü kaçırmak",
+      "level": "a2"
+    },
+    {
+      "en": "how far is it?",
+      "target": "ne kadar uzakta?",
       "level": "a1"
     }
   ]

@@ -5,77 +5,77 @@
       "en": "I was",
       "target": "eu fui",
       "tense": "perfeito",
-      "sense": "permanent / identity",
-      "level": "a2"
+      "level": "a2",
+      "sense": "permanent / identity"
     },
     {
       "en": "you were",
       "target": "tu foste",
-      "tense": "perfeito",
       "tags": [
         "informal"
       ],
-      "sense": "permanent / identity",
-      "level": "a2"
+      "tense": "perfeito",
+      "level": "a2",
+      "sense": "permanent / identity"
     },
     {
       "en": "he / she was",
       "target": "ele / ela foi",
       "tense": "perfeito",
-      "sense": "permanent / identity",
-      "level": "a2"
+      "level": "a2",
+      "sense": "permanent / identity"
     },
     {
       "en": "we were",
       "target": "nós fomos",
       "tense": "perfeito",
-      "sense": "permanent / identity",
-      "level": "a2"
+      "level": "a2",
+      "sense": "permanent / identity"
     },
     {
       "en": "they were",
       "target": "eles / elas foram",
       "tense": "perfeito",
-      "sense": "permanent / identity",
-      "level": "a2"
+      "level": "a2",
+      "sense": "permanent / identity"
     },
     {
       "en": "I was",
       "target": "eu estive",
       "tense": "perfeito",
-      "sense": "temporary / location",
-      "level": "a2"
+      "level": "a2",
+      "sense": "temporary / location"
     },
     {
       "en": "you were",
       "target": "tu estiveste",
-      "tense": "perfeito",
       "tags": [
         "informal"
       ],
-      "sense": "temporary / location",
-      "level": "a2"
+      "tense": "perfeito",
+      "level": "a2",
+      "sense": "temporary / location"
     },
     {
       "en": "he / she was",
       "target": "ele / ela esteve",
       "tense": "perfeito",
-      "sense": "temporary / location",
-      "level": "a2"
+      "level": "a2",
+      "sense": "temporary / location"
     },
     {
       "en": "we were",
       "target": "nós estivemos",
       "tense": "perfeito",
-      "sense": "temporary / location",
-      "level": "a2"
+      "level": "a2",
+      "sense": "temporary / location"
     },
     {
       "en": "they were",
       "target": "eles / elas estiveram",
       "tense": "perfeito",
-      "sense": "temporary / location",
-      "level": "a2"
+      "level": "a2",
+      "sense": "temporary / location"
     },
     {
       "en": "I had",
@@ -86,10 +86,10 @@
     {
       "en": "you had",
       "target": "tu tiveste",
-      "tense": "perfeito",
       "tags": [
         "informal"
       ],
+      "tense": "perfeito",
       "level": "a2"
     },
     {
@@ -119,10 +119,10 @@
     {
       "en": "you went",
       "target": "tu foste",
-      "tense": "perfeito",
       "tags": [
         "informal"
       ],
+      "tense": "perfeito",
       "level": "a2"
     },
     {
@@ -152,10 +152,10 @@
     {
       "en": "you did",
       "target": "tu fizeste",
-      "tense": "perfeito",
       "tags": [
         "informal"
       ],
+      "tense": "perfeito",
       "level": "a2"
     },
     {
@@ -185,10 +185,10 @@
     {
       "en": "you ate",
       "target": "tu comeste",
-      "tense": "perfeito",
       "tags": [
         "informal"
       ],
+      "tense": "perfeito",
       "level": "a2"
     },
     {
@@ -218,10 +218,10 @@
     {
       "en": "you drank",
       "target": "tu bebeste",
-      "tense": "perfeito",
       "tags": [
         "informal"
       ],
+      "tense": "perfeito",
       "level": "a2"
     },
     {
@@ -251,10 +251,10 @@
     {
       "en": "you spoke",
       "target": "tu falaste",
-      "tense": "perfeito",
       "tags": [
         "informal"
       ],
+      "tense": "perfeito",
       "level": "a2"
     },
     {
@@ -284,10 +284,10 @@
     {
       "en": "you worked",
       "target": "tu trabalhaste",
-      "tense": "perfeito",
       "tags": [
         "informal"
       ],
+      "tense": "perfeito",
       "level": "a2"
     },
     {
@@ -317,10 +317,10 @@
     {
       "en": "you saw",
       "target": "tu viste",
-      "tense": "perfeito",
       "tags": [
         "informal"
       ],
+      "tense": "perfeito",
       "level": "a2"
     },
     {
@@ -407,9 +407,9 @@
     {
       "en": "I was in Lisbon",
       "target": "estive em Lisboa",
-      "sense": "temporary / location",
       "tense": "perfeito",
-      "level": "a2"
+      "level": "a2",
+      "sense": "temporary / location"
     },
     {
       "en": "it was very good",

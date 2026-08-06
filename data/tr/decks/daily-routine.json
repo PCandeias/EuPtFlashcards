@@ -19,7 +19,7 @@
     {
       "en": "to have breakfast",
       "target": "kahvaltı yapmak",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to go to work",
@@ -34,52 +34,52 @@
     {
       "en": "to have lunch",
       "target": "öğle yemeği yemek",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to return home",
       "target": "eve dönmek",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to shop",
       "target": "alışveriş yapmak",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to cook",
       "target": "yemek yapmak",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to have dinner",
       "target": "akşam yemeği yemek",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to watch TV",
       "target": "televizyon izlemek",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to read a book",
       "target": "kitap okumak",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to listen to music",
       "target": "müzik dinlemek",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to do sports",
       "target": "spor yapmak",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to take a walk",
       "target": "yürüyüş yapmak",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to rest",
@@ -120,6 +120,76 @@
       "en": "I am reading a book",
       "target": "Kitap okuyorum",
       "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "to make the bed",
+      "target": "yatağı yapmak",
+      "level": "a2"
+    },
+    {
+      "en": "to catch the bus",
+      "target": "otobüse binmek",
+      "level": "a2"
+    },
+    {
+      "en": "to start work",
+      "target": "işe başlamak",
+      "level": "a2"
+    },
+    {
+      "en": "to take a break",
+      "target": "mola vermek",
+      "level": "a2"
+    },
+    {
+      "en": "to do the shopping",
+      "target": "alışveriş etmek",
+      "level": "a2"
+    },
+    {
+      "en": "to set the table",
+      "target": "sofra kurmak",
+      "level": "a2"
+    },
+    {
+      "en": "to wash the dishes",
+      "target": "bulaşık yıkamak",
+      "level": "a2"
+    },
+    {
+      "en": "to take out the rubbish",
+      "target": "çöpü atmak",
+      "level": "a2"
+    },
+    {
+      "en": "to tidy up",
+      "target": "toplamak",
+      "level": "a2"
+    },
+    {
+      "en": "to walk the dog",
+      "target": "köpeği gezdirmek",
+      "level": "a2"
+    },
+    {
+      "en": "to go to bed",
+      "target": "yatmak",
+      "level": "a2"
+    },
+    {
+      "en": "in the morning",
+      "target": "sabahleyin",
+      "level": "a1"
+    },
+    {
+      "en": "in the evening",
+      "target": "akşamleyin",
+      "level": "a1"
+    },
+    {
+      "en": "every day",
+      "target": "her gün",
       "level": "a1"
     }
   ]

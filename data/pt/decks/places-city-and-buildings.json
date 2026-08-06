@@ -235,6 +235,76 @@
       "en": "city center",
       "target": "o centro da cidade",
       "level": "a1"
+    },
+    {
+      "en": "the church",
+      "target": "a igreja",
+      "level": "a2"
+    },
+    {
+      "en": "the castle",
+      "target": "o castelo",
+      "level": "a2"
+    },
+    {
+      "en": "the viewpoint",
+      "target": "o miradouro",
+      "level": "a2"
+    },
+    {
+      "en": "the fountain",
+      "target": "o chafariz",
+      "level": "a2"
+    },
+    {
+      "en": "the playground",
+      "target": "o parque infantil",
+      "level": "a2"
+    },
+    {
+      "en": "the stadium",
+      "target": "o estádio",
+      "level": "a2"
+    },
+    {
+      "en": "the swimming pool",
+      "target": "a piscina municipal",
+      "level": "a2"
+    },
+    {
+      "en": "the kiosk",
+      "target": "o quiosque",
+      "level": "a2"
+    },
+    {
+      "en": "the shopping centre",
+      "target": "o centro comercial",
+      "level": "a2"
+    },
+    {
+      "en": "the market square",
+      "target": "a praça do mercado",
+      "level": "a2"
+    },
+    {
+      "en": "the pavement",
+      "target": "o passeio",
+      "level": "a2"
+    },
+    {
+      "en": "the roundabout",
+      "target": "a rotunda",
+      "level": "a2"
+    },
+    {
+      "en": "the outskirts",
+      "target": "os arredores",
+      "level": "a2"
+    },
+    {
+      "en": "the countryside",
+      "target": "o campo",
+      "level": "a2"
     }
   ]
 }

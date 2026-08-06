@@ -62,11 +62,17 @@ function loadPorted(): LegacyCard[] {
   })
 }
 
-test('every card survives the port unchanged', async () => {
+/**
+ * The deck is allowed to grow; it is not allowed to lose or quietly rewrite a
+ * card it already had. So this is a subset check rather than an equality one —
+ * every card in the snapshot must still be there, spelled and tagged the same,
+ * while new cards are simply new.
+ */
+test('every card in the snapshot survives unchanged', async () => {
   const legacy = fixture('legacy-cards.json') as LegacyCard[]
   const ported = loadPorted()
 
-  expect(ported.length).toBe(legacy.length)
+  expect(ported.length).toBeGreaterThanOrEqual(legacy.length)
 
   const portedByKey = new Map(ported.map(c => [key(c), c]))
   const differences: string[] = []

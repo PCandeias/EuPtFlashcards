@@ -109,7 +109,7 @@
       "en": "I have an allergy",
       "target": "tenho uma alergia",
       "tense": "presente",
-      "level": "a1"
+      "level": "a2"
     },
     {
       "en": "I am vegetarian",
@@ -216,6 +216,76 @@
       "en": "what time does it close?",
       "target": "a que horas fecha?",
       "level": "a1"
+    },
+    {
+      "en": "help me, please",
+      "target": "ajude-me, por favor",
+      "level": "a1"
+    },
+    {
+      "en": "call the police",
+      "target": "chame a polícia",
+      "level": "a1"
+    },
+    {
+      "en": "it is an emergency",
+      "target": "é uma emergência",
+      "level": "a1"
+    },
+    {
+      "en": "I lost my wallet",
+      "target": "perdi a carteira",
+      "level": "a1"
+    },
+    {
+      "en": "I missed the train",
+      "target": "perdi o comboio",
+      "level": "a1"
+    },
+    {
+      "en": "can you help me, please?",
+      "target": "pode ajudar-me, por favor?",
+      "level": "a1"
+    },
+    {
+      "en": "how do you say this in Portuguese?",
+      "target": "como se diz isto em português?",
+      "level": "a1"
+    },
+    {
+      "en": "what does that mean?",
+      "target": "o que significa isso?",
+      "level": "a1"
+    },
+    {
+      "en": "more slowly, please",
+      "target": "mais devagar, por favor",
+      "level": "a1"
+    },
+    {
+      "en": "one moment, please",
+      "target": "um momento, por favor",
+      "level": "a1"
+    },
+    {
+      "en": "I only speak a little",
+      "target": "só falo um pouco",
+      "level": "a1"
+    },
+    {
+      "en": "is there anyone who speaks English?",
+      "target": "há alguém que fale inglês?",
+      "level": "a1"
+    },
+    {
+      "en": "where can I find a pharmacy?",
+      "target": "onde posso encontrar uma farmácia?",
+      "level": "a1"
+    },
+    {
+      "en": "leave me alone",
+      "target": "deixe-me em paz",
+      "level": "a2"
     }
   ]
 }

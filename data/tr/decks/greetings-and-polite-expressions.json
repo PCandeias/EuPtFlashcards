@@ -166,6 +166,66 @@
         "formal"
       ],
       "level": "a1"
+    },
+    {
+      "en": "welcome, come in",
+      "target": "buyurun",
+      "level": "a1"
+    },
+    {
+      "en": "sit down, please",
+      "target": "lütfen oturun",
+      "level": "a1"
+    },
+    {
+      "en": "never mind",
+      "target": "boş ver",
+      "level": "a1"
+    },
+    {
+      "en": "have a good weekend",
+      "target": "iyi hafta sonları",
+      "level": "a1"
+    },
+    {
+      "en": "have a good trip",
+      "target": "iyi yolculuklar",
+      "level": "a1"
+    },
+    {
+      "en": "good luck",
+      "target": "bol şans",
+      "level": "a1"
+    },
+    {
+      "en": "well done",
+      "target": "aferin",
+      "level": "a2"
+    },
+    {
+      "en": "bon appétit",
+      "target": "afiyet olsun",
+      "level": "a1"
+    },
+    {
+      "en": "to your health",
+      "target": "sıhhatler olsun",
+      "level": "a1"
+    },
+    {
+      "en": "my condolences",
+      "target": "başınız sağ olsun",
+      "level": "b1"
+    },
+    {
+      "en": "give my regards",
+      "target": "selam söyleyin",
+      "level": "a1"
+    },
+    {
+      "en": "it was a pleasure",
+      "target": "memnun oldum efendim",
+      "level": "a1"
     }
   ]
 }

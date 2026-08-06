@@ -4,8 +4,8 @@ Two languages, as one installable offline web app with spaced repetition:
 
 | | | |
 |---|---|---|
-| **Português** | 2093 cards · 31 decks | European Portuguese — `autocarro`, not `ônibus` |
-| **Türkçe** | 962 cards · 24 decks | Beginner Turkish — vowel harmony, suffixes, no gender |
+| **Português** | 2512 cards · 31 decks | European Portuguese — `autocarro`, not `ônibus` |
+| **Türkçe** | 1277 cards · 24 decks | Beginner Turkish — vowel harmony, suffixes, no gender |
 
 **Live:** https://pcandeias.github.io/EuPtFlashcards/
 
@@ -166,10 +166,47 @@ accept any of them.
 ## Example sentences
 
 The `"` beside a word shows it in whole sentences, filtered by the same tense
-selection as the deck. Portuguese has 1085 of them, covering every verb and the
-adjectives; **Turkish has none yet** — the annotation system simply offers no
-marker for a language with no example data, so the Turkish cards show only the
-conjugation `?`.
+selection as the deck: **11,535 sentences** across the two languages, reaching
+48% of the Portuguese cards and 79% of the Turkish ones.
+
+They come from three places, and where they overlap the more careful source wins:
+
+1. **Hand-written**, for the words that deserve it — every Portuguese verb the
+   original deck taught, and the thirty Turkish verbs a beginner meets first.
+   `Her sabah kahve içerim`, not just `içerim`.
+2. **Built from the conjugation engine**, for every other verb. The forms are the
+   ones the `?` panel shows, so an example cannot disagree with the table beside
+   it.
+3. **Built from frames**, for nouns, adjectives and the rest. A frame is a
+   sentence with one hole in it, grouped by what kind of word goes in the hole —
+   food, clothing, a place, a person, weather, a colour, a country.
+
+The frames are where the language-specific work is:
+
+- **Portuguese agreement is read off the article the card already carries.** `o`
+  and `a` say masculine and feminine, `os` and `as` say plural too, so `bom`
+  comes out as `boa` before a feminine noun and `de` + `o` is built into `do`
+  rather than left as two words. A word written without an article is usually not
+  a noun at all, and is skipped rather than forced into a noun frame.
+- **Turkish keeps the noun in the nominative.** Marking an object or a place
+  means a suffix that harmonises with the word — `kitabı`, `evde` — so the frames
+  are built so no suffix is ever needed: `Bu bir kitap`, `Kitap nerede?`,
+  `Kitap okuyorum`. That last one is worth knowing anyway: an indefinite object
+  takes no ending at all. Where Turkish would want a possessive it uses `için`
+  instead, because `göz` alone is not how anyone says "my eye".
+
+A Turkish sentence with no verb in it — `Bu bir kitap` — has no tense, and says
+so rather than claiming one. Those are shown whatever the tense selection is,
+which is also what keeps a word from losing all its examples when you narrow it.
+
+**Not everything gets a sentence, on purpose.** Greetings, function words and the
+cards that are already whole sentences are left alone: there is no useful example
+built around `olá` or `porque` that is not just the word again, and a wrong
+example is worse than none.
+
+The whole corpus is checked by tests: every sentence must contain the word it
+illustrates, fill every slot, name only a tense its own language has, and never
+produce `de o` where `do` belongs.
 
 ## Audio
 
@@ -222,13 +259,18 @@ thirteen monosyllables that take the four-way aorist (`gelir`, not `geler`).
 Nothing else is guessed at.
 
 Both engines are checked against the deck itself: every conjugated card must be a
-form the engine also produces. That check caught two real bugs in the Portuguese
-engine, and three Turkish verbs the deck used in sentences but never taught.
+form the engine also produces. That check has caught, so far: two arithmetic bugs
+in the Portuguese engine, a missing accent rule (`saía`, not `saia` — the second
+is a skirt), a hand-written sentence that had the same error, `construir` and the
+defective `doer` being run through rules that do not fit them, and four Turkish
+verbs the deck used in sentences but never taught.
 
 ## Editing cards
 
 Decks live in [`data/pt/decks/`](data/pt/decks/) and
-[`data/tr/decks/`](data/tr/decks/), one JSON file each. Edit the file and the
+[`data/tr/decks/`](data/tr/decks/), one JSON file each. The **Class** deck is not
+maintained here: it records what a real class covered, so nothing is added to it,
+though its cards get example sentences and levels like any other. Edit the file and the
 change is picked up on the next build. An unknown tag, a `targetTags` entry not
 present in `tags`, or a tense belonging to the other language, fails the build
 rather than rendering half-right.

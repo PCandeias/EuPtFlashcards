@@ -166,6 +166,76 @@
       "en": "broken",
       "target": "avariado / avariada",
       "level": "a2"
+    },
+    {
+      "en": "the signal",
+      "target": "a rede",
+      "level": "a2"
+    },
+    {
+      "en": "the data",
+      "target": "os dados",
+      "level": "a2"
+    },
+    {
+      "en": "the update",
+      "target": "a atualização",
+      "level": "a2"
+    },
+    {
+      "en": "the link",
+      "target": "o link",
+      "level": "a2"
+    },
+    {
+      "en": "the attachment",
+      "target": "o anexo",
+      "level": "a2"
+    },
+    {
+      "en": "the printer",
+      "target": "a impressora",
+      "level": "a2"
+    },
+    {
+      "en": "the voicemail",
+      "target": "o correio de voz",
+      "level": "a2"
+    },
+    {
+      "en": "the text message",
+      "target": "a mensagem escrita",
+      "level": "a2"
+    },
+    {
+      "en": "the video call",
+      "target": "a videochamada",
+      "level": "a2"
+    },
+    {
+      "en": "to charge",
+      "target": "carregar a bateria",
+      "level": "a2"
+    },
+    {
+      "en": "to type",
+      "target": "escrever no teclado",
+      "level": "a2"
+    },
+    {
+      "en": "to search online",
+      "target": "pesquisar na internet",
+      "level": "a2"
+    },
+    {
+      "en": "the battery is dead",
+      "target": "a bateria está descarregada",
+      "level": "a2"
+    },
+    {
+      "en": "there is no signal",
+      "target": "não há rede",
+      "level": "a1"
     }
   ]
 }

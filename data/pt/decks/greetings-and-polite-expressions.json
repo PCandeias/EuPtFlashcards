@@ -54,14 +54,14 @@
     {
       "en": "thank you",
       "target": "obrigado",
-      "sense": "said by a man",
-      "level": "a1"
+      "level": "a1",
+      "sense": "said by a man"
     },
     {
       "en": "thank you",
       "target": "obrigada",
-      "sense": "said by a woman",
-      "level": "a1"
+      "level": "a1",
+      "sense": "said by a woman"
     },
     {
       "en": "thanks",
@@ -132,8 +132,8 @@
     {
       "en": "welcome",
       "target": "bem-vinda",
-      "sense": "said to a woman",
-      "level": "a1"
+      "level": "a1",
+      "sense": "said to a woman"
     },
     {
       "en": "nice to meet you",
@@ -143,7 +143,7 @@
     {
       "en": "pleased to meet you",
       "target": "prazer em conhecê-lo / conhecê-la",
-      "level": "a1"
+      "level": "a2"
     },
     {
       "en": "how are you?",
@@ -288,6 +288,76 @@
     {
       "en": "just a second",
       "target": "só um segundo",
+      "level": "a1"
+    },
+    {
+      "en": "good afternoon, how are you?",
+      "target": "boa tarde, como está?",
+      "level": "a1"
+    },
+    {
+      "en": "welcome",
+      "target": "bem-vindo / bem-vinda",
+      "level": "a1"
+    },
+    {
+      "en": "come in",
+      "target": "faça favor de entrar",
+      "level": "a1"
+    },
+    {
+      "en": "sit down, please",
+      "target": "sente-se, por favor",
+      "level": "a1"
+    },
+    {
+      "en": "excuse me, may I pass?",
+      "target": "com licença, dá licença?",
+      "level": "a1"
+    },
+    {
+      "en": "I am sorry to bother you",
+      "target": "desculpe incomodar",
+      "level": "a1"
+    },
+    {
+      "en": "all the best",
+      "target": "tudo de bom",
+      "level": "a1"
+    },
+    {
+      "en": "enjoy your weekend",
+      "target": "bom fim de semana",
+      "level": "a1"
+    },
+    {
+      "en": "good luck with the exam",
+      "target": "boa sorte no exame",
+      "level": "a2"
+    },
+    {
+      "en": "congratulations on the baby",
+      "target": "parabéns pelo bebé",
+      "level": "a1"
+    },
+    {
+      "en": "my condolences",
+      "target": "os meus pêsames",
+      "level": "b1"
+    },
+    {
+      "en": "give my regards to your family",
+      "target": "cumprimentos à família",
+      "level": "a1"
+    },
+    {
+      "en": "it was a pleasure",
+      "target": "foi um prazer",
+      "level": "a1"
+    },
+    {
+      "en": "see you around",
+      "target": "até qualquer dia",
       "level": "a1"
     }
   ]

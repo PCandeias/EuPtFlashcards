@@ -319,12 +319,33 @@ describe('coverage over the real deck', () => {
     expect(wrong).toEqual([])
   })
 
+  // `doer` is defective and that is the truth about it: nobody says "eu doo",
+  // only "dói-me a cabeça". A partial table is the honest answer, not a bug.
+  const DEFECTIVE = new Set(['doer'])
+
   it('produces a full set of persons for every card it accepts', () => {
     for (const card of infinitiveCards) {
       const infinitive = verbOf(card)
-      if (!infinitive) continue
+      if (!infinitive || DEFECTIVE.has(infinitive)) continue
       const present = conjugatePhrase(infinitive)?.presente
       expect(Object.keys(present ?? {}), `${infinitive} present`).toHaveLength(5)
     }
+  })
+
+  it('gives a defective verb only the persons it has', () => {
+    expect(conjugatePhrase('doer')?.presente).toEqual({ ele: 'dói', eles: 'doem' })
+  })
+
+  // A vowel before the ending makes a hiatus, and the i takes the accent.
+  it('accents the i after a vowel-final root', () => {
+    expect(conjugatePhrase('sair')?.imperfeito?.eu).toBe('saía')
+    expect(conjugatePhrase('cair')?.imperfeito?.eles).toBe('caíam')
+    expect(conjugatePhrase('construir')?.perfeito?.eu).toBe('construí')
+    expect(conjugatePhrase('construir')?.imperfeito?.eu).toBe('construía')
+    // ...except before -iu, where the stress moves to the u.
+    expect(conjugatePhrase('cair')?.perfeito?.ele).toBe('caiu')
+    // And a consonant-final root is untouched.
+    expect(conjugatePhrase('partir')?.imperfeito?.eu).toBe('partia')
+    expect(conjugatePhrase('sorrir')?.perfeito?.eu).toBe('sorri')
   })
 })

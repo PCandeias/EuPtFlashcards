@@ -415,6 +415,161 @@
       "en": "fresh",
       "target": "fresco / fresca",
       "level": "a1"
+    },
+    {
+      "en": "the flour",
+      "target": "a farinha",
+      "level": "a2"
+    },
+    {
+      "en": "the vinegar",
+      "target": "o vinagre",
+      "level": "a2"
+    },
+    {
+      "en": "the tuna",
+      "target": "o atum",
+      "level": "a2"
+    },
+    {
+      "en": "the cod",
+      "target": "o bacalhau",
+      "level": "a2"
+    },
+    {
+      "en": "the sardines",
+      "target": "as sardinhas",
+      "level": "a2"
+    },
+    {
+      "en": "the octopus",
+      "target": "o polvo",
+      "level": "a2"
+    },
+    {
+      "en": "the prawns",
+      "target": "os camarões",
+      "level": "a2"
+    },
+    {
+      "en": "the spinach",
+      "target": "os espinafres",
+      "level": "a2"
+    },
+    {
+      "en": "the courgette",
+      "target": "a curgete",
+      "level": "a2"
+    },
+    {
+      "en": "the aubergine",
+      "target": "a beringela",
+      "level": "a2"
+    },
+    {
+      "en": "the pumpkin",
+      "target": "a abóbora",
+      "level": "a2"
+    },
+    {
+      "en": "the corn",
+      "target": "o milho",
+      "level": "a2"
+    },
+    {
+      "en": "the cream",
+      "target": "as natas",
+      "level": "a2"
+    },
+    {
+      "en": "the fresh cheese",
+      "target": "o queijo fresco",
+      "level": "a2"
+    },
+    {
+      "en": "the cured ham",
+      "target": "o presunto",
+      "level": "a2"
+    },
+    {
+      "en": "the sausage",
+      "target": "o chouriço",
+      "level": "a2"
+    },
+    {
+      "en": "the custard tart",
+      "target": "o pastel de nata",
+      "level": "a2"
+    },
+    {
+      "en": "the sandwich",
+      "target": "a sandes",
+      "level": "a2"
+    },
+    {
+      "en": "the soup of the day",
+      "target": "a sopa do dia",
+      "level": "a2"
+    },
+    {
+      "en": "the white coffee in a glass",
+      "target": "o galão",
+      "level": "a2"
+    },
+    {
+      "en": "the small draught beer",
+      "target": "a imperial",
+      "level": "a2"
+    },
+    {
+      "en": "the red wine",
+      "target": "o vinho tinto",
+      "level": "a2"
+    },
+    {
+      "en": "the white wine",
+      "target": "o vinho branco",
+      "level": "a2"
+    },
+    {
+      "en": "the soft drink",
+      "target": "o refrigerante",
+      "level": "a2"
+    },
+    {
+      "en": "the tap water",
+      "target": "a água da torneira",
+      "level": "a2"
+    },
+    {
+      "en": "the leftovers",
+      "target": "as sobras",
+      "level": "a2"
+    },
+    {
+      "en": "the recipe",
+      "target": "a receita de cozinha",
+      "level": "a2"
+    },
+    {
+      "en": "to taste",
+      "target": "provar",
+      "level": "a2"
+    },
+    {
+      "en": "to boil",
+      "target": "ferver",
+      "level": "a2"
+    },
+    {
+      "en": "to fry",
+      "target": "fritar",
+      "level": "a2"
+    },
+    {
+      "en": "to roast",
+      "target": "assar",
+      "level": "a2"
     }
   ]
 }

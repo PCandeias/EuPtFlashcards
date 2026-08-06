@@ -201,6 +201,76 @@
       "en": "winter",
       "target": "kış",
       "level": "a1"
+    },
+    {
+      "en": "century",
+      "target": "yüzyıl",
+      "level": "a2"
+    },
+    {
+      "en": "decade",
+      "target": "on yıl",
+      "level": "a2"
+    },
+    {
+      "en": "moment",
+      "target": "an",
+      "level": "a2"
+    },
+    {
+      "en": "public holiday",
+      "target": "resmî tatil",
+      "level": "a2"
+    },
+    {
+      "en": "New Year",
+      "target": "yılbaşı",
+      "level": "a1"
+    },
+    {
+      "en": "the weekend",
+      "target": "hafta sonu",
+      "level": "a1"
+    },
+    {
+      "en": "the day before yesterday",
+      "target": "evvelsi gün",
+      "level": "a2"
+    },
+    {
+      "en": "the day after tomorrow",
+      "target": "öbür gün",
+      "level": "a2"
+    },
+    {
+      "en": "last night",
+      "target": "dün gece",
+      "level": "a1"
+    },
+    {
+      "en": "this morning",
+      "target": "bu sabah",
+      "level": "a1"
+    },
+    {
+      "en": "every year",
+      "target": "her yıl",
+      "level": "a1"
+    },
+    {
+      "en": "once a week",
+      "target": "haftada bir",
+      "level": "a1"
+    },
+    {
+      "en": "it is early",
+      "target": "erken",
+      "level": "a1"
+    },
+    {
+      "en": "it is late",
+      "target": "geç",
+      "level": "a1"
     }
   ]
 }

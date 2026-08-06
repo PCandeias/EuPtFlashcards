@@ -136,6 +136,61 @@
       "en": "can I take this?",
       "target": "Bunu alabilir miyim?",
       "level": "a1"
+    },
+    {
+      "en": "how much time?",
+      "target": "ne kadar zaman?",
+      "level": "a1"
+    },
+    {
+      "en": "how often?",
+      "target": "ne sıklıkta?",
+      "level": "a2"
+    },
+    {
+      "en": "what kind of?",
+      "target": "ne tür?",
+      "level": "a2"
+    },
+    {
+      "en": "with whom?",
+      "target": "kiminle?",
+      "level": "a2"
+    },
+    {
+      "en": "so",
+      "target": "yani",
+      "level": "a2"
+    },
+    {
+      "en": "however",
+      "target": "ancak",
+      "level": "b1"
+    },
+    {
+      "en": "therefore",
+      "target": "bu yüzden",
+      "level": "b1"
+    },
+    {
+      "en": "for example",
+      "target": "örneğin",
+      "level": "a2"
+    },
+    {
+      "en": "in my opinion",
+      "target": "bence",
+      "level": "b1"
+    },
+    {
+      "en": "if",
+      "target": "eğer",
+      "level": "a2"
+    },
+    {
+      "en": "when — as a conjunction",
+      "target": "zaman",
+      "level": "a2"
     }
   ]
 }

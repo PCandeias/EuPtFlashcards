@@ -370,6 +370,126 @@
       "en": "cold water",
       "target": "a água fria",
       "level": "a1"
+    },
+    {
+      "en": "the thing",
+      "target": "a coisa",
+      "level": "a1"
+    },
+    {
+      "en": "the piece",
+      "target": "o pedaço",
+      "level": "a2"
+    },
+    {
+      "en": "the pair",
+      "target": "o par",
+      "level": "a2"
+    },
+    {
+      "en": "the group",
+      "target": "o grupo",
+      "level": "a2"
+    },
+    {
+      "en": "the list",
+      "target": "a lista",
+      "level": "a2"
+    },
+    {
+      "en": "the idea",
+      "target": "a ideia",
+      "level": "a2"
+    },
+    {
+      "en": "the reason",
+      "target": "a razão",
+      "level": "a2"
+    },
+    {
+      "en": "the problem",
+      "target": "o problema",
+      "level": "a1"
+    },
+    {
+      "en": "the solution",
+      "target": "a solução",
+      "level": "a2"
+    },
+    {
+      "en": "the example",
+      "target": "o exemplo",
+      "level": "a2"
+    },
+    {
+      "en": "the difference",
+      "target": "a diferença",
+      "level": "a2"
+    },
+    {
+      "en": "the beginning",
+      "target": "o início",
+      "level": "a2"
+    },
+    {
+      "en": "the end",
+      "target": "o fim",
+      "level": "a2"
+    },
+    {
+      "en": "the top",
+      "target": "o topo",
+      "level": "a2"
+    },
+    {
+      "en": "the bottom",
+      "target": "o fundo",
+      "level": "a2"
+    },
+    {
+      "en": "the side",
+      "target": "o lado",
+      "level": "a2"
+    },
+    {
+      "en": "the edge",
+      "target": "a beira",
+      "level": "a2"
+    },
+    {
+      "en": "the corner",
+      "target": "a esquina",
+      "level": "a2"
+    },
+    {
+      "en": "the way",
+      "target": "o caminho",
+      "level": "a2"
+    },
+    {
+      "en": "the noise",
+      "target": "o barulho",
+      "level": "a2"
+    },
+    {
+      "en": "the smell",
+      "target": "o cheiro",
+      "level": "a2"
+    },
+    {
+      "en": "the taste",
+      "target": "o sabor",
+      "level": "a2"
+    },
+    {
+      "en": "the weight",
+      "target": "o peso",
+      "level": "a2"
+    },
+    {
+      "en": "the shape",
+      "target": "a forma",
+      "level": "a2"
     }
   ]
 }

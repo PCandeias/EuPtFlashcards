@@ -5,77 +5,77 @@
       "en": "I used to be",
       "target": "eu era",
       "tense": "imperfeito",
-      "sense": "permanent / identity",
-      "level": "a2"
+      "level": "a2",
+      "sense": "permanent / identity"
     },
     {
       "en": "you used to be",
       "target": "tu eras",
-      "tense": "imperfeito",
       "tags": [
         "informal"
       ],
-      "sense": "permanent / identity",
-      "level": "a2"
+      "tense": "imperfeito",
+      "level": "a2",
+      "sense": "permanent / identity"
     },
     {
       "en": "he / she used to be",
       "target": "ele / ela era",
       "tense": "imperfeito",
-      "sense": "permanent / identity",
-      "level": "a2"
+      "level": "a2",
+      "sense": "permanent / identity"
     },
     {
       "en": "we used to be",
       "target": "nós éramos",
       "tense": "imperfeito",
-      "sense": "permanent / identity",
-      "level": "a2"
+      "level": "a2",
+      "sense": "permanent / identity"
     },
     {
       "en": "they used to be",
       "target": "eles / elas eram",
       "tense": "imperfeito",
-      "sense": "permanent / identity",
-      "level": "a2"
+      "level": "a2",
+      "sense": "permanent / identity"
     },
     {
       "en": "I used to be",
       "target": "eu estava",
       "tense": "imperfeito",
-      "sense": "temporary / location",
-      "level": "a2"
+      "level": "a2",
+      "sense": "temporary / location"
     },
     {
       "en": "you used to be",
       "target": "tu estavas",
-      "tense": "imperfeito",
       "tags": [
         "informal"
       ],
-      "sense": "temporary / location",
-      "level": "a2"
+      "tense": "imperfeito",
+      "level": "a2",
+      "sense": "temporary / location"
     },
     {
       "en": "he / she used to be",
       "target": "ele / ela estava",
       "tense": "imperfeito",
-      "sense": "temporary / location",
-      "level": "a2"
+      "level": "a2",
+      "sense": "temporary / location"
     },
     {
       "en": "we used to be",
       "target": "nós estávamos",
       "tense": "imperfeito",
-      "sense": "temporary / location",
-      "level": "a2"
+      "level": "a2",
+      "sense": "temporary / location"
     },
     {
       "en": "they used to be",
       "target": "eles / elas estavam",
       "tense": "imperfeito",
-      "sense": "temporary / location",
-      "level": "a2"
+      "level": "a2",
+      "sense": "temporary / location"
     },
     {
       "en": "I used to have",
@@ -86,10 +86,10 @@
     {
       "en": "you used to have",
       "target": "tu tinhas",
-      "tense": "imperfeito",
       "tags": [
         "informal"
       ],
+      "tense": "imperfeito",
       "level": "a2"
     },
     {
@@ -119,10 +119,10 @@
     {
       "en": "you used to go",
       "target": "tu ias",
-      "tense": "imperfeito",
       "tags": [
         "informal"
       ],
+      "tense": "imperfeito",
       "level": "a2"
     },
     {
@@ -152,10 +152,10 @@
     {
       "en": "you used to do",
       "target": "tu fazias",
-      "tense": "imperfeito",
       "tags": [
         "informal"
       ],
+      "tense": "imperfeito",
       "level": "a2"
     },
     {
@@ -185,10 +185,10 @@
     {
       "en": "you used to eat",
       "target": "tu comias",
-      "tense": "imperfeito",
       "tags": [
         "informal"
       ],
+      "tense": "imperfeito",
       "level": "a2"
     },
     {
@@ -218,10 +218,10 @@
     {
       "en": "you used to drink",
       "target": "tu bebias",
-      "tense": "imperfeito",
       "tags": [
         "informal"
       ],
+      "tense": "imperfeito",
       "level": "a2"
     },
     {
@@ -251,10 +251,10 @@
     {
       "en": "you used to speak",
       "target": "tu falavas",
-      "tense": "imperfeito",
       "tags": [
         "informal"
       ],
+      "tense": "imperfeito",
       "level": "a2"
     },
     {
@@ -284,10 +284,10 @@
     {
       "en": "you used to work",
       "target": "tu trabalhavas",
-      "tense": "imperfeito",
       "tags": [
         "informal"
       ],
+      "tense": "imperfeito",
       "level": "a2"
     },
     {
@@ -317,10 +317,10 @@
     {
       "en": "you used to see",
       "target": "tu vias",
-      "tense": "imperfeito",
       "tags": [
         "informal"
       ],
+      "tense": "imperfeito",
       "level": "a2"
     },
     {

@@ -249,6 +249,111 @@
       "en": "couple",
       "target": "o casal",
       "level": "a2"
+    },
+    {
+      "en": "the stepfather",
+      "target": "o padrasto",
+      "level": "a2"
+    },
+    {
+      "en": "the stepmother",
+      "target": "a madrasta",
+      "level": "a2"
+    },
+    {
+      "en": "the godfather",
+      "target": "o padrinho",
+      "level": "a2"
+    },
+    {
+      "en": "the godmother",
+      "target": "a madrinha",
+      "level": "a2"
+    },
+    {
+      "en": "the father-in-law",
+      "target": "o sogro",
+      "level": "a2"
+    },
+    {
+      "en": "the mother-in-law",
+      "target": "a sogra",
+      "level": "a2"
+    },
+    {
+      "en": "the brother-in-law",
+      "target": "o cunhado",
+      "level": "a2"
+    },
+    {
+      "en": "the sister-in-law",
+      "target": "a cunhada",
+      "level": "a2"
+    },
+    {
+      "en": "the son-in-law",
+      "target": "o genro",
+      "level": "a2"
+    },
+    {
+      "en": "the daughter-in-law",
+      "target": "a nora",
+      "level": "a2"
+    },
+    {
+      "en": "the twins",
+      "target": "os gémeos",
+      "level": "a2"
+    },
+    {
+      "en": "the only child",
+      "target": "o filho único",
+      "level": "a2"
+    },
+    {
+      "en": "the partner",
+      "target": "o companheiro / a companheira",
+      "level": "a2"
+    },
+    {
+      "en": "the ex",
+      "target": "o ex / a ex",
+      "level": "a2"
+    },
+    {
+      "en": "the childhood",
+      "target": "a infância",
+      "level": "a2"
+    },
+    {
+      "en": "the birthday party",
+      "target": "a festa de anos",
+      "level": "a2"
+    },
+    {
+      "en": "to be born",
+      "target": "nascer",
+      "level": "a2"
+    },
+    {
+      "en": "to get married",
+      "target": "casar-se",
+      "level": "a2"
+    },
+    {
+      "en": "to be pregnant",
+      "target": "estar grávida",
+      "level": "a2"
+    },
+    {
+      "en": "to look after",
+      "target": "tomar conta de",
+      "level": "a2"
+    },
+    {
+      "en": "to look like",
+      "target": "parecer-se com",
+      "level": "a2"
     }
   ]
 }

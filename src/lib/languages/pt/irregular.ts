@@ -18,7 +18,7 @@ import type { Conjugation } from '../../grammar/tenses.js'
 export const KNOWN_IRREGULAR = new Set([
   'ser', 'estar', 'ir', 'ter', 'haver', 'vir', 'ver', 'dar', 'dizer', 'fazer',
   'poder', 'querer', 'saber', 'trazer', 'ler', 'ouvir', 'pôr', 'rir', 'perder',
-  'sair', 'cair', 'pedir', 'dormir', 'sentir', 'servir', 'preferir', 'vestir',
+  'sair', 'cair', 'construir', 'doer', 'pedir', 'dormir', 'sentir', 'servir', 'preferir', 'vestir',
   'subir', 'seguir', 'repetir', 'fugir', 'medir', 'valer', 'caber', 'crer',
   // Defective or irregular verbs with no table entry: listed so they are refused
   // rather than run through the regular rules and answered wrongly.
@@ -122,6 +122,17 @@ export const IRREGULAR: Record<string, Conjugation> = {
   cair: {
     presente: { eu: 'caio', tu: 'cais', ele: 'cai', nos: 'caímos', eles: 'caem' },
     perfeito: { eu: 'caí', tu: 'caíste', ele: 'caiu', nos: 'caímos', eles: 'caíram' },
+  },
+  // The -uir verbs take ó in the second and third person of the present.
+  construir: {
+    presente: { eu: 'construo', tu: 'constróis', ele: 'constrói', nos: 'construímos', eles: 'constroem' },
+  },
+  // Defective: only the third person is used. Nobody says "eu doo".
+  doer: {
+    presente: { ele: 'dói', eles: 'doem' },
+    perfeito: { ele: 'doeu', eles: 'doeram' },
+    imperfeito: { ele: 'doía', eles: 'doíam' },
+    futuro: { ele: 'doerá', eles: 'doerão' },
   },
   valer: { presente: { eu: 'valho', tu: 'vales', ele: 'vale', nos: 'valemos', eles: 'valem' } },
   caber: { presente: { eu: 'caibo', tu: 'cabes', ele: 'cabe', nos: 'cabemos', eles: 'cabem' } },

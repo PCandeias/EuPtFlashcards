@@ -14,10 +14,13 @@
  */
 import { loadCorpus, type DeckModules } from '../../cards/load.js'
 import { createConjugationKind } from '../../annotations/conjugation.js'
+import { createExamplesKind, type Example } from '../../annotations/examples.js'
 import { TR_PERSONS, TR_TENSES, TR_TENSE_IDS } from './tenses.js'
 import { conjugatePhrase } from './conjugate.js'
 import { verbOf } from './detect.js'
 import Flag from './Flag.svelte'
+import verbData from '../../../../data/tr/verb-examples.json'
+import wordData from '../../../../data/tr/word-examples.json'
 import type { LanguageDef, VoiceSpec } from '../types.js'
 import type { AnnotationKind } from '../../annotations/types.js'
 
@@ -34,6 +37,17 @@ const voice: VoiceSpec = {
   accept: lang => lang.startsWith('tr'),
   missing: 'No Turkish voice installed; your device will read it as best it can',
 }
+
+export const examplesKind = createExamplesKind({
+  verbs: verbData as Record<string, Example[]>,
+  words: wordData as Record<string, Example[]>,
+  locale: 'tr-TR',
+  languageName: 'Turkish',
+  voice,
+  verbOf,
+  // `spor yapmak` borrows nothing: Turkish puts the verb last, so a phrase that
+  // conjugates at all already has its own entry under its whole form.
+})
 
 export const turkish: LanguageDef = {
   id: 'tr',
@@ -55,6 +69,7 @@ export const turkish: LanguageDef = {
       conjugate: conjugatePhrase,
       verbOf,
     }) as AnnotationKind,
+    examplesKind as AnnotationKind,
   ],
   conjugate: conjugatePhrase,
   verbOf,

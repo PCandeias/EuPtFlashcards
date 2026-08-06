@@ -226,6 +226,93 @@
       "en": "is there a discount?",
       "target": "há desconto?",
       "level": "a1"
+    },
+    {
+      "en": "the shopping list",
+      "target": "a lista de compras",
+      "level": "a2"
+    },
+    {
+      "en": "the trolley",
+      "target": "o carrinho",
+      "level": "a2"
+    },
+    {
+      "en": "the queue",
+      "target": "a fila",
+      "level": "a2"
+    },
+    {
+      "en": "the change",
+      "target": "o troco",
+      "level": "a2"
+    },
+    {
+      "en": "the sales",
+      "target": "os saldos",
+      "level": "a2"
+    },
+    {
+      "en": "the delivery",
+      "target": "a entrega",
+      "level": "a2"
+    },
+    {
+      "en": "the parcel",
+      "target": "a encomenda",
+      "level": "a2"
+    },
+    {
+      "en": "the shop window",
+      "target": "a montra",
+      "level": "a2"
+    },
+    {
+      "en": "the fitting room",
+      "target": "o gabinete de provas",
+      "level": "a2"
+    },
+    {
+      "en": "the bank account",
+      "target": "a conta bancária",
+      "level": "b1"
+    },
+    {
+      "en": "the transfer",
+      "target": "a transferência",
+      "level": "b1"
+    },
+    {
+      "en": "the salary",
+      "target": "o ordenado",
+      "level": "a2"
+    },
+    {
+      "en": "how much does it cost?",
+      "target": "quanto é que custa?",
+      "level": "a1"
+    },
+    {
+      "en": "do you have it in another size?",
+      "target": "tem noutro tamanho?",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "I am just looking, thank you",
+      "target": "estou só a ver, obrigado",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "to pay in cash",
+      "target": "pagar em dinheiro",
+      "level": "a1"
+    },
+    {
+      "en": "to pay by card",
+      "target": "pagar com cartão",
+      "level": "a1"
     }
   ]
 }

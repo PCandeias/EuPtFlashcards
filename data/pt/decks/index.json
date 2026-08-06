@@ -2,7 +2,7 @@
   {
     "deck": "Adjectives & Opposites",
     "file": "adjectives-and-opposites",
-    "count": 47
+    "count": 75
   },
   {
     "deck": "Basic Present Tense Phrases",
@@ -12,7 +12,7 @@
   {
     "deck": "Body & Health",
     "file": "body-and-health",
-    "count": 55
+    "count": 83
   },
   {
     "deck": "Class",
@@ -22,12 +22,12 @@
   {
     "deck": "Clothing & Colors",
     "file": "clothing-and-colors",
-    "count": 49
+    "count": 72
   },
   {
     "deck": "Common Verbs",
     "file": "common-verbs",
-    "count": 70
+    "count": 103
   },
   {
     "deck": "Countries & Languages",
@@ -37,32 +37,32 @@
   {
     "deck": "Daily Routine",
     "file": "daily-routine",
-    "count": 26
+    "count": 45
   },
   {
     "deck": "Emotions & Daily State",
     "file": "emotions-and-daily-state",
-    "count": 28
+    "count": 47
   },
   {
     "deck": "Essential Survival Phrases",
     "file": "essential-survival-phrases",
-    "count": 42
+    "count": 56
   },
   {
     "deck": "Extra Useful A1 Words",
     "file": "extra-useful-a1-words",
-    "count": 74
+    "count": 98
   },
   {
     "deck": "Family & Relationships",
     "file": "family-and-relationships",
-    "count": 45
+    "count": 66
   },
   {
     "deck": "Food & Drink",
     "file": "food-and-drink",
-    "count": 83
+    "count": 114
   },
   {
     "deck": "Future Tense (Futuro)",
@@ -72,12 +72,12 @@
   {
     "deck": "Greetings & Polite Expressions",
     "file": "greetings-and-polite-expressions",
-    "count": 53
+    "count": 67
   },
   {
     "deck": "Home & Household Objects",
     "file": "home-and-household-objects",
-    "count": 58
+    "count": 82
   },
   {
     "deck": "Near Future (Ir + Infinitive)",
@@ -102,7 +102,7 @@
   {
     "deck": "Places, City & Buildings",
     "file": "places-city-and-buildings",
-    "count": 47
+    "count": 61
   },
   {
     "deck": "Pronouns & Basic Words",
@@ -117,27 +117,27 @@
   {
     "deck": "Restaurant & Ordering",
     "file": "restaurant-and-ordering",
-    "count": 42
+    "count": 58
   },
   {
     "deck": "Shopping & Money",
     "file": "shopping-and-money",
-    "count": 45
+    "count": 62
   },
   {
     "deck": "Technology & Phone",
     "file": "technology-and-phone",
-    "count": 33
+    "count": 47
   },
   {
     "deck": "Time, Days & Calendar",
     "file": "time-days-and-calendar",
-    "count": 53
+    "count": 72
   },
   {
     "deck": "Transport & Directions",
     "file": "transport-and-directions",
-    "count": 43
+    "count": 59
   },
   {
     "deck": "Useful Verb Phrases",
@@ -147,11 +147,11 @@
   {
     "deck": "Weather, Nature & Animals",
     "file": "weather-nature-and-animals",
-    "count": 53
+    "count": 75
   },
   {
     "deck": "Work, School & Study",
     "file": "work-school-and-study",
-    "count": 40
+    "count": 63
   }
 ]

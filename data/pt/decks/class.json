@@ -44,26 +44,26 @@
     {
       "en": "thank you",
       "target": "obrigado",
-      "sense": "said by a man",
-      "level": "a1"
+      "level": "a1",
+      "sense": "said by a man"
     },
     {
       "en": "thank you",
       "target": "obrigada",
-      "sense": "said by a woman",
-      "level": "a1"
+      "level": "a1",
+      "sense": "said by a woman"
     },
     {
       "en": "thank you very much",
       "target": "muito obrigado",
-      "sense": "said by a man",
-      "level": "a1"
+      "level": "a1",
+      "sense": "said by a man"
     },
     {
       "en": "thank you very much",
       "target": "muito obrigada",
-      "sense": "said by a woman",
-      "level": "a1"
+      "level": "a1",
+      "sense": "said by a woman"
     },
     {
       "en": "you are welcome",
@@ -200,15 +200,15 @@
     {
       "en": "to be",
       "target": "ser",
-      "sense": "permanent / identity",
-      "level": "a1"
+      "level": "a1",
+      "sense": "permanent / identity"
     },
     {
       "en": "I am",
       "target": "eu sou",
-      "sense": "permanent / identity",
       "tense": "presente",
-      "level": "a1"
+      "level": "a1",
+      "sense": "permanent / identity"
     },
     {
       "en": "you are",
@@ -216,9 +216,9 @@
       "tags": [
         "informal"
       ],
-      "sense": "permanent / identity",
       "tense": "presente",
-      "level": "a1"
+      "level": "a1",
+      "sense": "permanent / identity"
     },
     {
       "en": "he / she / you is",
@@ -226,16 +226,16 @@
       "tags": [
         "formal"
       ],
-      "sense": "permanent / identity",
       "tense": "presente",
-      "level": "a1"
+      "level": "a1",
+      "sense": "permanent / identity"
     },
     {
       "en": "we are",
       "target": "nós somos",
-      "sense": "permanent / identity",
       "tense": "presente",
-      "level": "a1"
+      "level": "a1",
+      "sense": "permanent / identity"
     },
     {
       "en": "they / you are",
@@ -243,22 +243,22 @@
       "tags": [
         "plural"
       ],
-      "sense": "permanent / identity",
       "tense": "presente",
-      "level": "a1"
+      "level": "a1",
+      "sense": "permanent / identity"
     },
     {
       "en": "to be",
       "target": "estar",
-      "sense": "temporary / location",
-      "level": "a1"
+      "level": "a1",
+      "sense": "temporary / location"
     },
     {
       "en": "I am",
       "target": "eu estou",
-      "sense": "temporary / location",
       "tense": "presente",
-      "level": "a1"
+      "level": "a1",
+      "sense": "temporary / location"
     },
     {
       "en": "you are",
@@ -266,9 +266,9 @@
       "tags": [
         "informal"
       ],
-      "sense": "temporary / location",
       "tense": "presente",
-      "level": "a1"
+      "level": "a1",
+      "sense": "temporary / location"
     },
     {
       "en": "he / she / you is",
@@ -276,16 +276,16 @@
       "tags": [
         "formal"
       ],
-      "sense": "temporary / location",
       "tense": "presente",
-      "level": "a1"
+      "level": "a1",
+      "sense": "temporary / location"
     },
     {
       "en": "we are",
       "target": "nós estamos",
-      "sense": "temporary / location",
       "tense": "presente",
-      "level": "a1"
+      "level": "a1",
+      "sense": "temporary / location"
     },
     {
       "en": "they / you are",
@@ -293,9 +293,9 @@
       "tags": [
         "plural"
       ],
-      "sense": "temporary / location",
       "tense": "presente",
-      "level": "a1"
+      "level": "a1",
+      "sense": "temporary / location"
     },
     {
       "en": "to live / reside",
@@ -570,7 +570,7 @@
     {
       "en": "nice / kind",
       "target": "simpático / simpática",
-      "level": "a1"
+      "level": "a2"
     },
     {
       "en": "beautiful / pretty",
@@ -773,7 +773,7 @@
     {
       "en": "to take a shower",
       "target": "tomar um duche",
-      "level": "a1"
+      "level": "a2"
     },
     {
       "en": "to make a decision",
@@ -1797,9 +1797,9 @@
       "tags": [
         "plural"
       ],
-      "sense": "permanent / identity",
       "tense": "presente",
-      "level": "a1"
+      "level": "a1",
+      "sense": "permanent / identity"
     },
     {
       "en": "they are",
@@ -1807,9 +1807,9 @@
       "tags": [
         "masc-mixed"
       ],
-      "sense": "permanent / identity",
       "tense": "presente",
-      "level": "a1"
+      "level": "a1",
+      "sense": "permanent / identity"
     },
     {
       "en": "they are",
@@ -1817,9 +1817,9 @@
       "tags": [
         "fem"
       ],
-      "sense": "permanent / identity",
       "tense": "presente",
-      "level": "a1"
+      "level": "a1",
+      "sense": "permanent / identity"
     },
     {
       "en": "he / she / you lives / resides",
@@ -1845,16 +1845,16 @@
       "tags": [
         "plural"
       ],
-      "sense": "temporary / location",
       "tense": "presente",
-      "level": "a1"
+      "level": "a1",
+      "sense": "temporary / location"
     },
     {
       "en": "they are",
       "target": "eles / elas estão",
-      "sense": "temporary / location",
       "tense": "presente",
-      "level": "a1"
+      "level": "a1",
+      "sense": "temporary / location"
     },
     {
       "en": "I am working",

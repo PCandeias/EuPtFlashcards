@@ -211,6 +211,86 @@
       "en": "well done",
       "target": "bem passado",
       "level": "a2"
+    },
+    {
+      "en": "the main course",
+      "target": "o prato principal",
+      "level": "a2"
+    },
+    {
+      "en": "the side dish",
+      "target": "o acompanhamento",
+      "level": "a2"
+    },
+    {
+      "en": "the daily special",
+      "target": "o prato do dia",
+      "level": "a2"
+    },
+    {
+      "en": "the set menu",
+      "target": "a ementa turística",
+      "level": "a2"
+    },
+    {
+      "en": "the wine list",
+      "target": "a carta de vinhos",
+      "level": "a2"
+    },
+    {
+      "en": "the terrace",
+      "target": "a esplanada",
+      "level": "a2"
+    },
+    {
+      "en": "the counter",
+      "target": "o balcão",
+      "level": "a2"
+    },
+    {
+      "en": "a table for two",
+      "target": "uma mesa para dois",
+      "level": "a1"
+    },
+    {
+      "en": "for here or takeaway?",
+      "target": "é para comer aqui ou levar?",
+      "level": "a2"
+    },
+    {
+      "en": "what do you recommend?",
+      "target": "o que é que recomenda?",
+      "level": "a1"
+    },
+    {
+      "en": "is it very spicy?",
+      "target": "é muito picante?",
+      "level": "a2"
+    },
+    {
+      "en": "I am allergic to nuts",
+      "target": "sou alérgico a frutos secos",
+      "level": "a1"
+    },
+    {
+      "en": "without ice, please",
+      "target": "sem gelo, por favor",
+      "level": "a1"
+    },
+    {
+      "en": "can we pay separately?",
+      "target": "podemos pagar em separado?",
+      "level": "a1"
+    },
+    {
+      "en": "it was delicious",
+      "target": "estava delicioso",
+      "level": "a2"
+    },
+    {
+      "en": "to book a table",
+      "target": "reservar uma mesa",
+      "level": "a2"
     }
   ]
 }

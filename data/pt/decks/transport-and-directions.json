@@ -215,6 +215,86 @@
       "en": "how long does it take?",
       "target": "quanto tempo demora?",
       "level": "a1"
+    },
+    {
+      "en": "the ticket machine",
+      "target": "a máquina de bilhetes",
+      "level": "a2"
+    },
+    {
+      "en": "the season ticket",
+      "target": "o passe",
+      "level": "a2"
+    },
+    {
+      "en": "the platform",
+      "target": "a linha",
+      "level": "a2"
+    },
+    {
+      "en": "the carriage",
+      "target": "a carruagem",
+      "level": "a2"
+    },
+    {
+      "en": "the timetable",
+      "target": "o horário",
+      "level": "a2"
+    },
+    {
+      "en": "the connection",
+      "target": "a ligação",
+      "level": "a2"
+    },
+    {
+      "en": "the boot of a car",
+      "target": "a mala do carro",
+      "level": "a2"
+    },
+    {
+      "en": "the traffic jam",
+      "target": "o engarrafamento",
+      "level": "a2"
+    },
+    {
+      "en": "the toll",
+      "target": "a portagem",
+      "level": "b1"
+    },
+    {
+      "en": "the motorway",
+      "target": "a autoestrada",
+      "level": "a2"
+    },
+    {
+      "en": "the lane",
+      "target": "a faixa",
+      "level": "a2"
+    },
+    {
+      "en": "turn right at the corner",
+      "target": "vire à direita na esquina",
+      "level": "a2"
+    },
+    {
+      "en": "it is on the left",
+      "target": "é à esquerda",
+      "level": "a1"
+    },
+    {
+      "en": "how far is it?",
+      "target": "fica muito longe?",
+      "level": "a1"
+    },
+    {
+      "en": "to change trains",
+      "target": "mudar de comboio",
+      "level": "a2"
+    },
+    {
+      "en": "to miss the bus",
+      "target": "perder o autocarro",
+      "level": "a2"
     }
   ]
 }

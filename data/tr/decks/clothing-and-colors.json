@@ -126,22 +126,22 @@
     {
       "en": "jeans",
       "target": "kot pantolon",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "shorts",
       "target": "şort",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "sweater",
       "target": "kazak",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "boots",
       "target": "bot",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "slippers",
@@ -156,17 +156,17 @@
     {
       "en": "gloves",
       "target": "eldiven",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "belt",
       "target": "kemer",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "backpack",
       "target": "sırt çantası",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "glasses",
@@ -176,7 +176,7 @@
     {
       "en": "sunglasses",
       "target": "güneş gözlüğü",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "ring",
@@ -192,6 +192,71 @@
       "en": "necklace",
       "target": "kolye",
       "level": "a2"
+    },
+    {
+      "en": "blouse",
+      "target": "bluz",
+      "level": "a2"
+    },
+    {
+      "en": "raincoat",
+      "target": "yağmurluk",
+      "level": "a2"
+    },
+    {
+      "en": "swimsuit",
+      "target": "mayo",
+      "level": "a2"
+    },
+    {
+      "en": "pyjamas",
+      "target": "pijama",
+      "level": "a2"
+    },
+    {
+      "en": "underwear",
+      "target": "iç çamaşırı",
+      "level": "a2"
+    },
+    {
+      "en": "pocket",
+      "target": "cep",
+      "level": "a1"
+    },
+    {
+      "en": "sleeve",
+      "target": "kol ağzı",
+      "level": "a2"
+    },
+    {
+      "en": "sandals",
+      "target": "sandalet",
+      "level": "a2"
+    },
+    {
+      "en": "beige",
+      "target": "bej",
+      "level": "a2"
+    },
+    {
+      "en": "turquoise",
+      "target": "turkuaz",
+      "level": "a2"
+    },
+    {
+      "en": "golden",
+      "target": "altın rengi",
+      "level": "a2"
+    },
+    {
+      "en": "striped",
+      "target": "çizgili",
+      "level": "a2"
+    },
+    {
+      "en": "to wear",
+      "target": "giymek",
+      "level": "a1"
     }
   ]
 }

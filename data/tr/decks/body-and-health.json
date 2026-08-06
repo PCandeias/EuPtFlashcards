@@ -136,12 +136,12 @@
     {
       "en": "shoulder",
       "target": "omuz",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "finger",
       "target": "parmak",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "chest",
@@ -151,12 +151,12 @@
     {
       "en": "belly",
       "target": "karın",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "knee",
       "target": "diz",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "blood",
@@ -186,7 +186,7 @@
     {
       "en": "a cold",
       "target": "nezle",
-      "level": "a2",
+      "level": "a1",
       "sense": "the illness"
     },
     {
@@ -239,6 +239,91 @@
     {
       "en": "I have a fever",
       "target": "Ateşim var",
+      "level": "a2"
+    },
+    {
+      "en": "skin",
+      "target": "cilt",
+      "level": "a2"
+    },
+    {
+      "en": "muscle",
+      "target": "kas",
+      "level": "a2"
+    },
+    {
+      "en": "lung",
+      "target": "akciğer",
+      "level": "a1"
+    },
+    {
+      "en": "liver",
+      "target": "karaciğer",
+      "level": "a1"
+    },
+    {
+      "en": "wrist",
+      "target": "bilek",
+      "level": "a2"
+    },
+    {
+      "en": "beard",
+      "target": "sakal",
+      "level": "a2"
+    },
+    {
+      "en": "wound",
+      "target": "yara",
+      "level": "a2"
+    },
+    {
+      "en": "allergy",
+      "target": "alerji",
+      "level": "a2"
+    },
+    {
+      "en": "vaccine",
+      "target": "aşı",
+      "level": "a2"
+    },
+    {
+      "en": "health centre",
+      "target": "sağlık ocağı",
+      "level": "a2"
+    },
+    {
+      "en": "emergency room",
+      "target": "acil servis",
+      "level": "a2"
+    },
+    {
+      "en": "waiting room",
+      "target": "bekleme odası",
+      "level": "a2"
+    },
+    {
+      "en": "blood test",
+      "target": "kan tahlili",
+      "level": "b1"
+    },
+    {
+      "en": "operation",
+      "target": "ameliyat",
+      "level": "b1"
+    },
+    {
+      "en": "dizzy",
+      "target": "başı dönmek",
+      "level": "a2"
+    },
+    {
+      "en": "to breathe",
+      "target": "nefes almak",
+      "level": "a2"
+    },
+    {
+      "en": "to recover",
+      "target": "iyileşmek",
       "level": "a2"
     }
   ]

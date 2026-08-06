@@ -276,6 +276,146 @@
       "target": "tenho febre",
       "tense": "presente",
       "level": "a2"
+    },
+    {
+      "en": "the skin",
+      "target": "a pele",
+      "level": "a2"
+    },
+    {
+      "en": "the muscle",
+      "target": "o músculo",
+      "level": "a2"
+    },
+    {
+      "en": "the lung",
+      "target": "o pulmão",
+      "level": "a1"
+    },
+    {
+      "en": "the liver",
+      "target": "o fígado",
+      "level": "a1"
+    },
+    {
+      "en": "the kidney",
+      "target": "o rim",
+      "level": "a1"
+    },
+    {
+      "en": "the wrist",
+      "target": "o pulso",
+      "level": "a2"
+    },
+    {
+      "en": "the thumb",
+      "target": "o polegar",
+      "level": "a2"
+    },
+    {
+      "en": "the heel",
+      "target": "o calcanhar",
+      "level": "a2"
+    },
+    {
+      "en": "the eyebrow",
+      "target": "a sobrancelha",
+      "level": "a2"
+    },
+    {
+      "en": "the eyelash",
+      "target": "a pestana",
+      "level": "a2"
+    },
+    {
+      "en": "the beard",
+      "target": "a barba",
+      "level": "a2"
+    },
+    {
+      "en": "the bruise",
+      "target": "a nódoa negra",
+      "level": "a2"
+    },
+    {
+      "en": "the burn",
+      "target": "a queimadura",
+      "level": "a2"
+    },
+    {
+      "en": "the allergy",
+      "target": "a alergia",
+      "level": "a2"
+    },
+    {
+      "en": "the vaccine",
+      "target": "a vacina",
+      "level": "a2"
+    },
+    {
+      "en": "the plaster",
+      "target": "o penso rápido",
+      "level": "a2"
+    },
+    {
+      "en": "the health centre",
+      "target": "o centro de saúde",
+      "level": "a2"
+    },
+    {
+      "en": "the emergency room",
+      "target": "as urgências",
+      "level": "a2"
+    },
+    {
+      "en": "the waiting room",
+      "target": "a sala de espera",
+      "level": "a2"
+    },
+    {
+      "en": "the blood test",
+      "target": "a análise ao sangue",
+      "level": "b1"
+    },
+    {
+      "en": "the operation",
+      "target": "a operação",
+      "level": "b1"
+    },
+    {
+      "en": "dizzy",
+      "target": "tonto / tonta",
+      "level": "a2"
+    },
+    {
+      "en": "to breathe",
+      "target": "respirar",
+      "level": "a2"
+    },
+    {
+      "en": "to cough",
+      "target": "tossir",
+      "level": "a2"
+    },
+    {
+      "en": "to hurt",
+      "target": "doer",
+      "level": "a2"
+    },
+    {
+      "en": "to recover",
+      "target": "recuperar",
+      "level": "a2"
+    },
+    {
+      "en": "I feel sick",
+      "target": "sinto-me mal",
+      "level": "a1"
+    },
+    {
+      "en": "it hurts here",
+      "target": "dói-me aqui",
+      "level": "a1"
     }
   ]
 }

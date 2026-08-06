@@ -99,8 +99,8 @@
     {
       "en": "light",
       "target": "leve",
-      "sense": "not heavy",
-      "level": "a1"
+      "level": "a1",
+      "sense": "not heavy"
     },
     {
       "en": "correct",
@@ -235,6 +235,146 @@
     {
       "en": "wet",
       "target": "molhado / molhada",
+      "level": "a2"
+    },
+    {
+      "en": "strong",
+      "target": "forte",
+      "level": "a2"
+    },
+    {
+      "en": "weak",
+      "target": "fraco / fraca",
+      "level": "a2"
+    },
+    {
+      "en": "narrow",
+      "target": "estreito / estreita",
+      "level": "a2"
+    },
+    {
+      "en": "thick",
+      "target": "grosso / grossa",
+      "level": "a2"
+    },
+    {
+      "en": "thin",
+      "target": "fino / fina",
+      "level": "a2"
+    },
+    {
+      "en": "deep",
+      "target": "fundo / funda",
+      "level": "a2"
+    },
+    {
+      "en": "smooth",
+      "target": "liso / lisa",
+      "level": "a2"
+    },
+    {
+      "en": "rough",
+      "target": "áspero / áspera",
+      "level": "a2"
+    },
+    {
+      "en": "brave",
+      "target": "corajoso / corajosa",
+      "level": "a2"
+    },
+    {
+      "en": "shy",
+      "target": "tímido / tímida",
+      "level": "a2"
+    },
+    {
+      "en": "polite",
+      "target": "educado / educada",
+      "level": "a2"
+    },
+    {
+      "en": "rude",
+      "target": "mal-educado / mal-educada",
+      "level": "a2"
+    },
+    {
+      "en": "funny",
+      "target": "engraçado / engraçada",
+      "level": "a2"
+    },
+    {
+      "en": "serious",
+      "target": "sério / séria",
+      "level": "a2"
+    },
+    {
+      "en": "lazy",
+      "target": "preguiçoso / preguiçosa",
+      "level": "a2"
+    },
+    {
+      "en": "hard-working",
+      "target": "trabalhador / trabalhadora",
+      "level": "a2"
+    },
+    {
+      "en": "clever",
+      "target": "inteligente",
+      "level": "a2"
+    },
+    {
+      "en": "kind",
+      "target": "amável",
+      "level": "a2"
+    },
+    {
+      "en": "generous",
+      "target": "generoso / generosa",
+      "level": "a2"
+    },
+    {
+      "en": "honest",
+      "target": "honesto / honesta",
+      "level": "a2"
+    },
+    {
+      "en": "famous",
+      "target": "famoso / famosa",
+      "level": "a2"
+    },
+    {
+      "en": "modern",
+      "target": "moderno / moderna",
+      "level": "a2"
+    },
+    {
+      "en": "boring",
+      "target": "aborrecido / aborrecida",
+      "level": "a2"
+    },
+    {
+      "en": "interesting",
+      "target": "interessante",
+      "level": "a2"
+    },
+    {
+      "en": "bitter",
+      "target": "amargo / amarga",
+      "level": "a2"
+    },
+    {
+      "en": "necessary",
+      "target": "necessário / necessária",
+      "level": "a2"
+    },
+    {
+      "en": "useful",
+      "target": "útil",
+      "level": "a2"
+    },
+    {
+      "en": "useless",
+      "target": "inútil",
       "level": "a2"
     }
   ]

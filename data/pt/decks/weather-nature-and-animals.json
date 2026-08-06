@@ -270,6 +270,118 @@
       "en": "butterfly",
       "target": "a borboleta",
       "level": "a2"
+    },
+    {
+      "en": "the sky",
+      "target": "o céu",
+      "level": "a2"
+    },
+    {
+      "en": "the frost",
+      "target": "a geada",
+      "level": "a2"
+    },
+    {
+      "en": "the hail",
+      "target": "o granizo",
+      "level": "a2"
+    },
+    {
+      "en": "the shade",
+      "target": "a sombra",
+      "level": "a2"
+    },
+    {
+      "en": "the heatwave",
+      "target": "a onda de calor",
+      "level": "a2"
+    },
+    {
+      "en": "the forecast",
+      "target": "a previsão do tempo",
+      "level": "a2"
+    },
+    {
+      "en": "the wave",
+      "target": "a onda",
+      "level": "a2"
+    },
+    {
+      "en": "the sand",
+      "target": "a areia",
+      "level": "a2"
+    },
+    {
+      "en": "the cliff",
+      "target": "a falésia",
+      "level": "a2"
+    },
+    {
+      "en": "the valley",
+      "target": "o vale",
+      "level": "a2"
+    },
+    {
+      "en": "the field",
+      "target": "o campo agrícola",
+      "level": "a2"
+    },
+    {
+      "en": "the branch",
+      "target": "o ramo",
+      "level": "a2"
+    },
+    {
+      "en": "the seed",
+      "target": "a semente",
+      "level": "a2"
+    },
+    {
+      "en": "the donkey",
+      "target": "o burro",
+      "level": "a2"
+    },
+    {
+      "en": "the pig",
+      "target": "o porco",
+      "level": "a2"
+    },
+    {
+      "en": "the seagull",
+      "target": "a gaivota",
+      "level": "a2"
+    },
+    {
+      "en": "the ant",
+      "target": "a formiga",
+      "level": "a2"
+    },
+    {
+      "en": "the mosquito",
+      "target": "o mosquito",
+      "level": "a2"
+    },
+    {
+      "en": "the spider",
+      "target": "a aranha",
+      "level": "a2"
+    },
+    {
+      "en": "the lizard",
+      "target": "a lagartixa",
+      "level": "a2"
+    },
+    {
+      "en": "it is sunny",
+      "target": "está sol",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "it is freezing",
+      "target": "está um frio de rachar",
+      "tense": "presente",
+      "level": "a1"
     }
   ]
 }

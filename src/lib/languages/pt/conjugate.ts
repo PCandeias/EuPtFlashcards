@@ -116,6 +116,12 @@ function adjust(
     if (/gar$/.test(stem)) return root.slice(0, -1) + 'gu' + ending        // chegar -> cheguei
     if (/çar$/.test(stem)) return root.slice(0, -1) + 'c' + ending         // começar -> comecei
   }
+  // A root ending in a vowel puts an accent on an i that follows it, because the
+  // two are a hiatus rather than a diphthong: sair -> saía, construir -> construí.
+  // `-iu` is the exception: there the stress is on the u, and `caiu` takes none.
+  if (/[aeiouáéíóúâêôã]$/.test(root) && ending.startsWith('i') && !ending.startsWith('iu')) {
+    return root + 'í' + ending.slice(1)
+  }
   return root + ending
 }
 

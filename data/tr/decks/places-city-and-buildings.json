@@ -134,7 +134,7 @@
     {
       "en": "building",
       "target": "bina",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "guesthouse",
@@ -144,7 +144,7 @@
     {
       "en": "supermarket",
       "target": "süpermarket",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "small grocery store",
@@ -180,7 +180,7 @@
     {
       "en": "cinema",
       "target": "sinema",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "theater",
@@ -195,17 +195,17 @@
     {
       "en": "bus station",
       "target": "otogar",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "train station",
       "target": "tren istasyonu",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "metro station",
       "target": "metro istasyonu",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "port / harbor",
@@ -241,6 +241,91 @@
       "en": "city center",
       "target": "şehir merkezi",
       "level": "a1"
+    },
+    {
+      "en": "mosque",
+      "target": "cami",
+      "level": "a2"
+    },
+    {
+      "en": "church",
+      "target": "kilise",
+      "level": "a2"
+    },
+    {
+      "en": "castle",
+      "target": "kale",
+      "level": "a2"
+    },
+    {
+      "en": "tower",
+      "target": "kule",
+      "level": "a2"
+    },
+    {
+      "en": "bazaar",
+      "target": "çarşı",
+      "level": "a2"
+    },
+    {
+      "en": "fountain",
+      "target": "çeşme",
+      "level": "a2"
+    },
+    {
+      "en": "playground",
+      "target": "oyun parkı",
+      "level": "a2"
+    },
+    {
+      "en": "stadium",
+      "target": "stadyum",
+      "level": "a2"
+    },
+    {
+      "en": "car park",
+      "target": "otopark",
+      "level": "a2"
+    },
+    {
+      "en": "petrol station",
+      "target": "benzin istasyonu",
+      "level": "a2"
+    },
+    {
+      "en": "launderette",
+      "target": "çamaşırhane",
+      "level": "a2"
+    },
+    {
+      "en": "kiosk",
+      "target": "büfe",
+      "level": "a2"
+    },
+    {
+      "en": "shopping centre",
+      "target": "alışveriş merkezi",
+      "level": "a2"
+    },
+    {
+      "en": "pavement",
+      "target": "kaldırım",
+      "level": "a2"
+    },
+    {
+      "en": "roundabout",
+      "target": "göbek",
+      "level": "a2"
+    },
+    {
+      "en": "outskirts",
+      "target": "şehir dışı",
+      "level": "a2"
+    },
+    {
+      "en": "countryside",
+      "target": "kırsal",
+      "level": "a2"
     }
   ]
 }

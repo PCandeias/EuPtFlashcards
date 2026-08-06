@@ -101,7 +101,7 @@ test('keeps progress, settings and reports apart', async ({ page }) => {
   await expect(page.locator('#reportedList li')).toHaveCount(0)
   await page.click('#settingsCloseBtn')
   // The Portuguese deck is whole; the Turkish report took a Turkish card.
-  await expect(page.locator('#deckSelect option').first()).toContainText('All (2093)')
+  await expect(page.locator('#deckSelect option').first()).toContainText('All (2512)')
 
   await page.goto('./#/tr')
   await page.click('#settingsBtn')

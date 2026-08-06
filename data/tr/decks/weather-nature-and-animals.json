@@ -19,37 +19,37 @@
     {
       "en": "snow",
       "target": "kar",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "wind",
       "target": "rüzgar",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "cloud",
       "target": "bulut",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "cool",
       "target": "serin",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "nice weather",
       "target": "güzel hava",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "bad weather",
       "target": "kötü hava",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "mountain",
       "target": "dağ",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "forest",
@@ -59,12 +59,12 @@
     {
       "en": "tree",
       "target": "ağaç",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "flower",
       "target": "çiçek",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "animal",
@@ -107,6 +107,96 @@
       "target": "yağmak",
       "level": "a2",
       "sense": "of rain or snow"
+    },
+    {
+      "en": "sky",
+      "target": "gökyüzü",
+      "level": "a2"
+    },
+    {
+      "en": "frost",
+      "target": "ayaz",
+      "level": "a2"
+    },
+    {
+      "en": "shade",
+      "target": "gölge",
+      "level": "a2"
+    },
+    {
+      "en": "heatwave",
+      "target": "sıcak dalgası",
+      "level": "a2"
+    },
+    {
+      "en": "forecast",
+      "target": "hava durumu",
+      "level": "a2"
+    },
+    {
+      "en": "wave",
+      "target": "dalga",
+      "level": "a2"
+    },
+    {
+      "en": "sand",
+      "target": "kum",
+      "level": "a2"
+    },
+    {
+      "en": "valley",
+      "target": "vadi",
+      "level": "a2"
+    },
+    {
+      "en": "branch",
+      "target": "dal",
+      "level": "a2"
+    },
+    {
+      "en": "seed",
+      "target": "tohum",
+      "level": "a2"
+    },
+    {
+      "en": "donkey",
+      "target": "eşek",
+      "level": "a2"
+    },
+    {
+      "en": "pig",
+      "target": "domuz",
+      "level": "a2"
+    },
+    {
+      "en": "seagull",
+      "target": "martı",
+      "level": "a2"
+    },
+    {
+      "en": "ant",
+      "target": "karınca",
+      "level": "a2"
+    },
+    {
+      "en": "mosquito",
+      "target": "sivrisinek",
+      "level": "a2"
+    },
+    {
+      "en": "spider",
+      "target": "örümcek",
+      "level": "a2"
+    },
+    {
+      "en": "it is sunny",
+      "target": "hava güneşli",
+      "level": "a1"
+    },
+    {
+      "en": "it is windy",
+      "target": "hava rüzgârlı",
+      "level": "a1"
     }
   ]
 }

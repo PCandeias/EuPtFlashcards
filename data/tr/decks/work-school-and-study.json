@@ -14,7 +14,7 @@
     {
       "en": "company",
       "target": "şirket",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "manager",
@@ -59,12 +59,12 @@
     {
       "en": "homework",
       "target": "ödev",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "notebook",
       "target": "defter",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "meeting",
@@ -84,16 +84,86 @@
     {
       "en": "busy",
       "target": "meşgul",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "free / empty",
       "target": "boş",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "holiday",
       "target": "tatil",
+      "level": "a1"
+    },
+    {
+      "en": "subject",
+      "target": "ders konusu",
+      "level": "a2"
+    },
+    {
+      "en": "essay",
+      "target": "kompozisyon",
+      "level": "a2"
+    },
+    {
+      "en": "presentation",
+      "target": "sunum",
+      "level": "a2"
+    },
+    {
+      "en": "deadline",
+      "target": "son tarih",
+      "level": "b1"
+    },
+    {
+      "en": "meeting room",
+      "target": "toplantı odası",
+      "level": "a2"
+    },
+    {
+      "en": "interview",
+      "target": "mülakat",
+      "level": "a2"
+    },
+    {
+      "en": "contract",
+      "target": "sözleşme",
+      "level": "b1"
+    },
+    {
+      "en": "training course",
+      "target": "kurs",
+      "level": "a2"
+    },
+    {
+      "en": "degree",
+      "target": "lisans",
+      "level": "a2"
+    },
+    {
+      "en": "break",
+      "target": "teneffüs",
+      "level": "a2"
+    },
+    {
+      "en": "to apply for a job",
+      "target": "işe başvurmak",
+      "level": "b1"
+    },
+    {
+      "en": "to hand in",
+      "target": "teslim etmek",
+      "level": "a2"
+    },
+    {
+      "en": "to pass an exam",
+      "target": "sınavı geçmek",
+      "level": "a2"
+    },
+    {
+      "en": "to take notes",
+      "target": "not almak",
       "level": "a2"
     }
   ]

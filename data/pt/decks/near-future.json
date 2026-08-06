@@ -5,77 +5,77 @@
       "en": "I am going to be",
       "target": "eu vou ser",
       "tense": "futuroProximo",
-      "sense": "permanent / identity",
-      "level": "a1"
+      "level": "a1",
+      "sense": "permanent / identity"
     },
     {
       "en": "you are going to be",
       "target": "tu vais ser",
-      "tense": "futuroProximo",
       "tags": [
         "informal"
       ],
-      "sense": "permanent / identity",
-      "level": "a1"
+      "tense": "futuroProximo",
+      "level": "a1",
+      "sense": "permanent / identity"
     },
     {
       "en": "he / she is going to be",
       "target": "ele / ela vai ser",
       "tense": "futuroProximo",
-      "sense": "permanent / identity",
-      "level": "a1"
+      "level": "a1",
+      "sense": "permanent / identity"
     },
     {
       "en": "we are going to be",
       "target": "nós vamos ser",
       "tense": "futuroProximo",
-      "sense": "permanent / identity",
-      "level": "a1"
+      "level": "a1",
+      "sense": "permanent / identity"
     },
     {
       "en": "they are going to be",
       "target": "eles / elas vão ser",
       "tense": "futuroProximo",
-      "sense": "permanent / identity",
-      "level": "a1"
+      "level": "a1",
+      "sense": "permanent / identity"
     },
     {
       "en": "I am going to be",
       "target": "eu vou estar",
       "tense": "futuroProximo",
-      "sense": "temporary / location",
-      "level": "a1"
+      "level": "a1",
+      "sense": "temporary / location"
     },
     {
       "en": "you are going to be",
       "target": "tu vais estar",
-      "tense": "futuroProximo",
       "tags": [
         "informal"
       ],
-      "sense": "temporary / location",
-      "level": "a1"
+      "tense": "futuroProximo",
+      "level": "a1",
+      "sense": "temporary / location"
     },
     {
       "en": "he / she is going to be",
       "target": "ele / ela vai estar",
       "tense": "futuroProximo",
-      "sense": "temporary / location",
-      "level": "a1"
+      "level": "a1",
+      "sense": "temporary / location"
     },
     {
       "en": "we are going to be",
       "target": "nós vamos estar",
       "tense": "futuroProximo",
-      "sense": "temporary / location",
-      "level": "a1"
+      "level": "a1",
+      "sense": "temporary / location"
     },
     {
       "en": "they are going to be",
       "target": "eles / elas vão estar",
       "tense": "futuroProximo",
-      "sense": "temporary / location",
-      "level": "a1"
+      "level": "a1",
+      "sense": "temporary / location"
     },
     {
       "en": "I am going to have",
@@ -86,10 +86,10 @@
     {
       "en": "you are going to have",
       "target": "tu vais ter",
-      "tense": "futuroProximo",
       "tags": [
         "informal"
       ],
+      "tense": "futuroProximo",
       "level": "a1"
     },
     {
@@ -119,10 +119,10 @@
     {
       "en": "you are going to do",
       "target": "tu vais fazer",
-      "tense": "futuroProximo",
       "tags": [
         "informal"
       ],
+      "tense": "futuroProximo",
       "level": "a1"
     },
     {
@@ -152,10 +152,10 @@
     {
       "en": "you are going to eat",
       "target": "tu vais comer",
-      "tense": "futuroProximo",
       "tags": [
         "informal"
       ],
+      "tense": "futuroProximo",
       "level": "a1"
     },
     {
@@ -185,10 +185,10 @@
     {
       "en": "you are going to drink",
       "target": "tu vais beber",
-      "tense": "futuroProximo",
       "tags": [
         "informal"
       ],
+      "tense": "futuroProximo",
       "level": "a1"
     },
     {
@@ -218,10 +218,10 @@
     {
       "en": "you are going to speak",
       "target": "tu vais falar",
-      "tense": "futuroProximo",
       "tags": [
         "informal"
       ],
+      "tense": "futuroProximo",
       "level": "a1"
     },
     {
@@ -251,10 +251,10 @@
     {
       "en": "you are going to work",
       "target": "tu vais trabalhar",
-      "tense": "futuroProximo",
       "tags": [
         "informal"
       ],
+      "tense": "futuroProximo",
       "level": "a1"
     },
     {
@@ -284,10 +284,10 @@
     {
       "en": "you are going to see",
       "target": "tu vais ver",
-      "tense": "futuroProximo",
       "tags": [
         "informal"
       ],
+      "tense": "futuroProximo",
       "level": "a1"
     },
     {

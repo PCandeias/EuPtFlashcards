@@ -38,8 +38,11 @@
           {/if}
         </div>
         <p class="en">{example.en}</p>
-        <!-- Named, so it is clear which tense you are looking at. -->
-        <p class="tense">{tenseById(example.tense)?.label ?? example.tense}</p>
+        <!-- Named, so it is clear which tense you are looking at. A sentence
+             with no finite verb has none to name. -->
+        {#if example.tense}
+          <p class="tense">{tenseById(example.tense)?.label ?? example.tense}</p>
+        {/if}
       </li>
     {/each}
   </ul>

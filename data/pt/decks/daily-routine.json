@@ -4,7 +4,7 @@
     {
       "en": "to take a shower",
       "target": "tomar duche",
-      "level": "a1"
+      "level": "a2"
     },
     {
       "en": "to wash oneself",
@@ -136,6 +136,101 @@
       "en": "I am sleeping",
       "target": "estou a dormir",
       "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "to set the alarm",
+      "target": "pôr o despertador",
+      "level": "a2"
+    },
+    {
+      "en": "to make the bed",
+      "target": "fazer a cama",
+      "level": "a2"
+    },
+    {
+      "en": "to have a coffee",
+      "target": "tomar um café",
+      "level": "a1"
+    },
+    {
+      "en": "to catch the bus",
+      "target": "apanhar o autocarro",
+      "level": "a2"
+    },
+    {
+      "en": "to start work",
+      "target": "começar a trabalhar",
+      "level": "a2"
+    },
+    {
+      "en": "to take a break",
+      "target": "fazer uma pausa",
+      "level": "a2"
+    },
+    {
+      "en": "to check email",
+      "target": "ver o e-mail",
+      "level": "a2"
+    },
+    {
+      "en": "to do the shopping",
+      "target": "ir às compras",
+      "level": "a2"
+    },
+    {
+      "en": "to lay the table",
+      "target": "pôr a mesa",
+      "level": "a2"
+    },
+    {
+      "en": "to clear the table",
+      "target": "levantar a mesa",
+      "level": "a2"
+    },
+    {
+      "en": "to wash the dishes",
+      "target": "lavar a loiça",
+      "level": "a2"
+    },
+    {
+      "en": "to take out the rubbish",
+      "target": "deitar o lixo fora",
+      "level": "a2"
+    },
+    {
+      "en": "to tidy up",
+      "target": "arrumar",
+      "level": "a2"
+    },
+    {
+      "en": "to hang out the washing",
+      "target": "estender a roupa",
+      "level": "a2"
+    },
+    {
+      "en": "to walk the dog",
+      "target": "passear o cão",
+      "level": "a2"
+    },
+    {
+      "en": "to go to bed",
+      "target": "ir para a cama",
+      "level": "a2"
+    },
+    {
+      "en": "in the morning",
+      "target": "de manhã",
+      "level": "a1"
+    },
+    {
+      "en": "in the afternoon",
+      "target": "à tarde",
+      "level": "a1"
+    },
+    {
+      "en": "at night",
+      "target": "à noite",
       "level": "a1"
     }
   ]

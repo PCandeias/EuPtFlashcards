@@ -5,77 +5,77 @@
       "en": "I will be",
       "target": "eu serei",
       "tense": "futuro",
-      "sense": "permanent / identity",
-      "level": "b1"
+      "level": "b1",
+      "sense": "permanent / identity"
     },
     {
       "en": "you will be",
       "target": "tu serás",
-      "tense": "futuro",
       "tags": [
         "informal"
       ],
-      "sense": "permanent / identity",
-      "level": "b1"
+      "tense": "futuro",
+      "level": "b1",
+      "sense": "permanent / identity"
     },
     {
       "en": "he / she will be",
       "target": "ele / ela será",
       "tense": "futuro",
-      "sense": "permanent / identity",
-      "level": "b1"
+      "level": "b1",
+      "sense": "permanent / identity"
     },
     {
       "en": "we will be",
       "target": "nós seremos",
       "tense": "futuro",
-      "sense": "permanent / identity",
-      "level": "b1"
+      "level": "b1",
+      "sense": "permanent / identity"
     },
     {
       "en": "they will be",
       "target": "eles / elas serão",
       "tense": "futuro",
-      "sense": "permanent / identity",
-      "level": "b1"
+      "level": "b1",
+      "sense": "permanent / identity"
     },
     {
       "en": "I will be",
       "target": "eu estarei",
       "tense": "futuro",
-      "sense": "temporary / location",
-      "level": "b1"
+      "level": "b1",
+      "sense": "temporary / location"
     },
     {
       "en": "you will be",
       "target": "tu estarás",
-      "tense": "futuro",
       "tags": [
         "informal"
       ],
-      "sense": "temporary / location",
-      "level": "b1"
+      "tense": "futuro",
+      "level": "b1",
+      "sense": "temporary / location"
     },
     {
       "en": "he / she will be",
       "target": "ele / ela estará",
       "tense": "futuro",
-      "sense": "temporary / location",
-      "level": "b1"
+      "level": "b1",
+      "sense": "temporary / location"
     },
     {
       "en": "we will be",
       "target": "nós estaremos",
       "tense": "futuro",
-      "sense": "temporary / location",
-      "level": "b1"
+      "level": "b1",
+      "sense": "temporary / location"
     },
     {
       "en": "they will be",
       "target": "eles / elas estarão",
       "tense": "futuro",
-      "sense": "temporary / location",
-      "level": "b1"
+      "level": "b1",
+      "sense": "temporary / location"
     },
     {
       "en": "I will have",
@@ -86,10 +86,10 @@
     {
       "en": "you will have",
       "target": "tu terás",
-      "tense": "futuro",
       "tags": [
         "informal"
       ],
+      "tense": "futuro",
       "level": "b1"
     },
     {
@@ -119,10 +119,10 @@
     {
       "en": "you will go",
       "target": "tu irás",
-      "tense": "futuro",
       "tags": [
         "informal"
       ],
+      "tense": "futuro",
       "level": "b1"
     },
     {
@@ -152,10 +152,10 @@
     {
       "en": "you will do",
       "target": "tu farás",
-      "tense": "futuro",
       "tags": [
         "informal"
       ],
+      "tense": "futuro",
       "level": "b1"
     },
     {
@@ -185,10 +185,10 @@
     {
       "en": "you will eat",
       "target": "tu comerás",
-      "tense": "futuro",
       "tags": [
         "informal"
       ],
+      "tense": "futuro",
       "level": "b1"
     },
     {
@@ -218,10 +218,10 @@
     {
       "en": "you will drink",
       "target": "tu beberás",
-      "tense": "futuro",
       "tags": [
         "informal"
       ],
+      "tense": "futuro",
       "level": "b1"
     },
     {
@@ -251,10 +251,10 @@
     {
       "en": "you will speak",
       "target": "tu falarás",
-      "tense": "futuro",
       "tags": [
         "informal"
       ],
+      "tense": "futuro",
       "level": "b1"
     },
     {
@@ -284,10 +284,10 @@
     {
       "en": "you will work",
       "target": "tu trabalharás",
-      "tense": "futuro",
       "tags": [
         "informal"
       ],
+      "tense": "futuro",
       "level": "b1"
     },
     {
@@ -317,10 +317,10 @@
     {
       "en": "you will see",
       "target": "tu verás",
-      "tense": "futuro",
       "tags": [
         "informal"
       ],
+      "tense": "futuro",
       "level": "b1"
     },
     {

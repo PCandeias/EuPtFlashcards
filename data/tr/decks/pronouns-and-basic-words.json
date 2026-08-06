@@ -174,7 +174,7 @@
     {
       "en": "because",
       "target": "çünkü",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "for",
@@ -206,12 +206,12 @@
     {
       "en": "only",
       "target": "sadece",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "even",
       "target": "bile",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "every",
@@ -247,12 +247,87 @@
     {
       "en": "until / as much as",
       "target": "kadar",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "immediately",
       "target": "hemen",
       "level": "a2"
+    },
+    {
+      "en": "mine",
+      "target": "benimki",
+      "level": "a2"
+    },
+    {
+      "en": "yours",
+      "target": "seninki",
+      "level": "a2"
+    },
+    {
+      "en": "everybody",
+      "target": "herkes",
+      "level": "a2"
+    },
+    {
+      "en": "somebody",
+      "target": "birisi",
+      "level": "a2"
+    },
+    {
+      "en": "something",
+      "target": "bir şey",
+      "level": "a1"
+    },
+    {
+      "en": "anywhere",
+      "target": "herhangi bir yerde",
+      "level": "a2"
+    },
+    {
+      "en": "both",
+      "target": "ikisi de",
+      "level": "a2"
+    },
+    {
+      "en": "each",
+      "target": "her biri",
+      "level": "a2"
+    },
+    {
+      "en": "other",
+      "target": "diğer",
+      "level": "a2"
+    },
+    {
+      "en": "such",
+      "target": "böyle",
+      "level": "a2"
+    },
+    {
+      "en": "instead of",
+      "target": "yerine",
+      "level": "a2"
+    },
+    {
+      "en": "together",
+      "target": "birlikte",
+      "level": "a2"
+    },
+    {
+      "en": "alone",
+      "target": "yalnız",
+      "level": "a2"
+    },
+    {
+      "en": "at least",
+      "target": "en azından",
+      "level": "a2"
+    },
+    {
+      "en": "of course not",
+      "target": "tabii ki hayır",
+      "level": "a1"
     }
   ]
 }

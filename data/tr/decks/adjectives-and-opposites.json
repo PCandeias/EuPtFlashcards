@@ -130,13 +130,13 @@
     {
       "en": "full",
       "target": "tok",
-      "level": "a2",
+      "level": "a1",
       "sense": "after eating"
     },
     {
       "en": "young",
       "target": "genç",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "old",
@@ -152,7 +152,7 @@
     {
       "en": "full",
       "target": "dolu",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "heavy",
@@ -168,17 +168,17 @@
     {
       "en": "angry",
       "target": "kızgın",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "calm",
       "target": "sakin",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "ready",
       "target": "hazır",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "dangerous",
@@ -188,7 +188,7 @@
     {
       "en": "safe",
       "target": "güvenli",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "important",
@@ -198,12 +198,12 @@
     {
       "en": "same",
       "target": "aynı",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "different",
       "target": "farklı",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "quiet",
@@ -218,21 +218,146 @@
     {
       "en": "dark",
       "target": "karanlık",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "bright",
       "target": "aydınlık",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "dry",
       "target": "kuru",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "wet",
       "target": "ıslak",
+      "level": "a2"
+    },
+    {
+      "en": "strong",
+      "target": "güçlü",
+      "level": "a2"
+    },
+    {
+      "en": "weak",
+      "target": "zayıf",
+      "level": "a2"
+    },
+    {
+      "en": "wide",
+      "target": "geniş",
+      "level": "a2"
+    },
+    {
+      "en": "narrow",
+      "target": "dar",
+      "level": "a2"
+    },
+    {
+      "en": "thick",
+      "target": "kalın",
+      "level": "a2"
+    },
+    {
+      "en": "thin",
+      "target": "ince",
+      "level": "a2"
+    },
+    {
+      "en": "deep",
+      "target": "derin",
+      "level": "a2"
+    },
+    {
+      "en": "shy",
+      "target": "utangaç",
+      "level": "a2"
+    },
+    {
+      "en": "polite",
+      "target": "kibar",
+      "level": "a2"
+    },
+    {
+      "en": "rude",
+      "target": "kaba",
+      "level": "a2"
+    },
+    {
+      "en": "funny",
+      "target": "komik",
+      "level": "a2"
+    },
+    {
+      "en": "serious",
+      "target": "ciddi",
+      "level": "a2"
+    },
+    {
+      "en": "lazy",
+      "target": "tembel",
+      "level": "a2"
+    },
+    {
+      "en": "hard-working",
+      "target": "çalışkan",
+      "level": "a2"
+    },
+    {
+      "en": "clever",
+      "target": "akıllı",
+      "level": "a2"
+    },
+    {
+      "en": "kind",
+      "target": "nazik",
+      "level": "a2"
+    },
+    {
+      "en": "generous",
+      "target": "cömert",
+      "level": "a2"
+    },
+    {
+      "en": "honest",
+      "target": "dürüst",
+      "level": "a2"
+    },
+    {
+      "en": "famous",
+      "target": "ünlü",
+      "level": "a2"
+    },
+    {
+      "en": "modern",
+      "target": "modern",
+      "level": "a2"
+    },
+    {
+      "en": "boring",
+      "target": "sıkıcı",
+      "level": "a2"
+    },
+    {
+      "en": "interesting",
+      "target": "ilginç",
+      "level": "a2"
+    },
+    {
+      "en": "bitter",
+      "target": "acı",
+      "level": "a2"
+    },
+    {
+      "en": "necessary",
+      "target": "gerekli",
+      "level": "a2"
+    },
+    {
+      "en": "useful",
+      "target": "faydalı",
       "level": "a2"
     }
   ]

@@ -4,14 +4,14 @@
     {
       "en": "to be",
       "target": "ser",
-      "sense": "permanent / identity",
-      "level": "a1"
+      "level": "a1",
+      "sense": "permanent / identity"
     },
     {
       "en": "to be",
       "target": "estar",
-      "sense": "temporary / location",
-      "level": "a1"
+      "level": "a1",
+      "sense": "temporary / location"
     },
     {
       "en": "to have",
@@ -351,6 +351,171 @@
     {
       "en": "to save",
       "target": "guardar",
+      "level": "a2"
+    },
+    {
+      "en": "to arrive late",
+      "target": "chegar atrasado",
+      "level": "a2"
+    },
+    {
+      "en": "to answer the phone",
+      "target": "atender o telefone",
+      "level": "a2"
+    },
+    {
+      "en": "to build",
+      "target": "construir",
+      "level": "a2"
+    },
+    {
+      "en": "to repair",
+      "target": "arranjar",
+      "level": "a2"
+    },
+    {
+      "en": "to change",
+      "target": "mudar",
+      "level": "a2"
+    },
+    {
+      "en": "to count",
+      "target": "contar",
+      "level": "a2"
+    },
+    {
+      "en": "to cut",
+      "target": "cortar",
+      "level": "a2"
+    },
+    {
+      "en": "to fall",
+      "target": "cair",
+      "level": "a2"
+    },
+    {
+      "en": "to fill",
+      "target": "encher",
+      "level": "a2"
+    },
+    {
+      "en": "to grow",
+      "target": "crescer",
+      "level": "a2"
+    },
+    {
+      "en": "to hide",
+      "target": "esconder",
+      "level": "a2"
+    },
+    {
+      "en": "to jump",
+      "target": "saltar",
+      "level": "a2"
+    },
+    {
+      "en": "to keep",
+      "target": "manter",
+      "level": "a2"
+    },
+    {
+      "en": "to knock",
+      "target": "bater à porta",
+      "level": "a2"
+    },
+    {
+      "en": "to lend",
+      "target": "emprestar",
+      "level": "a2"
+    },
+    {
+      "en": "to lift",
+      "target": "levantar",
+      "level": "a2"
+    },
+    {
+      "en": "to mean",
+      "target": "significar",
+      "level": "a2"
+    },
+    {
+      "en": "to move",
+      "target": "mexer",
+      "level": "a2"
+    },
+    {
+      "en": "to offer",
+      "target": "oferecer",
+      "level": "a2"
+    },
+    {
+      "en": "to order",
+      "target": "encomendar",
+      "level": "a2"
+    },
+    {
+      "en": "to pull",
+      "target": "puxar",
+      "level": "a2"
+    },
+    {
+      "en": "to push",
+      "target": "empurrar",
+      "level": "a2"
+    },
+    {
+      "en": "to repeat",
+      "target": "repetir",
+      "level": "a2"
+    },
+    {
+      "en": "to save money",
+      "target": "poupar",
+      "level": "a2"
+    },
+    {
+      "en": "to share",
+      "target": "partilhar",
+      "level": "a2"
+    },
+    {
+      "en": "to sign",
+      "target": "assinar",
+      "level": "a2"
+    },
+    {
+      "en": "to smile",
+      "target": "sorrir",
+      "level": "a2"
+    },
+    {
+      "en": "to swim",
+      "target": "nadar",
+      "level": "a2"
+    },
+    {
+      "en": "to throw",
+      "target": "atirar",
+      "level": "a2"
+    },
+    {
+      "en": "to try",
+      "target": "tentar",
+      "level": "a2"
+    },
+    {
+      "en": "to visit",
+      "target": "visitar",
+      "level": "a2"
+    },
+    {
+      "en": "to wear out",
+      "target": "gastar",
+      "level": "a2"
+    },
+    {
+      "en": "to win",
+      "target": "ganhar",
       "level": "a2"
     }
   ]

@@ -290,6 +290,126 @@
       "en": "closed",
       "target": "fechado / fechada",
       "level": "a1"
+    },
+    {
+      "en": "the roof",
+      "target": "o telhado",
+      "level": "a2"
+    },
+    {
+      "en": "the corridor",
+      "target": "o corredor",
+      "level": "a2"
+    },
+    {
+      "en": "the basement",
+      "target": "a cave",
+      "level": "a2"
+    },
+    {
+      "en": "the attic",
+      "target": "o sótão",
+      "level": "a2"
+    },
+    {
+      "en": "the doorbell",
+      "target": "a campainha",
+      "level": "a2"
+    },
+    {
+      "en": "the letterbox",
+      "target": "a caixa do correio",
+      "level": "a2"
+    },
+    {
+      "en": "the duvet",
+      "target": "o edredão",
+      "level": "a2"
+    },
+    {
+      "en": "the mattress",
+      "target": "o colchão",
+      "level": "a2"
+    },
+    {
+      "en": "the bucket",
+      "target": "o balde",
+      "level": "a2"
+    },
+    {
+      "en": "the mop",
+      "target": "a esfregona",
+      "level": "a2"
+    },
+    {
+      "en": "the cloth",
+      "target": "o pano",
+      "level": "a2"
+    },
+    {
+      "en": "the detergent",
+      "target": "o detergente",
+      "level": "a2"
+    },
+    {
+      "en": "the light bulb",
+      "target": "a lâmpada",
+      "level": "a2"
+    },
+    {
+      "en": "the switch",
+      "target": "o interruptor",
+      "level": "a2"
+    },
+    {
+      "en": "the tap",
+      "target": "a torneira",
+      "level": "a2"
+    },
+    {
+      "en": "the sink",
+      "target": "o lava-loiça",
+      "level": "a2"
+    },
+    {
+      "en": "the shower",
+      "target": "o duche",
+      "level": "a2"
+    },
+    {
+      "en": "the bathtub",
+      "target": "a banheira",
+      "level": "a2"
+    },
+    {
+      "en": "the freezer",
+      "target": "o congelador",
+      "level": "a2"
+    },
+    {
+      "en": "the toaster",
+      "target": "a torradeira",
+      "level": "a2"
+    },
+    {
+      "en": "the pan",
+      "target": "a panela",
+      "level": "a2"
+    },
+    {
+      "en": "the frying pan",
+      "target": "a frigideira",
+      "level": "a2"
+    },
+    {
+      "en": "the tray",
+      "target": "o tabuleiro",
+      "level": "a2"
+    },
+    {
+      "en": "the hanger",
+      "target": "o cabide",
+      "level": "a2"
     }
   ]
 }

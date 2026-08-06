@@ -245,6 +245,121 @@
       "en": "comfortable",
       "target": "confortável",
       "level": "a2"
+    },
+    {
+      "en": "the blouse",
+      "target": "a blusa",
+      "level": "a2"
+    },
+    {
+      "en": "the suit jacket",
+      "target": "o blazer",
+      "level": "a2"
+    },
+    {
+      "en": "the raincoat",
+      "target": "a gabardina",
+      "level": "a2"
+    },
+    {
+      "en": "the swimsuit",
+      "target": "o fato de banho",
+      "level": "a2"
+    },
+    {
+      "en": "the pyjamas",
+      "target": "o pijama",
+      "level": "a2"
+    },
+    {
+      "en": "the underwear",
+      "target": "a roupa interior",
+      "level": "a2"
+    },
+    {
+      "en": "the tie",
+      "target": "a gravata",
+      "level": "a2"
+    },
+    {
+      "en": "the zip",
+      "target": "o fecho",
+      "level": "a2"
+    },
+    {
+      "en": "the pocket",
+      "target": "o bolso",
+      "level": "a1"
+    },
+    {
+      "en": "the sleeve",
+      "target": "a manga",
+      "level": "a2"
+    },
+    {
+      "en": "the collar",
+      "target": "a gola",
+      "level": "a2"
+    },
+    {
+      "en": "the heel of a shoe",
+      "target": "o salto",
+      "level": "a2"
+    },
+    {
+      "en": "the sandals",
+      "target": "as sandálias",
+      "level": "a2"
+    },
+    {
+      "en": "the trainers",
+      "target": "as sapatilhas",
+      "level": "a2"
+    },
+    {
+      "en": "beige",
+      "target": "bege",
+      "level": "a2"
+    },
+    {
+      "en": "turquoise",
+      "target": "turquesa",
+      "level": "a2"
+    },
+    {
+      "en": "golden",
+      "target": "dourado / dourada",
+      "level": "a2"
+    },
+    {
+      "en": "silver",
+      "target": "prateado / prateada",
+      "level": "a2"
+    },
+    {
+      "en": "striped",
+      "target": "às riscas",
+      "level": "a2"
+    },
+    {
+      "en": "checked",
+      "target": "aos quadrados",
+      "level": "a2"
+    },
+    {
+      "en": "to wear",
+      "target": "usar / vestir",
+      "level": "a1"
+    },
+    {
+      "en": "to take off",
+      "target": "tirar / despir",
+      "level": "a1"
+    },
+    {
+      "en": "it suits you",
+      "target": "fica-te bem",
+      "level": "a1"
     }
   ]
 }

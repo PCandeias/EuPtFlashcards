@@ -29,7 +29,7 @@
     {
       "en": "ayran",
       "target": "ayran",
-      "level": "a2",
+      "level": "a1",
       "sense": "salted yogurt drink"
     },
     {
@@ -190,12 +190,12 @@
     {
       "en": "black pepper",
       "target": "karabiber",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "spice",
       "target": "baharat",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "olive oil",
@@ -215,7 +215,7 @@
     {
       "en": "lettuce",
       "target": "marul",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "cabbage",
@@ -225,7 +225,7 @@
     {
       "en": "beans",
       "target": "fasulye",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "lentils",
@@ -235,7 +235,7 @@
     {
       "en": "chickpea",
       "target": "nohut",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "mushroom",
@@ -245,7 +245,7 @@
     {
       "en": "mandarin",
       "target": "mandalina",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "strawberry",
@@ -285,7 +285,7 @@
     {
       "en": "cookie",
       "target": "kurabiye",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "snack",
@@ -305,12 +305,127 @@
     {
       "en": "stale",
       "target": "bayat",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "fresh",
       "target": "taze",
       "level": "a1"
+    },
+    {
+      "en": "vinegar",
+      "target": "sirke",
+      "level": "a2"
+    },
+    {
+      "en": "tuna",
+      "target": "ton balığı",
+      "level": "a2"
+    },
+    {
+      "en": "spinach",
+      "target": "ıspanak",
+      "level": "a2"
+    },
+    {
+      "en": "aubergine",
+      "target": "patlıcan",
+      "level": "a2"
+    },
+    {
+      "en": "pumpkin",
+      "target": "balkabağı",
+      "level": "a2"
+    },
+    {
+      "en": "corn",
+      "target": "mısır",
+      "level": "a2"
+    },
+    {
+      "en": "cream",
+      "target": "krema",
+      "level": "a2"
+    },
+    {
+      "en": "white cheese",
+      "target": "beyaz peynir",
+      "level": "a2"
+    },
+    {
+      "en": "sausage",
+      "target": "sucuk",
+      "level": "a2"
+    },
+    {
+      "en": "pastry",
+      "target": "börek",
+      "level": "a2"
+    },
+    {
+      "en": "kebab",
+      "target": "kebap",
+      "level": "a2"
+    },
+    {
+      "en": "stuffed vine leaves",
+      "target": "dolma",
+      "level": "a2"
+    },
+    {
+      "en": "rice pudding",
+      "target": "sütlaç",
+      "level": "a2"
+    },
+    {
+      "en": "baklava",
+      "target": "baklava",
+      "level": "a2"
+    },
+    {
+      "en": "simit bread ring",
+      "target": "simit",
+      "level": "a2"
+    },
+    {
+      "en": "turkish delight",
+      "target": "lokum",
+      "level": "a2"
+    },
+    {
+      "en": "turkish coffee",
+      "target": "türk kahvesi",
+      "level": "a2"
+    },
+    {
+      "en": "herbal tea",
+      "target": "bitki çayı",
+      "level": "a2"
+    },
+    {
+      "en": "soft drink",
+      "target": "gazoz",
+      "level": "a2"
+    },
+    {
+      "en": "tap water",
+      "target": "musluk suyu",
+      "level": "a2"
+    },
+    {
+      "en": "to taste",
+      "target": "tatmak",
+      "level": "a2"
+    },
+    {
+      "en": "to boil",
+      "target": "kaynatmak",
+      "level": "a2"
+    },
+    {
+      "en": "to fry",
+      "target": "kızartmak",
+      "level": "a2"
     }
   ]
 }

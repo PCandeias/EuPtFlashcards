@@ -130,6 +130,72 @@
         "formal"
       ],
       "level": "a1"
+    },
+    {
+      "en": "starter",
+      "target": "meze",
+      "level": "a2"
+    },
+    {
+      "en": "main course",
+      "target": "ana yemek",
+      "level": "a2"
+    },
+    {
+      "en": "side dish",
+      "target": "garnitür",
+      "level": "a2"
+    },
+    {
+      "en": "daily special",
+      "target": "günün yemeği",
+      "level": "a2"
+    },
+    {
+      "en": "wine list",
+      "target": "içki listesi",
+      "level": "a2"
+    },
+    {
+      "en": "terrace",
+      "target": "teras",
+      "level": "a2"
+    },
+    {
+      "en": "a table for two",
+      "target": "iki kişilik masa",
+      "level": "a1"
+    },
+    {
+      "en": "I have a reservation",
+      "target": "rezervasyonum var",
+      "level": "a2"
+    },
+    {
+      "en": "is it very spicy?",
+      "target": "çok acı mı?",
+      "level": "a2"
+    },
+    {
+      "en": "without ice, please",
+      "target": "buzsuz, lütfen",
+      "level": "a1"
+    },
+    {
+      "en": "can we pay separately?",
+      "target": "ayrı ayrı ödeyebilir miyiz?",
+      "level": "a1"
+    },
+    {
+      "en": "it was delicious",
+      "target": "çok lezzetliydi",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "to book a table",
+      "target": "masa ayırtmak",
+      "level": "a2"
     }
   ]
 }

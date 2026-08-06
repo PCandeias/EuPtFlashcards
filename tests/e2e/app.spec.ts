@@ -61,7 +61,7 @@ test('loads the full corpus', async ({ page }) => {
   await page.goto('./#/pt')
   await expect(page.locator('.card')).toBeVisible()
   await expect(page.locator('h1')).toContainText('European Portuguese')
-  await expect(page.locator('#totalCount')).toHaveText('2093')
+  await expect(page.locator('#totalCount')).toHaveText('2512')
 })
 
 test('renders a plural badge on the English face and none on the Portuguese', async ({ page }) => {
@@ -847,7 +847,7 @@ test.describe('studying by tense', () => {
     await page.goto('./#/pt')
     await page.evaluate(() => localStorage.clear())
     await page.reload()
-    await expect(page.locator('#totalCount')).toHaveText('2093')
+    await expect(page.locator('#totalCount')).toHaveText('2512')
   })
 
   test('hides cards in a tense that is switched off', async ({ page }) => {
@@ -855,15 +855,15 @@ test.describe('studying by tense', () => {
     await setTenses(page, ['presente', 'perfeito', 'imperfeito', 'futuro', 'futuroProximo'])
     await page.reload()
     // The 139 continuous cards drop out; nothing else does.
-    await expect(page.locator('#totalCount')).toHaveText(String(2093 - 139))
+    await expect(page.locator('#totalCount')).toHaveText(String(2512 - 139))
   })
 
   test('keeps vocabulary and infinitives whatever is selected', async ({ page }) => {
     await page.goto('./#/pt')
     await setTenses(page, [])
     await page.reload()
-    // Only the 501 tense-bearing cards go.
-    await expect(page.locator('#totalCount')).toHaveText(String(2093 - 501))
+    // Only the 506 tense-bearing cards go.
+    await expect(page.locator('#totalCount')).toHaveText(String(2512 - 506))
 
     // A noun and an infinitive are both still reachable.
     await page.selectOption('#deckSelect', 'Common Verbs')
@@ -913,7 +913,7 @@ test.describe('studying by tense', () => {
       }))
     })
     await page.reload()
-    await expect(page.locator('#totalCount')).toHaveText('2093')
+    await expect(page.locator('#totalCount')).toHaveText('2512')
   })
 })
 
@@ -1039,10 +1039,14 @@ test.describe('usage examples', () => {
     await expect(page.locator('.face.back [data-annotation="conjugation"]')).toHaveCount(0)
   })
 
-  test('offers nothing on a card that is not a verb', async ({ page }) => {
+  // Numbers have example sentences now, like everything else — but never a
+  // conjugation table, which is what would actually be wrong on `zero`.
+  test('offers examples but never conjugation on a card that is not a verb', async ({ page }) => {
     await page.goto('./#/pt')
     await goToVerb(page, 'Numbers', 'zero')
-    await expect(page.locator('.face.back .marker')).toHaveCount(0)
+    await expect(page.locator('.face.back [data-annotation="conjugation"]')).toHaveCount(0)
+    await page.click('.face.back [data-annotation="examples"]')
+    await expect(page.locator('#examplesPanel')).toContainText('zero')
   })
 })
 

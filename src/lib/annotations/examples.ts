@@ -22,7 +22,15 @@ import type { VoiceSpec } from '../languages/types.js'
 export interface Example {
   target: string
   en: string
-  tense: TenseId
+  /**
+   * The tense the sentence is in, when it is in one.
+   *
+   * Absent means the sentence has no finite verb to be in a tense — `Bu bir
+   * kitap`, "this is a book" — and it is shown whatever tenses are selected. The
+   * same bargain the cards make, and it is what keeps a word from losing all its
+   * examples when the tense selection narrows.
+   */
+  tense?: TenseId
 }
 
 export interface ExamplesPayload {
@@ -96,7 +104,7 @@ export function createExamplesKind(source: ExamplesSource): ExamplesKind {
 
       const all = examplesFor(subject) ?? []
       const selected = new Set(settings.tenses)
-      const matching = all.filter(e => isTenseId(e.tense) && selected.has(e.tense))
+      const matching = all.filter(e => !e.tense || (isTenseId(e.tense) && selected.has(e.tense)))
       if (!matching.length) return null
 
       return {

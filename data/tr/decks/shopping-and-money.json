@@ -4,7 +4,7 @@
     {
       "en": "lira",
       "target": "lira",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "credit card",
@@ -44,17 +44,17 @@
     {
       "en": "seller",
       "target": "satıcı",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "customer",
       "target": "müşteri",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "cash register",
       "target": "kasa",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "receipt",
@@ -119,7 +119,7 @@
     {
       "en": "market / bazaar",
       "target": "pazar",
-      "level": "a1"
+      "level": "a2"
     },
     {
       "en": "cashier",
@@ -159,7 +159,7 @@
     {
       "en": "coin / change",
       "target": "bozuk para",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "banknote",
@@ -169,13 +169,13 @@
     {
       "en": "cent",
       "target": "kuruş",
-      "level": "a2",
+      "level": "a1",
       "sense": "one hundredth of a lira"
     },
     {
       "en": "wallet",
       "target": "cüzdan",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "basket",
@@ -215,7 +215,7 @@
     {
       "en": "to try / to try on",
       "target": "denemek",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "I will take this",
@@ -236,6 +236,78 @@
     {
       "en": "do you accept cards?",
       "target": "Kart geçiyor mu?",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "shopping list",
+      "target": "alışveriş listesi",
+      "level": "a2"
+    },
+    {
+      "en": "queue",
+      "target": "sıra",
+      "level": "a2"
+    },
+    {
+      "en": "offer",
+      "target": "indirimli ürün",
+      "level": "a2"
+    },
+    {
+      "en": "sales",
+      "target": "indirim dönemi",
+      "level": "a2"
+    },
+    {
+      "en": "delivery",
+      "target": "teslimat",
+      "level": "a2"
+    },
+    {
+      "en": "parcel",
+      "target": "paket",
+      "level": "a2"
+    },
+    {
+      "en": "shop window",
+      "target": "vitrin",
+      "level": "a2"
+    },
+    {
+      "en": "fitting room",
+      "target": "deneme kabini",
+      "level": "a2"
+    },
+    {
+      "en": "bank account",
+      "target": "banka hesabı",
+      "level": "b1"
+    },
+    {
+      "en": "transfer",
+      "target": "havale",
+      "level": "b1"
+    },
+    {
+      "en": "salary",
+      "target": "maaş",
+      "level": "a2"
+    },
+    {
+      "en": "how much does it cost?",
+      "target": "ne kadar tutuyor?",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "do you have another size?",
+      "target": "başka beden var mı?",
+      "level": "a1"
+    },
+    {
+      "en": "I am just looking",
+      "target": "sadece bakıyorum",
       "tense": "simdiki",
       "level": "a1"
     }

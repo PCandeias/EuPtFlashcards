@@ -71,7 +71,7 @@
       "en": "I am in a hurry",
       "target": "estou com pressa",
       "tense": "presente",
-      "level": "a1"
+      "level": "a2"
     },
     {
       "en": "I have time",
@@ -88,7 +88,7 @@
       "en": "I am bored",
       "target": "estou aborrecido / aborrecida",
       "tense": "presente",
-      "level": "a1"
+      "level": "a2"
     },
     {
       "en": "I am happy",
@@ -153,6 +153,102 @@
     {
       "en": "I am glad",
       "target": "fico contente",
+      "level": "a1"
+    },
+    {
+      "en": "lonely",
+      "target": "sozinho / sozinha",
+      "level": "a2"
+    },
+    {
+      "en": "jealous",
+      "target": "com ciúmes",
+      "level": "a2"
+    },
+    {
+      "en": "grateful",
+      "target": "grato / grata",
+      "level": "a2"
+    },
+    {
+      "en": "disappointed",
+      "target": "desiludido / desiludida",
+      "level": "a2"
+    },
+    {
+      "en": "confused",
+      "target": "confuso / confusa",
+      "level": "a2"
+    },
+    {
+      "en": "curious",
+      "target": "curioso / curiosa",
+      "level": "a2"
+    },
+    {
+      "en": "relieved",
+      "target": "aliviado / aliviada",
+      "level": "a2"
+    },
+    {
+      "en": "annoyed",
+      "target": "irritado / irritada",
+      "level": "a2"
+    },
+    {
+      "en": "in a hurry",
+      "target": "com pressa",
+      "level": "a2"
+    },
+    {
+      "en": "in a good mood",
+      "target": "bem-disposto / bem-disposta",
+      "level": "a2"
+    },
+    {
+      "en": "in a bad mood",
+      "target": "mal-disposto / mal-disposta",
+      "level": "a2"
+    },
+    {
+      "en": "cold",
+      "target": "com frio",
+      "level": "a1"
+    },
+    {
+      "en": "hot",
+      "target": "com calor",
+      "level": "a1"
+    },
+    {
+      "en": "afraid",
+      "target": "com medo",
+      "level": "a1"
+    },
+    {
+      "en": "to miss someone",
+      "target": "ter saudades",
+      "level": "a2"
+    },
+    {
+      "en": "to be right",
+      "target": "ter razão",
+      "level": "a2"
+    },
+    {
+      "en": "to be wrong",
+      "target": "não ter razão",
+      "level": "a2"
+    },
+    {
+      "en": "to be in a hurry",
+      "target": "estar com pressa",
+      "level": "a2"
+    },
+    {
+      "en": "I am fine, thank you",
+      "target": "estou bem, obrigado",
+      "tense": "presente",
       "level": "a1"
     }
   ]

@@ -147,7 +147,7 @@
     {
       "en": "living room",
       "target": "salon",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "balcony",
@@ -157,7 +157,7 @@
     {
       "en": "garden",
       "target": "bahçe",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "pillow",
@@ -217,17 +217,17 @@
     {
       "en": "washing machine",
       "target": "çamaşır makinesi",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "towel",
       "target": "havlu",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "soap",
       "target": "sabun",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "shampoo",
@@ -237,12 +237,12 @@
     {
       "en": "toothbrush",
       "target": "diş fırçası",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "toothpaste",
       "target": "diş macunu",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "trash bin",
@@ -277,11 +277,111 @@
     {
       "en": "air conditioner",
       "target": "klima",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "heating",
       "target": "ısıtma",
+      "level": "a2"
+    },
+    {
+      "en": "roof",
+      "target": "çatı",
+      "level": "a2"
+    },
+    {
+      "en": "staircase",
+      "target": "merdiven",
+      "level": "a2"
+    },
+    {
+      "en": "corridor",
+      "target": "koridor",
+      "level": "a2"
+    },
+    {
+      "en": "doorbell",
+      "target": "kapı zili",
+      "level": "a2"
+    },
+    {
+      "en": "duvet",
+      "target": "yorgan",
+      "level": "a2"
+    },
+    {
+      "en": "mattress",
+      "target": "yatak şiltesi",
+      "level": "a2"
+    },
+    {
+      "en": "bucket",
+      "target": "kova",
+      "level": "a2"
+    },
+    {
+      "en": "cloth",
+      "target": "bez",
+      "level": "a2"
+    },
+    {
+      "en": "detergent",
+      "target": "deterjan",
+      "level": "a2"
+    },
+    {
+      "en": "light bulb",
+      "target": "ampul",
+      "level": "a2"
+    },
+    {
+      "en": "switch",
+      "target": "düğme anahtarı",
+      "level": "a2"
+    },
+    {
+      "en": "tap",
+      "target": "musluk",
+      "level": "a2"
+    },
+    {
+      "en": "sink",
+      "target": "lavabo",
+      "level": "a2"
+    },
+    {
+      "en": "shower",
+      "target": "duş",
+      "level": "a2"
+    },
+    {
+      "en": "freezer",
+      "target": "dondurucu",
+      "level": "a2"
+    },
+    {
+      "en": "toaster",
+      "target": "ekmek kızartma makinesi",
+      "level": "a2"
+    },
+    {
+      "en": "pan",
+      "target": "tencere",
+      "level": "a2"
+    },
+    {
+      "en": "frying pan",
+      "target": "tava",
+      "level": "a2"
+    },
+    {
+      "en": "tray",
+      "target": "tepsi",
+      "level": "a2"
+    },
+    {
+      "en": "hanger",
+      "target": "askı",
       "level": "a2"
     }
   ]

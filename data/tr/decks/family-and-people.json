@@ -43,7 +43,7 @@
     {
       "en": "my / mine",
       "target": "benim",
-      "level": "a1"
+      "level": "a2"
     },
     {
       "en": "your / yours",
@@ -51,7 +51,7 @@
       "tags": [
         "informal"
       ],
-      "level": "a1"
+      "level": "a2"
     },
     {
       "en": "his / her / its",
@@ -70,7 +70,7 @@
         "formal",
         "plural"
       ],
-      "level": "a1"
+      "level": "a2"
     },
     {
       "en": "family",
@@ -176,6 +176,61 @@
       "en": "person",
       "target": "kişi",
       "level": "a1"
+    },
+    {
+      "en": "stepfather",
+      "target": "üvey baba",
+      "level": "a2"
+    },
+    {
+      "en": "stepmother",
+      "target": "üvey anne",
+      "level": "a2"
+    },
+    {
+      "en": "father-in-law",
+      "target": "kayınpeder",
+      "level": "a2"
+    },
+    {
+      "en": "mother-in-law",
+      "target": "kayınvalide",
+      "level": "a2"
+    },
+    {
+      "en": "twins",
+      "target": "ikizler",
+      "level": "a2"
+    },
+    {
+      "en": "bride",
+      "target": "gelin",
+      "level": "a2"
+    },
+    {
+      "en": "groom",
+      "target": "damat",
+      "level": "a2"
+    },
+    {
+      "en": "childhood",
+      "target": "çocukluk",
+      "level": "a2"
+    },
+    {
+      "en": "birthday party",
+      "target": "doğum günü partisi",
+      "level": "a2"
+    },
+    {
+      "en": "to be born",
+      "target": "doğmak",
+      "level": "a2"
+    },
+    {
+      "en": "to get married",
+      "target": "evlenmek",
+      "level": "a2"
     }
   ]
 }

@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import { MAX_EXAMPLES } from '../src/lib/annotations/examples.js'
 import { annotationsFor } from '../src/lib/annotations/index.js'
-import { conjugate, parseVerb } from '../src/lib/languages/pt/conjugate.js'
+import { conjugate, conjugatePhrase, parseVerb } from '../src/lib/languages/pt/conjugate.js'
 import { verbOf } from '../src/lib/languages/pt/detect.js'
 import { portuguese, examplesKind } from '../src/lib/languages/pt/index.js'
 import { defaultSettings } from '../src/lib/storage/progress.js'
@@ -28,7 +28,9 @@ function formsOf(infinitive: string): Set<string> {
   const out = new Set<string>([infinitive])
   const parsed = parseVerb(infinitive)
   if (parsed) out.add(parsed.stem)
-  const c = conjugate(infinitive)
+  // conjugatePhrase, not conjugate: the deck teaches phrase verbs too, and
+  // `apanhar o autocarro` conjugates as `apanho o autocarro`.
+  const c = conjugatePhrase(infinitive)
   for (const forms of Object.values(c ?? {})) {
     for (const form of Object.values(forms as Record<string, string>)) {
       for (const word of form.split(/\s+/)) {
@@ -169,9 +171,12 @@ describe('the annotation registry', () => {
       .toEqual(['conjugation', 'examples'])
   })
 
-  it('offers nothing on a card that is not a verb', () => {
+  // A noun now has example sentences of its own, so it offers that marker — but
+  // never the conjugation one, which would be a table on a house.
+  it('offers examples but not conjugation on a card that is not a verb', () => {
     const card = CARDS.find(c => c.target === 'a casa')!
-    expect(annotationsFor2(card, { settings })).toEqual([])
+    const kinds = annotationsFor2(card, { settings }).map(a => a.kind.id)
+    expect(kinds).toEqual(['examples'])
   })
 
   // Each kind decides for itself. Narrowing to one tense keeps both, because the

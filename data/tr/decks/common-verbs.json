@@ -155,13 +155,13 @@
     {
       "en": "to do",
       "target": "etmek",
-      "level": "b1",
+      "level": "a1",
       "sense": "auxiliary — makes verbs of nouns"
     },
     {
       "en": "to hear",
       "target": "duymak",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to say / to tell",
@@ -176,7 +176,7 @@
     {
       "en": "to learn",
       "target": "öğrenmek",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to teach",
@@ -186,12 +186,12 @@
     {
       "en": "to start",
       "target": "başlamak",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to finish / to end",
       "target": "bitmek",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to like / to appreciate",
@@ -201,17 +201,17 @@
     {
       "en": "to cook",
       "target": "pişirmek",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to wake up",
       "target": "uyanmak",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to get up",
       "target": "kalkmak",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to run",
@@ -221,37 +221,37 @@
     {
       "en": "to stop / to stand",
       "target": "durmak",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to turn / to return",
       "target": "dönmek",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to get on / to ride",
       "target": "binmek",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to get off / to go down",
       "target": "inmek",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to drive / to last",
       "target": "sürmek",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to use",
       "target": "kullanmak",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to call / to search for",
       "target": "aramak",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to lose",
@@ -271,42 +271,42 @@
     {
       "en": "to help",
       "target": "yardım etmek",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to bring",
       "target": "getirmek",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to take away / to take someone",
       "target": "götürmek",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to put",
       "target": "koymak",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to remove / to take out",
       "target": "çıkarmak",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to clean",
       "target": "temizlemek",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to wash",
       "target": "yıkamak",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to pay",
       "target": "ödemek",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to buy",
@@ -321,11 +321,161 @@
     {
       "en": "to ache / to hurt",
       "target": "ağrımak",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to pass / to go through",
       "target": "geçmek",
+      "level": "a1"
+    },
+    {
+      "en": "to build",
+      "target": "inşa etmek",
+      "level": "a2"
+    },
+    {
+      "en": "to break",
+      "target": "kırmak",
+      "level": "a2"
+    },
+    {
+      "en": "to repair",
+      "target": "tamir etmek",
+      "level": "a2"
+    },
+    {
+      "en": "to change",
+      "target": "değiştirmek",
+      "level": "a2"
+    },
+    {
+      "en": "to count",
+      "target": "saymak",
+      "level": "a2"
+    },
+    {
+      "en": "to cut",
+      "target": "kesmek",
+      "level": "a2"
+    },
+    {
+      "en": "to fall",
+      "target": "düşmek",
+      "level": "a2"
+    },
+    {
+      "en": "to fill",
+      "target": "doldurmak",
+      "level": "a2"
+    },
+    {
+      "en": "to grow",
+      "target": "büyümek",
+      "level": "a2"
+    },
+    {
+      "en": "to hide",
+      "target": "saklamak",
+      "level": "a2"
+    },
+    {
+      "en": "to jump",
+      "target": "zıplamak",
+      "level": "a2"
+    },
+    {
+      "en": "to lend",
+      "target": "ödünç vermek",
+      "level": "a2"
+    },
+    {
+      "en": "to mean",
+      "target": "anlamına gelmek",
+      "level": "a2"
+    },
+    {
+      "en": "to offer",
+      "target": "teklif etmek",
+      "level": "a2"
+    },
+    {
+      "en": "to pull",
+      "target": "çekmek",
+      "level": "a2"
+    },
+    {
+      "en": "to push",
+      "target": "itmek",
+      "level": "a2"
+    },
+    {
+      "en": "to repeat",
+      "target": "tekrarlamak",
+      "level": "a2"
+    },
+    {
+      "en": "to share",
+      "target": "paylaşmak",
+      "level": "a2"
+    },
+    {
+      "en": "to sign",
+      "target": "imzalamak",
+      "level": "a2"
+    },
+    {
+      "en": "to smile",
+      "target": "gülümsemek",
+      "level": "a2"
+    },
+    {
+      "en": "to swim",
+      "target": "yüzmek",
+      "level": "a2"
+    },
+    {
+      "en": "to throw",
+      "target": "atmak",
+      "level": "a2"
+    },
+    {
+      "en": "to visit",
+      "target": "ziyaret etmek",
+      "level": "a2"
+    },
+    {
+      "en": "to win",
+      "target": "kazanmak",
+      "level": "a2"
+    },
+    {
+      "en": "to explain",
+      "target": "açıklamak",
+      "level": "a2"
+    },
+    {
+      "en": "to decide",
+      "target": "karar vermek",
+      "level": "a2"
+    },
+    {
+      "en": "to believe",
+      "target": "inanmak",
+      "level": "a2"
+    },
+    {
+      "en": "to hope",
+      "target": "ummak",
+      "level": "a2"
+    },
+    {
+      "en": "to laugh",
+      "target": "gülmek",
+      "level": "a2"
+    },
+    {
+      "en": "to hold / to cost",
+      "target": "tutmak",
       "level": "a2"
     }
   ]

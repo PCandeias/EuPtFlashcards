@@ -10,7 +10,7 @@ const CARDS = turkish.cards
 
 describe('the Turkish corpus', () => {
   it('holds the whole corpus', () => {
-    expect(CARDS.length).toBe(962)
+    expect(CARDS.length).toBe(1277)
   })
 
   it('covers every deck', () => {
@@ -88,7 +88,7 @@ describe('Turkish tense tagging', () => {
   it('tags only what it is sure of', () => {
     const counts: Record<string, number> = {}
     for (const c of tensed) counts[c.tense!] = (counts[c.tense!] ?? 0) + 1
-    expect(counts).toEqual({ simdiki: 69, genis: 9, gecmis: 3, gelecek: 3 })
+    expect(counts).toEqual({ simdiki: 74, genis: 9, gecmis: 6, gelecek: 3 })
   })
 
   it('never uses another language’s tense', () => {

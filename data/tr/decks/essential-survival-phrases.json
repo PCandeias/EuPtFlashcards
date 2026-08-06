@@ -166,6 +166,65 @@
       "en": "where is the bathroom?",
       "target": "Tuvalet nerede?",
       "level": "a1"
+    },
+    {
+      "en": "I am lost",
+      "target": "kayboldum",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "help me, please",
+      "target": "lütfen bana yardım edin",
+      "level": "a1"
+    },
+    {
+      "en": "call the police",
+      "target": "polisi arayın",
+      "level": "a1"
+    },
+    {
+      "en": "call an ambulance",
+      "target": "ambulans çağırın",
+      "level": "a2"
+    },
+    {
+      "en": "it is an emergency",
+      "target": "acil durum",
+      "level": "a1"
+    },
+    {
+      "en": "I lost my wallet",
+      "target": "cüzdanımı kaybettim",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "what does that mean?",
+      "target": "ne anlama geliyor?",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "more slowly, please",
+      "target": "daha yavaş, lütfen",
+      "level": "a1"
+    },
+    {
+      "en": "one moment, please",
+      "target": "bir dakika, lütfen",
+      "level": "a1"
+    },
+    {
+      "en": "I only speak a little",
+      "target": "sadece biraz konuşuyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "leave me alone",
+      "target": "beni rahat bırakın",
+      "level": "a2"
     }
   ]
 }

@@ -44,7 +44,7 @@
     {
       "en": "account",
       "target": "hesap",
-      "level": "a2",
+      "level": "a1",
       "sense": "online"
     },
     {
@@ -60,7 +60,7 @@
     {
       "en": "phone call",
       "target": "telefon araması",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "camera",
@@ -70,17 +70,17 @@
     {
       "en": "photo",
       "target": "fotoğraf",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "video",
       "target": "video",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "headphones",
       "target": "kulaklık",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "speaker",
@@ -115,7 +115,7 @@
     {
       "en": "button",
       "target": "düğme",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "file",
@@ -130,7 +130,7 @@
     {
       "en": "picture",
       "target": "resim",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "sound / voice",
@@ -145,7 +145,7 @@
     {
       "en": "to upload / to install",
       "target": "yüklemek",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "to send",
@@ -171,12 +171,68 @@
       "en": "it is not working",
       "target": "çalışmıyor",
       "tense": "simdiki",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "broken",
       "target": "bozuk",
       "level": "a2"
+    },
+    {
+      "en": "signal",
+      "target": "çekim gücü",
+      "level": "a2"
+    },
+    {
+      "en": "data",
+      "target": "internet paketi",
+      "level": "a2"
+    },
+    {
+      "en": "update",
+      "target": "güncelleme",
+      "level": "a2"
+    },
+    {
+      "en": "link",
+      "target": "bağlantı",
+      "level": "a2"
+    },
+    {
+      "en": "attachment",
+      "target": "ek dosya",
+      "level": "a2"
+    },
+    {
+      "en": "printer",
+      "target": "yazıcı",
+      "level": "a2"
+    },
+    {
+      "en": "voicemail",
+      "target": "sesli mesaj",
+      "level": "a2"
+    },
+    {
+      "en": "text message",
+      "target": "kısa mesaj",
+      "level": "a2"
+    },
+    {
+      "en": "video call",
+      "target": "görüntülü arama",
+      "level": "a2"
+    },
+    {
+      "en": "the battery is dead",
+      "target": "şarj bitti",
+      "level": "a2"
+    },
+    {
+      "en": "there is no signal",
+      "target": "çekmiyor",
+      "tense": "simdiki",
+      "level": "a1"
     }
   ]
 }

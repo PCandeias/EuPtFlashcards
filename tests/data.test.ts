@@ -12,7 +12,7 @@ const VOCAB = new Set<string>(TAGS)
 
 describe('card corpus', () => {
   it('holds the whole corpus', () => {
-    expect(CARDS.length).toBe(2093)
+    expect(CARDS.length).toBe(2512)
   })
 
   it('covers every deck', () => {
@@ -82,7 +82,7 @@ describe('tense tagging', () => {
     const counts: Record<string, number> = {}
     for (const c of tensed) counts[c.tense!] = (counts[c.tense!] ?? 0) + 1
     expect(counts).toEqual({
-      presente: 119,
+      presente: 124,
       presenteContinuo: 139,
       perfeito: 64,
       imperfeito: 62,
@@ -94,7 +94,7 @@ describe('tense tagging', () => {
   // Vocabulary must never be filterable, or unticking a tense would take the
   // nouns and adjectives with it.
   it('leaves nouns, adjectives and phrases untagged', () => {
-    expect(CARDS.filter(c => !c.tense).length).toBe(1592)
+    expect(CARDS.filter(c => !c.tense).length).toBe(2006)
     expect(CARDS.find(c => c.target === 'a casa')?.tense).toBeUndefined()
     expect(CARDS.find(c => c.en === 'beautiful / nice')?.tense).toBeUndefined()
   })
@@ -145,7 +145,7 @@ describe('level labelling', () => {
   it('leaves most of the corpus at A1', () => {
     const counts: Record<string, number> = {}
     for (const c of CARDS) counts[c.level!] = (counts[c.level!] ?? 0) + 1
-    expect(counts).toEqual({ a1: 1476, a2: 525, b1: 92 })
+    expect(counts).toEqual({ a1: 1540, a2: 869, b1: 103 })
     expect(counts.a1! / CARDS.length).toBeGreaterThan(0.6)
   })
 

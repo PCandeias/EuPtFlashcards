@@ -200,6 +200,121 @@
       "en": "successful",
       "target": "bem-sucedido / bem-sucedida",
       "level": "b1"
+    },
+    {
+      "en": "the timetable",
+      "target": "o horário escolar",
+      "level": "a2"
+    },
+    {
+      "en": "the subject",
+      "target": "a disciplina",
+      "level": "a2"
+    },
+    {
+      "en": "the essay",
+      "target": "a redação",
+      "level": "a2"
+    },
+    {
+      "en": "the presentation",
+      "target": "a apresentação",
+      "level": "a2"
+    },
+    {
+      "en": "the deadline",
+      "target": "o prazo",
+      "level": "b1"
+    },
+    {
+      "en": "the meeting room",
+      "target": "a sala de reuniões",
+      "level": "a2"
+    },
+    {
+      "en": "the colleague",
+      "target": "o colega / a colega",
+      "level": "a2"
+    },
+    {
+      "en": "the boss",
+      "target": "o chefe / a chefe",
+      "level": "a2"
+    },
+    {
+      "en": "the interview",
+      "target": "a entrevista",
+      "level": "a2"
+    },
+    {
+      "en": "the contract",
+      "target": "o contrato",
+      "level": "b1"
+    },
+    {
+      "en": "the payslip",
+      "target": "o recibo de vencimento",
+      "level": "b1"
+    },
+    {
+      "en": "the holiday days",
+      "target": "os dias de férias",
+      "level": "a2"
+    },
+    {
+      "en": "the sick leave",
+      "target": "a baixa médica",
+      "level": "b1"
+    },
+    {
+      "en": "the training course",
+      "target": "a formação",
+      "level": "a2"
+    },
+    {
+      "en": "the degree",
+      "target": "a licenciatura",
+      "level": "a2"
+    },
+    {
+      "en": "the library card",
+      "target": "o cartão da biblioteca",
+      "level": "a2"
+    },
+    {
+      "en": "the break",
+      "target": "o intervalo",
+      "level": "a2"
+    },
+    {
+      "en": "to apply for a job",
+      "target": "candidatar-se a um emprego",
+      "level": "b1"
+    },
+    {
+      "en": "to hand in",
+      "target": "entregar",
+      "level": "a2"
+    },
+    {
+      "en": "to pass an exam",
+      "target": "passar no exame",
+      "level": "a2"
+    },
+    {
+      "en": "to fail an exam",
+      "target": "chumbar no exame",
+      "level": "a2"
+    },
+    {
+      "en": "to take notes",
+      "target": "tirar apontamentos",
+      "level": "a2"
+    },
+    {
+      "en": "I work from home",
+      "target": "trabalho a partir de casa",
+      "level": "a1"
     }
   ]
 }

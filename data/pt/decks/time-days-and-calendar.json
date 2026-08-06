@@ -265,6 +265,101 @@
       "en": "it is quarter to four",
       "target": "são quatro menos um quarto",
       "level": "a1"
+    },
+    {
+      "en": "the century",
+      "target": "o século",
+      "level": "a2"
+    },
+    {
+      "en": "the decade",
+      "target": "a década",
+      "level": "a2"
+    },
+    {
+      "en": "the fortnight",
+      "target": "a quinzena",
+      "level": "a2"
+    },
+    {
+      "en": "the holiday",
+      "target": "o feriado",
+      "level": "a2"
+    },
+    {
+      "en": "the anniversary",
+      "target": "o aniversário de casamento",
+      "level": "a2"
+    },
+    {
+      "en": "New Year",
+      "target": "o Ano Novo",
+      "level": "a1"
+    },
+    {
+      "en": "Christmas",
+      "target": "o Natal",
+      "level": "a1"
+    },
+    {
+      "en": "Easter",
+      "target": "a Páscoa",
+      "level": "a1"
+    },
+    {
+      "en": "the day before yesterday",
+      "target": "anteontem",
+      "level": "a2"
+    },
+    {
+      "en": "the day after tomorrow",
+      "target": "depois de amanhã",
+      "level": "a2"
+    },
+    {
+      "en": "last night",
+      "target": "ontem à noite",
+      "level": "a1"
+    },
+    {
+      "en": "at the weekend",
+      "target": "ao fim de semana",
+      "level": "a1"
+    },
+    {
+      "en": "every year",
+      "target": "todos os anos",
+      "level": "a1"
+    },
+    {
+      "en": "once a week",
+      "target": "uma vez por semana",
+      "level": "a1"
+    },
+    {
+      "en": "twice a month",
+      "target": "duas vezes por mês",
+      "level": "a1"
+    },
+    {
+      "en": "for a long time",
+      "target": "há muito tempo",
+      "level": "a1"
+    },
+    {
+      "en": "it is early",
+      "target": "é cedo",
+      "level": "a1"
+    },
+    {
+      "en": "it is late",
+      "target": "é tarde",
+      "level": "a1"
+    },
+    {
+      "en": "what time do you open?",
+      "target": "a que horas abrem?",
+      "level": "a1"
     }
   ]
 }
