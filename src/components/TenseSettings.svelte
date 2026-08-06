@@ -8,8 +8,6 @@
     onchange: (tenses: TenseId[]) => void
   } = $props()
 
-  let open = $state(false)
-
   function toggle(id: TenseId, on: boolean) {
     // Rebuilt from the registry each time, so the stored order is always the
     // registry's and never the order things were clicked.
@@ -17,54 +15,33 @@
   }
 </script>
 
-<details class="tenses" bind:open>
-  <summary id="tenseSettings">
-    Conjugation tenses
-    <span class="count">{selected.length}</span>
-  </summary>
+<p class="lead">
+  Which tenses the <span class="glyph">?</span> beside a verb offers. Turn them all
+  off to hide it.
+</p>
 
-  <p class="lead">
-    Which tenses the <span class="glyph">?</span> beside a verb offers. Turn them all
-    off to hide it.
-  </p>
-
-  <ul>
-    {#each TENSES as tense (tense.id)}
-      <li>
-        <label>
-          <input
-            type="checkbox"
-            value={tense.id}
-            checked={selected.includes(tense.id)}
-            onchange={(e) => toggle(tense.id, e.currentTarget.checked)}
-          />
+<ul>
+  {#each TENSES as tense (tense.id)}
+    <li>
+      <label>
+        <input
+          type="checkbox"
+          value={tense.id}
+          checked={selected.includes(tense.id)}
+          onchange={(e) => toggle(tense.id, e.currentTarget.checked)}
+        />
+        <span class="text">
           <span class="name">{tense.label}</span>
           <span class="example">{tense.example}</span>
           <span class="hint">{tense.hint}</span>
-        </label>
-      </li>
-    {/each}
-  </ul>
-</details>
+        </span>
+      </label>
+    </li>
+  {/each}
+</ul>
 
 <style>
-  .tenses { font-size: 12px; color: var(--muted); }
-  summary {
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    padding: 4px 0;
-  }
-  .count {
-    min-width: 18px;
-    padding: 1px 6px;
-    border-radius: 999px;
-    border: 1px solid var(--border);
-    font-weight: 700;
-    font-size: 11px;
-  }
-  .lead { margin: 4px 0 8px; }
+  .lead { margin: 0 0 10px; font-size: 12px; color: var(--muted); line-height: 1.5; }
   .glyph {
     display: inline-flex;
     align-items: center;
@@ -76,31 +53,23 @@
     font-weight: 800;
   }
 
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    gap: 4px;
-    /* Never let the settings grow enough to squeeze the card off the screen. */
-    max-height: 38svh;
-    overflow-y: auto;
-  }
+  ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
   label {
     display: grid;
-    grid-template-columns: auto auto 1fr;
-    align-items: baseline;
-    gap: 8px;
+    grid-template-columns: auto 1fr;
+    align-items: start;
+    gap: 10px;
     cursor: pointer;
     text-align: left;
+    font-size: 13px;
   }
-  input { accent-color: var(--accent); }
-  .name { color: var(--text); font-weight: 600; }
-  .example { font-style: italic; }
-  .hint { font-size: 11px; opacity: 0.8; }
+  input { accent-color: var(--accent); width: 16px; height: 16px; margin-top: 2px; }
+  .name { font-weight: 600; }
+  .example { font-style: italic; color: var(--muted); margin-left: 8px; }
+  /* Its own line: the hint is an aside, not a third column competing for width. */
+  .hint { display: block; font-size: 11px; color: var(--muted); opacity: 0.85; margin-top: 1px; }
 
   @media (max-width: 760px) {
     .hint { display: none; }
-    label { grid-template-columns: auto auto 1fr; }
   }
 </style>

@@ -55,6 +55,7 @@ test('carries progress across from the original single-file app', async ({ page 
   // Nothing is "learned" yet in SM-2 terms — the old count measured taps, not recall.
   await expect(page.locator('#learnedCount')).toHaveText('0')
   await expect(page.locator('#deckSelect')).toHaveValue('Numbers')
+  await page.click('#settingsBtn')
   await expect(page.locator('#directionSelect')).toHaveValue('b-a')
 
   // The original data is left in place as a backstop.
@@ -129,9 +130,10 @@ test('exports a backup that can be imported back', async ({ page }) => {
   await page.click('#goodBtn')
   await expect(page.locator('#learnedCount')).toHaveText('2')
 
+  await page.click('#settingsBtn')
   const download = await Promise.all([
     page.waitForEvent('download'),
-    page.getByRole('button', { name: 'Export backup' }).click(),
+    page.click('#exportBtn'),
   ]).then(([d]) => d)
 
   const stream = await download.createReadStream()
@@ -147,6 +149,7 @@ test('exports a backup that can be imported back', async ({ page }) => {
   await page.reload()
   await expect(page.locator('#learnedCount')).toHaveText('0')
 
+  await page.click('#settingsBtn')
   await page.setInputFiles('input[type=file]', {
     name: 'backup.json',
     mimeType: 'application/json',

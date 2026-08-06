@@ -5,6 +5,7 @@
   import Controls from './components/Controls.svelte'
   import Stats from './components/Stats.svelte'
   import BackupBar from './components/BackupBar.svelte'
+  import SettingsPanel from './components/SettingsPanel.svelte'
   import UpdatePrompt from './components/UpdatePrompt.svelte'
   import TypeAnswer from './components/TypeAnswer.svelte'
 
@@ -23,6 +24,9 @@
     loadHistory, saveHistory, type Settings,
   } from './lib/storage/progress.js'
   import { runMigration } from './lib/storage/migrate.js'
+  import {
+    buildBackup, parseBackup, backupFilename, mergeProgress, mergeHistory,
+  } from './lib/storage/backup.js'
   import { verbOf } from './lib/verbs/detect.js'
   import ConjugationPanel from './components/ConjugationPanel.svelte'
 
@@ -36,6 +40,8 @@
   let now = $state(Date.now())
   let typing = $state(false)
   let conjugating = $state(false)
+  let settingsOpen = $state(false)
+  let backupMessage = $state('')
 
   const counts = deckCounts()
   const deckOptions: Array<[string, number]> = [
@@ -139,6 +145,36 @@
     newSession()
   }
 
+  // iOS clears stored data after a week unused, and deleting the installed app
+  // takes its data with it. This is the only way back.
+  function exportBackup() {
+    const exportedAt = new Date().toISOString()
+    const file = buildBackup(progress, settings, exportedAt, history)
+    const blob = new Blob([JSON.stringify(file, null, 2)], { type: 'application/json' })
+    const url = URL.createObjectURL(blob)
+    const link = document.createElement('a')
+    link.href = url
+    link.download = backupFilename(exportedAt)
+    link.click()
+    URL.revokeObjectURL(url)
+    backupMessage = `Exported ${Object.keys(progress).length} cards.`
+  }
+
+  async function importBackup(file: File) {
+    try {
+      const parsed = parseBackup(await file.text())
+      // Additive: a restore should never lose ground you have since gained.
+      progress = mergeProgress(progress, parsed.progress)
+      history = mergeHistory(history, parsed.history)
+      now = Date.now()
+      persist()
+      backupMessage = `Restored ${Object.keys(parsed.progress).length} cards.`
+      settingsOpen = false
+    } catch (error) {
+      backupMessage = error instanceof Error ? error.message : 'That backup could not be read.'
+    }
+  }
+
   const RATING_KEYS: Record<string, Rating> = {
     '1': 'again', '2': 'hard', '3': 'good', '4': 'easy',
   }
@@ -184,8 +220,8 @@
     {typing}
     onchange={changeSettings}
     onshuffle={newSession}
-    onreset={resetDeck}
     ontoggletyping={toggleTyping}
+    onsettings={() => { settingsOpen = true }}
   />
 
   <main class="study">
@@ -242,18 +278,17 @@
     {/if}
   </main>
 
-  <BackupBar
-    {progress}
+  <BackupBar migrationNote={migration} message={backupMessage} />
+
+  <SettingsPanel
+    open={settingsOpen}
     {settings}
-    migrationNote={migration}
-    {history}
-    ontenses={(tenses) => changeSettings({ tenses })}
-    onimport={(nextProgress, nextHistory) => {
-      progress = nextProgress
-      history = nextHistory
-      now = Date.now()
-      persist()
-    }}
+    deckLabel={settings.deck}
+    onchange={changeSettings}
+    onclose={() => { settingsOpen = false }}
+    onexport={exportBackup}
+    onimport={importBackup}
+    onreset={resetDeck}
   />
 
   <UpdatePrompt />

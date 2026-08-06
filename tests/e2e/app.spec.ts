@@ -29,6 +29,17 @@ async function findCard(
   expect(found, `should reach "${front}" / "${back}" in ${deck}`).toBe(true)
 }
 
+/** Theme, direction, tenses, backup and reset now live behind the settings button. */
+async function openSettings(page: Page) {
+  await page.click('#settingsBtn')
+  await expect(page.locator('#settingsDialog')).toBeVisible()
+}
+
+async function closeSettings(page: Page) {
+  await page.click('#settingsCloseBtn')
+  await expect(page.locator('#settingsDialog')).toBeHidden()
+}
+
 type TrackedPage = Page & { __errors: string[] }
 
 test.beforeEach(async ({ page }) => {
@@ -78,7 +89,9 @@ test('renders a sense hint as its own line, not inside the word', async ({ page 
 
 test('shows badges on the English face when Portuguese leads', async ({ page }) => {
   await page.goto('./')
+  await openSettings(page)
   await page.selectOption('#directionSelect', 'b-a')
+  await closeSettings(page)
   await findCard(page, { deck: 'Class', front: 'vocês vêm', back: 'you come' })
   await expect(page.locator('.face.front .badge')).toHaveCount(0)
   await expect(page.locator('.face.back .badge')).toHaveText(['PL'])
@@ -223,18 +236,26 @@ test('reset clears progress for the selected deck only', async ({ page }) => {
   await page.click('#goodBtn')
   await expect(page.locator('#learnedCount')).toHaveText('2')
 
+  await openSettings(page)
   await page.click('#resetBtn')
+  // Wiping study history asks first.
+  await page.click('#resetConfirmBtn')
+  await closeSettings(page)
   // Only the Class card is cleared; the Numbers one survives.
   await expect(page.locator('#learnedCount')).toHaveText('1')
 })
 
 test('settings survive a reload', async ({ page }) => {
   await page.goto('./')
+  await openSettings(page)
   await page.selectOption('#directionSelect', 'b-a')
+  await closeSettings(page)
   await page.selectOption('#deckSelect', 'Numbers')
+
   await page.reload()
-  await expect(page.locator('#directionSelect')).toHaveValue('b-a')
   await expect(page.locator('#deckSelect')).toHaveValue('Numbers')
+  await openSettings(page)
+  await expect(page.locator('#directionSelect')).toHaveValue('b-a')
 })
 
 test('registers a service worker and serves a manifest', async ({ page, request }) => {
@@ -402,9 +423,10 @@ test.describe('review history', () => {
     await page.click('#goodBtn')
     await expect(page.locator('#streakCount')).toHaveText('1')
 
+    await openSettings(page)
     const download = await Promise.all([
       page.waitForEvent('download'),
-      page.getByRole('button', { name: 'Export backup' }).click(),
+      page.click('#exportBtn'),
     ]).then(([d]) => d)
     const stream = await download.createReadStream()
     const chunks: Buffer[] = []
@@ -416,6 +438,7 @@ test.describe('review history', () => {
     await page.reload()
     await expect(page.locator('#streakCount')).toHaveText('0')
 
+    await openSettings(page)
     await page.setInputFiles('input[type=file]', {
       name: 'backup.json',
       mimeType: 'application/json',
@@ -431,6 +454,7 @@ test.describe('themes', () => {
     await page.evaluate(() => localStorage.clear())
     await page.reload()
     await expect(page.locator('html')).toHaveAttribute('data-theme', 'slate')
+    await openSettings(page)
     await expect(page.locator('#themeSelect')).toHaveValue('slate')
   })
 
@@ -446,6 +470,7 @@ test.describe('themes', () => {
     })
 
     const slate = await read()
+    await openSettings(page)
     await page.selectOption('#themeSelect', 'azulejo')
     const azulejo = await read()
 
@@ -457,6 +482,7 @@ test.describe('themes', () => {
 
   test('keeps the iOS status bar in step with the theme', async ({ page }) => {
     await page.goto('./')
+    await openSettings(page)
     await page.selectOption('#themeSelect', 'azulejo')
     const light = await page.getAttribute('meta[name="theme-color"]', 'content')
     await page.selectOption('#themeSelect', 'slate')
@@ -466,9 +492,11 @@ test.describe('themes', () => {
 
   test('survives a reload', async ({ page }) => {
     await page.goto('./')
+    await openSettings(page)
     await page.selectOption('#themeSelect', 'azulejo')
     await page.reload()
     await expect(page.locator('html')).toHaveAttribute('data-theme', 'azulejo')
+    await openSettings(page)
     await expect(page.locator('#themeSelect')).toHaveValue('azulejo')
   })
 
@@ -659,12 +687,14 @@ test.describe('verb conjugation', () => {
     await page.evaluate(() => localStorage.clear())
     await page.reload()
 
-    await page.click('#tenseSettings')
+    await openSettings(page)
     await page.check('input[value="imperfeito"]')
+    await closeSettings(page)
     await page.reload()
 
-    await page.click('#tenseSettings')
+    await openSettings(page)
     await expect(page.locator('input[value="imperfeito"]')).toBeChecked()
+    await closeSettings(page)
 
     await goToCard(page, 'Common Verbs', 'dormir')
     await page.click('.face.back .marker')
@@ -678,5 +708,87 @@ test.describe('verb conjugation', () => {
     await goToCard(page, 'Daily Routine', 'tomar o pequeno-almoço')
     await page.click('.face.back .marker')
     await expect(page.locator('#conjugationPanel')).toContainText('tomo o pequeno-almoço')
+  })
+})
+
+test.describe('settings panel', () => {
+  test('opens from the toolbar and closes every way it should', async ({ page }) => {
+    await page.goto('./')
+    await expect(page.locator('#settingsDialog')).toBeHidden()
+
+    await page.click('#settingsBtn')
+    await expect(page.locator('#settingsDialog')).toBeVisible()
+
+    // A native dialog gives Escape for free; check it actually works.
+    await page.keyboard.press('Escape')
+    await expect(page.locator('#settingsDialog')).toBeHidden()
+
+    await page.click('#settingsBtn')
+    await page.click('#settingsCloseBtn')
+    await expect(page.locator('#settingsDialog')).toBeHidden()
+  })
+
+  test('gathers every setting that is not a study control', async ({ page }) => {
+    await page.goto('./')
+    await page.click('#settingsBtn')
+    for (const id of ['#themeSelect', '#directionSelect', '#exportBtn', '#importBtn', '#resetBtn']) {
+      await expect(page.locator(id), `${id} should be in settings`).toBeVisible()
+    }
+    await expect(page.locator('input[value="presente"]')).toBeVisible()
+  })
+
+  test('leaves only mid-session controls in the toolbar', async ({ page }) => {
+    await page.goto('./')
+    await expect(page.locator('#deckSelect')).toBeVisible()
+    await expect(page.locator('#typeBtn')).toBeVisible()
+    await expect(page.locator('#shuffleBtn')).toBeVisible()
+    // These moved; a stale copy left behind would be a duplicate control.
+    await expect(page.locator('.topbar #themeSelect')).toHaveCount(0)
+    await expect(page.locator('.topbar #directionSelect')).toHaveCount(0)
+    await expect(page.locator('.topbar #resetBtn')).toHaveCount(0)
+  })
+
+  // Reset wipes real study history, so a single misclick must not do it.
+  test('asks before resetting, and cancelling changes nothing', async ({ page }) => {
+    await page.goto('./')
+    await page.evaluate(() => localStorage.clear())
+    await page.reload()
+    await page.selectOption('#deckSelect', 'Numbers')
+    await page.click('#goodBtn')
+    await expect(page.locator('#learnedCount')).toHaveText('1')
+
+    await page.click('#settingsBtn')
+    await page.click('#resetBtn')
+    await expect(page.locator('#resetConfirmBtn')).toBeVisible()
+    await page.getByRole('button', { name: 'Cancel' }).click()
+    await expect(page.locator('#resetConfirmBtn')).toHaveCount(0)
+    await expect(page.locator('#learnedCount')).toHaveText('1')
+
+    await page.click('#resetBtn')
+    await page.click('#resetConfirmBtn')
+    await expect(page.locator('#learnedCount')).toHaveText('0')
+  })
+
+  test('names the deck it would reset', async ({ page }) => {
+    await page.goto('./')
+    await page.selectOption('#deckSelect', 'Numbers')
+    await page.click('#settingsBtn')
+    await expect(page.locator('#resetBtn')).toContainText('Numbers')
+  })
+
+  test('reports the outcome of an export', async ({ page }) => {
+    await page.goto('./')
+    await page.evaluate(() => localStorage.clear())
+    await page.reload()
+    await page.selectOption('#deckSelect', 'Numbers')
+    await page.click('#goodBtn')
+
+    await page.click('#settingsBtn')
+    const [download] = await Promise.all([
+      page.waitForEvent('download'),
+      page.click('#exportBtn'),
+    ])
+    expect(download.suggestedFilename()).toMatch(/^eu-pt-flashcards-\d{4}-\d{2}-\d{2}\.json$/)
+    await expect(page.locator('#backupMessage')).toContainText('Exported 1 cards')
   })
 })

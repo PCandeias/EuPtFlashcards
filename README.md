@@ -58,6 +58,20 @@ queue rather than rebuilding the queue from what is currently due — otherwise 
 answer would reshuffle the deck and reset your position. A card you rate *Again* is
 pushed back a few places so it returns before you finish.
 
+## Settings
+
+The toolbar keeps only what changes mid-session — deck, typing mode, shuffle.
+Everything else lives behind **Settings**: theme, direction, conjugation tenses,
+backup and reset. Six controls in a row left no room for the card on a narrow
+phone.
+
+It is a native `<dialog>`, so focus trapping and Escape come from the platform
+rather than being reimplemented. On a phone it opens as a bottom sheet, which is
+easier to reach one-handed than a centred box.
+
+**Reset now asks first**, and names the deck it would clear. It wipes real
+scheduling and review history, and it used to be a single click in the toolbar.
+
 ## Themes
 
 Two complete palettes, picked in the toolbar and remembered:
