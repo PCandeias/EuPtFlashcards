@@ -11,6 +11,10 @@ async function findCard(
   page: Page,
   { deck, front, back }: { deck: string; front: string; back: string },
 ) {
+  // Chromium throttles requestAnimationFrame in an unfocused window, and the walk
+  // below steps on it, so the page has to be frontmost or this starves under
+  // parallel runs.
+  await page.bringToFront()
   await page.selectOption('#deckSelect', deck)
   const found = await page.evaluate(
     async ({ front, back }) => {
@@ -602,6 +606,7 @@ test.describe('layout', () => {
 test.describe('verb conjugation', () => {
   /** Walks to a specific card in a deck. */
   async function goToCard(page: import('@playwright/test').Page, deck: string, pt: string) {
+    await page.bringToFront()
     await page.selectOption('#deckSelect', deck)
     const found = await page.evaluate(async (want) => {
       for (let i = 0; i < 600; i++) {
@@ -914,6 +919,7 @@ test.describe('studying by tense', () => {
 
 test.describe('usage examples', () => {
   async function goToVerb(page: Page, deck: string, pt: string) {
+    await page.bringToFront()
     await page.selectOption('#deckSelect', deck)
     const found = await page.evaluate(async (want) => {
       for (let i = 0; i < 600; i++) {
@@ -1042,6 +1048,7 @@ test.describe('usage examples', () => {
 
 test.describe('the speech setting', () => {
   async function goToVerbCard(page: Page, deck: string, pt: string) {
+    await page.bringToFront()
     await page.selectOption('#deckSelect', deck)
     const found = await page.evaluate(async (want) => {
       for (let i = 0; i < 600; i++) {
@@ -1119,5 +1126,138 @@ test.describe('the speech setting', () => {
     await expect(page.locator('.speak')).toHaveCount(0)
     await page.click('#settingsBtn')
     await expect(page.locator('#speechToggle')).not.toBeChecked()
+  })
+})
+
+test.describe('reporting a wrong card', () => {
+  const openReport = async (page: Page) => {
+    await page.click('.face.front .report')
+    await expect(page.locator('#reportDialog')).toBeVisible()
+  }
+
+  test('asks before hiding anything', async ({ page }) => {
+    await page.goto('./')
+    await page.evaluate(() => localStorage.clear())
+    await page.reload()
+    await page.selectOption('#deckSelect', 'Numbers')
+
+    const before = await page.locator('#totalCount').textContent()
+    const word = (await page.evaluate(() =>
+      document.querySelector('.face.front .word')?.childNodes[0]?.textContent?.trim()))!
+
+    await openReport(page)
+    await expect(page.locator('#reportDialog')).toContainText(word)
+    await page.click('#reportCancelBtn')
+    await expect(page.locator('#reportDialog')).toBeHidden()
+    // Cancelling changes nothing.
+    await expect(page.locator('#totalCount')).toHaveText(before!)
+  })
+
+  test('confirming hides the card and remembers it', async ({ page }) => {
+    await page.goto('./')
+    await page.evaluate(() => localStorage.clear())
+    await page.reload()
+    await page.selectOption('#deckSelect', 'Numbers')
+
+    const total = Number(await page.locator('#totalCount').textContent())
+    const word = (await page.evaluate(() =>
+      document.querySelector('.face.front .word')?.childNodes[0]?.textContent?.trim()))!
+
+    await openReport(page)
+    await page.click('#reportConfirmBtn')
+    await expect(page.locator('#reportDialog')).toBeHidden()
+    await expect(page.locator('#totalCount')).toHaveText(String(total - 1))
+
+    // And it survives a reload.
+    await page.reload()
+    await expect(page.locator('#totalCount')).toHaveText(String(total - 1))
+    await page.click('#settingsBtn')
+    await expect(page.locator('#reportedList')).toContainText(word)
+  })
+
+  test('a reported card does not come round again', async ({ page }) => {
+    await page.goto('./')
+    await page.evaluate(() => localStorage.clear())
+    await page.reload()
+    await page.selectOption('#deckSelect', 'Numbers')
+
+    const word = (await page.evaluate(() =>
+      document.querySelector('.face.front .word')?.childNodes[0]?.textContent?.trim()))!
+    await openReport(page)
+    await page.click('#reportConfirmBtn')
+
+    const seen = await page.evaluate(async () => {
+      const words: string[] = []
+      for (let i = 0; i < 80; i++) {
+        const w = document.querySelector('.face.front .word')?.childNodes[0]?.textContent?.trim()
+        if (w) words.push(w)
+        ;(document.getElementById('nextBtn') as HTMLButtonElement).click()
+        await new Promise(r => requestAnimationFrame(r))
+      }
+      return words
+    })
+    expect(seen).not.toContain(word)
+  })
+
+  test('can be put back from settings', async ({ page }) => {
+    await page.goto('./')
+    await page.evaluate(() => localStorage.clear())
+    await page.reload()
+    await page.selectOption('#deckSelect', 'Numbers')
+    const total = Number(await page.locator('#totalCount').textContent())
+
+    await openReport(page)
+    await page.click('#reportConfirmBtn')
+    await expect(page.locator('#totalCount')).toHaveText(String(total - 1))
+
+    await page.click('#settingsBtn')
+    await page.getByRole('button', { name: /Put .* back into study/ }).first().click()
+    await expect(page.locator('#noReports')).toBeVisible()
+    await page.click('#settingsCloseBtn')
+    await expect(page.locator('#totalCount')).toHaveText(String(total))
+  })
+
+  test('exports the reported cards as readable text', async ({ page }) => {
+    await page.goto('./')
+    await page.evaluate(() => localStorage.clear())
+    await page.reload()
+    await page.selectOption('#deckSelect', 'Numbers')
+
+    const word = (await page.evaluate(() =>
+      document.querySelector('.face.front .word')?.childNodes[0]?.textContent?.trim()))!
+    await openReport(page)
+    await page.click('#reportConfirmBtn')
+
+    await page.click('#settingsBtn')
+    const [download] = await Promise.all([
+      page.waitForEvent('download'),
+      page.click('#exportReportsBtn'),
+    ])
+    expect(download.suggestedFilename()).toMatch(/^eu-pt-flashcards-reported-\d{4}-\d{2}-\d{2}\.txt$/)
+
+    const stream = await download.createReadStream()
+    const chunks: Buffer[] = []
+    for await (const chunk of stream) chunks.push(chunk as Buffer)
+    const text = Buffer.concat(chunks).toString('utf8')
+    expect(text).toContain('reported as incorrect')
+    expect(text).toContain('[Numbers]')
+    expect(text).toContain(word)
+  })
+
+  test('says so plainly when nothing has been reported', async ({ page }) => {
+    await page.goto('./')
+    await page.evaluate(() => localStorage.clear())
+    await page.reload()
+    await page.click('#settingsBtn')
+    await expect(page.locator('#noReports')).toBeVisible()
+    await expect(page.locator('#exportReportsBtn')).toHaveCount(0)
+  })
+
+  test('the report button does not flip the card', async ({ page }) => {
+    await page.goto('./')
+    await expect(page.locator('.card')).not.toHaveClass(/flipped/)
+    await page.click('.face.front .report')
+    await page.click('#reportCancelBtn')
+    await expect(page.locator('.card')).not.toHaveClass(/flipped/)
   })
 })

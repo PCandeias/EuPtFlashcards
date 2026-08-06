@@ -182,6 +182,19 @@ tests/              unit tests; tests/e2e for browser tests
 The `lib` modules are pure and injected with their dependencies (`now()`,
 `random()`, storage), so they are tested directly rather than through the UI.
 
+## Reporting a wrong card
+
+The red **!** in a card's corner reports it. Confirming hides the card from study
+straight away — the point of reporting one is to stop being taught it — and adds it
+to a list under **Settings → Reported cards**, where a card can be put back if it
+was reported by mistake.
+
+**Export to text** downloads the list as a readable file naming each card, its deck
+and when it was reported, so the cards can be corrected later.
+
+A report stores the card's text, not just its id, so an export still says what was
+wrong even if the card is later edited or removed. Reports travel with a backup.
+
 ## Study progress
 
 Progress is kept in `localStorage` under the `eupt:v4:` prefix.

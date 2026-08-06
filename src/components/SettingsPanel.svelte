@@ -1,17 +1,23 @@
 <script lang="ts">
   import TenseSettings from './TenseSettings.svelte'
+  import ReportedList from './ReportedList.svelte'
+  import type { Reports } from '../lib/storage/reports.js'
   import type { Settings } from '../lib/storage/progress.js'
   import type { TenseId } from '../lib/verbs/tenses.js'
 
   let {
-    open, settings, onchange, onclose, onexport, onimport,
+    open, settings, reports, onchange, onclose, onexport, onimport,
+    onrestorereport, onexportreports,
   }: {
     open: boolean
     settings: Settings
+    reports: Reports
     onchange: (next: Partial<Settings>) => void
     onclose: () => void
     onexport: () => void
     onimport: (file: File) => void
+    onrestorereport: (id: string) => void
+    onexportreports: () => void
   } = $props()
 
   let dialog = $state<HTMLDialogElement | undefined>()
@@ -78,6 +84,11 @@
         selected={settings.tenses}
         onchange={(tenses: TenseId[]) => onchange({ tenses })}
       />
+    </section>
+
+    <section>
+      <h3>Reported cards</h3>
+      <ReportedList {reports} onrestore={onrestorereport} onexport={onexportreports} />
     </section>
 
     <section>

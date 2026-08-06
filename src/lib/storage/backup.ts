@@ -12,6 +12,7 @@
 import { sanitizeProgress, sanitizeSettings, type Settings } from './progress.js'
 import type { Progress } from '../study/scheduler.js'
 import { sanitizeHistory, type History } from '../study/history.js'
+import { sanitizeReports, type Reports } from './reports.js'
 
 export const BACKUP_APP = 'eu-pt-flashcards'
 export const BACKUP_VERSION = 2
@@ -23,6 +24,8 @@ export interface BackupFile {
   progress: Progress
   settings: Settings
   history: History
+  /** Cards reported as wrong. User data, so it travels with a backup. */
+  reported: Reports
 }
 
 export function buildBackup(
@@ -30,6 +33,7 @@ export function buildBackup(
   settings: Settings,
   exportedAt: string,
   history: History = {},
+  reported: Reports = {},
 ): BackupFile {
   return {
     app: BACKUP_APP,
@@ -38,6 +42,7 @@ export function buildBackup(
     progress: sanitizeProgress(progress),
     settings: sanitizeSettings(settings),
     history: sanitizeHistory(history),
+    reported: sanitizeReports(reported),
   }
 }
 
@@ -81,6 +86,7 @@ export function parseBackup(text: string): BackupFile {
     settings: sanitizeSettings(v.settings),
     // Older backups predate the review log; an empty one is correct, not an error.
     history: sanitizeHistory(v.history),
+    reported: sanitizeReports(v.reported),
   }
 }
 

@@ -7,6 +7,7 @@
   import BackupBar from './components/BackupBar.svelte'
   import SettingsPanel from './components/SettingsPanel.svelte'
   import ResetDialog from './components/ResetDialog.svelte'
+  import ReportDialog from './components/ReportDialog.svelte'
   import UpdatePrompt from './components/UpdatePrompt.svelte'
   import TypeAnswer from './components/TypeAnswer.svelte'
 
@@ -31,6 +32,10 @@
     buildBackup, parseBackup, backupFilename, mergeProgress, mergeHistory,
   } from './lib/storage/backup.js'
   import { annotationsFor } from './lib/annotations/index.js'
+  import {
+    loadReports, saveReports, reportCard, unreportCard, withoutReported,
+    reportsAsText, reportsFilename, type Reports,
+  } from './lib/storage/reports.js'
 
 
   // Runs before the first read, so a returning user's history is already in place.
@@ -46,15 +51,17 @@
   let openAnnotation = $state<string | null>(null)
   let settingsOpen = $state(false)
   let resetOpen = $state(false)
+  let reportOpen = $state(false)
+  let reports = $state<Reports>(loadReports(localStorage))
   let backupMessage = $state('')
 
   // Counted after the tense filter, so the menu never promises cards the filter
   // is removing. Every deck stays listed even at zero: dropping it would leave a
   // selected deck pointing at an option that no longer exists, and hide the fact
   // that the filter is what emptied it.
-  let visibleTotal = $derived(inSelectedTenses(CARDS, settings.tenses).length)
+  let visibleTotal = $derived(withoutReported(inSelectedTenses(CARDS, settings.tenses), reports).length)
   let deckOptions = $derived.by<Array<[string, number]>>(() => {
-    const visible = inSelectedTenses(CARDS, settings.tenses)
+    const visible = withoutReported(inSelectedTenses(CARDS, settings.tenses), reports)
     const counts = new Map<string, number>(DECKS.map(deck => [deck, 0]))
     for (const card of visible) counts.set(card.deck, (counts.get(card.deck) ?? 0) + 1)
     return [
@@ -64,10 +71,14 @@
   })
 
   // Tense-bearing cards outside the selected tenses drop out of the deck; cards
-  // with no tense are never affected.
-  let deckCards = $derived(inSelectedTenses(
-    settings.deck === 'All' ? [...CARDS] : CARDS.filter(c => c.deck === settings.deck),
-    settings.tenses,
+  // with no tense are never affected. Reported cards drop out regardless — the
+  // point of reporting one is to stop being taught it.
+  let deckCards = $derived(withoutReported(
+    inSelectedTenses(
+      settings.deck === 'All' ? [...CARDS] : CARDS.filter(c => c.deck === settings.deck),
+      settings.tenses,
+    ),
+    reports,
   ))
   // What the tense filter is currently costing, so an empty deck can explain itself.
   let hiddenByTense = $derived(
@@ -131,6 +142,34 @@
   let currentStreak = $derived(streak(history, now))
   let recall = $derived(retention(history, 30, now))
 
+  function confirmReport() {
+    if (!current) return
+    reports = reportCard(reports, current, new Date().toISOString())
+    saveReports(localStorage, reports)
+    reportOpen = false
+    // The card has just left the deck, so move on rather than sit on a gap.
+    session = completeCurrent(session, false)
+    flipped = false
+    if (!session.cards.length) newSession()
+  }
+
+  function restoreReport(id: string) {
+    reports = unreportCard(reports, id)
+    saveReports(localStorage, reports)
+    newSession()
+  }
+
+  function exportReports() {
+    const at = new Date().toISOString()
+    const blob = new Blob([reportsAsText(reports, at)], { type: 'text/plain;charset=utf-8' })
+    const url = URL.createObjectURL(blob)
+    const link = document.createElement('a')
+    link.href = url
+    link.download = reportsFilename(at)
+    link.click()
+    URL.revokeObjectURL(url)
+  }
+
   function persist() {
     saveProgress(localStorage, progress)
     saveSettings(localStorage, settings)
@@ -182,7 +221,7 @@
   // takes its data with it. This is the only way back.
   function exportBackup() {
     const exportedAt = new Date().toISOString()
-    const file = buildBackup(progress, settings, exportedAt, history)
+    const file = buildBackup(progress, settings, exportedAt, history, reports)
     const blob = new Blob([JSON.stringify(file, null, 2)], { type: 'application/json' })
     const url = URL.createObjectURL(blob)
     const link = document.createElement('a')
@@ -199,6 +238,9 @@
       // Additive: a restore should never lose ground you have since gained.
       progress = mergeProgress(progress, parsed.progress)
       history = mergeHistory(history, parsed.history)
+      // Additive, like the rest of a restore.
+      reports = { ...reports, ...parsed.reported }
+      saveReports(localStorage, reports)
       now = Date.now()
       persist()
       backupMessage = `Restored ${Object.keys(parsed.progress).length} cards.`
@@ -282,6 +324,7 @@
         onflip={flip}
         onswipe={move}
         onannotate={(id) => { openAnnotation = openAnnotation === id ? null : id }}
+        onreport={() => { reportOpen = true }}
       />
       {#if activeAnnotation}
         {@const Panel = activeAnnotation.kind.panel}
@@ -326,10 +369,20 @@
   <SettingsPanel
     open={settingsOpen}
     {settings}
+    {reports}
+    onrestorereport={restoreReport}
+    onexportreports={exportReports}
     onchange={changeSettings}
     onclose={() => { settingsOpen = false }}
     onexport={exportBackup}
     onimport={importBackup}
+  />
+
+  <ReportDialog
+    open={reportOpen}
+    card={current}
+    onconfirm={confirmReport}
+    onclose={() => { reportOpen = false }}
   />
 
   <ResetDialog

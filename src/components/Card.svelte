@@ -9,7 +9,7 @@
 
   let {
     card, direction, flipped, annotations = [], openAnnotation = null, compact = false,
-    speech = true, onflip, onswipe, onannotate,
+    speech = true, onflip, onswipe, onannotate, onreport,
   }: {
     card: Card
     direction: Direction
@@ -25,6 +25,7 @@
     onflip: () => void
     onswipe: (delta: number) => void
     onannotate?: (id: string) => void
+    onreport?: () => void
   } = $props()
 
   const LANG_LABEL = 'Portuguese · Portugal'
@@ -97,6 +98,14 @@
   >
     {#each faces as f (f.face)}
       <section class="face {f.face}">
+        {#if onreport}
+          <button
+            class="report"
+            onclick={(e) => { e.stopPropagation(); onreport() }}
+            aria-label="Report this card as incorrect"
+            title="Report this card as incorrect"
+          >!</button>
+        {/if}
         {#key key}
           <div class="content">
             <div class="label">{f.label}</div>
@@ -179,6 +188,30 @@
     overflow: hidden;
   }
   .back { transform: rotateY(180deg); }
+
+  /* In the corner rather than beside the word: this is about the card, not about
+     what the card teaches, and it should be hard to hit by accident. */
+  .report {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    z-index: 2;
+    min-height: 0;
+    width: 1.6em;
+    height: 1.6em;
+    padding: 0;
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 1;
+    border-radius: 999px;
+    border: 1px solid currentColor;
+    background: transparent;
+    /* Red, so its meaning is legible at a glance, but held back so it does not
+       compete with the word. */
+    color: var(--bad);
+    opacity: 0.5;
+  }
+  .report:hover { opacity: 1; background: var(--bad-soft); }
 
   /* Hit-testing should match what is visible: the hidden face must not catch
      clicks aimed at the one facing you, or intercept clicks meant for the card. */
