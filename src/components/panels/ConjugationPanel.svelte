@@ -30,9 +30,9 @@
 </script>
 
 <!--
-  Rendered outside the card on purpose. Inside, it would be clipped by the face's
-  overflow and trapped in the flip's 3D context — and it would cover the very word
-  being learned.
+  Rendered outside the card on purpose, and below it rather than over it. Inside,
+  it would be clipped by the face's overflow and trapped in the flip's 3D context;
+  over it, it covered the very word being explained on a short screen.
 -->
 <div class="panel" id="conjugationPanel" role="dialog" aria-label="Conjugation of {infinitive}">
   <div class="head">
@@ -78,13 +78,15 @@
 
 <style>
   .panel {
-    position: absolute;
-    left: 50%;
-    bottom: 8px;
-    transform: translateX(-50%);
-    z-index: 20;
-    width: max-content;
-    max-width: min(90%, 360px);
+    /* In the flow, in its own grid row: see the comment where it is rendered. */
+    width: 100%;
+    margin: 0 auto;
+    /* Scrolls rather than growing without limit: the card can only give up so
+       much room before it stops being a card, and on the shortest screens the
+       page is allowed to scroll instead. */
+    max-height: min(36svh, 220px);
+    overflow-y: auto;
+    max-width: 420px;
     padding: 12px 14px;
     text-align: left;
     border: 1px solid var(--accent-line);
@@ -123,7 +125,7 @@
   td { font-weight: 700; padding: 3px 0; }
 
   @media (max-width: 760px) {
-    .panel { padding: 10px 12px; max-width: 92%; }
+    .panel { padding: 10px 12px; }
     table { font-size: 13px; }
     th { padding-right: 10px; }
     .infinitive { font-size: 14px; }

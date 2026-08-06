@@ -355,6 +355,15 @@
         onannotate={(id) => { openAnnotation = openAnnotation === id ? null : id }}
         onreport={() => { reportOpen = true }}
       />
+      </div>
+      <!--
+        In its own row rather than floating over the card. Over it, on a short
+        screen — a real phone, once Safari's chrome is taken off the viewport —
+        the panel reached the middle of the card and covered both the word being
+        explained and the marker for the other panel, which then could not be
+        clicked at all. As a row it takes its space from the card, which is the
+        flexible one, so it cannot overlap anything by construction.
+      -->
       {#if activeAnnotation}
         {@const Panel = activeAnnotation.kind.panel}
         <Panel
@@ -363,7 +372,6 @@
           onclose={() => { openAnnotation = null }}
         />
       {/if}
-      </div>
     {:else}
       <div class="empty" id="emptyDeck">
         {#if hiddenByTense}
@@ -455,7 +463,9 @@
   .study {
     min-height: 0;
     display: grid;
-    grid-template-rows: auto minmax(0, 1fr) auto auto;
+    /* meta · card · annotation panel · typing · controls. Only the card row is
+       flexible, so opening a panel shrinks the card rather than covering it. */
+    grid-template-rows: auto minmax(0, 1fr) auto auto auto;
     gap: 10px;
   }
   .meta {
@@ -467,8 +477,6 @@
     font-size: 13px;
   }
   .meta .deckname { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  /* The conjugation panel is positioned against this, not against the card — the
-     card's face clips its children and lives in the flip's 3D context. */
   .cardarea { position: relative; min-height: 0; display: grid; }
   .empty { padding: 40px; text-align: center; color: var(--muted); }
 

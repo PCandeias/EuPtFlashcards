@@ -56,13 +56,15 @@
 
 <style>
   .panel {
-    position: absolute;
-    left: 50%;
-    bottom: 8px;
-    transform: translateX(-50%);
-    z-index: 20;
-    width: max-content;
-    max-width: min(90%, 380px);
+    /* In the flow, in its own grid row: see the comment where it is rendered. */
+    width: 100%;
+    margin: 0 auto;
+    /* Scrolls rather than growing without limit: the card can only give up so
+       much room before it stops being a card, and on the shortest screens the
+       page is allowed to scroll instead. */
+    max-height: min(36svh, 220px);
+    overflow-y: auto;
+    max-width: 440px;
     padding: 12px 14px;
     text-align: left;
     border: 1px solid var(--warn-line);
@@ -99,7 +101,7 @@
   .hidden { margin: 10px 0 0; font-size: 11px; color: var(--muted); }
 
   @media (max-width: 760px) {
-    .panel { padding: 10px 12px; max-width: 92%; }
+    .panel { padding: 10px 12px; }
     .target { font-size: 13px; }
     .en { font-size: 11px; }
   }

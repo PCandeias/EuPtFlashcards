@@ -37,7 +37,7 @@ test('carries the same corrected cards as the app', async ({ page }) => {
   expect(cards.some((c: { pt: string }) => c.pt === 'eu respondo-os')).toBe(false)
 })
 
-test('survives the service worker taking control', async ({ page, context }) => {
+test('survives the service worker taking control', async ({ page, context, browserName }) => {
   await page.goto('./#/pt')
   await expect(page.locator('.card')).toBeVisible()
   await page.evaluate(() => navigator.serviceWorker.ready)
@@ -55,6 +55,13 @@ test('survives the service worker taking control', async ({ page, context }) => 
   await expect(page.locator('#cards-data')).toHaveCount(1)
 
   // And with no network, which is when a fallback actually matters.
+  //
+  // Chromium only. Playwright's WebKit build fails a navigation made while
+  // offline with "WebKit encountered an internal error" before the service
+  // worker is ever consulted, so the check would be measuring the driver rather
+  // than the app. What it verifies — that the worker does not swallow this URL —
+  // is engine-independent, and the online half above still runs everywhere.
+  test.skip(browserName === 'webkit', 'offline navigation is broken in Playwright WebKit')
   await context.setOffline(true)
   await page.goto(`./${BACKUP}`)
   await expect(page.locator('#cards-data')).toHaveCount(1)

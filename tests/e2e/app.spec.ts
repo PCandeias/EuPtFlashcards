@@ -46,10 +46,25 @@ async function closeSettings(page: Page) {
 
 type TrackedPage = Page & { __errors: string[] }
 
+/**
+ * Noise from the test environment rather than from the app.
+ *
+ * Playwright's WebKit refuses to fetch the service worker script over the
+ * preview server and logs "access control checks". Nothing else fails as a
+ * result, the app never registers a worker in that run, and the same build
+ * registers one without complaint in Chromium and on the real site. Narrow on
+ * purpose: it names the file and the reason, so a genuine worker error still
+ * fails the test.
+ */
+const ENVIRONMENT_NOISE = [/sw\.js.*access control checks/i]
+
 test.beforeEach(async ({ page }) => {
   const errors: string[] = []
-  page.on('pageerror', e => errors.push(e.message))
-  page.on('console', m => { if (m.type() === 'error') errors.push(m.text()) })
+  const record = (text: string) => {
+    if (!ENVIRONMENT_NOISE.some(rx => rx.test(text))) errors.push(text)
+  }
+  page.on('pageerror', e => record(e.message))
+  page.on('console', m => { if (m.type() === 'error') record(m.text()) })
   ;(page as TrackedPage).__errors = errors
 })
 
@@ -967,6 +982,42 @@ test.describe('usage examples', () => {
     await page.click('.face.back [data-annotation="examples"]')
     await expect(page.locator('#examplesPanel')).toBeVisible()
     await expect(page.locator('#conjugationPanel')).toHaveCount(0)
+  })
+
+  /**
+   * An open panel must never cover the card, and least of all the other marker.
+   * It used to: the panel floated over the card, and on a short viewport — a real
+   * phone, once Safari's chrome is taken off the 844 the spec sheet claims — it
+   * reached the middle of the card and swallowed both the word and the marker
+   * beside it. iOS Safari found this before anyone else did.
+   */
+  test('leaves the word and the other marker clear on a short screen', async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 664 })
+    await page.goto('./#/pt')
+    await goToVerb(page, 'Common Verbs', 'dormir')
+
+    await page.click('.face.back [data-annotation="conjugation"]')
+    await expect(page.locator('#conjugationPanel')).toBeVisible()
+
+    // Whatever is at the marker's own centre must be the marker itself.
+    const atMarker = await page.evaluate(() => {
+      const el = document.querySelector('.face.back [data-annotation="examples"]')!
+      const box = el.getBoundingClientRect()
+      const hit = document.elementFromPoint(box.left + box.width / 2, box.top + box.height / 2)
+      return hit?.closest('[data-annotation]')?.getAttribute('data-annotation') ?? null
+    })
+    expect(atMarker, 'the examples marker should not be covered').toBe('examples')
+
+    // And the word being explained is still on screen above the panel.
+    const wordAbovePanel = await page.evaluate(() => {
+      const word = document.querySelector('.face.back .word')!.getBoundingClientRect()
+      const panel = document.querySelector('#conjugationPanel')!.getBoundingClientRect()
+      return word.bottom <= panel.top + 1
+    })
+    expect(wordAbovePanel).toBe(true)
+
+    await page.click('.face.back [data-annotation="examples"]')
+    await expect(page.locator('#examplesPanel')).toBeVisible()
   })
 
   test('closes on Escape and when the card changes', async ({ page }) => {
