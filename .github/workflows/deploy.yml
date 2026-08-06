@@ -9,9 +9,12 @@ on:
 permissions:
   contents: read
 
+# Deployments queue rather than cancel each other. A cancelled deploy leaves the
+# site on the previous version with nothing obviously wrong, which is worse than
+# waiting: it looks like the push simply did not take.
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   test:
