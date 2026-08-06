@@ -1585,7 +1585,7 @@
 {
 "deck": "Time, Days & Calendar",
 "en": "afternoon",
-"pt": "tarde"
+"pt": "a tarde"
 },
 {
 "deck": "Time, Days & Calendar",
@@ -2449,7 +2449,7 @@
 {
 "deck": "Food & Drink",
 "en": "sweet",
-"pt": "o doce"
+"pt": "doce"
 },
 {
 "deck": "Food & Drink",
@@ -8708,7 +8708,7 @@
 {
 "deck": "Class",
 "en": "Canadian person",
-"pt": "canadense"
+"pt": "canadiano / canadiana"
 },
 {
 "deck": "Class",
@@ -8823,7 +8823,7 @@
 {
 "deck": "Class",
 "en": "accountant",
-"pt": "o contador / a contadora"
+"pt": "o/a contabilista"
 },
 {
 "deck": "Class",
@@ -8858,7 +8858,7 @@
 {
 "deck": "Class",
 "en": "driver",
-"pt": "o chofer / a motorista"
+"pt": "o/a motorista"
 },
 {
 "deck": "Class",
@@ -9006,7 +9006,7 @@
 {
 "deck": "Class",
 "en": "I am talking on the phone",
-"pt": "estou a falar com o chefe ao telemóvel"
+"pt": "estou a falar ao telemóvel"
 },
 {
 "deck": "Class",
@@ -9016,7 +9016,7 @@
 {
 "deck": "Class",
 "en": "I am eating",
-"pt": "estou a jantar"
+"pt": "estou a comer"
 },
 {
 "deck": "Class",
@@ -9483,7 +9483,7 @@
 {
 "deck": "Class",
 "en": "I like you",
-"pt": "eu gosto de vós",
+"pt": "eu gosto de vocês",
 "tags": [
 "plural"
 ]
@@ -9779,7 +9779,7 @@
 },
 {
 "deck": "Class",
-"en": "from there",
+"en": "of her / hers",
 "pt": "dela",
 "tags": [
 "fem"
@@ -9787,7 +9787,7 @@
 },
 {
 "deck": "Class",
-"en": "from there",
+"en": "of him / his",
 "pt": "dele",
 "tags": [
 "masc"
@@ -9795,7 +9795,7 @@
 },
 {
 "deck": "Class",
-"en": "from there",
+"en": "of them / theirs",
 "pt": "delas",
 "tags": [
 "fem",
@@ -9804,7 +9804,7 @@
 },
 {
 "deck": "Class",
-"en": "from there",
+"en": "of them / theirs",
 "pt": "deles",
 "tags": [
 "masc-mixed",

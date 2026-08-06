@@ -1229,7 +1229,7 @@
     },
     {
       "en": "Canadian person",
-      "pt": "canadense"
+      "pt": "canadiano / canadiana"
     },
     {
       "en": "Turkish person",
@@ -1321,7 +1321,7 @@
     },
     {
       "en": "accountant",
-      "pt": "o contador / a contadora"
+      "pt": "o/a contabilista"
     },
     {
       "en": "engineer",
@@ -1349,7 +1349,7 @@
     },
     {
       "en": "driver",
-      "pt": "o chofer / a motorista"
+      "pt": "o/a motorista"
     },
     {
       "en": "painter",
@@ -1475,7 +1475,7 @@
     },
     {
       "en": "I am talking on the phone",
-      "pt": "estou a falar com o chefe ao telemóvel"
+      "pt": "estou a falar ao telemóvel"
     },
     {
       "en": "I am sleeping",
@@ -1483,7 +1483,7 @@
     },
     {
       "en": "I am eating",
-      "pt": "estou a jantar"
+      "pt": "estou a comer"
     },
     {
       "en": "I am going for a walk",
@@ -1874,7 +1874,7 @@
     },
     {
       "en": "I like you",
-      "pt": "eu gosto de vós",
+      "pt": "eu gosto de vocês",
       "tags": [
         "plural"
       ]
@@ -2119,21 +2119,21 @@
       "pt": "daí"
     },
     {
-      "en": "from there",
+      "en": "of her / hers",
       "pt": "dela",
       "tags": [
         "fem"
       ]
     },
     {
-      "en": "from there",
+      "en": "of him / his",
       "pt": "dele",
       "tags": [
         "masc"
       ]
     },
     {
-      "en": "from there",
+      "en": "of them / theirs",
       "pt": "delas",
       "tags": [
         "fem",
@@ -2141,7 +2141,7 @@
       ]
     },
     {
-      "en": "from there",
+      "en": "of them / theirs",
       "pt": "deles",
       "tags": [
         "masc-mixed",

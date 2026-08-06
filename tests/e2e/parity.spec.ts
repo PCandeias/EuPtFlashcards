@@ -4,12 +4,13 @@ import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 
 /**
- * Guards the claim this whole stage rests on: the port changed nothing.
+ * Guards the card corpus against drifting by accident.
  *
- * The reference is a frozen snapshot of the single-file app — its full card
- * corpus, and what it actually rendered for cards covering every branch of the
- * badge logic. Snapshots rather than the live legacy file, so the guarantee
- * outlives the file itself.
+ * The reference began as a frozen snapshot of the single-file app and has been
+ * updated once since, deliberately: the 2026-08 accuracy review corrected twelve
+ * cards (see the commit for each one and why). The renders snapshot alongside it
+ * still records what the original app drew for cards covering every branch of the
+ * badge logic.
  *
  * Regenerate deliberately, never to make a red test green: a diff here means
  * either a real regression or an intended change to how cards read.
