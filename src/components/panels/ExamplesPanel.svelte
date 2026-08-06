@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { ExamplesPayload } from '../../lib/annotations/examples.js'
+  import { tenseById } from '../../lib/verbs/tenses.js'
 
   let {
     payload, onclose,
@@ -15,9 +16,9 @@
   })
 </script>
 
-<div class="panel" id="examplesPanel" role="dialog" aria-label="Examples with {payload.infinitive}">
+<div class="panel" id="examplesPanel" role="dialog" aria-label="Examples with {payload.subject}">
   <div class="head">
-    <span class="infinitive">{payload.infinitive}</span>
+    <span class="infinitive">{payload.subject}</span>
     <span class="what">in use</span>
     <button class="close" onclick={onclose} aria-label="Close examples">×</button>
   </div>
@@ -27,9 +28,17 @@
       <li>
         <p class="pt">{example.pt}</p>
         <p class="en">{example.en}</p>
+        <!-- Named, so it is clear which tense you are looking at. -->
+        <p class="tense">{tenseById(example.tense)?.label ?? example.tense}</p>
       </li>
     {/each}
   </ul>
+
+  {#if payload.hidden}
+    <p class="hidden">
+      {payload.hidden} more in tenses you are not studying.
+    </p>
+  {/if}
 </div>
 
 <style>
@@ -71,6 +80,8 @@
   li { display: grid; gap: 1px; }
   .pt { margin: 0; font-size: 14px; font-weight: 700; }
   .en { margin: 0; font-size: 12px; color: var(--muted); }
+  .tense { margin: 1px 0 0; font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--warn); opacity: 0.85; }
+  .hidden { margin: 10px 0 0; font-size: 11px; color: var(--muted); }
 
   @media (max-width: 760px) {
     .panel { padding: 10px 12px; max-width: 92%; }

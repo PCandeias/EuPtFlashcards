@@ -1,13 +1,17 @@
 import { describe, it, expect } from 'vitest'
-import { examplesFor } from '../src/lib/annotations/examples.js'
+import { examplesFor, subjectOf, MAX_EXAMPLES } from '../src/lib/annotations/examples.js'
 import { annotationsFor } from '../src/lib/annotations/index.js'
 import { conjugate, parseVerb } from '../src/lib/verbs/conjugate.js'
 import { verbOf } from '../src/lib/verbs/detect.js'
 import { CARDS } from '../src/lib/cards/index.js'
 import { DEFAULT_SETTINGS } from '../src/lib/storage/progress.js'
-import data from '../data/verb-examples.json'
+import verbData from '../data/verb-examples.json'
+import wordData from '../data/word-examples.json'
+import { TENSE_IDS, isTenseId, type TenseId } from '../src/lib/verbs/tenses.js'
 
-const EXAMPLES = data as Record<string, Array<{ pt: string; en: string }>>
+type Ex = { pt: string; en: string; tense: TenseId }
+const EXAMPLES = verbData as Record<string, Ex[]>
+const WORDS = wordData as Record<string, Ex[]>
 const entries = Object.entries(EXAMPLES)
 
 /** Every form the engine produces for a verb, plus its infinitive. */
@@ -66,6 +70,24 @@ describe('verb examples', () => {
   })
 
   /**
+   * The point of the coverage: narrowing your tenses must not empty the panel.
+   * Every verb has at least one sentence in every tense, so whatever single tense
+   * is selected there is still something to show.
+   */
+  it.each(TENSE_IDS)('every verb has a sentence in %s', (tense) => {
+    const missing = entries.filter(([, ex]) => !ex.some(e => e.tense === tense)).map(([v]) => v)
+    expect(missing).toEqual([])
+  })
+
+  it('labels every sentence with a tense from the registry', () => {
+    const bad: string[] = []
+    for (const [, ex] of [...entries, ...Object.entries(WORDS)]) {
+      for (const e of ex) if (!isTenseId(e.tense)) bad.push(`${e.pt} (${e.tense})`)
+    }
+    expect(bad).toEqual([])
+  })
+
+  /**
    * The check that matters: a sentence must actually contain the verb it claims
    * to illustrate. Catches a typo, a wrong form, or an example filed under the
    * wrong verb — all of which would teach the wrong thing.
@@ -117,12 +139,13 @@ describe('the annotation registry', () => {
     expect(annotationsFor(card, { settings })).toEqual([])
   })
 
-  // Each kind decides for itself, so switching tenses off leaves examples alone.
-  it('drops only the kind whose conditions stopped holding', () => {
+  // Each kind decides for itself. Narrowing to one tense keeps both, because the
+  // examples cover every tense; switching them all off leaves neither.
+  it('lets each kind judge the settings for itself', () => {
     const card = CARDS.find(c => c.en === 'to sleep')!
-    const ids = annotationsFor(card, { settings: { ...settings, tenses: [] } })
-      .map(a => a.kind.id)
-    expect(ids).toEqual(['examples'])
+    expect(annotationsFor(card, { settings: { ...settings, tenses: ['futuro'] } })
+      .map(a => a.kind.id)).toEqual(['conjugation', 'examples'])
+    expect(annotationsFor(card, { settings: { ...settings, tenses: [] } })).toEqual([])
   })
 
   it('gives each kind its own marker and description', () => {
@@ -130,5 +153,66 @@ describe('the annotation registry', () => {
     const found = annotationsFor(card, { settings })
     expect(new Set(found.map(a => a.kind.marker)).size).toBe(found.length)
     for (const a of found) expect(a.kind.describe(card)).toContain('dormir')
+  })
+})
+
+describe('examples for words that are not verbs', () => {
+  const settings = DEFAULT_SETTINGS
+
+  it('covers the adjectives', () => {
+    expect(Object.keys(WORDS).length).toBeGreaterThan(50)
+    expect(examplesFor('cheio / cheia')).toBeTruthy()
+  })
+
+  it('shows an adjective in a whole sentence', () => {
+    const card = CARDS.find(c => c.pt === 'cheio / cheia')!
+    const found = annotationsFor(card, { settings }).find(a => a.kind.id === 'examples')
+    expect(found).toBeTruthy()
+    const payload = found!.payload as { examples: Array<{ pt: string }> }
+    expect(payload.examples[0]!.pt).toContain('cheio')
+  })
+
+  // ser for a property, estar for a state — the distinction the deck teaches.
+  it('uses the copula the adjective actually takes', () => {
+    expect(examplesFor('grande')!.some(e => / é /.test(e.pt))).toBe(true)
+    expect(examplesFor('cheio / cheia')!.some(e => / está /.test(e.pt))).toBe(true)
+  })
+
+  it('reaches a good number of cards', () => {
+    const matched = CARDS.filter(c => subjectOf(c)).length
+    expect(matched).toBeGreaterThan(250)
+  })
+})
+
+describe('tense filtering', () => {
+  const card = () => CARDS.find(c => c.en === 'to sleep')!
+
+  it('shows only sentences in the selected tenses', () => {
+    const settings = { ...DEFAULT_SETTINGS, tenses: ['perfeito' as TenseId] }
+    const found = annotationsFor(card(), { settings }).find(a => a.kind.id === 'examples')
+    const payload = found!.payload as { examples: Array<{ tense: string }>; hidden: number }
+    expect(payload.examples.every(e => e.tense === 'perfeito')).toBe(true)
+    expect(payload.hidden).toBeGreaterThan(0)
+  })
+
+  it('still has something to show for any single tense', () => {
+    for (const tense of TENSE_IDS) {
+      const settings = { ...DEFAULT_SETTINGS, tenses: [tense] }
+      const found = annotationsFor(card(), { settings }).find(a => a.kind.id === 'examples')
+      expect(found, `nothing to show for ${tense}`).toBeTruthy()
+    }
+  })
+
+  it('offers nothing at all when no tense is selected', () => {
+    const settings = { ...DEFAULT_SETTINGS, tenses: [] }
+    expect(annotationsFor(card(), { settings })).toEqual([])
+  })
+
+  it('shows a handful rather than the whole list', () => {
+    const found = annotationsFor(card(), { settings: DEFAULT_SETTINGS })
+      .find(a => a.kind.id === 'examples')
+    const payload = found!.payload as { examples: unknown[] }
+    expect(payload.examples.length).toBeLessThanOrEqual(MAX_EXAMPLES)
+    expect(payload.examples.length).toBeGreaterThanOrEqual(2)
   })
 })

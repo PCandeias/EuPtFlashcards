@@ -938,8 +938,10 @@ test.describe('usage examples', () => {
     await expect(panel).toBeVisible()
     await expect(panel).toContainText('Eu sou português')
     await expect(panel).toContainText('I am Portuguese')
-    // More than one, so the usage is varied.
-    await expect(panel.locator('li')).toHaveCount(2)
+    // A handful, so the usage is varied without becoming a list.
+    const shown = await panel.locator('li').count()
+    expect(shown).toBeGreaterThanOrEqual(2)
+    expect(shown).toBeLessThanOrEqual(3)
   })
 
   test('sits beside the conjugation marker without replacing it', async ({ page }) => {
@@ -982,19 +984,53 @@ test.describe('usage examples', () => {
     await expect(page.locator('.card')).toHaveClass(/flipped/)
   })
 
-  // Each kind decides for itself whether it has anything to say.
-  test('survives every tense being switched off, unlike the conjugation', async ({ page }) => {
+  // The sentences are in tenses too, so they follow the same setting.
+  test('shows only sentences in the selected tenses', async ({ page }) => {
     await page.goto('./')
     await page.evaluate(() => {
       const s = JSON.parse(localStorage.getItem('eupt:v4:settings') ?? '{}')
-      s.tenses = []
+      s.tenses = ['perfeito']
       localStorage.setItem('eupt:v4:settings', JSON.stringify(s))
       localStorage.setItem('eupt:v4:tense-scope', 'test')
     })
     await page.reload()
     await goToVerb(page, 'Common Verbs', 'ser')
+    await page.click('.face.back [data-annotation="examples"]')
+
+    const panel = page.locator('#examplesPanel')
+    await expect(panel).toBeVisible()
+    // Every sentence shown is labelled with the one tense being studied.
+    const labels = await panel.locator('li p:last-child').allTextContents()
+    expect(labels.length).toBeGreaterThan(0)
+    expect([...new Set(labels)]).toEqual(['Pretérito perfeito'])
+    await expect(panel).toContainText('in tenses you are not studying')
+  })
+
+  test('narrowing to any single tense still leaves something to show', async ({ page }) => {
+    for (const tense of ['presente', 'perfeito', 'imperfeito', 'futuro', 'futuroProximo']) {
+      await page.goto('./')
+      await page.evaluate((t) => {
+        const s = JSON.parse(localStorage.getItem('eupt:v4:settings') ?? '{}')
+        s.tenses = [t]
+        localStorage.setItem('eupt:v4:settings', JSON.stringify(s))
+        localStorage.setItem('eupt:v4:tense-scope', 'test')
+      }, tense)
+      await page.reload()
+      await goToVerb(page, 'Common Verbs', 'ser')
+      await expect(
+        page.locator('.face.back [data-annotation="examples"]'),
+        `examples should survive ${tense}`,
+      ).toHaveCount(1)
+    }
+  })
+
+  test('offers examples on an adjective too, not only verbs', async ({ page }) => {
+    await page.goto('./')
+    await goToVerb(page, 'Home & Household Objects', 'cheio / cheia')
+    await page.click('.face.back [data-annotation="examples"]')
+    await expect(page.locator('#examplesPanel')).toContainText('cheio')
+    // An adjective has no conjugation of its own.
     await expect(page.locator('.face.back [data-annotation="conjugation"]')).toHaveCount(0)
-    await expect(page.locator('.face.back [data-annotation="examples"]')).toHaveCount(1)
   })
 
   test('offers nothing on a card that is not a verb', async ({ page }) => {

@@ -2,1151 +2,4596 @@
   "abrir": [
     {
       "pt": "Eu abro a janela.",
-      "en": "I open the window."
+      "en": "I open the window.",
+      "tense": "presente"
     },
     {
       "pt": "A loja abre às nove.",
-      "en": "The shop opens at nine."
+      "en": "The shop opens at nine.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Abro a janela.",
+      "en": "I open the window.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a abrir a janela.",
+      "en": "I am opening the window.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem abri a janela.",
+      "en": "Yesterday I opened the window.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente abria a janela.",
+      "en": "I used to open the window.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã abrirei a janela.",
+      "en": "Tomorrow I will open the window.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou abrir a janela.",
+      "en": "I am going to open the window.",
+      "tense": "futuroProximo"
     }
   ],
   "acabar": [
     {
       "pt": "O filme acaba tarde.",
-      "en": "The film finishes late."
+      "en": "The film finishes late.",
+      "tense": "presente"
     },
     {
       "pt": "Já acabei o trabalho.",
-      "en": "I have already finished the work."
+      "en": "I have already finished the work.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Acabo o trabalho.",
+      "en": "I finish the work.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a acabar o trabalho.",
+      "en": "I am finishing the work.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem acabei o trabalho.",
+      "en": "Yesterday I finished the work.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente acabava o trabalho.",
+      "en": "I used to finish the work.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã acabarei o trabalho.",
+      "en": "Tomorrow I will finish the work.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou acabar o trabalho.",
+      "en": "I am going to finish the work.",
+      "tense": "futuroProximo"
     }
   ],
   "acender": [
     {
       "pt": "Acende a luz, por favor.",
-      "en": "Turn on the light, please."
+      "en": "Turn on the light, please.",
+      "tense": "presente"
     },
     {
       "pt": "Ela acendeu uma vela.",
-      "en": "She lit a candle."
+      "en": "She lit a candle.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Acendo a luz.",
+      "en": "I turn on the light.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a acender a luz.",
+      "en": "I am turning on the light.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem acendi a luz.",
+      "en": "Yesterday I turned on the light.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente acendia a luz.",
+      "en": "I used to turn on the light.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã acenderei a luz.",
+      "en": "Tomorrow I will turn on the light.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou acender a luz.",
+      "en": "I am going to turn on the light.",
+      "tense": "futuroProximo"
     }
   ],
   "achar": [
     {
       "pt": "Acho que sim.",
-      "en": "I think so."
+      "en": "I think so.",
+      "tense": "presente"
     },
     {
       "pt": "Não acho as chaves.",
-      "en": "I cannot find the keys."
+      "en": "I cannot find the keys.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Acho as chaves.",
+      "en": "I find the keys.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a achar as chaves.",
+      "en": "I am finding the keys.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem achei as chaves.",
+      "en": "Yesterday I found the keys.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente achava as chaves.",
+      "en": "I used to find the keys.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã acharei as chaves.",
+      "en": "Tomorrow I will find the keys.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou achar as chaves.",
+      "en": "I am going to find the keys.",
+      "tense": "futuroProximo"
     }
   ],
   "acordar": [
     {
       "pt": "Acordo às sete.",
-      "en": "I wake up at seven."
+      "en": "I wake up at seven.",
+      "tense": "presente"
     },
     {
       "pt": "Ontem acordei tarde.",
-      "en": "Yesterday I woke up late."
+      "en": "Yesterday I woke up late.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Acordo cedo.",
+      "en": "I wake up early.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a acordar cedo.",
+      "en": "I am waking up early.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem acordei cedo.",
+      "en": "Yesterday I woke up early.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente acordava cedo.",
+      "en": "I used to wake up early.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã acordarei cedo.",
+      "en": "Tomorrow I will wake up early.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou acordar cedo.",
+      "en": "I am going to wake up early.",
+      "tense": "futuroProximo"
     }
   ],
   "acostumar-se": [
     {
       "pt": "Acostumei-me depressa ao frio.",
-      "en": "I got used to the cold quickly."
+      "en": "I got used to the cold quickly.",
+      "tense": "perfeito"
     },
     {
       "pt": "Ele acostuma-se a tudo.",
-      "en": "He gets used to anything."
+      "en": "He gets used to anything.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Acostumo-me ao frio.",
+      "en": "I get used to the cold.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a acostumar-me ao frio.",
+      "en": "I am getting used to the cold.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem acostumei-me ao frio.",
+      "en": "Yesterday I got used to the cold.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente acostumava-me ao frio.",
+      "en": "I used to get used to the cold.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã acostumarei-me ao frio.",
+      "en": "Tomorrow I will get used to the cold.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou acostumar-me ao frio.",
+      "en": "I am going to get used to the cold.",
+      "tense": "futuroProximo"
     }
   ],
   "acreditar": [
     {
       "pt": "Não acredito nisso.",
-      "en": "I do not believe that."
+      "en": "I do not believe that.",
+      "tense": "presente"
     },
     {
       "pt": "Acreditamos nele.",
-      "en": "We believe him."
+      "en": "We believe him.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Acredito nele.",
+      "en": "I believe him.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a acreditar nele.",
+      "en": "I am believing him.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem acreditei nele.",
+      "en": "Yesterday I believed him.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente acreditava nele.",
+      "en": "I used to believe him.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã acreditarei nele.",
+      "en": "Tomorrow I will believe him.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou acreditar nele.",
+      "en": "I am going to believe him.",
+      "tense": "futuroProximo"
     }
   ],
   "adorar": [
     {
       "pt": "Adoro café.",
-      "en": "I love coffee."
+      "en": "I love coffee.",
+      "tense": "presente"
     },
     {
       "pt": "Ela adora viajar.",
-      "en": "She loves to travel."
+      "en": "She loves to travel.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Adoro este café.",
+      "en": "I love this coffee.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a adorar este café.",
+      "en": "I am loving this coffee.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem adorei este café.",
+      "en": "Yesterday I loved this coffee.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente adorava este café.",
+      "en": "I used to love this coffee.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã adorarei este café.",
+      "en": "Tomorrow I will love this coffee.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou adorar este café.",
+      "en": "I am going to love this coffee.",
+      "tense": "futuroProximo"
     }
   ],
   "ajudar": [
     {
-      "pt": "Podes ajudar-me?",
-      "en": "Can you help me?"
+      "pt": "Ele ajudou a minha mãe.",
+      "en": "He helped my mother.",
+      "tense": "perfeito"
     },
     {
-      "pt": "Ele ajudou a minha mãe.",
-      "en": "He helped my mother."
+      "pt": "Ajudo a minha mãe.",
+      "en": "I help my mother.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a ajudar a minha mãe.",
+      "en": "I am helping my mother.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem ajudei a minha mãe.",
+      "en": "Yesterday I helped my mother.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente ajudava a minha mãe.",
+      "en": "I used to help my mother.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã ajudarei a minha mãe.",
+      "en": "Tomorrow I will help my mother.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou ajudar a minha mãe.",
+      "en": "I am going to help my mother.",
+      "tense": "futuroProximo"
     }
   ],
   "almoçar": [
     {
       "pt": "Almoço ao meio-dia.",
-      "en": "I have lunch at noon."
+      "en": "I have lunch at noon.",
+      "tense": "presente"
     },
     {
       "pt": "Almoçámos no restaurante.",
-      "en": "We had lunch at the restaurant."
+      "en": "We had lunch at the restaurant.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Almoço em casa.",
+      "en": "I have lunch at home.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a almoçar em casa.",
+      "en": "I am having lunch at home.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem almocei em casa.",
+      "en": "Yesterday I had lunch at home.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente almoçava em casa.",
+      "en": "I used to have lunch at home.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã almoçarei em casa.",
+      "en": "Tomorrow I will have lunch at home.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou almoçar em casa.",
+      "en": "I am going to have lunch at home.",
+      "tense": "futuroProximo"
     }
   ],
   "andar": [
     {
       "pt": "Ando a pé para o trabalho.",
-      "en": "I walk to work."
+      "en": "I walk to work.",
+      "tense": "presente"
     },
     {
       "pt": "Ele anda muito depressa.",
-      "en": "He walks very fast."
+      "en": "He walks very fast.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Ando no parque.",
+      "en": "I walk in the park.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a andar no parque.",
+      "en": "I am walking in the park.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem andei no parque.",
+      "en": "Yesterday I walked in the park.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente andava no parque.",
+      "en": "I used to walk in the park.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã andarei no parque.",
+      "en": "Tomorrow I will walk in the park.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou andar no parque.",
+      "en": "I am going to walk in the park.",
+      "tense": "futuroProximo"
     }
   ],
   "apagar": [
     {
       "pt": "Apaga a luz.",
-      "en": "Turn off the light."
+      "en": "Turn off the light.",
+      "tense": "presente"
     },
     {
       "pt": "Apaguei a mensagem.",
-      "en": "I deleted the message."
+      "en": "I deleted the message.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Apago a luz.",
+      "en": "I turn off the light.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a apagar a luz.",
+      "en": "I am turning off the light.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem apaguei a luz.",
+      "en": "Yesterday I turned off the light.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente apagava a luz.",
+      "en": "I used to turn off the light.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã apagarei a luz.",
+      "en": "Tomorrow I will turn off the light.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou apagar a luz.",
+      "en": "I am going to turn off the light.",
+      "tense": "futuroProximo"
     }
   ],
   "apanhar": [
     {
       "pt": "Apanho o autocarro às oito.",
-      "en": "I catch the bus at eight."
+      "en": "I catch the bus at eight.",
+      "tense": "presente"
     },
     {
       "pt": "Apanhei um táxi.",
-      "en": "I took a taxi."
+      "en": "I took a taxi.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Apanho o autocarro.",
+      "en": "I catch the bus.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a apanhar o autocarro.",
+      "en": "I am catching the bus.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem apanhei o autocarro.",
+      "en": "Yesterday I caught the bus.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente apanhava o autocarro.",
+      "en": "I used to catch the bus.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã apanharei o autocarro.",
+      "en": "Tomorrow I will catch the bus.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou apanhar o autocarro.",
+      "en": "I am going to catch the bus.",
+      "tense": "futuroProximo"
     }
   ],
   "apertar": [
     {
-      "pt": "Estes sapatos apertam-me.",
-      "en": "These shoes are too tight for me."
+      "pt": "Ele aperta o cinto de segurança.",
+      "en": "He fastens the seat belt.",
+      "tense": "presente"
     },
     {
-      "pt": "Ele aperta o cinto de segurança.",
-      "en": "He fastens the seat belt."
+      "pt": "Aperto o cinto.",
+      "en": "I fasten the belt.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a apertar o cinto.",
+      "en": "I am fastening the belt.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem apertei o cinto.",
+      "en": "Yesterday I fastened the belt.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente apertava o cinto.",
+      "en": "I used to fasten the belt.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã apertarei o cinto.",
+      "en": "Tomorrow I will fasten the belt.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou apertar o cinto.",
+      "en": "I am going to fasten the belt.",
+      "tense": "futuroProximo"
     }
   ],
   "aprender": [
     {
-      "pt": "Estou a aprender português.",
-      "en": "I am learning Portuguese."
+      "pt": "Aprendi muito na aula.",
+      "en": "I learned a lot in the lesson.",
+      "tense": "perfeito"
     },
     {
-      "pt": "Aprendi muito na aula.",
-      "en": "I learned a lot in the lesson."
+      "pt": "Aprendo português.",
+      "en": "I learn Portuguese.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a aprender português.",
+      "en": "I am learning Portuguese.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem aprendi português.",
+      "en": "Yesterday I learned Portuguese.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente aprendia português.",
+      "en": "I used to learn Portuguese.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã aprenderei português.",
+      "en": "Tomorrow I will learn Portuguese.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou aprender português.",
+      "en": "I am going to learn Portuguese.",
+      "tense": "futuroProximo"
     }
   ],
   "bater": [
     {
       "pt": "Alguém bateu à porta.",
-      "en": "Somebody knocked at the door."
+      "en": "Somebody knocked at the door.",
+      "tense": "perfeito"
     },
     {
       "pt": "Ele bate à porta antes de entrar.",
-      "en": "He knocks at the door before coming in."
+      "en": "He knocks at the door before coming in.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Bato à porta.",
+      "en": "I knock at the door.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a bater à porta.",
+      "en": "I am knocking at the door.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem bati à porta.",
+      "en": "Yesterday I knocked at the door.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente batia à porta.",
+      "en": "I used to knock at the door.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã baterei à porta.",
+      "en": "Tomorrow I will knock at the door.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou bater à porta.",
+      "en": "I am going to knock at the door.",
+      "tense": "futuroProximo"
     }
   ],
   "beber": [
     {
       "pt": "Bebo água todos os dias.",
-      "en": "I drink water every day."
+      "en": "I drink water every day.",
+      "tense": "presente"
     },
     {
-      "pt": "Bebemos um café juntos.",
-      "en": "We drank a coffee together."
+      "pt": "Bebo água.",
+      "en": "I drink water.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a beber água.",
+      "en": "I am drinking water.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem bebi água.",
+      "en": "Yesterday I drank water.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente bebia água.",
+      "en": "I used to drink water.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã beberei água.",
+      "en": "Tomorrow I will drink water.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou beber água.",
+      "en": "I am going to drink water.",
+      "tense": "futuroProximo"
     }
   ],
   "caminhar": [
     {
       "pt": "Caminho no parque ao domingo.",
-      "en": "I walk in the park on Sundays."
+      "en": "I walk in the park on Sundays.",
+      "tense": "presente"
     },
     {
       "pt": "Caminhámos até à praia.",
-      "en": "We walked to the beach."
+      "en": "We walked to the beach.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Caminho até à praia.",
+      "en": "I walk to the beach.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a caminhar até à praia.",
+      "en": "I am walking to the beach.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem caminhei até à praia.",
+      "en": "Yesterday I walked to the beach.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente caminhava até à praia.",
+      "en": "I used to walk to the beach.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã caminharei até à praia.",
+      "en": "Tomorrow I will walk to the beach.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou caminhar até à praia.",
+      "en": "I am going to walk to the beach.",
+      "tense": "futuroProximo"
     }
   ],
   "carregar": [
     {
-      "pt": "Preciso de carregar o telemóvel.",
-      "en": "I need to charge the phone."
+      "pt": "Carreguei as fotografias.",
+      "en": "I uploaded the photos.",
+      "tense": "perfeito"
     },
     {
-      "pt": "Carreguei as fotografias.",
-      "en": "I uploaded the photos."
+      "pt": "Carrego o telemóvel.",
+      "en": "I charge the phone.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a carregar o telemóvel.",
+      "en": "I am charging the phone.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem carreguei o telemóvel.",
+      "en": "Yesterday I charged the phone.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente carregava o telemóvel.",
+      "en": "I used to charge the phone.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã carregarei o telemóvel.",
+      "en": "Tomorrow I will charge the phone.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou carregar o telemóvel.",
+      "en": "I am going to charge the phone.",
+      "tense": "futuroProximo"
     }
   ],
   "chamar": [
     {
-      "pt": "Chamo um táxi.",
-      "en": "I am calling a taxi."
+      "pt": "Ela chamou o médico.",
+      "en": "She called the doctor.",
+      "tense": "perfeito"
     },
     {
-      "pt": "Ela chamou o médico.",
-      "en": "She called the doctor."
+      "pt": "Chamo um táxi.",
+      "en": "I call a taxi.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a chamar um táxi.",
+      "en": "I am calling a taxi.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem chamei um táxi.",
+      "en": "Yesterday I called a taxi.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente chamava um táxi.",
+      "en": "I used to call a taxi.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã chamarei um táxi.",
+      "en": "Tomorrow I will call a taxi.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou chamar um táxi.",
+      "en": "I am going to call a taxi.",
+      "tense": "futuroProximo"
     }
   ],
   "chamar-se": [
     {
-      "pt": "Chamo-me Pedro.",
-      "en": "My name is Pedro."
+      "pt": "Como te chamas?",
+      "en": "What is your name?",
+      "tense": "presente"
     },
     {
-      "pt": "Como te chamas?",
-      "en": "What is your name?"
+      "pt": "Chamo-me Pedro.",
+      "en": "I be called Pedro.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a chamar-me Pedro.",
+      "en": "I am being called Pedro.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem chamei-me Pedro.",
+      "en": "Yesterday I was called Pedro.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente chamava-me Pedro.",
+      "en": "I used to be called Pedro.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã chamarei-me Pedro.",
+      "en": "Tomorrow I will be called Pedro.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou chamar-me Pedro.",
+      "en": "I am going to be called Pedro.",
+      "tense": "futuroProximo"
     }
   ],
   "chegar": [
     {
       "pt": "O comboio chega às dez.",
-      "en": "The train arrives at ten."
+      "en": "The train arrives at ten.",
+      "tense": "presente"
     },
     {
       "pt": "Cheguei tarde ontem.",
-      "en": "I arrived late yesterday."
+      "en": "I arrived late yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Chego a casa.",
+      "en": "I arrive home.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a chegar a casa.",
+      "en": "I am arriving home.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem cheguei a casa.",
+      "en": "Yesterday I arrived home.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente chegava a casa.",
+      "en": "I used to arrive home.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã chegarei a casa.",
+      "en": "Tomorrow I will arrive home.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou chegar a casa.",
+      "en": "I am going to arrive home.",
+      "tense": "futuroProximo"
     }
   ],
   "chorar": [
     {
       "pt": "O bebé está a chorar.",
-      "en": "The baby is crying."
+      "en": "The baby is crying.",
+      "tense": "presenteContinuo"
     },
     {
       "pt": "Ela chorou de alegria.",
-      "en": "She cried with joy."
+      "en": "She cried with joy.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Choro de alegria.",
+      "en": "I cry with joy.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a chorar de alegria.",
+      "en": "I am crying with joy.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem chorei de alegria.",
+      "en": "Yesterday I cried with joy.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente chorava de alegria.",
+      "en": "I used to cry with joy.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã chorarei de alegria.",
+      "en": "Tomorrow I will cry with joy.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou chorar de alegria.",
+      "en": "I am going to cry with joy.",
+      "tense": "futuroProximo"
     }
   ],
   "começar": [
     {
       "pt": "A aula começa às nove.",
-      "en": "The lesson starts at nine."
+      "en": "The lesson starts at nine.",
+      "tense": "presente"
     },
     {
       "pt": "Comecei a estudar português.",
-      "en": "I started studying Portuguese."
+      "en": "I started studying Portuguese.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Começo o curso.",
+      "en": "I start the course.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a começar o curso.",
+      "en": "I am starting the course.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem comecei o curso.",
+      "en": "Yesterday I started the course.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente começava o curso.",
+      "en": "I used to start the course.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã começarei o curso.",
+      "en": "Tomorrow I will start the course.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou começar o curso.",
+      "en": "I am going to start the course.",
+      "tense": "futuroProximo"
     }
   ],
   "comer": [
     {
       "pt": "Como pão ao pequeno-almoço.",
-      "en": "I eat bread for breakfast."
+      "en": "I eat bread for breakfast.",
+      "tense": "presente"
     },
     {
-      "pt": "Comemos peixe ontem.",
-      "en": "We ate fish yesterday."
+      "pt": "Como pão.",
+      "en": "I eat bread.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a comer pão.",
+      "en": "I am eating bread.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem comi pão.",
+      "en": "Yesterday I ate bread.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente comia pão.",
+      "en": "I used to eat bread.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã comerei pão.",
+      "en": "Tomorrow I will eat bread.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou comer pão.",
+      "en": "I am going to eat bread.",
+      "tense": "futuroProximo"
     }
   ],
   "comprar": [
     {
       "pt": "Compro pão todos os dias.",
-      "en": "I buy bread every day."
+      "en": "I buy bread every day.",
+      "tense": "presente"
     },
     {
       "pt": "Comprei um livro novo.",
-      "en": "I bought a new book."
+      "en": "I bought a new book.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Compro o jornal.",
+      "en": "I buy the newspaper.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a comprar o jornal.",
+      "en": "I am buying the newspaper.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem comprei o jornal.",
+      "en": "Yesterday I bought the newspaper.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente comprava o jornal.",
+      "en": "I used to buy the newspaper.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã comprarei o jornal.",
+      "en": "Tomorrow I will buy the newspaper.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou comprar o jornal.",
+      "en": "I am going to buy the newspaper.",
+      "tense": "futuroProximo"
     }
   ],
   "compreender": [
     {
       "pt": "Não compreendo a pergunta.",
-      "en": "I do not understand the question."
+      "en": "I do not understand the question.",
+      "tense": "presente"
     },
     {
       "pt": "Compreendes o que digo?",
-      "en": "Do you understand what I am saying?"
+      "en": "Do you understand what I am saying?",
+      "tense": "presente"
+    },
+    {
+      "pt": "Compreendo a pergunta.",
+      "en": "I understand the question.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a compreender a pergunta.",
+      "en": "I am understanding the question.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem compreendi a pergunta.",
+      "en": "Yesterday I understood the question.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente compreendia a pergunta.",
+      "en": "I used to understand the question.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã compreenderei a pergunta.",
+      "en": "Tomorrow I will understand the question.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou compreender a pergunta.",
+      "en": "I am going to understand the question.",
+      "tense": "futuroProximo"
     }
   ],
   "conduzir": [
     {
       "pt": "Ele conduz muito bem.",
-      "en": "He drives very well."
+      "en": "He drives very well.",
+      "tense": "presente"
     },
     {
-      "pt": "Não sei conduzir.",
-      "en": "I cannot drive."
+      "pt": "Conduzo com cuidado.",
+      "en": "I drive carefully.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a conduzir com cuidado.",
+      "en": "I am driving carefully.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem conduzi com cuidado.",
+      "en": "Yesterday I drove carefully.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente conduzia com cuidado.",
+      "en": "I used to drive carefully.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã conduzirei com cuidado.",
+      "en": "Tomorrow I will drive carefully.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou conduzir com cuidado.",
+      "en": "I am going to drive carefully.",
+      "tense": "futuroProximo"
     }
   ],
   "conhecer": [
     {
       "pt": "Conheço bem Lisboa.",
-      "en": "I know Lisbon well."
+      "en": "I know Lisbon well.",
+      "tense": "presente"
     },
     {
-      "pt": "Conheci-a na escola.",
-      "en": "I met her at school."
+      "pt": "Conheço a cidade.",
+      "en": "I know the city.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a conhecer a cidade.",
+      "en": "I am getting to know the city.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem conheci a cidade.",
+      "en": "Yesterday I knew the city.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente conhecia a cidade.",
+      "en": "I used to know the city.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã conhecerei a cidade.",
+      "en": "Tomorrow I will know the city.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou conhecer a cidade.",
+      "en": "I am going to know the city.",
+      "tense": "futuroProximo"
     }
   ],
   "correr": [
     {
       "pt": "Corro todas as manhãs.",
-      "en": "I run every morning."
+      "en": "I run every morning.",
+      "tense": "presente"
     },
     {
       "pt": "Ele correu para o autocarro.",
-      "en": "He ran for the bus."
+      "en": "He ran for the bus.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Corro de manhã.",
+      "en": "I run in the morning.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a correr de manhã.",
+      "en": "I am running in the morning.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem corri de manhã.",
+      "en": "Yesterday I ran in the morning.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente corria de manhã.",
+      "en": "I used to run in the morning.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã correrei de manhã.",
+      "en": "Tomorrow I will run in the morning.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou correr de manhã.",
+      "en": "I am going to run in the morning.",
+      "tense": "futuroProximo"
     }
   ],
   "cozinhar": [
     {
       "pt": "Cozinho todos os dias.",
-      "en": "I cook every day."
+      "en": "I cook every day.",
+      "tense": "presente"
     },
     {
       "pt": "Ela cozinhou peixe.",
-      "en": "She cooked fish."
+      "en": "She cooked fish.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Cozinho o jantar.",
+      "en": "I cook dinner.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a cozinhar o jantar.",
+      "en": "I am cooking dinner.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem cozinhei o jantar.",
+      "en": "Yesterday I cooked dinner.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente cozinhava o jantar.",
+      "en": "I used to cook dinner.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã cozinharei o jantar.",
+      "en": "Tomorrow I will cook dinner.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou cozinhar o jantar.",
+      "en": "I am going to cook dinner.",
+      "tense": "futuroProximo"
     }
   ],
   "cumprimentar-se": [
     {
       "pt": "Cumprimentam-se com um aperto de mão.",
-      "en": "They greet each other with a handshake."
+      "en": "They greet each other with a handshake.",
+      "tense": "presente"
     },
     {
       "pt": "Cumprimentámo-nos na rua.",
-      "en": "We greeted each other in the street."
+      "en": "We greeted each other in the street.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Cumprimento-me na rua.",
+      "en": "I greet each other in the street.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a cumprimentar-me na rua.",
+      "en": "I am greeting each other in the street.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem cumprimentei-me na rua.",
+      "en": "Yesterday I greeted each other in the street.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente cumprimentava-me na rua.",
+      "en": "I used to greet each other in the street.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã cumprimentarei-me na rua.",
+      "en": "Tomorrow I will greet each other in the street.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou cumprimentar-me na rua.",
+      "en": "I am going to greet each other in the street.",
+      "tense": "futuroProximo"
     }
   ],
   "dar": [
     {
-      "pt": "Dou-te o meu número.",
-      "en": "I will give you my number."
+      "pt": "Dou um presente.",
+      "en": "I give a present.",
+      "tense": "presente"
     },
     {
-      "pt": "Ela deu-me um presente.",
-      "en": "She gave me a present."
+      "pt": "Estou a dar um presente.",
+      "en": "I am giving a present.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem dei um presente.",
+      "en": "Yesterday I gave a present.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente dava um presente.",
+      "en": "I used to give a present.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã darei um presente.",
+      "en": "Tomorrow I will give a present.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou dar um presente.",
+      "en": "I am going to give a present.",
+      "tense": "futuroProximo"
     }
   ],
   "descansar": [
     {
       "pt": "Descanso ao fim de semana.",
-      "en": "I rest at the weekend."
+      "en": "I rest at the weekend.",
+      "tense": "presente"
     },
     {
       "pt": "Descansámos depois do almoço.",
-      "en": "We rested after lunch."
+      "en": "We rested after lunch.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Descanso ao domingo.",
+      "en": "I rest on Sundays.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a descansar ao domingo.",
+      "en": "I am resting on Sundays.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem descansei ao domingo.",
+      "en": "Yesterday I rested on Sundays.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente descansava ao domingo.",
+      "en": "I used to rest on Sundays.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã descansarei ao domingo.",
+      "en": "Tomorrow I will rest on Sundays.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou descansar ao domingo.",
+      "en": "I am going to rest on Sundays.",
+      "tense": "futuroProximo"
     }
   ],
   "descarregar": [
     {
       "pt": "Descarrego a aplicação.",
-      "en": "I am downloading the app."
+      "en": "I am downloading the app.",
+      "tense": "presente"
     },
     {
       "pt": "Descarreguei o ficheiro.",
-      "en": "I downloaded the file."
+      "en": "I downloaded the file.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Descarrego o ficheiro.",
+      "en": "I download the file.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a descarregar o ficheiro.",
+      "en": "I am downloading the file.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem descarreguei o ficheiro.",
+      "en": "Yesterday I downloaded the file.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente descarregava o ficheiro.",
+      "en": "I used to download the file.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã descarregarei o ficheiro.",
+      "en": "Tomorrow I will download the file.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou descarregar o ficheiro.",
+      "en": "I am going to download the file.",
+      "tense": "futuroProximo"
     }
   ],
   "desculpar": [
     {
       "pt": "Ele desculpa sempre os meus erros.",
-      "en": "He always excuses my mistakes."
+      "en": "He always excuses my mistakes.",
+      "tense": "presente"
     },
     {
       "pt": "Desculpei o atraso dela.",
-      "en": "I excused her delay."
+      "en": "I excused her delay.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Desculpo o atraso.",
+      "en": "I excuse the delay.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a desculpar o atraso.",
+      "en": "I am excusing the delay.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem desculpei o atraso.",
+      "en": "Yesterday I excused the delay.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente desculpava o atraso.",
+      "en": "I used to excuse the delay.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã desculparei o atraso.",
+      "en": "Tomorrow I will excuse the delay.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou desculpar o atraso.",
+      "en": "I am going to excuse the delay.",
+      "tense": "futuroProximo"
     }
   ],
   "desligar": [
     {
       "pt": "Desliga a televisão.",
-      "en": "Turn off the television."
+      "en": "Turn off the television.",
+      "tense": "presente"
     },
     {
       "pt": "Desliguei o computador.",
-      "en": "I turned off the computer."
+      "en": "I turned off the computer.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Desligo o computador.",
+      "en": "I turn off the computer.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a desligar o computador.",
+      "en": "I am turning off the computer.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem desliguei o computador.",
+      "en": "Yesterday I turned off the computer.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente desligava o computador.",
+      "en": "I used to turn off the computer.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã desligarei o computador.",
+      "en": "Tomorrow I will turn off the computer.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou desligar o computador.",
+      "en": "I am going to turn off the computer.",
+      "tense": "futuroProximo"
     }
   ],
   "devolver": [
     {
-      "pt": "Quero devolver estes sapatos.",
-      "en": "I want to return these shoes."
+      "pt": "Devolvi o livro à biblioteca.",
+      "en": "I returned the book to the library.",
+      "tense": "perfeito"
     },
     {
-      "pt": "Devolvi o livro à biblioteca.",
-      "en": "I returned the book to the library."
+      "pt": "Devolvo o livro.",
+      "en": "I return the book.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a devolver o livro.",
+      "en": "I am returning the book.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem devolvi o livro.",
+      "en": "Yesterday I returned the book.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente devolvia o livro.",
+      "en": "I used to return the book.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã devolverei o livro.",
+      "en": "Tomorrow I will return the book.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou devolver o livro.",
+      "en": "I am going to return the book.",
+      "tense": "futuroProximo"
     }
   ],
   "dizer": [
     {
       "pt": "Digo sempre a verdade.",
-      "en": "I always tell the truth."
+      "en": "I always tell the truth.",
+      "tense": "presente"
     },
     {
       "pt": "O que é que ele disse?",
-      "en": "What did he say?"
+      "en": "What did he say?",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Digo a verdade.",
+      "en": "I tell the truth.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a dizer a verdade.",
+      "en": "I am telling the truth.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem disse a verdade.",
+      "en": "Yesterday I told the truth.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente dizia a verdade.",
+      "en": "I used to tell the truth.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã direi a verdade.",
+      "en": "Tomorrow I will tell the truth.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou dizer a verdade.",
+      "en": "I am going to tell the truth.",
+      "tense": "futuroProximo"
     }
   ],
   "dormir": [
     {
-      "pt": "Durmo oito horas.",
-      "en": "I sleep eight hours."
+      "pt": "Ontem dormi mal.",
+      "en": "I slept badly yesterday.",
+      "tense": "perfeito"
     },
     {
-      "pt": "Ontem dormi mal.",
-      "en": "I slept badly yesterday."
+      "pt": "Durmo oito horas.",
+      "en": "I sleep eight hours.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a dormir oito horas.",
+      "en": "I am sleeping eight hours.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem dormi oito horas.",
+      "en": "Yesterday I slept eight hours.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente dormia oito horas.",
+      "en": "I used to sleep eight hours.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã dormirei oito horas.",
+      "en": "Tomorrow I will sleep eight hours.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou dormir oito horas.",
+      "en": "I am going to sleep eight hours.",
+      "tense": "futuroProximo"
     }
   ],
   "encontrar": [
     {
       "pt": "Não encontro as chaves.",
-      "en": "I cannot find the keys."
+      "en": "I cannot find the keys.",
+      "tense": "presente"
     },
     {
-      "pt": "Encontrei-a no café.",
-      "en": "I met her at the café."
+      "pt": "Encontro as chaves.",
+      "en": "I find the keys.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a encontrar as chaves.",
+      "en": "I am finding the keys.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem encontrei as chaves.",
+      "en": "Yesterday I found the keys.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente encontrava as chaves.",
+      "en": "I used to find the keys.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã encontrarei as chaves.",
+      "en": "Tomorrow I will find the keys.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou encontrar as chaves.",
+      "en": "I am going to find the keys.",
+      "tense": "futuroProximo"
     }
   ],
   "ensinar": [
     {
       "pt": "Ela ensina português.",
-      "en": "She teaches Portuguese."
+      "en": "She teaches Portuguese.",
+      "tense": "presente"
     },
     {
-      "pt": "Ensinou-me a cozinhar.",
-      "en": "He taught me to cook."
+      "pt": "Ensino português.",
+      "en": "I teach Portuguese.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a ensinar português.",
+      "en": "I am teaching Portuguese.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem ensinei português.",
+      "en": "Yesterday I taught Portuguese.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente ensinava português.",
+      "en": "I used to teach Portuguese.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã ensinarei português.",
+      "en": "Tomorrow I will teach Portuguese.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou ensinar português.",
+      "en": "I am going to teach Portuguese.",
+      "tense": "futuroProximo"
     }
   ],
   "entrar": [
     {
       "pt": "Entro no escritório às nove.",
-      "en": "I get into the office at nine."
+      "en": "I get into the office at nine.",
+      "tense": "presente"
     },
     {
       "pt": "Entrámos no museu.",
-      "en": "We went into the museum."
+      "en": "We went into the museum.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Entro no museu.",
+      "en": "I go into the museum.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a entrar no museu.",
+      "en": "I am going into the museum.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem entrei no museu.",
+      "en": "Yesterday I went into the museum.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente entrava no museu.",
+      "en": "I used to go into the museum.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã entrarei no museu.",
+      "en": "Tomorrow I will go into the museum.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou entrar no museu.",
+      "en": "I am going to go into the museum.",
+      "tense": "futuroProximo"
     }
   ],
   "enviar": [
     {
-      "pt": "Envio uma mensagem.",
-      "en": "I am sending a message."
+      "pt": "Enviei o e-mail ontem.",
+      "en": "I sent the email yesterday.",
+      "tense": "perfeito"
     },
     {
-      "pt": "Enviei o e-mail ontem.",
-      "en": "I sent the email yesterday."
+      "pt": "Envio uma mensagem.",
+      "en": "I send a message.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a enviar uma mensagem.",
+      "en": "I am sending a message.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem enviei uma mensagem.",
+      "en": "Yesterday I sent a message.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente enviava uma mensagem.",
+      "en": "I used to send a message.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã enviarei uma mensagem.",
+      "en": "Tomorrow I will send a message.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou enviar uma mensagem.",
+      "en": "I am going to send a message.",
+      "tense": "futuroProximo"
     }
   ],
   "escolher": [
     {
       "pt": "Escolhes tu.",
-      "en": "You choose."
+      "en": "You choose.",
+      "tense": "presente"
     },
     {
       "pt": "Escolhi o prato do dia.",
-      "en": "I chose the dish of the day."
+      "en": "I chose the dish of the day.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Escolho o prato do dia.",
+      "en": "I choose the dish of the day.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a escolher o prato do dia.",
+      "en": "I am choosing the dish of the day.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem escolhi o prato do dia.",
+      "en": "Yesterday I chose the dish of the day.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente escolhia o prato do dia.",
+      "en": "I used to choose the dish of the day.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã escolherei o prato do dia.",
+      "en": "Tomorrow I will choose the dish of the day.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou escolher o prato do dia.",
+      "en": "I am going to choose the dish of the day.",
+      "tense": "futuroProximo"
     }
   ],
   "escrever": [
     {
-      "pt": "Escrevo uma carta.",
-      "en": "I am writing a letter."
+      "pt": "Escreveste o teu nome?",
+      "en": "Did you write your name?",
+      "tense": "perfeito"
     },
     {
-      "pt": "Escreveste o teu nome?",
-      "en": "Did you write your name?"
+      "pt": "Escrevo uma carta.",
+      "en": "I write a letter.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a escrever uma carta.",
+      "en": "I am writing a letter.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem escrevi uma carta.",
+      "en": "Yesterday I wrote a letter.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente escrevia uma carta.",
+      "en": "I used to write a letter.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã escreverei uma carta.",
+      "en": "Tomorrow I will write a letter.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou escrever uma carta.",
+      "en": "I am going to write a letter.",
+      "tense": "futuroProximo"
     }
   ],
   "escutar": [
     {
       "pt": "Escuto música no comboio.",
-      "en": "I listen to music on the train."
+      "en": "I listen to music on the train.",
+      "tense": "presente"
     },
     {
       "pt": "Ela escuta com atenção.",
-      "en": "She listens carefully."
+      "en": "She listens carefully.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Escuto música.",
+      "en": "I listen to music.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a escutar música.",
+      "en": "I am listening to music.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem escutei música.",
+      "en": "Yesterday I listened to music.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente escutava música.",
+      "en": "I used to listen to music.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã escutarei música.",
+      "en": "Tomorrow I will listen to music.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou escutar música.",
+      "en": "I am going to listen to music.",
+      "tense": "futuroProximo"
     }
   ],
   "esperar": [
     {
-      "pt": "Espero o autocarro.",
-      "en": "I am waiting for the bus."
+      "pt": "Esperámos meia hora.",
+      "en": "We waited half an hour.",
+      "tense": "perfeito"
     },
     {
-      "pt": "Esperámos meia hora.",
-      "en": "We waited half an hour."
+      "pt": "Espero o autocarro.",
+      "en": "I wait for the bus.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a esperar o autocarro.",
+      "en": "I am waiting for the bus.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem esperei o autocarro.",
+      "en": "Yesterday I waited for the bus.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente esperava o autocarro.",
+      "en": "I used to wait for the bus.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã esperarei o autocarro.",
+      "en": "Tomorrow I will wait for the bus.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou esperar o autocarro.",
+      "en": "I am going to wait for the bus.",
+      "tense": "futuroProximo"
     }
   ],
   "esquecer": [
     {
       "pt": "Ele esquece sempre as chaves.",
-      "en": "He always forgets the keys."
+      "en": "He always forgets the keys.",
+      "tense": "presente"
     },
     {
       "pt": "Esqueci o nome dele.",
-      "en": "I forgot his name."
+      "en": "I forgot his name.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Esqueço o nome.",
+      "en": "I forget the name.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a esquecer o nome.",
+      "en": "I am forgetting the name.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem esqueci o nome.",
+      "en": "Yesterday I forgot the name.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente esquecia o nome.",
+      "en": "I used to forget the name.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã esquecerei o nome.",
+      "en": "Tomorrow I will forget the name.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou esquecer o nome.",
+      "en": "I am going to forget the name.",
+      "tense": "futuroProximo"
     }
   ],
   "esquecer-se": [
     {
       "pt": "Esqueci-me do nome.",
-      "en": "I forgot the name."
+      "en": "I forgot the name.",
+      "tense": "perfeito"
     },
     {
       "pt": "Ela esqueceu-se da reunião.",
-      "en": "She forgot the meeting."
+      "en": "She forgot the meeting.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Esqueço-me do nome.",
+      "en": "I forget the name.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a esquecer-me do nome.",
+      "en": "I am forgetting the name.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem esqueci-me do nome.",
+      "en": "Yesterday I forgot the name.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente esquecia-me do nome.",
+      "en": "I used to forget the name.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã esquecerei-me do nome.",
+      "en": "Tomorrow I will forget the name.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou esquecer-me do nome.",
+      "en": "I am going to forget the name.",
+      "tense": "futuroProximo"
     }
   ],
   "estar": [
     {
       "pt": "Estou cansado.",
-      "en": "I am tired."
+      "en": "I am tired.",
+      "tense": "presente"
     },
     {
       "pt": "O café está fechado.",
-      "en": "The café is closed."
+      "en": "The café is closed.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou em Lisboa.",
+      "en": "I be in Lisbon.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a estar em Lisboa.",
+      "en": "I am being in Lisbon.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem estive em Lisboa.",
+      "en": "Yesterday I was in Lisbon.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente estava em Lisboa.",
+      "en": "I used to be in Lisbon.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã estarei em Lisboa.",
+      "en": "Tomorrow I will be in Lisbon.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou estar em Lisboa.",
+      "en": "I am going to be in Lisbon.",
+      "tense": "futuroProximo"
     }
   ],
   "estudar": [
     {
       "pt": "Estudo português à noite.",
-      "en": "I study Portuguese in the evening."
+      "en": "I study Portuguese in the evening.",
+      "tense": "presente"
     },
     {
       "pt": "Estudámos juntos.",
-      "en": "We studied together."
+      "en": "We studied together.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Estudo à noite.",
+      "en": "I study in the evening.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a estudar à noite.",
+      "en": "I am studying in the evening.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem estudei à noite.",
+      "en": "Yesterday I studied in the evening.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente estudava à noite.",
+      "en": "I used to study in the evening.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã estudarei à noite.",
+      "en": "Tomorrow I will study in the evening.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou estudar à noite.",
+      "en": "I am going to study in the evening.",
+      "tense": "futuroProximo"
     }
   ],
   "experimentar": [
     {
-      "pt": "Posso experimentar este casaco?",
-      "en": "Can I try on this jacket?"
+      "pt": "Experimentei o vestido.",
+      "en": "I tried on the dress.",
+      "tense": "perfeito"
     },
     {
-      "pt": "Experimentei o vestido.",
-      "en": "I tried on the dress."
+      "pt": "Experimento o casaco.",
+      "en": "I try on the jacket.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a experimentar o casaco.",
+      "en": "I am trying on the jacket.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem experimentei o casaco.",
+      "en": "Yesterday I tried on the jacket.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente experimentava o casaco.",
+      "en": "I used to try on the jacket.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã experimentarei o casaco.",
+      "en": "Tomorrow I will try on the jacket.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou experimentar o casaco.",
+      "en": "I am going to try on the jacket.",
+      "tense": "futuroProximo"
     }
   ],
   "falar": [
     {
       "pt": "Falo um pouco de português.",
-      "en": "I speak a little Portuguese."
+      "en": "I speak a little Portuguese.",
+      "tense": "presente"
     },
     {
       "pt": "Falámos ao telefone.",
-      "en": "We spoke on the phone."
+      "en": "We spoke on the phone.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Falo português.",
+      "en": "I speak Portuguese.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a falar português.",
+      "en": "I am speaking Portuguese.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem falei português.",
+      "en": "Yesterday I spoke Portuguese.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente falava português.",
+      "en": "I used to speak Portuguese.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã falarei português.",
+      "en": "Tomorrow I will speak Portuguese.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou falar português.",
+      "en": "I am going to speak Portuguese.",
+      "tense": "futuroProximo"
     }
   ],
   "fazer": [
     {
       "pt": "Faço o jantar hoje.",
-      "en": "I am making dinner today."
+      "en": "I am making dinner today.",
+      "tense": "presente"
     },
     {
       "pt": "O que é que fazes?",
-      "en": "What do you do?"
+      "en": "What do you do?",
+      "tense": "presente"
+    },
+    {
+      "pt": "Faço o jantar.",
+      "en": "I make dinner.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a fazer o jantar.",
+      "en": "I am making dinner.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem fiz o jantar.",
+      "en": "Yesterday I made dinner.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente fazia o jantar.",
+      "en": "I used to make dinner.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã farei o jantar.",
+      "en": "Tomorrow I will make dinner.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou fazer o jantar.",
+      "en": "I am going to make dinner.",
+      "tense": "futuroProximo"
     }
   ],
   "fechar": [
     {
       "pt": "A loja fecha às sete.",
-      "en": "The shop closes at seven."
+      "en": "The shop closes at seven.",
+      "tense": "presente"
     },
     {
       "pt": "Fechei a janela.",
-      "en": "I closed the window."
+      "en": "I closed the window.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Fecho a janela.",
+      "en": "I close the window.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a fechar a janela.",
+      "en": "I am closing the window.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem fechei a janela.",
+      "en": "Yesterday I closed the window.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente fechava a janela.",
+      "en": "I used to close the window.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã fecharei a janela.",
+      "en": "Tomorrow I will close the window.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou fechar a janela.",
+      "en": "I am going to close the window.",
+      "tense": "futuroProximo"
     }
   ],
   "fingir": [
     {
       "pt": "Ele finge que não ouve.",
-      "en": "He pretends not to hear."
+      "en": "He pretends not to hear.",
+      "tense": "presente"
     },
     {
       "pt": "Fingi que não vi.",
-      "en": "I pretended I had not seen."
+      "en": "I pretended I had not seen.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Finjo que não ouve.",
+      "en": "I pretend not to hear.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a fingir que não ouve.",
+      "en": "I am pretending not to hear.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem fingi que não ouve.",
+      "en": "Yesterday I pretended not to hear.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente fingia que não ouve.",
+      "en": "I used to pretend not to hear.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã fingirei que não ouve.",
+      "en": "Tomorrow I will pretend not to hear.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou fingir que não ouve.",
+      "en": "I am going to pretend not to hear.",
+      "tense": "futuroProximo"
     }
   ],
   "frequentar": [
     {
       "pt": "Frequento um curso de línguas.",
-      "en": "I attend a language course."
+      "en": "I attend a language course.",
+      "tense": "presente"
     },
     {
       "pt": "Ela frequentava a universidade.",
-      "en": "She used to attend the university."
+      "en": "She used to attend the university.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Frequento um curso.",
+      "en": "I attend a course.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a frequentar um curso.",
+      "en": "I am attending a course.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem frequentei um curso.",
+      "en": "Yesterday I attended a course.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente frequentava um curso.",
+      "en": "I used to attend a course.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã frequentarei um curso.",
+      "en": "Tomorrow I will attend a course.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou frequentar um curso.",
+      "en": "I am going to attend a course.",
+      "tense": "futuroProximo"
     }
   ],
   "guardar": [
     {
       "pt": "Guardo o dinheiro no banco.",
-      "en": "I keep the money in the bank."
+      "en": "I keep the money in the bank.",
+      "tense": "presente"
     },
     {
       "pt": "Guardei as fotografias.",
-      "en": "I saved the photos."
+      "en": "I saved the photos.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Guardo o dinheiro.",
+      "en": "I keep the money.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a guardar o dinheiro.",
+      "en": "I am keeping the money.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem guardei o dinheiro.",
+      "en": "Yesterday I kept the money.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente guardava o dinheiro.",
+      "en": "I used to keep the money.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã guardarei o dinheiro.",
+      "en": "Tomorrow I will keep the money.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou guardar o dinheiro.",
+      "en": "I am going to keep the money.",
+      "tense": "futuroProximo"
     }
   ],
   "habitar": [
     {
       "pt": "Habito nesta cidade há dez anos.",
-      "en": "I have lived in this city for ten years."
+      "en": "I have lived in this city for ten years.",
+      "tense": "presente"
     },
     {
       "pt": "Muitas pessoas habitam aqui.",
-      "en": "Many people live here."
+      "en": "Many people live here.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Habito nesta cidade.",
+      "en": "I live in this city.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a habitar nesta cidade.",
+      "en": "I am living in this city.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem habitei nesta cidade.",
+      "en": "Yesterday I lived in this city.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente habitava nesta cidade.",
+      "en": "I used to live in this city.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã habitarei nesta cidade.",
+      "en": "Tomorrow I will live in this city.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou habitar nesta cidade.",
+      "en": "I am going to live in this city.",
+      "tense": "futuroProximo"
     }
   ],
   "instalar": [
     {
-      "pt": "Instalo a aplicação.",
-      "en": "I am installing the app."
+      "pt": "Instalámos o programa.",
+      "en": "We installed the program.",
+      "tense": "perfeito"
     },
     {
-      "pt": "Instalámos o programa.",
-      "en": "We installed the program."
+      "pt": "Instalo a aplicação.",
+      "en": "I install the app.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a instalar a aplicação.",
+      "en": "I am installing the app.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem instalei a aplicação.",
+      "en": "Yesterday I installed the app.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente instalava a aplicação.",
+      "en": "I used to install the app.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã instalarei a aplicação.",
+      "en": "Tomorrow I will install the app.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou instalar a aplicação.",
+      "en": "I am going to install the app.",
+      "tense": "futuroProximo"
     }
   ],
   "ir": [
     {
-      "pt": "Vou ao supermercado.",
-      "en": "I am going to the supermarket."
+      "pt": "Fomos à praia no domingo.",
+      "en": "We went to the beach on Sunday.",
+      "tense": "perfeito"
     },
     {
-      "pt": "Fomos à praia no domingo.",
-      "en": "We went to the beach on Sunday."
+      "pt": "Vou ao supermercado.",
+      "en": "I go to the supermarket.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a ir ao supermercado.",
+      "en": "I am going to the supermarket.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem fui ao supermercado.",
+      "en": "Yesterday I went to the supermarket.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente ia ao supermercado.",
+      "en": "I used to go to the supermarket.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã irei ao supermercado.",
+      "en": "Tomorrow I will go to the supermarket.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou ir ao supermercado.",
+      "en": "I am going to go to the supermarket.",
+      "tense": "futuroProximo"
     }
   ],
   "jantar": [
     {
-      "pt": "Janto às oito.",
-      "en": "I have dinner at eight."
+      "pt": "Jantámos fora ontem.",
+      "en": "We ate out yesterday.",
+      "tense": "perfeito"
     },
     {
-      "pt": "Jantámos fora ontem.",
-      "en": "We ate out yesterday."
+      "pt": "Janto às oito.",
+      "en": "I have dinner at eight.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a jantar às oito.",
+      "en": "I am having dinner at eight.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem jantei às oito.",
+      "en": "Yesterday I had dinner at eight.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente jantava às oito.",
+      "en": "I used to have dinner at eight.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã jantarei às oito.",
+      "en": "Tomorrow I will have dinner at eight.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou jantar às oito.",
+      "en": "I am going to have dinner at eight.",
+      "tense": "futuroProximo"
     }
   ],
   "lavar": [
     {
       "pt": "Lavo a roupa ao sábado.",
-      "en": "I wash the clothes on Saturdays."
+      "en": "I wash the clothes on Saturdays.",
+      "tense": "presente"
     },
     {
       "pt": "Lavei os pratos.",
-      "en": "I washed the dishes."
+      "en": "I washed the dishes.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Lavo a roupa.",
+      "en": "I wash the clothes.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a lavar a roupa.",
+      "en": "I am washing the clothes.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem lavei a roupa.",
+      "en": "Yesterday I washed the clothes.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente lavava a roupa.",
+      "en": "I used to wash the clothes.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã lavarei a roupa.",
+      "en": "Tomorrow I will wash the clothes.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou lavar a roupa.",
+      "en": "I am going to wash the clothes.",
+      "tense": "futuroProximo"
     }
   ],
   "lavar-se": [
     {
-      "pt": "Lavo-me de manhã.",
-      "en": "I wash in the morning."
+      "pt": "Ela lava-se depressa.",
+      "en": "She washes quickly.",
+      "tense": "presente"
     },
     {
-      "pt": "Ela lava-se depressa.",
-      "en": "She washes quickly."
+      "pt": "Lavo-me de manhã.",
+      "en": "I wash in the morning.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a lavar-me de manhã.",
+      "en": "I am washing in the morning.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem lavei-me de manhã.",
+      "en": "Yesterday I washed in the morning.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente lavava-me de manhã.",
+      "en": "I used to wash in the morning.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã lavarei-me de manhã.",
+      "en": "Tomorrow I will wash in the morning.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou lavar-me de manhã.",
+      "en": "I am going to wash in the morning.",
+      "tense": "futuroProximo"
     }
   ],
   "lembrar-se": [
     {
       "pt": "Não me lembro do nome.",
-      "en": "I do not remember the name."
+      "en": "I do not remember the name.",
+      "tense": "presente"
     },
     {
       "pt": "Lembras-te dela?",
-      "en": "Do you remember her?"
+      "en": "Do you remember her?",
+      "tense": "presente"
+    },
+    {
+      "pt": "Lembro-me do nome.",
+      "en": "I remember the name.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a lembrar-me do nome.",
+      "en": "I am remembering the name.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem lembrei-me do nome.",
+      "en": "Yesterday I remembered the name.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente lembrava-me do nome.",
+      "en": "I used to remember the name.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã lembrarei-me do nome.",
+      "en": "Tomorrow I will remember the name.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou lembrar-me do nome.",
+      "en": "I am going to remember the name.",
+      "tense": "futuroProximo"
     }
   ],
   "ler": [
     {
       "pt": "Leio um livro por mês.",
-      "en": "I read a book a month."
+      "en": "I read a book a month.",
+      "tense": "presente"
     },
     {
       "pt": "Li o jornal hoje.",
-      "en": "I read the newspaper today."
+      "en": "I read the newspaper today.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Leio o jornal.",
+      "en": "I read the newspaper.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a ler o jornal.",
+      "en": "I am reading the newspaper.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem li o jornal.",
+      "en": "Yesterday I read the newspaper.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente lia o jornal.",
+      "en": "I used to read the newspaper.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã lerei o jornal.",
+      "en": "Tomorrow I will read the newspaper.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou ler o jornal.",
+      "en": "I am going to read the newspaper.",
+      "tense": "futuroProximo"
     }
   ],
   "levantar-se": [
     {
-      "pt": "Levanto-me às sete.",
-      "en": "I get up at seven."
+      "pt": "Levantámo-nos cedo.",
+      "en": "We got up early.",
+      "tense": "perfeito"
     },
     {
-      "pt": "Levantámo-nos cedo.",
-      "en": "We got up early."
+      "pt": "Levanto-me às sete.",
+      "en": "I get up at seven.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a levantar-me às sete.",
+      "en": "I am getting up at seven.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem levantei-me às sete.",
+      "en": "Yesterday I got up at seven.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente levantava-me às sete.",
+      "en": "I used to get up at seven.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã levantarei-me às sete.",
+      "en": "Tomorrow I will get up at seven.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou levantar-me às sete.",
+      "en": "I am going to get up at seven.",
+      "tense": "futuroProximo"
     }
   ],
   "levar": [
     {
-      "pt": "Levo o guarda-chuva.",
-      "en": "I am taking the umbrella."
+      "pt": "Ela levou as malas.",
+      "en": "She took the suitcases.",
+      "tense": "perfeito"
     },
     {
-      "pt": "Ela levou as malas.",
-      "en": "She took the suitcases."
+      "pt": "Levo o guarda-chuva.",
+      "en": "I take the umbrella.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a levar o guarda-chuva.",
+      "en": "I am taking the umbrella.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem levei o guarda-chuva.",
+      "en": "Yesterday I took the umbrella.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente levava o guarda-chuva.",
+      "en": "I used to take the umbrella.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã levarei o guarda-chuva.",
+      "en": "Tomorrow I will take the umbrella.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou levar o guarda-chuva.",
+      "en": "I am going to take the umbrella.",
+      "tense": "futuroProximo"
     }
   ],
   "ligar": [
     {
       "pt": "Ligo a televisão.",
-      "en": "I turn on the television."
+      "en": "I turn on the television.",
+      "tense": "presente"
     },
     {
-      "pt": "Ligo-te amanhã.",
-      "en": "I will call you tomorrow."
+      "pt": "Estou a ligar a televisão.",
+      "en": "I am turning on the television.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem liguei a televisão.",
+      "en": "Yesterday I turned on the television.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente ligava a televisão.",
+      "en": "I used to turn on the television.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã ligarei a televisão.",
+      "en": "Tomorrow I will turn on the television.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou ligar a televisão.",
+      "en": "I am going to turn on the television.",
+      "tense": "futuroProximo"
     }
   ],
   "limpar": [
     {
       "pt": "Limpo a casa ao sábado.",
-      "en": "I clean the house on Saturdays."
+      "en": "I clean the house on Saturdays.",
+      "tense": "presente"
     },
     {
       "pt": "Limpámos a cozinha.",
-      "en": "We cleaned the kitchen."
+      "en": "We cleaned the kitchen.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Limpo a casa.",
+      "en": "I clean the house.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a limpar a casa.",
+      "en": "I am cleaning the house.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem limpei a casa.",
+      "en": "Yesterday I cleaned the house.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente limpava a casa.",
+      "en": "I used to clean the house.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã limparei a casa.",
+      "en": "Tomorrow I will clean the house.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou limpar a casa.",
+      "en": "I am going to clean the house.",
+      "tense": "futuroProximo"
     }
   ],
   "morar": [
     {
-      "pt": "Moro em Lisboa.",
-      "en": "I live in Lisbon."
+      "pt": "Onde é que moras?",
+      "en": "Where do you live?",
+      "tense": "presente"
     },
     {
-      "pt": "Onde é que moras?",
-      "en": "Where do you live?"
+      "pt": "Moro em Lisboa.",
+      "en": "I live in Lisbon.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a morar em Lisboa.",
+      "en": "I am living in Lisbon.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem morei em Lisboa.",
+      "en": "Yesterday I lived in Lisbon.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente morava em Lisboa.",
+      "en": "I used to live in Lisbon.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã morarei em Lisboa.",
+      "en": "Tomorrow I will live in Lisbon.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou morar em Lisboa.",
+      "en": "I am going to live in Lisbon.",
+      "tense": "futuroProximo"
     }
   ],
   "ocupar": [
     {
       "pt": "A mesa ocupa muito espaço.",
-      "en": "The table takes up a lot of space."
+      "en": "The table takes up a lot of space.",
+      "tense": "presente"
     },
     {
       "pt": "Ocupámos os últimos lugares.",
-      "en": "We took the last seats."
+      "en": "We took the last seats.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Ocupo muito espaço.",
+      "en": "I take up a lot of space.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a ocupar muito espaço.",
+      "en": "I am taking up a lot of space.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem ocupei muito espaço.",
+      "en": "Yesterday I took up a lot of space.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente ocupava muito espaço.",
+      "en": "I used to take up a lot of space.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã ocuparei muito espaço.",
+      "en": "Tomorrow I will take up a lot of space.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou ocupar muito espaço.",
+      "en": "I am going to take up a lot of space.",
+      "tense": "futuroProximo"
     }
   ],
   "olhar": [
     {
-      "pt": "Olho pela janela.",
-      "en": "I look out of the window."
+      "pt": "Ela olhou para mim.",
+      "en": "She looked at me.",
+      "tense": "perfeito"
     },
     {
-      "pt": "Ela olhou para mim.",
-      "en": "She looked at me."
+      "pt": "Olho pela janela.",
+      "en": "I look out of the window.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a olhar pela janela.",
+      "en": "I am looking out of the window.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem olhei pela janela.",
+      "en": "Yesterday I looked out of the window.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente olhava pela janela.",
+      "en": "I used to look out of the window.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã olharei pela janela.",
+      "en": "Tomorrow I will look out of the window.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou olhar pela janela.",
+      "en": "I am going to look out of the window.",
+      "tense": "futuroProximo"
     }
   ],
   "ouvir": [
     {
       "pt": "Ouço música todos os dias.",
-      "en": "I listen to music every day."
+      "en": "I listen to music every day.",
+      "tense": "presente"
     },
     {
       "pt": "Ouviste o que ele disse?",
-      "en": "Did you hear what he said?"
+      "en": "Did you hear what he said?",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Ouço música.",
+      "en": "I listen to music.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a ouvir música.",
+      "en": "I am listening to music.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem ouvi música.",
+      "en": "Yesterday I listened to music.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente ouvia música.",
+      "en": "I used to listen to music.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã ouvirei música.",
+      "en": "Tomorrow I will listen to music.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou ouvir música.",
+      "en": "I am going to listen to music.",
+      "tense": "futuroProximo"
     }
   ],
   "pagar": [
     {
       "pt": "Pago com cartão.",
-      "en": "I pay by card."
+      "en": "I pay by card.",
+      "tense": "presente"
     },
     {
       "pt": "Paguei a conta.",
-      "en": "I paid the bill."
+      "en": "I paid the bill.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Pago a conta.",
+      "en": "I pay the bill.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a pagar a conta.",
+      "en": "I am paying the bill.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem paguei a conta.",
+      "en": "Yesterday I paid the bill.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente pagava a conta.",
+      "en": "I used to pay the bill.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã pagarei a conta.",
+      "en": "Tomorrow I will pay the bill.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou pagar a conta.",
+      "en": "I am going to pay the bill.",
+      "tense": "futuroProximo"
     }
   ],
   "parar": [
     {
       "pt": "O autocarro para aqui.",
-      "en": "The bus stops here."
+      "en": "The bus stops here.",
+      "tense": "presente"
     },
     {
       "pt": "Parámos para descansar.",
-      "en": "We stopped to rest."
+      "en": "We stopped to rest.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Paro aqui.",
+      "en": "I stop here.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a parar aqui.",
+      "en": "I am stopping here.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem parei aqui.",
+      "en": "Yesterday I stopped here.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente parava aqui.",
+      "en": "I used to stop here.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã pararei aqui.",
+      "en": "Tomorrow I will stop here.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou parar aqui.",
+      "en": "I am going to stop here.",
+      "tense": "futuroProximo"
     }
   ],
   "partir": [
     {
       "pt": "O comboio parte às nove.",
-      "en": "The train leaves at nine."
+      "en": "The train leaves at nine.",
+      "tense": "presente"
     },
     {
-      "pt": "Partimos amanhã de manhã.",
-      "en": "We leave tomorrow morning."
+      "pt": "Parto às nove.",
+      "en": "I leave at nine.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a partir às nove.",
+      "en": "I am leaving at nine.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem parti às nove.",
+      "en": "Yesterday I left at nine.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente partia às nove.",
+      "en": "I used to leave at nine.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã partirei às nove.",
+      "en": "Tomorrow I will leave at nine.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou partir às nove.",
+      "en": "I am going to leave at nine.",
+      "tense": "futuroProximo"
     }
   ],
   "passear": [
     {
       "pt": "Passeio no parque ao domingo.",
-      "en": "I stroll in the park on Sundays."
+      "en": "I stroll in the park on Sundays.",
+      "tense": "presente"
     },
     {
       "pt": "Passeámos pela cidade.",
-      "en": "We walked around the city."
+      "en": "We walked around the city.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Passeio pela cidade.",
+      "en": "I stroll around the city.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a passear pela cidade.",
+      "en": "I am strolling around the city.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem passeei pela cidade.",
+      "en": "Yesterday I strolled around the city.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente passeava pela cidade.",
+      "en": "I used to stroll around the city.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã passearei pela cidade.",
+      "en": "Tomorrow I will stroll around the city.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou passear pela cidade.",
+      "en": "I am going to stroll around the city.",
+      "tense": "futuroProximo"
     }
   ],
   "pedir": [
     {
       "pt": "Peço um café, por favor.",
-      "en": "I will have a coffee, please."
+      "en": "I will have a coffee, please.",
+      "tense": "presente"
     },
     {
       "pt": "Pedi ajuda.",
-      "en": "I asked for help."
+      "en": "I asked for help.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Peço um café.",
+      "en": "I ask for a coffee.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a pedir um café.",
+      "en": "I am asking for a coffee.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem pedi um café.",
+      "en": "Yesterday I asked for a coffee.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente pedia um café.",
+      "en": "I used to ask for a coffee.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã pedirei um café.",
+      "en": "Tomorrow I will ask for a coffee.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou pedir um café.",
+      "en": "I am going to ask for a coffee.",
+      "tense": "futuroProximo"
     }
   ],
   "pensar": [
     {
       "pt": "Penso que sim.",
-      "en": "I think so."
+      "en": "I think so.",
+      "tense": "presente"
     },
     {
       "pt": "Pensei muito nisso.",
-      "en": "I thought about it a lot."
+      "en": "I thought about it a lot.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Penso nisso.",
+      "en": "I think about that.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a pensar nisso.",
+      "en": "I am thinking about that.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem pensei nisso.",
+      "en": "Yesterday I thought about that.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente pensava nisso.",
+      "en": "I used to think about that.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã pensarei nisso.",
+      "en": "Tomorrow I will think about that.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou pensar nisso.",
+      "en": "I am going to think about that.",
+      "tense": "futuroProximo"
     }
   ],
   "pentear-se": [
     {
-      "pt": "Penteio-me de manhã.",
-      "en": "I comb my hair in the morning."
+      "pt": "Ela penteia-se depressa.",
+      "en": "She combs her hair quickly.",
+      "tense": "presente"
     },
     {
-      "pt": "Ela penteia-se depressa.",
-      "en": "She combs her hair quickly."
+      "pt": "Penteio-me de manhã.",
+      "en": "I comb my hair in the morning.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a pentear-me de manhã.",
+      "en": "I am combing my hair in the morning.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem penteei-me de manhã.",
+      "en": "Yesterday I combed my hair in the morning.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente penteava-me de manhã.",
+      "en": "I used to comb my hair in the morning.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã pentearei-me de manhã.",
+      "en": "Tomorrow I will comb my hair in the morning.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou pentear-me de manhã.",
+      "en": "I am going to comb my hair in the morning.",
+      "tense": "futuroProximo"
     }
   ],
   "perceber": [
     {
       "pt": "Não percebo nada.",
-      "en": "I do not understand anything."
+      "en": "I do not understand anything.",
+      "tense": "presente"
     },
     {
       "pt": "Percebeste a pergunta?",
-      "en": "Did you understand the question?"
+      "en": "Did you understand the question?",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Percebo a pergunta.",
+      "en": "I understand the question.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a perceber a pergunta.",
+      "en": "I am understanding the question.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem percebi a pergunta.",
+      "en": "Yesterday I understood the question.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente percebia a pergunta.",
+      "en": "I used to understand the question.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã perceberei a pergunta.",
+      "en": "Tomorrow I will understand the question.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou perceber a pergunta.",
+      "en": "I am going to understand the question.",
+      "tense": "futuroProximo"
     }
   ],
   "perder": [
     {
       "pt": "Perco sempre as chaves.",
-      "en": "I always lose the keys."
+      "en": "I always lose the keys.",
+      "tense": "presente"
     },
     {
       "pt": "Perdi o comboio.",
-      "en": "I missed the train."
+      "en": "I missed the train.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Perco as chaves.",
+      "en": "I lose the keys.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a perder as chaves.",
+      "en": "I am losing the keys.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem perdi as chaves.",
+      "en": "Yesterday I lost the keys.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente perdia as chaves.",
+      "en": "I used to lose the keys.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã perderei as chaves.",
+      "en": "Tomorrow I will lose the keys.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou perder as chaves.",
+      "en": "I am going to lose the keys.",
+      "tense": "futuroProximo"
     }
   ],
   "perguntar": [
     {
-      "pt": "Pergunto ao professor.",
-      "en": "I will ask the teacher."
+      "pt": "Ele perguntou o meu nome.",
+      "en": "He asked my name.",
+      "tense": "perfeito"
     },
     {
-      "pt": "Ele perguntou o meu nome.",
-      "en": "He asked my name."
+      "pt": "Pergunto ao professor.",
+      "en": "I ask the teacher.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a perguntar ao professor.",
+      "en": "I am asking the teacher.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem perguntei ao professor.",
+      "en": "Yesterday I asked the teacher.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente perguntava ao professor.",
+      "en": "I used to ask the teacher.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã perguntarei ao professor.",
+      "en": "Tomorrow I will ask the teacher.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou perguntar ao professor.",
+      "en": "I am going to ask the teacher.",
+      "tense": "futuroProximo"
     }
   ],
   "perguntar-se": [
     {
       "pt": "Pergunto-me se ele vem.",
-      "en": "I wonder whether he is coming."
+      "en": "I wonder whether he is coming.",
+      "tense": "presente"
     },
     {
       "pt": "Ela perguntou-se porquê.",
-      "en": "She wondered why."
+      "en": "She wondered why.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Pergunto-me porquê.",
+      "en": "I wonder why.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a perguntar-me porquê.",
+      "en": "I am wondering why.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem perguntei-me porquê.",
+      "en": "Yesterday I wondered why.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente perguntava-me porquê.",
+      "en": "I used to wonder why.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã perguntarei-me porquê.",
+      "en": "Tomorrow I will wonder why.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou perguntar-me porquê.",
+      "en": "I am going to wonder why.",
+      "tense": "futuroProximo"
     }
   ],
   "poder": [
     {
       "pt": "Posso ajudar?",
-      "en": "Can I help?"
+      "en": "Can I help?",
+      "tense": "presente"
     },
     {
       "pt": "Não pude vir ontem.",
-      "en": "I could not come yesterday."
+      "en": "I could not come yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Posso ajudar.",
+      "en": "I be able to help.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a poder ajudar.",
+      "en": "I am being able to help.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem pude ajudar.",
+      "en": "Yesterday I was able to help.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente podia ajudar.",
+      "en": "I used to be able to help.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã poderei ajudar.",
+      "en": "Tomorrow I will be able to help.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou poder ajudar.",
+      "en": "I am going to be able to help.",
+      "tense": "futuroProximo"
     }
   ],
   "pôr": [
     {
-      "pt": "Ponho a mesa.",
-      "en": "I am setting the table."
+      "pt": "Ele pôs o livro na mesa.",
+      "en": "He put the book on the table.",
+      "tense": "perfeito"
     },
     {
-      "pt": "Ele pôs o livro na mesa.",
-      "en": "He put the book on the table."
+      "pt": "Ponho a mesa.",
+      "en": "I set the table.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a pôr a mesa.",
+      "en": "I am setting the table.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem pus a mesa.",
+      "en": "Yesterday I set the table.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente punha a mesa.",
+      "en": "I used to set the table.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã porei a mesa.",
+      "en": "Tomorrow I will set the table.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou pôr a mesa.",
+      "en": "I am going to set the table.",
+      "tense": "futuroProximo"
     }
   ],
   "preferir": [
     {
       "pt": "Prefiro chá a café.",
-      "en": "I prefer tea to coffee."
+      "en": "I prefer tea to coffee.",
+      "tense": "presente"
     },
     {
       "pt": "Ela prefere ficar em casa.",
-      "en": "She prefers to stay at home."
+      "en": "She prefers to stay at home.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Prefiro chá.",
+      "en": "I prefer tea.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a preferir chá.",
+      "en": "I am preferring tea.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem preferi chá.",
+      "en": "Yesterday I preferred tea.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente preferia chá.",
+      "en": "I used to prefer tea.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã preferirei chá.",
+      "en": "Tomorrow I will prefer tea.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou preferir chá.",
+      "en": "I am going to prefer tea.",
+      "tense": "futuroProximo"
     }
   ],
   "procurar": [
     {
       "pt": "Procuro o meu telemóvel.",
-      "en": "I am looking for my phone."
+      "en": "I am looking for my phone.",
+      "tense": "presente"
     },
     {
       "pt": "Procurámos a chave toda a manhã.",
-      "en": "We looked for the key all morning."
+      "en": "We looked for the key all morning.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Procuro o telemóvel.",
+      "en": "I look for the phone.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a procurar o telemóvel.",
+      "en": "I am looking for the phone.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem procurei o telemóvel.",
+      "en": "Yesterday I looked for the phone.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente procurava o telemóvel.",
+      "en": "I used to look for the phone.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã procurarei o telemóvel.",
+      "en": "Tomorrow I will look for the phone.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou procurar o telemóvel.",
+      "en": "I am going to look for the phone.",
+      "tense": "futuroProximo"
     }
   ],
   "prometer": [
     {
       "pt": "Prometo que venho.",
-      "en": "I promise I will come."
+      "en": "I promise I will come.",
+      "tense": "presente"
     },
     {
       "pt": "Ele prometeu ajudar.",
-      "en": "He promised to help."
+      "en": "He promised to help.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Prometo ajudar.",
+      "en": "I promise to help.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a prometer ajudar.",
+      "en": "I am promising to help.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem prometi ajudar.",
+      "en": "Yesterday I promised to help.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente prometia ajudar.",
+      "en": "I used to promise to help.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã prometerei ajudar.",
+      "en": "Tomorrow I will promise to help.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou prometer ajudar.",
+      "en": "I am going to promise to help.",
+      "tense": "futuroProximo"
     }
   ],
   "querer": [
     {
-      "pt": "Quero um café.",
-      "en": "I want a coffee."
+      "pt": "O que é que queres?",
+      "en": "What do you want?",
+      "tense": "presente"
     },
     {
-      "pt": "O que é que queres?",
-      "en": "What do you want?"
+      "pt": "Quero um café.",
+      "en": "I want a coffee.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a querer um café.",
+      "en": "I am wanting a coffee.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem quis um café.",
+      "en": "Yesterday I wanted a coffee.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente queria um café.",
+      "en": "I used to want a coffee.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã quererei um café.",
+      "en": "Tomorrow I will want a coffee.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou querer um café.",
+      "en": "I am going to want a coffee.",
+      "tense": "futuroProximo"
     }
   ],
   "receber": [
     {
       "pt": "Recebo o salário no fim do mês.",
-      "en": "I get my salary at the end of the month."
+      "en": "I get my salary at the end of the month.",
+      "tense": "presente"
     },
     {
       "pt": "Recebi a tua mensagem.",
-      "en": "I got your message."
+      "en": "I got your message.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Recebo o salário.",
+      "en": "I get the salary.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a receber o salário.",
+      "en": "I am getting the salary.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem recebi o salário.",
+      "en": "Yesterday I got the salary.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente recebia o salário.",
+      "en": "I used to get the salary.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã receberei o salário.",
+      "en": "Tomorrow I will get the salary.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou receber o salário.",
+      "en": "I am going to get the salary.",
+      "tense": "futuroProximo"
     }
   ],
   "responder": [
     {
       "pt": "Respondo já.",
-      "en": "I will answer right away."
+      "en": "I will answer right away.",
+      "tense": "presente"
     },
     {
       "pt": "Ela respondeu à pergunta.",
-      "en": "She answered the question."
+      "en": "She answered the question.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Respondo à pergunta.",
+      "en": "I answer the question.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a responder à pergunta.",
+      "en": "I am answering the question.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem respondi à pergunta.",
+      "en": "Yesterday I answered the question.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente respondia à pergunta.",
+      "en": "I used to answer the question.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã responderei à pergunta.",
+      "en": "Tomorrow I will answer the question.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou responder à pergunta.",
+      "en": "I am going to answer the question.",
+      "tense": "futuroProximo"
     }
   ],
   "rir": [
     {
-      "pt": "Ele ri sempre.",
-      "en": "He is always laughing."
+      "pt": "Rio muito.",
+      "en": "I laugh a lot.",
+      "tense": "presente"
     },
     {
-      "pt": "Rimos muito ontem.",
-      "en": "We laughed a lot yesterday."
+      "pt": "Estou a rir muito.",
+      "en": "I am laughing a lot.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem ri muito.",
+      "en": "Yesterday I laughed a lot.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente ria muito.",
+      "en": "I used to laugh a lot.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã rirei muito.",
+      "en": "Tomorrow I will laugh a lot.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou rir muito.",
+      "en": "I am going to laugh a lot.",
+      "tense": "futuroProximo"
     }
   ],
   "saber": [
     {
       "pt": "Sei falar português.",
-      "en": "I can speak Portuguese."
+      "en": "I can speak Portuguese.",
+      "tense": "presente"
     },
     {
       "pt": "Não sei onde ele está.",
-      "en": "I do not know where he is."
+      "en": "I do not know where he is.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Sei a resposta.",
+      "en": "I know the answer.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a saber a resposta.",
+      "en": "I am knowing the answer.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem soube a resposta.",
+      "en": "Yesterday I knew the answer.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente sabia a resposta.",
+      "en": "I used to know the answer.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã saberei a resposta.",
+      "en": "Tomorrow I will know the answer.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou saber a resposta.",
+      "en": "I am going to know the answer.",
+      "tense": "futuroProximo"
     }
   ],
   "sair": [
     {
       "pt": "Saio de casa às oito.",
-      "en": "I leave home at eight."
+      "en": "I leave home at eight.",
+      "tense": "presente"
     },
     {
-      "pt": "Saímos ontem à noite.",
-      "en": "We went out last night."
+      "pt": "Saio de casa.",
+      "en": "I leave the house.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a sair de casa.",
+      "en": "I am leaving the house.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem saí de casa.",
+      "en": "Yesterday I left the house.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente saia de casa.",
+      "en": "I used to leave the house.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã sairei de casa.",
+      "en": "Tomorrow I will leave the house.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou sair de casa.",
+      "en": "I am going to leave the house.",
+      "tense": "futuroProximo"
     }
   ],
   "sentar-se": [
     {
-      "pt": "Posso sentar-me aqui?",
-      "en": "May I sit here?"
+      "pt": "Sentámo-nos no café.",
+      "en": "We sat down in the café.",
+      "tense": "perfeito"
     },
     {
-      "pt": "Sentámo-nos no café.",
-      "en": "We sat down in the café."
+      "pt": "Sento-me no café.",
+      "en": "I sit down in the café.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a sentar-me no café.",
+      "en": "I am sitting down in the café.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem sentei-me no café.",
+      "en": "Yesterday I sat down in the café.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente sentava-me no café.",
+      "en": "I used to sit down in the café.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã sentarei-me no café.",
+      "en": "Tomorrow I will sit down in the café.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou sentar-me no café.",
+      "en": "I am going to sit down in the café.",
+      "tense": "futuroProximo"
     }
   ],
   "sentir": [
     {
-      "pt": "Sinto-me bem.",
-      "en": "I feel well."
+      "pt": "Senti muito frio.",
+      "en": "I felt very cold.",
+      "tense": "perfeito"
     },
     {
-      "pt": "Senti muito frio.",
-      "en": "I felt very cold."
+      "pt": "Sinto muito frio.",
+      "en": "I feel very cold.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a sentir muito frio.",
+      "en": "I am feeling very cold.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem senti muito frio.",
+      "en": "Yesterday I felt very cold.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente sentia muito frio.",
+      "en": "I used to feel very cold.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã sentirei muito frio.",
+      "en": "Tomorrow I will feel very cold.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou sentir muito frio.",
+      "en": "I am going to feel very cold.",
+      "tense": "futuroProximo"
     }
   ],
   "ser": [
     {
       "pt": "Eu sou português.",
-      "en": "I am Portuguese."
+      "en": "I am Portuguese.",
+      "tense": "presente"
     },
     {
       "pt": "Ela é médica.",
-      "en": "She is a doctor."
+      "en": "She is a doctor.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Sou português.",
+      "en": "I be Portuguese.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a ser português.",
+      "en": "I am being Portuguese.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem fui português.",
+      "en": "Yesterday I was Portuguese.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente era português.",
+      "en": "I used to be Portuguese.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã serei português.",
+      "en": "Tomorrow I will be Portuguese.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou ser português.",
+      "en": "I am going to be Portuguese.",
+      "tense": "futuroProximo"
     }
   ],
   "telefonar": [
     {
-      "pt": "Telefono-te logo.",
-      "en": "I will call you later."
+      "pt": "Ele telefonou ontem.",
+      "en": "He called yesterday.",
+      "tense": "perfeito"
     },
     {
-      "pt": "Ele telefonou ontem.",
-      "en": "He called yesterday."
+      "pt": "Telefono à minha mãe.",
+      "en": "I call my mother.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a telefonar à minha mãe.",
+      "en": "I am calling my mother.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem telefonei à minha mãe.",
+      "en": "Yesterday I called my mother.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente telefonava à minha mãe.",
+      "en": "I used to call my mother.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã telefonarei à minha mãe.",
+      "en": "Tomorrow I will call my mother.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou telefonar à minha mãe.",
+      "en": "I am going to call my mother.",
+      "tense": "futuroProximo"
     }
   ],
   "ter": [
     {
-      "pt": "Tenho dois irmãos.",
-      "en": "I have two brothers."
+      "pt": "Tens tempo agora?",
+      "en": "Do you have time now?",
+      "tense": "presente"
     },
     {
-      "pt": "Tens tempo agora?",
-      "en": "Do you have time now?"
+      "pt": "Tenho dois irmãos.",
+      "en": "I have two brothers.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a ter dois irmãos.",
+      "en": "I am having two brothers.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem tive dois irmãos.",
+      "en": "Yesterday I had two brothers.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente tinha dois irmãos.",
+      "en": "I used to have two brothers.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã terei dois irmãos.",
+      "en": "Tomorrow I will have two brothers.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou ter dois irmãos.",
+      "en": "I am going to have two brothers.",
+      "tense": "futuroProximo"
     }
   ],
   "tirar": [
     {
       "pt": "Tiro os sapatos à porta.",
-      "en": "I take my shoes off at the door."
+      "en": "I take my shoes off at the door.",
+      "tense": "presente"
     },
     {
       "pt": "Tirei uma fotografia.",
-      "en": "I took a photo."
+      "en": "I took a photo.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Tiro uma fotografia.",
+      "en": "I take a photo.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a tirar uma fotografia.",
+      "en": "I am taking a photo.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem tirei uma fotografia.",
+      "en": "Yesterday I took a photo.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente tirava uma fotografia.",
+      "en": "I used to take a photo.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã tirarei uma fotografia.",
+      "en": "Tomorrow I will take a photo.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou tirar uma fotografia.",
+      "en": "I am going to take a photo.",
+      "tense": "futuroProximo"
     }
   ],
   "tomar": [
     {
       "pt": "Tomo um café de manhã.",
-      "en": "I have a coffee in the morning."
+      "en": "I have a coffee in the morning.",
+      "tense": "presente"
     },
     {
       "pt": "Tomámos o pequeno-almoço juntos.",
-      "en": "We had breakfast together."
+      "en": "We had breakfast together.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Tomo um café.",
+      "en": "I have a coffee.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a tomar um café.",
+      "en": "I am having a coffee.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem tomei um café.",
+      "en": "Yesterday I had a coffee.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente tomava um café.",
+      "en": "I used to have a coffee.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã tomarei um café.",
+      "en": "Tomorrow I will have a coffee.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou tomar um café.",
+      "en": "I am going to have a coffee.",
+      "tense": "futuroProximo"
     }
   ],
   "trabalhar": [
     {
-      "pt": "Trabalho num hospital.",
-      "en": "I work in a hospital."
+      "pt": "Trabalhei ontem até tarde.",
+      "en": "I worked late yesterday.",
+      "tense": "perfeito"
     },
     {
-      "pt": "Trabalhei ontem até tarde.",
-      "en": "I worked late yesterday."
+      "pt": "Trabalho num hospital.",
+      "en": "I work in a hospital.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a trabalhar num hospital.",
+      "en": "I am working in a hospital.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem trabalhei num hospital.",
+      "en": "Yesterday I worked in a hospital.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente trabalhava num hospital.",
+      "en": "I used to work in a hospital.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã trabalharei num hospital.",
+      "en": "Tomorrow I will work in a hospital.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou trabalhar num hospital.",
+      "en": "I am going to work in a hospital.",
+      "tense": "futuroProximo"
     }
   ],
   "trazer": [
     {
-      "pt": "Trago o jantar.",
-      "en": "I am bringing dinner."
+      "pt": "Ela trouxe um bolo.",
+      "en": "She brought a cake.",
+      "tense": "perfeito"
     },
     {
-      "pt": "Ela trouxe um bolo.",
-      "en": "She brought a cake."
+      "pt": "Trago o jantar.",
+      "en": "I bring dinner.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a trazer o jantar.",
+      "en": "I am bringing dinner.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem trouxe o jantar.",
+      "en": "Yesterday I brought dinner.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente trazia o jantar.",
+      "en": "I used to bring dinner.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã trarei o jantar.",
+      "en": "Tomorrow I will bring dinner.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou trazer o jantar.",
+      "en": "I am going to bring dinner.",
+      "tense": "futuroProximo"
     }
   ],
   "usar": [
     {
       "pt": "Uso o computador todos os dias.",
-      "en": "I use the computer every day."
+      "en": "I use the computer every day.",
+      "tense": "presente"
     },
     {
       "pt": "Usei o teu telemóvel.",
-      "en": "I used your phone."
+      "en": "I used your phone.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Uso o computador.",
+      "en": "I use the computer.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a usar o computador.",
+      "en": "I am using the computer.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem usei o computador.",
+      "en": "Yesterday I used the computer.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente usava o computador.",
+      "en": "I used to use the computer.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã usarei o computador.",
+      "en": "Tomorrow I will use the computer.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou usar o computador.",
+      "en": "I am going to use the computer.",
+      "tense": "futuroProximo"
     }
   ],
   "vender": [
     {
       "pt": "Vendem pão fresco aqui.",
-      "en": "They sell fresh bread here."
+      "en": "They sell fresh bread here.",
+      "tense": "presente"
     },
     {
       "pt": "Vendi o meu carro.",
-      "en": "I sold my car."
+      "en": "I sold my car.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Vendo o carro.",
+      "en": "I sell the car.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a vender o carro.",
+      "en": "I am selling the car.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem vendi o carro.",
+      "en": "Yesterday I sold the car.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente vendia o carro.",
+      "en": "I used to sell the car.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã venderei o carro.",
+      "en": "Tomorrow I will sell the car.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou vender o carro.",
+      "en": "I am going to sell the car.",
+      "tense": "futuroProximo"
     }
   ],
   "ver": [
     {
       "pt": "Vejo televisão à noite.",
-      "en": "I watch television in the evening."
+      "en": "I watch television in the evening.",
+      "tense": "presente"
     },
     {
       "pt": "Vimos um filme ontem.",
-      "en": "We saw a film yesterday."
+      "en": "We saw a film yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Vejo um filme.",
+      "en": "I watch a film.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a ver um filme.",
+      "en": "I am watching a film.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem vi um filme.",
+      "en": "Yesterday I watched a film.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente via um filme.",
+      "en": "I used to watch a film.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã verei um filme.",
+      "en": "Tomorrow I will watch a film.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou ver um filme.",
+      "en": "I am going to watch a film.",
+      "tense": "futuroProximo"
     }
   ],
   "vestir-se": [
     {
-      "pt": "Visto-me depressa.",
-      "en": "I get dressed quickly."
+      "pt": "Ela vestiu-se de preto.",
+      "en": "She dressed in black.",
+      "tense": "perfeito"
     },
     {
-      "pt": "Ela vestiu-se de preto.",
-      "en": "She dressed in black."
+      "pt": "Visto-me depressa.",
+      "en": "I get dressed quickly.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a vestir-me depressa.",
+      "en": "I am getting dressed quickly.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem vesti-me depressa.",
+      "en": "Yesterday I got dressed quickly.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente vestia-me depressa.",
+      "en": "I used to get dressed quickly.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã vestirei-me depressa.",
+      "en": "Tomorrow I will get dressed quickly.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou vestir-me depressa.",
+      "en": "I am going to get dressed quickly.",
+      "tense": "futuroProximo"
     }
   ],
   "viajar": [
     {
       "pt": "Viajo muito por trabalho.",
-      "en": "I travel a lot for work."
+      "en": "I travel a lot for work.",
+      "tense": "presente"
     },
     {
       "pt": "Viajámos para Espanha.",
-      "en": "We travelled to Spain."
+      "en": "We travelled to Spain.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Viajo para Espanha.",
+      "en": "I travel to Spain.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a viajar para Espanha.",
+      "en": "I am travelling to Spain.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem viajei para Espanha.",
+      "en": "Yesterday I travelled to Spain.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente viajava para Espanha.",
+      "en": "I used to travel to Spain.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã viajarei para Espanha.",
+      "en": "Tomorrow I will travel to Spain.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou viajar para Espanha.",
+      "en": "I am going to travel to Spain.",
+      "tense": "futuroProximo"
     }
   ],
   "vir": [
     {
       "pt": "Venho já.",
-      "en": "I am coming right away."
+      "en": "I am coming right away.",
+      "tense": "presente"
     },
     {
       "pt": "Ela veio ontem.",
-      "en": "She came yesterday."
+      "en": "She came yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Venho amanhã.",
+      "en": "I come tomorrow.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a vir amanhã.",
+      "en": "I am coming tomorrow.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem vim amanhã.",
+      "en": "Yesterday I came tomorrow.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente vinha amanhã.",
+      "en": "I used to come tomorrow.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã virei amanhã.",
+      "en": "Tomorrow I will come tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou vir amanhã.",
+      "en": "I am going to come tomorrow.",
+      "tense": "futuroProximo"
     }
   ],
   "virar": [
     {
       "pt": "Viras à direita no semáforo.",
-      "en": "You turn right at the traffic light."
+      "en": "You turn right at the traffic light.",
+      "tense": "presente"
     },
     {
       "pt": "Virámos à esquerda.",
-      "en": "We turned left."
+      "en": "We turned left.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Viro à direita.",
+      "en": "I turn right.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a virar à direita.",
+      "en": "I am turning right.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem virei à direita.",
+      "en": "Yesterday I turned right.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente virava à direita.",
+      "en": "I used to turn right.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã virarei à direita.",
+      "en": "Tomorrow I will turn right.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou virar à direita.",
+      "en": "I am going to turn right.",
+      "tense": "futuroProximo"
     }
   ],
   "viver": [
     {
       "pt": "Vivo em Portugal.",
-      "en": "I live in Portugal."
+      "en": "I live in Portugal.",
+      "tense": "presente"
     },
     {
-      "pt": "Vivemos aqui há cinco anos.",
-      "en": "We have lived here for five years."
+      "pt": "Estou a viver em Portugal.",
+      "en": "I am living in Portugal.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem vivi em Portugal.",
+      "en": "Yesterday I lived in Portugal.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente vivia em Portugal.",
+      "en": "I used to live in Portugal.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã viverei em Portugal.",
+      "en": "Tomorrow I will live in Portugal.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou viver em Portugal.",
+      "en": "I am going to live in Portugal.",
+      "tense": "futuroProximo"
     }
   ],
   "voltar": [
     {
       "pt": "Volto já.",
-      "en": "I will be right back."
+      "en": "I will be right back.",
+      "tense": "presente"
     },
     {
       "pt": "Voltámos tarde para casa.",
-      "en": "We got home late."
+      "en": "We got home late.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Volto para casa.",
+      "en": "I go back home.",
+      "tense": "presente"
+    },
+    {
+      "pt": "Estou a voltar para casa.",
+      "en": "I am going back home.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "pt": "Ontem voltei para casa.",
+      "en": "Yesterday I went back home.",
+      "tense": "perfeito"
+    },
+    {
+      "pt": "Antigamente voltava para casa.",
+      "en": "I used to go back home.",
+      "tense": "imperfeito"
+    },
+    {
+      "pt": "Amanhã voltarei para casa.",
+      "en": "Tomorrow I will go back home.",
+      "tense": "futuro"
+    },
+    {
+      "pt": "Vou voltar para casa.",
+      "en": "I am going to go back home.",
+      "tense": "futuroProximo"
     }
   ]
 }
