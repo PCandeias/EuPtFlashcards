@@ -1,0 +1,221 @@
+{
+  "deck": "Essential Survival Phrases",
+  "cards": [
+    {
+      "en": "I do not speak Portuguese",
+      "target": "não falo português",
+      "level": "a1"
+    },
+    {
+      "en": "I speak a little Portuguese",
+      "target": "falo um pouco de português",
+      "level": "a1"
+    },
+    {
+      "en": "do you speak English?",
+      "target": "fala inglês?",
+      "tags": [
+        "formal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "I do not understand",
+      "target": "não percebo",
+      "level": "a1"
+    },
+    {
+      "en": "I understand",
+      "target": "percebo",
+      "level": "a1"
+    },
+    {
+      "en": "I understood",
+      "target": "percebi",
+      "level": "a1"
+    },
+    {
+      "en": "I did not understand",
+      "target": "não percebi",
+      "level": "a1"
+    },
+    {
+      "en": "can you repeat, please?",
+      "target": "pode repetir, por favor?",
+      "level": "a1"
+    },
+    {
+      "en": "can you speak more slowly?",
+      "target": "pode falar mais devagar?",
+      "level": "a1"
+    },
+    {
+      "en": "what does this mean?",
+      "target": "o que é que isto quer dizer?",
+      "level": "a1"
+    },
+    {
+      "en": "how do you say this?",
+      "target": "como se diz isto?",
+      "level": "a1"
+    },
+    {
+      "en": "can you help me?",
+      "target": "pode ajudar-me?",
+      "level": "a1"
+    },
+    {
+      "en": "I need help",
+      "target": "preciso de ajuda",
+      "level": "a1"
+    },
+    {
+      "en": "I am lost",
+      "target": "estou perdido / perdida",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "where is the toilet?",
+      "target": "onde fica a casa de banho?",
+      "level": "a1"
+    },
+    {
+      "en": "where is the pharmacy?",
+      "target": "onde fica a farmácia?",
+      "level": "a1"
+    },
+    {
+      "en": "where is the hospital?",
+      "target": "onde fica o hospital?",
+      "level": "a1"
+    },
+    {
+      "en": "call an ambulance",
+      "target": "chame uma ambulância",
+      "level": "a2"
+    },
+    {
+      "en": "I need a doctor",
+      "target": "preciso de um médico",
+      "level": "a1"
+    },
+    {
+      "en": "I am not well",
+      "target": "não me sinto bem",
+      "level": "a1"
+    },
+    {
+      "en": "I have an allergy",
+      "target": "tenho uma alergia",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "I am vegetarian",
+      "target": "sou vegetariano / vegetariana",
+      "level": "a1"
+    },
+    {
+      "en": "I do not eat meat",
+      "target": "não como carne",
+      "level": "a1"
+    },
+    {
+      "en": "how much is it?",
+      "target": "quanto custa?",
+      "level": "a1"
+    },
+    {
+      "en": "it is too expensive",
+      "target": "é demasiado caro",
+      "level": "a1"
+    },
+    {
+      "en": "do you accept cards?",
+      "target": "aceitam cartão?",
+      "level": "a1"
+    },
+    {
+      "en": "can I pay by card?",
+      "target": "posso pagar com cartão?",
+      "level": "a1"
+    },
+    {
+      "en": "can I pay in cash?",
+      "target": "posso pagar em dinheiro?",
+      "level": "a1"
+    },
+    {
+      "en": "can I have a receipt?",
+      "target": "pode dar-me o recibo?",
+      "level": "a1"
+    },
+    {
+      "en": "I have a reservation",
+      "target": "tenho uma reserva",
+      "tense": "presente",
+      "level": "a2"
+    },
+    {
+      "en": "can I have the menu?",
+      "target": "pode trazer-me a ementa?",
+      "level": "a1"
+    },
+    {
+      "en": "the bill, please",
+      "target": "a conta, por favor",
+      "level": "a1"
+    },
+    {
+      "en": "can I have some water?",
+      "target": "pode trazer-me água?",
+      "level": "a1"
+    },
+    {
+      "en": "is there Wi-Fi?",
+      "target": "há Wi-Fi?",
+      "level": "a1"
+    },
+    {
+      "en": "what is the Wi-Fi password?",
+      "target": "qual é a palavra-passe do Wi-Fi?",
+      "level": "a2"
+    },
+    {
+      "en": "where am I?",
+      "target": "onde é que estou?",
+      "level": "a1"
+    },
+    {
+      "en": "where is this?",
+      "target": "onde é isto?",
+      "level": "a1"
+    },
+    {
+      "en": "how do I get there?",
+      "target": "como é que chego lá?",
+      "level": "a1"
+    },
+    {
+      "en": "can I get off here?",
+      "target": "posso sair aqui?",
+      "level": "a1"
+    },
+    {
+      "en": "where can I buy a ticket?",
+      "target": "onde posso comprar um bilhete?",
+      "level": "a1"
+    },
+    {
+      "en": "what time does it open?",
+      "target": "a que horas abre?",
+      "level": "a1"
+    },
+    {
+      "en": "what time does it close?",
+      "target": "a que horas fecha?",
+      "level": "a1"
+    }
+  ]
+}

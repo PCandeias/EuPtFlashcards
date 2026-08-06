@@ -1,24 +1,22 @@
 /**
- * The annotation registry.
+ * Resolving a card's annotations.
  *
- * Order here is the order the markers appear beside a word. Adding a kind means
- * adding a file and listing it — the card, the panel host and the app all work
- * from this list and know nothing about any particular kind.
+ * Which kinds exist is a property of the language, not of the app: Portuguese
+ * offers conjugation and examples, another language may offer neither or more.
+ * This module only asks each of them what it has to say, in the order the
+ * language lists them — which is the order the markers appear beside the word.
  */
-import { conjugationKind } from './conjugation.js'
-import { examplesKind } from './examples.js'
 import type { Card } from '../cards/schema.js'
 import type { AnnotationContext, AnnotationKind, ResolvedAnnotation } from './types.js'
 
-export const ANNOTATION_KINDS: readonly AnnotationKind[] = [
-  conjugationKind as AnnotationKind,
-  examplesKind as AnnotationKind,
-]
-
 /** Every kind that has something to say about this card, in registry order. */
-export function annotationsFor(card: Card, context: AnnotationContext): ResolvedAnnotation[] {
+export function annotationsFor(
+  card: Card,
+  kinds: readonly AnnotationKind[],
+  context: AnnotationContext,
+): ResolvedAnnotation[] {
   const out: ResolvedAnnotation[] = []
-  for (const kind of ANNOTATION_KINDS) {
+  for (const kind of kinds) {
     const payload = kind.resolve(card, context)
     if (payload != null) out.push({ kind, payload })
   }

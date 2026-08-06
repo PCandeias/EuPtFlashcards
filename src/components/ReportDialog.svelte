@@ -32,7 +32,7 @@
       <p class="preview">
         <span class="en">{card.en}</span>
         <span class="sep">=</span>
-        <span class="pt">{card.pt}</span>
+        <span class="target">{card.target}</span>
       </p>
     {/if}
     <p class="note">
@@ -74,7 +74,7 @@
   }
   .en { font-weight: 600; }
   .sep { color: var(--muted); margin: 0 6px; }
-  .pt { font-weight: 800; }
+  .target { font-weight: 800; }
   .note { margin: 0 0 14px; font-size: 13px; line-height: 1.5; color: var(--muted); }
   .buttons { display: flex; gap: 8px; flex-wrap: wrap; }
   .buttons button { font-size: 13px; }

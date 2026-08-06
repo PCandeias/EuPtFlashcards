@@ -1,10 +1,12 @@
 import { describe, it, expect, beforeEach } from 'vitest'
 import {
-  REPORTS_KEY, loadReports, saveReports, reportCard, unreportCard, isReported,
+  loadReports, saveReports, reportCard, unreportCard, isReported,
   withoutReported, reportList, reportsAsText, reportsFilename, sanitizeReports,
   type Reports,
 } from '../src/lib/storage/reports.js'
-import type { StorageLike } from '../src/lib/storage/progress.js'
+import { keysFor, type StorageLike } from '../src/lib/storage/progress.js'
+
+const KEYS = keysFor('eupt:v4')
 import type { Card } from '../src/lib/cards/schema.js'
 
 class FakeStorage implements StorageLike {
@@ -14,8 +16,8 @@ class FakeStorage implements StorageLike {
   removeItem(k: string) { this.map.delete(k) }
 }
 
-const a: Card = { deck: 'Class', en: 'to sleep', pt: 'dormir' }
-const b: Card = { deck: 'Numbers', en: 'zero', pt: 'zero' }
+const a: Card = { deck: 'Class', en: 'to sleep', target: 'dormir' }
+const b: Card = { deck: 'Numbers', en: 'zero', target: 'zero' }
 const AT = '2026-08-06T10:00:00.000Z'
 
 let store: FakeStorage
@@ -25,7 +27,7 @@ describe('reporting', () => {
   it('records the card, not just its id, so an export still reads later', () => {
     const r = reportCard({}, a, AT)
     expect(r['Class::to sleep::dormir']).toEqual({
-      id: 'Class::to sleep::dormir', deck: 'Class', en: 'to sleep', pt: 'dormir', at: AT,
+      id: 'Class::to sleep::dormir', deck: 'Class', en: 'to sleep', target: 'dormir', at: AT,
     })
   })
 
@@ -68,18 +70,18 @@ describe('hiding reported cards', () => {
 describe('storage', () => {
   it('round-trips', () => {
     const r = reportCard({}, a, AT)
-    saveReports(store, r)
-    expect(loadReports(store)).toEqual(r)
+    saveReports(store, KEYS, r)
+    expect(loadReports(store, KEYS)).toEqual(r)
   })
 
   it('is empty when nothing is stored', () => {
-    expect(loadReports(store)).toEqual({})
+    expect(loadReports(store, KEYS)).toEqual({})
   })
 
   it('falls back to empty on corrupt data without erasing it', () => {
-    store.setItem(REPORTS_KEY, 'not json')
-    expect(loadReports(store)).toEqual({})
-    expect(store.getItem(REPORTS_KEY)).toBe('not json')
+    store.setItem(KEYS.reported, 'not json')
+    expect(loadReports(store, KEYS)).toEqual({})
+    expect(store.getItem(KEYS.reported)).toBe('not json')
   })
 
   it('drops entries of the wrong shape', () => {
@@ -91,24 +93,24 @@ describe('the text export', () => {
   const two = reportCard(reportCard({}, a, AT), b, '2026-08-07T09:00:00.000Z')
 
   it('names every reported card with its deck', () => {
-    const text = reportsAsText(two, AT)
+    const text = reportsAsText(two, AT, "European Portuguese")
     expect(text).toContain('[Class] to sleep = dormir')
     expect(text).toContain('[Numbers] zero = zero')
   })
 
   it('says how many and when', () => {
-    const text = reportsAsText(two, AT)
+    const text = reportsAsText(two, AT, "European Portuguese")
     expect(text).toContain('2 cards')
     expect(text).toContain('Exported 2026-08-06')
     expect(text).toContain('reported 2026-08-06')
   })
 
   it('reads sensibly when there is nothing', () => {
-    expect(reportsAsText({}, AT)).toContain('0 cards')
+    expect(reportsAsText({}, AT, "European Portuguese")).toContain('0 cards')
   })
 
   it('gets the plural right for one', () => {
-    expect(reportsAsText(reportCard({}, a, AT), AT)).toContain('1 card\n')
+    expect(reportsAsText(reportCard({}, a, AT), AT, "European Portuguese")).toContain('1 card\n')
   })
 
   it('is ordered oldest first', () => {
@@ -116,6 +118,7 @@ describe('the text export', () => {
   })
 
   it('is named as a dated text file', () => {
-    expect(reportsFilename(AT)).toBe('eu-pt-flashcards-reported-2026-08-06.txt')
+    expect(reportsFilename(AT, 'pt')).toBe('flashcards-pt-reported-2026-08-06.txt')
+    expect(reportsFilename(AT, 'tr')).toBe('flashcards-tr-reported-2026-08-06.txt')
   })
 })

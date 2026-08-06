@@ -4,7 +4,7 @@ import {
 } from '../src/lib/study/session.js'
 import type { Card } from '../src/lib/cards/schema.js'
 
-const card = (n: number): Card => ({ deck: 'D', en: `en${n}`, pt: `pt${n}` })
+const card = (n: number): Card => ({ deck: 'D', en: `en${n}`, target: `pt${n}` })
 const deck = (n: number) => Array.from({ length: n }, (_, i) => card(i))
 const words = (s: { cards: Card[] }) => s.cards.map(c => c.en)
 

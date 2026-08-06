@@ -1,0 +1,250 @@
+{
+  "deck": "Clothing & Colors",
+  "cards": [
+    {
+      "en": "color",
+      "target": "a cor",
+      "level": "a1"
+    },
+    {
+      "en": "white",
+      "target": "branco / branca",
+      "level": "a1"
+    },
+    {
+      "en": "black",
+      "target": "preto / preta",
+      "level": "a1"
+    },
+    {
+      "en": "red",
+      "target": "vermelho / vermelha",
+      "level": "a1"
+    },
+    {
+      "en": "blue",
+      "target": "azul",
+      "level": "a1"
+    },
+    {
+      "en": "green",
+      "target": "verde",
+      "level": "a1"
+    },
+    {
+      "en": "yellow",
+      "target": "amarelo / amarela",
+      "level": "a1"
+    },
+    {
+      "en": "purple",
+      "target": "roxo / roxa",
+      "level": "a1"
+    },
+    {
+      "en": "pink",
+      "target": "cor-de-rosa",
+      "level": "a1"
+    },
+    {
+      "en": "brown",
+      "target": "castanho / castanha",
+      "level": "a1"
+    },
+    {
+      "en": "gray",
+      "target": "cinzento / cinzenta",
+      "level": "a1"
+    },
+    {
+      "en": "navy blue",
+      "target": "azul-marinho",
+      "level": "a2"
+    },
+    {
+      "en": "clothes",
+      "target": "a roupa",
+      "level": "a1"
+    },
+    {
+      "en": "shirt",
+      "target": "a camisa",
+      "level": "a1"
+    },
+    {
+      "en": "T-shirt",
+      "target": "a t-shirt",
+      "level": "a1"
+    },
+    {
+      "en": "trousers / pants",
+      "target": "as calças",
+      "level": "a1"
+    },
+    {
+      "en": "jeans",
+      "target": "as calças de ganga",
+      "level": "a1"
+    },
+    {
+      "en": "shorts",
+      "target": "os calções",
+      "level": "a1"
+    },
+    {
+      "en": "skirt",
+      "target": "a saia",
+      "level": "a1"
+    },
+    {
+      "en": "dress",
+      "target": "o vestido",
+      "level": "a1"
+    },
+    {
+      "en": "jacket",
+      "target": "o casaco",
+      "level": "a1"
+    },
+    {
+      "en": "coat",
+      "target": "o sobretudo",
+      "level": "a1"
+    },
+    {
+      "en": "sweater",
+      "target": "a camisola",
+      "level": "a1"
+    },
+    {
+      "en": "cardigan",
+      "target": "o casaco de malha",
+      "level": "a2"
+    },
+    {
+      "en": "suit",
+      "target": "o fato",
+      "level": "a2"
+    },
+    {
+      "en": "shoes",
+      "target": "os sapatos",
+      "level": "a1"
+    },
+    {
+      "en": "boots",
+      "target": "as botas",
+      "level": "a1"
+    },
+    {
+      "en": "socks",
+      "target": "as meias",
+      "level": "a1"
+    },
+    {
+      "en": "slippers",
+      "target": "os chinelos",
+      "level": "a2"
+    },
+    {
+      "en": "hat",
+      "target": "o chapéu",
+      "level": "a1"
+    },
+    {
+      "en": "beanie",
+      "target": "o gorro",
+      "level": "a2"
+    },
+    {
+      "en": "scarf",
+      "target": "o cachecol",
+      "level": "a2"
+    },
+    {
+      "en": "gloves",
+      "target": "as luvas",
+      "level": "a1"
+    },
+    {
+      "en": "belt",
+      "target": "o cinto",
+      "level": "a1"
+    },
+    {
+      "en": "bag",
+      "target": "a mala / o saco",
+      "level": "a1"
+    },
+    {
+      "en": "backpack",
+      "target": "a mochila",
+      "level": "a1"
+    },
+    {
+      "en": "glasses",
+      "target": "os óculos",
+      "level": "a1"
+    },
+    {
+      "en": "sunglasses",
+      "target": "os óculos de sol",
+      "level": "a1"
+    },
+    {
+      "en": "watch",
+      "target": "o relógio",
+      "level": "a1"
+    },
+    {
+      "en": "ring",
+      "target": "o anel",
+      "level": "a2"
+    },
+    {
+      "en": "earring",
+      "target": "o brinco",
+      "level": "a2"
+    },
+    {
+      "en": "necklace",
+      "target": "o colar",
+      "level": "a2"
+    },
+    {
+      "en": "bracelet",
+      "target": "a pulseira",
+      "level": "a2"
+    },
+    {
+      "en": "small size",
+      "target": "o tamanho pequeno",
+      "level": "a1"
+    },
+    {
+      "en": "medium size",
+      "target": "o tamanho médio",
+      "level": "a2"
+    },
+    {
+      "en": "large size",
+      "target": "o tamanho grande",
+      "level": "a2"
+    },
+    {
+      "en": "tight",
+      "target": "apertado / apertada",
+      "level": "a2"
+    },
+    {
+      "en": "loose",
+      "target": "largo / larga",
+      "level": "a2"
+    },
+    {
+      "en": "comfortable",
+      "target": "confortável",
+      "level": "a2"
+    }
+  ]
+}

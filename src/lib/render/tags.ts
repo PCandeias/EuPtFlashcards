@@ -6,7 +6,7 @@
  */
 import { TAG_ORDER, type Card, type Tag } from '../cards/schema.js'
 
-export type Side = 'en' | 'pt'
+export type Side = 'en' | 'target'
 
 export interface BadgeSpec {
   tag: Tag
@@ -18,31 +18,39 @@ export interface BadgeSpec {
   full: string
 }
 
+/**
+ * The pill and its colour are the same in every language; the wording is not.
+ * `plural` means `vocês` in one language and `siz` in the other, so a language
+ * may override the expansion through its `badgeHints`.
+ */
 export const BADGES: Record<Tag, Omit<BadgeSpec, 'tag'>> = {
   masc: { pill: 'M', cls: 'gender', full: 'masculine' },
   'masc-mixed': { pill: 'M+', cls: 'gender', full: 'masculine or mixed group' },
   fem: { pill: 'F', cls: 'gender-f', full: 'feminine' },
-  plural: { pill: 'PL', cls: 'number', full: 'plural — vocês / eles' },
-  informal: { pill: 'INF', cls: 'informal', full: 'informal — tu' },
-  formal: { pill: 'FML', cls: 'formal', full: 'formal — você / o senhor' },
+  plural: { pill: 'PL', cls: 'number', full: 'plural' },
+  informal: { pill: 'INF', cls: 'informal', full: 'informal' },
+  formal: { pill: 'FML', cls: 'formal', full: 'formal' },
   object: { pill: 'OBJ', cls: 'role', full: 'object pronoun' },
-  contraction: { pill: 'CTR', cls: 'role', full: 'contraction — preposition + article' },
+  contraction: { pill: 'CTR', cls: 'role', full: 'contraction' },
 }
 
 /**
  * Badges for one face.
  *
  * English carries the full tag set because it is the underspecified side —
- * "you come" cannot tell you `tu vens` from `vocês vêm`. Portuguese carries only
- * `ptTags`, because the Portuguese form normally spells the distinction out
- * itself; the exceptions are bare function words like `o` and `na`.
+ * "you come" cannot tell you `tu vens` from `vocês vêm`, nor `geliyorsun` from
+ * `geliyorsunuz`. The target language carries only `targetTags`, because its own
+ * form normally spells the distinction out; the exceptions are bare function
+ * words like `o` and `na`.
  */
-export function badgesFor(card: Card, side: Side): BadgeSpec[] {
-  const tags = side === 'en' ? card.tags : card.ptTags
+export function badgesFor(
+  card: Card, side: Side, hints?: Partial<Record<Tag, string>>,
+): BadgeSpec[] {
+  const tags = side === 'en' ? card.tags : card.targetTags
   if (!tags?.length) return []
   return [...tags]
     .sort((a, b) => TAG_ORDER.indexOf(a) - TAG_ORDER.indexOf(b))
-    .map(tag => ({ tag, ...BADGES[tag] }))
+    .map(tag => ({ tag, ...BADGES[tag], full: hints?.[tag] ?? BADGES[tag].full }))
 }
 
 /** Meaning-level disambiguation, shown only where the meaning is ambiguous. */

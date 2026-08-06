@@ -1,0 +1,181 @@
+{
+  "deck": "Family & People",
+  "cards": [
+    {
+      "en": "I",
+      "target": "ben",
+      "level": "a1"
+    },
+    {
+      "en": "you",
+      "target": "sen",
+      "tags": [
+        "informal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "he / she / it",
+      "target": "o",
+      "level": "a1",
+      "sense": "the pronoun"
+    },
+    {
+      "en": "we",
+      "target": "biz",
+      "level": "a1"
+    },
+    {
+      "en": "you",
+      "target": "siz",
+      "tags": [
+        "formal",
+        "plural"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "they",
+      "target": "onlar",
+      "level": "a1",
+      "sense": "the pronoun"
+    },
+    {
+      "en": "my / mine",
+      "target": "benim",
+      "level": "a1"
+    },
+    {
+      "en": "your / yours",
+      "target": "senin",
+      "tags": [
+        "informal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "his / her / its",
+      "target": "onun",
+      "level": "a1"
+    },
+    {
+      "en": "our / ours",
+      "target": "bizim",
+      "level": "a1"
+    },
+    {
+      "en": "your / yours",
+      "target": "sizin",
+      "tags": [
+        "formal",
+        "plural"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "family",
+      "target": "aile",
+      "level": "a1"
+    },
+    {
+      "en": "mother",
+      "target": "anne",
+      "level": "a1"
+    },
+    {
+      "en": "father",
+      "target": "baba",
+      "level": "a1"
+    },
+    {
+      "en": "sibling",
+      "target": "kardeş",
+      "level": "a1"
+    },
+    {
+      "en": "older brother",
+      "target": "abi",
+      "level": "a1"
+    },
+    {
+      "en": "older sister",
+      "target": "abla",
+      "level": "a1"
+    },
+    {
+      "en": "brother",
+      "target": "erkek kardeş",
+      "level": "a1"
+    },
+    {
+      "en": "sister",
+      "target": "kız kardeş",
+      "level": "a1"
+    },
+    {
+      "en": "spouse",
+      "target": "eş",
+      "level": "b1"
+    },
+    {
+      "en": "husband",
+      "target": "koca",
+      "level": "a1"
+    },
+    {
+      "en": "wife",
+      "target": "karı",
+      "level": "a1"
+    },
+    {
+      "en": "son",
+      "target": "oğul",
+      "level": "a1"
+    },
+    {
+      "en": "girl / daughter",
+      "target": "kız",
+      "level": "a1"
+    },
+    {
+      "en": "child",
+      "target": "çocuk",
+      "level": "a1"
+    },
+    {
+      "en": "baby",
+      "target": "bebek",
+      "level": "a1"
+    },
+    {
+      "en": "friend",
+      "target": "arkadaş",
+      "level": "a1"
+    },
+    {
+      "en": "neighbor",
+      "target": "komşu",
+      "level": "a1"
+    },
+    {
+      "en": "person / human being",
+      "target": "insan",
+      "level": "a1"
+    },
+    {
+      "en": "man",
+      "target": "adam",
+      "level": "a1"
+    },
+    {
+      "en": "woman",
+      "target": "kadın",
+      "level": "a1"
+    },
+    {
+      "en": "person",
+      "target": "kişi",
+      "level": "a1"
+    }
+  ]
+}

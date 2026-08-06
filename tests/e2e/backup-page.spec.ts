@@ -28,6 +28,8 @@ test('carries the same corrected cards as the app', async ({ page }) => {
   expect(cards).toHaveLength(2093)
   // The accuracy review's corrections must be in the fallback too, or it would
   // sit there teaching the errors we removed.
+  // The fallback is the original single-file app, frozen: its cards still use
+  // the `pt` field this app has since renamed to `target`.
   const gloss = (pt: string) =>
     cards.find((c: { pt: string; en: string }) => c.pt === pt)?.en
   expect(gloss('dele')).toBe('of him / his')
@@ -36,7 +38,7 @@ test('carries the same corrected cards as the app', async ({ page }) => {
 })
 
 test('survives the service worker taking control', async ({ page, context }) => {
-  await page.goto('./')
+  await page.goto('./#/pt')
   await expect(page.locator('.card')).toBeVisible()
   await page.evaluate(() => navigator.serviceWorker.ready)
 

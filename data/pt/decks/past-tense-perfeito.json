@@ -1,0 +1,436 @@
+{
+  "deck": "Past Tense (Perfeito)",
+  "cards": [
+    {
+      "en": "I was",
+      "target": "eu fui",
+      "tense": "perfeito",
+      "sense": "permanent / identity",
+      "level": "a2"
+    },
+    {
+      "en": "you were",
+      "target": "tu foste",
+      "tense": "perfeito",
+      "tags": [
+        "informal"
+      ],
+      "sense": "permanent / identity",
+      "level": "a2"
+    },
+    {
+      "en": "he / she was",
+      "target": "ele / ela foi",
+      "tense": "perfeito",
+      "sense": "permanent / identity",
+      "level": "a2"
+    },
+    {
+      "en": "we were",
+      "target": "nós fomos",
+      "tense": "perfeito",
+      "sense": "permanent / identity",
+      "level": "a2"
+    },
+    {
+      "en": "they were",
+      "target": "eles / elas foram",
+      "tense": "perfeito",
+      "sense": "permanent / identity",
+      "level": "a2"
+    },
+    {
+      "en": "I was",
+      "target": "eu estive",
+      "tense": "perfeito",
+      "sense": "temporary / location",
+      "level": "a2"
+    },
+    {
+      "en": "you were",
+      "target": "tu estiveste",
+      "tense": "perfeito",
+      "tags": [
+        "informal"
+      ],
+      "sense": "temporary / location",
+      "level": "a2"
+    },
+    {
+      "en": "he / she was",
+      "target": "ele / ela esteve",
+      "tense": "perfeito",
+      "sense": "temporary / location",
+      "level": "a2"
+    },
+    {
+      "en": "we were",
+      "target": "nós estivemos",
+      "tense": "perfeito",
+      "sense": "temporary / location",
+      "level": "a2"
+    },
+    {
+      "en": "they were",
+      "target": "eles / elas estiveram",
+      "tense": "perfeito",
+      "sense": "temporary / location",
+      "level": "a2"
+    },
+    {
+      "en": "I had",
+      "target": "eu tive",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "you had",
+      "target": "tu tiveste",
+      "tense": "perfeito",
+      "tags": [
+        "informal"
+      ],
+      "level": "a2"
+    },
+    {
+      "en": "he / she had",
+      "target": "ele / ela teve",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "we had",
+      "target": "nós tivemos",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "they had",
+      "target": "eles / elas tiveram",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "I went",
+      "target": "eu fui",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "you went",
+      "target": "tu foste",
+      "tense": "perfeito",
+      "tags": [
+        "informal"
+      ],
+      "level": "a2"
+    },
+    {
+      "en": "he / she went",
+      "target": "ele / ela foi",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "we went",
+      "target": "nós fomos",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "they went",
+      "target": "eles / elas foram",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "I did",
+      "target": "eu fiz",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "you did",
+      "target": "tu fizeste",
+      "tense": "perfeito",
+      "tags": [
+        "informal"
+      ],
+      "level": "a2"
+    },
+    {
+      "en": "he / she did",
+      "target": "ele / ela fez",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "we did",
+      "target": "nós fizemos",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "they did",
+      "target": "eles / elas fizeram",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "I ate",
+      "target": "eu comi",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "you ate",
+      "target": "tu comeste",
+      "tense": "perfeito",
+      "tags": [
+        "informal"
+      ],
+      "level": "a2"
+    },
+    {
+      "en": "he / she ate",
+      "target": "ele / ela comeu",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "we ate",
+      "target": "nós comemos",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "they ate",
+      "target": "eles / elas comeram",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "I drank",
+      "target": "eu bebi",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "you drank",
+      "target": "tu bebeste",
+      "tense": "perfeito",
+      "tags": [
+        "informal"
+      ],
+      "level": "a2"
+    },
+    {
+      "en": "he / she drank",
+      "target": "ele / ela bebeu",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "we drank",
+      "target": "nós bebemos",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "they drank",
+      "target": "eles / elas beberam",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "I spoke",
+      "target": "eu falei",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "you spoke",
+      "target": "tu falaste",
+      "tense": "perfeito",
+      "tags": [
+        "informal"
+      ],
+      "level": "a2"
+    },
+    {
+      "en": "he / she spoke",
+      "target": "ele / ela falou",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "we spoke",
+      "target": "nós falámos",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "they spoke",
+      "target": "eles / elas falaram",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "I worked",
+      "target": "eu trabalhei",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "you worked",
+      "target": "tu trabalhaste",
+      "tense": "perfeito",
+      "tags": [
+        "informal"
+      ],
+      "level": "a2"
+    },
+    {
+      "en": "he / she worked",
+      "target": "ele / ela trabalhou",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "we worked",
+      "target": "nós trabalhámos",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "they worked",
+      "target": "eles / elas trabalharam",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "I saw",
+      "target": "eu vi",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "you saw",
+      "target": "tu viste",
+      "tense": "perfeito",
+      "tags": [
+        "informal"
+      ],
+      "level": "a2"
+    },
+    {
+      "en": "he / she saw",
+      "target": "ele / ela viu",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "we saw",
+      "target": "nós vimos",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "they saw",
+      "target": "eles / elas viram",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "I ate bread",
+      "target": "comi pão",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "I drank a coffee",
+      "target": "bebi um café",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "I worked yesterday",
+      "target": "trabalhei ontem",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "we went to the beach",
+      "target": "fomos à praia",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "she bought a book",
+      "target": "ela comprou um livro",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "I spoke with my friend",
+      "target": "falei com o meu amigo",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "did you like it?",
+      "target": "gostaste?",
+      "tags": [
+        "informal"
+      ],
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "they arrived late",
+      "target": "chegaram tarde",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "I slept well",
+      "target": "dormi bem",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "we saw the film",
+      "target": "vimos o filme",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "I was in Lisbon",
+      "target": "estive em Lisboa",
+      "sense": "temporary / location",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "it was very good",
+      "target": "foi muito bom",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "I bought this yesterday",
+      "target": "comprei isto ontem",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "what did you say?",
+      "target": "o que é que disseste?",
+      "tags": [
+        "informal"
+      ],
+      "tense": "perfeito",
+      "level": "a2"
+    }
+  ]
+}

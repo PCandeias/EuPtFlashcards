@@ -1,0 +1,791 @@
+{
+  "deck": "Basic Present Tense Phrases",
+  "cards": [
+    {
+      "en": "I am going",
+      "target": "eu estou a ir",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am coming",
+      "target": "eu estou a vir",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am eating",
+      "target": "eu estou a comer",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am drinking",
+      "target": "eu estou a beber",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am reading",
+      "target": "eu estou a ler",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am writing",
+      "target": "eu estou a escrever",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am working",
+      "target": "eu estou a trabalhar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am studying",
+      "target": "eu estou a estudar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am waiting",
+      "target": "eu estou a esperar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am speaking",
+      "target": "eu estou a falar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am listening",
+      "target": "eu estou a ouvir",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am looking",
+      "target": "eu estou a olhar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am calling",
+      "target": "eu estou a telefonar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am buying",
+      "target": "eu estou a comprar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am paying",
+      "target": "eu estou a pagar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am cooking",
+      "target": "eu estou a cozinhar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are going",
+      "target": "tu estás a ir",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are coming",
+      "target": "tu estás a vir",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are eating",
+      "target": "tu estás a comer",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are drinking",
+      "target": "tu estás a beber",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are reading",
+      "target": "tu estás a ler",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are writing",
+      "target": "tu estás a escrever",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are working",
+      "target": "tu estás a trabalhar",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are studying",
+      "target": "tu estás a estudar",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are waiting",
+      "target": "tu estás a esperar",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are speaking",
+      "target": "tu estás a falar",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are listening",
+      "target": "tu estás a ouvir",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are looking",
+      "target": "tu estás a olhar",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are calling",
+      "target": "tu estás a telefonar",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are buying",
+      "target": "tu estás a comprar",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are paying",
+      "target": "tu estás a pagar",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are cooking",
+      "target": "tu estás a cozinhar",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "he/she is going",
+      "target": "ele / ela está a ir",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "he/she is coming",
+      "target": "ele / ela está a vir",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "he/she is eating",
+      "target": "ele / ela está a comer",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "he/she is drinking",
+      "target": "ele / ela está a beber",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "he/she is reading",
+      "target": "ele / ela está a ler",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "he/she is writing",
+      "target": "ele / ela está a escrever",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "he/she is working",
+      "target": "ele / ela está a trabalhar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "he/she is studying",
+      "target": "ele / ela está a estudar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "he/she is waiting",
+      "target": "ele / ela está a esperar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "he/she is speaking",
+      "target": "ele / ela está a falar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "he/she is listening",
+      "target": "ele / ela está a ouvir",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "he/she is looking",
+      "target": "ele / ela está a olhar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "he/she is calling",
+      "target": "ele / ela está a telefonar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "he/she is buying",
+      "target": "ele / ela está a comprar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "he/she is paying",
+      "target": "ele / ela está a pagar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "he/she is cooking",
+      "target": "ele / ela está a cozinhar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "we are going",
+      "target": "nós estamos a ir",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "we are coming",
+      "target": "nós estamos a vir",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "we are drinking",
+      "target": "nós estamos a beber",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "we are reading",
+      "target": "nós estamos a ler",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "we are writing",
+      "target": "nós estamos a escrever",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "we are working",
+      "target": "nós estamos a trabalhar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "we are studying",
+      "target": "nós estamos a estudar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "we are waiting",
+      "target": "nós estamos a esperar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "we are speaking",
+      "target": "nós estamos a falar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "we are listening",
+      "target": "nós estamos a ouvir",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "we are looking",
+      "target": "nós estamos a olhar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "we are calling",
+      "target": "nós estamos a telefonar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "we are buying",
+      "target": "nós estamos a comprar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "we are paying",
+      "target": "nós estamos a pagar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "we are cooking",
+      "target": "nós estamos a cozinhar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are going",
+      "target": "vocês estão a ir",
+      "tags": [
+        "plural"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are coming",
+      "target": "vocês estão a vir",
+      "tags": [
+        "plural"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are eating",
+      "target": "vocês estão a comer",
+      "tags": [
+        "plural"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are drinking",
+      "target": "vocês estão a beber",
+      "tags": [
+        "plural"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are reading",
+      "target": "vocês estão a ler",
+      "tags": [
+        "plural"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are writing",
+      "target": "vocês estão a escrever",
+      "tags": [
+        "plural"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are working",
+      "target": "vocês estão a trabalhar",
+      "tags": [
+        "plural"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are studying",
+      "target": "vocês estão a estudar",
+      "tags": [
+        "plural"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are waiting",
+      "target": "vocês estão a esperar",
+      "tags": [
+        "plural"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are speaking",
+      "target": "vocês estão a falar",
+      "tags": [
+        "plural"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are listening",
+      "target": "vocês estão a ouvir",
+      "tags": [
+        "plural"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are looking",
+      "target": "vocês estão a olhar",
+      "tags": [
+        "plural"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are calling",
+      "target": "vocês estão a telefonar",
+      "tags": [
+        "plural"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are buying",
+      "target": "vocês estão a comprar",
+      "tags": [
+        "plural"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are paying",
+      "target": "vocês estão a pagar",
+      "tags": [
+        "plural"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "you are cooking",
+      "target": "vocês estão a cozinhar",
+      "tags": [
+        "plural"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "they are going",
+      "target": "eles / elas estão a ir",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "they are coming",
+      "target": "eles / elas estão a vir",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "they are eating",
+      "target": "eles / elas estão a comer",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "they are drinking",
+      "target": "eles / elas estão a beber",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "they are reading",
+      "target": "eles / elas estão a ler",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "they are writing",
+      "target": "eles / elas estão a escrever",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "they are working",
+      "target": "eles / elas estão a trabalhar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "they are studying",
+      "target": "eles / elas estão a estudar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "they are waiting",
+      "target": "eles / elas estão a esperar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "they are listening",
+      "target": "eles / elas estão a ouvir",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "they are looking",
+      "target": "eles / elas estão a olhar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "they are calling",
+      "target": "eles / elas estão a telefonar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "they are buying",
+      "target": "eles / elas estão a comprar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "they are paying",
+      "target": "eles / elas estão a pagar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "they are cooking",
+      "target": "eles / elas estão a cozinhar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am drinking water",
+      "target": "estou a beber água",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am drinking tea",
+      "target": "estou a beber chá",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am drinking coffee",
+      "target": "estou a beber café",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am eating bread",
+      "target": "estou a comer pão",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am eating an apple",
+      "target": "estou a comer uma maçã",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am watching television",
+      "target": "estou a ver televisão",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am using a mobile phone",
+      "target": "estou a usar o telemóvel",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am writing an email",
+      "target": "estou a escrever um e-mail",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am going to school",
+      "target": "vou para a escola",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "I am going home",
+      "target": "vou para casa",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "I am going to the supermarket",
+      "target": "vou ao supermercado",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "I am getting on the bus",
+      "target": "estou a entrar no autocarro",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am calling a taxi",
+      "target": "estou a chamar um táxi",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am buying a ticket",
+      "target": "estou a comprar um bilhete",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am paying",
+      "target": "estou a pagar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am calling you",
+      "target": "estou a telefonar-te / estou a ligar-lhe",
+      "tense": "presenteContinuo",
+      "level": "a2"
+    },
+    {
+      "en": "I am opening the door",
+      "target": "estou a abrir a porta",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am closing the window",
+      "target": "estou a fechar a janela",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am washing my hands",
+      "target": "estou a lavar as mãos",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am brushing my teeth",
+      "target": "estou a lavar os dentes",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am taking a shower",
+      "target": "estou a tomar duche",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    }
+  ]
+}

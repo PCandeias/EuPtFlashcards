@@ -13,9 +13,9 @@ export default defineConfig({
       registerType: 'prompt',
       includeAssets: ['apple-touch-icon.png'],
       manifest: {
-        name: 'European Portuguese Flashcards',
-        short_name: 'PT Flashcards',
-        description: 'European Portuguese vocabulary flashcards, offline.',
+        name: 'Portuguese & Turkish Flashcards',
+        short_name: 'Flashcards',
+        description: 'Portuguese and Turkish vocabulary flashcards, offline.',
         theme_color: '#0f172a',
         background_color: '#0f172a',
         display: 'standalone',

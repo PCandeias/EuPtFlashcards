@@ -1,5 +1,4 @@
 <script lang="ts">
-  import './styles/tokens.css'
   import TopBar from './components/TopBar.svelte'
   import CardView from './components/Card.svelte'
   import Controls from './components/Controls.svelte'
@@ -11,7 +10,6 @@
   import UpdatePrompt from './components/UpdatePrompt.svelte'
   import TypeAnswer from './components/TypeAnswer.svelte'
 
-  import { CARDS, DECKS } from './lib/cards/index.js'
   import { cardId } from './lib/cards/schema.js'
   import {
     dueCards, gradeCard, stateFor, stats, inSelectedTenses, type Progress,
@@ -25,26 +23,42 @@
   } from './lib/study/session.js'
   import {
     loadProgress, saveProgress, loadSettings, saveSettings,
-    loadHistory, saveHistory, type Settings,
+    loadHistory, saveHistory, keysFor, type Settings,
   } from './lib/storage/progress.js'
-  import { runMigration, migrateTenseScope } from './lib/storage/migrate.js'
   import {
     buildBackup, parseBackup, backupFilename, mergeProgress, mergeHistory,
   } from './lib/storage/backup.js'
   import { annotationsFor } from './lib/annotations/index.js'
+  import type { LanguageDef } from './lib/languages/types.js'
+  import { THEME_KEY } from './lib/router.js'
   import {
     loadReports, saveReports, reportCard, unreportCard, withoutReported,
     reportsAsText, reportsFilename, type Reports,
   } from './lib/storage/reports.js'
 
+  let { language, onleave }: {
+    language: LanguageDef
+    /** Back to the picker. */
+    onleave: () => void
+  } = $props()
+
+  // Everything below reads the language once. Root remounts this component when
+  // the language changes, so there is never a stale value to worry about.
+  /* svelte-ignore state_referenced_locally */
+  const deck = language
+  const Flag = deck.flag
+  const CARDS = deck.cards
+  const DECKS = deck.decks
+  // Every read and write goes through this language's keys, so nothing one
+  // language stores can be seen — or destroyed — by the other.
+  const keys = keysFor(deck.storagePrefix)
 
   // Runs before the first read, so a returning user's history is already in place.
-  const migration = runMigration(localStorage, CARDS)
-  migrateTenseScope(localStorage)
+  const migration = deck.migrate?.(localStorage) ?? null
 
-  let progress = $state<Progress>(loadProgress(localStorage))
-  let history = $state<History>(loadHistory(localStorage))
-  let settings = $state<Settings>(loadSettings(localStorage))
+  let progress = $state<Progress>(loadProgress(localStorage, keys))
+  let history = $state<History>(loadHistory(localStorage, keys))
+  let settings = $state<Settings>(loadSettings(localStorage, keys, deck))
   let flipped = $state(false)
   let now = $state(Date.now())
   let typing = $state(false)
@@ -52,7 +66,7 @@
   let settingsOpen = $state(false)
   let resetOpen = $state(false)
   let reportOpen = $state(false)
-  let reports = $state<Reports>(loadReports(localStorage))
+  let reports = $state<Reports>(loadReports(localStorage, keys))
   let backupMessage = $state('')
 
   // Counted after the tense filter, so the menu never promises cards the filter
@@ -111,10 +125,10 @@
 
   let current = $derived(currentCard(session))
   // In typing mode the answer is whatever the hidden face holds.
-  let answerText = $derived(current ? (settings.direction === 'a-b' ? current.pt : current.en) : '')
+  let answerText = $derived(current ? (settings.direction === 'a-b' ? current.target : current.en) : '')
   let currentState = $derived(current ? stateFor(progress, current) : undefined)
   // Whatever the registry has to say about this card, in registry order.
-  let annotations = $derived(current ? annotationsFor(current, { settings }) : [])
+  let annotations = $derived(current ? annotationsFor(current, language.annotations, { settings }) : [])
   // Closes itself if the card changes, or its kind stops having anything to say.
   let activeAnnotation = $derived(annotations.find(a => a.kind.id === openAnnotation))
 
@@ -134,9 +148,16 @@
   // bar match, which is the difference between installed and "a website".
   $effect(() => {
     document.documentElement.dataset.theme = settings.theme
+    localStorage.setItem(THEME_KEY, settings.theme)
     const meta = document.querySelector('meta[name="theme-color"]')
     const bar = getComputedStyle(document.documentElement).getPropertyValue('--status-bar').trim()
     if (meta && bar) meta.setAttribute('content', bar)
+  })
+
+  // The document belongs to whichever language is being studied.
+  $effect(() => {
+    document.documentElement.lang = language.locale
+    document.title = `${language.name} Flashcards`
   })
 
   let currentStreak = $derived(streak(history, now))
@@ -145,7 +166,7 @@
   function confirmReport() {
     if (!current) return
     reports = reportCard(reports, current, new Date().toISOString())
-    saveReports(localStorage, reports)
+    saveReports(localStorage, keys, reports)
     reportOpen = false
     // The card has just left the deck, so move on rather than sit on a gap.
     session = completeCurrent(session, false)
@@ -155,25 +176,25 @@
 
   function restoreReport(id: string) {
     reports = unreportCard(reports, id)
-    saveReports(localStorage, reports)
+    saveReports(localStorage, keys, reports)
     newSession()
   }
 
   function exportReports() {
     const at = new Date().toISOString()
-    const blob = new Blob([reportsAsText(reports, at)], { type: 'text/plain;charset=utf-8' })
+    const blob = new Blob([reportsAsText(reports, at, language.name)], { type: 'text/plain;charset=utf-8' })
     const url = URL.createObjectURL(blob)
     const link = document.createElement('a')
     link.href = url
-    link.download = reportsFilename(at)
+    link.download = reportsFilename(at, language.id)
     link.click()
     URL.revokeObjectURL(url)
   }
 
   function persist() {
-    saveProgress(localStorage, progress)
-    saveSettings(localStorage, settings)
-    saveHistory(localStorage, history)
+    saveProgress(localStorage, keys, progress)
+    saveSettings(localStorage, keys, language, settings)
+    saveHistory(localStorage, keys, history)
   }
 
   function move(delta: number) {
@@ -221,12 +242,12 @@
   // takes its data with it. This is the only way back.
   function exportBackup() {
     const exportedAt = new Date().toISOString()
-    const file = buildBackup(progress, settings, exportedAt, history, reports)
+    const file = buildBackup(language, progress, settings, exportedAt, history, reports)
     const blob = new Blob([JSON.stringify(file, null, 2)], { type: 'application/json' })
     const url = URL.createObjectURL(blob)
     const link = document.createElement('a')
     link.href = url
-    link.download = backupFilename(exportedAt)
+    link.download = backupFilename(exportedAt, language.id)
     link.click()
     URL.revokeObjectURL(url)
     backupMessage = `Exported ${Object.keys(progress).length} cards.`
@@ -234,13 +255,13 @@
 
   async function importBackup(file: File) {
     try {
-      const parsed = parseBackup(await file.text())
+      const parsed = parseBackup(await file.text(), language)
       // Additive: a restore should never lose ground you have since gained.
       progress = mergeProgress(progress, parsed.progress)
       history = mergeHistory(history, parsed.history)
       // Additive, like the rest of a restore.
       reports = { ...reports, ...parsed.reported }
-      saveReports(localStorage, reports)
+      saveReports(localStorage, keys, reports)
       now = Date.now()
       persist()
       backupMessage = `Restored ${Object.keys(parsed.progress).length} cards.`
@@ -273,7 +294,13 @@
 <div class="app">
   <header class="header">
     <div>
-      <h1>European Portuguese Flashcards</h1>
+      <h1>
+        <button class="switch" onclick={onleave} title="Choose another language">
+          <span class="flag"><Flag size={30} /></span>
+          <span class="visually-hidden">Choose another language</span>
+        </button>
+        {language.name} Flashcards
+      </h1>
       <p class="sub">
         {visibleTotal} cards across {deckOptions.length - 1} decks, scheduled by
         spaced repetition. Works offline.
@@ -291,6 +318,7 @@
 
   <TopBar
     {settings}
+    {language}
     {deckOptions}
     {typing}
     onchange={changeSettings}
@@ -315,6 +343,7 @@
       <div class="cardarea">
       <CardView
         card={current}
+        {language}
         direction={settings.direction}
         {flipped}
         {annotations}
@@ -369,6 +398,7 @@
   <SettingsPanel
     open={settingsOpen}
     {settings}
+    {language}
     {reports}
     onrestorereport={restoreReport}
     onexportreports={exportReports}
@@ -397,6 +427,27 @@
 
 <style>
   .header { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; }
+  /* The flag doubles as the way back to the picker: it is already the thing that
+     says which language you are in. */
+  .switch {
+    padding: 0 8px 0 0;
+    border: 0;
+    background: none;
+    font: inherit;
+    line-height: 1;
+    cursor: pointer;
+    vertical-align: baseline;
+  }
+  .switch:hover, .switch:focus-visible { filter: brightness(1.15); }
+  .flag { display: inline-block; vertical-align: -0.12em; line-height: 0; }
+  .visually-hidden {
+    position: absolute;
+    width: 1px; height: 1px;
+    padding: 0; margin: -1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
   h1 { margin: 0 0 4px; font-size: clamp(24px, 4vw, 42px); line-height: 1; letter-spacing: -0.04em; }
   .sub { margin: 0; color: var(--muted); line-height: 1.4; font-size: 14px; }
   /* The card row is the only flexible one; min-height:0 lets it actually shrink

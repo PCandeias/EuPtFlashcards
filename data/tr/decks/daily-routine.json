@@ -1,0 +1,126 @@
+{
+  "deck": "Daily Routine",
+  "cards": [
+    {
+      "en": "to take a shower",
+      "target": "duş almak",
+      "level": "a2"
+    },
+    {
+      "en": "to brush teeth",
+      "target": "diş fırçalamak",
+      "level": "a2"
+    },
+    {
+      "en": "to get dressed",
+      "target": "giyinmek",
+      "level": "a2"
+    },
+    {
+      "en": "to have breakfast",
+      "target": "kahvaltı yapmak",
+      "level": "a2"
+    },
+    {
+      "en": "to go to work",
+      "target": "işe gitmek",
+      "level": "a1"
+    },
+    {
+      "en": "to go to school",
+      "target": "okula gitmek",
+      "level": "a1"
+    },
+    {
+      "en": "to have lunch",
+      "target": "öğle yemeği yemek",
+      "level": "a2"
+    },
+    {
+      "en": "to return home",
+      "target": "eve dönmek",
+      "level": "a2"
+    },
+    {
+      "en": "to shop",
+      "target": "alışveriş yapmak",
+      "level": "a2"
+    },
+    {
+      "en": "to cook",
+      "target": "yemek yapmak",
+      "level": "a2"
+    },
+    {
+      "en": "to have dinner",
+      "target": "akşam yemeği yemek",
+      "level": "a2"
+    },
+    {
+      "en": "to watch TV",
+      "target": "televizyon izlemek",
+      "level": "a2"
+    },
+    {
+      "en": "to read a book",
+      "target": "kitap okumak",
+      "level": "a2"
+    },
+    {
+      "en": "to listen to music",
+      "target": "müzik dinlemek",
+      "level": "a2"
+    },
+    {
+      "en": "to do sports",
+      "target": "spor yapmak",
+      "level": "a2"
+    },
+    {
+      "en": "to take a walk",
+      "target": "yürüyüş yapmak",
+      "level": "a2"
+    },
+    {
+      "en": "to rest",
+      "target": "dinlenmek",
+      "level": "a2"
+    },
+    {
+      "en": "I get up every morning",
+      "target": "Her sabah kalkıyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I am having breakfast",
+      "target": "Kahvaltı yapıyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I am going to work",
+      "target": "İşe gidiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I am returning home",
+      "target": "Eve dönüyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I am cooking",
+      "target": "Yemek yapıyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I am reading a book",
+      "target": "Kitap okuyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    }
+  ]
+}

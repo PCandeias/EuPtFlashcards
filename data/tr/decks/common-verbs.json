@@ -1,0 +1,332 @@
+{
+  "deck": "Common Verbs",
+  "cards": [
+    {
+      "en": "to be / to become",
+      "target": "olmak",
+      "level": "a1"
+    },
+    {
+      "en": "there is / I have",
+      "target": "var",
+      "level": "a1"
+    },
+    {
+      "en": "there is not / I do not have",
+      "target": "yok",
+      "level": "a1"
+    },
+    {
+      "en": "to want",
+      "target": "istemek",
+      "level": "a1"
+    },
+    {
+      "en": "to take / to buy",
+      "target": "almak",
+      "level": "a1"
+    },
+    {
+      "en": "to give",
+      "target": "vermek",
+      "level": "a1"
+    },
+    {
+      "en": "to go",
+      "target": "gitmek",
+      "level": "a1"
+    },
+    {
+      "en": "to come",
+      "target": "gelmek",
+      "level": "a1"
+    },
+    {
+      "en": "to eat",
+      "target": "yemek",
+      "level": "a1",
+      "sense": "the verb"
+    },
+    {
+      "en": "to drink",
+      "target": "içmek",
+      "level": "a1"
+    },
+    {
+      "en": "to speak",
+      "target": "konuşmak",
+      "level": "a1"
+    },
+    {
+      "en": "to understand",
+      "target": "anlamak",
+      "level": "a1"
+    },
+    {
+      "en": "to know",
+      "target": "bilmek",
+      "level": "a1"
+    },
+    {
+      "en": "to see",
+      "target": "görmek",
+      "level": "a1"
+    },
+    {
+      "en": "to look",
+      "target": "bakmak",
+      "level": "a1"
+    },
+    {
+      "en": "to read / to study",
+      "target": "okumak",
+      "level": "a1"
+    },
+    {
+      "en": "to write",
+      "target": "yazmak",
+      "level": "a1"
+    },
+    {
+      "en": "to work / to study",
+      "target": "çalışmak",
+      "level": "a1"
+    },
+    {
+      "en": "to sleep",
+      "target": "uyumak",
+      "level": "a1"
+    },
+    {
+      "en": "to open",
+      "target": "açmak",
+      "level": "a1"
+    },
+    {
+      "en": "to close",
+      "target": "kapatmak",
+      "level": "a1"
+    },
+    {
+      "en": "to wait",
+      "target": "beklemek",
+      "level": "a1"
+    },
+    {
+      "en": "to like / to love",
+      "target": "sevmek",
+      "level": "a1"
+    },
+    {
+      "en": "to live",
+      "target": "yaşamak",
+      "level": "a1"
+    },
+    {
+      "en": "to sit / to live somewhere",
+      "target": "oturmak",
+      "level": "a1"
+    },
+    {
+      "en": "to listen",
+      "target": "dinlemek",
+      "level": "a1"
+    },
+    {
+      "en": "to watch",
+      "target": "izlemek",
+      "level": "a1"
+    },
+    {
+      "en": "to do / to make",
+      "target": "yapmak",
+      "level": "a1"
+    },
+    {
+      "en": "to find",
+      "target": "bulmak",
+      "level": "a1"
+    },
+    {
+      "en": "to ask",
+      "target": "sormak",
+      "level": "a1"
+    },
+    {
+      "en": "to do",
+      "target": "etmek",
+      "level": "b1",
+      "sense": "auxiliary — makes verbs of nouns"
+    },
+    {
+      "en": "to hear",
+      "target": "duymak",
+      "level": "a2"
+    },
+    {
+      "en": "to say / to tell",
+      "target": "söylemek",
+      "level": "a1"
+    },
+    {
+      "en": "to say / to mean",
+      "target": "demek",
+      "level": "a1"
+    },
+    {
+      "en": "to learn",
+      "target": "öğrenmek",
+      "level": "a2"
+    },
+    {
+      "en": "to teach",
+      "target": "öğretmek",
+      "level": "a2"
+    },
+    {
+      "en": "to start",
+      "target": "başlamak",
+      "level": "a2"
+    },
+    {
+      "en": "to finish / to end",
+      "target": "bitmek",
+      "level": "a2"
+    },
+    {
+      "en": "to like / to appreciate",
+      "target": "beğenmek",
+      "level": "a1"
+    },
+    {
+      "en": "to cook",
+      "target": "pişirmek",
+      "level": "a2"
+    },
+    {
+      "en": "to wake up",
+      "target": "uyanmak",
+      "level": "a2"
+    },
+    {
+      "en": "to get up",
+      "target": "kalkmak",
+      "level": "a2"
+    },
+    {
+      "en": "to run",
+      "target": "koşmak",
+      "level": "a2"
+    },
+    {
+      "en": "to stop / to stand",
+      "target": "durmak",
+      "level": "a2"
+    },
+    {
+      "en": "to turn / to return",
+      "target": "dönmek",
+      "level": "a2"
+    },
+    {
+      "en": "to get on / to ride",
+      "target": "binmek",
+      "level": "a2"
+    },
+    {
+      "en": "to get off / to go down",
+      "target": "inmek",
+      "level": "a2"
+    },
+    {
+      "en": "to drive / to last",
+      "target": "sürmek",
+      "level": "a2"
+    },
+    {
+      "en": "to use",
+      "target": "kullanmak",
+      "level": "a2"
+    },
+    {
+      "en": "to call / to search for",
+      "target": "aramak",
+      "level": "a2"
+    },
+    {
+      "en": "to lose",
+      "target": "kaybetmek",
+      "level": "a2"
+    },
+    {
+      "en": "to forget",
+      "target": "unutmak",
+      "level": "a2"
+    },
+    {
+      "en": "to remember",
+      "target": "hatırlamak",
+      "level": "a2"
+    },
+    {
+      "en": "to help",
+      "target": "yardım etmek",
+      "level": "a2"
+    },
+    {
+      "en": "to bring",
+      "target": "getirmek",
+      "level": "a2"
+    },
+    {
+      "en": "to take away / to take someone",
+      "target": "götürmek",
+      "level": "a2"
+    },
+    {
+      "en": "to put",
+      "target": "koymak",
+      "level": "a2"
+    },
+    {
+      "en": "to remove / to take out",
+      "target": "çıkarmak",
+      "level": "a2"
+    },
+    {
+      "en": "to clean",
+      "target": "temizlemek",
+      "level": "a2"
+    },
+    {
+      "en": "to wash",
+      "target": "yıkamak",
+      "level": "a2"
+    },
+    {
+      "en": "to pay",
+      "target": "ödemek",
+      "level": "a2"
+    },
+    {
+      "en": "to buy",
+      "target": "satın almak",
+      "level": "a1"
+    },
+    {
+      "en": "to sell",
+      "target": "satmak",
+      "level": "a2"
+    },
+    {
+      "en": "to ache / to hurt",
+      "target": "ağrımak",
+      "level": "a2"
+    },
+    {
+      "en": "to pass / to go through",
+      "target": "geçmek",
+      "level": "a2"
+    }
+  ]
+}

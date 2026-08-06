@@ -11,15 +11,14 @@
  */
 import type { Card } from '../cards/schema.js'
 import { cardId } from '../cards/schema.js'
-import type { StorageLike } from './progress.js'
+import type { Keys, StorageLike } from './progress.js'
 
-export const REPORTS_KEY = 'eupt:v4:reported'
 
 export interface Report {
   id: string
   deck: string
   en: string
-  pt: string
+  target: string
   /** ISO timestamp, so an export can say when it was noticed. */
   at: string
 }
@@ -32,7 +31,7 @@ function isReport(value: unknown): value is Report {
   return typeof v.id === 'string'
     && typeof v.deck === 'string'
     && typeof v.en === 'string'
-    && typeof v.pt === 'string'
+    && typeof v.target === 'string'
     && typeof v.at === 'string'
 }
 
@@ -45,8 +44,8 @@ export function sanitizeReports(value: unknown): Reports {
   return out
 }
 
-export function loadReports(storage: StorageLike): Reports {
-  const raw = storage.getItem(REPORTS_KEY)
+export function loadReports(storage: StorageLike, keys: Keys): Reports {
+  const raw = storage.getItem(keys.reported)
   if (raw == null) return {}
   try {
     return sanitizeReports(JSON.parse(raw))
@@ -56,13 +55,13 @@ export function loadReports(storage: StorageLike): Reports {
   }
 }
 
-export function saveReports(storage: StorageLike, reports: Reports): void {
-  storage.setItem(REPORTS_KEY, JSON.stringify(reports))
+export function saveReports(storage: StorageLike, keys: Keys, reports: Reports): void {
+  storage.setItem(keys.reported, JSON.stringify(reports))
 }
 
 export function reportCard(reports: Reports, card: Card, at: string): Reports {
   const id = cardId(card)
-  return { ...reports, [id]: { id, deck: card.deck, en: card.en, pt: card.pt, at } }
+  return { ...reports, [id]: { id, deck: card.deck, en: card.en, target: card.target, at } }
 }
 
 export function unreportCard(reports: Reports, id: string): Reports {
@@ -88,21 +87,23 @@ export function reportList(reports: Reports): Report[] {
  * A plain-text report, meant to be pasted somewhere and acted on. Deliberately
  * readable rather than machine-shaped: it is for a person fixing cards.
  */
-export function reportsAsText(reports: Reports, exportedAt: string): string {
+export function reportsAsText(
+  reports: Reports, exportedAt: string, languageName: string,
+): string {
   const list = reportList(reports)
   const lines = [
-    'European Portuguese Flashcards — cards reported as incorrect',
+    `${languageName} Flashcards — cards reported as incorrect`,
     `Exported ${exportedAt.slice(0, 10)}`,
     `${list.length} card${list.length === 1 ? '' : 's'}`,
     '',
   ]
   for (const r of list) {
-    lines.push(`[${r.deck}] ${r.en} = ${r.pt}`)
+    lines.push(`[${r.deck}] ${r.en} = ${r.target}`)
     lines.push(`    reported ${r.at.slice(0, 10)}`)
   }
   return lines.join('\n') + '\n'
 }
 
-export function reportsFilename(exportedAt: string): string {
-  return `eu-pt-flashcards-reported-${exportedAt.slice(0, 10)}.txt`
+export function reportsFilename(exportedAt: string, languageId: string): string {
+  return `flashcards-${languageId}-reported-${exportedAt.slice(0, 10)}.txt`
 }

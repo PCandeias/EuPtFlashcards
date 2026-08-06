@@ -1,0 +1,241 @@
+{
+  "deck": "Adjectives & Opposites",
+  "cards": [
+    {
+      "en": "good",
+      "target": "bom / boa",
+      "level": "a1"
+    },
+    {
+      "en": "bad",
+      "target": "mau / má",
+      "level": "a1"
+    },
+    {
+      "en": "beautiful / nice",
+      "target": "bonito / bonita",
+      "level": "a1"
+    },
+    {
+      "en": "ugly",
+      "target": "feio / feia",
+      "level": "a1"
+    },
+    {
+      "en": "big",
+      "target": "grande",
+      "level": "a1"
+    },
+    {
+      "en": "small",
+      "target": "pequeno / pequena",
+      "level": "a1"
+    },
+    {
+      "en": "long / tall",
+      "target": "comprido / alto",
+      "level": "a1"
+    },
+    {
+      "en": "short",
+      "target": "curto / baixo",
+      "level": "a1"
+    },
+    {
+      "en": "young",
+      "target": "jovem",
+      "level": "a1"
+    },
+    {
+      "en": "elderly",
+      "target": "idoso / idosa",
+      "level": "a2"
+    },
+    {
+      "en": "warm",
+      "target": "morno / morna",
+      "level": "a2"
+    },
+    {
+      "en": "cool",
+      "target": "fresco / fresca",
+      "level": "a1"
+    },
+    {
+      "en": "easy",
+      "target": "fácil",
+      "level": "a1"
+    },
+    {
+      "en": "difficult",
+      "target": "difícil",
+      "level": "a1"
+    },
+    {
+      "en": "fast",
+      "target": "rápido / rápida",
+      "level": "a1"
+    },
+    {
+      "en": "slow",
+      "target": "lento / lenta",
+      "level": "a1"
+    },
+    {
+      "en": "rich",
+      "target": "rico / rica",
+      "level": "a2"
+    },
+    {
+      "en": "poor",
+      "target": "pobre",
+      "level": "a2"
+    },
+    {
+      "en": "heavy",
+      "target": "pesado / pesada",
+      "level": "a2"
+    },
+    {
+      "en": "light",
+      "target": "leve",
+      "sense": "not heavy",
+      "level": "a1"
+    },
+    {
+      "en": "correct",
+      "target": "certo / certa",
+      "level": "a1"
+    },
+    {
+      "en": "wrong",
+      "target": "errado / errada",
+      "level": "a1"
+    },
+    {
+      "en": "happy",
+      "target": "feliz",
+      "level": "a1"
+    },
+    {
+      "en": "sad",
+      "target": "triste",
+      "level": "a1"
+    },
+    {
+      "en": "angry",
+      "target": "zangado / zangada",
+      "level": "a1"
+    },
+    {
+      "en": "calm",
+      "target": "calmo / calma",
+      "level": "a1"
+    },
+    {
+      "en": "ready",
+      "target": "pronto / pronta",
+      "level": "a1"
+    },
+    {
+      "en": "busy",
+      "target": "ocupado / ocupada",
+      "level": "a1"
+    },
+    {
+      "en": "free / available",
+      "target": "livre",
+      "level": "a1"
+    },
+    {
+      "en": "dangerous",
+      "target": "perigoso / perigosa",
+      "level": "a2"
+    },
+    {
+      "en": "safe",
+      "target": "seguro / segura",
+      "level": "a1"
+    },
+    {
+      "en": "important",
+      "target": "importante",
+      "level": "a1"
+    },
+    {
+      "en": "unimportant",
+      "target": "pouco importante",
+      "level": "a2"
+    },
+    {
+      "en": "same",
+      "target": "igual",
+      "level": "a1"
+    },
+    {
+      "en": "different",
+      "target": "diferente",
+      "level": "a1"
+    },
+    {
+      "en": "possible",
+      "target": "possível",
+      "level": "a2"
+    },
+    {
+      "en": "impossible",
+      "target": "impossível",
+      "level": "a2"
+    },
+    {
+      "en": "normal",
+      "target": "normal",
+      "level": "a1"
+    },
+    {
+      "en": "strange",
+      "target": "estranho / estranha",
+      "level": "a2"
+    },
+    {
+      "en": "quiet",
+      "target": "silencioso / silenciosa",
+      "level": "a2"
+    },
+    {
+      "en": "noisy",
+      "target": "barulhento / barulhenta",
+      "level": "a2"
+    },
+    {
+      "en": "dark",
+      "target": "escuro / escura",
+      "level": "a1"
+    },
+    {
+      "en": "bright",
+      "target": "claro / clara",
+      "level": "a1"
+    },
+    {
+      "en": "hard",
+      "target": "duro / dura",
+      "level": "a2"
+    },
+    {
+      "en": "soft",
+      "target": "macio / macia",
+      "level": "a2"
+    },
+    {
+      "en": "dry",
+      "target": "seco / seca",
+      "level": "a1"
+    },
+    {
+      "en": "wet",
+      "target": "molhado / molhada",
+      "level": "a2"
+    }
+  ]
+}

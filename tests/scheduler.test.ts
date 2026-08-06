@@ -8,8 +8,8 @@ import type { Card } from '../src/lib/cards/schema.js'
 
 const NOW = 1_700_000_000_000
 const noFuzz = () => 0.5
-const a: Card = { deck: 'D', en: 'a', pt: 'aa' }
-const b: Card = { deck: 'D', en: 'b', pt: 'bb' }
+const a: Card = { deck: 'D', en: 'a', target: 'aa' }
+const b: Card = { deck: 'D', en: 'b', target: 'bb' }
 
 describe('stateFor', () => {
   it('gives an unseen card a fresh state', () => {
@@ -134,11 +134,11 @@ describe('orderKey', () => {
 })
 
 describe('inSelectedTenses', () => {
-  const noun: Card = { deck: 'D', en: 'house', pt: 'a casa' }
-  const infinitive: Card = { deck: 'D', en: 'to eat', pt: 'comer' }
-  const present: Card = { deck: 'D', en: 'I eat', pt: 'eu como', tense: 'presente' }
+  const noun: Card = { deck: 'D', en: 'house', target: 'a casa' }
+  const infinitive: Card = { deck: 'D', en: 'to eat', target: 'comer' }
+  const present: Card = { deck: 'D', en: 'I eat', target: 'eu como', tense: 'presente' }
   const continuous: Card = {
-    deck: 'D', en: 'I am eating', pt: 'estou a comer', tense: 'presenteContinuo',
+    deck: 'D', en: 'I am eating', target: 'estou a comer', tense: 'presenteContinuo',
   }
 
   // The point of the feature: unticking a tense removes its conjugated forms.

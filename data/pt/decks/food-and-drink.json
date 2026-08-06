@@ -1,0 +1,420 @@
+{
+  "deck": "Food & Drink",
+  "cards": [
+    {
+      "en": "food / meal",
+      "target": "a comida / a refeição",
+      "level": "a1"
+    },
+    {
+      "en": "drink",
+      "target": "a bebida",
+      "level": "a1"
+    },
+    {
+      "en": "water",
+      "target": "a água",
+      "level": "a1"
+    },
+    {
+      "en": "tea",
+      "target": "o chá",
+      "level": "a1"
+    },
+    {
+      "en": "coffee",
+      "target": "o café",
+      "level": "a1"
+    },
+    {
+      "en": "milk",
+      "target": "o leite",
+      "level": "a1"
+    },
+    {
+      "en": "juice",
+      "target": "o sumo",
+      "level": "a1"
+    },
+    {
+      "en": "orange juice",
+      "target": "o sumo de laranja",
+      "level": "a1"
+    },
+    {
+      "en": "lemonade",
+      "target": "a limonada",
+      "level": "a1"
+    },
+    {
+      "en": "beer",
+      "target": "a cerveja",
+      "level": "a1"
+    },
+    {
+      "en": "wine",
+      "target": "o vinho",
+      "level": "a1"
+    },
+    {
+      "en": "bread",
+      "target": "o pão",
+      "level": "a1"
+    },
+    {
+      "en": "toast",
+      "target": "a torrada",
+      "level": "a1"
+    },
+    {
+      "en": "butter",
+      "target": "a manteiga",
+      "level": "a1"
+    },
+    {
+      "en": "cheese",
+      "target": "o queijo",
+      "level": "a1"
+    },
+    {
+      "en": "yogurt",
+      "target": "o iogurte",
+      "level": "a1"
+    },
+    {
+      "en": "egg",
+      "target": "o ovo",
+      "level": "a1"
+    },
+    {
+      "en": "honey",
+      "target": "o mel",
+      "level": "a2"
+    },
+    {
+      "en": "jam",
+      "target": "o doce / a compota",
+      "level": "a1"
+    },
+    {
+      "en": "sugar",
+      "target": "o açúcar",
+      "level": "a1"
+    },
+    {
+      "en": "salt",
+      "target": "o sal",
+      "level": "a1"
+    },
+    {
+      "en": "pepper",
+      "target": "a pimenta",
+      "level": "a1"
+    },
+    {
+      "en": "olive oil",
+      "target": "o azeite",
+      "level": "a2"
+    },
+    {
+      "en": "olive",
+      "target": "a azeitona",
+      "level": "a1"
+    },
+    {
+      "en": "rice",
+      "target": "o arroz",
+      "level": "a1"
+    },
+    {
+      "en": "pasta",
+      "target": "a massa",
+      "level": "a1"
+    },
+    {
+      "en": "soup",
+      "target": "a sopa",
+      "level": "a1"
+    },
+    {
+      "en": "salad",
+      "target": "a salada",
+      "level": "a1"
+    },
+    {
+      "en": "meat",
+      "target": "a carne",
+      "level": "a1"
+    },
+    {
+      "en": "chicken",
+      "target": "o frango",
+      "level": "a1"
+    },
+    {
+      "en": "fish",
+      "target": "o peixe",
+      "level": "a1"
+    },
+    {
+      "en": "beef",
+      "target": "a carne de vaca",
+      "level": "a1"
+    },
+    {
+      "en": "pork",
+      "target": "a carne de porco",
+      "level": "a1"
+    },
+    {
+      "en": "sausage",
+      "target": "a salsicha",
+      "level": "a2"
+    },
+    {
+      "en": "ham",
+      "target": "o fiambre",
+      "level": "a2"
+    },
+    {
+      "en": "vegetable",
+      "target": "o legume",
+      "level": "a1"
+    },
+    {
+      "en": "vegetables",
+      "target": "os legumes",
+      "level": "a1"
+    },
+    {
+      "en": "fruit",
+      "target": "a fruta",
+      "level": "a1"
+    },
+    {
+      "en": "apple",
+      "target": "a maçã",
+      "level": "a1"
+    },
+    {
+      "en": "pear",
+      "target": "a pera",
+      "level": "a1"
+    },
+    {
+      "en": "banana",
+      "target": "a banana",
+      "level": "a1"
+    },
+    {
+      "en": "orange",
+      "target": "a laranja",
+      "level": "a1"
+    },
+    {
+      "en": "tangerine",
+      "target": "a tangerina",
+      "level": "a2"
+    },
+    {
+      "en": "lemon",
+      "target": "o limão",
+      "level": "a1"
+    },
+    {
+      "en": "strawberry",
+      "target": "o morango",
+      "level": "a1"
+    },
+    {
+      "en": "grape",
+      "target": "a uva",
+      "level": "a1"
+    },
+    {
+      "en": "watermelon",
+      "target": "a melancia",
+      "level": "a1"
+    },
+    {
+      "en": "melon",
+      "target": "o melão",
+      "level": "a2"
+    },
+    {
+      "en": "peach",
+      "target": "o pêssego",
+      "level": "a2"
+    },
+    {
+      "en": "cherry",
+      "target": "a cereja",
+      "level": "a2"
+    },
+    {
+      "en": "tomato",
+      "target": "o tomate",
+      "level": "a1"
+    },
+    {
+      "en": "cucumber",
+      "target": "o pepino",
+      "level": "a2"
+    },
+    {
+      "en": "potato",
+      "target": "a batata",
+      "level": "a1"
+    },
+    {
+      "en": "onion",
+      "target": "a cebola",
+      "level": "a1"
+    },
+    {
+      "en": "garlic",
+      "target": "o alho",
+      "level": "a1"
+    },
+    {
+      "en": "carrot",
+      "target": "a cenoura",
+      "level": "a1"
+    },
+    {
+      "en": "pepper vegetable",
+      "target": "o pimento",
+      "level": "a2"
+    },
+    {
+      "en": "lettuce",
+      "target": "a alface",
+      "level": "a1"
+    },
+    {
+      "en": "cabbage",
+      "target": "a couve",
+      "level": "a2"
+    },
+    {
+      "en": "beans",
+      "target": "o feijão",
+      "level": "a1"
+    },
+    {
+      "en": "peas",
+      "target": "as ervilhas",
+      "level": "a2"
+    },
+    {
+      "en": "lentils",
+      "target": "as lentilhas",
+      "level": "a2"
+    },
+    {
+      "en": "chickpeas",
+      "target": "o grão-de-bico",
+      "level": "a2"
+    },
+    {
+      "en": "mushroom",
+      "target": "o cogumelo",
+      "level": "a2"
+    },
+    {
+      "en": "dessert",
+      "target": "a sobremesa",
+      "level": "a2"
+    },
+    {
+      "en": "cake",
+      "target": "o bolo",
+      "level": "a1"
+    },
+    {
+      "en": "ice cream",
+      "target": "o gelado",
+      "level": "a1"
+    },
+    {
+      "en": "chocolate",
+      "target": "o chocolate",
+      "level": "a1"
+    },
+    {
+      "en": "cookie / biscuit",
+      "target": "a bolacha",
+      "level": "a1"
+    },
+    {
+      "en": "breakfast",
+      "target": "o pequeno-almoço",
+      "level": "a1"
+    },
+    {
+      "en": "lunch",
+      "target": "o almoço",
+      "level": "a1"
+    },
+    {
+      "en": "dinner",
+      "target": "o jantar",
+      "level": "a1"
+    },
+    {
+      "en": "snack",
+      "target": "o lanche",
+      "level": "a2"
+    },
+    {
+      "en": "hungry",
+      "target": "com fome",
+      "level": "a1"
+    },
+    {
+      "en": "thirsty",
+      "target": "com sede",
+      "level": "a1"
+    },
+    {
+      "en": "delicious",
+      "target": "delicioso / deliciosa",
+      "level": "a2"
+    },
+    {
+      "en": "spicy",
+      "target": "picante",
+      "level": "a2"
+    },
+    {
+      "en": "sweet",
+      "target": "doce",
+      "level": "a1"
+    },
+    {
+      "en": "salty",
+      "target": "salgado / salgada",
+      "level": "a2"
+    },
+    {
+      "en": "sour",
+      "target": "azedo / azeda",
+      "level": "a2"
+    },
+    {
+      "en": "hot",
+      "target": "quente",
+      "level": "a1"
+    },
+    {
+      "en": "cold",
+      "target": "frio / fria",
+      "level": "a1"
+    },
+    {
+      "en": "fresh",
+      "target": "fresco / fresca",
+      "level": "a1"
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "deck": "Common Sentence Patterns",
+  "cards": [
+    {
+      "en": "I am going",
+      "target": "Ben gidiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "are you coming?",
+      "target": "Sen geliyor musun?",
+      "tags": [
+        "informal"
+      ],
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "he / she is working",
+      "target": "O çalışıyor",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "we are eating",
+      "target": "Biz yemek yiyoruz",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "are you waiting?",
+      "target": "Siz bekliyor musunuz?",
+      "tags": [
+        "formal",
+        "plural"
+      ],
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "they are speaking",
+      "target": "Onlar konuşuyor",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I do not know",
+      "target": "Ben bilmiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I understand",
+      "target": "Ben anlıyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I do not understand",
+      "target": "Ben anlamıyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I want",
+      "target": "Ben istiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I do not want",
+      "target": "Ben istemiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I want to go",
+      "target": "Gitmek istiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I want to eat",
+      "target": "Yemek istiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I want to drink water",
+      "target": "Su içmek istiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I want to sleep",
+      "target": "Uyumak istiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I want to go home",
+      "target": "Eve gitmek istiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I want to buy this",
+      "target": "Bunu almak istiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I do not want this",
+      "target": "Bunu istemiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I speak English",
+      "target": "İngilizce konuşuyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I speak Portuguese",
+      "target": "Portekizce konuşuyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I do not speak Turkish",
+      "target": "Türkçe konuşmuyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I am working today",
+      "target": "Bugün çalışıyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I am not working tomorrow",
+      "target": "Yarın çalışmıyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I came yesterday",
+      "target": "Dün geldim",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "I will come tomorrow",
+      "target": "Yarın geleceğim",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "I am going now",
+      "target": "Şimdi gidiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I will call later",
+      "target": "Sonra ararım",
+      "tense": "genis",
+      "level": "a2"
+    },
+    {
+      "en": "I am waiting for you",
+      "target": "Seni bekliyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "where do you live?",
+      "target": "Nerede yaşıyorsun?",
+      "tags": [
+        "informal"
+      ],
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "how do I do this?",
+      "target": "Bunu nasıl yaparım?",
+      "tense": "genis",
+      "level": "a2"
+    },
+    {
+      "en": "may I sit here?",
+      "target": "Burada oturabilir miyim?",
+      "level": "a1"
+    },
+    {
+      "en": "may I take a photo?",
+      "target": "Fotoğraf çekebilir miyim?",
+      "level": "a2"
+    },
+    {
+      "en": "can you wait one minute?",
+      "target": "Bir dakika bekler misiniz?",
+      "tags": [
+        "formal"
+      ],
+      "tense": "genis",
+      "level": "a2"
+    },
+    {
+      "en": "can you say it again?",
+      "target": "Tekrar söyleyebilir misiniz?",
+      "tags": [
+        "formal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "can you write it?",
+      "target": "Yazabilir misiniz?",
+      "tags": [
+        "formal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "can you show it?",
+      "target": "Gösterebilir misiniz?",
+      "tags": [
+        "formal"
+      ],
+      "level": "a1"
+    }
+  ]
+}

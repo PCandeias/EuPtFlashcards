@@ -1,0 +1,408 @@
+{
+  "deck": "Future Tense (Futuro)",
+  "cards": [
+    {
+      "en": "I will be",
+      "target": "eu serei",
+      "tense": "futuro",
+      "sense": "permanent / identity",
+      "level": "b1"
+    },
+    {
+      "en": "you will be",
+      "target": "tu serás",
+      "tense": "futuro",
+      "tags": [
+        "informal"
+      ],
+      "sense": "permanent / identity",
+      "level": "b1"
+    },
+    {
+      "en": "he / she will be",
+      "target": "ele / ela será",
+      "tense": "futuro",
+      "sense": "permanent / identity",
+      "level": "b1"
+    },
+    {
+      "en": "we will be",
+      "target": "nós seremos",
+      "tense": "futuro",
+      "sense": "permanent / identity",
+      "level": "b1"
+    },
+    {
+      "en": "they will be",
+      "target": "eles / elas serão",
+      "tense": "futuro",
+      "sense": "permanent / identity",
+      "level": "b1"
+    },
+    {
+      "en": "I will be",
+      "target": "eu estarei",
+      "tense": "futuro",
+      "sense": "temporary / location",
+      "level": "b1"
+    },
+    {
+      "en": "you will be",
+      "target": "tu estarás",
+      "tense": "futuro",
+      "tags": [
+        "informal"
+      ],
+      "sense": "temporary / location",
+      "level": "b1"
+    },
+    {
+      "en": "he / she will be",
+      "target": "ele / ela estará",
+      "tense": "futuro",
+      "sense": "temporary / location",
+      "level": "b1"
+    },
+    {
+      "en": "we will be",
+      "target": "nós estaremos",
+      "tense": "futuro",
+      "sense": "temporary / location",
+      "level": "b1"
+    },
+    {
+      "en": "they will be",
+      "target": "eles / elas estarão",
+      "tense": "futuro",
+      "sense": "temporary / location",
+      "level": "b1"
+    },
+    {
+      "en": "I will have",
+      "target": "eu terei",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "you will have",
+      "target": "tu terás",
+      "tense": "futuro",
+      "tags": [
+        "informal"
+      ],
+      "level": "b1"
+    },
+    {
+      "en": "he / she will have",
+      "target": "ele / ela terá",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "we will have",
+      "target": "nós teremos",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "they will have",
+      "target": "eles / elas terão",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "I will go",
+      "target": "eu irei",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "you will go",
+      "target": "tu irás",
+      "tense": "futuro",
+      "tags": [
+        "informal"
+      ],
+      "level": "b1"
+    },
+    {
+      "en": "he / she will go",
+      "target": "ele / ela irá",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "we will go",
+      "target": "nós iremos",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "they will go",
+      "target": "eles / elas irão",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "I will do",
+      "target": "eu farei",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "you will do",
+      "target": "tu farás",
+      "tense": "futuro",
+      "tags": [
+        "informal"
+      ],
+      "level": "b1"
+    },
+    {
+      "en": "he / she will do",
+      "target": "ele / ela fará",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "we will do",
+      "target": "nós faremos",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "they will do",
+      "target": "eles / elas farão",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "I will eat",
+      "target": "eu comerei",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "you will eat",
+      "target": "tu comerás",
+      "tense": "futuro",
+      "tags": [
+        "informal"
+      ],
+      "level": "b1"
+    },
+    {
+      "en": "he / she will eat",
+      "target": "ele / ela comerá",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "we will eat",
+      "target": "nós comeremos",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "they will eat",
+      "target": "eles / elas comerão",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "I will drink",
+      "target": "eu beberei",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "you will drink",
+      "target": "tu beberás",
+      "tense": "futuro",
+      "tags": [
+        "informal"
+      ],
+      "level": "b1"
+    },
+    {
+      "en": "he / she will drink",
+      "target": "ele / ela beberá",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "we will drink",
+      "target": "nós beberemos",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "they will drink",
+      "target": "eles / elas beberão",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "I will speak",
+      "target": "eu falarei",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "you will speak",
+      "target": "tu falarás",
+      "tense": "futuro",
+      "tags": [
+        "informal"
+      ],
+      "level": "b1"
+    },
+    {
+      "en": "he / she will speak",
+      "target": "ele / ela falará",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "we will speak",
+      "target": "nós falaremos",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "they will speak",
+      "target": "eles / elas falarão",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "I will work",
+      "target": "eu trabalharei",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "you will work",
+      "target": "tu trabalharás",
+      "tense": "futuro",
+      "tags": [
+        "informal"
+      ],
+      "level": "b1"
+    },
+    {
+      "en": "he / she will work",
+      "target": "ele / ela trabalhará",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "we will work",
+      "target": "nós trabalharemos",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "they will work",
+      "target": "eles / elas trabalharão",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "I will see",
+      "target": "eu verei",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "you will see",
+      "target": "tu verás",
+      "tense": "futuro",
+      "tags": [
+        "informal"
+      ],
+      "level": "b1"
+    },
+    {
+      "en": "he / she will see",
+      "target": "ele / ela verá",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "we will see",
+      "target": "nós veremos",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "they will see",
+      "target": "eles / elas verão",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "I will speak with him",
+      "target": "falarei com ele",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "it will be easy",
+      "target": "será fácil",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "they will arrive tomorrow",
+      "target": "chegarão amanhã",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "I will have time",
+      "target": "terei tempo",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "she will come later",
+      "target": "ela virá mais tarde",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "we will see",
+      "target": "veremos",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "you will like it",
+      "target": "gostarás",
+      "tags": [
+        "informal"
+      ],
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "I will do it tomorrow",
+      "target": "farei isso amanhã",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "it will be cold",
+      "target": "estará frio",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "we will live in Portugal",
+      "target": "viveremos em Portugal",
+      "tense": "futuro",
+      "level": "b1"
+    }
+  ]
+}

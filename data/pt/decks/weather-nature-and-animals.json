@@ -1,0 +1,275 @@
+{
+  "deck": "Weather, Nature & Animals",
+  "cards": [
+    {
+      "en": "weather / air",
+      "target": "o tempo / o ar",
+      "level": "a1"
+    },
+    {
+      "en": "sun",
+      "target": "o sol",
+      "level": "a1"
+    },
+    {
+      "en": "moon",
+      "target": "a lua",
+      "level": "a1"
+    },
+    {
+      "en": "star",
+      "target": "a estrela",
+      "level": "a2"
+    },
+    {
+      "en": "cloud",
+      "target": "a nuvem",
+      "level": "a1"
+    },
+    {
+      "en": "rain",
+      "target": "a chuva",
+      "level": "a1"
+    },
+    {
+      "en": "snow",
+      "target": "a neve",
+      "level": "a1"
+    },
+    {
+      "en": "wind",
+      "target": "o vento",
+      "level": "a1"
+    },
+    {
+      "en": "storm",
+      "target": "a tempestade",
+      "level": "a2"
+    },
+    {
+      "en": "fog",
+      "target": "o nevoeiro",
+      "level": "a2"
+    },
+    {
+      "en": "thunder",
+      "target": "o trovão",
+      "level": "a2"
+    },
+    {
+      "en": "lightning",
+      "target": "o relâmpago",
+      "level": "a2"
+    },
+    {
+      "en": "temperature",
+      "target": "a temperatura",
+      "level": "a2"
+    },
+    {
+      "en": "degree",
+      "target": "o grau",
+      "level": "a2"
+    },
+    {
+      "en": "the weather is hot",
+      "target": "está calor",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "the weather is cold",
+      "target": "está frio",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "it is raining",
+      "target": "está a chover",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "it is snowing",
+      "target": "está a nevar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "it is windy",
+      "target": "está vento",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "sunny",
+      "target": "solarengo / com sol",
+      "level": "a1"
+    },
+    {
+      "en": "cloudy",
+      "target": "nublado",
+      "level": "a1"
+    },
+    {
+      "en": "rainy",
+      "target": "chuvoso / chuvosa",
+      "level": "a1"
+    },
+    {
+      "en": "snowy",
+      "target": "com neve",
+      "level": "a1"
+    },
+    {
+      "en": "nature",
+      "target": "a natureza",
+      "level": "a2"
+    },
+    {
+      "en": "tree",
+      "target": "a árvore",
+      "level": "a1"
+    },
+    {
+      "en": "flower",
+      "target": "a flor",
+      "level": "a1"
+    },
+    {
+      "en": "grass",
+      "target": "a relva",
+      "level": "a2"
+    },
+    {
+      "en": "leaf",
+      "target": "a folha",
+      "level": "a2"
+    },
+    {
+      "en": "soil / earth",
+      "target": "a terra",
+      "level": "a2"
+    },
+    {
+      "en": "stone",
+      "target": "pedra",
+      "level": "a2"
+    },
+    {
+      "en": "hill",
+      "target": "a colina",
+      "level": "a2"
+    },
+    {
+      "en": "island",
+      "target": "a ilha",
+      "level": "a2"
+    },
+    {
+      "en": "animal",
+      "target": "o animal",
+      "level": "a1"
+    },
+    {
+      "en": "cat",
+      "target": "o gato",
+      "level": "a1"
+    },
+    {
+      "en": "dog",
+      "target": "o cão",
+      "level": "a1"
+    },
+    {
+      "en": "bird",
+      "target": "o pássaro",
+      "level": "a1"
+    },
+    {
+      "en": "horse",
+      "target": "o cavalo",
+      "level": "a2"
+    },
+    {
+      "en": "cow",
+      "target": "a vaca",
+      "level": "a2"
+    },
+    {
+      "en": "sheep",
+      "target": "a ovelha",
+      "level": "a2"
+    },
+    {
+      "en": "goat",
+      "target": "a cabra",
+      "level": "a2"
+    },
+    {
+      "en": "chicken",
+      "target": "a galinha",
+      "level": "a1"
+    },
+    {
+      "en": "rooster",
+      "target": "o galo",
+      "level": "a2"
+    },
+    {
+      "en": "duck",
+      "target": "o pato",
+      "level": "a2"
+    },
+    {
+      "en": "rabbit",
+      "target": "o coelho",
+      "level": "a2"
+    },
+    {
+      "en": "lion",
+      "target": "o leão",
+      "level": "a2"
+    },
+    {
+      "en": "tiger",
+      "target": "o tigre",
+      "level": "a2"
+    },
+    {
+      "en": "elephant",
+      "target": "o elefante",
+      "level": "a2"
+    },
+    {
+      "en": "bear",
+      "target": "o urso",
+      "level": "a2"
+    },
+    {
+      "en": "monkey",
+      "target": "o macaco",
+      "level": "a2"
+    },
+    {
+      "en": "snake",
+      "target": "a cobra",
+      "level": "a2"
+    },
+    {
+      "en": "turtle",
+      "target": "a tartaruga",
+      "level": "a2"
+    },
+    {
+      "en": "bee",
+      "target": "a abelha",
+      "level": "a2"
+    },
+    {
+      "en": "butterfly",
+      "target": "a borboleta",
+      "level": "a2"
+    }
+  ]
+}

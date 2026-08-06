@@ -1,0 +1,258 @@
+{
+  "deck": "Pronouns & Basic Words",
+  "cards": [
+    {
+      "en": "their",
+      "target": "onların",
+      "level": "a1"
+    },
+    {
+      "en": "to me",
+      "target": "bana",
+      "level": "a1"
+    },
+    {
+      "en": "to you",
+      "target": "sana",
+      "tags": [
+        "informal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "to him / her / it",
+      "target": "ona",
+      "level": "a1"
+    },
+    {
+      "en": "to us",
+      "target": "bize",
+      "level": "a1"
+    },
+    {
+      "en": "to you",
+      "target": "size",
+      "tags": [
+        "formal",
+        "plural"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "to them",
+      "target": "onlara",
+      "level": "a1"
+    },
+    {
+      "en": "me",
+      "target": "beni",
+      "tags": [
+        "object"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "you",
+      "target": "seni",
+      "tags": [
+        "object",
+        "informal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "him / her / it",
+      "target": "onu",
+      "tags": [
+        "object"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "us",
+      "target": "bizi",
+      "tags": [
+        "object"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "you",
+      "target": "sizi",
+      "tags": [
+        "object",
+        "formal",
+        "plural"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "them",
+      "target": "onları",
+      "tags": [
+        "object"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "this",
+      "target": "bu",
+      "level": "a1"
+    },
+    {
+      "en": "that / this over there",
+      "target": "şu",
+      "level": "a1"
+    },
+    {
+      "en": "that",
+      "target": "o",
+      "level": "a1",
+      "sense": "the demonstrative"
+    },
+    {
+      "en": "these",
+      "target": "bunlar",
+      "level": "a1"
+    },
+    {
+      "en": "those near there",
+      "target": "şunlar",
+      "level": "a1"
+    },
+    {
+      "en": "those",
+      "target": "onlar",
+      "level": "a1",
+      "sense": "the demonstrative"
+    },
+    {
+      "en": "there nearby",
+      "target": "şurada",
+      "level": "a1"
+    },
+    {
+      "en": "from here",
+      "target": "buradan",
+      "level": "a1"
+    },
+    {
+      "en": "from there",
+      "target": "oradan",
+      "level": "a1"
+    },
+    {
+      "en": "to here",
+      "target": "buraya",
+      "level": "a1"
+    },
+    {
+      "en": "to there",
+      "target": "oraya",
+      "level": "a1"
+    },
+    {
+      "en": "and",
+      "target": "ve",
+      "level": "a1"
+    },
+    {
+      "en": "but",
+      "target": "ama",
+      "level": "a1"
+    },
+    {
+      "en": "or",
+      "target": "veya",
+      "level": "a1"
+    },
+    {
+      "en": "or",
+      "target": "ya da",
+      "level": "a1"
+    },
+    {
+      "en": "because",
+      "target": "çünkü",
+      "level": "a2"
+    },
+    {
+      "en": "for",
+      "target": "için",
+      "level": "a1"
+    },
+    {
+      "en": "with / and",
+      "target": "ile",
+      "level": "a1"
+    },
+    {
+      "en": "like / as",
+      "target": "gibi",
+      "level": "a1"
+    },
+    {
+      "en": "also / too",
+      "target": "de",
+      "level": "a1",
+      "sense": "after a front vowel"
+    },
+    {
+      "en": "also / too",
+      "target": "da",
+      "level": "a1",
+      "sense": "after a back vowel"
+    },
+    {
+      "en": "only",
+      "target": "sadece",
+      "level": "a2"
+    },
+    {
+      "en": "even",
+      "target": "bile",
+      "level": "a2"
+    },
+    {
+      "en": "every",
+      "target": "her",
+      "level": "a1"
+    },
+    {
+      "en": "any / ever",
+      "target": "hiç",
+      "level": "a1",
+      "sense": "used with a negative"
+    },
+    {
+      "en": "very / much",
+      "target": "çok",
+      "level": "a1"
+    },
+    {
+      "en": "little / few",
+      "target": "az",
+      "level": "a1"
+    },
+    {
+      "en": "more",
+      "target": "daha",
+      "level": "a1"
+    },
+    {
+      "en": "most",
+      "target": "en",
+      "level": "a1"
+    },
+    {
+      "en": "until / as much as",
+      "target": "kadar",
+      "level": "a2"
+    },
+    {
+      "en": "immediately",
+      "target": "hemen",
+      "level": "a2"
+    }
+  ]
+}

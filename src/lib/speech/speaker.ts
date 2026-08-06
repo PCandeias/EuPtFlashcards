@@ -9,6 +9,7 @@
  *  - speech breaks if the app is backgrounded mid-utterance
  */
 import { pickVoice, type VoiceChoice, type VoiceLike } from './voices.js'
+import type { VoiceSpec } from '../languages/types.js'
 
 export interface SynthesisLike {
   speak(utterance: SpeechSynthesisUtterance): void
@@ -32,11 +33,17 @@ export interface Speaker {
 
 /** Slightly under natural pace: this is for learners, not for listening to. */
 export const SPEECH_RATE = 0.9
-export const SPEECH_LANG = 'pt-PT'
+
+export interface SpeechTarget {
+  /** BCP 47 tag handed to the engine — some honour only this and not `voice`. */
+  locale: string
+  voice: VoiceSpec
+}
 
 export function createSpeaker(
   synthesis: SynthesisLike | undefined,
   build: (fields: UtteranceFields) => SpeechSynthesisUtterance,
+  target: SpeechTarget,
 ): Speaker {
   if (!synthesis) {
     return {
@@ -47,7 +54,7 @@ export function createSpeaker(
   }
 
   // Voices can arrive after first call, so the list is re-read rather than cached.
-  const choice = () => pickVoice(synthesis.getVoices())
+  const choice = () => pickVoice(synthesis.getVoices(), target.voice)
 
   return {
     available: true,
@@ -62,7 +69,7 @@ export function createSpeaker(
       const fields: UtteranceFields = {
         text: trimmed,
         // Set even when a voice was chosen — some engines honour only this.
-        lang: SPEECH_LANG,
+        lang: target.locale,
         voice: choice().voice,
         rate: SPEECH_RATE,
       }

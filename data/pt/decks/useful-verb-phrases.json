@@ -1,0 +1,278 @@
+{
+  "deck": "Useful Verb Phrases",
+  "cards": [
+    {
+      "en": "I am going",
+      "target": "eu vou",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "you are coming",
+      "target": "tu vens",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "he / she is working",
+      "target": "ele / ela está a trabalhar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "we are eating",
+      "target": "nós estamos a comer",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "are you waiting?",
+      "target": "está à espera?",
+      "tags": [
+        "formal"
+      ],
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "they are speaking",
+      "target": "eles / elas estão a falar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I do not know",
+      "target": "não sei",
+      "level": "a1"
+    },
+    {
+      "en": "I want",
+      "target": "quero",
+      "level": "a1"
+    },
+    {
+      "en": "I do not want",
+      "target": "não quero",
+      "level": "a1"
+    },
+    {
+      "en": "I want to go",
+      "target": "quero ir",
+      "level": "a1"
+    },
+    {
+      "en": "I want to eat",
+      "target": "quero comer",
+      "level": "a1"
+    },
+    {
+      "en": "I want to drink water",
+      "target": "quero beber água",
+      "level": "a1"
+    },
+    {
+      "en": "I want to sleep",
+      "target": "quero dormir",
+      "level": "a1"
+    },
+    {
+      "en": "I want to go home",
+      "target": "quero ir para casa",
+      "level": "a1"
+    },
+    {
+      "en": "I want to buy this",
+      "target": "quero comprar isto",
+      "level": "a1"
+    },
+    {
+      "en": "I do not want this",
+      "target": "não quero isto",
+      "level": "a1"
+    },
+    {
+      "en": "I want to help",
+      "target": "quero ajudar",
+      "level": "a1"
+    },
+    {
+      "en": "can you help me?",
+      "target": "podes ajudar-me?",
+      "tags": [
+        "informal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "can you help me?",
+      "target": "pode ajudar-me?",
+      "tags": [
+        "formal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "I want to make a phone call",
+      "target": "quero telefonar",
+      "level": "a1"
+    },
+    {
+      "en": "I want to make a reservation",
+      "target": "quero fazer uma reserva",
+      "level": "a2"
+    },
+    {
+      "en": "I am learning Portuguese",
+      "target": "estou a aprender português",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I speak English",
+      "target": "falo inglês",
+      "level": "a1"
+    },
+    {
+      "en": "I speak Portuguese",
+      "target": "falo português",
+      "level": "a1"
+    },
+    {
+      "en": "I am working today",
+      "target": "hoje estou a trabalhar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am not working tomorrow",
+      "target": "amanhã não trabalho",
+      "level": "a1"
+    },
+    {
+      "en": "I came yesterday",
+      "target": "vim ontem",
+      "level": "a1"
+    },
+    {
+      "en": "I will come tomorrow",
+      "target": "venho amanhã",
+      "level": "a1"
+    },
+    {
+      "en": "I am going now",
+      "target": "vou agora",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "I will call later",
+      "target": "telefono mais tarde",
+      "level": "a1"
+    },
+    {
+      "en": "I am waiting",
+      "target": "estou à espera",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "I am waiting for you",
+      "target": "estou à tua espera / estou à sua espera",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "where are you going?",
+      "target": "para onde vais?",
+      "tags": [
+        "informal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "where do you live?",
+      "target": "onde moras?",
+      "tags": [
+        "informal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "what are you doing?",
+      "target": "o que estás a fazer?",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "what do you want?",
+      "target": "o que deseja?",
+      "tags": [
+        "formal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "how do I do this?",
+      "target": "como é que faço isto?",
+      "level": "a1"
+    },
+    {
+      "en": "may I sit here?",
+      "target": "posso sentar-me aqui?",
+      "level": "a1"
+    },
+    {
+      "en": "may I take a photo?",
+      "target": "posso tirar uma fotografia?",
+      "level": "a1"
+    },
+    {
+      "en": "can you open the door?",
+      "target": "pode abrir a porta?",
+      "tags": [
+        "formal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "can you close the window?",
+      "target": "pode fechar a janela?",
+      "tags": [
+        "formal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "can you wait one minute?",
+      "target": "pode esperar um minuto?",
+      "tags": [
+        "formal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "can you say it again?",
+      "target": "pode dizer outra vez?",
+      "tags": [
+        "formal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "can you write it?",
+      "target": "pode escrever?",
+      "level": "a1"
+    },
+    {
+      "en": "can you show me?",
+      "target": "pode mostrar-me?",
+      "level": "a1"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "deck": "Question Words & Connectors",
+  "cards": [
+    {
+      "en": "who",
+      "target": "kim",
+      "level": "a1"
+    },
+    {
+      "en": "what",
+      "target": "ne",
+      "level": "a1"
+    },
+    {
+      "en": "where",
+      "target": "nerede",
+      "level": "a1"
+    },
+    {
+      "en": "to where",
+      "target": "nereye",
+      "level": "a1"
+    },
+    {
+      "en": "where from",
+      "target": "nereden",
+      "level": "a1"
+    },
+    {
+      "en": "when",
+      "target": "ne zaman",
+      "level": "a1"
+    },
+    {
+      "en": "why",
+      "target": "neden",
+      "level": "a1"
+    },
+    {
+      "en": "why / for what",
+      "target": "niçin",
+      "level": "a1"
+    },
+    {
+      "en": "how",
+      "target": "nasıl",
+      "level": "a1"
+    },
+    {
+      "en": "how many / how much",
+      "target": "kaç",
+      "level": "a1"
+    },
+    {
+      "en": "which",
+      "target": "hangi",
+      "level": "a1"
+    },
+    {
+      "en": "whose",
+      "target": "kimin",
+      "level": "a1"
+    },
+    {
+      "en": "is there? / do you have?",
+      "target": "var mı?",
+      "level": "a1"
+    },
+    {
+      "en": "is there not?",
+      "target": "yok mu?",
+      "level": "a1"
+    },
+    {
+      "en": "who is this?",
+      "target": "Bu kim?",
+      "level": "a1"
+    },
+    {
+      "en": "what time is it?",
+      "target": "Saat kaç?",
+      "level": "a1"
+    },
+    {
+      "en": "what is your name?",
+      "target": "Adın ne?",
+      "tags": [
+        "informal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "how old are you?",
+      "target": "Kaç yaşındasın?",
+      "tags": [
+        "informal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "where are you from?",
+      "target": "Nerelisin?",
+      "tags": [
+        "informal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "what are you doing?",
+      "target": "Ne yapıyorsun?",
+      "tags": [
+        "informal"
+      ],
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "where are you going?",
+      "target": "Nereye gidiyorsun?",
+      "tags": [
+        "informal"
+      ],
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "what do you want?",
+      "target": "Ne istiyorsun?",
+      "tags": [
+        "informal"
+      ],
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "can I take this?",
+      "target": "Bunu alabilir miyim?",
+      "level": "a1"
+    }
+  ]
+}

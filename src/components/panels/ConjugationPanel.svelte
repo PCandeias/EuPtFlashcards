@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { TENSES, PERSONS, type TenseId } from '../../lib/verbs/tenses.js'
+  import type { TenseId } from '../../lib/grammar/tenses.js'
   import type { ConjugationPayload } from '../../lib/annotations/conjugation.js'
 
   let {
@@ -12,7 +12,8 @@
   let infinitive = $derived(payload.infinitive)
   let conjugation = $derived(payload.conjugation)
   // Already narrowed to the tenses both switched on and present for this verb.
-  let available = $derived(TENSES.filter(t => payload.tenses.includes(t.id)))
+  let available = $derived(payload.tenses)
+  let persons = $derived(payload.persons)
 
   let chosen = $state<TenseId | null>(null)
   let active = $derived(available.find(t => t.id === chosen) ?? available[0])
@@ -62,7 +63,7 @@
   {#if forms}
     <table>
       <tbody>
-        {#each PERSONS as person (person.id)}
+        {#each persons as person (person.id)}
           {#if forms[person.id]}
             <tr>
               <th scope="row">{person.label}</th>

@@ -1,0 +1,231 @@
+{
+  "deck": "Shopping & Money",
+  "cards": [
+    {
+      "en": "shopping",
+      "target": "as compras",
+      "level": "a1"
+    },
+    {
+      "en": "store",
+      "target": "a loja",
+      "level": "a1"
+    },
+    {
+      "en": "shop",
+      "target": "a loja",
+      "level": "a1"
+    },
+    {
+      "en": "market",
+      "target": "o mercado",
+      "level": "a1"
+    },
+    {
+      "en": "cashier",
+      "target": "a caixa",
+      "level": "a2"
+    },
+    {
+      "en": "cash",
+      "target": "o dinheiro",
+      "level": "a1"
+    },
+    {
+      "en": "card",
+      "target": "o cartão",
+      "level": "a1"
+    },
+    {
+      "en": "credit card",
+      "target": "o cartão de crédito",
+      "level": "a1"
+    },
+    {
+      "en": "debit card",
+      "target": "o cartão de débito",
+      "level": "a2"
+    },
+    {
+      "en": "price",
+      "target": "o preço",
+      "level": "a1"
+    },
+    {
+      "en": "fee",
+      "target": "a taxa",
+      "level": "b1"
+    },
+    {
+      "en": "discount",
+      "target": "o desconto",
+      "level": "a1"
+    },
+    {
+      "en": "promotion",
+      "target": "a promoção",
+      "level": "b1"
+    },
+    {
+      "en": "expensive",
+      "target": "caro / cara",
+      "level": "a1"
+    },
+    {
+      "en": "cheap",
+      "target": "barato / barata",
+      "level": "a1"
+    },
+    {
+      "en": "free of charge",
+      "target": "grátis",
+      "level": "a2"
+    },
+    {
+      "en": "receipt",
+      "target": "o recibo",
+      "level": "a2"
+    },
+    {
+      "en": "invoice",
+      "target": "a fatura",
+      "level": "b1"
+    },
+    {
+      "en": "change / coins",
+      "target": "os trocos",
+      "level": "a2"
+    },
+    {
+      "en": "coin",
+      "target": "a moeda",
+      "level": "a1"
+    },
+    {
+      "en": "banknote",
+      "target": "a nota",
+      "level": "a2"
+    },
+    {
+      "en": "euro",
+      "target": "o euro",
+      "level": "a1"
+    },
+    {
+      "en": "cent",
+      "target": "o cêntimo",
+      "level": "a1"
+    },
+    {
+      "en": "wallet",
+      "target": "a carteira",
+      "level": "a1"
+    },
+    {
+      "en": "basket",
+      "target": "o cesto",
+      "level": "a2"
+    },
+    {
+      "en": "shopping cart",
+      "target": "o carrinho de compras",
+      "level": "a2"
+    },
+    {
+      "en": "size",
+      "target": "o tamanho",
+      "level": "a1"
+    },
+    {
+      "en": "shoe size / number",
+      "target": "o número",
+      "level": "a2"
+    },
+    {
+      "en": "quality",
+      "target": "a qualidade",
+      "level": "a2"
+    },
+    {
+      "en": "new",
+      "target": "novo / nova",
+      "level": "a1"
+    },
+    {
+      "en": "old",
+      "target": "velho / velha",
+      "level": "a1"
+    },
+    {
+      "en": "second-hand",
+      "target": "em segunda mão",
+      "level": "b1"
+    },
+    {
+      "en": "warranty",
+      "target": "a garantia",
+      "level": "b1"
+    },
+    {
+      "en": "return",
+      "target": "a devolução",
+      "level": "b1"
+    },
+    {
+      "en": "exchange",
+      "target": "a troca",
+      "level": "a2"
+    },
+    {
+      "en": "to try on",
+      "target": "experimentar",
+      "level": "a1"
+    },
+    {
+      "en": "to buy",
+      "target": "comprar",
+      "level": "a1"
+    },
+    {
+      "en": "to sell",
+      "target": "vender",
+      "level": "a2"
+    },
+    {
+      "en": "to pay",
+      "target": "pagar",
+      "level": "a1"
+    },
+    {
+      "en": "I will take this",
+      "target": "vou levar isto",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "is there another one?",
+      "target": "há outro? / há outra?",
+      "level": "a1"
+    },
+    {
+      "en": "is there a bigger one?",
+      "target": "há um maior? / há uma maior?",
+      "level": "a1"
+    },
+    {
+      "en": "is there a smaller one?",
+      "target": "há um mais pequeno? / há uma mais pequena?",
+      "level": "a1"
+    },
+    {
+      "en": "can I try it on?",
+      "target": "posso experimentar?",
+      "level": "a1"
+    },
+    {
+      "en": "is there a discount?",
+      "target": "há desconto?",
+      "level": "a1"
+    }
+  ]
+}

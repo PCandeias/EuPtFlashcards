@@ -5,7 +5,8 @@
  * and keeps the progress map immutable.
  */
 import { cardId, type Card } from '../cards/schema.js'
-import type { TenseId } from '../verbs/tenses.js'
+import type { LevelId } from '../cards/levels.js'
+import type { TenseId } from '../grammar/tenses.js'
 import { isDue, newState, review, type Rating, type ReviewState } from './sm2.js'
 
 export type Progress = Record<string, ReviewState>
@@ -65,4 +66,18 @@ export type { Rating, ReviewState }
 export function inSelectedTenses(cards: readonly Card[], tenses: readonly TenseId[]): Card[] {
   const selected = new Set(tenses)
   return cards.filter(card => !card.tense || selected.has(card.tense))
+}
+
+/**
+ * Keeps only cards at the levels being studied.
+ *
+ * The same bargain as the tense filter: an unclassified card is never filtered
+ * out, so a card that slipped through the labelling stays in the deck rather
+ * than disappearing from it.
+ *
+ * Nothing calls this yet — levels are recorded but not yet offered as a choice.
+ */
+export function inSelectedLevels(cards: readonly Card[], levels: readonly LevelId[]): Card[] {
+  const selected = new Set(levels)
+  return cards.filter(card => !card.level || selected.has(card.level))
 }

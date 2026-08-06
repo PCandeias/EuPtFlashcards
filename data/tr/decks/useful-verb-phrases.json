@@ -1,0 +1,125 @@
+{
+  "deck": "Useful Verb Phrases",
+  "cards": [
+    {
+      "en": "I want",
+      "target": "İstiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I do not want",
+      "target": "İstemiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I am taking / buying",
+      "target": "Alıyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I am going",
+      "target": "Gidiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I am coming",
+      "target": "Geliyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I am eating",
+      "target": "Yiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I am drinking",
+      "target": "İçiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I know",
+      "target": "Biliyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I understand",
+      "target": "Anlıyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I like / love",
+      "target": "Seviyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I do not like",
+      "target": "Sevmiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I am working / studying",
+      "target": "Çalışıyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I am waiting",
+      "target": "Bekliyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I am looking",
+      "target": "Bakıyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I see",
+      "target": "Görüyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I am reading / studying",
+      "target": "Okuyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I am writing",
+      "target": "Yazıyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I am sleeping",
+      "target": "Uyuyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I am helping",
+      "target": "Yardım ediyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I am paying",
+      "target": "Para ödüyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    }
+  ]
+}

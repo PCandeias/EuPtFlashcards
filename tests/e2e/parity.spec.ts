@@ -23,9 +23,9 @@ const fixture = (name: string) =>
 interface LegacyCard {
   deck: string
   en: string
-  pt: string
+  target: string
   tags?: string[]
-  ptTags?: string[]
+  targetTags?: string[]
   sense?: string
   tense?: string
 }
@@ -33,7 +33,7 @@ interface LegacyCard {
 interface LegacyRender {
   deck: string
   en: string
-  pt: string
+  target: string
   frontWord: string
   frontBadges: string[]
   frontBadgeTitles: string[]
@@ -42,21 +42,21 @@ interface LegacyRender {
   hint: string | null
 }
 
-const key = (c: LegacyCard) => `${c.deck}::${c.en}::${c.pt}`
+const key = (c: LegacyCard) => `${c.deck}::${c.en}::${c.target}`
 const shape = (c: LegacyCard) => JSON.stringify({
-  en: c.en, pt: c.pt,
-  tags: c.tags ?? [], ptTags: c.ptTags ?? [], sense: c.sense ?? null,
+  en: c.en, target: c.target,
+  tags: c.tags ?? [], targetTags: c.targetTags ?? [], sense: c.sense ?? null,
   // Tracked too: the tense decides whether a card is shown at all, so a stray
   // retag would quietly change what the deck contains.
   tense: c.tense ?? null,
 })
 
 function loadPorted(): LegacyCard[] {
-  const index = JSON.parse(readFileSync(join(root, 'data/decks/index.json'), 'utf8')) as
+  const index = JSON.parse(readFileSync(join(root, 'data/pt/decks/index.json'), 'utf8')) as
     Array<{ deck: string; file: string }>
   return index.flatMap(({ file }) => {
     const deckFile = JSON.parse(
-      readFileSync(join(root, 'data/decks', `${file}.json`), 'utf8'),
+      readFileSync(join(root, 'data/pt/decks', `${file}.json`), 'utf8'),
     ) as { deck: string; cards: Omit<LegacyCard, 'deck'>[] }
     return deckFile.cards.map(c => ({ ...c, deck: deckFile.deck }))
   })
@@ -86,7 +86,7 @@ test.describe(() => {
 
   test('renders each card exactly as the original did', async ({ page }) => {
     const expected = fixture('legacy-renders.json') as LegacyRender[]
-    await page.goto('./')
+    await page.goto('./#/pt')
 
     for (const want of expected) {
       await page.selectOption('#deckSelect', want.deck)
@@ -97,7 +97,7 @@ test.describe(() => {
           const back = document.querySelector('.face.back .word')
           if (
             front?.textContent?.trim().startsWith(s.en) &&
-            back?.textContent?.trim().startsWith(s.pt)
+            back?.textContent?.trim().startsWith(s.target)
           ) {
             return {
               frontWord: front.childNodes[0]?.textContent?.trim() ?? '',
@@ -113,9 +113,9 @@ test.describe(() => {
           await new Promise(r => requestAnimationFrame(r))
         }
         return null
-      }, { en: want.en, pt: want.pt })
+      }, { en: want.en, target: want.target })
 
-      expect(actual, `should render ${want.en} / ${want.pt}`).not.toBeNull()
+      expect(actual, `should render ${want.en} / ${want.target}`).not.toBeNull()
       expect(actual!.frontWord, `front word for ${want.en}`).toBe(want.frontWord)
       expect(actual!.frontBadges, `front badges for ${want.en}`).toEqual(want.frontBadges)
       expect(actual!.frontBadgeTitles, `badge titles for ${want.en}`).toEqual(want.frontBadgeTitles)

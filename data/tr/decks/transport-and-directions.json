@@ -1,0 +1,258 @@
+{
+  "deck": "Transport & Directions",
+  "cards": [
+    {
+      "en": "car",
+      "target": "araba",
+      "level": "a1"
+    },
+    {
+      "en": "bus",
+      "target": "otobüs",
+      "level": "a1"
+    },
+    {
+      "en": "metro / subway",
+      "target": "metro",
+      "level": "a1"
+    },
+    {
+      "en": "train",
+      "target": "tren",
+      "level": "a1"
+    },
+    {
+      "en": "tram",
+      "target": "tramvay",
+      "level": "a2"
+    },
+    {
+      "en": "taxi",
+      "target": "taksi",
+      "level": "a1"
+    },
+    {
+      "en": "plane",
+      "target": "uçak",
+      "level": "a1"
+    },
+    {
+      "en": "ship",
+      "target": "gemi",
+      "level": "a2"
+    },
+    {
+      "en": "bicycle",
+      "target": "bisiklet",
+      "level": "a1"
+    },
+    {
+      "en": "to walk",
+      "target": "yürümek",
+      "level": "a1"
+    },
+    {
+      "en": "ticket",
+      "target": "bilet",
+      "level": "a1"
+    },
+    {
+      "en": "passport",
+      "target": "pasaport",
+      "level": "a1"
+    },
+    {
+      "en": "suitcase",
+      "target": "valiz",
+      "level": "a1"
+    },
+    {
+      "en": "exit",
+      "target": "çıkış",
+      "level": "a1"
+    },
+    {
+      "en": "entrance",
+      "target": "giriş",
+      "level": "a1"
+    },
+    {
+      "en": "right",
+      "target": "sağ",
+      "level": "a1"
+    },
+    {
+      "en": "left",
+      "target": "sol",
+      "level": "a1"
+    },
+    {
+      "en": "straight",
+      "target": "düz",
+      "level": "a1"
+    },
+    {
+      "en": "forward / ahead",
+      "target": "ileri",
+      "level": "a1"
+    },
+    {
+      "en": "back",
+      "target": "geri",
+      "level": "a1"
+    },
+    {
+      "en": "near",
+      "target": "yakın",
+      "level": "a1"
+    },
+    {
+      "en": "far",
+      "target": "uzak",
+      "level": "a1"
+    },
+    {
+      "en": "here",
+      "target": "burada",
+      "level": "a1"
+    },
+    {
+      "en": "there",
+      "target": "orada",
+      "level": "a1"
+    },
+    {
+      "en": "across / opposite",
+      "target": "karşıda",
+      "level": "a1"
+    },
+    {
+      "en": "where do I get off?",
+      "target": "nerede inilir?",
+      "tense": "genis",
+      "level": "a2"
+    },
+    {
+      "en": "automobile",
+      "target": "otomobil",
+      "level": "a2"
+    },
+    {
+      "en": "minibus",
+      "target": "minibüs",
+      "level": "a2"
+    },
+    {
+      "en": "ferry",
+      "target": "vapur",
+      "level": "a2"
+    },
+    {
+      "en": "motorcycle",
+      "target": "motosiklet",
+      "level": "a2"
+    },
+    {
+      "en": "pedestrian",
+      "target": "yaya",
+      "level": "a2"
+    },
+    {
+      "en": "one way",
+      "target": "tek yön",
+      "level": "a2"
+    },
+    {
+      "en": "round trip",
+      "target": "gidiş dönüş",
+      "level": "a2"
+    },
+    {
+      "en": "platform",
+      "target": "peron",
+      "level": "a2"
+    },
+    {
+      "en": "gate",
+      "target": "kapı",
+      "level": "a2",
+      "sense": "at an airport"
+    },
+    {
+      "en": "seat",
+      "target": "koltuk",
+      "level": "a2",
+      "sense": "on a plane or bus"
+    },
+    {
+      "en": "luggage",
+      "target": "bagaj",
+      "level": "a2"
+    },
+    {
+      "en": "ID card",
+      "target": "kimlik",
+      "level": "a2"
+    },
+    {
+      "en": "driver license",
+      "target": "ehliyet",
+      "level": "a2"
+    },
+    {
+      "en": "next to",
+      "target": "yanında",
+      "level": "a1"
+    },
+    {
+      "en": "behind",
+      "target": "arkasında",
+      "level": "a1"
+    },
+    {
+      "en": "in front of",
+      "target": "önünde",
+      "level": "a1"
+    },
+    {
+      "en": "inside",
+      "target": "içinde",
+      "level": "a1"
+    },
+    {
+      "en": "outside",
+      "target": "dışında",
+      "level": "a1"
+    },
+    {
+      "en": "on / above",
+      "target": "üstünde",
+      "level": "a1"
+    },
+    {
+      "en": "under",
+      "target": "altında",
+      "level": "a1"
+    },
+    {
+      "en": "turn right",
+      "target": "sağa dön",
+      "level": "a1"
+    },
+    {
+      "en": "turn left",
+      "target": "sola dön",
+      "level": "a1"
+    },
+    {
+      "en": "go straight",
+      "target": "düz git",
+      "level": "a1"
+    },
+    {
+      "en": "stop here",
+      "target": "burada dur",
+      "level": "a1"
+    }
+  ]
+}

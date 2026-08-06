@@ -1,9 +1,12 @@
 <script lang="ts">
-  import { TENSES, type TenseId } from '../lib/verbs/tenses.js'
+  import type { TenseId } from '../lib/grammar/tenses.js'
+  import type { TenseDef } from '../lib/grammar/types.js'
 
   let {
-    selected, onchange,
+    tenses, selected, onchange,
   }: {
+    /** This language's tenses, in registry order. */
+    tenses: readonly TenseDef<TenseId>[]
     selected: TenseId[]
     onchange: (tenses: TenseId[]) => void
   } = $props()
@@ -11,7 +14,7 @@
   function toggle(id: TenseId, on: boolean) {
     // Rebuilt from the registry each time, so the stored order is always the
     // registry's and never the order things were clicked.
-    onchange(TENSES.filter(t => (t.id === id ? on : selected.includes(t.id))).map(t => t.id))
+    onchange(tenses.filter(t => (t.id === id ? on : selected.includes(t.id))).map(t => t.id))
   }
 </script>
 
@@ -24,7 +27,7 @@
 </p>
 
 <ul>
-  {#each TENSES as tense (tense.id)}
+  {#each tenses as tense (tense.id)}
     <li>
       <label>
         <input

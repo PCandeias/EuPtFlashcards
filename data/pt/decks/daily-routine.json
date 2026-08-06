@@ -1,0 +1,142 @@
+{
+  "deck": "Daily Routine",
+  "cards": [
+    {
+      "en": "to take a shower",
+      "target": "tomar duche",
+      "level": "a1"
+    },
+    {
+      "en": "to wash oneself",
+      "target": "lavar-se",
+      "level": "a2"
+    },
+    {
+      "en": "to brush teeth",
+      "target": "lavar os dentes",
+      "level": "a2"
+    },
+    {
+      "en": "to get dressed",
+      "target": "vestir-se",
+      "level": "a2"
+    },
+    {
+      "en": "to have breakfast",
+      "target": "tomar o pequeno-almoço",
+      "level": "a1"
+    },
+    {
+      "en": "to go to work",
+      "target": "ir para o trabalho",
+      "level": "a1"
+    },
+    {
+      "en": "to go to school",
+      "target": "ir para a escola",
+      "level": "a1"
+    },
+    {
+      "en": "to work / study",
+      "target": "trabalhar / estudar",
+      "level": "a1"
+    },
+    {
+      "en": "to have lunch",
+      "target": "almoçar",
+      "level": "a1"
+    },
+    {
+      "en": "to return home",
+      "target": "voltar para casa",
+      "level": "a1"
+    },
+    {
+      "en": "to shop",
+      "target": "fazer compras",
+      "level": "a1"
+    },
+    {
+      "en": "to have dinner",
+      "target": "jantar",
+      "level": "a1"
+    },
+    {
+      "en": "to watch TV",
+      "target": "ver televisão",
+      "level": "a1"
+    },
+    {
+      "en": "to read a book",
+      "target": "ler um livro",
+      "level": "a1"
+    },
+    {
+      "en": "to listen to music",
+      "target": "ouvir música",
+      "level": "a1"
+    },
+    {
+      "en": "to do sports",
+      "target": "fazer desporto",
+      "level": "a1"
+    },
+    {
+      "en": "to take a walk",
+      "target": "dar um passeio",
+      "level": "a1"
+    },
+    {
+      "en": "to rest",
+      "target": "descansar",
+      "level": "a2"
+    },
+    {
+      "en": "I get up every morning",
+      "target": "levanto-me todas as manhãs",
+      "level": "a1"
+    },
+    {
+      "en": "I am having breakfast",
+      "target": "estou a tomar o pequeno-almoço",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am going to work",
+      "target": "vou para o trabalho",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "I am returning home",
+      "target": "estou a voltar para casa",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am cooking",
+      "target": "estou a cozinhar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am reading a book",
+      "target": "estou a ler um livro",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am listening to music",
+      "target": "estou a ouvir música",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am sleeping",
+      "target": "estou a dormir",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    }
+  ]
+}

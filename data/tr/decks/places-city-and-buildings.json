@@ -1,0 +1,246 @@
+{
+  "deck": "Places, City & Buildings",
+  "cards": [
+    {
+      "en": "city",
+      "target": "şehir",
+      "level": "a1"
+    },
+    {
+      "en": "country",
+      "target": "ülke",
+      "level": "a1"
+    },
+    {
+      "en": "village",
+      "target": "köy",
+      "level": "a2"
+    },
+    {
+      "en": "street",
+      "target": "sokak",
+      "level": "a1"
+    },
+    {
+      "en": "avenue",
+      "target": "cadde",
+      "level": "a2"
+    },
+    {
+      "en": "square",
+      "target": "meydan",
+      "level": "a1"
+    },
+    {
+      "en": "park",
+      "target": "park",
+      "level": "a1"
+    },
+    {
+      "en": "hotel",
+      "target": "otel",
+      "level": "a1"
+    },
+    {
+      "en": "restaurant",
+      "target": "restoran",
+      "level": "a1"
+    },
+    {
+      "en": "cafe",
+      "target": "kafe",
+      "level": "a1"
+    },
+    {
+      "en": "market",
+      "target": "market",
+      "level": "a1"
+    },
+    {
+      "en": "shop / store",
+      "target": "mağaza",
+      "level": "a1"
+    },
+    {
+      "en": "pharmacy",
+      "target": "eczane",
+      "level": "a1"
+    },
+    {
+      "en": "hospital",
+      "target": "hastane",
+      "level": "a1"
+    },
+    {
+      "en": "school",
+      "target": "okul",
+      "level": "a1"
+    },
+    {
+      "en": "bank",
+      "target": "banka",
+      "level": "a1"
+    },
+    {
+      "en": "post office",
+      "target": "postane",
+      "level": "a1"
+    },
+    {
+      "en": "museum",
+      "target": "müze",
+      "level": "a1"
+    },
+    {
+      "en": "sea",
+      "target": "deniz",
+      "level": "a1"
+    },
+    {
+      "en": "beach",
+      "target": "plaj",
+      "level": "a1"
+    },
+    {
+      "en": "airport",
+      "target": "havaalanı",
+      "level": "a1"
+    },
+    {
+      "en": "station",
+      "target": "istasyon",
+      "level": "a1"
+    },
+    {
+      "en": "stop",
+      "target": "durak",
+      "level": "a1"
+    },
+    {
+      "en": "address",
+      "target": "adres",
+      "level": "a1"
+    },
+    {
+      "en": "map",
+      "target": "harita",
+      "level": "a1"
+    },
+    {
+      "en": "neighborhood",
+      "target": "mahalle",
+      "level": "a2"
+    },
+    {
+      "en": "building",
+      "target": "bina",
+      "level": "a2"
+    },
+    {
+      "en": "guesthouse",
+      "target": "pansiyon",
+      "level": "a2"
+    },
+    {
+      "en": "supermarket",
+      "target": "süpermarket",
+      "level": "a2"
+    },
+    {
+      "en": "small grocery store",
+      "target": "bakkal",
+      "level": "a2"
+    },
+    {
+      "en": "bakery",
+      "target": "fırın",
+      "level": "a2",
+      "sense": "the shop"
+    },
+    {
+      "en": "butcher",
+      "target": "kasap",
+      "level": "a2"
+    },
+    {
+      "en": "greengrocer",
+      "target": "manav",
+      "level": "a2"
+    },
+    {
+      "en": "clinic",
+      "target": "klinik",
+      "level": "a2"
+    },
+    {
+      "en": "library",
+      "target": "kütüphane",
+      "level": "a2"
+    },
+    {
+      "en": "cinema",
+      "target": "sinema",
+      "level": "a2"
+    },
+    {
+      "en": "theater",
+      "target": "tiyatro",
+      "level": "a2"
+    },
+    {
+      "en": "police station",
+      "target": "polis merkezi",
+      "level": "a2"
+    },
+    {
+      "en": "bus station",
+      "target": "otogar",
+      "level": "a2"
+    },
+    {
+      "en": "train station",
+      "target": "tren istasyonu",
+      "level": "a2"
+    },
+    {
+      "en": "metro station",
+      "target": "metro istasyonu",
+      "level": "a2"
+    },
+    {
+      "en": "port / harbor",
+      "target": "liman",
+      "level": "a2"
+    },
+    {
+      "en": "taxi stand",
+      "target": "taksi durağı",
+      "level": "a2"
+    },
+    {
+      "en": "bridge",
+      "target": "köprü",
+      "level": "a2"
+    },
+    {
+      "en": "intersection",
+      "target": "kavşak",
+      "level": "a2"
+    },
+    {
+      "en": "traffic",
+      "target": "trafik",
+      "level": "a2"
+    },
+    {
+      "en": "center",
+      "target": "merkez",
+      "level": "a1"
+    },
+    {
+      "en": "city center",
+      "target": "şehir merkezi",
+      "level": "a1"
+    }
+  ]
+}

@@ -1,8 +1,10 @@
 import { describe, it, expect } from 'vitest'
-import { conjugate, canConjugate, parseVerb, conjugatePhrase } from '../src/lib/verbs/conjugate.js'
-import { verbOf } from '../src/lib/verbs/detect.js'
-import { TENSES, PERSONS } from '../src/lib/verbs/tenses.js'
-import { CARDS } from '../src/lib/cards/index.js'
+import { conjugate, canConjugate, parseVerb, conjugatePhrase } from '../src/lib/languages/pt/conjugate.js'
+import { verbOf } from '../src/lib/languages/pt/detect.js'
+import { PT_TENSES as TENSES, PT_PERSONS as PERSONS } from '../src/lib/languages/pt/tenses.js'
+import { portuguese } from '../src/lib/languages/pt/index.js'
+
+const CARDS = portuguese.cards
 
 const form = (infinitive: string, tense: string, person: string) =>
   (conjugate(infinitive) as Record<string, Record<string, string>> | null)?.[tense]?.[person]
@@ -259,7 +261,7 @@ describe('agreement with the cards themselves', () => {
     ['nós sentamo-nos', 'sentar-se'], ['vocês sentam-se', 'sentar-se'],
   ]
 
-  const deckForms = new Set(CARDS.map(c => c.pt.trim().toLowerCase()))
+  const deckForms = new Set(CARDS.map(c => c.target.trim().toLowerCase()))
 
   it.each(OBSERVED)('matches the card %s', (cardText, infinitive) => {
     // Guard against the fixture drifting from the deck it claims to mirror.

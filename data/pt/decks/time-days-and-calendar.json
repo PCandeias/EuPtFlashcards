@@ -1,0 +1,270 @@
+{
+  "deck": "Time, Days & Calendar",
+  "cards": [
+    {
+      "en": "hour / clock",
+      "target": "a hora",
+      "level": "a1"
+    },
+    {
+      "en": "minute",
+      "target": "o minuto",
+      "level": "a1"
+    },
+    {
+      "en": "week",
+      "target": "a semana",
+      "level": "a1"
+    },
+    {
+      "en": "month",
+      "target": "o mês",
+      "level": "a1"
+    },
+    {
+      "en": "year",
+      "target": "o ano",
+      "level": "a1"
+    },
+    {
+      "en": "morning",
+      "target": "a manhã",
+      "level": "a1"
+    },
+    {
+      "en": "noon",
+      "target": "o meio-dia",
+      "level": "a1"
+    },
+    {
+      "en": "afternoon",
+      "target": "a tarde",
+      "level": "a1"
+    },
+    {
+      "en": "evening / night",
+      "target": "a noite",
+      "level": "a1"
+    },
+    {
+      "en": "midnight",
+      "target": "a meia-noite",
+      "level": "a1"
+    },
+    {
+      "en": "early",
+      "target": "cedo",
+      "level": "a1"
+    },
+    {
+      "en": "late",
+      "target": "tarde",
+      "level": "a1"
+    },
+    {
+      "en": "this morning",
+      "target": "esta manhã",
+      "level": "a1"
+    },
+    {
+      "en": "tonight",
+      "target": "esta noite",
+      "level": "a1"
+    },
+    {
+      "en": "this week",
+      "target": "esta semana",
+      "level": "a1"
+    },
+    {
+      "en": "last week",
+      "target": "a semana passada",
+      "level": "a1"
+    },
+    {
+      "en": "next week",
+      "target": "a próxima semana",
+      "level": "a1"
+    },
+    {
+      "en": "every day",
+      "target": "todos os dias",
+      "level": "a1"
+    },
+    {
+      "en": "weekend",
+      "target": "o fim de semana",
+      "level": "a1"
+    },
+    {
+      "en": "Monday",
+      "target": "a segunda-feira",
+      "level": "a1"
+    },
+    {
+      "en": "Tuesday",
+      "target": "a terça-feira",
+      "level": "a1"
+    },
+    {
+      "en": "Wednesday",
+      "target": "a quarta-feira",
+      "level": "a1"
+    },
+    {
+      "en": "Thursday",
+      "target": "a quinta-feira",
+      "level": "a1"
+    },
+    {
+      "en": "Friday",
+      "target": "a sexta-feira",
+      "level": "a1"
+    },
+    {
+      "en": "Saturday",
+      "target": "o sábado",
+      "level": "a1"
+    },
+    {
+      "en": "Sunday",
+      "target": "o domingo",
+      "level": "a1"
+    },
+    {
+      "en": "January",
+      "target": "janeiro",
+      "level": "a1"
+    },
+    {
+      "en": "February",
+      "target": "fevereiro",
+      "level": "a1"
+    },
+    {
+      "en": "March",
+      "target": "março",
+      "level": "a1"
+    },
+    {
+      "en": "April",
+      "target": "abril",
+      "level": "a1"
+    },
+    {
+      "en": "May",
+      "target": "maio",
+      "level": "a1"
+    },
+    {
+      "en": "June",
+      "target": "junho",
+      "level": "a1"
+    },
+    {
+      "en": "July",
+      "target": "julho",
+      "level": "a1"
+    },
+    {
+      "en": "August",
+      "target": "agosto",
+      "level": "a1"
+    },
+    {
+      "en": "September",
+      "target": "setembro",
+      "level": "a1"
+    },
+    {
+      "en": "October",
+      "target": "outubro",
+      "level": "a1"
+    },
+    {
+      "en": "November",
+      "target": "novembro",
+      "level": "a1"
+    },
+    {
+      "en": "December",
+      "target": "dezembro",
+      "level": "a1"
+    },
+    {
+      "en": "spring",
+      "target": "a primavera",
+      "level": "a1"
+    },
+    {
+      "en": "summer",
+      "target": "o verão",
+      "level": "a1"
+    },
+    {
+      "en": "autumn",
+      "target": "o outono",
+      "level": "a1"
+    },
+    {
+      "en": "winter",
+      "target": "o inverno",
+      "level": "a1"
+    },
+    {
+      "en": "birthday",
+      "target": "o aniversário",
+      "level": "a1"
+    },
+    {
+      "en": "holiday / vacation",
+      "target": "as férias",
+      "level": "a1"
+    },
+    {
+      "en": "appointment",
+      "target": "a marcação / a consulta",
+      "level": "a2"
+    },
+    {
+      "en": "meeting",
+      "target": "a reunião",
+      "level": "a2"
+    },
+    {
+      "en": "lesson / class",
+      "target": "a aula",
+      "level": "a1"
+    },
+    {
+      "en": "what time is it?",
+      "target": "que horas são?",
+      "level": "a1"
+    },
+    {
+      "en": "it is one o'clock",
+      "target": "é uma hora",
+      "level": "a1"
+    },
+    {
+      "en": "it is two o'clock",
+      "target": "são duas horas",
+      "level": "a1"
+    },
+    {
+      "en": "it is half past two",
+      "target": "são duas e meia",
+      "level": "a1"
+    },
+    {
+      "en": "it is quarter past three",
+      "target": "são três e um quarto",
+      "level": "a1"
+    },
+    {
+      "en": "it is quarter to four",
+      "target": "são quatro menos um quarto",
+      "level": "a1"
+    }
+  ]
+}

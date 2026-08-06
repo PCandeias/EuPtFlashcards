@@ -11,7 +11,8 @@
 import type { Progress } from '../study/scheduler.js'
 import type { ReviewState } from '../study/sm2.js'
 import { sanitizeHistory, type History } from '../study/history.js'
-import { TENSE_IDS, isTenseId, type TenseId } from '../verbs/tenses.js'
+import { isTenseId, type TenseId } from '../grammar/tenses.js'
+import type { LanguageDef } from '../languages/types.js'
 
 export interface StorageLike {
   getItem(key: string): string | null
@@ -33,19 +34,41 @@ export const V3_KEYS = {
   migrated: 'eupt:v3:migrated',
 } as const
 
-export const KEYS = {
-  progress: 'eupt:v4:progress',
-  settings: 'eupt:v4:settings',
-  history: 'eupt:v4:history',
-  migrated: 'eupt:v4:migrated',
+export interface Keys {
+  progress: string
+  settings: string
+  history: string
+  reported: string
+  migrated: string
   /**
    * Stamped once the tense selection has been widened. The setting used to
    * choose only what the conjugation panel offered; now it also decides which
    * cards appear, so an old selection would hide cards the user never chose to
    * hide.
    */
-  tenseScope: 'eupt:v4:tense-scope',
-} as const
+  tenseScope: string
+}
+
+/**
+ * Where one language keeps its data.
+ *
+ * Every key is namespaced, so studying Turkish cannot show you the Portuguese
+ * cards you reported, reset your Portuguese deck, or count towards your
+ * Portuguese streak. Portuguese keeps the `eupt:v4` prefix it has always written.
+ */
+export function keysFor(prefix: string): Keys {
+  return {
+    progress: `${prefix}:progress`,
+    settings: `${prefix}:settings`,
+    history: `${prefix}:history`,
+    reported: `${prefix}:reported`,
+    migrated: `${prefix}:migrated`,
+    tenseScope: `${prefix}:tense-scope`,
+  }
+}
+
+/** Portuguese, which is the only language with anything to migrate. */
+export const KEYS = keysFor('eupt:v4')
 
 export type Direction = 'a-b' | 'b-a'
 
@@ -72,14 +95,20 @@ export interface Settings {
   speech: boolean
 }
 
-export const DEFAULT_SETTINGS: Settings = {
-  deck: 'All',
-  direction: 'a-b',
-  theme: 'slate',
-  // Everything: this list also decides which cards appear, so anything less
-  // would hide part of the deck before the user had asked for that.
-  tenses: [...TENSE_IDS],
-  speech: true,
+/**
+ * Defaults for one language.
+ *
+ * Every tense is on: the list also decides which cards appear, so anything less
+ * would hide part of the deck before the user had asked for that.
+ */
+export function defaultSettings(language: Pick<LanguageDef, 'tenses'>): Settings {
+  return {
+    deck: 'All',
+    direction: 'a-b',
+    theme: 'slate',
+    tenses: language.tenses.map(t => t.id),
+    speech: true,
+  }
 }
 
 function readJson(storage: StorageLike, key: string): unknown {
@@ -122,47 +151,56 @@ export function sanitizeProgress(value: unknown): Progress {
   return out
 }
 
-export function loadProgress(storage: StorageLike): Progress {
-  return sanitizeProgress(readJson(storage, KEYS.progress))
+export function loadProgress(storage: StorageLike, keys: Keys): Progress {
+  return sanitizeProgress(readJson(storage, keys.progress))
 }
 
-export function saveProgress(storage: StorageLike, progress: Progress): void {
-  storage.setItem(KEYS.progress, JSON.stringify(progress))
+export function saveProgress(storage: StorageLike, keys: Keys, progress: Progress): void {
+  storage.setItem(keys.progress, JSON.stringify(progress))
 }
 
-export function sanitizeSettings(value: unknown): Settings {
-  if (typeof value !== 'object' || value === null) return { ...DEFAULT_SETTINGS }
+/** The language a stored setting is read against: its tenses, and its order. */
+export type SettingsScope = Pick<LanguageDef, 'tenses'>
+
+export function sanitizeSettings(value: unknown, language: SettingsScope): Settings {
+  const defaults = defaultSettings(language)
+  if (typeof value !== 'object' || value === null) return defaults
+  const order = language.tenses.map(t => t.id)
   const v = value as Record<string, unknown>
   return {
-    deck: typeof v.deck === 'string' && v.deck ? v.deck : DEFAULT_SETTINGS.deck,
+    deck: typeof v.deck === 'string' && v.deck ? v.deck : defaults.deck,
     direction: v.direction === 'a-b' || v.direction === 'b-a'
       ? v.direction
-      : DEFAULT_SETTINGS.direction,
-    theme: THEMES.includes(v.theme as Theme) ? (v.theme as Theme) : DEFAULT_SETTINGS.theme,
+      : defaults.direction,
+    theme: THEMES.includes(v.theme as Theme) ? (v.theme as Theme) : defaults.theme,
     // Unknown ids are dropped rather than rejected wholesale, so a stored setting
-    // survives a tense being renamed or removed. An empty list is legitimate: it
-    // turns the panel off.
+    // survives a tense being renamed or removed — and a tense belonging to another
+    // language cannot leak in through a hand-edited or restored file. An empty
+    // list is legitimate: it turns the panel off.
     tenses: Array.isArray(v.tenses)
-      ? [...new Set(v.tenses.filter(isTenseId))].sort(
-          (a, b) => TENSE_IDS.indexOf(a) - TENSE_IDS.indexOf(b),
-        )
-      : [...DEFAULT_SETTINGS.tenses],
-    speech: typeof v.speech === 'boolean' ? v.speech : DEFAULT_SETTINGS.speech,
+      ? [...new Set(v.tenses.filter(isTenseId).filter(t => order.includes(t)))]
+          .sort((a, b) => order.indexOf(a) - order.indexOf(b))
+      : [...defaults.tenses],
+    speech: typeof v.speech === 'boolean' ? v.speech : defaults.speech,
   }
 }
 
-export function loadSettings(storage: StorageLike): Settings {
-  return sanitizeSettings(readJson(storage, KEYS.settings))
+export function loadSettings(
+  storage: StorageLike, keys: Keys, language: SettingsScope,
+): Settings {
+  return sanitizeSettings(readJson(storage, keys.settings), language)
 }
 
-export function saveSettings(storage: StorageLike, settings: Settings): void {
-  storage.setItem(KEYS.settings, JSON.stringify(sanitizeSettings(settings)))
+export function saveSettings(
+  storage: StorageLike, keys: Keys, language: SettingsScope, settings: Settings,
+): void {
+  storage.setItem(keys.settings, JSON.stringify(sanitizeSettings(settings, language)))
 }
 
-export function loadHistory(storage: StorageLike): History {
-  return sanitizeHistory(readJson(storage, KEYS.history))
+export function loadHistory(storage: StorageLike, keys: Keys): History {
+  return sanitizeHistory(readJson(storage, keys.history))
 }
 
-export function saveHistory(storage: StorageLike, history: History): void {
-  storage.setItem(KEYS.history, JSON.stringify(history))
+export function saveHistory(storage: StorageLike, keys: Keys, history: History): void {
+  storage.setItem(keys.history, JSON.stringify(history))
 }

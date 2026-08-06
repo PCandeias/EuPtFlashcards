@@ -1,0 +1,245 @@
+{
+  "deck": "Body & Health",
+  "cards": [
+    {
+      "en": "head",
+      "target": "baş",
+      "level": "a1"
+    },
+    {
+      "en": "hair",
+      "target": "saç",
+      "level": "a1"
+    },
+    {
+      "en": "face",
+      "target": "yüz",
+      "level": "a1",
+      "sense": "part of the body"
+    },
+    {
+      "en": "eye",
+      "target": "göz",
+      "level": "a1"
+    },
+    {
+      "en": "ear",
+      "target": "kulak",
+      "level": "a1"
+    },
+    {
+      "en": "nose",
+      "target": "burun",
+      "level": "a1"
+    },
+    {
+      "en": "mouth",
+      "target": "ağız",
+      "level": "a1"
+    },
+    {
+      "en": "tooth",
+      "target": "diş",
+      "level": "a1"
+    },
+    {
+      "en": "hand",
+      "target": "el",
+      "level": "a1"
+    },
+    {
+      "en": "arm",
+      "target": "kol",
+      "level": "a1"
+    },
+    {
+      "en": "foot",
+      "target": "ayak",
+      "level": "a1"
+    },
+    {
+      "en": "leg",
+      "target": "bacak",
+      "level": "a1"
+    },
+    {
+      "en": "heart",
+      "target": "kalp",
+      "level": "a2"
+    },
+    {
+      "en": "stomach",
+      "target": "mide",
+      "level": "a1"
+    },
+    {
+      "en": "back",
+      "target": "sırt",
+      "level": "a1"
+    },
+    {
+      "en": "sick",
+      "target": "hasta",
+      "level": "a1"
+    },
+    {
+      "en": "healthy",
+      "target": "sağlıklı",
+      "level": "a2"
+    },
+    {
+      "en": "pain",
+      "target": "ağrı",
+      "level": "a1"
+    },
+    {
+      "en": "headache",
+      "target": "baş ağrısı",
+      "level": "a1"
+    },
+    {
+      "en": "medicine",
+      "target": "ilaç",
+      "level": "a1"
+    },
+    {
+      "en": "doctor",
+      "target": "doktor",
+      "level": "a1"
+    },
+    {
+      "en": "I need help",
+      "target": "Yardım lazım",
+      "level": "a1"
+    },
+    {
+      "en": "I do not feel well",
+      "target": "Kendimi iyi hissetmiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "tongue / language",
+      "target": "dil",
+      "level": "a1"
+    },
+    {
+      "en": "lip",
+      "target": "dudak",
+      "level": "a2"
+    },
+    {
+      "en": "neck",
+      "target": "boyun",
+      "level": "a1"
+    },
+    {
+      "en": "shoulder",
+      "target": "omuz",
+      "level": "a2"
+    },
+    {
+      "en": "finger",
+      "target": "parmak",
+      "level": "a2"
+    },
+    {
+      "en": "chest",
+      "target": "göğüs",
+      "level": "a2"
+    },
+    {
+      "en": "belly",
+      "target": "karın",
+      "level": "a2"
+    },
+    {
+      "en": "knee",
+      "target": "diz",
+      "level": "a2"
+    },
+    {
+      "en": "blood",
+      "target": "kan",
+      "level": "a2"
+    },
+    {
+      "en": "stomachache",
+      "target": "mide ağrısı",
+      "level": "a2"
+    },
+    {
+      "en": "toothache",
+      "target": "diş ağrısı",
+      "level": "a2"
+    },
+    {
+      "en": "fever",
+      "target": "ateş",
+      "level": "a2"
+    },
+    {
+      "en": "cough",
+      "target": "öksürük",
+      "level": "a2"
+    },
+    {
+      "en": "a cold",
+      "target": "nezle",
+      "level": "a2",
+      "sense": "the illness"
+    },
+    {
+      "en": "flu",
+      "target": "grip",
+      "level": "a2"
+    },
+    {
+      "en": "pill",
+      "target": "hap",
+      "level": "a2"
+    },
+    {
+      "en": "prescription",
+      "target": "reçete",
+      "level": "b1"
+    },
+    {
+      "en": "appointment",
+      "target": "randevu",
+      "level": "a2"
+    },
+    {
+      "en": "ambulance",
+      "target": "ambulans",
+      "level": "a2"
+    },
+    {
+      "en": "urgent",
+      "target": "acil",
+      "level": "a2"
+    },
+    {
+      "en": "injured",
+      "target": "yaralı",
+      "level": "a2"
+    },
+    {
+      "en": "I have a headache",
+      "target": "Başım ağrıyor",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "my stomach hurts",
+      "target": "Karnım ağrıyor",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I have a fever",
+      "target": "Ateşim var",
+      "level": "a2"
+    }
+  ]
+}

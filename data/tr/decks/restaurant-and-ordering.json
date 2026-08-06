@@ -1,0 +1,135 @@
+{
+  "deck": "Restaurant & Ordering",
+  "cards": [
+    {
+      "en": "menu",
+      "target": "menü",
+      "level": "a1"
+    },
+    {
+      "en": "bill",
+      "target": "hesap",
+      "level": "a1",
+      "sense": "in a restaurant"
+    },
+    {
+      "en": "waiter",
+      "target": "garson",
+      "level": "a1"
+    },
+    {
+      "en": "table",
+      "target": "masa",
+      "level": "a1"
+    },
+    {
+      "en": "reservation",
+      "target": "rezervasyon",
+      "level": "a2"
+    },
+    {
+      "en": "breakfast",
+      "target": "kahvaltı",
+      "level": "a1"
+    },
+    {
+      "en": "lunch",
+      "target": "öğle yemeği",
+      "level": "a1"
+    },
+    {
+      "en": "dinner",
+      "target": "akşam yemeği",
+      "level": "a1"
+    },
+    {
+      "en": "food / meal",
+      "target": "yemek",
+      "level": "a1",
+      "sense": "the noun"
+    },
+    {
+      "en": "drink",
+      "target": "içecek",
+      "level": "a1"
+    },
+    {
+      "en": "fork",
+      "target": "çatal",
+      "level": "a1"
+    },
+    {
+      "en": "knife",
+      "target": "bıçak",
+      "level": "a1"
+    },
+    {
+      "en": "spoon",
+      "target": "kaşık",
+      "level": "a1"
+    },
+    {
+      "en": "glass",
+      "target": "bardak",
+      "level": "a1"
+    },
+    {
+      "en": "plate",
+      "target": "tabak",
+      "level": "a1"
+    },
+    {
+      "en": "napkin",
+      "target": "peçete",
+      "level": "a1"
+    },
+    {
+      "en": "is it spicy?",
+      "target": "acı mı?",
+      "level": "a2"
+    },
+    {
+      "en": "vegetarian",
+      "target": "vejetaryen",
+      "level": "a1"
+    },
+    {
+      "en": "make it takeaway",
+      "target": "Paket olsun",
+      "level": "a2"
+    },
+    {
+      "en": "I will eat here",
+      "target": "Burada yiyeceğim",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "I will take one",
+      "target": "Bir tane alayım",
+      "level": "a1"
+    },
+    {
+      "en": "what do you recommend?",
+      "target": "Ne önerirsiniz?",
+      "tags": [
+        "formal"
+      ],
+      "tense": "genis",
+      "level": "a2"
+    },
+    {
+      "en": "the bill please",
+      "target": "Hesap lütfen",
+      "level": "a1"
+    },
+    {
+      "en": "can I have water?",
+      "target": "Su alabilir miyim?",
+      "tags": [
+        "formal"
+      ],
+      "level": "a1"
+    }
+  ]
+}

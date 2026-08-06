@@ -1,0 +1,281 @@
+{
+  "deck": "Body & Health",
+  "cards": [
+    {
+      "en": "body",
+      "target": "o corpo",
+      "level": "a1"
+    },
+    {
+      "en": "head",
+      "target": "a cabeça",
+      "level": "a1"
+    },
+    {
+      "en": "hair",
+      "target": "o cabelo",
+      "level": "a1"
+    },
+    {
+      "en": "face",
+      "target": "a cara / o rosto",
+      "level": "a1"
+    },
+    {
+      "en": "forehead",
+      "target": "a testa",
+      "level": "a2"
+    },
+    {
+      "en": "eye",
+      "target": "o olho",
+      "level": "a1"
+    },
+    {
+      "en": "ear",
+      "target": "a orelha",
+      "level": "a1"
+    },
+    {
+      "en": "nose",
+      "target": "o nariz",
+      "level": "a1"
+    },
+    {
+      "en": "mouth",
+      "target": "a boca",
+      "level": "a1"
+    },
+    {
+      "en": "tooth",
+      "target": "o dente",
+      "level": "a1"
+    },
+    {
+      "en": "tongue",
+      "target": "a língua",
+      "level": "a1"
+    },
+    {
+      "en": "lip",
+      "target": "o lábio",
+      "level": "a2"
+    },
+    {
+      "en": "neck",
+      "target": "o pescoço",
+      "level": "a1"
+    },
+    {
+      "en": "shoulder",
+      "target": "o ombro",
+      "level": "a1"
+    },
+    {
+      "en": "arm",
+      "target": "o braço",
+      "level": "a1"
+    },
+    {
+      "en": "elbow",
+      "target": "o cotovelo",
+      "level": "a2"
+    },
+    {
+      "en": "hand",
+      "target": "a mão",
+      "level": "a1"
+    },
+    {
+      "en": "finger",
+      "target": "o dedo",
+      "level": "a1"
+    },
+    {
+      "en": "nail",
+      "target": "a unha",
+      "level": "a2"
+    },
+    {
+      "en": "chest",
+      "target": "o peito",
+      "level": "a2"
+    },
+    {
+      "en": "back",
+      "target": "as costas",
+      "level": "a1"
+    },
+    {
+      "en": "stomach / belly",
+      "target": "a barriga",
+      "level": "a2"
+    },
+    {
+      "en": "leg",
+      "target": "a perna",
+      "level": "a1"
+    },
+    {
+      "en": "knee",
+      "target": "o joelho",
+      "level": "a1"
+    },
+    {
+      "en": "foot",
+      "target": "o pé",
+      "level": "a1"
+    },
+    {
+      "en": "ankle",
+      "target": "o tornozelo",
+      "level": "a2"
+    },
+    {
+      "en": "heart",
+      "target": "o coração",
+      "level": "a2"
+    },
+    {
+      "en": "blood",
+      "target": "o sangue",
+      "level": "a2"
+    },
+    {
+      "en": "bone",
+      "target": "o osso",
+      "level": "a2"
+    },
+    {
+      "en": "sick",
+      "target": "doente",
+      "level": "a1"
+    },
+    {
+      "en": "healthy",
+      "target": "saudável",
+      "level": "a2"
+    },
+    {
+      "en": "pain",
+      "target": "a dor",
+      "level": "a1"
+    },
+    {
+      "en": "headache",
+      "target": "a dor de cabeça",
+      "level": "a1"
+    },
+    {
+      "en": "stomachache",
+      "target": "a dor de barriga",
+      "level": "a2"
+    },
+    {
+      "en": "toothache",
+      "target": "a dor de dentes",
+      "level": "a2"
+    },
+    {
+      "en": "fever",
+      "target": "a febre",
+      "level": "a2"
+    },
+    {
+      "en": "cough",
+      "target": "a tosse",
+      "level": "a2"
+    },
+    {
+      "en": "sneeze",
+      "target": "o espirro",
+      "level": "a2"
+    },
+    {
+      "en": "cold illness",
+      "target": "a constipação",
+      "level": "a2"
+    },
+    {
+      "en": "flu",
+      "target": "a gripe",
+      "level": "a2"
+    },
+    {
+      "en": "medicine",
+      "target": "o medicamento",
+      "level": "a1"
+    },
+    {
+      "en": "pill",
+      "target": "o comprimido",
+      "level": "a2"
+    },
+    {
+      "en": "doctor",
+      "target": "o médico / a médica",
+      "level": "a1"
+    },
+    {
+      "en": "hospital",
+      "target": "o hospital",
+      "level": "a1"
+    },
+    {
+      "en": "pharmacy",
+      "target": "a farmácia",
+      "level": "a1"
+    },
+    {
+      "en": "prescription",
+      "target": "a receita",
+      "level": "b1"
+    },
+    {
+      "en": "appointment",
+      "target": "a consulta",
+      "level": "a2"
+    },
+    {
+      "en": "ambulance",
+      "target": "a ambulância",
+      "level": "a2"
+    },
+    {
+      "en": "urgent",
+      "target": "urgente",
+      "level": "a2"
+    },
+    {
+      "en": "injured",
+      "target": "ferido / ferida",
+      "level": "a2"
+    },
+    {
+      "en": "tired",
+      "target": "cansado / cansada",
+      "level": "a1"
+    },
+    {
+      "en": "sleepy",
+      "target": "com sono",
+      "level": "a1"
+    },
+    {
+      "en": "my head hurts",
+      "target": "dói-me a cabeça",
+      "level": "a1"
+    },
+    {
+      "en": "my stomach hurts",
+      "target": "dói-me a barriga",
+      "level": "a1"
+    },
+    {
+      "en": "I have a fever",
+      "target": "tenho febre",
+      "tense": "presente",
+      "level": "a2"
+    }
+  ]
+}

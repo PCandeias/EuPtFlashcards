@@ -5,36 +5,36 @@ const where = 'test.json[0]'
 
 describe('parseCard', () => {
   it('accepts a minimal card', () => {
-    expect(parseCard({ en: 'hello', pt: 'olá' }, 'Greetings', where))
-      .toEqual({ deck: 'Greetings', en: 'hello', pt: 'olá' })
+    expect(parseCard({ en: 'hello', target: 'olá' }, 'Greetings', where))
+      .toEqual({ deck: 'Greetings', en: 'hello', target: 'olá' })
   })
 
-  it('accepts tags, ptTags and sense', () => {
+  it('accepts tags, targetTags and sense', () => {
     const card = parseCard(
-      { en: 'him / it', pt: 'o', tags: ['masc', 'object'], ptTags: ['object'], sense: 'x' },
+      { en: 'him / it', target: 'o', tags: ['masc', 'object'], targetTags: ['object'], sense: 'x' },
       'Class', where,
     )
     expect(card.tags).toEqual(['masc', 'object'])
-    expect(card.ptTags).toEqual(['object'])
+    expect(card.targetTags).toEqual(['object'])
     expect(card.sense).toBe('x')
   })
 
   it('rejects an unknown tag', () => {
-    expect(() => parseCard({ en: 'a', pt: 'b', tags: ['neuter'] }, 'D', where))
+    expect(() => parseCard({ en: 'a', target: 'b', tags: ['neuter'] }, 'D', where))
       .toThrow(/unknown tag/)
   })
 
-  // ptTags marks "also show this badge on the Portuguese face", so it can only
+  // targetTags marks "also show this badge on the Portuguese face", so it can only
   // ever name a tag the card already has.
   it('rejects a ptTag that is not in tags', () => {
-    expect(() => parseCard({ en: 'a', pt: 'b', tags: ['masc'], ptTags: ['object'] }, 'D', where))
+    expect(() => parseCard({ en: 'a', target: 'b', tags: ['masc'], targetTags: ['object'] }, 'D', where))
       .toThrow(/not present in tags/)
   })
 
   it('rejects missing or empty words', () => {
-    expect(() => parseCard({ pt: 'b' }, 'D', where)).toThrow(/`en`/)
-    expect(() => parseCard({ en: '  ', pt: 'b' }, 'D', where)).toThrow(/`en`/)
-    expect(() => parseCard({ en: 'a' }, 'D', where)).toThrow(/`pt`/)
+    expect(() => parseCard({ target: 'b' }, 'D', where)).toThrow(/`en`/)
+    expect(() => parseCard({ en: '  ', target: 'b' }, 'D', where)).toThrow(/`en`/)
+    expect(() => parseCard({ en: 'a' }, 'D', where)).toThrow(/`target`/)
   })
 
   it('rejects non-objects', () => {

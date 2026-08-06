@@ -1,0 +1,243 @@
+{
+  "deck": "Shopping & Money",
+  "cards": [
+    {
+      "en": "lira",
+      "target": "lira",
+      "level": "a2"
+    },
+    {
+      "en": "credit card",
+      "target": "kredi kartı",
+      "level": "a1"
+    },
+    {
+      "en": "cash",
+      "target": "nakit",
+      "level": "a1"
+    },
+    {
+      "en": "price",
+      "target": "fiyat",
+      "level": "a1"
+    },
+    {
+      "en": "cheap",
+      "target": "ucuz",
+      "level": "a1"
+    },
+    {
+      "en": "expensive",
+      "target": "pahalı",
+      "level": "a1"
+    },
+    {
+      "en": "discount",
+      "target": "indirim",
+      "level": "a1"
+    },
+    {
+      "en": "shopping",
+      "target": "alışveriş",
+      "level": "a1"
+    },
+    {
+      "en": "seller",
+      "target": "satıcı",
+      "level": "a2"
+    },
+    {
+      "en": "customer",
+      "target": "müşteri",
+      "level": "a2"
+    },
+    {
+      "en": "cash register",
+      "target": "kasa",
+      "level": "a2"
+    },
+    {
+      "en": "receipt",
+      "target": "fiş",
+      "level": "a2"
+    },
+    {
+      "en": "bag",
+      "target": "poşet",
+      "level": "a1"
+    },
+    {
+      "en": "size",
+      "target": "beden",
+      "level": "a1",
+      "sense": "clothing"
+    },
+    {
+      "en": "number / size",
+      "target": "numara",
+      "level": "a1"
+    },
+    {
+      "en": "color",
+      "target": "renk",
+      "level": "a1"
+    },
+    {
+      "en": "large size",
+      "target": "büyük beden",
+      "level": "a2"
+    },
+    {
+      "en": "small size",
+      "target": "küçük beden",
+      "level": "a1"
+    },
+    {
+      "en": "I want this",
+      "target": "Bunu istiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "how much?",
+      "target": "Kaç para?",
+      "level": "a1"
+    },
+    {
+      "en": "can I pay by card?",
+      "target": "Kartla ödeyebilir miyim?",
+      "tags": [
+        "formal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "shop",
+      "target": "dükkan",
+      "level": "a1"
+    },
+    {
+      "en": "market / bazaar",
+      "target": "pazar",
+      "level": "a1"
+    },
+    {
+      "en": "cashier",
+      "target": "kasiyer",
+      "level": "a2"
+    },
+    {
+      "en": "card",
+      "target": "kart",
+      "level": "a1"
+    },
+    {
+      "en": "debit card",
+      "target": "banka kartı",
+      "level": "a2"
+    },
+    {
+      "en": "fee / price",
+      "target": "ücret",
+      "level": "b1"
+    },
+    {
+      "en": "promotion",
+      "target": "kampanya",
+      "level": "b1"
+    },
+    {
+      "en": "free of charge",
+      "target": "bedava",
+      "level": "a2"
+    },
+    {
+      "en": "invoice",
+      "target": "fatura",
+      "level": "b1"
+    },
+    {
+      "en": "coin / change",
+      "target": "bozuk para",
+      "level": "a2"
+    },
+    {
+      "en": "banknote",
+      "target": "kağıt para",
+      "level": "a2"
+    },
+    {
+      "en": "cent",
+      "target": "kuruş",
+      "level": "a2",
+      "sense": "one hundredth of a lira"
+    },
+    {
+      "en": "wallet",
+      "target": "cüzdan",
+      "level": "a2"
+    },
+    {
+      "en": "basket",
+      "target": "sepet",
+      "level": "a2"
+    },
+    {
+      "en": "shopping cart",
+      "target": "alışveriş arabası",
+      "level": "a2"
+    },
+    {
+      "en": "quality",
+      "target": "kalite",
+      "level": "a2"
+    },
+    {
+      "en": "second-hand",
+      "target": "ikinci el",
+      "level": "b1"
+    },
+    {
+      "en": "warranty",
+      "target": "garanti",
+      "level": "b1"
+    },
+    {
+      "en": "return",
+      "target": "iade",
+      "level": "b1"
+    },
+    {
+      "en": "exchange",
+      "target": "değişim",
+      "level": "a2"
+    },
+    {
+      "en": "to try / to try on",
+      "target": "denemek",
+      "level": "a2"
+    },
+    {
+      "en": "I will take this",
+      "target": "Bunu alacağım",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "can I try it on?",
+      "target": "Deneyebilir miyim?",
+      "level": "a1"
+    },
+    {
+      "en": "is there a discount?",
+      "target": "İndirim var mı?",
+      "level": "a1"
+    },
+    {
+      "en": "do you accept cards?",
+      "target": "Kart geçiyor mu?",
+      "tense": "simdiki",
+      "level": "a1"
+    }
+  ]
+}

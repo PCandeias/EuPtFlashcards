@@ -1,0 +1,100 @@
+{
+  "deck": "Work, School & Study",
+  "cards": [
+    {
+      "en": "work / job",
+      "target": "iş",
+      "level": "a1"
+    },
+    {
+      "en": "office",
+      "target": "ofis",
+      "level": "a2"
+    },
+    {
+      "en": "company",
+      "target": "şirket",
+      "level": "a2"
+    },
+    {
+      "en": "manager",
+      "target": "müdür",
+      "level": "a2"
+    },
+    {
+      "en": "employee",
+      "target": "çalışan",
+      "level": "a2"
+    },
+    {
+      "en": "engineer",
+      "target": "mühendis",
+      "level": "a2"
+    },
+    {
+      "en": "teacher",
+      "target": "öğretmen",
+      "level": "a1"
+    },
+    {
+      "en": "student",
+      "target": "öğrenci",
+      "level": "a1"
+    },
+    {
+      "en": "university",
+      "target": "üniversite",
+      "level": "a1"
+    },
+    {
+      "en": "lesson / class",
+      "target": "ders",
+      "level": "a1"
+    },
+    {
+      "en": "exam",
+      "target": "sınav",
+      "level": "a2"
+    },
+    {
+      "en": "homework",
+      "target": "ödev",
+      "level": "a2"
+    },
+    {
+      "en": "notebook",
+      "target": "defter",
+      "level": "a2"
+    },
+    {
+      "en": "meeting",
+      "target": "toplantı",
+      "level": "a2"
+    },
+    {
+      "en": "email",
+      "target": "e-posta",
+      "level": "a1"
+    },
+    {
+      "en": "message",
+      "target": "mesaj",
+      "level": "a1"
+    },
+    {
+      "en": "busy",
+      "target": "meşgul",
+      "level": "a2"
+    },
+    {
+      "en": "free / empty",
+      "target": "boş",
+      "level": "a2"
+    },
+    {
+      "en": "holiday",
+      "target": "tatil",
+      "level": "a2"
+    }
+  ]
+}

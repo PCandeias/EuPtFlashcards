@@ -1,0 +1,112 @@
+{
+  "deck": "Weather, Nature & Animals",
+  "cards": [
+    {
+      "en": "weather / air",
+      "target": "hava",
+      "level": "a1"
+    },
+    {
+      "en": "sun",
+      "target": "güneş",
+      "level": "a1"
+    },
+    {
+      "en": "rain",
+      "target": "yağmur",
+      "level": "a1"
+    },
+    {
+      "en": "snow",
+      "target": "kar",
+      "level": "a2"
+    },
+    {
+      "en": "wind",
+      "target": "rüzgar",
+      "level": "a2"
+    },
+    {
+      "en": "cloud",
+      "target": "bulut",
+      "level": "a2"
+    },
+    {
+      "en": "cool",
+      "target": "serin",
+      "level": "a2"
+    },
+    {
+      "en": "nice weather",
+      "target": "güzel hava",
+      "level": "a2"
+    },
+    {
+      "en": "bad weather",
+      "target": "kötü hava",
+      "level": "a2"
+    },
+    {
+      "en": "mountain",
+      "target": "dağ",
+      "level": "a2"
+    },
+    {
+      "en": "forest",
+      "target": "orman",
+      "level": "a2"
+    },
+    {
+      "en": "tree",
+      "target": "ağaç",
+      "level": "a2"
+    },
+    {
+      "en": "flower",
+      "target": "çiçek",
+      "level": "a2"
+    },
+    {
+      "en": "animal",
+      "target": "hayvan",
+      "level": "a1"
+    },
+    {
+      "en": "cat",
+      "target": "kedi",
+      "level": "a1"
+    },
+    {
+      "en": "dog",
+      "target": "köpek",
+      "level": "a1"
+    },
+    {
+      "en": "bird",
+      "target": "kuş",
+      "level": "a1"
+    },
+    {
+      "en": "how is the weather today?",
+      "target": "Bugün hava nasıl?",
+      "level": "a1"
+    },
+    {
+      "en": "it is raining",
+      "target": "Yağmur yağıyor",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "the weather is very hot",
+      "target": "Hava çok sıcak",
+      "level": "a1"
+    },
+    {
+      "en": "to fall",
+      "target": "yağmak",
+      "level": "a2",
+      "sense": "of rain or snow"
+    }
+  ]
+}

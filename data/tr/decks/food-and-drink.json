@@ -1,0 +1,316 @@
+{
+  "deck": "Food & Drink",
+  "cards": [
+    {
+      "en": "water",
+      "target": "su",
+      "level": "a1"
+    },
+    {
+      "en": "tea",
+      "target": "çay",
+      "level": "a1"
+    },
+    {
+      "en": "coffee",
+      "target": "kahve",
+      "level": "a1"
+    },
+    {
+      "en": "milk",
+      "target": "süt",
+      "level": "a1"
+    },
+    {
+      "en": "fruit juice",
+      "target": "meyve suyu",
+      "level": "a1"
+    },
+    {
+      "en": "ayran",
+      "target": "ayran",
+      "level": "a2",
+      "sense": "salted yogurt drink"
+    },
+    {
+      "en": "bread",
+      "target": "ekmek",
+      "level": "a1"
+    },
+    {
+      "en": "cheese",
+      "target": "peynir",
+      "level": "a1"
+    },
+    {
+      "en": "olive",
+      "target": "zeytin",
+      "level": "a1"
+    },
+    {
+      "en": "egg",
+      "target": "yumurta",
+      "level": "a1"
+    },
+    {
+      "en": "butter",
+      "target": "tereyağı",
+      "level": "a1"
+    },
+    {
+      "en": "honey",
+      "target": "bal",
+      "level": "a2"
+    },
+    {
+      "en": "jam",
+      "target": "reçel",
+      "level": "a1"
+    },
+    {
+      "en": "soup",
+      "target": "çorba",
+      "level": "a1"
+    },
+    {
+      "en": "rice pilaf",
+      "target": "pilav",
+      "level": "a1"
+    },
+    {
+      "en": "pasta",
+      "target": "makarna",
+      "level": "a1"
+    },
+    {
+      "en": "meat",
+      "target": "et",
+      "level": "a1"
+    },
+    {
+      "en": "chicken",
+      "target": "tavuk",
+      "level": "a1"
+    },
+    {
+      "en": "fish",
+      "target": "balık",
+      "level": "a1"
+    },
+    {
+      "en": "vegetable",
+      "target": "sebze",
+      "level": "a1"
+    },
+    {
+      "en": "fruit",
+      "target": "meyve",
+      "level": "a1"
+    },
+    {
+      "en": "apple",
+      "target": "elma",
+      "level": "a1"
+    },
+    {
+      "en": "pear",
+      "target": "armut",
+      "level": "a1"
+    },
+    {
+      "en": "banana",
+      "target": "muz",
+      "level": "a1"
+    },
+    {
+      "en": "orange",
+      "target": "portakal",
+      "level": "a1"
+    },
+    {
+      "en": "lemon",
+      "target": "limon",
+      "level": "a1"
+    },
+    {
+      "en": "tomato",
+      "target": "domates",
+      "level": "a1"
+    },
+    {
+      "en": "cucumber",
+      "target": "salatalık",
+      "level": "a2"
+    },
+    {
+      "en": "potato",
+      "target": "patates",
+      "level": "a1"
+    },
+    {
+      "en": "onion",
+      "target": "soğan",
+      "level": "a1"
+    },
+    {
+      "en": "garlic",
+      "target": "sarımsak",
+      "level": "a1"
+    },
+    {
+      "en": "salt",
+      "target": "tuz",
+      "level": "a1"
+    },
+    {
+      "en": "sugar",
+      "target": "şeker",
+      "level": "a1"
+    },
+    {
+      "en": "pepper",
+      "target": "biber",
+      "level": "a1"
+    },
+    {
+      "en": "dessert / sweet",
+      "target": "tatlı",
+      "level": "a2"
+    },
+    {
+      "en": "rice",
+      "target": "pirinç",
+      "level": "a1"
+    },
+    {
+      "en": "flour",
+      "target": "un",
+      "level": "a2"
+    },
+    {
+      "en": "black pepper",
+      "target": "karabiber",
+      "level": "a2"
+    },
+    {
+      "en": "spice",
+      "target": "baharat",
+      "level": "a2"
+    },
+    {
+      "en": "olive oil",
+      "target": "zeytinyağı",
+      "level": "a2"
+    },
+    {
+      "en": "yogurt",
+      "target": "yoğurt",
+      "level": "a1"
+    },
+    {
+      "en": "carrot",
+      "target": "havuç",
+      "level": "a1"
+    },
+    {
+      "en": "lettuce",
+      "target": "marul",
+      "level": "a2"
+    },
+    {
+      "en": "cabbage",
+      "target": "lahana",
+      "level": "a2"
+    },
+    {
+      "en": "beans",
+      "target": "fasulye",
+      "level": "a2"
+    },
+    {
+      "en": "lentils",
+      "target": "mercimek",
+      "level": "a2"
+    },
+    {
+      "en": "chickpea",
+      "target": "nohut",
+      "level": "a2"
+    },
+    {
+      "en": "mushroom",
+      "target": "mantar",
+      "level": "a2"
+    },
+    {
+      "en": "mandarin",
+      "target": "mandalina",
+      "level": "a2"
+    },
+    {
+      "en": "strawberry",
+      "target": "çilek",
+      "level": "a1"
+    },
+    {
+      "en": "grape",
+      "target": "üzüm",
+      "level": "a1"
+    },
+    {
+      "en": "watermelon",
+      "target": "karpuz",
+      "level": "a1"
+    },
+    {
+      "en": "melon",
+      "target": "kavun",
+      "level": "a2"
+    },
+    {
+      "en": "peach",
+      "target": "şeftali",
+      "level": "a2"
+    },
+    {
+      "en": "cherry",
+      "target": "kiraz",
+      "level": "a2"
+    },
+    {
+      "en": "ice cream",
+      "target": "dondurma",
+      "level": "a1"
+    },
+    {
+      "en": "cookie",
+      "target": "kurabiye",
+      "level": "a2"
+    },
+    {
+      "en": "snack",
+      "target": "atıştırmalık",
+      "level": "a2"
+    },
+    {
+      "en": "thirsty",
+      "target": "susamış",
+      "level": "a1"
+    },
+    {
+      "en": "delicious",
+      "target": "lezzetli",
+      "level": "a2"
+    },
+    {
+      "en": "stale",
+      "target": "bayat",
+      "level": "a2"
+    },
+    {
+      "en": "fresh",
+      "target": "taze",
+      "level": "a1"
+    }
+  ]
+}

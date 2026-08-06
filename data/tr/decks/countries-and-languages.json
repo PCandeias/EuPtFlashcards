@@ -1,0 +1,125 @@
+{
+  "deck": "Countries & Languages",
+  "cards": [
+    {
+      "en": "Turkey",
+      "target": "Türkiye",
+      "level": "a1"
+    },
+    {
+      "en": "Turkish person",
+      "target": "Türk",
+      "level": "a1"
+    },
+    {
+      "en": "Turkish language",
+      "target": "Türkçe",
+      "level": "a1"
+    },
+    {
+      "en": "Portugal",
+      "target": "Portekiz",
+      "level": "a1"
+    },
+    {
+      "en": "Portuguese language",
+      "target": "Portekizce",
+      "level": "a1"
+    },
+    {
+      "en": "Switzerland",
+      "target": "İsviçre",
+      "level": "a1"
+    },
+    {
+      "en": "Swiss",
+      "target": "İsviçreli",
+      "level": "a1"
+    },
+    {
+      "en": "England",
+      "target": "İngiltere",
+      "level": "a1"
+    },
+    {
+      "en": "English language",
+      "target": "İngilizce",
+      "level": "a1"
+    },
+    {
+      "en": "Germany",
+      "target": "Almanya",
+      "level": "a1"
+    },
+    {
+      "en": "German language",
+      "target": "Almanca",
+      "level": "a1"
+    },
+    {
+      "en": "France",
+      "target": "Fransa",
+      "level": "a1"
+    },
+    {
+      "en": "French language",
+      "target": "Fransızca",
+      "level": "a1"
+    },
+    {
+      "en": "Spain",
+      "target": "İspanya",
+      "level": "a1"
+    },
+    {
+      "en": "Spanish language",
+      "target": "İspanyolca",
+      "level": "a1"
+    },
+    {
+      "en": "Italy",
+      "target": "İtalya",
+      "level": "a1"
+    },
+    {
+      "en": "Italian language",
+      "target": "İtalyanca",
+      "level": "a1"
+    },
+    {
+      "en": "America",
+      "target": "Amerika",
+      "level": "a1"
+    },
+    {
+      "en": "Greece",
+      "target": "Yunanistan",
+      "level": "a1"
+    },
+    {
+      "en": "Greek language",
+      "target": "Yunanca",
+      "level": "a1"
+    },
+    {
+      "en": "from which place",
+      "target": "nereli",
+      "level": "a1"
+    },
+    {
+      "en": "I am learning Turkish",
+      "target": "Türkçe öğreniyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "which language do you speak?",
+      "target": "Hangi dili konuşuyorsun?",
+      "tags": [
+        "informal"
+      ],
+      "tense": "simdiki",
+      "level": "a1"
+    }
+  ]
+}

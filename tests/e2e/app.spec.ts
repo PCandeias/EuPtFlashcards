@@ -58,14 +58,14 @@ test.afterEach(async ({ page }) => {
 })
 
 test('loads the full corpus', async ({ page }) => {
-  await page.goto('./')
+  await page.goto('./#/pt')
   await expect(page.locator('.card')).toBeVisible()
   await expect(page.locator('h1')).toContainText('European Portuguese')
   await expect(page.locator('#totalCount')).toHaveText('2093')
 })
 
 test('renders a plural badge on the English face and none on the Portuguese', async ({ page }) => {
-  await page.goto('./')
+  await page.goto('./#/pt')
   await findCard(page, { deck: 'Class', front: 'you come', back: 'vocês vêm' })
 
   // "you come" alone cannot distinguish `tu vens` from `vocês vêm` — the badge is
@@ -77,7 +77,7 @@ test('renders a plural badge on the English face and none on the Portuguese', as
 })
 
 test('renders badges on both faces for an ambiguous bare Portuguese word', async ({ page }) => {
-  await page.goto('./')
+  await page.goto('./#/pt')
   await findCard(page, { deck: 'Class', front: 'him / it', back: 'o' })
   await expect(page.locator('.face.front .badge')).toHaveText(['M', 'OBJ'])
   // Bare `o` is ambiguous with the article, so it earns a badge of its own.
@@ -85,14 +85,14 @@ test('renders badges on both faces for an ambiguous bare Portuguese word', async
 })
 
 test('renders a sense hint as its own line, not inside the word', async ({ page }) => {
-  await page.goto('./')
+  await page.goto('./#/pt')
   await findCard(page, { deck: 'Common Verbs', front: 'to be', back: 'ser' })
   await expect(page.locator('.face.front .word')).toHaveText('to be')
   await expect(page.locator('.face.front .hint')).toHaveText('permanent / identity')
 })
 
 test('shows badges on the English face when Portuguese leads', async ({ page }) => {
-  await page.goto('./')
+  await page.goto('./#/pt')
   await page.selectOption('#directionSelect', 'b-a')
   await findCard(page, { deck: 'Class', front: 'vocês vêm', back: 'you come' })
   await expect(page.locator('.face.front .badge')).toHaveCount(0)
@@ -100,7 +100,7 @@ test('shows badges on the English face when Portuguese leads', async ({ page }) 
 })
 
 test('flips and moves', async ({ page }) => {
-  await page.goto('./')
+  await page.goto('./#/pt')
   await expect(page.locator('.card')).not.toHaveClass(/flipped/)
   await page.click('#flipBtn')
   await expect(page.locator('.card')).toHaveClass(/flipped/)
@@ -114,7 +114,7 @@ test('flips and moves', async ({ page }) => {
 })
 
 test('keyboard shortcuts drive the deck', async ({ page }) => {
-  await page.goto('./')
+  await page.goto('./#/pt')
   // No click first: tapping the card is itself a flip, which would cancel out.
   await page.keyboard.press('Space')
   await expect(page.locator('.card')).toHaveClass(/flipped/)
@@ -125,7 +125,7 @@ test('keyboard shortcuts drive the deck', async ({ page }) => {
 })
 
 test('number keys grade the card', async ({ page }) => {
-  await page.goto('./')
+  await page.goto('./#/pt')
   await page.selectOption('#deckSelect', 'Numbers')
   await page.keyboard.press('3')            // good
   await expect(page.locator('#learnedCount')).toHaveText('1')
@@ -134,13 +134,13 @@ test('number keys grade the card', async ({ page }) => {
 })
 
 test('tapping the card flips it', async ({ page }) => {
-  await page.goto('./')
+  await page.goto('./#/pt')
   await page.locator('.card').click({ position: { x: 40, y: 40 } })
   await expect(page.locator('.card')).toHaveClass(/flipped/)
 })
 
 test('rating a card defers it and persists across a reload', async ({ page }) => {
-  await page.goto('./')
+  await page.goto('./#/pt')
   await page.selectOption('#deckSelect', 'Numbers')
   const dueBefore = Number(await page.locator('#dueCount').textContent())
 
@@ -154,7 +154,7 @@ test('rating a card defers it and persists across a reload', async ({ page }) =>
 })
 
 test('the rating buttons show what each answer will cost', async ({ page }) => {
-  await page.goto('./')
+  await page.goto('./#/pt')
   await page.selectOption('#deckSelect', 'Numbers')
 
   // A brand new card: again returns it immediately, easy skips the learning steps.
@@ -164,7 +164,7 @@ test('the rating buttons show what each answer will cost', async ({ page }) => {
 })
 
 test('the preview reflects the card, not a fixed schedule', async ({ page }) => {
-  await page.goto('./')
+  await page.goto('./#/pt')
   // Seed one card as already graduated, so its preview must differ from a new one.
   await page.evaluate(() => {
     localStorage.setItem('eupt:v4:progress', JSON.stringify({
@@ -192,7 +192,7 @@ test('the preview reflects the card, not a fixed schedule', async ({ page }) => 
 })
 
 test('again requeues the card into the same session', async ({ page }) => {
-  await page.goto('./')
+  await page.goto('./#/pt')
   await page.selectOption('#deckSelect', 'Numbers')
   const queueBefore = await page.locator('#progressText').textContent()
   const size = Number(queueBefore!.match(/\/\s*(\d+)/)![1])
@@ -217,7 +217,7 @@ test('again requeues the card into the same session', async ({ page }) => {
 })
 
 test('grading does not reshuffle the deck under you', async ({ page }) => {
-  await page.goto('./')
+  await page.goto('./#/pt')
   await page.selectOption('#deckSelect', 'Numbers')
 
   // Note the card after this one, grade the current card, and it should be next.
@@ -229,7 +229,7 @@ test('grading does not reshuffle the deck under you', async ({ page }) => {
 })
 
 test('reset clears progress for the selected deck only', async ({ page }) => {
-  await page.goto('./')
+  await page.goto('./#/pt')
   await page.selectOption('#deckSelect', 'Numbers')
   await page.click('#goodBtn')
   await expect(page.locator('#learnedCount')).toHaveText('1')
@@ -246,7 +246,7 @@ test('reset clears progress for the selected deck only', async ({ page }) => {
 })
 
 test('settings survive a reload', async ({ page }) => {
-  await page.goto('./')
+  await page.goto('./#/pt')
   await page.selectOption('#directionSelect', 'b-a')
   await page.selectOption('#deckSelect', 'Numbers')
 
@@ -256,7 +256,7 @@ test('settings survive a reload', async ({ page }) => {
 })
 
 test('registers a service worker and serves a manifest', async ({ page, request }) => {
-  await page.goto('./')
+  await page.goto('./#/pt')
   await expect
     .poll(() => page.evaluate(() => navigator.serviceWorker.getRegistrations().then(r => r.length)))
     .toBeGreaterThan(0)
@@ -279,7 +279,7 @@ async function hasSpeech(page: Page): Promise<boolean> {
 }
 
 test('the speak button does not also flip the card', async ({ page }) => {
-  await page.goto('./')
+  await page.goto('./#/pt')
   test.skip(!(await hasSpeech(page)), 'no speech synthesis in this browser')
 
   await page.click('#flipBtn')                       // reveal the Portuguese face
@@ -292,7 +292,7 @@ test('the speak button does not also flip the card', async ({ page }) => {
 })
 
 test('offers audio on the Portuguese face only', async ({ page }) => {
-  await page.goto('./')
+  await page.goto('./#/pt')
   const speech = await hasSpeech(page)
   await expect(page.locator('.face.back .speak')).toHaveCount(speech ? 1 : 0)
   // Never on the English face, whatever the browser supports.
@@ -301,7 +301,7 @@ test('offers audio on the Portuguese face only', async ({ page }) => {
 
 test.describe('typing mode', () => {
   test('checks a typed answer and reveals the card', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.selectOption('#deckSelect', 'Numbers')
     await page.click('#typeBtn')
 
@@ -319,7 +319,7 @@ test.describe('typing mode', () => {
   })
 
   test('accepts a missing accent but shows the correct spelling', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.click('#typeBtn')
 
     // Find a card whose answer actually carries an accent. Read the word's own
@@ -346,7 +346,7 @@ test.describe('typing mode', () => {
   })
 
   test('rejects a wrong answer and names the right one', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.selectOption('#deckSelect', 'Numbers')
     await page.click('#typeBtn')
 
@@ -367,7 +367,7 @@ test.describe('typing mode', () => {
   })
 
   test('clears the box when the card changes', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.selectOption('#deckSelect', 'Numbers')
     await page.click('#typeBtn')
     await page.fill('#answerInput', 'something')
@@ -376,7 +376,7 @@ test.describe('typing mode', () => {
   })
 
   test('toggles off again, restoring tap to flip', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.click('#typeBtn')
     await expect(page.locator('#answerInput')).toBeVisible()
     await page.click('#typeBtn')
@@ -386,7 +386,7 @@ test.describe('typing mode', () => {
 
 test.describe('review history', () => {
   test('records a streak and a recall rate as you grade', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.evaluate(() => localStorage.clear())
     await page.reload()
     await page.selectOption('#deckSelect', 'Numbers')
@@ -407,7 +407,7 @@ test.describe('review history', () => {
   })
 
   test('survives a reload', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.evaluate(() => localStorage.clear())
     await page.reload()
     await page.selectOption('#deckSelect', 'Numbers')
@@ -419,7 +419,7 @@ test.describe('review history', () => {
 
   test('shows the streak on the phone layout, where the panel is hidden', async ({ page }) => {
     await page.setViewportSize({ width: 390, height: 844 })
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.evaluate(() => localStorage.clear())
     await page.reload()
     await page.selectOption('#deckSelect', 'Numbers')
@@ -430,7 +430,7 @@ test.describe('review history', () => {
   })
 
   test('a backup carries the history, so a restore keeps the streak', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.evaluate(() => localStorage.clear())
     await page.reload()
     await page.selectOption('#deckSelect', 'Numbers')
@@ -464,14 +464,14 @@ test.describe('review history', () => {
 
 test.describe('themes', () => {
   test('defaults to Slate and applies it to the document', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.evaluate(() => localStorage.clear())
     await page.reload()
     await expect(page.locator('html')).toHaveAttribute('data-theme', 'slate')
   })
 
   test('switching repaints the whole app, badges included', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     const read = () => page.evaluate(() => {
       const style = getComputedStyle(document.documentElement)
       return {
@@ -492,7 +492,7 @@ test.describe('themes', () => {
   })
 
   test('keeps the iOS status bar in step with the theme', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.click('#themeBtn')
     const light = await page.getAttribute('meta[name="theme-color"]', 'content')
     await page.click('#themeBtn')
@@ -501,7 +501,7 @@ test.describe('themes', () => {
   })
 
   test('survives a reload', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.click('#themeBtn')
     await page.reload()
     await expect(page.locator('html')).toHaveAttribute('data-theme', 'azulejo')
@@ -509,7 +509,7 @@ test.describe('themes', () => {
   })
 
   test('falls back to Slate rather than writing junk into the document', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.evaluate(() => {
       localStorage.setItem('eupt:v4:settings',
         JSON.stringify({ deck: 'All', direction: 'a-b', theme: 'neon' }))
@@ -546,7 +546,7 @@ test.describe('layout', () => {
   for (const [width, height] of [[1280, 900], [768, 1024], [390, 844], [360, 740], [320, 568]]) {
     test(`fits ${width}x${height} in both study modes`, async ({ page }) => {
       await page.setViewportSize({ width: width!, height: height! })
-      await page.goto('./')
+      await page.goto('./#/pt')
       await expect(page.locator('.card')).toBeVisible()
 
       const flip = await settledScrollHeight(page)
@@ -564,7 +564,7 @@ test.describe('layout', () => {
   for (const [width, height] of [[320, 568], [375, 667], [390, 844]]) {
     test(`keeps every control on screen at ${width}x${height}`, async ({ page }) => {
       await page.setViewportSize({ width: width!, height: height! })
-      await page.goto('./')
+      await page.goto('./#/pt')
       await expect(page.locator('.card')).toBeVisible()
 
       const ids = [
@@ -584,7 +584,7 @@ test.describe('layout', () => {
 
   test('the settings sheet stays on screen on a phone', async ({ page }) => {
     await page.setViewportSize({ width: 320, height: 568 })
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.click('#settingsBtn')
     // The sheet animates in, so measure once it has settled rather than mid-rise.
     const onScreen = await page.evaluate(async () => {
@@ -605,7 +605,7 @@ test.describe('layout', () => {
 
 test.describe('verb conjugation', () => {
   /** Walks to a specific card in a deck. */
-  async function goToCard(page: import('@playwright/test').Page, deck: string, pt: string) {
+  async function goToCard(page: import('@playwright/test').Page, deck: string, target: string) {
     await page.bringToFront()
     await page.selectOption('#deckSelect', deck)
     const found = await page.evaluate(async (want) => {
@@ -616,8 +616,8 @@ test.describe('verb conjugation', () => {
         await new Promise(r => requestAnimationFrame(r))
       }
       return false
-    }, pt)
-    expect(found, `should reach ${pt}`).toBe(true)
+    }, target)
+    expect(found, `should reach ${target}`).toBe(true)
     // Controls on a face are only reachable once that face is showing — the
     // hidden side does not take clicks.
     await page.click('#flipBtn')
@@ -635,7 +635,7 @@ test.describe('verb conjugation', () => {
   }
 
   test('marks a verb and shows its conjugation', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await enableAllTenses(page)
     await goToCard(page, 'Common Verbs', 'dormir')
 
@@ -650,14 +650,14 @@ test.describe('verb conjugation', () => {
   })
 
   test('does not mark a card that is not a verb', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await enableAllTenses(page)
     await goToCard(page, 'Numbers', 'zero')
     await expect(page.locator('[data-annotation="conjugation"]')).toHaveCount(0)
   })
 
   test('switches tense from the dropdown', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await enableAllTenses(page)
     await goToCard(page, 'Common Verbs', 'dormir')
     await page.click('.face.back [data-annotation="conjugation"]')
@@ -669,7 +669,7 @@ test.describe('verb conjugation', () => {
   })
 
   test('opening the conjugation does not flip the card', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await enableAllTenses(page)
     await goToCard(page, 'Common Verbs', 'dormir')
     await page.click('.face.back [data-annotation="conjugation"]')
@@ -678,7 +678,7 @@ test.describe('verb conjugation', () => {
   })
 
   test('closes on Escape, on the close button, and when the card changes', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await enableAllTenses(page)
     await goToCard(page, 'Common Verbs', 'dormir')
 
@@ -698,7 +698,7 @@ test.describe('verb conjugation', () => {
   })
 
   test('offers only the tenses selected in settings', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.evaluate(() => {
       const s = JSON.parse(localStorage.getItem('eupt:v4:settings') ?? '{}')
       s.tenses = ['presente']
@@ -715,7 +715,7 @@ test.describe('verb conjugation', () => {
   })
 
   test('turning every tense off removes the marker entirely', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.evaluate(() => {
       const s = JSON.parse(localStorage.getItem('eupt:v4:settings') ?? '{}')
       s.tenses = []
@@ -727,7 +727,7 @@ test.describe('verb conjugation', () => {
   })
 
   test('the settings checkboxes drive it, and persist', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.evaluate(() => localStorage.clear())
     await page.reload()
 
@@ -747,7 +747,7 @@ test.describe('verb conjugation', () => {
   })
 
   test('conjugates a phrase, keeping what follows the verb', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await enableAllTenses(page)
     await goToCard(page, 'Daily Routine', 'tomar o pequeno-almoço')
     await page.click('.face.back [data-annotation="conjugation"]')
@@ -757,7 +757,7 @@ test.describe('verb conjugation', () => {
 
 test.describe('settings panel', () => {
   test('opens from the toolbar and closes every way it should', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await expect(page.locator('#settingsDialog')).toBeHidden()
 
     await page.click('#settingsBtn')
@@ -773,7 +773,7 @@ test.describe('settings panel', () => {
   })
 
   test('holds appearance, conjugation and backup', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.click('#settingsBtn')
     for (const id of ['#exportBtn', '#importBtn']) {
       await expect(page.locator(id), `${id} should be in settings`).toBeVisible()
@@ -782,7 +782,7 @@ test.describe('settings panel', () => {
   })
 
   test('leaves the study controls in the toolbar', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     for (const id of ['#deckSelect', '#directionSelect', '#typeBtn', '#shuffleBtn', '#resetBtn']) {
       await expect(page.locator(`.topbar ${id}`), `${id} belongs in the toolbar`).toBeVisible()
     }
@@ -791,7 +791,7 @@ test.describe('settings panel', () => {
 
   // Reset is one tap away in the toolbar, so a misclick must not wipe history.
   test('asks before resetting, and cancelling changes nothing', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.evaluate(() => localStorage.clear())
     await page.reload()
     await page.selectOption('#deckSelect', 'Numbers')
@@ -810,14 +810,14 @@ test.describe('settings panel', () => {
   })
 
   test('names the deck it would reset', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.selectOption('#deckSelect', 'Numbers')
     await page.click('#resetBtn')
     await expect(page.locator('#resetDialog')).toContainText('Numbers')
   })
 
   test('reports the outcome of an export', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.evaluate(() => localStorage.clear())
     await page.reload()
     await page.selectOption('#deckSelect', 'Numbers')
@@ -828,7 +828,7 @@ test.describe('settings panel', () => {
       page.waitForEvent('download'),
       page.click('#exportBtn'),
     ])
-    expect(download.suggestedFilename()).toMatch(/^eu-pt-flashcards-\d{4}-\d{2}-\d{2}\.json$/)
+    expect(download.suggestedFilename()).toMatch(/^flashcards-pt-\d{4}-\d{2}-\d{2}\.json$/)
     await expect(page.locator('#backupMessage')).toContainText('Exported 1 cards')
   })
 })
@@ -844,14 +844,14 @@ test.describe('studying by tense', () => {
     }, tenses)
 
   test('shows every card when every tense is selected', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.evaluate(() => localStorage.clear())
     await page.reload()
     await expect(page.locator('#totalCount')).toHaveText('2093')
   })
 
   test('hides cards in a tense that is switched off', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await setTenses(page, ['presente', 'perfeito', 'imperfeito', 'futuro', 'futuroProximo'])
     await page.reload()
     // The 139 continuous cards drop out; nothing else does.
@@ -859,7 +859,7 @@ test.describe('studying by tense', () => {
   })
 
   test('keeps vocabulary and infinitives whatever is selected', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await setTenses(page, [])
     await page.reload()
     // Only the 501 tense-bearing cards go.
@@ -881,7 +881,7 @@ test.describe('studying by tense', () => {
   })
 
   test('the deck menu counts what will actually be shown', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     const before = await page.locator('#deckSelect option', { hasText: 'Basic Present Tense' })
       .textContent()
     expect(before).toContain('(115)')
@@ -895,7 +895,7 @@ test.describe('studying by tense', () => {
   })
 
   test('an emptied deck says why rather than looking broken', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await setTenses(page, [])
     await page.reload()
     await page.selectOption('#deckSelect', 'Basic Present Tense Phrases')
@@ -903,7 +903,7 @@ test.describe('studying by tense', () => {
   })
 
   test('an old narrow selection is widened once, not left hiding cards', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.evaluate(() => {
       localStorage.clear()
       // What the previous version stored by default.
@@ -918,7 +918,7 @@ test.describe('studying by tense', () => {
 })
 
 test.describe('usage examples', () => {
-  async function goToVerb(page: Page, deck: string, pt: string) {
+  async function goToVerb(page: Page, deck: string, target: string) {
     await page.bringToFront()
     await page.selectOption('#deckSelect', deck)
     const found = await page.evaluate(async (want) => {
@@ -929,14 +929,14 @@ test.describe('usage examples', () => {
         await new Promise(r => requestAnimationFrame(r))
       }
       return false
-    }, pt)
-    expect(found, `should reach ${pt}`).toBe(true)
+    }, target)
+    expect(found, `should reach ${target}`).toBe(true)
     await page.click('#flipBtn')
     await expect(page.locator('.card')).toHaveClass(/flipped/)
   }
 
   test('shows sentences using the verb', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await goToVerb(page, 'Common Verbs', 'ser')
     await page.click('.face.back [data-annotation="examples"]')
 
@@ -951,14 +951,14 @@ test.describe('usage examples', () => {
   })
 
   test('sits beside the conjugation marker without replacing it', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await goToVerb(page, 'Common Verbs', 'dormir')
     await expect(page.locator('.face.back [data-annotation="conjugation"]')).toHaveCount(1)
     await expect(page.locator('.face.back [data-annotation="examples"]')).toHaveCount(1)
   })
 
   test('opening one closes the other', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await goToVerb(page, 'Common Verbs', 'dormir')
 
     await page.click('.face.back [data-annotation="conjugation"]')
@@ -970,7 +970,7 @@ test.describe('usage examples', () => {
   })
 
   test('closes on Escape and when the card changes', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await goToVerb(page, 'Common Verbs', 'ser')
 
     await page.click('.face.back [data-annotation="examples"]')
@@ -984,7 +984,7 @@ test.describe('usage examples', () => {
   })
 
   test('opening the examples does not flip the card', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await goToVerb(page, 'Common Verbs', 'ser')
     await page.click('.face.back [data-annotation="examples"]')
     await expect(page.locator('.card')).toHaveClass(/flipped/)
@@ -992,7 +992,7 @@ test.describe('usage examples', () => {
 
   // The sentences are in tenses too, so they follow the same setting.
   test('shows only sentences in the selected tenses', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.evaluate(() => {
       const s = JSON.parse(localStorage.getItem('eupt:v4:settings') ?? '{}')
       s.tenses = ['perfeito']
@@ -1014,7 +1014,7 @@ test.describe('usage examples', () => {
 
   test('narrowing to any single tense still leaves something to show', async ({ page }) => {
     for (const tense of ['presente', 'perfeito', 'imperfeito', 'futuro', 'futuroProximo']) {
-      await page.goto('./')
+      await page.goto('./#/pt')
       await page.evaluate((t) => {
         const s = JSON.parse(localStorage.getItem('eupt:v4:settings') ?? '{}')
         s.tenses = [t]
@@ -1031,7 +1031,7 @@ test.describe('usage examples', () => {
   })
 
   test('offers examples on an adjective too, not only verbs', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await goToVerb(page, 'Home & Household Objects', 'cheio / cheia')
     await page.click('.face.back [data-annotation="examples"]')
     await expect(page.locator('#examplesPanel')).toContainText('cheio')
@@ -1040,14 +1040,14 @@ test.describe('usage examples', () => {
   })
 
   test('offers nothing on a card that is not a verb', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await goToVerb(page, 'Numbers', 'zero')
     await expect(page.locator('.face.back .marker')).toHaveCount(0)
   })
 })
 
 test.describe('the speech setting', () => {
-  async function goToVerbCard(page: Page, deck: string, pt: string) {
+  async function goToVerbCard(page: Page, deck: string, target: string) {
     await page.bringToFront()
     await page.selectOption('#deckSelect', deck)
     const found = await page.evaluate(async (want) => {
@@ -1058,8 +1058,8 @@ test.describe('the speech setting', () => {
         await new Promise(r => requestAnimationFrame(r))
       }
       return false
-    }, pt)
-    expect(found, `should reach ${pt}`).toBe(true)
+    }, target)
+    expect(found, `should reach ${target}`).toBe(true)
     await page.click('#flipBtn')
     await expect(page.locator('.card')).toHaveClass(/flipped/)
   }
@@ -1071,7 +1071,7 @@ test.describe('the speech setting', () => {
   }, on)
 
   test('is on by default and offers audio on the card', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.evaluate(() => localStorage.clear())
     await page.reload()
     await page.click('#settingsBtn')
@@ -1083,7 +1083,7 @@ test.describe('the speech setting', () => {
   })
 
   test('switching it off removes every speaker', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await setSpeech(page, false)
     await page.reload()
 
@@ -1098,7 +1098,7 @@ test.describe('the speech setting', () => {
   })
 
   test('with it on, every example sentence can be heard', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     const speech = await page.evaluate(() => typeof window.speechSynthesis !== 'undefined')
     test.skip(!speech, 'no speech synthesis in this browser')
 
@@ -1113,7 +1113,7 @@ test.describe('the speech setting', () => {
   })
 
   test('the toggle takes effect and persists', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.evaluate(() => localStorage.clear())
     await page.reload()
 
@@ -1136,7 +1136,7 @@ test.describe('reporting a wrong card', () => {
   }
 
   test('asks before hiding anything', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.evaluate(() => localStorage.clear())
     await page.reload()
     await page.selectOption('#deckSelect', 'Numbers')
@@ -1154,7 +1154,7 @@ test.describe('reporting a wrong card', () => {
   })
 
   test('confirming hides the card and remembers it', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.evaluate(() => localStorage.clear())
     await page.reload()
     await page.selectOption('#deckSelect', 'Numbers')
@@ -1176,7 +1176,7 @@ test.describe('reporting a wrong card', () => {
   })
 
   test('a reported card does not come round again', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.evaluate(() => localStorage.clear())
     await page.reload()
     await page.selectOption('#deckSelect', 'Numbers')
@@ -1200,7 +1200,7 @@ test.describe('reporting a wrong card', () => {
   })
 
   test('can be put back from settings', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.evaluate(() => localStorage.clear())
     await page.reload()
     await page.selectOption('#deckSelect', 'Numbers')
@@ -1218,7 +1218,7 @@ test.describe('reporting a wrong card', () => {
   })
 
   test('exports the reported cards as readable text', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.evaluate(() => localStorage.clear())
     await page.reload()
     await page.selectOption('#deckSelect', 'Numbers')
@@ -1233,7 +1233,7 @@ test.describe('reporting a wrong card', () => {
       page.waitForEvent('download'),
       page.click('#exportReportsBtn'),
     ])
-    expect(download.suggestedFilename()).toMatch(/^eu-pt-flashcards-reported-\d{4}-\d{2}-\d{2}\.txt$/)
+    expect(download.suggestedFilename()).toMatch(/^flashcards-pt-reported-\d{4}-\d{2}-\d{2}\.txt$/)
 
     const stream = await download.createReadStream()
     const chunks: Buffer[] = []
@@ -1245,7 +1245,7 @@ test.describe('reporting a wrong card', () => {
   })
 
   test('says so plainly when nothing has been reported', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await page.evaluate(() => localStorage.clear())
     await page.reload()
     await page.click('#settingsBtn')
@@ -1254,7 +1254,7 @@ test.describe('reporting a wrong card', () => {
   })
 
   test('the report button does not flip the card', async ({ page }) => {
-    await page.goto('./')
+    await page.goto('./#/pt')
     await expect(page.locator('.card')).not.toHaveClass(/flipped/)
     await page.click('.face.front .report')
     await page.click('#reportCancelBtn')

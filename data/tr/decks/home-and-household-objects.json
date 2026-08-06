@@ -1,0 +1,288 @@
+{
+  "deck": "Home & Household Objects",
+  "cards": [
+    {
+      "en": "home / house",
+      "target": "ev",
+      "level": "a1"
+    },
+    {
+      "en": "room",
+      "target": "oda",
+      "level": "a1"
+    },
+    {
+      "en": "kitchen",
+      "target": "mutfak",
+      "level": "a1"
+    },
+    {
+      "en": "bathroom",
+      "target": "banyo",
+      "level": "a1"
+    },
+    {
+      "en": "toilet",
+      "target": "tuvalet",
+      "level": "a2"
+    },
+    {
+      "en": "door",
+      "target": "kapı",
+      "level": "a1",
+      "sense": "of a room or a house"
+    },
+    {
+      "en": "window",
+      "target": "pencere",
+      "level": "a1"
+    },
+    {
+      "en": "wall",
+      "target": "duvar",
+      "level": "a1"
+    },
+    {
+      "en": "place / ground",
+      "target": "yer",
+      "level": "a1"
+    },
+    {
+      "en": "chair",
+      "target": "sandalye",
+      "level": "a1"
+    },
+    {
+      "en": "armchair / sofa",
+      "target": "koltuk",
+      "level": "a1",
+      "sense": "at home"
+    },
+    {
+      "en": "bed",
+      "target": "yatak",
+      "level": "a1"
+    },
+    {
+      "en": "cupboard / wardrobe",
+      "target": "dolap",
+      "level": "a2"
+    },
+    {
+      "en": "fridge",
+      "target": "buzdolabı",
+      "level": "a1"
+    },
+    {
+      "en": "oven",
+      "target": "fırın",
+      "level": "a1",
+      "sense": "at home"
+    },
+    {
+      "en": "stove",
+      "target": "ocak",
+      "level": "a2"
+    },
+    {
+      "en": "lamp",
+      "target": "lamba",
+      "level": "a2"
+    },
+    {
+      "en": "key",
+      "target": "anahtar",
+      "level": "a1"
+    },
+    {
+      "en": "phone",
+      "target": "telefon",
+      "level": "a1"
+    },
+    {
+      "en": "computer",
+      "target": "bilgisayar",
+      "level": "a1"
+    },
+    {
+      "en": "book",
+      "target": "kitap",
+      "level": "a1"
+    },
+    {
+      "en": "pen",
+      "target": "kalem",
+      "level": "a1"
+    },
+    {
+      "en": "paper",
+      "target": "kağıt",
+      "level": "a1"
+    },
+    {
+      "en": "bag",
+      "target": "çanta",
+      "level": "a1"
+    },
+    {
+      "en": "money",
+      "target": "para",
+      "level": "a1"
+    },
+    {
+      "en": "floor",
+      "target": "zemin",
+      "level": "a1"
+    },
+    {
+      "en": "ceiling",
+      "target": "tavan",
+      "level": "a2"
+    },
+    {
+      "en": "lock",
+      "target": "kilit",
+      "level": "a2"
+    },
+    {
+      "en": "living room",
+      "target": "salon",
+      "level": "a2"
+    },
+    {
+      "en": "balcony",
+      "target": "balkon",
+      "level": "a2"
+    },
+    {
+      "en": "garden",
+      "target": "bahçe",
+      "level": "a2"
+    },
+    {
+      "en": "pillow",
+      "target": "yastık",
+      "level": "a2"
+    },
+    {
+      "en": "blanket",
+      "target": "battaniye",
+      "level": "a2"
+    },
+    {
+      "en": "sheet",
+      "target": "çarşaf",
+      "level": "a2"
+    },
+    {
+      "en": "drawer",
+      "target": "çekmece",
+      "level": "a2"
+    },
+    {
+      "en": "shelf",
+      "target": "raf",
+      "level": "a2"
+    },
+    {
+      "en": "mirror",
+      "target": "ayna",
+      "level": "a2"
+    },
+    {
+      "en": "light",
+      "target": "ışık",
+      "level": "a1"
+    },
+    {
+      "en": "socket",
+      "target": "priz",
+      "level": "a2"
+    },
+    {
+      "en": "cable",
+      "target": "kablo",
+      "level": "a2"
+    },
+    {
+      "en": "charger",
+      "target": "şarj cihazı",
+      "level": "a2"
+    },
+    {
+      "en": "dishwasher",
+      "target": "bulaşık makinesi",
+      "level": "a2"
+    },
+    {
+      "en": "washing machine",
+      "target": "çamaşır makinesi",
+      "level": "a2"
+    },
+    {
+      "en": "towel",
+      "target": "havlu",
+      "level": "a2"
+    },
+    {
+      "en": "soap",
+      "target": "sabun",
+      "level": "a2"
+    },
+    {
+      "en": "shampoo",
+      "target": "şampuan",
+      "level": "a2"
+    },
+    {
+      "en": "toothbrush",
+      "target": "diş fırçası",
+      "level": "a2"
+    },
+    {
+      "en": "toothpaste",
+      "target": "diş macunu",
+      "level": "a2"
+    },
+    {
+      "en": "trash bin",
+      "target": "çöp kutusu",
+      "level": "a2"
+    },
+    {
+      "en": "broom / vacuum cleaner",
+      "target": "süpürge",
+      "level": "a2"
+    },
+    {
+      "en": "curtain",
+      "target": "perde",
+      "level": "a2"
+    },
+    {
+      "en": "carpet",
+      "target": "halı",
+      "level": "a2"
+    },
+    {
+      "en": "coffee table",
+      "target": "sehpa",
+      "level": "a2"
+    },
+    {
+      "en": "iron",
+      "target": "ütü",
+      "level": "a2"
+    },
+    {
+      "en": "air conditioner",
+      "target": "klima",
+      "level": "a2"
+    },
+    {
+      "en": "heating",
+      "target": "ısıtma",
+      "level": "a2"
+    }
+  ]
+}

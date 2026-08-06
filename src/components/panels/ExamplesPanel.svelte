@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { ExamplesPayload } from '../../lib/annotations/examples.js'
-  import { tenseById } from '../../lib/verbs/tenses.js'
+  import { tenseById } from '../../lib/grammar/tenses.js'
   import SpeakButton from '../SpeakButton.svelte'
 
   let {
@@ -25,12 +25,16 @@
   </div>
 
   <ul>
-    {#each payload.examples as example (example.pt)}
+    {#each payload.examples as example (example.target)}
       <li>
         <div class="line">
-          <p class="pt">{example.pt}</p>
+          <p class="target">{example.target}</p>
           {#if payload.speech}
-            <SpeakButton text={example.pt} compact />
+            <SpeakButton
+              text={example.target}
+              language={{ locale: payload.locale, shortName: payload.languageName, voice: payload.voice }}
+              compact
+            />
           {/if}
         </div>
         <p class="en">{example.en}</p>
@@ -85,15 +89,15 @@
   ul { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 10px; }
   li { display: grid; gap: 1px; }
   .line { display: flex; align-items: center; gap: 8px; }
-  .line .pt { flex: 1; }
-  .pt { margin: 0; font-size: 14px; font-weight: 700; }
+  .line .target { flex: 1; }
+  .target { margin: 0; font-size: 14px; font-weight: 700; }
   .en { margin: 0; font-size: 12px; color: var(--muted); }
   .tense { margin: 1px 0 0; font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--warn); opacity: 0.85; }
   .hidden { margin: 10px 0 0; font-size: 11px; color: var(--muted); }
 
   @media (max-width: 760px) {
     .panel { padding: 10px 12px; max-width: 92%; }
-    .pt { font-size: 13px; }
+    .target { font-size: 13px; }
     .en { font-size: 11px; }
   }
 </style>

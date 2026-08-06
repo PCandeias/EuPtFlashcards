@@ -1,0 +1,182 @@
+{
+  "deck": "Technology & Phone",
+  "cards": [
+    {
+      "en": "mobile phone",
+      "target": "cep telefonu",
+      "level": "a1"
+    },
+    {
+      "en": "smartphone",
+      "target": "akıllı telefon",
+      "level": "a2"
+    },
+    {
+      "en": "laptop",
+      "target": "dizüstü bilgisayar",
+      "level": "a2"
+    },
+    {
+      "en": "tablet",
+      "target": "tablet",
+      "level": "a2"
+    },
+    {
+      "en": "internet",
+      "target": "internet",
+      "level": "a1"
+    },
+    {
+      "en": "Wi-Fi",
+      "target": "Wi-Fi",
+      "level": "a1"
+    },
+    {
+      "en": "password",
+      "target": "şifre",
+      "level": "a2"
+    },
+    {
+      "en": "username",
+      "target": "kullanıcı adı",
+      "level": "a2"
+    },
+    {
+      "en": "account",
+      "target": "hesap",
+      "level": "a2",
+      "sense": "online"
+    },
+    {
+      "en": "app",
+      "target": "uygulama",
+      "level": "a2"
+    },
+    {
+      "en": "call / search",
+      "target": "arama",
+      "level": "a1"
+    },
+    {
+      "en": "phone call",
+      "target": "telefon araması",
+      "level": "a2"
+    },
+    {
+      "en": "camera",
+      "target": "kamera",
+      "level": "a2"
+    },
+    {
+      "en": "photo",
+      "target": "fotoğraf",
+      "level": "a2"
+    },
+    {
+      "en": "video",
+      "target": "video",
+      "level": "a2"
+    },
+    {
+      "en": "headphones",
+      "target": "kulaklık",
+      "level": "a2"
+    },
+    {
+      "en": "speaker",
+      "target": "hoparlör",
+      "level": "a2"
+    },
+    {
+      "en": "microphone",
+      "target": "mikrofon",
+      "level": "a2"
+    },
+    {
+      "en": "charge",
+      "target": "şarj",
+      "level": "a2"
+    },
+    {
+      "en": "battery",
+      "target": "pil",
+      "level": "a2"
+    },
+    {
+      "en": "screen",
+      "target": "ekran",
+      "level": "a2"
+    },
+    {
+      "en": "key / button",
+      "target": "tuş",
+      "level": "a2"
+    },
+    {
+      "en": "button",
+      "target": "düğme",
+      "level": "a2"
+    },
+    {
+      "en": "file",
+      "target": "dosya",
+      "level": "a2"
+    },
+    {
+      "en": "folder",
+      "target": "klasör",
+      "level": "a2"
+    },
+    {
+      "en": "picture",
+      "target": "resim",
+      "level": "a2"
+    },
+    {
+      "en": "sound / voice",
+      "target": "ses",
+      "level": "a1"
+    },
+    {
+      "en": "to download",
+      "target": "indirmek",
+      "level": "a2"
+    },
+    {
+      "en": "to upload / to install",
+      "target": "yüklemek",
+      "level": "a2"
+    },
+    {
+      "en": "to send",
+      "target": "göndermek",
+      "level": "a2"
+    },
+    {
+      "en": "to delete",
+      "target": "silmek",
+      "level": "a2"
+    },
+    {
+      "en": "to save",
+      "target": "kaydetmek",
+      "level": "a2"
+    },
+    {
+      "en": "to connect",
+      "target": "bağlanmak",
+      "level": "a2"
+    },
+    {
+      "en": "it is not working",
+      "target": "çalışmıyor",
+      "tense": "simdiki",
+      "level": "a2"
+    },
+    {
+      "en": "broken",
+      "target": "bozuk",
+      "level": "a2"
+    }
+  ]
+}

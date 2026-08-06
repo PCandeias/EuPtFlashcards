@@ -1,0 +1,159 @@
+{
+  "deck": "Emotions & Daily State",
+  "cards": [
+    {
+      "en": "nervous",
+      "target": "nervoso / nervosa",
+      "level": "a2"
+    },
+    {
+      "en": "excited",
+      "target": "entusiasmado / entusiasmada",
+      "level": "b1"
+    },
+    {
+      "en": "scared",
+      "target": "assustado / assustada",
+      "level": "a2"
+    },
+    {
+      "en": "worried",
+      "target": "preocupado / preocupada",
+      "level": "a2"
+    },
+    {
+      "en": "surprised",
+      "target": "surpreendido / surpreendida",
+      "level": "a2"
+    },
+    {
+      "en": "embarrassed",
+      "target": "envergonhado / envergonhada",
+      "level": "b1"
+    },
+    {
+      "en": "proud",
+      "target": "orgulhoso / orgulhosa",
+      "level": "b1"
+    },
+    {
+      "en": "comfortable / relaxed",
+      "target": "confortável / relaxado",
+      "level": "a2"
+    },
+    {
+      "en": "peaceful",
+      "target": "tranquilo / tranquila",
+      "level": "a2"
+    },
+    {
+      "en": "energetic",
+      "target": "com energia",
+      "level": "a2"
+    },
+    {
+      "en": "well",
+      "target": "bem",
+      "level": "a1"
+    },
+    {
+      "en": "bad",
+      "target": "mal",
+      "level": "a1"
+    },
+    {
+      "en": "I am late",
+      "target": "estou atrasado / atrasada",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "I am in a hurry",
+      "target": "estou com pressa",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "I have time",
+      "target": "tenho tempo",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "I do not have time",
+      "target": "não tenho tempo",
+      "level": "a1"
+    },
+    {
+      "en": "I am bored",
+      "target": "estou aborrecido / aborrecida",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "I am happy",
+      "target": "estou feliz",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "I am sad",
+      "target": "estou triste",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "I am tired",
+      "target": "estou cansado / cansada",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "I am sick",
+      "target": "estou doente",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "I am hungry",
+      "target": "tenho fome",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "I am full",
+      "target": "estou cheio / cheia",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "I am thirsty",
+      "target": "tenho sede",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "I am cold",
+      "target": "tenho frio",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "I am hot",
+      "target": "tenho calor",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "I am afraid",
+      "target": "tenho medo",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "I am glad",
+      "target": "fico contente",
+      "level": "a1"
+    }
+  ]
+}

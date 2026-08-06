@@ -1,0 +1,241 @@
+{
+  "deck": "Countries & Languages",
+  "cards": [
+    {
+      "en": "Portugal",
+      "target": "Portugal",
+      "level": "a1"
+    },
+    {
+      "en": "Portuguese person",
+      "target": "o português",
+      "tags": [
+        "masc"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "Portuguese person",
+      "target": "portuguesa",
+      "tags": [
+        "fem"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "Portuguese language",
+      "target": "o português",
+      "level": "a1"
+    },
+    {
+      "en": "England",
+      "target": "Inglaterra",
+      "level": "a1"
+    },
+    {
+      "en": "English person",
+      "target": "o inglês / a inglesa",
+      "level": "a1"
+    },
+    {
+      "en": "English language",
+      "target": "o inglês",
+      "level": "a1"
+    },
+    {
+      "en": "United States",
+      "target": "Estados Unidos",
+      "level": "a1"
+    },
+    {
+      "en": "American person",
+      "target": "o americano / a americana",
+      "level": "a1"
+    },
+    {
+      "en": "France",
+      "target": "França",
+      "level": "a1"
+    },
+    {
+      "en": "French person",
+      "target": "o francês / a francesa",
+      "level": "a1"
+    },
+    {
+      "en": "French language",
+      "target": "o francês",
+      "level": "a1"
+    },
+    {
+      "en": "Spain",
+      "target": "Espanha",
+      "level": "a1"
+    },
+    {
+      "en": "Spanish person",
+      "target": "o espanhol / a espanhola",
+      "level": "a1"
+    },
+    {
+      "en": "Spanish language",
+      "target": "o espanhol",
+      "level": "a1"
+    },
+    {
+      "en": "Italy",
+      "target": "Itália",
+      "level": "a1"
+    },
+    {
+      "en": "Italian person",
+      "target": "o italiano / a italiana",
+      "level": "a1"
+    },
+    {
+      "en": "Italian language",
+      "target": "o italiano",
+      "level": "a1"
+    },
+    {
+      "en": "Germany",
+      "target": "Alemanha",
+      "level": "a1"
+    },
+    {
+      "en": "German person",
+      "target": "o alemão / a alemã",
+      "level": "a1"
+    },
+    {
+      "en": "German language",
+      "target": "o alemão",
+      "level": "a1"
+    },
+    {
+      "en": "Switzerland",
+      "target": "a Suíça",
+      "level": "a1"
+    },
+    {
+      "en": "Swiss person",
+      "target": "o suíço / a suíça",
+      "level": "a1"
+    },
+    {
+      "en": "Brazil",
+      "target": "Brasil",
+      "level": "a1"
+    },
+    {
+      "en": "Brazilian person",
+      "target": "o brasileiro / a brasileira",
+      "level": "a1"
+    },
+    {
+      "en": "Greece",
+      "target": "Grécia",
+      "level": "a1"
+    },
+    {
+      "en": "Greek person",
+      "target": "o grego / a grega",
+      "level": "a1"
+    },
+    {
+      "en": "Netherlands",
+      "target": "Países Baixos",
+      "level": "a2"
+    },
+    {
+      "en": "Dutch person",
+      "target": "o holandês / a holandesa",
+      "level": "a2"
+    },
+    {
+      "en": "China",
+      "target": "China",
+      "level": "a1"
+    },
+    {
+      "en": "Chinese person",
+      "target": "o chinês / a chinesa",
+      "level": "a1"
+    },
+    {
+      "en": "Chinese language",
+      "target": "o chinês",
+      "level": "a1"
+    },
+    {
+      "en": "Japan",
+      "target": "Japão",
+      "level": "a1"
+    },
+    {
+      "en": "Japanese person",
+      "target": "o japonês / a japonesa",
+      "level": "a1"
+    },
+    {
+      "en": "Japanese language",
+      "target": "o japonês",
+      "level": "a1"
+    },
+    {
+      "en": "Korea",
+      "target": "Coreia",
+      "level": "a1"
+    },
+    {
+      "en": "Korean person",
+      "target": "o coreano / a coreana",
+      "level": "a1"
+    },
+    {
+      "en": "Russia",
+      "target": "Rússia",
+      "level": "a1"
+    },
+    {
+      "en": "Russian person",
+      "target": "o russo / a russa",
+      "level": "a1"
+    },
+    {
+      "en": "Russian language",
+      "target": "o russo",
+      "level": "a1"
+    },
+    {
+      "en": "Turkey",
+      "target": "Turquia",
+      "level": "a1"
+    },
+    {
+      "en": "Turkish person",
+      "target": "o turco / a turca",
+      "level": "a1"
+    },
+    {
+      "en": "Turkish language",
+      "target": "o turco",
+      "level": "a1"
+    },
+    {
+      "en": "nationality",
+      "target": "a nacionalidade",
+      "level": "a2"
+    },
+    {
+      "en": "foreign",
+      "target": "estrangeiro / estrangeira",
+      "level": "a2"
+    },
+    {
+      "en": "local",
+      "target": "local",
+      "level": "a2"
+    }
+  ]
+}

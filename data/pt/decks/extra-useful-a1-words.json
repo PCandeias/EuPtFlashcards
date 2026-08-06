@@ -1,0 +1,375 @@
+{
+  "deck": "Extra Useful A1 Words",
+  "cards": [
+    {
+      "en": "paper",
+      "target": "o papel",
+      "level": "a1"
+    },
+    {
+      "en": "scissors",
+      "target": "a tesoura",
+      "level": "a2"
+    },
+    {
+      "en": "tape",
+      "target": "a fita-cola",
+      "level": "a2"
+    },
+    {
+      "en": "box",
+      "target": "a caixa",
+      "level": "a1"
+    },
+    {
+      "en": "umbrella",
+      "target": "o guarda-chuva",
+      "level": "a2"
+    },
+    {
+      "en": "comb",
+      "target": "o pente",
+      "level": "a2"
+    },
+    {
+      "en": "brush",
+      "target": "a escova",
+      "level": "a2"
+    },
+    {
+      "en": "perfume",
+      "target": "o perfume",
+      "level": "a2"
+    },
+    {
+      "en": "cream",
+      "target": "o creme",
+      "level": "a2"
+    },
+    {
+      "en": "medicine box",
+      "target": "a caixa de medicamentos",
+      "level": "a2"
+    },
+    {
+      "en": "ticket office",
+      "target": "a bilheteira",
+      "level": "a2"
+    },
+    {
+      "en": "information desk",
+      "target": "o balcão de informações",
+      "level": "b1"
+    },
+    {
+      "en": "reception",
+      "target": "a receção",
+      "level": "a2"
+    },
+    {
+      "en": "room key",
+      "target": "a chave do quarto",
+      "level": "a1"
+    },
+    {
+      "en": "pool",
+      "target": "a piscina",
+      "level": "a2"
+    },
+    {
+      "en": "gym",
+      "target": "o ginásio",
+      "level": "a2"
+    },
+    {
+      "en": "coffee machine",
+      "target": "a máquina de café",
+      "level": "a2"
+    },
+    {
+      "en": "kettle",
+      "target": "a chaleira",
+      "level": "a2"
+    },
+    {
+      "en": "laundry",
+      "target": "roupa para lavar / a lavandaria",
+      "level": "a2"
+    },
+    {
+      "en": "iron",
+      "target": "o ferro de engomar",
+      "level": "a2"
+    },
+    {
+      "en": "curtain",
+      "target": "a cortina",
+      "level": "a2"
+    },
+    {
+      "en": "carpet",
+      "target": "o tapete",
+      "level": "a2"
+    },
+    {
+      "en": "coffee table",
+      "target": "a mesa de centro",
+      "level": "a2"
+    },
+    {
+      "en": "picture / painting",
+      "target": "o quadro",
+      "level": "a1"
+    },
+    {
+      "en": "radio",
+      "target": "rádio",
+      "level": "a1"
+    },
+    {
+      "en": "newspaper",
+      "target": "o jornal",
+      "level": "a2"
+    },
+    {
+      "en": "magazine",
+      "target": "a revista",
+      "level": "a2"
+    },
+    {
+      "en": "toy",
+      "target": "o brinquedo",
+      "level": "a2"
+    },
+    {
+      "en": "ball",
+      "target": "a bola",
+      "level": "a1"
+    },
+    {
+      "en": "game",
+      "target": "o jogo",
+      "level": "a1"
+    },
+    {
+      "en": "gift",
+      "target": "o presente",
+      "level": "a1"
+    },
+    {
+      "en": "florist",
+      "target": "o/a florista",
+      "level": "a2"
+    },
+    {
+      "en": "barber",
+      "target": "o barbeiro",
+      "level": "a2"
+    },
+    {
+      "en": "hairdresser",
+      "target": "o cabeleireiro / a cabeleireira",
+      "level": "a2"
+    },
+    {
+      "en": "tailor",
+      "target": "o alfaiate",
+      "level": "b1"
+    },
+    {
+      "en": "repairer",
+      "target": "o técnico de reparações / a técnica de reparações",
+      "level": "b1"
+    },
+    {
+      "en": "main road",
+      "target": "a estrada principal",
+      "level": "a2"
+    },
+    {
+      "en": "side road",
+      "target": "a estrada secundária",
+      "level": "a2"
+    },
+    {
+      "en": "traffic light",
+      "target": "o semáforo",
+      "level": "a2"
+    },
+    {
+      "en": "pedestrian crossing",
+      "target": "a passadeira",
+      "level": "a2"
+    },
+    {
+      "en": "stop sign",
+      "target": "o sinal de stop",
+      "level": "a2"
+    },
+    {
+      "en": "speed limit",
+      "target": "o limite de velocidade",
+      "level": "b1"
+    },
+    {
+      "en": "parking lot",
+      "target": "o parque de estacionamento",
+      "level": "a2"
+    },
+    {
+      "en": "garage",
+      "target": "a garagem",
+      "level": "a2"
+    },
+    {
+      "en": "petrol / gasoline",
+      "target": "a gasolina",
+      "level": "a2"
+    },
+    {
+      "en": "petrol station",
+      "target": "a bomba de gasolina",
+      "level": "a2"
+    },
+    {
+      "en": "tire",
+      "target": "o pneu",
+      "level": "a2"
+    },
+    {
+      "en": "engine",
+      "target": "o motor",
+      "level": "a2"
+    },
+    {
+      "en": "steering wheel",
+      "target": "o volante",
+      "level": "b1"
+    },
+    {
+      "en": "seat belt",
+      "target": "o cinto de segurança",
+      "level": "a2"
+    },
+    {
+      "en": "train ticket",
+      "target": "o bilhete de comboio",
+      "level": "a1"
+    },
+    {
+      "en": "plane ticket",
+      "target": "o bilhete de avião",
+      "level": "a1"
+    },
+    {
+      "en": "boarding pass",
+      "target": "o cartão de embarque",
+      "level": "a2"
+    },
+    {
+      "en": "gate number",
+      "target": "o número da porta",
+      "level": "a2"
+    },
+    {
+      "en": "delay",
+      "target": "o atraso",
+      "level": "a2"
+    },
+    {
+      "en": "arrival",
+      "target": "a chegada",
+      "level": "a2"
+    },
+    {
+      "en": "departure",
+      "target": "a partida",
+      "level": "a2"
+    },
+    {
+      "en": "customs",
+      "target": "a alfândega",
+      "level": "b1"
+    },
+    {
+      "en": "passport control",
+      "target": "o controlo de passaportes",
+      "level": "a2"
+    },
+    {
+      "en": "security check",
+      "target": "o controlo de segurança",
+      "level": "b1"
+    },
+    {
+      "en": "room service",
+      "target": "o serviço de quartos",
+      "level": "a2"
+    },
+    {
+      "en": "double room",
+      "target": "o quarto duplo",
+      "level": "a2"
+    },
+    {
+      "en": "single room",
+      "target": "o quarto individual",
+      "level": "a2"
+    },
+    {
+      "en": "available room",
+      "target": "o quarto livre",
+      "level": "a2"
+    },
+    {
+      "en": "cleaning",
+      "target": "a limpeza",
+      "level": "a2"
+    },
+    {
+      "en": "I want a towel",
+      "target": "quero uma toalha",
+      "level": "a1"
+    },
+    {
+      "en": "the room is cold",
+      "target": "o quarto está frio",
+      "level": "a1"
+    },
+    {
+      "en": "the room is hot",
+      "target": "o quarto está quente",
+      "level": "a1"
+    },
+    {
+      "en": "the key does not work",
+      "target": "a chave não funciona",
+      "level": "a1"
+    },
+    {
+      "en": "the internet does not work",
+      "target": "a internet não funciona",
+      "level": "a1"
+    },
+    {
+      "en": "air conditioner",
+      "target": "ar condicionado",
+      "level": "a1"
+    },
+    {
+      "en": "heating",
+      "target": "o aquecimento",
+      "level": "a2"
+    },
+    {
+      "en": "hot water",
+      "target": "a água quente",
+      "level": "a1"
+    },
+    {
+      "en": "cold water",
+      "target": "a água fria",
+      "level": "a1"
+    }
+  ]
+}

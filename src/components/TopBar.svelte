@@ -1,11 +1,14 @@
 <script lang="ts">
   import ThemeToggle from './ThemeToggle.svelte'
   import type { Direction, Settings, Theme } from '../lib/storage/progress.js'
+  import type { LanguageDef } from '../lib/languages/types.js'
 
   let {
-    settings, deckOptions, typing, onchange, onshuffle, ontoggletyping, onreset, onsettings,
+    settings, language, deckOptions, typing, onchange, onshuffle, ontoggletyping,
+    onreset, onsettings,
   }: {
     settings: Settings
+    language: LanguageDef
     deckOptions: Array<[string, number]>
     typing: boolean
     onchange: (next: Partial<Settings>) => void
@@ -34,8 +37,8 @@
     value={settings.direction}
     onchange={(e) => onchange({ direction: e.currentTarget.value as Direction })}
   >
-    <option value="a-b">English → Portuguese</option>
-    <option value="b-a">Portuguese → English</option>
+    <option value="a-b">English → {language.shortName}</option>
+    <option value="b-a">{language.shortName} → English</option>
   </select>
 
   <div class="actions">

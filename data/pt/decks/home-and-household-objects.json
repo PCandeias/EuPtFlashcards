@@ -1,0 +1,295 @@
+{
+  "deck": "Home & Household Objects",
+  "cards": [
+    {
+      "en": "apartment",
+      "target": "o apartamento",
+      "level": "a1"
+    },
+    {
+      "en": "room",
+      "target": "o quarto / a divisão",
+      "level": "a1"
+    },
+    {
+      "en": "living room",
+      "target": "a sala",
+      "level": "a1"
+    },
+    {
+      "en": "kitchen",
+      "target": "a cozinha",
+      "level": "a1"
+    },
+    {
+      "en": "bathroom",
+      "target": "a casa de banho",
+      "level": "a1"
+    },
+    {
+      "en": "toilet",
+      "target": "a sanita",
+      "level": "a2"
+    },
+    {
+      "en": "bedroom",
+      "target": "o quarto",
+      "level": "a1"
+    },
+    {
+      "en": "balcony",
+      "target": "a varanda",
+      "level": "a2"
+    },
+    {
+      "en": "garden",
+      "target": "o jardim",
+      "level": "a1"
+    },
+    {
+      "en": "door",
+      "target": "a porta",
+      "level": "a1"
+    },
+    {
+      "en": "window",
+      "target": "a janela",
+      "level": "a1"
+    },
+    {
+      "en": "wall",
+      "target": "a parede",
+      "level": "a1"
+    },
+    {
+      "en": "floor",
+      "target": "o chão",
+      "level": "a1"
+    },
+    {
+      "en": "ceiling",
+      "target": "o teto",
+      "level": "a2"
+    },
+    {
+      "en": "stairs",
+      "target": "as escadas",
+      "level": "a2"
+    },
+    {
+      "en": "lift / elevator",
+      "target": "o elevador",
+      "level": "a2"
+    },
+    {
+      "en": "key",
+      "target": "a chave",
+      "level": "a1"
+    },
+    {
+      "en": "lock",
+      "target": "a fechadura",
+      "level": "a2"
+    },
+    {
+      "en": "sofa",
+      "target": "o sofá",
+      "level": "a1"
+    },
+    {
+      "en": "armchair",
+      "target": "a poltrona",
+      "level": "a1"
+    },
+    {
+      "en": "bed",
+      "target": "a cama",
+      "level": "a1"
+    },
+    {
+      "en": "pillow",
+      "target": "a almofada",
+      "level": "a2"
+    },
+    {
+      "en": "blanket",
+      "target": "o cobertor",
+      "level": "a2"
+    },
+    {
+      "en": "sheet",
+      "target": "o lençol",
+      "level": "a2"
+    },
+    {
+      "en": "wardrobe",
+      "target": "o guarda-roupa",
+      "level": "a2"
+    },
+    {
+      "en": "cupboard",
+      "target": "o armário",
+      "level": "a1"
+    },
+    {
+      "en": "shelf",
+      "target": "a prateleira",
+      "level": "a2"
+    },
+    {
+      "en": "drawer",
+      "target": "a gaveta",
+      "level": "a2"
+    },
+    {
+      "en": "mirror",
+      "target": "o espelho",
+      "level": "a2"
+    },
+    {
+      "en": "lamp",
+      "target": "o candeeiro",
+      "level": "a2"
+    },
+    {
+      "en": "light",
+      "target": "a luz",
+      "level": "a1"
+    },
+    {
+      "en": "television",
+      "target": "a televisão",
+      "level": "a1"
+    },
+    {
+      "en": "remote control",
+      "target": "o comando",
+      "level": "a2"
+    },
+    {
+      "en": "computer",
+      "target": "o computador",
+      "level": "a1"
+    },
+    {
+      "en": "charger",
+      "target": "o carregador",
+      "level": "a2"
+    },
+    {
+      "en": "socket",
+      "target": "a tomada",
+      "level": "a2"
+    },
+    {
+      "en": "cable",
+      "target": "o cabo",
+      "level": "a2"
+    },
+    {
+      "en": "fridge",
+      "target": "o frigorífico",
+      "level": "a1"
+    },
+    {
+      "en": "oven",
+      "target": "o forno",
+      "level": "a1"
+    },
+    {
+      "en": "stove",
+      "target": "o fogão",
+      "level": "a2"
+    },
+    {
+      "en": "microwave",
+      "target": "o micro-ondas",
+      "level": "a2"
+    },
+    {
+      "en": "dishwasher",
+      "target": "a máquina de lavar loiça",
+      "level": "a2"
+    },
+    {
+      "en": "washing machine",
+      "target": "a máquina de lavar roupa",
+      "level": "a1"
+    },
+    {
+      "en": "vacuum cleaner",
+      "target": "o aspirador",
+      "level": "a2"
+    },
+    {
+      "en": "towel",
+      "target": "a toalha",
+      "level": "a1"
+    },
+    {
+      "en": "soap",
+      "target": "o sabonete / o sabão",
+      "level": "a1"
+    },
+    {
+      "en": "shampoo",
+      "target": "o champô",
+      "level": "a2"
+    },
+    {
+      "en": "toothbrush",
+      "target": "a escova de dentes",
+      "level": "a1"
+    },
+    {
+      "en": "toothpaste",
+      "target": "a pasta de dentes",
+      "level": "a1"
+    },
+    {
+      "en": "toilet paper",
+      "target": "o papel higiénico",
+      "level": "a2"
+    },
+    {
+      "en": "trash",
+      "target": "o lixo",
+      "level": "a2"
+    },
+    {
+      "en": "trash bin",
+      "target": "o caixote do lixo",
+      "level": "a2"
+    },
+    {
+      "en": "clean",
+      "target": "limpo / limpa",
+      "level": "a1"
+    },
+    {
+      "en": "dirty",
+      "target": "sujo / suja",
+      "level": "a1"
+    },
+    {
+      "en": "full",
+      "target": "cheio / cheia",
+      "level": "a1"
+    },
+    {
+      "en": "empty",
+      "target": "vazio / vazia",
+      "level": "a1"
+    },
+    {
+      "en": "open",
+      "target": "aberto / aberta",
+      "level": "a1"
+    },
+    {
+      "en": "closed",
+      "target": "fechado / fechada",
+      "level": "a1"
+    }
+  ]
+}

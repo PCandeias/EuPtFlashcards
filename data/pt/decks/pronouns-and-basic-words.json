@@ -1,0 +1,474 @@
+{
+  "deck": "Pronouns & Basic Words",
+  "cards": [
+    {
+      "en": "I",
+      "target": "eu",
+      "level": "a1"
+    },
+    {
+      "en": "you",
+      "target": "tu",
+      "tags": [
+        "informal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "you",
+      "target": "você / o senhor / a senhora",
+      "tags": [
+        "formal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "he",
+      "target": "ele",
+      "level": "a1"
+    },
+    {
+      "en": "she",
+      "target": "ela",
+      "level": "a1"
+    },
+    {
+      "en": "we",
+      "target": "nós",
+      "level": "a1"
+    },
+    {
+      "en": "you",
+      "target": "vocês",
+      "tags": [
+        "plural"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "they",
+      "target": "eles",
+      "tags": [
+        "masc-mixed"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "they",
+      "target": "elas",
+      "tags": [
+        "fem"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "my",
+      "target": "meu",
+      "tags": [
+        "masc"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "my",
+      "target": "minha",
+      "tags": [
+        "fem"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "your",
+      "target": "teu",
+      "tags": [
+        "masc",
+        "informal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "your",
+      "target": "tua",
+      "tags": [
+        "fem",
+        "informal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "his / her",
+      "target": "seu",
+      "tags": [
+        "masc"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "his / her",
+      "target": "sua",
+      "tags": [
+        "fem"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "our",
+      "target": "nosso",
+      "tags": [
+        "masc"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "our",
+      "target": "nossa",
+      "tags": [
+        "fem"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "this",
+      "target": "este",
+      "tags": [
+        "masc"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "this",
+      "target": "esta",
+      "tags": [
+        "fem"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "this thing",
+      "target": "isto",
+      "level": "a1"
+    },
+    {
+      "en": "that",
+      "target": "esse",
+      "tags": [
+        "masc"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "that",
+      "target": "essa",
+      "tags": [
+        "fem"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "that thing",
+      "target": "isso",
+      "level": "a1"
+    },
+    {
+      "en": "that over there",
+      "target": "aquele",
+      "tags": [
+        "masc"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "that over there",
+      "target": "aquela",
+      "tags": [
+        "fem"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "that over there thing",
+      "target": "aquilo",
+      "level": "a1"
+    },
+    {
+      "en": "here",
+      "target": "aqui",
+      "level": "a1"
+    },
+    {
+      "en": "there",
+      "target": "aí",
+      "level": "a1"
+    },
+    {
+      "en": "over there",
+      "target": "ali",
+      "level": "a1"
+    },
+    {
+      "en": "everyone",
+      "target": "toda a gente",
+      "level": "a1"
+    },
+    {
+      "en": "nobody",
+      "target": "ninguém",
+      "level": "a1"
+    },
+    {
+      "en": "something",
+      "target": "alguma coisa",
+      "level": "a1"
+    },
+    {
+      "en": "nothing",
+      "target": "nada",
+      "level": "a1"
+    },
+    {
+      "en": "everything",
+      "target": "tudo",
+      "level": "a1"
+    },
+    {
+      "en": "person",
+      "target": "a pessoa",
+      "level": "a1"
+    },
+    {
+      "en": "people",
+      "target": "as pessoas",
+      "level": "a1"
+    },
+    {
+      "en": "man",
+      "target": "o homem",
+      "level": "a1"
+    },
+    {
+      "en": "woman",
+      "target": "a mulher",
+      "level": "a1"
+    },
+    {
+      "en": "child",
+      "target": "a criança",
+      "level": "a1"
+    },
+    {
+      "en": "boy",
+      "target": "o rapaz",
+      "level": "a1"
+    },
+    {
+      "en": "girl",
+      "target": "a rapariga",
+      "level": "a1"
+    },
+    {
+      "en": "baby",
+      "target": "o bebé",
+      "level": "a1"
+    },
+    {
+      "en": "friend",
+      "target": "o amigo",
+      "tags": [
+        "masc"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "friend",
+      "target": "a amiga",
+      "tags": [
+        "fem"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "neighbor",
+      "target": "o vizinho",
+      "tags": [
+        "masc"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "neighbor",
+      "target": "a vizinha",
+      "tags": [
+        "fem"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "guest",
+      "target": "o convidado / a convidada",
+      "level": "a2"
+    },
+    {
+      "en": "tourist",
+      "target": "o/a turista",
+      "level": "a2"
+    },
+    {
+      "en": "student",
+      "target": "o/a estudante",
+      "level": "a1"
+    },
+    {
+      "en": "teacher",
+      "target": "o professor",
+      "tags": [
+        "masc"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "teacher",
+      "target": "a professora",
+      "tags": [
+        "fem"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "doctor",
+      "target": "o médico",
+      "tags": [
+        "masc"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "doctor",
+      "target": "a médica",
+      "tags": [
+        "fem"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "nurse",
+      "target": "o enfermeiro",
+      "tags": [
+        "masc"
+      ],
+      "level": "a2"
+    },
+    {
+      "en": "nurse",
+      "target": "a enfermeira",
+      "tags": [
+        "fem"
+      ],
+      "level": "a2"
+    },
+    {
+      "en": "police officer",
+      "target": "o polícia",
+      "level": "a2"
+    },
+    {
+      "en": "driver",
+      "target": "o condutor / a condutora",
+      "level": "a2"
+    },
+    {
+      "en": "waiter",
+      "target": "o empregado de mesa",
+      "level": "a1"
+    },
+    {
+      "en": "customer",
+      "target": "o/a cliente",
+      "level": "a1"
+    },
+    {
+      "en": "family",
+      "target": "a família",
+      "level": "a1"
+    },
+    {
+      "en": "name",
+      "target": "o nome",
+      "level": "a1"
+    },
+    {
+      "en": "surname",
+      "target": "o apelido",
+      "level": "a2"
+    },
+    {
+      "en": "age",
+      "target": "a idade",
+      "level": "a1"
+    },
+    {
+      "en": "address",
+      "target": "a morada",
+      "level": "a1"
+    },
+    {
+      "en": "phone",
+      "target": "o telefone",
+      "level": "a1"
+    },
+    {
+      "en": "mobile phone",
+      "target": "o telemóvel",
+      "level": "a1"
+    },
+    {
+      "en": "language",
+      "target": "a língua",
+      "level": "a1"
+    },
+    {
+      "en": "country",
+      "target": "o país",
+      "level": "a1"
+    },
+    {
+      "en": "city",
+      "target": "a cidade",
+      "level": "a1"
+    },
+    {
+      "en": "village",
+      "target": "a aldeia",
+      "level": "a2"
+    },
+    {
+      "en": "house / home",
+      "target": "a casa",
+      "level": "a1"
+    },
+    {
+      "en": "work / job",
+      "target": "o trabalho",
+      "level": "a1"
+    },
+    {
+      "en": "school",
+      "target": "a escola",
+      "level": "a1"
+    },
+    {
+      "en": "money",
+      "target": "o dinheiro",
+      "level": "a1"
+    },
+    {
+      "en": "time",
+      "target": "o tempo",
+      "level": "a1"
+    },
+    {
+      "en": "day",
+      "target": "o dia",
+      "level": "a1"
+    }
+  ]
+}

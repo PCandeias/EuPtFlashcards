@@ -11,7 +11,7 @@ interface DeckFile {
   cards: unknown[]
 }
 
-const modules = import.meta.glob<{ default: DeckFile }>('../../../data/decks/*.json', {
+const modules = import.meta.glob<{ default: DeckFile }>('../../../data/pt/decks/*.json', {
   eager: true,
 })
 

@@ -1,18 +1,27 @@
 import { describe, it, expect } from 'vitest'
-import { examplesFor, subjectOf, MAX_EXAMPLES } from '../src/lib/annotations/examples.js'
+import { MAX_EXAMPLES } from '../src/lib/annotations/examples.js'
 import { annotationsFor } from '../src/lib/annotations/index.js'
-import { conjugate, parseVerb } from '../src/lib/verbs/conjugate.js'
-import { verbOf } from '../src/lib/verbs/detect.js'
-import { CARDS } from '../src/lib/cards/index.js'
-import { DEFAULT_SETTINGS } from '../src/lib/storage/progress.js'
-import verbData from '../data/verb-examples.json'
-import wordData from '../data/word-examples.json'
-import { TENSE_IDS, isTenseId, type TenseId } from '../src/lib/verbs/tenses.js'
+import { conjugate, parseVerb } from '../src/lib/languages/pt/conjugate.js'
+import { verbOf } from '../src/lib/languages/pt/detect.js'
+import { portuguese, examplesKind } from '../src/lib/languages/pt/index.js'
+import { defaultSettings } from '../src/lib/storage/progress.js'
 
-type Ex = { pt: string; en: string; tense: TenseId }
+const CARDS = portuguese.cards
+const { examplesFor, subjectOf } = examplesKind
+const DEFAULT_SETTINGS = defaultSettings(portuguese)
+import verbData from '../data/pt/verb-examples.json'
+import wordData from '../data/pt/word-examples.json'
+import { PT_TENSE_IDS as TENSE_IDS } from '../src/lib/languages/pt/tenses.js'
+import { isTenseId, type TenseId } from '../src/lib/grammar/tenses.js'
+
+type Ex = { target: string; en: string; tense: TenseId }
 const EXAMPLES = verbData as Record<string, Ex[]>
 const WORDS = wordData as Record<string, Ex[]>
 const entries = Object.entries(EXAMPLES)
+
+/** The registry call, with this language's kinds already supplied. */
+const annotationsFor2 = (card: Parameters<typeof annotationsFor>[0], context: Parameters<typeof annotationsFor>[2]) =>
+  annotationsFor(card, portuguese.annotations, context)
 
 /** Every form the engine produces for a verb, plus its infinitive. */
 function formsOf(infinitive: string): Set<string> {
@@ -93,8 +102,8 @@ describe('verb examples', () => {
   // false for a verb about identity rather than action.
   it('does not claim a permanent property changed yesterday', () => {
     const ser = EXAMPLES['ser']!
-    expect(ser.some(e => /ontem fui português/i.test(e.pt))).toBe(false)
-    expect(ser[0]!.pt).toBe('Eu sou português.')
+    expect(ser.some(e => /ontem fui português/i.test(e.target))).toBe(false)
+    expect(ser[0]!.target).toBe('Eu sou português.')
   })
 
   it('never writes "I be" for a present-tense be verb', () => {
@@ -108,7 +117,7 @@ describe('verb examples', () => {
   it('labels every sentence with a tense from the registry', () => {
     const bad: string[] = []
     for (const [, ex] of [...entries, ...Object.entries(WORDS)]) {
-      for (const e of ex) if (!isTenseId(e.tense)) bad.push(`${e.pt} (${e.tense})`)
+      for (const e of ex) if (!isTenseId(e.tense)) bad.push(`${e.target} (${e.tense})`)
     }
     expect(bad).toEqual([])
   })
@@ -120,23 +129,23 @@ describe('verb examples', () => {
    */
   it.each(entries)('%s appears in each of its own examples', (infinitive, examples) => {
     const forms = formsOf(infinitive)
-    const wrong = examples.filter(ex => !words(ex.pt).some(w => forms.has(w)))
-    expect(wrong.map(w => w.pt)).toEqual([])
+    const wrong = examples.filter(ex => !words(ex.target).some(w => forms.has(w)))
+    expect(wrong.map(w => w.target)).toEqual([])
   })
 
   it('is in Portuguese on one side and English on the other', () => {
     for (const [, examples] of entries) {
       for (const ex of examples) {
-        expect(ex.pt.trim()).not.toBe('')
+        expect(ex.target.trim()).not.toBe('')
         expect(ex.en.trim()).not.toBe('')
-        expect(ex.pt).not.toBe(ex.en)
+        expect(ex.target).not.toBe(ex.en)
       }
     }
   })
 
   it('has no duplicate sentences within a verb', () => {
     for (const [verb, examples] of entries) {
-      const seen = new Set(examples.map(e => e.pt))
+      const seen = new Set(examples.map(e => e.target))
       expect(seen.size, verb).toBe(examples.length)
     }
   })
@@ -144,8 +153,8 @@ describe('verb examples', () => {
   it('looks up a phrase card through its head verb', () => {
     expect(examplesFor('ir')).toBeTruthy()
     // "ir para a escola" has no examples of its own, so it borrows ir's.
-    const card = CARDS.find(c => c.pt === 'ir para a escola')!
-    const found = annotationsFor(card, { settings: DEFAULT_SETTINGS })
+    const card = CARDS.find(c => c.target === 'ir para a escola')!
+    const found = annotationsFor2(card, { settings: DEFAULT_SETTINGS })
       .find(a => a.kind.id === 'examples')
     expect(found).toBeTruthy()
   })
@@ -156,27 +165,27 @@ describe('the annotation registry', () => {
 
   it('offers both kinds on a verb card', () => {
     const card = CARDS.find(c => c.en === 'to sleep')!
-    expect(annotationsFor(card, { settings }).map(a => a.kind.id))
+    expect(annotationsFor2(card, { settings }).map(a => a.kind.id))
       .toEqual(['conjugation', 'examples'])
   })
 
   it('offers nothing on a card that is not a verb', () => {
-    const card = CARDS.find(c => c.pt === 'a casa')!
-    expect(annotationsFor(card, { settings })).toEqual([])
+    const card = CARDS.find(c => c.target === 'a casa')!
+    expect(annotationsFor2(card, { settings })).toEqual([])
   })
 
   // Each kind decides for itself. Narrowing to one tense keeps both, because the
   // examples cover every tense; switching them all off leaves neither.
   it('lets each kind judge the settings for itself', () => {
     const card = CARDS.find(c => c.en === 'to sleep')!
-    expect(annotationsFor(card, { settings: { ...settings, tenses: ['futuro'] } })
+    expect(annotationsFor2(card, { settings: { ...settings, tenses: ['futuro'] } })
       .map(a => a.kind.id)).toEqual(['conjugation', 'examples'])
-    expect(annotationsFor(card, { settings: { ...settings, tenses: [] } })).toEqual([])
+    expect(annotationsFor2(card, { settings: { ...settings, tenses: [] } })).toEqual([])
   })
 
   it('gives each kind its own marker and description', () => {
     const card = CARDS.find(c => c.en === 'to sleep')!
-    const found = annotationsFor(card, { settings })
+    const found = annotationsFor2(card, { settings })
     expect(new Set(found.map(a => a.kind.marker)).size).toBe(found.length)
     for (const a of found) expect(a.kind.describe(card)).toContain('dormir')
   })
@@ -191,17 +200,17 @@ describe('examples for words that are not verbs', () => {
   })
 
   it('shows an adjective in a whole sentence', () => {
-    const card = CARDS.find(c => c.pt === 'cheio / cheia')!
-    const found = annotationsFor(card, { settings }).find(a => a.kind.id === 'examples')
+    const card = CARDS.find(c => c.target === 'cheio / cheia')!
+    const found = annotationsFor2(card, { settings }).find(a => a.kind.id === 'examples')
     expect(found).toBeTruthy()
-    const payload = found!.payload as { examples: Array<{ pt: string }> }
-    expect(payload.examples[0]!.pt).toContain('cheio')
+    const payload = found!.payload as { examples: Array<{ target: string }> }
+    expect(payload.examples[0]!.target).toContain('cheio')
   })
 
   // ser for a property, estar for a state — the distinction the deck teaches.
   it('uses the copula the adjective actually takes', () => {
-    expect(examplesFor('grande')!.some(e => / é /.test(e.pt))).toBe(true)
-    expect(examplesFor('cheio / cheia')!.some(e => / está /.test(e.pt))).toBe(true)
+    expect(examplesFor('grande')!.some(e => / é /.test(e.target))).toBe(true)
+    expect(examplesFor('cheio / cheia')!.some(e => / está /.test(e.target))).toBe(true)
   })
 
   it('reaches a good number of cards', () => {
@@ -215,7 +224,7 @@ describe('tense filtering', () => {
 
   it('shows only sentences in the selected tenses', () => {
     const settings = { ...DEFAULT_SETTINGS, tenses: ['perfeito' as TenseId] }
-    const found = annotationsFor(card(), { settings }).find(a => a.kind.id === 'examples')
+    const found = annotationsFor2(card(), { settings }).find(a => a.kind.id === 'examples')
     const payload = found!.payload as { examples: Array<{ tense: string }>; hidden: number }
     expect(payload.examples.every(e => e.tense === 'perfeito')).toBe(true)
     expect(payload.hidden).toBeGreaterThan(0)
@@ -224,18 +233,18 @@ describe('tense filtering', () => {
   it('still has something to show for any single tense', () => {
     for (const tense of TENSE_IDS) {
       const settings = { ...DEFAULT_SETTINGS, tenses: [tense] }
-      const found = annotationsFor(card(), { settings }).find(a => a.kind.id === 'examples')
+      const found = annotationsFor2(card(), { settings }).find(a => a.kind.id === 'examples')
       expect(found, `nothing to show for ${tense}`).toBeTruthy()
     }
   })
 
   it('offers nothing at all when no tense is selected', () => {
     const settings = { ...DEFAULT_SETTINGS, tenses: [] }
-    expect(annotationsFor(card(), { settings })).toEqual([])
+    expect(annotationsFor2(card(), { settings })).toEqual([])
   })
 
   it('shows a handful rather than the whole list', () => {
-    const found = annotationsFor(card(), { settings: DEFAULT_SETTINGS })
+    const found = annotationsFor2(card(), { settings: DEFAULT_SETTINGS })
       .find(a => a.kind.id === 'examples')
     const payload = found!.payload as { examples: unknown[] }
     expect(payload.examples.length).toBeLessThanOrEqual(MAX_EXAMPLES)
@@ -246,7 +255,7 @@ describe('tense filtering', () => {
 describe('speech in the examples payload', () => {
   const card = () => CARDS.find(c => c.en === 'to sleep')!
   const payload = (speech: boolean) =>
-    annotationsFor(card(), { settings: { ...DEFAULT_SETTINGS, speech } })
+    annotationsFor2(card(), { settings: { ...DEFAULT_SETTINGS, speech } })
       .find(a => a.kind.id === 'examples')!.payload as { speech: boolean }
 
   // Carried in the payload so the panel needs no settings of its own.
@@ -256,8 +265,8 @@ describe('speech in the examples payload', () => {
   })
 
   it('does not otherwise change what is offered', () => {
-    const on = annotationsFor(card(), { settings: DEFAULT_SETTINGS }).map(a => a.kind.id)
-    const off = annotationsFor(card(), { settings: { ...DEFAULT_SETTINGS, speech: false } })
+    const on = annotationsFor2(card(), { settings: DEFAULT_SETTINGS }).map(a => a.kind.id)
+    const off = annotationsFor2(card(), { settings: { ...DEFAULT_SETTINGS, speech: false } })
       .map(a => a.kind.id)
     expect(off).toEqual(on)
   })

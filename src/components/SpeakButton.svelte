@@ -1,17 +1,25 @@
 <script lang="ts">
   import { createSpeaker, buildUtterance } from '../lib/speech/speaker.js'
   import { describeVoice, isMisleading } from '../lib/speech/voices.js'
+  import type { LanguageDef } from '../lib/languages/types.js'
 
   let {
-    text, compact = false,
+    text, language, compact = false,
   }: {
     text: string
+    /** Which language reads it, and which voices are acceptable for that. */
+    language: Pick<LanguageDef, 'locale' | 'shortName' | 'voice'>
     /** Smaller, for a list of sentences rather than the card's own word. */
     compact?: boolean
   } = $props()
 
   const synthesis = typeof window !== 'undefined' ? window.speechSynthesis : undefined
-  const speaker = createSpeaker(synthesis, buildUtterance)
+  // Getters rather than values: the target is read when something is spoken, not
+  // when the button is created.
+  const speaker = createSpeaker(synthesis, buildUtterance, {
+    get locale() { return language.locale },
+    get voice() { return language.voice },
+  })
 
   let warning = $state<string | null>(null)
 
@@ -24,7 +32,7 @@
     // Voices often populate only after the first call, so the check happens here
     // rather than on mount.
     const choice = speaker.choice()
-    warning = isMisleading(choice) ? describeVoice(choice) : null
+    warning = isMisleading(choice) ? describeVoice(choice, language.voice) : null
   }
 </script>
 
@@ -33,7 +41,7 @@
     class="speak"
     class:compact
     onclick={speak}
-    aria-label="Hear this in Portuguese"
+    aria-label="Hear this in {language.shortName}"
     title="Hear it"
   >
     <svg viewBox="0 0 24 24" aria-hidden="true" width={compact ? 14 : 20} height={compact ? 14 : 20}>

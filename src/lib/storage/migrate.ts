@@ -18,9 +18,8 @@ import { cardId, type Card } from '../cards/schema.js'
 import { newState, type ReviewState } from '../study/sm2.js'
 import {
   LEGACY_KEYS, V3_KEYS, KEYS, saveProgress, saveSettings, sanitizeSettings,
-  loadSettings, type StorageLike,
+  loadSettings, type SettingsScope, type StorageLike,
 } from './progress.js'
-import { TENSE_IDS } from '../verbs/tenses.js'
 import type { Progress } from '../study/scheduler.js'
 
 /** The shape both legacy and v3 stored. */
@@ -68,7 +67,7 @@ export function remapIds(
   // deck::pt -> id, or null when more than one card shares the pair.
   const byDeckPt = new Map<string, string | null>()
   for (const card of cards) {
-    const key = `${card.deck}::${card.pt}`
+    const key = `${card.deck}::${card.target}`
     byDeckPt.set(key, byDeckPt.has(key) ? null : cardId(card))
   }
 
@@ -140,7 +139,11 @@ function readRaw(storage: StorageLike, key: string): { value: unknown; failed: b
  *
  * Earlier keys are never cleared — they are the backstop if this goes wrong.
  */
-export function runMigration(storage: StorageLike, cards: readonly Card[]): MigrationResult | null {
+export function runMigration(
+  storage: StorageLike,
+  cards: readonly Card[],
+  language: SettingsScope,
+): MigrationResult | null {
   if (storage.getItem(KEYS.migrated)) return null
 
   const legacy = readRaw(storage, LEGACY_KEYS.progress)
@@ -169,13 +172,13 @@ export function runMigration(storage: StorageLike, cards: readonly Card[]): Migr
     result.carried = remapped.carried
     result.dropped = remapped.dropped
     result.ambiguous = remapped.ambiguous
-    saveProgress(storage, seedFromFixedDelay(remapped.progress) as Progress)
+    saveProgress(storage, KEYS, seedFromFixedDelay(remapped.progress) as Progress)
   }
 
-  saveSettings(storage, sanitizeSettings({
+  saveSettings(storage, KEYS, language, sanitizeSettings({
     deck: storage.getItem(LEGACY_KEYS.deck) ?? undefined,
     direction: storage.getItem(LEGACY_KEYS.direction) ?? undefined,
-  }))
+  }, language))
 
   storage.setItem(KEYS.migrated, new Date().toISOString())
   return result
@@ -188,16 +191,17 @@ export function runMigration(storage: StorageLike, cards: readonly Card[]): Migr
  * decides which cards appear, so a selection of two tenses — the old default —
  * would quietly remove every card in the others. Runs once.
  */
-export function migrateTenseScope(storage: StorageLike): boolean {
+export function migrateTenseScope(storage: StorageLike, language: SettingsScope): boolean {
   if (storage.getItem(KEYS.tenseScope)) return false
   storage.setItem(KEYS.tenseScope, new Date().toISOString())
 
   // Nothing stored yet means a new user, who already gets the full default.
   if (storage.getItem(KEYS.settings) == null) return false
 
-  const settings = loadSettings(storage)
-  if (settings.tenses.length === TENSE_IDS.length) return false
+  const all = language.tenses.map(t => t.id)
+  const settings = loadSettings(storage, KEYS, language)
+  if (settings.tenses.length === all.length) return false
 
-  saveSettings(storage, { ...settings, tenses: [...TENSE_IDS] })
+  saveSettings(storage, KEYS, language, { ...settings, tenses: all })
   return true
 }

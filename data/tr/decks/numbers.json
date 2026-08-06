@@ -1,0 +1,536 @@
+{
+  "deck": "Numbers",
+  "cards": [
+    {
+      "en": "zero",
+      "target": "sıfır",
+      "level": "a1"
+    },
+    {
+      "en": "one",
+      "target": "bir",
+      "level": "a1"
+    },
+    {
+      "en": "two",
+      "target": "iki",
+      "level": "a1"
+    },
+    {
+      "en": "three",
+      "target": "üç",
+      "level": "a1"
+    },
+    {
+      "en": "four",
+      "target": "dört",
+      "level": "a1"
+    },
+    {
+      "en": "five",
+      "target": "beş",
+      "level": "a1"
+    },
+    {
+      "en": "six",
+      "target": "altı",
+      "level": "a1"
+    },
+    {
+      "en": "seven",
+      "target": "yedi",
+      "level": "a1"
+    },
+    {
+      "en": "eight",
+      "target": "sekiz",
+      "level": "a1"
+    },
+    {
+      "en": "nine",
+      "target": "dokuz",
+      "level": "a1"
+    },
+    {
+      "en": "ten",
+      "target": "on",
+      "level": "a1"
+    },
+    {
+      "en": "eleven",
+      "target": "on bir",
+      "level": "a1"
+    },
+    {
+      "en": "twelve",
+      "target": "on iki",
+      "level": "a1"
+    },
+    {
+      "en": "thirteen",
+      "target": "on üç",
+      "level": "a1"
+    },
+    {
+      "en": "twenty",
+      "target": "yirmi",
+      "level": "a1"
+    },
+    {
+      "en": "thirty",
+      "target": "otuz",
+      "level": "a1"
+    },
+    {
+      "en": "forty",
+      "target": "kırk",
+      "level": "a1"
+    },
+    {
+      "en": "fifty",
+      "target": "elli",
+      "level": "a1"
+    },
+    {
+      "en": "sixty",
+      "target": "altmış",
+      "level": "a1"
+    },
+    {
+      "en": "seventy",
+      "target": "yetmiş",
+      "level": "a1"
+    },
+    {
+      "en": "eighty",
+      "target": "seksen",
+      "level": "a1"
+    },
+    {
+      "en": "ninety",
+      "target": "doksan",
+      "level": "a1"
+    },
+    {
+      "en": "hundred",
+      "target": "yüz",
+      "level": "a1",
+      "sense": "the number"
+    },
+    {
+      "en": "thousand",
+      "target": "bin",
+      "level": "a1"
+    },
+    {
+      "en": "fourteen",
+      "target": "on dört",
+      "level": "a1"
+    },
+    {
+      "en": "fifteen",
+      "target": "on beş",
+      "level": "a1"
+    },
+    {
+      "en": "sixteen",
+      "target": "on altı",
+      "level": "a1"
+    },
+    {
+      "en": "seventeen",
+      "target": "on yedi",
+      "level": "a1"
+    },
+    {
+      "en": "eighteen",
+      "target": "on sekiz",
+      "level": "a1"
+    },
+    {
+      "en": "nineteen",
+      "target": "on dokuz",
+      "level": "a1"
+    },
+    {
+      "en": "twenty-one",
+      "target": "yirmi bir",
+      "level": "a1"
+    },
+    {
+      "en": "twenty-two",
+      "target": "yirmi iki",
+      "level": "a1"
+    },
+    {
+      "en": "twenty-three",
+      "target": "yirmi üç",
+      "level": "a1"
+    },
+    {
+      "en": "twenty-four",
+      "target": "yirmi dört",
+      "level": "a1"
+    },
+    {
+      "en": "twenty-five",
+      "target": "yirmi beş",
+      "level": "a1"
+    },
+    {
+      "en": "twenty-six",
+      "target": "yirmi altı",
+      "level": "a1"
+    },
+    {
+      "en": "twenty-seven",
+      "target": "yirmi yedi",
+      "level": "a1"
+    },
+    {
+      "en": "twenty-eight",
+      "target": "yirmi sekiz",
+      "level": "a1"
+    },
+    {
+      "en": "twenty-nine",
+      "target": "yirmi dokuz",
+      "level": "a1"
+    },
+    {
+      "en": "thirty-one",
+      "target": "otuz bir",
+      "level": "a1"
+    },
+    {
+      "en": "thirty-two",
+      "target": "otuz iki",
+      "level": "a1"
+    },
+    {
+      "en": "thirty-three",
+      "target": "otuz üç",
+      "level": "a1"
+    },
+    {
+      "en": "thirty-four",
+      "target": "otuz dört",
+      "level": "a1"
+    },
+    {
+      "en": "thirty-five",
+      "target": "otuz beş",
+      "level": "a1"
+    },
+    {
+      "en": "thirty-six",
+      "target": "otuz altı",
+      "level": "a1"
+    },
+    {
+      "en": "thirty-seven",
+      "target": "otuz yedi",
+      "level": "a1"
+    },
+    {
+      "en": "thirty-eight",
+      "target": "otuz sekiz",
+      "level": "a1"
+    },
+    {
+      "en": "thirty-nine",
+      "target": "otuz dokuz",
+      "level": "a1"
+    },
+    {
+      "en": "forty-one",
+      "target": "kırk bir",
+      "level": "a1"
+    },
+    {
+      "en": "forty-two",
+      "target": "kırk iki",
+      "level": "a1"
+    },
+    {
+      "en": "forty-three",
+      "target": "kırk üç",
+      "level": "a1"
+    },
+    {
+      "en": "forty-four",
+      "target": "kırk dört",
+      "level": "a1"
+    },
+    {
+      "en": "forty-five",
+      "target": "kırk beş",
+      "level": "a1"
+    },
+    {
+      "en": "forty-six",
+      "target": "kırk altı",
+      "level": "a1"
+    },
+    {
+      "en": "forty-seven",
+      "target": "kırk yedi",
+      "level": "a1"
+    },
+    {
+      "en": "forty-eight",
+      "target": "kırk sekiz",
+      "level": "a1"
+    },
+    {
+      "en": "forty-nine",
+      "target": "kırk dokuz",
+      "level": "a1"
+    },
+    {
+      "en": "fifty-one",
+      "target": "elli bir",
+      "level": "a1"
+    },
+    {
+      "en": "fifty-two",
+      "target": "elli iki",
+      "level": "a1"
+    },
+    {
+      "en": "fifty-three",
+      "target": "elli üç",
+      "level": "a1"
+    },
+    {
+      "en": "fifty-four",
+      "target": "elli dört",
+      "level": "a1"
+    },
+    {
+      "en": "fifty-five",
+      "target": "elli beş",
+      "level": "a1"
+    },
+    {
+      "en": "fifty-six",
+      "target": "elli altı",
+      "level": "a1"
+    },
+    {
+      "en": "fifty-seven",
+      "target": "elli yedi",
+      "level": "a1"
+    },
+    {
+      "en": "fifty-eight",
+      "target": "elli sekiz",
+      "level": "a1"
+    },
+    {
+      "en": "fifty-nine",
+      "target": "elli dokuz",
+      "level": "a1"
+    },
+    {
+      "en": "sixty-one",
+      "target": "altmış bir",
+      "level": "a1"
+    },
+    {
+      "en": "sixty-two",
+      "target": "altmış iki",
+      "level": "a1"
+    },
+    {
+      "en": "sixty-three",
+      "target": "altmış üç",
+      "level": "a1"
+    },
+    {
+      "en": "sixty-four",
+      "target": "altmış dört",
+      "level": "a1"
+    },
+    {
+      "en": "sixty-five",
+      "target": "altmış beş",
+      "level": "a1"
+    },
+    {
+      "en": "sixty-six",
+      "target": "altmış altı",
+      "level": "a1"
+    },
+    {
+      "en": "sixty-seven",
+      "target": "altmış yedi",
+      "level": "a1"
+    },
+    {
+      "en": "sixty-eight",
+      "target": "altmış sekiz",
+      "level": "a1"
+    },
+    {
+      "en": "sixty-nine",
+      "target": "altmış dokuz",
+      "level": "a1"
+    },
+    {
+      "en": "seventy-one",
+      "target": "yetmiş bir",
+      "level": "a1"
+    },
+    {
+      "en": "seventy-two",
+      "target": "yetmiş iki",
+      "level": "a1"
+    },
+    {
+      "en": "seventy-three",
+      "target": "yetmiş üç",
+      "level": "a1"
+    },
+    {
+      "en": "seventy-four",
+      "target": "yetmiş dört",
+      "level": "a1"
+    },
+    {
+      "en": "seventy-five",
+      "target": "yetmiş beş",
+      "level": "a1"
+    },
+    {
+      "en": "seventy-six",
+      "target": "yetmiş altı",
+      "level": "a1"
+    },
+    {
+      "en": "seventy-seven",
+      "target": "yetmiş yedi",
+      "level": "a1"
+    },
+    {
+      "en": "seventy-eight",
+      "target": "yetmiş sekiz",
+      "level": "a1"
+    },
+    {
+      "en": "seventy-nine",
+      "target": "yetmiş dokuz",
+      "level": "a1"
+    },
+    {
+      "en": "eighty-one",
+      "target": "seksen bir",
+      "level": "a1"
+    },
+    {
+      "en": "eighty-two",
+      "target": "seksen iki",
+      "level": "a1"
+    },
+    {
+      "en": "eighty-three",
+      "target": "seksen üç",
+      "level": "a1"
+    },
+    {
+      "en": "eighty-four",
+      "target": "seksen dört",
+      "level": "a1"
+    },
+    {
+      "en": "eighty-five",
+      "target": "seksen beş",
+      "level": "a1"
+    },
+    {
+      "en": "eighty-six",
+      "target": "seksen altı",
+      "level": "a1"
+    },
+    {
+      "en": "eighty-seven",
+      "target": "seksen yedi",
+      "level": "a1"
+    },
+    {
+      "en": "eighty-eight",
+      "target": "seksen sekiz",
+      "level": "a1"
+    },
+    {
+      "en": "eighty-nine",
+      "target": "seksen dokuz",
+      "level": "a1"
+    },
+    {
+      "en": "ninety-one",
+      "target": "doksan bir",
+      "level": "a1"
+    },
+    {
+      "en": "ninety-two",
+      "target": "doksan iki",
+      "level": "a1"
+    },
+    {
+      "en": "ninety-three",
+      "target": "doksan üç",
+      "level": "a1"
+    },
+    {
+      "en": "ninety-four",
+      "target": "doksan dört",
+      "level": "a1"
+    },
+    {
+      "en": "ninety-five",
+      "target": "doksan beş",
+      "level": "a1"
+    },
+    {
+      "en": "ninety-six",
+      "target": "doksan altı",
+      "level": "a1"
+    },
+    {
+      "en": "ninety-seven",
+      "target": "doksan yedi",
+      "level": "a1"
+    },
+    {
+      "en": "ninety-eight",
+      "target": "doksan sekiz",
+      "level": "a1"
+    },
+    {
+      "en": "ninety-nine",
+      "target": "doksan dokuz",
+      "level": "a1"
+    },
+    {
+      "en": "two hundred",
+      "target": "iki yüz",
+      "level": "a1"
+    },
+    {
+      "en": "three hundred",
+      "target": "üç yüz",
+      "level": "a1"
+    },
+    {
+      "en": "five hundred",
+      "target": "beş yüz",
+      "level": "a1"
+    },
+    {
+      "en": "half",
+      "target": "yarım",
+      "level": "a1"
+    }
+  ]
+}

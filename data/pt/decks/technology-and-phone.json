@@ -1,0 +1,171 @@
+{
+  "deck": "Technology & Phone",
+  "cards": [
+    {
+      "en": "smartphone",
+      "target": "smartphone",
+      "level": "a2"
+    },
+    {
+      "en": "laptop",
+      "target": "o portátil",
+      "level": "a2"
+    },
+    {
+      "en": "tablet",
+      "target": "o tablet",
+      "level": "a2"
+    },
+    {
+      "en": "internet",
+      "target": "a internet",
+      "level": "a1"
+    },
+    {
+      "en": "Wi-Fi",
+      "target": "o Wi-Fi",
+      "level": "a1"
+    },
+    {
+      "en": "password",
+      "target": "a palavra-passe",
+      "level": "a2"
+    },
+    {
+      "en": "username",
+      "target": "o nome de utilizador",
+      "level": "a2"
+    },
+    {
+      "en": "account",
+      "target": "a conta",
+      "level": "a1"
+    },
+    {
+      "en": "app",
+      "target": "a aplicação",
+      "level": "a2"
+    },
+    {
+      "en": "phone call",
+      "target": "chamada telefónica",
+      "level": "a1"
+    },
+    {
+      "en": "camera",
+      "target": "a câmara",
+      "level": "a2"
+    },
+    {
+      "en": "photo",
+      "target": "a fotografia",
+      "level": "a1"
+    },
+    {
+      "en": "video",
+      "target": "o vídeo",
+      "level": "a1"
+    },
+    {
+      "en": "headphones",
+      "target": "auscultadores",
+      "level": "a1"
+    },
+    {
+      "en": "speaker",
+      "target": "a coluna",
+      "level": "a2"
+    },
+    {
+      "en": "microphone",
+      "target": "microfone",
+      "level": "a2"
+    },
+    {
+      "en": "charge",
+      "target": "a carga",
+      "level": "a2"
+    },
+    {
+      "en": "battery",
+      "target": "a bateria",
+      "level": "a2"
+    },
+    {
+      "en": "key / button",
+      "target": "a tecla / o botão",
+      "level": "a2"
+    },
+    {
+      "en": "folder",
+      "target": "a pasta",
+      "level": "a2"
+    },
+    {
+      "en": "picture",
+      "target": "a imagem",
+      "level": "a1"
+    },
+    {
+      "en": "sound / voice",
+      "target": "o som / a voz",
+      "level": "a1"
+    },
+    {
+      "en": "to turn on / open",
+      "target": "ligar / abrir",
+      "level": "a1"
+    },
+    {
+      "en": "to turn off / close",
+      "target": "desligar / fechar",
+      "level": "a1"
+    },
+    {
+      "en": "to download",
+      "target": "descarregar",
+      "level": "a2"
+    },
+    {
+      "en": "to upload",
+      "target": "carregar",
+      "level": "a2"
+    },
+    {
+      "en": "to install",
+      "target": "instalar",
+      "level": "a2"
+    },
+    {
+      "en": "to send",
+      "target": "enviar",
+      "level": "a2"
+    },
+    {
+      "en": "to receive",
+      "target": "receber",
+      "level": "a2"
+    },
+    {
+      "en": "to delete",
+      "target": "apagar",
+      "level": "a2"
+    },
+    {
+      "en": "to connect",
+      "target": "ligar / conectar",
+      "level": "a2"
+    },
+    {
+      "en": "it is not working",
+      "target": "não está a funcionar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "broken",
+      "target": "avariado / avariada",
+      "level": "a2"
+    }
+  ]
+}

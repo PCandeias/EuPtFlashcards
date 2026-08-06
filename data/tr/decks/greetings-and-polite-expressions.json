@@ -1,0 +1,171 @@
+{
+  "deck": "Greetings & Polite Expressions",
+  "cards": [
+    {
+      "en": "hello",
+      "target": "Merhaba",
+      "level": "a1"
+    },
+    {
+      "en": "hi",
+      "target": "Selam",
+      "level": "a1"
+    },
+    {
+      "en": "good morning",
+      "target": "Günaydın",
+      "level": "a1"
+    },
+    {
+      "en": "good day",
+      "target": "İyi günler",
+      "level": "a1"
+    },
+    {
+      "en": "good evening",
+      "target": "İyi akşamlar",
+      "level": "a1"
+    },
+    {
+      "en": "good night",
+      "target": "İyi geceler",
+      "level": "a1"
+    },
+    {
+      "en": "welcome",
+      "target": "Hoş geldiniz",
+      "tags": [
+        "formal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "glad to be here",
+      "target": "Hoş bulduk",
+      "level": "a1",
+      "sense": "the reply to hoş geldiniz"
+    },
+    {
+      "en": "how are you?",
+      "target": "Nasılsın?",
+      "tags": [
+        "informal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "how are you?",
+      "target": "Nasılsınız?",
+      "tags": [
+        "formal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "I am fine",
+      "target": "İyiyim",
+      "level": "a1"
+    },
+    {
+      "en": "not bad",
+      "target": "Fena değil",
+      "level": "a1"
+    },
+    {
+      "en": "I am very well",
+      "target": "Çok iyiyim",
+      "level": "a1"
+    },
+    {
+      "en": "thanks",
+      "target": "Teşekkürler",
+      "level": "a1"
+    },
+    {
+      "en": "thank you",
+      "target": "Teşekkür ederim",
+      "level": "a1"
+    },
+    {
+      "en": "thank you very much",
+      "target": "Çok teşekkür ederim",
+      "level": "a1"
+    },
+    {
+      "en": "you are welcome",
+      "target": "Rica ederim",
+      "level": "a1"
+    },
+    {
+      "en": "it is nothing",
+      "target": "Bir şey değil",
+      "level": "a1"
+    },
+    {
+      "en": "please",
+      "target": "Lütfen",
+      "level": "a1"
+    },
+    {
+      "en": "excuse me",
+      "target": "Affedersiniz",
+      "level": "a1"
+    },
+    {
+      "en": "sorry / pardon",
+      "target": "Pardon",
+      "level": "a1"
+    },
+    {
+      "en": "I am sorry",
+      "target": "Özür dilerim",
+      "level": "a1"
+    },
+    {
+      "en": "no problem",
+      "target": "Sorun değil",
+      "level": "a1"
+    },
+    {
+      "en": "nice to meet you",
+      "target": "Memnun oldum",
+      "level": "a1"
+    },
+    {
+      "en": "nice to meet you too",
+      "target": "Ben de memnun oldum",
+      "level": "a1"
+    },
+    {
+      "en": "see you",
+      "target": "Görüşürüz",
+      "level": "a1"
+    },
+    {
+      "en": "see you later",
+      "target": "Sonra görüşürüz",
+      "level": "a1"
+    },
+    {
+      "en": "see you tomorrow",
+      "target": "Yarın görüşürüz",
+      "level": "a1"
+    },
+    {
+      "en": "goodbye",
+      "target": "Hoşça kal",
+      "tags": [
+        "informal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "goodbye",
+      "target": "Hoşça kalın",
+      "tags": [
+        "formal"
+      ],
+      "level": "a1"
+    }
+  ]
+}

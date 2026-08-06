@@ -1,0 +1,315 @@
+{
+  "deck": "Numbers",
+  "cards": [
+    {
+      "en": "zero",
+      "target": "zero",
+      "level": "a1"
+    },
+    {
+      "en": "one",
+      "target": "um / uma",
+      "level": "a1"
+    },
+    {
+      "en": "two",
+      "target": "dois / duas",
+      "level": "a1"
+    },
+    {
+      "en": "three",
+      "target": "três",
+      "level": "a1"
+    },
+    {
+      "en": "four",
+      "target": "quatro",
+      "level": "a1"
+    },
+    {
+      "en": "five",
+      "target": "cinco",
+      "level": "a1"
+    },
+    {
+      "en": "six",
+      "target": "seis",
+      "level": "a1"
+    },
+    {
+      "en": "seven",
+      "target": "sete",
+      "level": "a1"
+    },
+    {
+      "en": "eight",
+      "target": "oito",
+      "level": "a1"
+    },
+    {
+      "en": "nine",
+      "target": "nove",
+      "level": "a1"
+    },
+    {
+      "en": "ten",
+      "target": "dez",
+      "level": "a1"
+    },
+    {
+      "en": "eleven",
+      "target": "onze",
+      "level": "a1"
+    },
+    {
+      "en": "twelve",
+      "target": "doze",
+      "level": "a1"
+    },
+    {
+      "en": "thirteen",
+      "target": "treze",
+      "level": "a1"
+    },
+    {
+      "en": "fourteen",
+      "target": "catorze",
+      "level": "a1"
+    },
+    {
+      "en": "fifteen",
+      "target": "quinze",
+      "level": "a1"
+    },
+    {
+      "en": "sixteen",
+      "target": "dezasseis",
+      "level": "a1"
+    },
+    {
+      "en": "seventeen",
+      "target": "dezassete",
+      "level": "a1"
+    },
+    {
+      "en": "eighteen",
+      "target": "dezoito",
+      "level": "a1"
+    },
+    {
+      "en": "nineteen",
+      "target": "dezanove",
+      "level": "a1"
+    },
+    {
+      "en": "twenty",
+      "target": "vinte",
+      "level": "a1"
+    },
+    {
+      "en": "twenty-one",
+      "target": "vinte e um",
+      "level": "a1"
+    },
+    {
+      "en": "twenty-two",
+      "target": "vinte e dois",
+      "level": "a1"
+    },
+    {
+      "en": "twenty-three",
+      "target": "vinte e três",
+      "level": "a1"
+    },
+    {
+      "en": "twenty-four",
+      "target": "vinte e quatro",
+      "level": "a1"
+    },
+    {
+      "en": "twenty-five",
+      "target": "vinte e cinco",
+      "level": "a1"
+    },
+    {
+      "en": "twenty-six",
+      "target": "vinte e seis",
+      "level": "a1"
+    },
+    {
+      "en": "twenty-seven",
+      "target": "vinte e sete",
+      "level": "a1"
+    },
+    {
+      "en": "twenty-eight",
+      "target": "vinte e oito",
+      "level": "a1"
+    },
+    {
+      "en": "twenty-nine",
+      "target": "vinte e nove",
+      "level": "a1"
+    },
+    {
+      "en": "thirty",
+      "target": "trinta",
+      "level": "a1"
+    },
+    {
+      "en": "forty",
+      "target": "quarenta",
+      "level": "a1"
+    },
+    {
+      "en": "fifty",
+      "target": "cinquenta",
+      "level": "a1"
+    },
+    {
+      "en": "sixty",
+      "target": "sessenta",
+      "level": "a1"
+    },
+    {
+      "en": "seventy",
+      "target": "setenta",
+      "level": "a1"
+    },
+    {
+      "en": "eighty",
+      "target": "oitenta",
+      "level": "a1"
+    },
+    {
+      "en": "ninety",
+      "target": "noventa",
+      "level": "a1"
+    },
+    {
+      "en": "one hundred",
+      "target": "cem",
+      "level": "a1"
+    },
+    {
+      "en": "one hundred and one",
+      "target": "cento e um",
+      "level": "a1"
+    },
+    {
+      "en": "two hundred",
+      "target": "duzentos",
+      "level": "a1"
+    },
+    {
+      "en": "three hundred",
+      "target": "trezentos",
+      "level": "a1"
+    },
+    {
+      "en": "four hundred",
+      "target": "quatrocentos",
+      "level": "a1"
+    },
+    {
+      "en": "five hundred",
+      "target": "quinhentos",
+      "level": "a1"
+    },
+    {
+      "en": "six hundred",
+      "target": "seiscentos",
+      "level": "a1"
+    },
+    {
+      "en": "seven hundred",
+      "target": "setecentos",
+      "level": "a1"
+    },
+    {
+      "en": "eight hundred",
+      "target": "oitocentos",
+      "level": "a1"
+    },
+    {
+      "en": "nine hundred",
+      "target": "novecentos",
+      "level": "a1"
+    },
+    {
+      "en": "one thousand",
+      "target": "mil",
+      "level": "a1"
+    },
+    {
+      "en": "first",
+      "target": "primeiro",
+      "level": "a1"
+    },
+    {
+      "en": "second",
+      "target": "segundo",
+      "level": "a1"
+    },
+    {
+      "en": "third",
+      "target": "terceiro",
+      "level": "a1"
+    },
+    {
+      "en": "fourth",
+      "target": "quarto",
+      "level": "a1"
+    },
+    {
+      "en": "fifth",
+      "target": "quinto",
+      "level": "a1"
+    },
+    {
+      "en": "sixth",
+      "target": "sexto",
+      "level": "a1"
+    },
+    {
+      "en": "seventh",
+      "target": "sétimo",
+      "level": "a1"
+    },
+    {
+      "en": "eighth",
+      "target": "oitavo",
+      "level": "a1"
+    },
+    {
+      "en": "ninth",
+      "target": "nono",
+      "level": "a1"
+    },
+    {
+      "en": "tenth",
+      "target": "décimo",
+      "level": "a1"
+    },
+    {
+      "en": "half",
+      "target": "meio / metade",
+      "level": "a1"
+    },
+    {
+      "en": "quarter",
+      "target": "quarto",
+      "level": "a1"
+    },
+    {
+      "en": "a little",
+      "target": "um pouco",
+      "level": "a1"
+    },
+    {
+      "en": "many / a lot",
+      "target": "muitos / muitas",
+      "level": "a1"
+    }
+  ]
+}

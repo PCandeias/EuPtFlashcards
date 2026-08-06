@@ -1,0 +1,171 @@
+{
+  "deck": "Essential Survival Phrases",
+  "cards": [
+    {
+      "en": "yes",
+      "target": "Evet",
+      "level": "a1"
+    },
+    {
+      "en": "no",
+      "target": "Hayır",
+      "level": "a1"
+    },
+    {
+      "en": "okay",
+      "target": "Tamam",
+      "level": "a1"
+    },
+    {
+      "en": "sure / okay",
+      "target": "Olur",
+      "level": "a1"
+    },
+    {
+      "en": "no / impossible",
+      "target": "Olmaz",
+      "level": "a2"
+    },
+    {
+      "en": "maybe",
+      "target": "Belki",
+      "level": "a1"
+    },
+    {
+      "en": "of course",
+      "target": "Tabii",
+      "level": "a1"
+    },
+    {
+      "en": "correct / right",
+      "target": "Doğru",
+      "level": "a1"
+    },
+    {
+      "en": "wrong",
+      "target": "Yanlış",
+      "level": "a1"
+    },
+    {
+      "en": "I do not know",
+      "target": "Bilmiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I do not understand",
+      "target": "Anlamıyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I understood",
+      "target": "Anladım",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "did you understand?",
+      "target": "Anladınız mı?",
+      "tags": [
+        "formal"
+      ],
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "I do not know Turkish",
+      "target": "Türkçe bilmiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "do you know English?",
+      "target": "İngilizce biliyor musunuz?",
+      "tags": [
+        "formal"
+      ],
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "can you help?",
+      "target": "Yardım eder misiniz?",
+      "tags": [
+        "formal"
+      ],
+      "tense": "genis",
+      "level": "a2"
+    },
+    {
+      "en": "can you speak slowly?",
+      "target": "Yavaş konuşur musunuz?",
+      "tags": [
+        "formal"
+      ],
+      "tense": "genis",
+      "level": "a2"
+    },
+    {
+      "en": "can you repeat?",
+      "target": "Tekrar eder misiniz?",
+      "tags": [
+        "formal"
+      ],
+      "tense": "genis",
+      "level": "a2"
+    },
+    {
+      "en": "how is it said?",
+      "target": "Nasıl söylenir?",
+      "tense": "genis",
+      "level": "a2"
+    },
+    {
+      "en": "what does it mean?",
+      "target": "Ne demek?",
+      "level": "a1"
+    },
+    {
+      "en": "what is this?",
+      "target": "Bu ne?",
+      "level": "a1"
+    },
+    {
+      "en": "how much is this?",
+      "target": "Bu kaç para?",
+      "level": "a1"
+    },
+    {
+      "en": "where?",
+      "target": "Nerede?",
+      "level": "a1"
+    },
+    {
+      "en": "when?",
+      "target": "Ne zaman?",
+      "level": "a1"
+    },
+    {
+      "en": "my name is...",
+      "target": "Benim adım...",
+      "level": "a1"
+    },
+    {
+      "en": "I am Portuguese",
+      "target": "Ben Portekizliyim",
+      "level": "a1"
+    },
+    {
+      "en": "I live in Switzerland",
+      "target": "İsviçre'de yaşıyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "where is the bathroom?",
+      "target": "Tuvalet nerede?",
+      "level": "a1"
+    }
+  ]
+}

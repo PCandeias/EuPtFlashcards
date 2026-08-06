@@ -1,0 +1,205 @@
+{
+  "deck": "Work, School & Study",
+  "cards": [
+    {
+      "en": "office",
+      "target": "o escritório",
+      "level": "a2"
+    },
+    {
+      "en": "company",
+      "target": "a empresa",
+      "level": "a1"
+    },
+    {
+      "en": "employee",
+      "target": "o empregado / a empregada",
+      "level": "a2"
+    },
+    {
+      "en": "manager",
+      "target": "o/a chefe / o/a gerente",
+      "level": "a2"
+    },
+    {
+      "en": "boss",
+      "target": "o patrão / a patroa",
+      "level": "a2"
+    },
+    {
+      "en": "project",
+      "target": "o projeto",
+      "level": "a2"
+    },
+    {
+      "en": "task",
+      "target": "a tarefa",
+      "level": "a2"
+    },
+    {
+      "en": "salary",
+      "target": "o salário",
+      "level": "a2"
+    },
+    {
+      "en": "profession",
+      "target": "a profissão",
+      "level": "a2"
+    },
+    {
+      "en": "colleague",
+      "target": "o/a colega",
+      "level": "a2"
+    },
+    {
+      "en": "keyboard",
+      "target": "o teclado",
+      "level": "a2"
+    },
+    {
+      "en": "mouse",
+      "target": "o rato",
+      "level": "a2"
+    },
+    {
+      "en": "screen",
+      "target": "o ecrã",
+      "level": "a2"
+    },
+    {
+      "en": "file",
+      "target": "o ficheiro",
+      "level": "a2"
+    },
+    {
+      "en": "document",
+      "target": "o documento",
+      "level": "a2"
+    },
+    {
+      "en": "email",
+      "target": "o e-mail",
+      "level": "a1"
+    },
+    {
+      "en": "message",
+      "target": "a mensagem",
+      "level": "a1"
+    },
+    {
+      "en": "calendar",
+      "target": "o calendário",
+      "level": "a1"
+    },
+    {
+      "en": "classroom / class",
+      "target": "a sala de aula / a turma",
+      "level": "a1"
+    },
+    {
+      "en": "lesson",
+      "target": "a aula",
+      "level": "a1"
+    },
+    {
+      "en": "student",
+      "target": "o/a estudante / o aluno",
+      "level": "a1"
+    },
+    {
+      "en": "teacher",
+      "target": "o professor / a professora",
+      "level": "a1"
+    },
+    {
+      "en": "book",
+      "target": "o livro",
+      "level": "a1"
+    },
+    {
+      "en": "notebook",
+      "target": "o caderno",
+      "level": "a1"
+    },
+    {
+      "en": "pen",
+      "target": "a caneta",
+      "level": "a1"
+    },
+    {
+      "en": "pencil",
+      "target": "o lápis",
+      "level": "a1"
+    },
+    {
+      "en": "eraser",
+      "target": "a borracha",
+      "level": "a2"
+    },
+    {
+      "en": "board",
+      "target": "o quadro",
+      "level": "a2"
+    },
+    {
+      "en": "desk / table",
+      "target": "a mesa",
+      "level": "a1"
+    },
+    {
+      "en": "exam",
+      "target": "o exame",
+      "level": "a2"
+    },
+    {
+      "en": "homework",
+      "target": "o trabalho de casa",
+      "level": "a1"
+    },
+    {
+      "en": "grade / mark",
+      "target": "a nota",
+      "level": "a2"
+    },
+    {
+      "en": "course",
+      "target": "o curso",
+      "level": "a2"
+    },
+    {
+      "en": "language course",
+      "target": "o curso de línguas",
+      "level": "a2"
+    },
+    {
+      "en": "question",
+      "target": "a pergunta",
+      "level": "a1"
+    },
+    {
+      "en": "answer",
+      "target": "a resposta",
+      "level": "a1"
+    },
+    {
+      "en": "mistake",
+      "target": "o erro",
+      "level": "a2"
+    },
+    {
+      "en": "correct answer",
+      "target": "resposta certa",
+      "level": "a1"
+    },
+    {
+      "en": "wrong answer",
+      "target": "resposta errada",
+      "level": "a1"
+    },
+    {
+      "en": "successful",
+      "target": "bem-sucedido / bem-sucedida",
+      "level": "b1"
+    }
+  ]
+}

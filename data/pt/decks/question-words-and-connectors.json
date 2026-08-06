@@ -1,0 +1,275 @@
+{
+  "deck": "Question Words & Connectors",
+  "cards": [
+    {
+      "en": "who?",
+      "target": "quem?",
+      "level": "a1"
+    },
+    {
+      "en": "what?",
+      "target": "o quê?",
+      "level": "a1"
+    },
+    {
+      "en": "where?",
+      "target": "onde?",
+      "level": "a1"
+    },
+    {
+      "en": "to where?",
+      "target": "para onde?",
+      "level": "a1"
+    },
+    {
+      "en": "from where?",
+      "target": "de onde?",
+      "level": "a1"
+    },
+    {
+      "en": "when?",
+      "target": "quando?",
+      "level": "a1"
+    },
+    {
+      "en": "how?",
+      "target": "como?",
+      "level": "a1"
+    },
+    {
+      "en": "why?",
+      "target": "porquê?",
+      "level": "a1"
+    },
+    {
+      "en": "which?",
+      "target": "qual?",
+      "level": "a1"
+    },
+    {
+      "en": "which ones?",
+      "target": "quais?",
+      "level": "a1"
+    },
+    {
+      "en": "how many?",
+      "target": "quantos? / quantas?",
+      "level": "a1"
+    },
+    {
+      "en": "how much?",
+      "target": "quanto? / quanta?",
+      "level": "a1"
+    },
+    {
+      "en": "at what time?",
+      "target": "a que horas?",
+      "level": "a1"
+    },
+    {
+      "en": "whose?",
+      "target": "de quem?",
+      "level": "a1"
+    },
+    {
+      "en": "with what?",
+      "target": "com o quê?",
+      "level": "a1"
+    },
+    {
+      "en": "and",
+      "target": "e",
+      "level": "a1"
+    },
+    {
+      "en": "but",
+      "target": "mas",
+      "level": "a1"
+    },
+    {
+      "en": "or",
+      "target": "ou",
+      "level": "a1"
+    },
+    {
+      "en": "because",
+      "target": "porque",
+      "level": "a1"
+    },
+    {
+      "en": "then / after",
+      "target": "depois",
+      "level": "a1"
+    },
+    {
+      "en": "before",
+      "target": "antes",
+      "level": "a1"
+    },
+    {
+      "en": "now",
+      "target": "agora",
+      "level": "a1"
+    },
+    {
+      "en": "today",
+      "target": "hoje",
+      "level": "a1"
+    },
+    {
+      "en": "tomorrow",
+      "target": "amanhã",
+      "level": "a1"
+    },
+    {
+      "en": "yesterday",
+      "target": "ontem",
+      "level": "a1"
+    },
+    {
+      "en": "for",
+      "target": "para",
+      "level": "a1"
+    },
+    {
+      "en": "with",
+      "target": "com",
+      "level": "a1"
+    },
+    {
+      "en": "without",
+      "target": "sem",
+      "level": "a1"
+    },
+    {
+      "en": "like / as",
+      "target": "como",
+      "level": "a1"
+    },
+    {
+      "en": "until",
+      "target": "até",
+      "level": "a1"
+    },
+    {
+      "en": "only",
+      "target": "só",
+      "level": "a1"
+    },
+    {
+      "en": "very / much",
+      "target": "muito",
+      "level": "a1"
+    },
+    {
+      "en": "little / few",
+      "target": "pouco",
+      "level": "a1"
+    },
+    {
+      "en": "more",
+      "target": "mais",
+      "level": "a1"
+    },
+    {
+      "en": "less",
+      "target": "menos",
+      "level": "a1"
+    },
+    {
+      "en": "also / too",
+      "target": "também",
+      "level": "a1"
+    },
+    {
+      "en": "maybe",
+      "target": "talvez",
+      "level": "a1"
+    },
+    {
+      "en": "always",
+      "target": "sempre",
+      "level": "a1"
+    },
+    {
+      "en": "never",
+      "target": "nunca",
+      "level": "a1"
+    },
+    {
+      "en": "sometimes",
+      "target": "às vezes",
+      "level": "a1"
+    },
+    {
+      "en": "usually",
+      "target": "normalmente",
+      "level": "a1"
+    },
+    {
+      "en": "already",
+      "target": "já",
+      "level": "a1"
+    },
+    {
+      "en": "not yet",
+      "target": "ainda não",
+      "level": "a1"
+    },
+    {
+      "en": "immediately",
+      "target": "já / imediatamente",
+      "level": "a2"
+    },
+    {
+      "en": "soon",
+      "target": "em breve",
+      "level": "a1"
+    },
+    {
+      "en": "near",
+      "target": "perto",
+      "level": "a1"
+    },
+    {
+      "en": "far",
+      "target": "longe",
+      "level": "a1"
+    },
+    {
+      "en": "inside",
+      "target": "dentro",
+      "level": "a1"
+    },
+    {
+      "en": "outside",
+      "target": "fora",
+      "level": "a1"
+    },
+    {
+      "en": "above / on top",
+      "target": "em cima",
+      "level": "a1"
+    },
+    {
+      "en": "below / under",
+      "target": "em baixo",
+      "level": "a1"
+    },
+    {
+      "en": "in front",
+      "target": "à frente",
+      "level": "a1"
+    },
+    {
+      "en": "behind",
+      "target": "atrás",
+      "level": "a1"
+    },
+    {
+      "en": "next to",
+      "target": "ao lado",
+      "level": "a1"
+    }
+  ]
+}

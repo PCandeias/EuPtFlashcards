@@ -1,0 +1,206 @@
+{
+  "deck": "Time, Days & Calendar",
+  "cards": [
+    {
+      "en": "hour / clock",
+      "target": "saat",
+      "level": "a1",
+      "sense": "the time"
+    },
+    {
+      "en": "minute",
+      "target": "dakika",
+      "level": "a1"
+    },
+    {
+      "en": "second",
+      "target": "saniye",
+      "level": "a1"
+    },
+    {
+      "en": "today",
+      "target": "bugün",
+      "level": "a1"
+    },
+    {
+      "en": "tomorrow",
+      "target": "yarın",
+      "level": "a1"
+    },
+    {
+      "en": "yesterday",
+      "target": "dün",
+      "level": "a1"
+    },
+    {
+      "en": "now",
+      "target": "şimdi",
+      "level": "a1"
+    },
+    {
+      "en": "after / later",
+      "target": "sonra",
+      "level": "a1"
+    },
+    {
+      "en": "before",
+      "target": "önce",
+      "level": "a1"
+    },
+    {
+      "en": "morning",
+      "target": "sabah",
+      "level": "a1"
+    },
+    {
+      "en": "noon",
+      "target": "öğle",
+      "level": "a1"
+    },
+    {
+      "en": "evening",
+      "target": "akşam",
+      "level": "a1"
+    },
+    {
+      "en": "night",
+      "target": "gece",
+      "level": "a1"
+    },
+    {
+      "en": "day",
+      "target": "gün",
+      "level": "a1"
+    },
+    {
+      "en": "week",
+      "target": "hafta",
+      "level": "a1"
+    },
+    {
+      "en": "month / moon",
+      "target": "ay",
+      "level": "a1"
+    },
+    {
+      "en": "year",
+      "target": "yıl",
+      "level": "a1"
+    },
+    {
+      "en": "Monday",
+      "target": "Pazartesi",
+      "level": "a1"
+    },
+    {
+      "en": "Tuesday",
+      "target": "Salı",
+      "level": "a1"
+    },
+    {
+      "en": "Wednesday",
+      "target": "Çarşamba",
+      "level": "a1"
+    },
+    {
+      "en": "Thursday",
+      "target": "Perşembe",
+      "level": "a1"
+    },
+    {
+      "en": "Friday",
+      "target": "Cuma",
+      "level": "a1"
+    },
+    {
+      "en": "Saturday",
+      "target": "Cumartesi",
+      "level": "a1"
+    },
+    {
+      "en": "Sunday",
+      "target": "Pazar",
+      "level": "a1"
+    },
+    {
+      "en": "January",
+      "target": "Ocak",
+      "level": "a1"
+    },
+    {
+      "en": "February",
+      "target": "Şubat",
+      "level": "a1"
+    },
+    {
+      "en": "March",
+      "target": "Mart",
+      "level": "a1"
+    },
+    {
+      "en": "April",
+      "target": "Nisan",
+      "level": "a1"
+    },
+    {
+      "en": "May",
+      "target": "Mayıs",
+      "level": "a1"
+    },
+    {
+      "en": "June",
+      "target": "Haziran",
+      "level": "a1"
+    },
+    {
+      "en": "July",
+      "target": "Temmuz",
+      "level": "a1"
+    },
+    {
+      "en": "August",
+      "target": "Ağustos",
+      "level": "a1"
+    },
+    {
+      "en": "September",
+      "target": "Eylül",
+      "level": "a1"
+    },
+    {
+      "en": "October",
+      "target": "Ekim",
+      "level": "a1"
+    },
+    {
+      "en": "November",
+      "target": "Kasım",
+      "level": "a1"
+    },
+    {
+      "en": "December",
+      "target": "Aralık",
+      "level": "a1"
+    },
+    {
+      "en": "spring",
+      "target": "ilkbahar",
+      "level": "a1"
+    },
+    {
+      "en": "summer",
+      "target": "yaz",
+      "level": "a1"
+    },
+    {
+      "en": "autumn",
+      "target": "sonbahar",
+      "level": "a1"
+    },
+    {
+      "en": "winter",
+      "target": "kış",
+      "level": "a1"
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "deck": "Transport & Directions",
+  "cards": [
+    {
+      "en": "car",
+      "target": "o carro",
+      "level": "a1"
+    },
+    {
+      "en": "taxi",
+      "target": "o táxi",
+      "level": "a1"
+    },
+    {
+      "en": "bus",
+      "target": "o autocarro",
+      "level": "a1"
+    },
+    {
+      "en": "minibus",
+      "target": "o minibus",
+      "level": "a2"
+    },
+    {
+      "en": "metro / subway",
+      "target": "o metro",
+      "level": "a1"
+    },
+    {
+      "en": "tram",
+      "target": "o elétrico",
+      "level": "a2"
+    },
+    {
+      "en": "train",
+      "target": "o comboio",
+      "level": "a1"
+    },
+    {
+      "en": "airplane",
+      "target": "o avião",
+      "level": "a1"
+    },
+    {
+      "en": "ship",
+      "target": "o navio",
+      "level": "a2"
+    },
+    {
+      "en": "ferry",
+      "target": "o barco / o ferry",
+      "level": "a2"
+    },
+    {
+      "en": "bicycle",
+      "target": "a bicicleta",
+      "level": "a1"
+    },
+    {
+      "en": "motorcycle",
+      "target": "a mota",
+      "level": "a1"
+    },
+    {
+      "en": "pedestrian",
+      "target": "o peão",
+      "level": "a2"
+    },
+    {
+      "en": "ticket",
+      "target": "o bilhete",
+      "level": "a1"
+    },
+    {
+      "en": "one way",
+      "target": "só ida",
+      "level": "a1"
+    },
+    {
+      "en": "round trip",
+      "target": "ida e volta",
+      "level": "a2"
+    },
+    {
+      "en": "platform",
+      "target": "a plataforma / o cais",
+      "level": "a2"
+    },
+    {
+      "en": "gate",
+      "target": "a porta",
+      "level": "a1"
+    },
+    {
+      "en": "seat",
+      "target": "o lugar",
+      "level": "a1"
+    },
+    {
+      "en": "luggage",
+      "target": "a bagagem",
+      "level": "a2"
+    },
+    {
+      "en": "suitcase",
+      "target": "a mala",
+      "level": "a1"
+    },
+    {
+      "en": "passport",
+      "target": "o passaporte",
+      "level": "a1"
+    },
+    {
+      "en": "ID card",
+      "target": "o cartão de cidadão",
+      "level": "a2"
+    },
+    {
+      "en": "driver's license",
+      "target": "a carta de condução",
+      "level": "a2"
+    },
+    {
+      "en": "right",
+      "target": "direita",
+      "level": "a1"
+    },
+    {
+      "en": "left",
+      "target": "esquerda",
+      "level": "a1"
+    },
+    {
+      "en": "straight",
+      "target": "em frente",
+      "level": "a1"
+    },
+    {
+      "en": "forward",
+      "target": "para a frente",
+      "level": "a1"
+    },
+    {
+      "en": "back",
+      "target": "para trás",
+      "level": "a1"
+    },
+    {
+      "en": "opposite / across",
+      "target": "do outro lado / em frente",
+      "level": "a1"
+    },
+    {
+      "en": "in front of",
+      "target": "à frente de",
+      "level": "a1"
+    },
+    {
+      "en": "inside",
+      "target": "dentro de",
+      "level": "a1"
+    },
+    {
+      "en": "outside",
+      "target": "fora de",
+      "level": "a1"
+    },
+    {
+      "en": "turn right",
+      "target": "vire à direita",
+      "level": "a1"
+    },
+    {
+      "en": "turn left",
+      "target": "vire à esquerda",
+      "level": "a1"
+    },
+    {
+      "en": "go straight",
+      "target": "siga em frente",
+      "level": "a1"
+    },
+    {
+      "en": "stop here",
+      "target": "pare aqui",
+      "level": "a1"
+    },
+    {
+      "en": "where should I get off?",
+      "target": "onde devo sair?",
+      "level": "a1"
+    },
+    {
+      "en": "does this bus go to the center?",
+      "target": "este autocarro vai para o centro?",
+      "level": "a1"
+    },
+    {
+      "en": "how much is the ticket?",
+      "target": "quanto custa o bilhete?",
+      "level": "a1"
+    },
+    {
+      "en": "I want to go by taxi",
+      "target": "quero ir de táxi",
+      "level": "a1"
+    },
+    {
+      "en": "can I go on foot?",
+      "target": "posso ir a pé?",
+      "level": "a1"
+    },
+    {
+      "en": "how long does it take?",
+      "target": "quanto tempo demora?",
+      "level": "a1"
+    }
+  ]
+}

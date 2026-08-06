@@ -1,9 +1,17 @@
-# European Portuguese Flashcards
+# Flashcards
 
-2093 European Portuguese vocabulary cards across 31 decks, as an installable
-offline web app with spaced repetition.
+Two languages, as one installable offline web app with spaced repetition:
+
+| | | |
+|---|---|---|
+| **Português** | 2093 cards · 31 decks | European Portuguese — `autocarro`, not `ônibus` |
+| **Türkçe** | 962 cards · 24 decks | Beginner Turkish — vowel harmony, suffixes, no gender |
 
 **Live:** https://pcandeias.github.io/EuPtFlashcards/
+
+The app opens on a picker; choosing one routes to `#/pt` or `#/tr`. Neither is the
+default, and each keeps its own progress, settings and reported cards — studying
+one never disturbs the other.
 
 Add it to your iPhone home screen (Share → Add to Home Screen) and it runs
 standalone with no network.
@@ -14,23 +22,54 @@ carrying the same corrected cards. It stores its progress separately, and it is
 excluded from the service worker's navigation fallback — otherwise, once the app
 is installed, that URL would quietly serve the new app instead of the backup.
 
+## Adding a language
+
+A language is a folder under [`src/lib/languages/`](src/lib/languages/) and one
+line in its `index.ts`. Nothing else in the app holds a list of languages.
+
+```ts
+export const turkish: LanguageDef = {
+  id: 'tr', name: 'Turkish', nativeName: 'Türkçe', flag: Flag,
+  locale: 'tr-TR',
+  storagePrefix: 'eutr:v1',   // its own corner of localStorage
+  cards, decks, tenses, persons,
+  annotations: [conjugation],  // the markers offered beside a word
+  conjugate, verbOf, voice,
+}
+```
+
+The study loop, the scheduler, the card, the settings and the backup format are
+written against that interface and know nothing about either language.
+
+The flags are **drawn as SVG, not typed as emoji**: Windows ships no flag glyphs
+and renders 🇵🇹 as the letters PT in two boxes — on the one screen whose whole job
+is to be recognised at a glance.
+
 ## The card model
 
 Grammatical metadata never appears inside the word. `"you come"` is the word;
 `plural` is a badge beside it.
 
 ```json
-{ "en": "you come", "pt": "vocês vêm", "tags": ["plural"] }
-{ "en": "to be",    "pt": "ser",       "sense": "permanent / identity" }
-{ "en": "him / it", "pt": "o", "tags": ["masc", "object"], "ptTags": ["object"] }
+{ "en": "you come", "target": "vocês vêm", "tags": ["plural"] }
+{ "en": "you",      "target": "siz",       "tags": ["formal", "plural"] }
+{ "en": "to be",    "target": "ser",       "sense": "permanent / identity" }
+{ "en": "him / it", "target": "o", "tags": ["masc", "object"], "targetTags": ["object"] }
 ```
 
 | Field | Meaning |
 |---|---|
-| `en`, `pt` | The word, and only the word |
-| `tags` | Grammar badges on the **English** face. Closed vocabulary: `masc`, `masc-mixed`, `fem`, `plural`, `informal`, `formal`, `object`, `contraction` |
-| `ptTags` | Badges on the **Portuguese** face. Subset of `tags` |
+| `en`, `target` | The word, and only the word |
+| `tags` | Grammar badges on the **English** face. Closed vocabulary across languages: `masc`, `masc-mixed`, `fem`, `plural`, `informal`, `formal`, `object`, `contraction` |
+| `targetTags` | Badges on the **target-language** face. Subset of `tags` |
+| `tense` | Which tense the card is in, if any. Untensed cards are never filtered out |
+| `level` | CEFR band, internal for now |
 | `sense` | Meaning-level disambiguation shown as its own line (`permanent / identity`) |
+
+No language uses the whole tag vocabulary — Turkish has no grammatical gender, so
+`masc` and `fem` never appear on a Turkish card, and its data test asserts it. The
+wording adapts: `PL` expands to *vocês / eles* in one language and *siz / onlar* in
+the other.
 
 **Why badges appear on one side only.** English is the underspecified side —
 *"you come"* cannot tell you `tu vens` from `vocês vêm`, so the badge is what makes
@@ -124,19 +163,28 @@ outright rejection teaches nothing either. Same for a missing article, which is
 what carries a noun's gender. Cards offering alternatives (`obrigado / obrigada`)
 accept any of them.
 
+## Example sentences
+
+The `"` beside a word shows it in whole sentences, filtered by the same tense
+selection as the deck. Portuguese has 1085 of them, covering every verb and the
+adjectives; **Turkish has none yet** — the annotation system simply offers no
+marker for a language with no example data, so the Turkish cards show only the
+conjugation `?`.
+
 ## Audio
 
 **Settings → Audio** turns spoken pronunciation on or off. Off hides every speaker
 — on the card and in the example sentences alike. On, each example sentence gets
 its own speaker beside it, so you can hear the word in context rather than alone.
 
-The speaker button reads the Portuguese aloud through the Web Speech API.
+The speaker button reads the target language aloud through the Web Speech API.
 
-Voice selection is explicit rather than left to the language tag: this deck is
-deliberately European Portuguese, so a Brazilian voice would undo the point. When
-only a Brazilian voice — or none — is available, the app says so rather than
-letting the accent pass as correct. On iOS this happens more than you would like;
-Safari's voice list is unreliable and the system often chooses for you.
+Which voices will do is a property of the language. The Portuguese deck is
+deliberately European, so a Brazilian voice would undo the point and is flagged as
+the wrong variant rather than passed off as correct. Turkish has no such split:
+any Turkish voice is the right one. When nothing suitable is installed the app
+says so. On iOS this happens more than you would like; Safari's voice list is
+unreliable and the system often chooses for you.
 
 ## Statistics
 
@@ -149,11 +197,41 @@ they answer a different question: not *when is this card due* but *am I turning 
   than `0%` when there is nothing to measure.
 - A 14-day bar chart of review volume.
 
+## Grammar
+
+Each language brings its own tenses and its own verb engine, both driven by
+registries rather than hardcoded lists. The `?` beside a verb conjugates it, and
+offers only the tenses ticked in Settings — the same selection that decides which
+cards appear at all.
+
+**Portuguese** covers the present, the `estar a` continuous, the preterite, the
+imperfect, and both futures, with a table of irregulars behind them.
+
+**Turkish** needs almost no such table. The language is agglutinative and nearly
+regular: a stem takes suffixes, and the suffixes change their vowels to match the
+stem. Two rules carry it —
+
+- **vowel harmony** — a suffix vowel copies the front/back and rounded/unrounded
+  quality of the last vowel before it: `geliyor`, `alıyor`, `okuyor`, `görüyor`
+- **consonant harmony** — a `d` becomes `t` after a voiceless consonant:
+  `geldi`, but `yaptı`
+
+What is left is a short, named list: five stems that soften before a vowel
+(`git-` → `gid-`), two that change shape before `-yor` (`ye-` → `yi-`), and the
+thirteen monosyllables that take the four-way aorist (`gelir`, not `geler`).
+Nothing else is guessed at.
+
+Both engines are checked against the deck itself: every conjugated card must be a
+form the engine also produces. That check caught two real bugs in the Portuguese
+engine, and three Turkish verbs the deck used in sentences but never taught.
+
 ## Editing cards
 
-Decks live in [`data/decks/`](data/decks/), one JSON file each. Edit the file and
-the change is picked up on the next build. An unknown tag, or a `ptTags` entry not
-present in `tags`, fails the build rather than rendering half-right.
+Decks live in [`data/pt/decks/`](data/pt/decks/) and
+[`data/tr/decks/`](data/tr/decks/), one JSON file each. Edit the file and the
+change is picked up on the next build. An unknown tag, a `targetTags` entry not
+present in `tags`, or a tense belonging to the other language, fails the build
+rather than rendering half-right.
 
 ## Development
 
@@ -169,13 +247,17 @@ npm run build      # production build to dist/
 ## Layout
 
 ```
-src/lib/cards/      card model, validation, deck loading
+src/lib/languages/  one folder per language, plus the registry
+src/lib/grammar/    the shapes a language describes its grammar in
+src/lib/cards/      card model, validation, CEFR levels, deck loading
 src/lib/study/      SM-2, session queue, typed-answer checking, history
 src/lib/speech/     voice selection for pronunciation
 src/lib/storage/    persistence, legacy migration, backup
+src/lib/annotations/  the markers beside a word, and the panels behind them
 src/lib/render/     tag to badge mapping
+src/lib/router.ts   which language is showing
 src/components/     Svelte components
-data/decks/         the cards
+data/pt/, data/tr/  the cards
 tests/              unit tests; tests/e2e for browser tests
 ```
 
@@ -197,7 +279,11 @@ wrong even if the card is later edited or removed. Reports travel with a backup.
 
 ## Study progress
 
-Progress is kept in `localStorage` under the `eupt:v4:` prefix.
+Progress is kept in `localStorage`, namespaced per language: `eupt:v4:` for
+Portuguese — the keys it has always written, so existing history survived the
+change untouched — and `eutr:v1:` for Turkish. A backup records which language it
+came from, and restoring one into the other is refused rather than merged into a
+deck it has nothing to do with.
 
 **Back it up.** iOS clears script-writable storage after 7 days without
 interaction. An installed home-screen app is exempt while you keep using it, but a

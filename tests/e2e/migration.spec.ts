@@ -18,7 +18,7 @@ const V4_PROGRESS = 'eupt:v4:progress'
 const V4_MIGRATED = 'eupt:v4:migrated'
 
 test('carries progress across from the original single-file app', async ({ page }) => {
-  await page.goto('./')
+  await page.goto('./#/pt')
 
   // Seed what a returning user's browser actually holds: a mix of pre-badge (v1)
   // ids, current (v2) ids, and one entry for a card that no longer exists.
@@ -63,7 +63,7 @@ test('carries progress across from the original single-file app', async ({ page 
 })
 
 test('runs only once and does not re-migrate over newer progress', async ({ page }) => {
-  await page.goto('./')
+  await page.goto('./#/pt')
   await page.evaluate(([progressKey]) => {
     localStorage.clear()
     localStorage.setItem(progressKey!, JSON.stringify({
@@ -85,7 +85,7 @@ test('runs only once and does not re-migrate over newer progress', async ({ page
 })
 
 test('upgrades progress written by the previous fixed-delay version', async ({ page }) => {
-  await page.goto('./')
+  await page.goto('./#/pt')
   await page.evaluate(([v3]) => {
     localStorage.clear()
     localStorage.setItem(v3!, JSON.stringify({
@@ -104,7 +104,7 @@ test('upgrades progress written by the previous fixed-delay version', async ({ p
 })
 
 test('leaves unreadable legacy data alone rather than destroying it', async ({ page }) => {
-  await page.goto('./')
+  await page.goto('./#/pt')
   await page.evaluate(([progressKey]) => {
     localStorage.clear()
     localStorage.setItem(progressKey!, '{ this was corrupted somehow')
@@ -120,7 +120,7 @@ test('leaves unreadable legacy data alone rather than destroying it', async ({ p
 })
 
 test('exports a backup that can be imported back', async ({ page }) => {
-  await page.goto('./')
+  await page.goto('./#/pt')
   await page.evaluate(() => localStorage.clear())
   await page.reload()
 

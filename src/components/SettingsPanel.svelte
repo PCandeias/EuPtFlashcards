@@ -3,14 +3,16 @@
   import ReportedList from './ReportedList.svelte'
   import type { Reports } from '../lib/storage/reports.js'
   import type { Settings } from '../lib/storage/progress.js'
-  import type { TenseId } from '../lib/verbs/tenses.js'
+  import type { TenseId } from '../lib/grammar/tenses.js'
+  import type { LanguageDef } from '../lib/languages/types.js'
 
   let {
-    open, settings, reports, onchange, onclose, onexport, onimport,
+    open, settings, language, reports, onchange, onclose, onexport, onimport,
     onrestorereport, onexportreports,
   }: {
     open: boolean
     settings: Settings
+    language: LanguageDef
     reports: Reports
     onchange: (next: Partial<Settings>) => void
     onclose: () => void
@@ -72,15 +74,17 @@
         <span>Offer spoken pronunciation</span>
       </label>
       <p class="note">
-        Adds a speaker to the Portuguese side of a card and to each example
-        sentence. Off hides them entirely. On iOS the voice is largely the
-        system's choice, and the app says so when it is not European Portuguese.
+        Adds a speaker to the {language.shortName} side of a card, and to each
+        example sentence where there are any. Off hides them entirely. On iOS the
+        voice is largely the system's choice, and the app says so when what it
+        found is not what this deck wants.
       </p>
     </section>
 
     <section>
       <h3>Tenses</h3>
       <TenseSettings
+        tenses={language.tenses}
         selected={settings.tenses}
         onchange={(tenses: TenseId[]) => onchange({ tenses })}
       />

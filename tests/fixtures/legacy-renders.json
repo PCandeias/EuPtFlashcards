@@ -2,7 +2,7 @@
   {
     "deck": "Class",
     "en": "you come",
-    "pt": "vocês vêm",
+    "target": "vocês vêm",
     "frontWord": "you come",
     "frontBadges": [
       "PL"
@@ -17,7 +17,7 @@
   {
     "deck": "Class",
     "en": "you can",
-    "pt": "vocês podem",
+    "target": "vocês podem",
     "frontWord": "you can",
     "frontBadges": [
       "PL"
@@ -32,7 +32,7 @@
   {
     "deck": "Class",
     "en": "him / it",
-    "pt": "o",
+    "target": "o",
     "frontWord": "him / it",
     "frontBadges": [
       "M",
@@ -51,7 +51,7 @@
   {
     "deck": "Common Verbs",
     "en": "to be",
-    "pt": "ser",
+    "target": "ser",
     "frontWord": "to be",
     "frontBadges": [],
     "frontBadgeTitles": [],
@@ -62,7 +62,7 @@
   {
     "deck": "Greetings & Polite Expressions",
     "en": "thank you",
-    "pt": "obrigado",
+    "target": "obrigado",
     "frontWord": "thank you",
     "frontBadges": [],
     "frontBadgeTitles": [],
@@ -73,7 +73,7 @@
   {
     "deck": "Pronouns & Basic Words",
     "en": "friend",
-    "pt": "o amigo",
+    "target": "o amigo",
     "frontWord": "friend",
     "frontBadges": [
       "M"
@@ -88,7 +88,7 @@
   {
     "deck": "Pronouns & Basic Words",
     "en": "your",
-    "pt": "teu",
+    "target": "teu",
     "frontWord": "your",
     "frontBadges": [
       "M",
@@ -105,7 +105,7 @@
   {
     "deck": "Class",
     "en": "all",
-    "pt": "todos",
+    "target": "todos",
     "frontWord": "all",
     "frontBadges": [
       "M",
@@ -122,7 +122,7 @@
   {
     "deck": "Greetings & Polite Expressions",
     "en": "how are you?",
-    "pt": "como estás?",
+    "target": "como estás?",
     "frontWord": "how are you?",
     "frontBadges": [
       "INF"
@@ -137,7 +137,7 @@
   {
     "deck": "Pronouns & Basic Words",
     "en": "they",
-    "pt": "eles",
+    "target": "eles",
     "frontWord": "they",
     "frontBadges": [
       "M+"
@@ -152,7 +152,7 @@
   {
     "deck": "Class",
     "en": "in / at / on",
-    "pt": "no",
+    "target": "no",
     "frontWord": "in / at / on",
     "frontBadges": [
       "M",
@@ -171,7 +171,7 @@
   {
     "deck": "Adjectives & Opposites",
     "en": "light",
-    "pt": "leve",
+    "target": "leve",
     "frontWord": "light",
     "frontBadges": [],
     "frontBadgeTitles": [],

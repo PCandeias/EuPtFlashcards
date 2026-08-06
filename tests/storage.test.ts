@@ -1,14 +1,19 @@
 import { describe, it, expect, beforeEach } from 'vitest'
 import {
   LEGACY_KEYS, V3_KEYS, KEYS, loadProgress, saveProgress, loadSettings, saveSettings,
-  DEFAULT_SETTINGS, type StorageLike,
+  defaultSettings, type StorageLike,
 } from '../src/lib/storage/progress.js'
+import { PT_TENSES } from '../src/lib/languages/pt/tenses.js'
+
+/** The Portuguese language, reduced to what storage actually needs of it. */
+const PT = { id: 'pt' as const, name: 'European Portuguese', tenses: PT_TENSES }
+const DEFAULT_SETTINGS = defaultSettings(PT)
 import {
   remapIds, seedFromFixedDelay, runMigration, migrateTenseScope,
 } from '../src/lib/storage/migrate.js'
 import { buildBackup, parseBackup, mergeProgress } from '../src/lib/storage/backup.js'
 import { newState } from '../src/lib/study/sm2.js'
-import { TENSE_IDS } from '../src/lib/verbs/tenses.js'
+import { PT_TENSE_IDS as TENSE_IDS } from '../src/lib/languages/pt/tenses.js'
 import type { Card } from '../src/lib/cards/schema.js'
 import type { Progress } from '../src/lib/study/scheduler.js'
 
@@ -22,12 +27,12 @@ class FakeStorage implements StorageLike {
 // Mirrors the real corpus closely enough to exercise every migration branch,
 // including the duplicate deck+pt pair that must never be guessed at.
 const CARDS: Card[] = [
-  { deck: 'Class', en: 'you come', pt: 'vocês vêm', tags: ['plural'] },
-  { deck: 'Class', en: 'you come', pt: 'tu vens', tags: ['informal'] },
-  { deck: 'Class', en: 'friend', pt: 'o amigo', tags: ['masc'] },
-  { deck: 'Greetings', en: 'hello', pt: 'olá' },
-  { deck: 'Class', en: 'they', pt: 'eles', tags: ['masc-mixed'] },
-  { deck: 'Class', en: 'they masculine', pt: 'eles' },
+  { deck: 'Class', en: 'you come', target: 'vocês vêm', tags: ['plural'] },
+  { deck: 'Class', en: 'you come', target: 'tu vens', tags: ['informal'] },
+  { deck: 'Class', en: 'friend', target: 'o amigo', tags: ['masc'] },
+  { deck: 'Greetings', en: 'hello', target: 'olá' },
+  { deck: 'Class', en: 'they', target: 'eles', tags: ['masc-mixed'] },
+  { deck: 'Class', en: 'they masculine', target: 'eles' },
 ]
 
 let store: FakeStorage
@@ -99,9 +104,9 @@ describe('runMigration', () => {
     store.setItem(LEGACY_KEYS.progress, JSON.stringify({
       'Class::you plural come::vocês vêm': { knownCount: 3, nextDue: 1 },
     }))
-    const result = runMigration(store, CARDS)
+    const result = runMigration(store, CARDS, PT)
     expect(result?.migrated).toBe(1)
-    const migrated = loadProgress(store)['Class::you come::vocês vêm']
+    const migrated = loadProgress(store, KEYS)['Class::you come::vocês vêm']
     expect(migrated).toMatchObject({ reps: 0, ease: 2.5, due: 1, reviews: 3 })
   })
 
@@ -109,9 +114,9 @@ describe('runMigration', () => {
     store.setItem(V3_KEYS.progress, JSON.stringify({
       'Greetings::hello::olá': { knownCount: 9, nextDue: 42 },
     }))
-    const result = runMigration(store, CARDS)
+    const result = runMigration(store, CARDS, PT)
     expect(result?.carried).toBe(1)
-    expect(loadProgress(store)['Greetings::hello::olá']).toMatchObject({ due: 42, reviews: 9 })
+    expect(loadProgress(store, KEYS)['Greetings::hello::olá']).toMatchObject({ due: 42, reviews: 9 })
   })
 
   it('prefers v3 over legacy when both exist', () => {
@@ -121,32 +126,32 @@ describe('runMigration', () => {
     store.setItem(V3_KEYS.progress, JSON.stringify({
       'Greetings::hello::olá': { knownCount: 99, nextDue: 2 },
     }))
-    runMigration(store, CARDS)
-    expect(loadProgress(store)['Greetings::hello::olá']!.reviews).toBe(99)
+    runMigration(store, CARDS, PT)
+    expect(loadProgress(store, KEYS)['Greetings::hello::olá']!.reviews).toBe(99)
   })
 
   it('runs only once', () => {
     store.setItem(LEGACY_KEYS.progress, JSON.stringify({
       'Greetings::hello::olá': { knownCount: 9, nextDue: null },
     }))
-    expect(runMigration(store, CARDS)).not.toBeNull()
-    expect(runMigration(store, CARDS)).toBeNull()
+    expect(runMigration(store, CARDS, PT)).not.toBeNull()
+    expect(runMigration(store, CARDS, PT)).toBeNull()
   })
 
   it('is idempotent — a second run cannot change the result', () => {
     store.setItem(LEGACY_KEYS.progress, JSON.stringify({
       'Class::you plural come::vocês vêm': { knownCount: 3, nextDue: 1 },
     }))
-    runMigration(store, CARDS)
+    runMigration(store, CARDS, PT)
     const first = store.getItem(KEYS.progress)
-    runMigration(store, CARDS)
+    runMigration(store, CARDS, PT)
     expect(store.getItem(KEYS.progress)).toBe(first)
   })
 
   // Losing months of study history to a parse error would be unforgivable.
   it('preserves unreadable data instead of destroying it', () => {
     store.setItem(LEGACY_KEYS.progress, '{ this is not json')
-    const result = runMigration(store, CARDS)
+    const result = runMigration(store, CARDS, PT)
     expect(result?.failed).toBe(true)
     expect(store.getItem(LEGACY_KEYS.progress)).toBe('{ this is not json')
     expect(store.getItem(KEYS.progress)).toBeNull()
@@ -155,54 +160,54 @@ describe('runMigration', () => {
   it('leaves the earlier keys intact after a successful migration', () => {
     const raw = JSON.stringify({ 'Greetings::hello::olá': { knownCount: 9, nextDue: null } })
     store.setItem(LEGACY_KEYS.progress, raw)
-    runMigration(store, CARDS)
+    runMigration(store, CARDS, PT)
     expect(store.getItem(LEGACY_KEYS.progress)).toBe(raw)
   })
 
   it('carries legacy settings across', () => {
     store.setItem(LEGACY_KEYS.deck, 'Class')
     store.setItem(LEGACY_KEYS.direction, 'b-a')
-    runMigration(store, CARDS)
-    expect(loadSettings(store)).toMatchObject({ deck: 'Class', direction: 'b-a' })
+    runMigration(store, CARDS, PT)
+    expect(loadSettings(store, KEYS, PT)).toMatchObject({ deck: 'Class', direction: 'b-a' })
   })
 
   it('stamps the flag even with nothing to migrate, so it never reruns', () => {
-    expect(runMigration(store, CARDS)).toBeNull()
+    expect(runMigration(store, CARDS, PT)).toBeNull()
     expect(store.getItem(KEYS.migrated)).toBeTruthy()
   })
 })
 
 describe('loadProgress', () => {
   it('returns empty progress when nothing is stored', () => {
-    expect(loadProgress(store)).toEqual({})
+    expect(loadProgress(store, KEYS)).toEqual({})
   })
 
   it('falls back to empty on corrupt data without erasing it', () => {
     store.setItem(KEYS.progress, 'not json')
-    expect(loadProgress(store)).toEqual({})
+    expect(loadProgress(store, KEYS)).toEqual({})
     expect(store.getItem(KEYS.progress)).toBe('not json')
   })
 
   it('rejects entries that are not review states', () => {
     store.setItem(KEYS.progress, JSON.stringify({ a: { knownCount: 2, nextDue: 1 } }))
-    expect(loadProgress(store)).toEqual({})
+    expect(loadProgress(store, KEYS)).toEqual({})
   })
 
   it('round-trips through save', () => {
     const p: Progress = { 'D::a::b': { ...newState(), interval: 6, reps: 2, reviews: 3 } }
-    saveProgress(store, p)
-    expect(loadProgress(store)).toEqual(p)
+    saveProgress(store, KEYS, p)
+    expect(loadProgress(store, KEYS)).toEqual(p)
   })
 })
 
 describe('settings', () => {
   it('defaults when absent', () => {
-    expect(loadSettings(store)).toEqual(DEFAULT_SETTINGS)
+    expect(loadSettings(store, KEYS, PT)).toEqual(DEFAULT_SETTINGS)
   })
 
   it('rejects an unknown direction', () => {
     store.setItem(KEYS.settings, JSON.stringify({ deck: 'All', direction: 'sideways' }))
-    expect(loadSettings(store).direction).toBe(DEFAULT_SETTINGS.direction)
+    expect(loadSettings(store, KEYS, PT).direction).toBe(DEFAULT_SETTINGS.direction)
   })
 
   it('round-trips', () => {
@@ -210,14 +215,14 @@ describe('settings', () => {
       deck: 'Numbers', direction: 'b-a' as const, theme: 'azulejo' as const,
       tenses: ['presente' as const, 'futuro' as const], speech: true,
     }
-    saveSettings(store, settings)
-    expect(loadSettings(store)).toEqual(settings)
+    saveSettings(store, KEYS, PT, settings)
+    expect(loadSettings(store, KEYS, PT)).toEqual(settings)
   })
 
   // The selection also decides which cards appear, so anything less than all of
   // them would hide part of the deck before the user asked for that.
   it('defaults to every tense', () => {
-    expect(loadSettings(store).tenses).toEqual([...TENSE_IDS])
+    expect(loadSettings(store, KEYS, PT).tenses).toEqual([...TENSE_IDS])
   })
 
   // A tense could be renamed or dropped in a later version; the rest must survive.
@@ -226,7 +231,7 @@ describe('settings', () => {
       deck: 'All', direction: 'a-b', theme: 'slate',
       tenses: ['presente', 'mais-que-perfeito', 'futuro'],
     }))
-    expect(loadSettings(store).tenses).toEqual(['presente', 'futuro'])
+    expect(loadSettings(store, KEYS, PT).tenses).toEqual(['presente', 'futuro'])
   })
 
   it('keeps tenses in registry order however they were stored', () => {
@@ -234,14 +239,14 @@ describe('settings', () => {
       deck: 'All', direction: 'a-b', theme: 'slate',
       tenses: ['futuro', 'presente'],
     }))
-    expect(loadSettings(store).tenses).toEqual(['presente', 'futuro'])
+    expect(loadSettings(store, KEYS, PT).tenses).toEqual(['presente', 'futuro'])
   })
 
   it('deduplicates', () => {
     store.setItem(KEYS.settings, JSON.stringify({
       deck: 'All', direction: 'a-b', theme: 'slate', tenses: ['presente', 'presente'],
     }))
-    expect(loadSettings(store).tenses).toEqual(['presente'])
+    expect(loadSettings(store, KEYS, PT).tenses).toEqual(['presente'])
   })
 
   // Turning every tense off is a legitimate way to switch the feature off.
@@ -249,16 +254,16 @@ describe('settings', () => {
     store.setItem(KEYS.settings, JSON.stringify({
       deck: 'All', direction: 'a-b', theme: 'slate', tenses: [],
     }))
-    expect(loadSettings(store).tenses).toEqual([])
+    expect(loadSettings(store, KEYS, PT).tenses).toEqual([])
   })
 
   it('defaults to the original palette', () => {
-    expect(loadSettings(store).theme).toBe('slate')
+    expect(loadSettings(store, KEYS, PT).theme).toBe('slate')
   })
 
   it('rejects an unknown theme rather than writing it into the document', () => {
     store.setItem(KEYS.settings, JSON.stringify({ deck: 'All', direction: 'a-b', theme: 'neon' }))
-    expect(loadSettings(store).theme).toBe('slate')
+    expect(loadSettings(store, KEYS, PT).theme).toBe('slate')
   })
 })
 
@@ -270,24 +275,24 @@ describe('backup', () => {
   }
 
   it('round-trips', () => {
-    const file = buildBackup(progress, settings, '2026-08-06T00:00:00.000Z')
-    const parsed = parseBackup(JSON.stringify(file))
+    const file = buildBackup(PT, progress, settings, '2026-08-06T00:00:00.000Z')
+    const parsed = parseBackup(JSON.stringify(file), PT)
     expect(parsed.progress).toEqual(progress)
     expect(parsed.settings).toEqual(settings)
   })
 
   it('rejects a file from another app', () => {
-    expect(() => parseBackup(JSON.stringify({ app: 'anki', version: 1, progress: {} })))
+    expect(() => parseBackup(JSON.stringify({ app: 'anki', version: 1, progress: {} }), PT))
       .toThrow(/not a .* backup/i)
   })
 
   it('rejects malformed JSON with a readable message', () => {
-    expect(() => parseBackup('{{{')).toThrow(/could not be read/i)
+    expect(() => parseBackup('{{{', PT)).toThrow(/could not be read/i)
   })
 
   it('rejects progress entries of the wrong shape', () => {
     const bad = { app: 'eu-pt-flashcards', version: 2, exportedAt: 'x', progress: { k: 5 } }
-    expect(() => parseBackup(JSON.stringify(bad))).toThrow(/progress/i)
+    expect(() => parseBackup(JSON.stringify(bad), PT)).toThrow(/progress/i)
   })
 })
 
@@ -309,49 +314,49 @@ describe('migrateTenseScope', () => {
   // also decides which cards appear, so an old narrow selection would quietly
   // remove every card in the tenses it left out.
   it('widens a selection made when the setting meant less', () => {
-    saveSettings(store, {
+    saveSettings(store, KEYS, PT, {
       deck: 'All', direction: 'a-b', theme: 'slate', tenses: ['presente'], speech: true,
     })
-    expect(migrateTenseScope(store)).toBe(true)
-    expect(loadSettings(store).tenses).toEqual([...TENSE_IDS])
+    expect(migrateTenseScope(store, PT)).toBe(true)
+    expect(loadSettings(store, KEYS, PT).tenses).toEqual([...TENSE_IDS])
   })
 
   it('runs only once, so a later narrowing sticks', () => {
-    saveSettings(store, {
+    saveSettings(store, KEYS, PT, {
       deck: 'All', direction: 'a-b', theme: 'slate', tenses: ['presente'], speech: true,
     })
-    migrateTenseScope(store)
+    migrateTenseScope(store, PT)
 
-    saveSettings(store, {
+    saveSettings(store, KEYS, PT, {
       deck: 'All', direction: 'a-b', theme: 'slate', tenses: ['presente'], speech: true,
     })
-    expect(migrateTenseScope(store)).toBe(false)
-    expect(loadSettings(store).tenses).toEqual(['presente'])
+    expect(migrateTenseScope(store, PT)).toBe(false)
+    expect(loadSettings(store, KEYS, PT).tenses).toEqual(['presente'])
   })
 
   it('leaves a new user alone — they already get the full default', () => {
-    expect(migrateTenseScope(store)).toBe(false)
+    expect(migrateTenseScope(store, PT)).toBe(false)
     expect(store.getItem(KEYS.settings)).toBeNull()
   })
 
   it('does nothing when every tense was already selected', () => {
-    saveSettings(store, {
+    saveSettings(store, KEYS, PT, {
       deck: 'All', direction: 'a-b', theme: 'slate', tenses: [...TENSE_IDS], speech: true,
     })
-    expect(migrateTenseScope(store)).toBe(false)
+    expect(migrateTenseScope(store, PT)).toBe(false)
   })
 })
 
 describe('the speech setting', () => {
   it('is on by default', () => {
-    expect(loadSettings(store).speech).toBe(true)
+    expect(loadSettings(store, KEYS, PT).speech).toBe(true)
   })
 
   it('round-trips when switched off', () => {
-    saveSettings(store, {
+    saveSettings(store, KEYS, PT, {
       deck: 'All', direction: 'a-b', theme: 'slate', tenses: [], speech: false,
     })
-    expect(loadSettings(store).speech).toBe(false)
+    expect(loadSettings(store, KEYS, PT).speech).toBe(false)
   })
 
   // A stored setting from before this existed must not read as "off".
@@ -359,13 +364,13 @@ describe('the speech setting', () => {
     store.setItem(KEYS.settings, JSON.stringify({
       deck: 'All', direction: 'a-b', theme: 'slate', tenses: ['presente'],
     }))
-    expect(loadSettings(store).speech).toBe(true)
+    expect(loadSettings(store, KEYS, PT).speech).toBe(true)
   })
 
   it('ignores a value that is not a boolean', () => {
     store.setItem(KEYS.settings, JSON.stringify({
       deck: 'All', direction: 'a-b', theme: 'slate', tenses: [], speech: 'yes',
     }))
-    expect(loadSettings(store).speech).toBe(true)
+    expect(loadSettings(store, KEYS, PT).speech).toBe(true)
   })
 })

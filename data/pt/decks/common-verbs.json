@@ -1,0 +1,357 @@
+{
+  "deck": "Common Verbs",
+  "cards": [
+    {
+      "en": "to be",
+      "target": "ser",
+      "sense": "permanent / identity",
+      "level": "a1"
+    },
+    {
+      "en": "to be",
+      "target": "estar",
+      "sense": "temporary / location",
+      "level": "a1"
+    },
+    {
+      "en": "to have",
+      "target": "ter",
+      "level": "a1"
+    },
+    {
+      "en": "to do / make",
+      "target": "fazer",
+      "level": "a1"
+    },
+    {
+      "en": "to go",
+      "target": "ir",
+      "level": "a1"
+    },
+    {
+      "en": "to come",
+      "target": "vir",
+      "level": "a1"
+    },
+    {
+      "en": "to take / catch / pick up",
+      "target": "apanhar",
+      "level": "a2"
+    },
+    {
+      "en": "to take / drink",
+      "target": "tomar",
+      "level": "a1"
+    },
+    {
+      "en": "to give",
+      "target": "dar",
+      "level": "a1"
+    },
+    {
+      "en": "to see",
+      "target": "ver",
+      "level": "a1"
+    },
+    {
+      "en": "to look",
+      "target": "olhar",
+      "level": "a1"
+    },
+    {
+      "en": "to hear",
+      "target": "ouvir",
+      "level": "a1"
+    },
+    {
+      "en": "to listen",
+      "target": "ouvir / escutar",
+      "level": "a1"
+    },
+    {
+      "en": "to say / tell",
+      "target": "dizer",
+      "level": "a1"
+    },
+    {
+      "en": "to speak",
+      "target": "falar",
+      "level": "a1"
+    },
+    {
+      "en": "to know a fact",
+      "target": "saber",
+      "level": "a1"
+    },
+    {
+      "en": "to know a person/place",
+      "target": "conhecer",
+      "level": "a1"
+    },
+    {
+      "en": "to understand",
+      "target": "perceber",
+      "level": "a1"
+    },
+    {
+      "en": "to learn",
+      "target": "aprender",
+      "level": "a1"
+    },
+    {
+      "en": "to teach",
+      "target": "ensinar",
+      "level": "a2"
+    },
+    {
+      "en": "to read",
+      "target": "ler",
+      "level": "a1"
+    },
+    {
+      "en": "to write",
+      "target": "escrever",
+      "level": "a1"
+    },
+    {
+      "en": "to work",
+      "target": "trabalhar",
+      "level": "a1"
+    },
+    {
+      "en": "to study",
+      "target": "estudar",
+      "level": "a1"
+    },
+    {
+      "en": "to open",
+      "target": "abrir",
+      "level": "a1"
+    },
+    {
+      "en": "to close",
+      "target": "fechar",
+      "level": "a1"
+    },
+    {
+      "en": "to start",
+      "target": "começar",
+      "level": "a1"
+    },
+    {
+      "en": "to finish",
+      "target": "acabar",
+      "level": "a1"
+    },
+    {
+      "en": "to wait",
+      "target": "esperar",
+      "level": "a1"
+    },
+    {
+      "en": "to want",
+      "target": "querer",
+      "level": "a1"
+    },
+    {
+      "en": "to like",
+      "target": "gostar de",
+      "level": "a1"
+    },
+    {
+      "en": "to love",
+      "target": "adorar / amar",
+      "level": "a1"
+    },
+    {
+      "en": "to need",
+      "target": "precisar de",
+      "level": "a1"
+    },
+    {
+      "en": "to eat",
+      "target": "comer",
+      "level": "a1"
+    },
+    {
+      "en": "to drink",
+      "target": "beber",
+      "level": "a1"
+    },
+    {
+      "en": "to cook",
+      "target": "cozinhar",
+      "level": "a1"
+    },
+    {
+      "en": "to sleep",
+      "target": "dormir",
+      "level": "a1"
+    },
+    {
+      "en": "to wake up",
+      "target": "acordar",
+      "level": "a1"
+    },
+    {
+      "en": "to sit",
+      "target": "sentar-se",
+      "level": "a1"
+    },
+    {
+      "en": "to get up",
+      "target": "levantar-se",
+      "level": "a1"
+    },
+    {
+      "en": "to walk",
+      "target": "andar / caminhar",
+      "level": "a1"
+    },
+    {
+      "en": "to run",
+      "target": "correr",
+      "level": "a2"
+    },
+    {
+      "en": "to stop",
+      "target": "parar",
+      "level": "a1"
+    },
+    {
+      "en": "to turn",
+      "target": "virar",
+      "level": "a1"
+    },
+    {
+      "en": "to get on",
+      "target": "entrar / subir",
+      "level": "a2"
+    },
+    {
+      "en": "to get off",
+      "target": "sair / descer",
+      "level": "a2"
+    },
+    {
+      "en": "to drive",
+      "target": "conduzir",
+      "level": "a1"
+    },
+    {
+      "en": "to use",
+      "target": "usar / utilizar",
+      "level": "a1"
+    },
+    {
+      "en": "to call",
+      "target": "telefonar / chamar",
+      "level": "a1"
+    },
+    {
+      "en": "to search for",
+      "target": "procurar",
+      "level": "a2"
+    },
+    {
+      "en": "to find",
+      "target": "encontrar",
+      "level": "a1"
+    },
+    {
+      "en": "to lose",
+      "target": "perder",
+      "level": "a2"
+    },
+    {
+      "en": "to forget",
+      "target": "esquecer-se",
+      "level": "a2"
+    },
+    {
+      "en": "to remember",
+      "target": "lembrar-se",
+      "level": "a2"
+    },
+    {
+      "en": "to ask",
+      "target": "perguntar",
+      "level": "a1"
+    },
+    {
+      "en": "to answer",
+      "target": "responder",
+      "level": "a1"
+    },
+    {
+      "en": "to help",
+      "target": "ajudar",
+      "level": "a1"
+    },
+    {
+      "en": "to live",
+      "target": "viver / morar",
+      "level": "a1"
+    },
+    {
+      "en": "to laugh",
+      "target": "rir",
+      "level": "a2"
+    },
+    {
+      "en": "to cry",
+      "target": "chorar",
+      "level": "a2"
+    },
+    {
+      "en": "to think",
+      "target": "pensar",
+      "level": "a1"
+    },
+    {
+      "en": "to feel",
+      "target": "sentir",
+      "level": "a2"
+    },
+    {
+      "en": "to believe",
+      "target": "acreditar",
+      "level": "a2"
+    },
+    {
+      "en": "to bring",
+      "target": "trazer",
+      "level": "a1"
+    },
+    {
+      "en": "to take away",
+      "target": "levar",
+      "level": "a2"
+    },
+    {
+      "en": "to put",
+      "target": "pôr / colocar",
+      "level": "a1"
+    },
+    {
+      "en": "to remove / take out",
+      "target": "tirar",
+      "level": "a1"
+    },
+    {
+      "en": "to clean",
+      "target": "limpar",
+      "level": "a1"
+    },
+    {
+      "en": "to wash",
+      "target": "lavar",
+      "level": "a1"
+    },
+    {
+      "en": "to save",
+      "target": "guardar",
+      "level": "a2"
+    }
+  ]
+}

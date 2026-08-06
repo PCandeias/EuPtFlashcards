@@ -1,0 +1,378 @@
+{
+  "deck": "Near Future (Ir + Infinitive)",
+  "cards": [
+    {
+      "en": "I am going to be",
+      "target": "eu vou ser",
+      "tense": "futuroProximo",
+      "sense": "permanent / identity",
+      "level": "a1"
+    },
+    {
+      "en": "you are going to be",
+      "target": "tu vais ser",
+      "tense": "futuroProximo",
+      "tags": [
+        "informal"
+      ],
+      "sense": "permanent / identity",
+      "level": "a1"
+    },
+    {
+      "en": "he / she is going to be",
+      "target": "ele / ela vai ser",
+      "tense": "futuroProximo",
+      "sense": "permanent / identity",
+      "level": "a1"
+    },
+    {
+      "en": "we are going to be",
+      "target": "nós vamos ser",
+      "tense": "futuroProximo",
+      "sense": "permanent / identity",
+      "level": "a1"
+    },
+    {
+      "en": "they are going to be",
+      "target": "eles / elas vão ser",
+      "tense": "futuroProximo",
+      "sense": "permanent / identity",
+      "level": "a1"
+    },
+    {
+      "en": "I am going to be",
+      "target": "eu vou estar",
+      "tense": "futuroProximo",
+      "sense": "temporary / location",
+      "level": "a1"
+    },
+    {
+      "en": "you are going to be",
+      "target": "tu vais estar",
+      "tense": "futuroProximo",
+      "tags": [
+        "informal"
+      ],
+      "sense": "temporary / location",
+      "level": "a1"
+    },
+    {
+      "en": "he / she is going to be",
+      "target": "ele / ela vai estar",
+      "tense": "futuroProximo",
+      "sense": "temporary / location",
+      "level": "a1"
+    },
+    {
+      "en": "we are going to be",
+      "target": "nós vamos estar",
+      "tense": "futuroProximo",
+      "sense": "temporary / location",
+      "level": "a1"
+    },
+    {
+      "en": "they are going to be",
+      "target": "eles / elas vão estar",
+      "tense": "futuroProximo",
+      "sense": "temporary / location",
+      "level": "a1"
+    },
+    {
+      "en": "I am going to have",
+      "target": "eu vou ter",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "you are going to have",
+      "target": "tu vais ter",
+      "tense": "futuroProximo",
+      "tags": [
+        "informal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "he / she is going to have",
+      "target": "ele / ela vai ter",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "we are going to have",
+      "target": "nós vamos ter",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "they are going to have",
+      "target": "eles / elas vão ter",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "I am going to do",
+      "target": "eu vou fazer",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "you are going to do",
+      "target": "tu vais fazer",
+      "tense": "futuroProximo",
+      "tags": [
+        "informal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "he / she is going to do",
+      "target": "ele / ela vai fazer",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "we are going to do",
+      "target": "nós vamos fazer",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "they are going to do",
+      "target": "eles / elas vão fazer",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "I am going to eat",
+      "target": "eu vou comer",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "you are going to eat",
+      "target": "tu vais comer",
+      "tense": "futuroProximo",
+      "tags": [
+        "informal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "he / she is going to eat",
+      "target": "ele / ela vai comer",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "we are going to eat",
+      "target": "nós vamos comer",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "they are going to eat",
+      "target": "eles / elas vão comer",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "I am going to drink",
+      "target": "eu vou beber",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "you are going to drink",
+      "target": "tu vais beber",
+      "tense": "futuroProximo",
+      "tags": [
+        "informal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "he / she is going to drink",
+      "target": "ele / ela vai beber",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "we are going to drink",
+      "target": "nós vamos beber",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "they are going to drink",
+      "target": "eles / elas vão beber",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "I am going to speak",
+      "target": "eu vou falar",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "you are going to speak",
+      "target": "tu vais falar",
+      "tense": "futuroProximo",
+      "tags": [
+        "informal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "he / she is going to speak",
+      "target": "ele / ela vai falar",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "we are going to speak",
+      "target": "nós vamos falar",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "they are going to speak",
+      "target": "eles / elas vão falar",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "I am going to work",
+      "target": "eu vou trabalhar",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "you are going to work",
+      "target": "tu vais trabalhar",
+      "tense": "futuroProximo",
+      "tags": [
+        "informal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "he / she is going to work",
+      "target": "ele / ela vai trabalhar",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "we are going to work",
+      "target": "nós vamos trabalhar",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "they are going to work",
+      "target": "eles / elas vão trabalhar",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "I am going to see",
+      "target": "eu vou ver",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "you are going to see",
+      "target": "tu vais ver",
+      "tense": "futuroProximo",
+      "tags": [
+        "informal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "he / she is going to see",
+      "target": "ele / ela vai ver",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "we are going to see",
+      "target": "nós vamos ver",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "they are going to see",
+      "target": "eles / elas vão ver",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "I am going to work tomorrow",
+      "target": "vou trabalhar amanhã",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "we are going to travel",
+      "target": "vamos viajar",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "she is going to buy a house",
+      "target": "ela vai comprar uma casa",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "I am going to call you",
+      "target": "vou telefonar-te",
+      "tags": [
+        "informal"
+      ],
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "they are going to arrive soon",
+      "target": "vão chegar em breve",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "are you going to help me?",
+      "target": "vais ajudar-me?",
+      "tags": [
+        "informal"
+      ],
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "I am going to sleep",
+      "target": "vou dormir",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "we are going to have dinner",
+      "target": "vamos jantar",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "I am going to study tonight",
+      "target": "vou estudar esta noite",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "it is going to rain",
+      "target": "vai chover",
+      "tense": "futuroProximo",
+      "level": "a1"
+    }
+  ]
+}

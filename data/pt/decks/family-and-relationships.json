@@ -1,0 +1,254 @@
+{
+  "deck": "Family & Relationships",
+  "cards": [
+    {
+      "en": "mother",
+      "target": "a mãe",
+      "level": "a1"
+    },
+    {
+      "en": "father",
+      "target": "o pai",
+      "level": "a1"
+    },
+    {
+      "en": "parents",
+      "target": "os pais",
+      "level": "a1"
+    },
+    {
+      "en": "child",
+      "target": "o filho / a filha",
+      "level": "a1"
+    },
+    {
+      "en": "son",
+      "target": "o filho",
+      "level": "a1"
+    },
+    {
+      "en": "daughter",
+      "target": "a filha",
+      "level": "a1"
+    },
+    {
+      "en": "sibling",
+      "target": "o irmão / a irmã",
+      "level": "a1"
+    },
+    {
+      "en": "brother",
+      "target": "o irmão",
+      "level": "a1"
+    },
+    {
+      "en": "sister",
+      "target": "a irmã",
+      "level": "a1"
+    },
+    {
+      "en": "older brother",
+      "target": "o irmão mais velho",
+      "level": "a1"
+    },
+    {
+      "en": "older sister",
+      "target": "a irmã mais velha",
+      "level": "a1"
+    },
+    {
+      "en": "younger brother",
+      "target": "o irmão mais novo",
+      "level": "a1"
+    },
+    {
+      "en": "younger sister",
+      "target": "a irmã mais nova",
+      "level": "a1"
+    },
+    {
+      "en": "grandfather",
+      "target": "o avô",
+      "level": "a1"
+    },
+    {
+      "en": "grandmother",
+      "target": "a avó",
+      "level": "a1"
+    },
+    {
+      "en": "grandparents",
+      "target": "os avós",
+      "level": "a1"
+    },
+    {
+      "en": "grandchild",
+      "target": "o neto / a neta",
+      "level": "a2"
+    },
+    {
+      "en": "uncle",
+      "target": "o tio",
+      "level": "a1"
+    },
+    {
+      "en": "aunt",
+      "target": "a tia",
+      "level": "a1"
+    },
+    {
+      "en": "cousin",
+      "target": "o primo",
+      "tags": [
+        "masc"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "cousin",
+      "target": "a prima",
+      "tags": [
+        "fem"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "nephew",
+      "target": "o sobrinho",
+      "level": "a2"
+    },
+    {
+      "en": "niece",
+      "target": "a sobrinha",
+      "level": "a2"
+    },
+    {
+      "en": "husband",
+      "target": "o marido",
+      "level": "a1"
+    },
+    {
+      "en": "wife",
+      "target": "a mulher / a esposa",
+      "level": "a1"
+    },
+    {
+      "en": "spouse",
+      "target": "o/a cônjuge",
+      "level": "b1"
+    },
+    {
+      "en": "boyfriend",
+      "target": "o namorado",
+      "level": "a1"
+    },
+    {
+      "en": "girlfriend",
+      "target": "a namorada",
+      "level": "a1"
+    },
+    {
+      "en": "fiancé",
+      "target": "o noivo",
+      "level": "a2"
+    },
+    {
+      "en": "fiancée",
+      "target": "a noiva",
+      "level": "a2"
+    },
+    {
+      "en": "best friend",
+      "target": "o melhor amigo / a melhor amiga",
+      "level": "a1"
+    },
+    {
+      "en": "relative",
+      "target": "o/a parente",
+      "level": "a2"
+    },
+    {
+      "en": "relatives",
+      "target": "os familiares",
+      "level": "a2"
+    },
+    {
+      "en": "married",
+      "target": "casado",
+      "tags": [
+        "masc"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "married",
+      "target": "casada",
+      "tags": [
+        "fem"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "single",
+      "target": "solteiro",
+      "tags": [
+        "masc"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "single",
+      "target": "solteira",
+      "tags": [
+        "fem"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "divorced",
+      "target": "divorciado",
+      "tags": [
+        "masc"
+      ],
+      "level": "a2"
+    },
+    {
+      "en": "divorced",
+      "target": "divorciada",
+      "tags": [
+        "fem"
+      ],
+      "level": "a2"
+    },
+    {
+      "en": "widower",
+      "target": "o viúvo",
+      "level": "b1"
+    },
+    {
+      "en": "widow",
+      "target": "a viúva",
+      "level": "b1"
+    },
+    {
+      "en": "birth",
+      "target": "o nascimento",
+      "level": "a2"
+    },
+    {
+      "en": "wedding",
+      "target": "o casamento",
+      "level": "a2"
+    },
+    {
+      "en": "marriage",
+      "target": "o casamento",
+      "level": "a2"
+    },
+    {
+      "en": "couple",
+      "target": "o casal",
+      "level": "a2"
+    }
+  ]
+}

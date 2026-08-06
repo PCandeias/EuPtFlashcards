@@ -6,12 +6,14 @@
   import { cardId, type Card } from '../lib/cards/schema.js'
   import type { Direction } from '../lib/storage/progress.js'
   import type { ResolvedAnnotation } from '../lib/annotations/index.js'
+  import type { LanguageDef } from '../lib/languages/types.js'
 
   let {
-    card, direction, flipped, annotations = [], openAnnotation = null, compact = false,
-    speech = true, onflip, onswipe, onannotate, onreport,
+    card, language, direction, flipped, annotations = [], openAnnotation = null,
+    compact = false, speech = true, onflip, onswipe, onannotate, onreport,
   }: {
     card: Card
+    language: LanguageDef
     direction: Direction
     flipped: boolean
     /** Whatever the registry found to say about this card. */
@@ -28,13 +30,12 @@
     onreport?: () => void
   } = $props()
 
-  const LANG_LABEL = 'Portuguese · Portugal'
   const OTHER_LABEL = 'English'
 
-  let frontSide = $derived(direction === 'a-b' ? ('en' as const) : ('pt' as const))
-  let backSide = $derived(direction === 'a-b' ? ('pt' as const) : ('en' as const))
-  let frontLabel = $derived(direction === 'a-b' ? OTHER_LABEL : LANG_LABEL)
-  let backLabel = $derived(direction === 'a-b' ? LANG_LABEL : OTHER_LABEL)
+  let frontSide = $derived(direction === 'a-b' ? ('en' as const) : ('target' as const))
+  let backSide = $derived(direction === 'a-b' ? ('target' as const) : ('en' as const))
+  let frontLabel = $derived(direction === 'a-b' ? OTHER_LABEL : language.name)
+  let backLabel = $derived(direction === 'a-b' ? language.name : OTHER_LABEL)
 
   let faces = $derived([
     {
@@ -111,16 +112,16 @@
             <div class="label">{f.label}</div>
             <div class="word">
               {card[f.side]}
-              {#if badgesFor(card, f.side).length}
+              {#if badgesFor(card, f.side, language.badgeHints).length}
                 <span class="badges">
-                  {#each badgesFor(card, f.side) as spec (spec.tag)}
+                  {#each badgesFor(card, f.side, language.badgeHints) as spec (spec.tag)}
                     <Badge {spec} />
                   {/each}
                 </span>
               {/if}
               <!-- Annotations describe the Portuguese, so the markers sit with
                    it; the panels themselves are rendered outside the card. -->
-              {#if f.side === 'pt' && onannotate}
+              {#if f.side === 'target' && onannotate}
                 {#each annotations as annotation (annotation.kind.id)}
                   <AnnotationMarker
                     kind={annotation.kind}
@@ -134,9 +135,9 @@
             {#if hintFor(card, f.side)}
               <div class="hint">{hintFor(card, f.side)}</div>
             {/if}
-            <!-- Only the Portuguese: hearing the English back teaches nothing. -->
-            {#if speech && f.side === 'pt'}
-              <SpeakButton text={card.pt} />
+            <!-- Only the target language: hearing the English back teaches nothing. -->
+            {#if speech && f.side === 'target'}
+              <SpeakButton text={card.target} {language} />
             {/if}
             <div class="note">{f.note}</div>
           </div>

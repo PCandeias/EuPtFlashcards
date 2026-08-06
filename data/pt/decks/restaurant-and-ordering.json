@@ -1,0 +1,216 @@
+{
+  "deck": "Restaurant & Ordering",
+  "cards": [
+    {
+      "en": "restaurant",
+      "target": "o restaurante",
+      "level": "a1"
+    },
+    {
+      "en": "café",
+      "target": "o café",
+      "level": "a1"
+    },
+    {
+      "en": "menu",
+      "target": "a ementa",
+      "level": "a1"
+    },
+    {
+      "en": "bill / check",
+      "target": "a conta",
+      "level": "a1"
+    },
+    {
+      "en": "table",
+      "target": "a mesa",
+      "level": "a1"
+    },
+    {
+      "en": "chair",
+      "target": "a cadeira",
+      "level": "a1"
+    },
+    {
+      "en": "reservation",
+      "target": "a reserva",
+      "level": "a2"
+    },
+    {
+      "en": "order",
+      "target": "o pedido",
+      "level": "a1"
+    },
+    {
+      "en": "fork",
+      "target": "o garfo",
+      "level": "a1"
+    },
+    {
+      "en": "knife",
+      "target": "a faca",
+      "level": "a1"
+    },
+    {
+      "en": "spoon",
+      "target": "a colher",
+      "level": "a1"
+    },
+    {
+      "en": "plate",
+      "target": "o prato",
+      "level": "a1"
+    },
+    {
+      "en": "glass",
+      "target": "o copo",
+      "level": "a1"
+    },
+    {
+      "en": "cup",
+      "target": "a chávena",
+      "level": "a1"
+    },
+    {
+      "en": "napkin",
+      "target": "o guardanapo",
+      "level": "a1"
+    },
+    {
+      "en": "bottle",
+      "target": "a garrafa",
+      "level": "a1"
+    },
+    {
+      "en": "portion",
+      "target": "a dose",
+      "level": "a2"
+    },
+    {
+      "en": "small portion",
+      "target": "a meia dose",
+      "level": "a2"
+    },
+    {
+      "en": "large portion",
+      "target": "a dose grande",
+      "level": "a2"
+    },
+    {
+      "en": "takeaway",
+      "target": "para levar",
+      "level": "a2"
+    },
+    {
+      "en": "I will eat here",
+      "target": "vou comer aqui",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "what do you recommend?",
+      "target": "o que recomenda?",
+      "level": "a1"
+    },
+    {
+      "en": "one coffee, please",
+      "target": "um café, por favor",
+      "level": "a1"
+    },
+    {
+      "en": "one tea, please",
+      "target": "um chá, por favor",
+      "level": "a1"
+    },
+    {
+      "en": "one water, please",
+      "target": "uma água, por favor",
+      "level": "a1"
+    },
+    {
+      "en": "can I order?",
+      "target": "posso pedir?",
+      "level": "a1"
+    },
+    {
+      "en": "can I have the bill?",
+      "target": "pode trazer-me a conta?",
+      "level": "a1"
+    },
+    {
+      "en": "is service included?",
+      "target": "o serviço está incluído?",
+      "level": "a1"
+    },
+    {
+      "en": "tip",
+      "target": "a gorjeta",
+      "level": "a2"
+    },
+    {
+      "en": "without onion, please",
+      "target": "sem cebola, por favor",
+      "level": "a1"
+    },
+    {
+      "en": "not spicy, please",
+      "target": "sem picante, por favor",
+      "level": "a2"
+    },
+    {
+      "en": "a little spicy",
+      "target": "um pouco picante",
+      "level": "a2"
+    },
+    {
+      "en": "without salt, please",
+      "target": "sem sal, por favor",
+      "level": "a1"
+    },
+    {
+      "en": "without sugar, please",
+      "target": "sem açúcar, por favor",
+      "level": "a1"
+    },
+    {
+      "en": "coffee with milk",
+      "target": "o café com leite",
+      "level": "a1"
+    },
+    {
+      "en": "espresso",
+      "target": "a bica / o café",
+      "level": "a2"
+    },
+    {
+      "en": "black coffee",
+      "target": "o café sem leite",
+      "level": "a1"
+    },
+    {
+      "en": "still water",
+      "target": "a água sem gás",
+      "level": "a2"
+    },
+    {
+      "en": "sparkling water",
+      "target": "a água com gás",
+      "level": "a2"
+    },
+    {
+      "en": "rare",
+      "target": "mal passado",
+      "level": "a2"
+    },
+    {
+      "en": "medium",
+      "target": "médio",
+      "level": "a2"
+    },
+    {
+      "en": "well done",
+      "target": "bem passado",
+      "level": "a2"
+    }
+  ]
+}

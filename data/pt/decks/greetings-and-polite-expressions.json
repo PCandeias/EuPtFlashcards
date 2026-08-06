@@ -1,0 +1,294 @@
+{
+  "deck": "Greetings & Polite Expressions",
+  "cards": [
+    {
+      "en": "hello",
+      "target": "olá",
+      "level": "a1"
+    },
+    {
+      "en": "hi",
+      "target": "olá",
+      "level": "a1"
+    },
+    {
+      "en": "good morning",
+      "target": "bom dia",
+      "level": "a1"
+    },
+    {
+      "en": "good afternoon",
+      "target": "boa tarde",
+      "level": "a1"
+    },
+    {
+      "en": "good evening / good night",
+      "target": "boa noite",
+      "level": "a1"
+    },
+    {
+      "en": "goodbye",
+      "target": "adeus",
+      "level": "a1"
+    },
+    {
+      "en": "bye",
+      "target": "xau",
+      "level": "a1"
+    },
+    {
+      "en": "see you later",
+      "target": "até logo",
+      "level": "a1"
+    },
+    {
+      "en": "see you tomorrow",
+      "target": "até amanhã",
+      "level": "a1"
+    },
+    {
+      "en": "see you soon",
+      "target": "até breve",
+      "level": "a1"
+    },
+    {
+      "en": "thank you",
+      "target": "obrigado",
+      "sense": "said by a man",
+      "level": "a1"
+    },
+    {
+      "en": "thank you",
+      "target": "obrigada",
+      "sense": "said by a woman",
+      "level": "a1"
+    },
+    {
+      "en": "thanks",
+      "target": "obrigado / obrigada",
+      "level": "a1"
+    },
+    {
+      "en": "thank you very much",
+      "target": "muito obrigado / muito obrigada",
+      "level": "a1"
+    },
+    {
+      "en": "you are welcome",
+      "target": "de nada",
+      "level": "a1"
+    },
+    {
+      "en": "please",
+      "target": "por favor",
+      "level": "a1"
+    },
+    {
+      "en": "yes",
+      "target": "sim",
+      "level": "a1"
+    },
+    {
+      "en": "no",
+      "target": "não",
+      "level": "a1"
+    },
+    {
+      "en": "okay",
+      "target": "está bem",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "fine / okay",
+      "target": "bem",
+      "level": "a1"
+    },
+    {
+      "en": "of course",
+      "target": "claro",
+      "level": "a1"
+    },
+    {
+      "en": "excuse me",
+      "target": "com licença",
+      "level": "a1"
+    },
+    {
+      "en": "sorry",
+      "target": "desculpe",
+      "level": "a1"
+    },
+    {
+      "en": "I am sorry",
+      "target": "peço desculpa",
+      "level": "a1"
+    },
+    {
+      "en": "welcome",
+      "target": "bem-vindo",
+      "level": "a1"
+    },
+    {
+      "en": "welcome",
+      "target": "bem-vinda",
+      "sense": "said to a woman",
+      "level": "a1"
+    },
+    {
+      "en": "nice to meet you",
+      "target": "muito prazer",
+      "level": "a1"
+    },
+    {
+      "en": "pleased to meet you",
+      "target": "prazer em conhecê-lo / conhecê-la",
+      "level": "a1"
+    },
+    {
+      "en": "how are you?",
+      "target": "como estás?",
+      "tags": [
+        "informal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "how are you?",
+      "target": "como está?",
+      "tags": [
+        "formal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "I am fine",
+      "target": "estou bem",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "I am very well",
+      "target": "estou muito bem",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "not bad",
+      "target": "nada mal",
+      "level": "a1"
+    },
+    {
+      "en": "so-so",
+      "target": "mais ou menos",
+      "level": "a1"
+    },
+    {
+      "en": "and you?",
+      "target": "e tu?",
+      "tags": [
+        "informal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "and you?",
+      "target": "e o senhor? / e a senhora?",
+      "tags": [
+        "formal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "what is your name?",
+      "target": "como te chamas?",
+      "tags": [
+        "informal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "what is your name?",
+      "target": "como se chama?",
+      "tags": [
+        "formal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "my name is Pedro",
+      "target": "chamo-me Pedro",
+      "level": "a1"
+    },
+    {
+      "en": "get well soon",
+      "target": "as melhoras",
+      "level": "a1"
+    },
+    {
+      "en": "enjoy your meal",
+      "target": "bom apetite",
+      "level": "a1"
+    },
+    {
+      "en": "good luck",
+      "target": "boa sorte",
+      "level": "a1"
+    },
+    {
+      "en": "congratulations",
+      "target": "parabéns",
+      "level": "a1"
+    },
+    {
+      "en": "happy birthday",
+      "target": "feliz aniversário",
+      "level": "a1"
+    },
+    {
+      "en": "merry Christmas",
+      "target": "feliz Natal",
+      "level": "a1"
+    },
+    {
+      "en": "happy New Year",
+      "target": "feliz Ano Novo",
+      "level": "a1"
+    },
+    {
+      "en": "cheers",
+      "target": "saúde",
+      "level": "a1"
+    },
+    {
+      "en": "have a good trip",
+      "target": "boa viagem",
+      "level": "a1"
+    },
+    {
+      "en": "take care",
+      "target": "cuida-te",
+      "level": "a1"
+    },
+    {
+      "en": "no problem",
+      "target": "sem problema",
+      "level": "a1"
+    },
+    {
+      "en": "it does not matter",
+      "target": "não faz mal",
+      "level": "a1"
+    },
+    {
+      "en": "one moment",
+      "target": "um momento",
+      "level": "a1"
+    },
+    {
+      "en": "just a second",
+      "target": "só um segundo",
+      "level": "a1"
+    }
+  ]
+}

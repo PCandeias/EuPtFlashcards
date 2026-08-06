@@ -28,7 +28,7 @@
       <li>
         <div class="text">
           <span class="en">{report.en}</span>
-          <span class="pt">{report.pt}</span>
+          <span class="target">{report.target}</span>
           <span class="deck">{report.deck}</span>
         </div>
         <button
@@ -81,7 +81,7 @@
   }
   .text { flex: 1; min-width: 0; display: grid; gap: 1px; }
   .en { font-size: 13px; }
-  .pt { font-size: 13px; font-weight: 700; }
+  .target { font-size: 13px; font-weight: 700; }
   .deck { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
   .restore { min-height: 32px; padding: 4px 10px; font-size: 12px; white-space: nowrap; }
   .buttons { display: flex; gap: 8px; flex-wrap: wrap; }

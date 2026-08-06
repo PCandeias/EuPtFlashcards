@@ -1,0 +1,197 @@
+{
+  "deck": "Clothing & Colors",
+  "cards": [
+    {
+      "en": "white",
+      "target": "beyaz",
+      "level": "a1"
+    },
+    {
+      "en": "black",
+      "target": "siyah",
+      "level": "a1"
+    },
+    {
+      "en": "red",
+      "target": "kırmızı",
+      "level": "a1"
+    },
+    {
+      "en": "blue",
+      "target": "mavi",
+      "level": "a1"
+    },
+    {
+      "en": "green",
+      "target": "yeşil",
+      "level": "a1"
+    },
+    {
+      "en": "yellow",
+      "target": "sarı",
+      "level": "a1"
+    },
+    {
+      "en": "orange",
+      "target": "turuncu",
+      "level": "a1",
+      "sense": "the colour"
+    },
+    {
+      "en": "purple",
+      "target": "mor",
+      "level": "a1"
+    },
+    {
+      "en": "pink",
+      "target": "pembe",
+      "level": "a1"
+    },
+    {
+      "en": "brown",
+      "target": "kahverengi",
+      "level": "a1"
+    },
+    {
+      "en": "gray",
+      "target": "gri",
+      "level": "a1"
+    },
+    {
+      "en": "clothing",
+      "target": "kıyafet",
+      "level": "a1"
+    },
+    {
+      "en": "shirt",
+      "target": "gömlek",
+      "level": "a1"
+    },
+    {
+      "en": "t-shirt",
+      "target": "tişört",
+      "level": "a1"
+    },
+    {
+      "en": "trousers",
+      "target": "pantolon",
+      "level": "a1"
+    },
+    {
+      "en": "skirt",
+      "target": "etek",
+      "level": "a1"
+    },
+    {
+      "en": "dress",
+      "target": "elbise",
+      "level": "a1"
+    },
+    {
+      "en": "jacket",
+      "target": "ceket",
+      "level": "a1"
+    },
+    {
+      "en": "coat / jacket",
+      "target": "mont",
+      "level": "a1"
+    },
+    {
+      "en": "shoes",
+      "target": "ayakkabı",
+      "level": "a1"
+    },
+    {
+      "en": "socks",
+      "target": "çorap",
+      "level": "a1"
+    },
+    {
+      "en": "hat",
+      "target": "şapka",
+      "level": "a1"
+    },
+    {
+      "en": "watch / clock",
+      "target": "saat",
+      "level": "a1",
+      "sense": "the object"
+    },
+    {
+      "en": "navy blue",
+      "target": "lacivert",
+      "level": "a2"
+    },
+    {
+      "en": "jeans",
+      "target": "kot pantolon",
+      "level": "a2"
+    },
+    {
+      "en": "shorts",
+      "target": "şort",
+      "level": "a2"
+    },
+    {
+      "en": "sweater",
+      "target": "kazak",
+      "level": "a2"
+    },
+    {
+      "en": "boots",
+      "target": "bot",
+      "level": "a2"
+    },
+    {
+      "en": "slippers",
+      "target": "terlik",
+      "level": "a2"
+    },
+    {
+      "en": "scarf",
+      "target": "atkı",
+      "level": "a2"
+    },
+    {
+      "en": "gloves",
+      "target": "eldiven",
+      "level": "a2"
+    },
+    {
+      "en": "belt",
+      "target": "kemer",
+      "level": "a2"
+    },
+    {
+      "en": "backpack",
+      "target": "sırt çantası",
+      "level": "a2"
+    },
+    {
+      "en": "glasses",
+      "target": "gözlük",
+      "level": "a1"
+    },
+    {
+      "en": "sunglasses",
+      "target": "güneş gözlüğü",
+      "level": "a2"
+    },
+    {
+      "en": "ring",
+      "target": "yüzük",
+      "level": "a2"
+    },
+    {
+      "en": "earring",
+      "target": "küpe",
+      "level": "a2"
+    },
+    {
+      "en": "necklace",
+      "target": "kolye",
+      "level": "a2"
+    }
+  ]
+}

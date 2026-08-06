@@ -1,0 +1,240 @@
+{
+  "deck": "Places, City & Buildings",
+  "cards": [
+    {
+      "en": "place",
+      "target": "o lugar",
+      "level": "a1"
+    },
+    {
+      "en": "neighborhood",
+      "target": "o bairro",
+      "level": "a2"
+    },
+    {
+      "en": "street",
+      "target": "a rua",
+      "level": "a1"
+    },
+    {
+      "en": "avenue",
+      "target": "a avenida",
+      "level": "a2"
+    },
+    {
+      "en": "square",
+      "target": "a praça",
+      "level": "a1"
+    },
+    {
+      "en": "park",
+      "target": "o parque",
+      "level": "a1"
+    },
+    {
+      "en": "building",
+      "target": "o prédio / o edifício",
+      "level": "a1"
+    },
+    {
+      "en": "hotel",
+      "target": "o hotel",
+      "level": "a1"
+    },
+    {
+      "en": "guesthouse",
+      "target": "a pensão / o alojamento",
+      "level": "a2"
+    },
+    {
+      "en": "supermarket",
+      "target": "o supermercado",
+      "level": "a1"
+    },
+    {
+      "en": "small grocery store",
+      "target": "a mercearia",
+      "level": "a2"
+    },
+    {
+      "en": "bakery",
+      "target": "a padaria",
+      "level": "a2"
+    },
+    {
+      "en": "butcher",
+      "target": "o talho",
+      "level": "a2"
+    },
+    {
+      "en": "greengrocer",
+      "target": "a frutaria",
+      "level": "a2"
+    },
+    {
+      "en": "clinic",
+      "target": "a clínica",
+      "level": "a2"
+    },
+    {
+      "en": "university",
+      "target": "a universidade",
+      "level": "a1"
+    },
+    {
+      "en": "library",
+      "target": "a biblioteca",
+      "level": "a2"
+    },
+    {
+      "en": "museum",
+      "target": "o museu",
+      "level": "a1"
+    },
+    {
+      "en": "cinema",
+      "target": "o cinema",
+      "level": "a1"
+    },
+    {
+      "en": "theater",
+      "target": "o teatro",
+      "level": "a2"
+    },
+    {
+      "en": "bank",
+      "target": "o banco",
+      "level": "a1"
+    },
+    {
+      "en": "ATM",
+      "target": "o multibanco",
+      "level": "a2"
+    },
+    {
+      "en": "post office",
+      "target": "os correios",
+      "level": "a1"
+    },
+    {
+      "en": "police station",
+      "target": "a esquadra",
+      "level": "a2"
+    },
+    {
+      "en": "town hall",
+      "target": "a câmara municipal",
+      "level": "b1"
+    },
+    {
+      "en": "airport",
+      "target": "o aeroporto",
+      "level": "a1"
+    },
+    {
+      "en": "bus station",
+      "target": "a estação de autocarros",
+      "level": "a1"
+    },
+    {
+      "en": "train station",
+      "target": "a estação de comboios",
+      "level": "a1"
+    },
+    {
+      "en": "metro station",
+      "target": "a estação de metro",
+      "level": "a1"
+    },
+    {
+      "en": "port / harbor",
+      "target": "o porto",
+      "level": "a2"
+    },
+    {
+      "en": "stop",
+      "target": "a paragem",
+      "level": "a1"
+    },
+    {
+      "en": "taxi stand",
+      "target": "a praça de táxis",
+      "level": "a2"
+    },
+    {
+      "en": "beach",
+      "target": "a praia",
+      "level": "a1"
+    },
+    {
+      "en": "sea",
+      "target": "o mar",
+      "level": "a1"
+    },
+    {
+      "en": "lake",
+      "target": "o lago",
+      "level": "a2"
+    },
+    {
+      "en": "river",
+      "target": "o rio",
+      "level": "a2"
+    },
+    {
+      "en": "mountain",
+      "target": "a montanha",
+      "level": "a1"
+    },
+    {
+      "en": "forest",
+      "target": "a floresta",
+      "level": "a2"
+    },
+    {
+      "en": "bridge",
+      "target": "a ponte",
+      "level": "a2"
+    },
+    {
+      "en": "road",
+      "target": "a estrada",
+      "level": "a2"
+    },
+    {
+      "en": "intersection",
+      "target": "o cruzamento",
+      "level": "a2"
+    },
+    {
+      "en": "traffic",
+      "target": "o trânsito",
+      "level": "a2"
+    },
+    {
+      "en": "map",
+      "target": "o mapa",
+      "level": "a1"
+    },
+    {
+      "en": "entrance",
+      "target": "a entrada",
+      "level": "a1"
+    },
+    {
+      "en": "exit",
+      "target": "a saída",
+      "level": "a1"
+    },
+    {
+      "en": "center",
+      "target": "o centro",
+      "level": "a1"
+    },
+    {
+      "en": "city center",
+      "target": "o centro da cidade",
+      "level": "a1"
+    }
+  ]
+}

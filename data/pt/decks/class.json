@@ -1,0 +1,2718 @@
+{
+  "deck": "Class",
+  "cards": [
+    {
+      "en": "good morning",
+      "target": "bom dia",
+      "level": "a1"
+    },
+    {
+      "en": "good afternoon",
+      "target": "boa tarde",
+      "level": "a1"
+    },
+    {
+      "en": "good evening / good night",
+      "target": "boa noite",
+      "level": "a1"
+    },
+    {
+      "en": "the morning",
+      "target": "a manhã",
+      "level": "a1"
+    },
+    {
+      "en": "the afternoon",
+      "target": "a tarde",
+      "level": "a1"
+    },
+    {
+      "en": "the night",
+      "target": "a noite",
+      "level": "a1"
+    },
+    {
+      "en": "please",
+      "target": "por favor",
+      "level": "a1"
+    },
+    {
+      "en": "please / if you please",
+      "target": "se faz favor",
+      "level": "a1"
+    },
+    {
+      "en": "thank you",
+      "target": "obrigado",
+      "sense": "said by a man",
+      "level": "a1"
+    },
+    {
+      "en": "thank you",
+      "target": "obrigada",
+      "sense": "said by a woman",
+      "level": "a1"
+    },
+    {
+      "en": "thank you very much",
+      "target": "muito obrigado",
+      "sense": "said by a man",
+      "level": "a1"
+    },
+    {
+      "en": "thank you very much",
+      "target": "muito obrigada",
+      "sense": "said by a woman",
+      "level": "a1"
+    },
+    {
+      "en": "you are welcome",
+      "target": "de nada",
+      "level": "a1"
+    },
+    {
+      "en": "no need to thank me",
+      "target": "não tens de quê",
+      "tags": [
+        "informal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "no need to thank me",
+      "target": "não tem de quê",
+      "tags": [
+        "formal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "of course / sure",
+      "target": "com certeza",
+      "level": "a1"
+    },
+    {
+      "en": "not at all / don't mention it",
+      "target": "ora essa",
+      "level": "a1"
+    },
+    {
+      "en": "yes / no",
+      "target": "sim / não",
+      "level": "a1"
+    },
+    {
+      "en": "sorry",
+      "target": "desculpa",
+      "tags": [
+        "informal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "sorry",
+      "target": "desculpe",
+      "tags": [
+        "formal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "to excuse",
+      "target": "desculpar",
+      "level": "a1"
+    },
+    {
+      "en": "excuse me / pardon me",
+      "target": "com licença",
+      "level": "a1"
+    },
+    {
+      "en": "I'm sorry / I sympathise",
+      "target": "sinto muito",
+      "level": "a1"
+    },
+    {
+      "en": "I'm sorry to hear that / I regret",
+      "target": "lamento",
+      "level": "a1"
+    },
+    {
+      "en": "pardon",
+      "target": "perdão",
+      "level": "a1"
+    },
+    {
+      "en": "get well soon",
+      "target": "as melhoras",
+      "level": "a1"
+    },
+    {
+      "en": "see you very soon",
+      "target": "até já",
+      "level": "a1"
+    },
+    {
+      "en": "see you later",
+      "target": "até logo",
+      "level": "a1"
+    },
+    {
+      "en": "see you tomorrow",
+      "target": "até amanhã",
+      "level": "a1"
+    },
+    {
+      "en": "see you soon",
+      "target": "até breve",
+      "level": "a1"
+    },
+    {
+      "en": "see you next time",
+      "target": "até à próxima",
+      "level": "a1"
+    },
+    {
+      "en": "until",
+      "target": "até",
+      "level": "a1"
+    },
+    {
+      "en": "see you then",
+      "target": "até lá",
+      "level": "a1"
+    },
+    {
+      "en": "see you next week",
+      "target": "até para a semana",
+      "level": "a1"
+    },
+    {
+      "en": "stay well / take care",
+      "target": "fica bem",
+      "level": "a1"
+    },
+    {
+      "en": "kisses",
+      "target": "beijinhos",
+      "level": "a1"
+    },
+    {
+      "en": "to be",
+      "target": "ser",
+      "sense": "permanent / identity",
+      "level": "a1"
+    },
+    {
+      "en": "I am",
+      "target": "eu sou",
+      "sense": "permanent / identity",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "you are",
+      "target": "tu és",
+      "tags": [
+        "informal"
+      ],
+      "sense": "permanent / identity",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "he / she / you is",
+      "target": "ele / ela / você é",
+      "tags": [
+        "formal"
+      ],
+      "sense": "permanent / identity",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "we are",
+      "target": "nós somos",
+      "sense": "permanent / identity",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "they / you are",
+      "target": "eles / elas / vocês são",
+      "tags": [
+        "plural"
+      ],
+      "sense": "permanent / identity",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "to be",
+      "target": "estar",
+      "sense": "temporary / location",
+      "level": "a1"
+    },
+    {
+      "en": "I am",
+      "target": "eu estou",
+      "sense": "temporary / location",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "you are",
+      "target": "tu estás",
+      "tags": [
+        "informal"
+      ],
+      "sense": "temporary / location",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "he / she / you is",
+      "target": "ele / ela / você está",
+      "tags": [
+        "formal"
+      ],
+      "sense": "temporary / location",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "we are",
+      "target": "nós estamos",
+      "sense": "temporary / location",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "they / you are",
+      "target": "eles / elas / vocês estão",
+      "tags": [
+        "plural"
+      ],
+      "sense": "temporary / location",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "to live / reside",
+      "target": "morar",
+      "level": "a1"
+    },
+    {
+      "en": "I live / reside",
+      "target": "eu moro",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "you live / reside",
+      "target": "tu moras",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "he / she lives / resides",
+      "target": "ele / ela mora",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "we live / reside",
+      "target": "nós moramos",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "they live / reside",
+      "target": "eles / elas moram",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "to inhabit",
+      "target": "habitar",
+      "level": "b1"
+    },
+    {
+      "en": "to work",
+      "target": "trabalhar",
+      "level": "a1"
+    },
+    {
+      "en": "to work in the hospital",
+      "target": "trabalhar no hospital",
+      "level": "a1"
+    },
+    {
+      "en": "work / job",
+      "target": "o trabalho",
+      "level": "a1"
+    },
+    {
+      "en": "to travel",
+      "target": "viajar",
+      "level": "a2"
+    },
+    {
+      "en": "to know / to meet",
+      "target": "conhecer",
+      "level": "a1"
+    },
+    {
+      "en": "I know / I meet",
+      "target": "eu conheço",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "you know / you meet",
+      "target": "tu conheces",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "he / she knows / meets",
+      "target": "ele / ela conhece",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "we know / meet",
+      "target": "nós conhecemos",
+      "level": "a1"
+    },
+    {
+      "en": "they know / meet",
+      "target": "eles / elas conhecem",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "but",
+      "target": "mas",
+      "level": "a1"
+    },
+    {
+      "en": "the person",
+      "target": "a pessoa",
+      "level": "a1"
+    },
+    {
+      "en": "the people",
+      "target": "as pessoas",
+      "level": "a1"
+    },
+    {
+      "en": "to occupy",
+      "target": "ocupar",
+      "level": "b1"
+    },
+    {
+      "en": "the time",
+      "target": "o tempo",
+      "level": "a1"
+    },
+    {
+      "en": "free",
+      "target": "livre",
+      "level": "a1"
+    },
+    {
+      "en": "to tighten / squeeze",
+      "target": "apertar",
+      "level": "a2"
+    },
+    {
+      "en": "with",
+      "target": "com",
+      "level": "a1"
+    },
+    {
+      "en": "without",
+      "target": "sem",
+      "level": "a1"
+    },
+    {
+      "en": "now",
+      "target": "agora",
+      "level": "a1"
+    },
+    {
+      "en": "in / at / on",
+      "target": "no",
+      "tags": [
+        "masc",
+        "contraction"
+      ],
+      "targetTags": [
+        "contraction"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "in / at / on",
+      "target": "na",
+      "tags": [
+        "fem",
+        "contraction"
+      ],
+      "targetTags": [
+        "contraction"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "for / to",
+      "target": "para",
+      "level": "a1"
+    },
+    {
+      "en": "where",
+      "target": "onde",
+      "level": "a1"
+    },
+    {
+      "en": "to study",
+      "target": "estudar",
+      "level": "a1"
+    },
+    {
+      "en": "to walk",
+      "target": "caminhar",
+      "level": "a1"
+    },
+    {
+      "en": "to arrive",
+      "target": "chegar",
+      "level": "a1"
+    },
+    {
+      "en": "to buy",
+      "target": "comprar",
+      "level": "a1"
+    },
+    {
+      "en": "to speak",
+      "target": "falar",
+      "level": "a1"
+    },
+    {
+      "en": "to have dinner",
+      "target": "jantar",
+      "level": "a1"
+    },
+    {
+      "en": "the school",
+      "target": "a escola",
+      "level": "a1"
+    },
+    {
+      "en": "to listen",
+      "target": "escutar",
+      "level": "a1"
+    },
+    {
+      "en": "to do / to make",
+      "target": "fazer",
+      "level": "a1"
+    },
+    {
+      "en": "what do you want to do?",
+      "target": "o que é que tu queres fazer?",
+      "level": "a1"
+    },
+    {
+      "en": "to call",
+      "target": "chamar",
+      "level": "a1"
+    },
+    {
+      "en": "to be called",
+      "target": "chamar-se",
+      "level": "a1"
+    },
+    {
+      "en": "to walk / to go around",
+      "target": "andar",
+      "level": "a1"
+    },
+    {
+      "en": "I walk to work",
+      "target": "eu ando para o trabalho",
+      "level": "a1"
+    },
+    {
+      "en": "he / she walks",
+      "target": "ele / ela caminha",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "free / unoccupied",
+      "target": "livre",
+      "level": "a1"
+    },
+    {
+      "en": "occupied / busy",
+      "target": "ocupado / ocupada",
+      "level": "a2"
+    },
+    {
+      "en": "nice / kind",
+      "target": "simpático / simpática",
+      "level": "a1"
+    },
+    {
+      "en": "beautiful / pretty",
+      "target": "bonito / bonita",
+      "level": "a1"
+    },
+    {
+      "en": "beautiful / lovely",
+      "target": "lindo / linda",
+      "level": "a1"
+    },
+    {
+      "en": "ugly",
+      "target": "feio / feia",
+      "level": "a1"
+    },
+    {
+      "en": "the student",
+      "target": "o estudante / a estudante",
+      "level": "a1"
+    },
+    {
+      "en": "currently",
+      "target": "atualmente",
+      "level": "b1"
+    },
+    {
+      "en": "I am hungry",
+      "target": "tenho fome",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "I am hungry",
+      "target": "estou com fome",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "closed",
+      "target": "fechado / fechada",
+      "level": "a1"
+    },
+    {
+      "en": "open",
+      "target": "aberto / aberta",
+      "level": "a1"
+    },
+    {
+      "en": "the café is closed",
+      "target": "o café está fechado",
+      "level": "a1"
+    },
+    {
+      "en": "full",
+      "target": "cheio / cheia",
+      "level": "a1"
+    },
+    {
+      "en": "the shop / store",
+      "target": "a loja",
+      "level": "a1"
+    },
+    {
+      "en": "on / connected",
+      "target": "ligado / ligada",
+      "level": "a1"
+    },
+    {
+      "en": "off / disconnected",
+      "target": "desligado / desligada",
+      "level": "a1"
+    },
+    {
+      "en": "the computer is on",
+      "target": "o computador está ligado",
+      "level": "a1"
+    },
+    {
+      "en": "rich",
+      "target": "rico / rica",
+      "level": "a2"
+    },
+    {
+      "en": "poor",
+      "target": "pobre",
+      "level": "a2"
+    },
+    {
+      "en": "good",
+      "target": "bom / boa",
+      "level": "a1"
+    },
+    {
+      "en": "bad",
+      "target": "mau / má",
+      "level": "a1"
+    },
+    {
+      "en": "ready",
+      "target": "pronto / pronta",
+      "level": "a1"
+    },
+    {
+      "en": "new",
+      "target": "novo / nova",
+      "level": "a1"
+    },
+    {
+      "en": "old",
+      "target": "velho / velha",
+      "level": "a1"
+    },
+    {
+      "en": "small",
+      "target": "pequeno / pequena",
+      "level": "a1"
+    },
+    {
+      "en": "big / large",
+      "target": "grande",
+      "level": "a1"
+    },
+    {
+      "en": "hot",
+      "target": "quente",
+      "level": "a1"
+    },
+    {
+      "en": "cold",
+      "target": "frio / fria",
+      "level": "a1"
+    },
+    {
+      "en": "to sleep",
+      "target": "dormir",
+      "level": "a1"
+    },
+    {
+      "en": "sleepiness",
+      "target": "o sono",
+      "level": "a2"
+    },
+    {
+      "en": "I am sleepy",
+      "target": "estou com sono",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "the dream",
+      "target": "o sonho",
+      "level": "a1"
+    },
+    {
+      "en": "to greet each other",
+      "target": "cumprimentar-se",
+      "level": "a1"
+    },
+    {
+      "en": "the handshake",
+      "target": "o aperto de mão",
+      "level": "a1"
+    },
+    {
+      "en": "tiredness",
+      "target": "o cansaço",
+      "level": "a2"
+    },
+    {
+      "en": "while",
+      "target": "enquanto",
+      "level": "b1"
+    },
+    {
+      "en": "to have",
+      "target": "ter",
+      "level": "a1"
+    },
+    {
+      "en": "to return something",
+      "target": "devolver",
+      "level": "a2"
+    },
+    {
+      "en": "to understand",
+      "target": "compreender",
+      "level": "a1"
+    },
+    {
+      "en": "to think / to find",
+      "target": "achar",
+      "level": "a2"
+    },
+    {
+      "en": "to take / to drink",
+      "target": "tomar",
+      "level": "a1"
+    },
+    {
+      "en": "to take a shower",
+      "target": "tomar um duche",
+      "level": "a1"
+    },
+    {
+      "en": "to make a decision",
+      "target": "tomar uma decisão",
+      "level": "b1"
+    },
+    {
+      "en": "the lunch",
+      "target": "o almoço",
+      "level": "a1"
+    },
+    {
+      "en": "the dinner",
+      "target": "o jantar",
+      "level": "a1"
+    },
+    {
+      "en": "the apple",
+      "target": "a maçã",
+      "level": "a1"
+    },
+    {
+      "en": "the apples",
+      "target": "as maçãs",
+      "level": "a1"
+    },
+    {
+      "en": "the letter",
+      "target": "a carta",
+      "level": "a1"
+    },
+    {
+      "en": "the map",
+      "target": "o mapa",
+      "level": "a1"
+    },
+    {
+      "en": "the wine",
+      "target": "o vinho",
+      "level": "a1"
+    },
+    {
+      "en": "the father / the mother",
+      "target": "o pai / a mãe",
+      "level": "a1"
+    },
+    {
+      "en": "the house",
+      "target": "a casa",
+      "level": "a1"
+    },
+    {
+      "en": "the table",
+      "target": "a mesa",
+      "level": "a1"
+    },
+    {
+      "en": "the glass",
+      "target": "o copo",
+      "level": "a1"
+    },
+    {
+      "en": "the room",
+      "target": "a sala",
+      "level": "a1"
+    },
+    {
+      "en": "the wedding / marriage",
+      "target": "o casamento",
+      "level": "a2"
+    },
+    {
+      "en": "married",
+      "target": "casado / casada",
+      "level": "a1"
+    },
+    {
+      "en": "happy",
+      "target": "feliz",
+      "level": "a1"
+    },
+    {
+      "en": "worried",
+      "target": "preocupado / preocupada",
+      "level": "a2"
+    },
+    {
+      "en": "my son is sick",
+      "target": "o meu filho está doente",
+      "level": "a1"
+    },
+    {
+      "en": "today he is better",
+      "target": "hoje está melhor",
+      "level": "a1"
+    },
+    {
+      "en": "the beach",
+      "target": "a praia",
+      "level": "a1"
+    },
+    {
+      "en": "the city",
+      "target": "a cidade",
+      "level": "a1"
+    },
+    {
+      "en": "the foreigner",
+      "target": "o estrangeiro / a estrangeira",
+      "level": "a1"
+    },
+    {
+      "en": "to pay",
+      "target": "pagar",
+      "level": "a1"
+    },
+    {
+      "en": "to wait",
+      "target": "esperar",
+      "level": "a1"
+    },
+    {
+      "en": "to cook",
+      "target": "cozinhar",
+      "level": "a1"
+    },
+    {
+      "en": "to wash",
+      "target": "lavar",
+      "level": "a1"
+    },
+    {
+      "en": "to close",
+      "target": "fechar",
+      "level": "a1"
+    },
+    {
+      "en": "to open",
+      "target": "abrir",
+      "level": "a1"
+    },
+    {
+      "en": "to help",
+      "target": "ajudar",
+      "level": "a1"
+    },
+    {
+      "en": "to ask",
+      "target": "perguntar",
+      "level": "a1"
+    },
+    {
+      "en": "the question",
+      "target": "a pergunta",
+      "level": "a1"
+    },
+    {
+      "en": "to wonder / to ask oneself",
+      "target": "perguntar-se",
+      "level": "b1"
+    },
+    {
+      "en": "to enter",
+      "target": "entrar",
+      "level": "a1"
+    },
+    {
+      "en": "to use",
+      "target": "usar",
+      "level": "a1"
+    },
+    {
+      "en": "to eat",
+      "target": "comer",
+      "level": "a1"
+    },
+    {
+      "en": "to drink",
+      "target": "beber",
+      "level": "a1"
+    },
+    {
+      "en": "to learn",
+      "target": "aprender",
+      "level": "a1"
+    },
+    {
+      "en": "to sell",
+      "target": "vender",
+      "level": "a2"
+    },
+    {
+      "en": "to run",
+      "target": "correr",
+      "level": "a2"
+    },
+    {
+      "en": "to answer",
+      "target": "responder",
+      "level": "a1"
+    },
+    {
+      "en": "to live",
+      "target": "viver",
+      "level": "a1"
+    },
+    {
+      "en": "to receive",
+      "target": "receber",
+      "level": "a2"
+    },
+    {
+      "en": "to write",
+      "target": "escrever",
+      "level": "a1"
+    },
+    {
+      "en": "to read",
+      "target": "ler",
+      "level": "a1"
+    },
+    {
+      "en": "to forget",
+      "target": "esquecer",
+      "level": "a2"
+    },
+    {
+      "en": "to lose",
+      "target": "perder",
+      "level": "a2"
+    },
+    {
+      "en": "to choose",
+      "target": "escolher",
+      "level": "a2"
+    },
+    {
+      "en": "to turn on / to light",
+      "target": "acender",
+      "level": "a2"
+    },
+    {
+      "en": "to turn off / to erase",
+      "target": "apagar",
+      "level": "a2"
+    },
+    {
+      "en": "to hit / to knock",
+      "target": "bater",
+      "level": "a2"
+    },
+    {
+      "en": "to promise",
+      "target": "prometer",
+      "level": "a2"
+    },
+    {
+      "en": "after / later",
+      "target": "depois",
+      "level": "a1"
+    },
+    {
+      "en": "once",
+      "target": "uma vez",
+      "level": "a1"
+    },
+    {
+      "en": "twice",
+      "target": "duas vezes",
+      "level": "a1"
+    },
+    {
+      "en": "many times",
+      "target": "muitas vezes",
+      "level": "a1"
+    },
+    {
+      "en": "sometimes",
+      "target": "às vezes",
+      "level": "a1"
+    },
+    {
+      "en": "again / another time",
+      "target": "outra vez",
+      "level": "a1"
+    },
+    {
+      "en": "none",
+      "target": "nenhum",
+      "tags": [
+        "masc"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "none",
+      "target": "nenhuma",
+      "tags": [
+        "fem"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "better",
+      "target": "melhor",
+      "level": "a1"
+    },
+    {
+      "en": "worse",
+      "target": "pior",
+      "level": "a2"
+    },
+    {
+      "en": "to come",
+      "target": "vir",
+      "level": "a1"
+    },
+    {
+      "en": "I come",
+      "target": "eu venho",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "you come",
+      "target": "tu vens",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "he / she comes",
+      "target": "ele / ela vem",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "we come",
+      "target": "nós vimos",
+      "level": "a1"
+    },
+    {
+      "en": "they come",
+      "target": "eles / elas vêm",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "I come from Boston",
+      "target": "venho de Boston",
+      "level": "a1"
+    },
+    {
+      "en": "more",
+      "target": "mais",
+      "level": "a1"
+    },
+    {
+      "en": "less",
+      "target": "menos",
+      "level": "a1"
+    },
+    {
+      "en": "more than five kilos",
+      "target": "mais de cinco quilos",
+      "level": "a1"
+    },
+    {
+      "en": "old / new",
+      "target": "velho / novo",
+      "level": "a1"
+    },
+    {
+      "en": "pretty / ugly",
+      "target": "bonito / feio",
+      "level": "a1"
+    },
+    {
+      "en": "I am learning",
+      "target": "estou a aprender",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "to teach",
+      "target": "ensinar",
+      "level": "a2"
+    },
+    {
+      "en": "all",
+      "target": "todas",
+      "tags": [
+        "fem",
+        "plural"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "all",
+      "target": "todos",
+      "tags": [
+        "masc",
+        "plural"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "everyone / the whole world",
+      "target": "todo o mundo",
+      "level": "a1"
+    },
+    {
+      "en": "also / too",
+      "target": "também",
+      "level": "a1"
+    },
+    {
+      "en": "I have",
+      "target": "eu tenho",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "you have",
+      "target": "tu tens",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "he / she has",
+      "target": "ele / ela tem",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "we have",
+      "target": "nós temos",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "they have",
+      "target": "eles / elas têm",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "the class / lesson",
+      "target": "a aula",
+      "level": "a1"
+    },
+    {
+      "en": "the classes / lessons",
+      "target": "as aulas",
+      "level": "a1"
+    },
+    {
+      "en": "neither / nor",
+      "target": "nem",
+      "level": "a1"
+    },
+    {
+      "en": "to return / to come back",
+      "target": "voltar",
+      "level": "a1"
+    },
+    {
+      "en": "to wake up",
+      "target": "acordar",
+      "level": "a1"
+    },
+    {
+      "en": "to start / to begin",
+      "target": "começar",
+      "level": "a1"
+    },
+    {
+      "en": "to do sport",
+      "target": "fazer desporto",
+      "level": "a1"
+    },
+    {
+      "en": "to get used to",
+      "target": "acostumar-se",
+      "level": "b1"
+    },
+    {
+      "en": "to pretend",
+      "target": "fingir",
+      "level": "b1"
+    },
+    {
+      "en": "to rest",
+      "target": "descansar",
+      "level": "a2"
+    },
+    {
+      "en": "tired",
+      "target": "cansado / cansada",
+      "level": "a1"
+    },
+    {
+      "en": "today",
+      "target": "hoje",
+      "level": "a1"
+    },
+    {
+      "en": "to return home by train",
+      "target": "voltar para casa de comboio",
+      "level": "a1"
+    },
+    {
+      "en": "around ten",
+      "target": "por volta das dez",
+      "level": "a1"
+    },
+    {
+      "en": "during the week",
+      "target": "durante a semana",
+      "level": "a1"
+    },
+    {
+      "en": "to prefer",
+      "target": "preferir",
+      "level": "a2"
+    },
+    {
+      "en": "to want",
+      "target": "querer",
+      "level": "a1"
+    },
+    {
+      "en": "I want",
+      "target": "eu quero",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "you want",
+      "target": "tu queres",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "he / she wants",
+      "target": "ele / ela quer",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "we want",
+      "target": "nós queremos",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "they want",
+      "target": "eles / elas querem",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "to sit down",
+      "target": "sentar-se",
+      "level": "a1"
+    },
+    {
+      "en": "to get up",
+      "target": "levantar-se",
+      "level": "a1"
+    },
+    {
+      "en": "to take / to carry",
+      "target": "levar",
+      "level": "a1"
+    },
+    {
+      "en": "to wash oneself",
+      "target": "lavar-se",
+      "level": "a2"
+    },
+    {
+      "en": "to leave the house",
+      "target": "sair de casa",
+      "level": "a1"
+    },
+    {
+      "en": "to comb one's hair",
+      "target": "pentear-se",
+      "level": "a2"
+    },
+    {
+      "en": "I comb my hair",
+      "target": "eu penteio-me",
+      "tense": "presente",
+      "level": "a2"
+    },
+    {
+      "en": "you comb your hair",
+      "target": "tu penteias-te",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presente",
+      "level": "a2"
+    },
+    {
+      "en": "he / she combs his / her hair",
+      "target": "ele / ela penteia-se",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "we comb our hair",
+      "target": "nós penteamo-nos",
+      "tense": "presente",
+      "level": "a2"
+    },
+    {
+      "en": "they comb their hair",
+      "target": "eles / elas penteiam-se",
+      "tense": "presente",
+      "level": "a2"
+    },
+    {
+      "en": "to get dressed",
+      "target": "vestir-se",
+      "level": "a2"
+    },
+    {
+      "en": "I get dressed",
+      "target": "eu visto-me",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "you get dressed",
+      "target": "tu vestes-te",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "he / she gets dressed",
+      "target": "ele / ela veste-se",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "we get dressed",
+      "target": "nós vestimo-nos",
+      "level": "a1"
+    },
+    {
+      "en": "they get dressed",
+      "target": "eles / elas vestem-se",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "to give",
+      "target": "dar",
+      "level": "a1"
+    },
+    {
+      "en": "to arrive / to leave",
+      "target": "chegar / sair",
+      "level": "a1"
+    },
+    {
+      "en": "to leave",
+      "target": "partir",
+      "level": "a2"
+    },
+    {
+      "en": "to be able to / can",
+      "target": "poder",
+      "level": "a1"
+    },
+    {
+      "en": "I can",
+      "target": "eu posso",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "you can",
+      "target": "tu podes",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "he / she can",
+      "target": "ele / ela pode",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "we can",
+      "target": "nós podemos",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "they can",
+      "target": "eles / elas podem",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "little / not much",
+      "target": "pouco",
+      "level": "a1"
+    },
+    {
+      "en": "a lot / very much",
+      "target": "muito",
+      "level": "a1"
+    },
+    {
+      "en": "the warehouse / storage room",
+      "target": "o armazém",
+      "level": "a2"
+    },
+    {
+      "en": "empty",
+      "target": "vazio / vazia",
+      "level": "a1"
+    },
+    {
+      "en": "to be anxious / worried",
+      "target": "estar preocupado / preocupada",
+      "level": "a2"
+    },
+    {
+      "en": "to speak on the phone",
+      "target": "falar ao telefone",
+      "level": "a1"
+    },
+    {
+      "en": "few people speak Portuguese",
+      "target": "poucas pessoas falam português",
+      "level": "a1"
+    },
+    {
+      "en": "to attend / to frequent",
+      "target": "frequentar",
+      "level": "a2"
+    },
+    {
+      "en": "the name",
+      "target": "o nome",
+      "level": "a1"
+    },
+    {
+      "en": "the surname",
+      "target": "o apelido",
+      "level": "a2"
+    },
+    {
+      "en": "the age",
+      "target": "a idade",
+      "level": "a1"
+    },
+    {
+      "en": "Italian person",
+      "target": "italiano / italiana",
+      "level": "a1"
+    },
+    {
+      "en": "Japanese person",
+      "target": "japonês / japonesa",
+      "level": "a1"
+    },
+    {
+      "en": "Canadian person",
+      "target": "canadiano / canadiana",
+      "level": "a1"
+    },
+    {
+      "en": "Turkish person",
+      "target": "turco / turca",
+      "level": "a1"
+    },
+    {
+      "en": "Spanish person",
+      "target": "espanhol / espanhola",
+      "level": "a1"
+    },
+    {
+      "en": "German person",
+      "target": "alemão / alemã",
+      "level": "a1"
+    },
+    {
+      "en": "Swiss person",
+      "target": "suíço / suíça",
+      "level": "a1"
+    },
+    {
+      "en": "Switzerland",
+      "target": "a Suíça",
+      "level": "a1"
+    },
+    {
+      "en": "Portugal",
+      "target": "Portugal",
+      "level": "a1"
+    },
+    {
+      "en": "Brazil",
+      "target": "o Brasil",
+      "level": "a1"
+    },
+    {
+      "en": "Italy",
+      "target": "a Itália",
+      "level": "a1"
+    },
+    {
+      "en": "Germany",
+      "target": "a Alemanha",
+      "level": "a1"
+    },
+    {
+      "en": "France",
+      "target": "a França",
+      "level": "a1"
+    },
+    {
+      "en": "United States",
+      "target": "os Estados Unidos",
+      "level": "a1"
+    },
+    {
+      "en": "Egypt",
+      "target": "o Egito",
+      "level": "a1"
+    },
+    {
+      "en": "Spain",
+      "target": "a Espanha",
+      "level": "a1"
+    },
+    {
+      "en": "Greece",
+      "target": "a Grécia",
+      "level": "a1"
+    },
+    {
+      "en": "England",
+      "target": "a Inglaterra",
+      "level": "a1"
+    },
+    {
+      "en": "Canada",
+      "target": "o Canadá",
+      "level": "a1"
+    },
+    {
+      "en": "Turkey",
+      "target": "a Turquia",
+      "level": "a1"
+    },
+    {
+      "en": "Cuba",
+      "target": "Cuba",
+      "level": "a1"
+    },
+    {
+      "en": "Israel",
+      "target": "Israel",
+      "level": "a1"
+    },
+    {
+      "en": "teacher",
+      "target": "o professor / a professora",
+      "level": "a1"
+    },
+    {
+      "en": "nurse",
+      "target": "o enfermeiro / a enfermeira",
+      "level": "a2"
+    },
+    {
+      "en": "seller / salesperson",
+      "target": "o vendedor / a vendedora",
+      "level": "a2"
+    },
+    {
+      "en": "accountant",
+      "target": "o/a contabilista",
+      "level": "a2"
+    },
+    {
+      "en": "engineer",
+      "target": "o engenheiro / a engenheira",
+      "level": "a2"
+    },
+    {
+      "en": "police officer",
+      "target": "o polícia",
+      "level": "a2"
+    },
+    {
+      "en": "veterinarian",
+      "target": "o veterinário / a veterinária",
+      "level": "a2"
+    },
+    {
+      "en": "dentist",
+      "target": "o dentista / a dentista",
+      "level": "a2"
+    },
+    {
+      "en": "doctor",
+      "target": "o médico / a médica",
+      "level": "a1"
+    },
+    {
+      "en": "doctor",
+      "target": "o doutor / a doutora",
+      "level": "a1"
+    },
+    {
+      "en": "driver",
+      "target": "o/a motorista",
+      "level": "a2"
+    },
+    {
+      "en": "painter",
+      "target": "o pintor / a pintora",
+      "level": "a2"
+    },
+    {
+      "en": "hairdresser",
+      "target": "o cabeleireiro / a cabeleireira",
+      "level": "a2"
+    },
+    {
+      "en": "barber",
+      "target": "o barbeiro",
+      "level": "a2"
+    },
+    {
+      "en": "I",
+      "target": "eu",
+      "level": "a1"
+    },
+    {
+      "en": "you",
+      "target": "tu",
+      "tags": [
+        "informal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "you",
+      "target": "você",
+      "tags": [
+        "formal"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "he",
+      "target": "ele",
+      "level": "a1"
+    },
+    {
+      "en": "she",
+      "target": "ela",
+      "level": "a1"
+    },
+    {
+      "en": "we",
+      "target": "nós",
+      "level": "a1"
+    },
+    {
+      "en": "you",
+      "target": "vocês",
+      "tags": [
+        "plural"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "they",
+      "target": "eles",
+      "tags": [
+        "masc-mixed"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "they",
+      "target": "elas",
+      "tags": [
+        "fem"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "you are",
+      "target": "vocês são",
+      "tags": [
+        "plural"
+      ],
+      "sense": "permanent / identity",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "they are",
+      "target": "eles são",
+      "tags": [
+        "masc-mixed"
+      ],
+      "sense": "permanent / identity",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "they are",
+      "target": "elas são",
+      "tags": [
+        "fem"
+      ],
+      "sense": "permanent / identity",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "he / she / you lives / resides",
+      "target": "ele / ela / você mora",
+      "tags": [
+        "formal"
+      ],
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "you live / reside",
+      "target": "vocês moram",
+      "tags": [
+        "plural"
+      ],
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "you are",
+      "target": "vocês estão",
+      "tags": [
+        "plural"
+      ],
+      "sense": "temporary / location",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "they are",
+      "target": "eles / elas estão",
+      "sense": "temporary / location",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "I am working",
+      "target": "estou a trabalhar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am walking",
+      "target": "estou a caminhar / andar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am talking on the phone",
+      "target": "estou a falar ao telemóvel",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am sleeping",
+      "target": "estou a dormir",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am eating",
+      "target": "estou a comer",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am going for a walk",
+      "target": "estou a passear",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am in France",
+      "target": "estou em França",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "I am in Portugal",
+      "target": "estou em Portugal",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "to stroll / go for a walk",
+      "target": "passear",
+      "level": "a2"
+    },
+    {
+      "en": "this",
+      "target": "este",
+      "tags": [
+        "masc"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "this",
+      "target": "esta",
+      "tags": [
+        "fem"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "these",
+      "target": "estes",
+      "tags": [
+        "masc-mixed"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "these",
+      "target": "estas",
+      "tags": [
+        "fem"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "that near you",
+      "target": "esse",
+      "tags": [
+        "masc"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "that near you",
+      "target": "essa",
+      "tags": [
+        "fem"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "those near you",
+      "target": "esses",
+      "tags": [
+        "masc-mixed"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "those near you",
+      "target": "essas",
+      "tags": [
+        "fem"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "that over there",
+      "target": "aquele",
+      "tags": [
+        "masc"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "that over there",
+      "target": "aquela",
+      "tags": [
+        "fem"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "those over there",
+      "target": "aqueles",
+      "tags": [
+        "masc-mixed"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "those over there",
+      "target": "aquelas",
+      "tags": [
+        "fem"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "this cat",
+      "target": "este gato",
+      "level": "a1"
+    },
+    {
+      "en": "this house",
+      "target": "esta casa",
+      "level": "a1"
+    },
+    {
+      "en": "this dress",
+      "target": "este vestido",
+      "level": "a1"
+    },
+    {
+      "en": "this watch",
+      "target": "este relógio",
+      "level": "a1"
+    },
+    {
+      "en": "these houses",
+      "target": "estas casas",
+      "level": "a1"
+    },
+    {
+      "en": "these apartments",
+      "target": "estes apartamentos",
+      "level": "a1"
+    },
+    {
+      "en": "that chair near you",
+      "target": "essa cadeira",
+      "level": "a1"
+    },
+    {
+      "en": "those cars near you",
+      "target": "esses carros",
+      "level": "a1"
+    },
+    {
+      "en": "that dress over there",
+      "target": "aquele vestido",
+      "level": "a1"
+    },
+    {
+      "en": "those stores over there",
+      "target": "aquelas lojas",
+      "level": "a1"
+    },
+    {
+      "en": "I am having breakfast",
+      "target": "estou a tomar o pequeno-almoço",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am talking to my boss",
+      "target": "estou a falar com o chefe",
+      "tense": "presenteContinuo",
+      "level": "a2"
+    },
+    {
+      "en": "I am cooking",
+      "target": "estou a cozinhar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am eating dinner",
+      "target": "estou a jantar",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "I am taking a walk",
+      "target": "estou a passear",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    },
+    {
+      "en": "meat with rice",
+      "target": "carne com arroz",
+      "level": "a1"
+    },
+    {
+      "en": "beef with rice",
+      "target": "carne de boi com arroz",
+      "level": "a1"
+    },
+    {
+      "en": "French bread",
+      "target": "pão francês",
+      "level": "a1"
+    },
+    {
+      "en": "less expensive",
+      "target": "menos caro",
+      "level": "a1"
+    },
+    {
+      "en": "price / cost",
+      "target": "o custo",
+      "level": "a2"
+    },
+    {
+      "en": "normally",
+      "target": "normalmente",
+      "level": "a1"
+    },
+    {
+      "en": "on",
+      "target": "em",
+      "level": "a1"
+    },
+    {
+      "en": "in Portugal",
+      "target": "em Portugal",
+      "level": "a1"
+    },
+    {
+      "en": "in Brazil",
+      "target": "no Brasil",
+      "level": "a1"
+    },
+    {
+      "en": "normal",
+      "target": "normal",
+      "level": "a1"
+    },
+    {
+      "en": "to like",
+      "target": "gostar de",
+      "level": "a1"
+    },
+    {
+      "en": "I like",
+      "target": "eu gosto de",
+      "level": "a1"
+    },
+    {
+      "en": "I like coffee",
+      "target": "eu gosto de café",
+      "level": "a1"
+    },
+    {
+      "en": "I like Portuguese coffee",
+      "target": "eu gosto do café português",
+      "level": "a1"
+    },
+    {
+      "en": "I like counting",
+      "target": "eu gosto de contar",
+      "level": "a1"
+    },
+    {
+      "en": "I do not like",
+      "target": "eu não gosto de",
+      "level": "a1"
+    },
+    {
+      "en": "he / she does not like",
+      "target": "ele / ela não gosta de",
+      "level": "a1"
+    },
+    {
+      "en": "to ask a question",
+      "target": "fazer uma pergunta",
+      "level": "a1"
+    },
+    {
+      "en": "to answer a question",
+      "target": "responder a uma pergunta",
+      "level": "a1"
+    },
+    {
+      "en": "I like to ask questions",
+      "target": "eu gosto de perguntar",
+      "level": "a1"
+    },
+    {
+      "en": "I like to answer questions",
+      "target": "eu gosto de responder",
+      "level": "a1"
+    },
+    {
+      "en": "me",
+      "target": "me",
+      "level": "a1"
+    },
+    {
+      "en": "you",
+      "target": "te",
+      "tags": [
+        "informal",
+        "object"
+      ],
+      "targetTags": [
+        "object"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "him / it",
+      "target": "o",
+      "tags": [
+        "masc",
+        "object"
+      ],
+      "targetTags": [
+        "object"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "her / it",
+      "target": "a",
+      "tags": [
+        "fem",
+        "object"
+      ],
+      "targetTags": [
+        "object"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "us",
+      "target": "nos",
+      "level": "a1"
+    },
+    {
+      "en": "you",
+      "target": "vos",
+      "tags": [
+        "plural",
+        "object"
+      ],
+      "targetTags": [
+        "object"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "them",
+      "target": "os",
+      "tags": [
+        "masc-mixed",
+        "object"
+      ],
+      "targetTags": [
+        "object"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "them",
+      "target": "as",
+      "tags": [
+        "fem",
+        "object"
+      ],
+      "targetTags": [
+        "object"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "I love you",
+      "target": "eu amo-te",
+      "level": "a1"
+    },
+    {
+      "en": "I see him / it",
+      "target": "eu vejo-o",
+      "level": "a2"
+    },
+    {
+      "en": "I open them",
+      "target": "eu abro-as",
+      "tags": [
+        "fem"
+      ],
+      "level": "a2"
+    },
+    {
+      "en": "I help him",
+      "target": "eu ajudo-o",
+      "level": "a2"
+    },
+    {
+      "en": "I help her",
+      "target": "eu ajudo-a",
+      "level": "a2"
+    },
+    {
+      "en": "I ask them",
+      "target": "eu pergunto-as",
+      "tags": [
+        "fem"
+      ],
+      "level": "a2"
+    },
+    {
+      "en": "I call him / it",
+      "target": "eu chamo-o",
+      "level": "a2"
+    },
+    {
+      "en": "I call her",
+      "target": "eu chamo-a",
+      "level": "a2"
+    },
+    {
+      "en": "I see them",
+      "target": "eu vejo-os",
+      "level": "a2"
+    },
+    {
+      "en": "I answer them",
+      "target": "eu respondo-lhes",
+      "level": "a2"
+    },
+    {
+      "en": "I like you",
+      "target": "eu gosto de ti",
+      "level": "a1"
+    },
+    {
+      "en": "I like him",
+      "target": "eu gosto dele",
+      "level": "a1"
+    },
+    {
+      "en": "I like her",
+      "target": "eu gosto dela",
+      "level": "a1"
+    },
+    {
+      "en": "I like us",
+      "target": "eu gosto de nós",
+      "level": "a1"
+    },
+    {
+      "en": "I like you",
+      "target": "eu gosto de vocês",
+      "tags": [
+        "plural"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "I like them",
+      "target": "eu gosto deles",
+      "tags": [
+        "masc-mixed"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "I like them",
+      "target": "eu gosto delas",
+      "tags": [
+        "fem"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "to go",
+      "target": "ir",
+      "level": "a1"
+    },
+    {
+      "en": "I go",
+      "target": "eu vou",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "you go",
+      "target": "tu vais",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "he / she goes",
+      "target": "ele / ela vai",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "we go",
+      "target": "nós vamos",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "you go",
+      "target": "vocês vão",
+      "tags": [
+        "plural"
+      ],
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "they go",
+      "target": "eles / elas vão",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "I go to work by bus",
+      "target": "vou para o trabalho de autocarro",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "you come",
+      "target": "vocês vêm",
+      "tags": [
+        "plural"
+      ],
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "to leave / go out",
+      "target": "sair",
+      "level": "a1"
+    },
+    {
+      "en": "I leave / go out",
+      "target": "eu saio",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "you leave / go out",
+      "target": "tu sais",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "he / she leaves / goes out",
+      "target": "ele / ela sai",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "we leave / go out",
+      "target": "nós saímos",
+      "level": "a1"
+    },
+    {
+      "en": "you leave / go out",
+      "target": "vocês saem",
+      "tags": [
+        "plural"
+      ],
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "they leave / go out",
+      "target": "eles / elas saem",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "I sit down",
+      "target": "eu sento-me",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "you sit down",
+      "target": "tu sentas-te",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "he / she sits down",
+      "target": "ele / ela senta-se",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "we sit down",
+      "target": "nós sentamo-nos",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "you sit down",
+      "target": "vocês sentam-se",
+      "tags": [
+        "plural"
+      ],
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "they sit down",
+      "target": "eles / elas sentam-se",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "you can",
+      "target": "vocês podem",
+      "tags": [
+        "plural"
+      ],
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "can I speak Portuguese?",
+      "target": "posso falar português?",
+      "level": "a1"
+    },
+    {
+      "en": "to ask for / to order",
+      "target": "pedir",
+      "level": "a1"
+    },
+    {
+      "en": "I ask for / order",
+      "target": "eu peço",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "you ask for / order",
+      "target": "tu pedes",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "he / she asks for / orders",
+      "target": "ele / ela pede",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "we ask for / order",
+      "target": "nós pedimos",
+      "level": "a1"
+    },
+    {
+      "en": "you ask for / order",
+      "target": "vocês pedem",
+      "tags": [
+        "plural"
+      ],
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "they ask for / order",
+      "target": "eles / elas pedem",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "Portuguese people are born in Portugal",
+      "target": "os portugueses nascem em Portugal",
+      "level": "a1"
+    },
+    {
+      "en": "Brazilian people are born in Brazil",
+      "target": "os brasileiros nascem no Brasil",
+      "level": "a1"
+    },
+    {
+      "en": "in",
+      "target": "em",
+      "level": "a1"
+    },
+    {
+      "en": "from / of",
+      "target": "de",
+      "level": "a1"
+    },
+    {
+      "en": "still / yet",
+      "target": "ainda",
+      "level": "a1"
+    },
+    {
+      "en": "to / for",
+      "target": "para",
+      "level": "a1"
+    },
+    {
+      "en": "because",
+      "target": "porque",
+      "level": "a1"
+    },
+    {
+      "en": "for what / why",
+      "target": "para quê",
+      "level": "a1"
+    },
+    {
+      "en": "where to",
+      "target": "para onde",
+      "level": "a1"
+    },
+    {
+      "en": "where from",
+      "target": "de onde",
+      "level": "a1"
+    },
+    {
+      "en": "in which",
+      "target": "no qual",
+      "level": "b1"
+    },
+    {
+      "en": "in which",
+      "target": "na qual",
+      "tags": [
+        "fem"
+      ],
+      "level": "b1"
+    },
+    {
+      "en": "between",
+      "target": "entre",
+      "level": "a1"
+    },
+    {
+      "en": "from",
+      "target": "de",
+      "level": "a1"
+    },
+    {
+      "en": "from here",
+      "target": "daqui",
+      "level": "a1"
+    },
+    {
+      "en": "from there",
+      "target": "dali",
+      "level": "a1"
+    },
+    {
+      "en": "from there near you",
+      "target": "daí",
+      "level": "a1"
+    },
+    {
+      "en": "of her / hers",
+      "target": "dela",
+      "tags": [
+        "fem"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "of him / his",
+      "target": "dele",
+      "tags": [
+        "masc"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "of them / theirs",
+      "target": "delas",
+      "tags": [
+        "fem",
+        "plural"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "of them / theirs",
+      "target": "deles",
+      "tags": [
+        "masc-mixed",
+        "plural"
+      ],
+      "level": "a1"
+    },
+    {
+      "en": "from the",
+      "target": "do / da / dos / das",
+      "level": "a1"
+    },
+    {
+      "en": "in the",
+      "target": "no / na / nos / nas",
+      "level": "a1"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "European Portuguese flashcards — offline-capable PWA",
+  "description": "Portuguese and Turkish flashcards — offline-capable PWA",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

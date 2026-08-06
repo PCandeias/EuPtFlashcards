@@ -1,0 +1,239 @@
+{
+  "deck": "Adjectives & Opposites",
+  "cards": [
+    {
+      "en": "good",
+      "target": "iyi",
+      "level": "a1"
+    },
+    {
+      "en": "bad",
+      "target": "kötü",
+      "level": "a1"
+    },
+    {
+      "en": "beautiful / nice",
+      "target": "güzel",
+      "level": "a1"
+    },
+    {
+      "en": "ugly",
+      "target": "çirkin",
+      "level": "a1"
+    },
+    {
+      "en": "big",
+      "target": "büyük",
+      "level": "a1"
+    },
+    {
+      "en": "small",
+      "target": "küçük",
+      "level": "a1"
+    },
+    {
+      "en": "long / tall",
+      "target": "uzun",
+      "level": "a1"
+    },
+    {
+      "en": "short",
+      "target": "kısa",
+      "level": "a1"
+    },
+    {
+      "en": "new",
+      "target": "yeni",
+      "level": "a1"
+    },
+    {
+      "en": "old",
+      "target": "eski",
+      "level": "a1"
+    },
+    {
+      "en": "hot",
+      "target": "sıcak",
+      "level": "a1"
+    },
+    {
+      "en": "cold",
+      "target": "soğuk",
+      "level": "a1"
+    },
+    {
+      "en": "fast",
+      "target": "hızlı",
+      "level": "a1"
+    },
+    {
+      "en": "slow",
+      "target": "yavaş",
+      "level": "a1"
+    },
+    {
+      "en": "easy",
+      "target": "kolay",
+      "level": "a1"
+    },
+    {
+      "en": "difficult",
+      "target": "zor",
+      "level": "a1"
+    },
+    {
+      "en": "open / light-coloured",
+      "target": "açık",
+      "level": "a1",
+      "sense": "both senses"
+    },
+    {
+      "en": "closed",
+      "target": "kapalı",
+      "level": "a1"
+    },
+    {
+      "en": "clean",
+      "target": "temiz",
+      "level": "a1"
+    },
+    {
+      "en": "dirty",
+      "target": "kirli",
+      "level": "a1"
+    },
+    {
+      "en": "correct",
+      "target": "doğru",
+      "level": "a1"
+    },
+    {
+      "en": "happy",
+      "target": "mutlu",
+      "level": "a1"
+    },
+    {
+      "en": "sad",
+      "target": "üzgün",
+      "level": "a1"
+    },
+    {
+      "en": "tired",
+      "target": "yorgun",
+      "level": "a1"
+    },
+    {
+      "en": "hungry",
+      "target": "aç",
+      "level": "a1"
+    },
+    {
+      "en": "full",
+      "target": "tok",
+      "level": "a2",
+      "sense": "after eating"
+    },
+    {
+      "en": "young",
+      "target": "genç",
+      "level": "a2"
+    },
+    {
+      "en": "old",
+      "target": "yaşlı",
+      "level": "a1",
+      "sense": "of a person"
+    },
+    {
+      "en": "warm",
+      "target": "ılık",
+      "level": "a2"
+    },
+    {
+      "en": "full",
+      "target": "dolu",
+      "level": "a2"
+    },
+    {
+      "en": "heavy",
+      "target": "ağır",
+      "level": "a2"
+    },
+    {
+      "en": "light",
+      "target": "hafif",
+      "level": "a1",
+      "sense": "not heavy"
+    },
+    {
+      "en": "angry",
+      "target": "kızgın",
+      "level": "a2"
+    },
+    {
+      "en": "calm",
+      "target": "sakin",
+      "level": "a2"
+    },
+    {
+      "en": "ready",
+      "target": "hazır",
+      "level": "a2"
+    },
+    {
+      "en": "dangerous",
+      "target": "tehlikeli",
+      "level": "a2"
+    },
+    {
+      "en": "safe",
+      "target": "güvenli",
+      "level": "a2"
+    },
+    {
+      "en": "important",
+      "target": "önemli",
+      "level": "a1"
+    },
+    {
+      "en": "same",
+      "target": "aynı",
+      "level": "a2"
+    },
+    {
+      "en": "different",
+      "target": "farklı",
+      "level": "a2"
+    },
+    {
+      "en": "quiet",
+      "target": "sessiz",
+      "level": "a2"
+    },
+    {
+      "en": "noisy",
+      "target": "gürültülü",
+      "level": "a2"
+    },
+    {
+      "en": "dark",
+      "target": "karanlık",
+      "level": "a2"
+    },
+    {
+      "en": "bright",
+      "target": "aydınlık",
+      "level": "a2"
+    },
+    {
+      "en": "dry",
+      "target": "kuru",
+      "level": "a2"
+    },
+    {
+      "en": "wet",
+      "target": "ıslak",
+      "level": "a2"
+    }
+  ]
+}
