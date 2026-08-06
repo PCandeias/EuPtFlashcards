@@ -72,6 +72,15 @@
   let answerText = $derived(current ? (settings.direction === 'a-b' ? current.pt : current.en) : '')
   let currentState = $derived(current ? stateFor(progress, current) : undefined)
   let summary = $derived(stats(progress))
+  // The attribute drives every palette variable; the meta tag makes the iOS status
+  // bar match, which is the difference between installed and "a website".
+  $effect(() => {
+    document.documentElement.dataset.theme = settings.theme
+    const meta = document.querySelector('meta[name="theme-color"]')
+    const bar = getComputedStyle(document.documentElement).getPropertyValue('--status-bar').trim()
+    if (meta && bar) meta.setAttribute('content', bar)
+  })
+
   let currentStreak = $derived(streak(history, now))
   let recall = $derived(retention(history, 30, now))
 
@@ -233,7 +242,14 @@
   .header { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; }
   h1 { margin: 0 0 4px; font-size: clamp(24px, 4vw, 42px); line-height: 1; letter-spacing: -0.04em; }
   .sub { margin: 0; color: var(--muted); line-height: 1.4; font-size: 14px; }
-  .study { min-height: 0; display: grid; grid-template-rows: auto minmax(240px, 1fr) auto; gap: 10px; }
+  /* The card row is the only flexible one; min-height:0 lets it actually shrink
+     rather than pushing the controls off the bottom of the page. */
+  .study {
+    min-height: 0;
+    display: grid;
+    grid-template-rows: auto minmax(0, 1fr) auto auto;
+    gap: 10px;
+  }
   .meta {
     display: flex;
     justify-content: space-between;
@@ -256,7 +272,7 @@
       -webkit-box-orient: vertical;
       overflow: hidden;
     }
-    .study { grid-template-rows: auto minmax(190px, 1fr) auto; gap: 6px; }
+    .study { gap: 6px; }
     .meta { font-size: 11px; line-height: 1.2; }
   }
   @media (max-width: 420px) {

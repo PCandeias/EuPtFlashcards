@@ -48,12 +48,12 @@
     padding: 0;
     margin-top: 12px;
     color: var(--accent);
-    border-color: rgba(56, 189, 248, 0.45);
-    background: rgba(56, 189, 248, 0.12);
+    border-color: var(--accent-line);
+    background: var(--accent-soft);
   }
   .warning {
     margin: 8px 0 0;
-    color: #fbbf24;
+    color: var(--warn);
     font-size: 11px;
     font-weight: 600;
     text-align: center;

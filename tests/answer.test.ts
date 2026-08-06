@@ -42,6 +42,12 @@ describe('alternatives', () => {
   it('still rejects a form that is not offered', () => {
     expect(checkAnswer('obrigade', 'obrigado / obrigada').verdict).toBe('wrong')
   })
+
+  // The card shows "um / uma"; typing that back is reproducing what is on it.
+  it('accepts the card typed back verbatim, alternatives and all', () => {
+    expect(checkAnswer('um / uma', 'um / uma').verdict).toBe('correct')
+    expect(checkAnswer('UM / UMA', 'um / uma').verdict).toBe('correct')
+  })
 })
 
 describe('accents', () => {

@@ -67,6 +67,12 @@ export function checkAnswer(input: string, expected: string): AnswerCheck {
     if (normalise(option) === typed) return { verdict: 'correct', expected: option }
   }
 
+  // Typing the card back verbatim, alternatives and all — "um / uma" — is
+  // reproducing exactly what is shown, so it counts.
+  if (options.length > 1 && normalise(expected) === typed) {
+    return { verdict: 'correct', expected }
+  }
+
   // Right word, wrong accents. Accepted, but the correct spelling is shown —
   // silently accepting it would let `avô` and `avó` blur together.
   for (const option of options) {

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { Direction, Settings } from '../lib/storage/progress.js'
+  import { THEMES, THEME_LABELS, type Direction, type Settings, type Theme } from '../lib/storage/progress.js'
 
   let {
     settings, deckOptions, typing, onchange, onshuffle, onreset, ontoggletyping,
@@ -36,6 +36,17 @@
     <option value="b-a">Portuguese · Portugal → English</option>
   </select>
 
+  <select
+    id="themeSelect"
+    aria-label="Theme"
+    value={settings.theme}
+    onchange={(e) => onchange({ theme: e.currentTarget.value as Theme })}
+  >
+    {#each THEMES as theme (theme)}
+      <option value={theme}>{THEME_LABELS[theme]}</option>
+    {/each}
+  </select>
+
   <button
     id="typeBtn"
     class:primary={typing}
@@ -50,7 +61,7 @@
 <style>
   .topbar {
     display: grid;
-    grid-template-columns: minmax(160px, 1fr) minmax(180px, 240px) auto auto auto;
+    grid-template-columns: minmax(150px, 1fr) minmax(170px, 230px) minmax(96px, 120px) auto auto auto;
     gap: 8px;
     align-items: center;
   }
@@ -63,7 +74,11 @@
   @media (max-width: 420px) {
     .topbar { grid-template-columns: 1fr; }
   }
+  /* These used to be hidden on short screens to claw back vertical space. The
+     card now absorbs the slack instead, and hiding them would put the typing
+     toggle out of reach entirely. */
   @media (max-height: 700px) and (max-width: 760px) {
-    .topbar button { display: none; }
+    .topbar button { min-height: 34px; font-size: 12px; padding: 4px 8px; }
+    select { min-height: 34px; }
   }
 </style>

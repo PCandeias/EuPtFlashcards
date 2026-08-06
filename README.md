@@ -58,6 +58,33 @@ queue rather than rebuilding the queue from what is currently due — otherwise 
 answer would reshuffle the deck and reset your position. A card you rate *Again* is
 pushed back a few places so it returns before you finish.
 
+## Themes
+
+Two complete palettes, picked in the toolbar and remembered:
+
+- **Slate** — the original cool dark.
+- **Azulejo** — deep tile blue on cream, with terracotta. Light, so it is also the
+  readable one outdoors.
+
+They are separate looks rather than a light/dark pair of one design, which is why
+the choice is explicit rather than taken from the system setting. Every colour a
+component uses is a variable in [`src/styles/tokens.css`](src/styles/tokens.css),
+including per-theme badge colours — a hue that highlights on near-black disappears
+on cream. Adding a third palette means adding a block there, not editing
+components.
+
+The installed app's status bar follows the theme too.
+
+## Layout
+
+The card is sized by the CSS grid, not by arithmetic. It used to be
+`calc(100svh - 300px)` with viewport-height caps — guesses at the surrounding
+chrome that broke twice when a row was added. The study row is now the only
+flexible one and is allowed to shrink, so the page fits by construction. There are
+tests asserting no overflow from 320×568 up to 1280×900, in both study modes.
+
+Motion is kept under 200ms and honours `prefers-reduced-motion`.
+
 ## Study modes
 
 **Flip** reveals the answer. **Typing** asks you to write it, which tests recall

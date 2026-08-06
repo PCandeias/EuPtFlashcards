@@ -1,67 +1,198 @@
-/* Ported unchanged from the single-file app. Stage 4 is where the redesign lives. */
-:root {
-  --bg:#0f172a; --panel:#111827; --panel2:#1f2937; --text:#e5e7eb; --muted:#94a3b8;
-  --accent:#38bdf8; --good:#22c55e; --bad:#fb7185; --border:rgba(148,163,184,.24);
-}
-* { box-sizing:border-box; }
-html, body {
-  margin:0;
-  min-height:100%;
-  background:var(--bg);
-  color:var(--text);
-  font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-}
-body {
-  background:
-    radial-gradient(circle at top left, rgba(56,189,248,.18), transparent 24rem),
-    radial-gradient(circle at bottom right, rgba(34,197,94,.10), transparent 26rem),
-    var(--bg);
+/**
+ * Themes.
+ *
+ * Two complete palettes, chosen in settings rather than derived from the system,
+ * because they are not a light/dark pair of the same design — they are different
+ * looks. Slate is the original cool dark; Azulejo takes its cue from Portuguese
+ * tilework: deep blue on cream, with terracotta.
+ *
+ * Every colour a component needs is declared here. Components reference variables
+ * only, so adding a third palette never means hunting through .svelte files.
+ */
+
+:root,
+[data-theme='slate'] {
+  --bg: #0f172a;
+  --panel: rgba(17, 24, 39, 0.72);
+  --surface: rgba(15, 23, 42, 0.86);
+  --surface-strong: rgba(15, 23, 42, 0.92);
+  --text: #e5e7eb;
+  --muted: #94a3b8;
+  --accent: #38bdf8;
+  --accent-soft: rgba(56, 189, 248, 0.16);
+  --accent-line: rgba(56, 189, 248, 0.55);
+  --good: #22c55e;
+  --good-soft: rgba(34, 197, 94, 0.15);
+  --good-line: rgba(34, 197, 94, 0.55);
+  --bad: #fb7185;
+  --bad-soft: rgba(251, 113, 133, 0.14);
+  --bad-line: rgba(251, 113, 133, 0.55);
+  --warn: #fbbf24;
+  --warn-soft: rgba(251, 191, 36, 0.12);
+  --warn-line: rgba(251, 191, 36, 0.5);
+  --border: rgba(148, 163, 184, 0.24);
+
+  --face-bg: linear-gradient(145deg, rgba(30, 41, 59, 0.98), rgba(15, 23, 42, 0.98));
+  --face-shadow: 0 20px 60px rgba(0, 0, 0, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  --page-glow:
+    radial-gradient(circle at top left, rgba(56, 189, 248, 0.18), transparent 24rem),
+    radial-gradient(circle at bottom right, rgba(34, 197, 94, 0.1), transparent 26rem);
+
+  --badge-bg: rgba(15, 23, 42, 0.55);
+  --badge-gender: #2dd4bf;
+  --badge-gender-f: #fb7185;
+  --badge-number: #38bdf8;
+  --badge-informal: #fbbf24;
+  --badge-formal: #a78bfa;
+  --badge-role: #94a3b8;
+
+  --status-bar: #0f172a;
 }
 
-select, button { font:inherit; }
+/**
+ * Azulejo — deep tile blue on cream, terracotta for warmth.
+ *
+ * Light rather than dark, which also makes it the readable option outdoors. The
+ * accents are darkened well past their Slate counterparts: a colour that reads as
+ * a highlight on near-black is close to invisible on cream.
+ */
+[data-theme='azulejo'] {
+  --bg: #f7f3ec;
+  --panel: rgba(255, 255, 255, 0.78);
+  --surface: rgba(255, 255, 255, 0.86);
+  --surface-strong: #ffffff;
+  --text: #16283f;
+  --muted: #6a7c92;
+  --accent: #1c5c96;
+  --accent-soft: rgba(28, 92, 150, 0.12);
+  --accent-line: rgba(28, 92, 150, 0.45);
+  --good: #2c7a5b;
+  --good-soft: rgba(44, 122, 91, 0.14);
+  --good-line: rgba(44, 122, 91, 0.45);
+  --bad: #b4462f;
+  --bad-soft: rgba(180, 70, 47, 0.12);
+  --bad-line: rgba(180, 70, 47, 0.42);
+  --warn: #a05a12;
+  --warn-soft: rgba(160, 90, 18, 0.12);
+  --warn-line: rgba(160, 90, 18, 0.4);
+  --border: rgba(28, 92, 150, 0.22);
+
+  --face-bg: linear-gradient(150deg, #ffffff, #f3ece1);
+  --face-shadow: 0 18px 44px rgba(22, 40, 63, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  --page-glow:
+    radial-gradient(circle at top left, rgba(28, 92, 150, 0.12), transparent 24rem),
+    radial-gradient(circle at bottom right, rgba(180, 70, 47, 0.1), transparent 26rem);
+
+  --badge-bg: rgba(255, 255, 255, 0.82);
+  --badge-gender: #0f6f6a;
+  --badge-gender-f: #a8324a;
+  --badge-number: #1c5c96;
+  --badge-informal: #96590f;
+  --badge-formal: #5a3aa8;
+  --badge-role: #5b6d84;
+
+  --status-bar: #f7f3ec;
+}
+
+/* Under 200ms throughout: this is drilled dozens of times a session, so motion
+   has to confirm an action rather than make you wait for one. */
+:root {
+  --t-fast: 90ms;
+  --t-base: 140ms;
+  --t-flip: 180ms;
+  --ease: cubic-bezier(0.2, 0, 0.2, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --t-fast: 0ms;
+    --t-base: 0ms;
+    --t-flip: 0ms;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  min-height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--page-glow), var(--bg);
+  transition: background-color var(--t-base) var(--ease), color var(--t-base) var(--ease);
+}
+
+select, button, input { font: inherit; color: var(--text); }
+
 select {
-  width:100%;
-  min-height:44px;
-  padding:8px 10px;
-  border:1px solid var(--border);
-  border-radius:12px;
-  color:var(--text);
-  background:rgba(15,23,42,.92);
+  width: 100%;
+  min-height: 44px;
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface-strong);
+  transition: border-color var(--t-fast) var(--ease);
 }
+
 button {
-  min-height:44px;
-  padding:8px 12px;
-  border:1px solid var(--border);
-  border-radius:12px;
-  color:var(--text);
-  background:rgba(15,23,42,.86);
-  cursor:pointer;
+  min-height: 44px;
+  padding: 8px 14px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface);
+  cursor: pointer;
+  transition:
+    transform var(--t-fast) var(--ease),
+    background-color var(--t-fast) var(--ease),
+    border-color var(--t-fast) var(--ease);
 }
-button:active { transform:translateY(1px); }
-.primary { border-color:rgba(56,189,248,.55); background:rgba(56,189,248,.16); }
-.good { border-color:rgba(34,197,94,.55); background:rgba(34,197,94,.15); }
-.bad { border-color:rgba(251,113,133,.55); background:rgba(251,113,133,.14); }
+
+button:hover { border-color: var(--accent-line); }
+button:active { transform: translateY(1px); }
+
+/* Visible focus, but only for keyboard users. */
+:where(button, select, input):focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.primary { border-color: var(--accent-line); background: var(--accent-soft); color: var(--accent); }
+.good { border-color: var(--good-line); background: var(--good-soft); }
+.bad { border-color: var(--bad-line); background: var(--bad-soft); }
 
 /* Installed on iOS the app runs under the notch and home indicator. */
 .app {
-  min-height:100svh;
-  width:min(1080px, 100%);
-  margin:0 auto;
-  padding:16px;
-  padding-top:calc(16px + env(safe-area-inset-top));
-  padding-bottom:calc(16px + env(safe-area-inset-bottom));
-  padding-left:calc(16px + env(safe-area-inset-left));
-  padding-right:calc(16px + env(safe-area-inset-right));
-  display:grid;
-  grid-template-rows:auto auto 1fr auto;
-  gap:12px;
+  height: 100svh;
+  width: min(1080px, 100%);
+  margin: 0 auto;
+  padding: 16px;
+  padding-top: calc(16px + env(safe-area-inset-top));
+  padding-bottom: calc(16px + env(safe-area-inset-bottom));
+  padding-left: calc(16px + env(safe-area-inset-left));
+  padding-right: calc(16px + env(safe-area-inset-right));
+  display: grid;
+  /* The study row is the only flexible one; everything else takes what it needs.
+     min-height:0 lets it actually shrink instead of overflowing the page. */
+  grid-template-rows: auto auto minmax(0, 1fr) auto;
+  gap: 12px;
 }
 
-@media (max-width:760px) {
+@media (max-width: 760px) {
   .app {
-    padding:8px;
-    padding-top:calc(8px + env(safe-area-inset-top));
-    padding-bottom:calc(8px + env(safe-area-inset-bottom));
-    gap:8px;
+    padding: 8px;
+    padding-top: calc(8px + env(safe-area-inset-top));
+    padding-bottom: calc(8px + env(safe-area-inset-bottom));
+    gap: 8px;
   }
+  select { min-height: 40px; font-size: 16px; }
 }

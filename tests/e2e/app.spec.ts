@@ -273,7 +273,11 @@ test.describe('typing mode', () => {
     await page.selectOption('#deckSelect', 'Numbers')
     await page.click('#typeBtn')
 
-    const answer = (await page.locator('.face.back .word').textContent())!.trim()
+    // The word's own text node: textContent would also pick up any badge pill.
+    const answer = await page.evaluate(() =>
+      document.querySelector('.face.back .word')?.childNodes[0]?.textContent?.trim() ?? '')
+    expect(answer).not.toBe('')
+
     await page.fill('#answerInput', answer)
     await page.click('#checkBtn')
 
@@ -418,5 +422,91 @@ test.describe('review history', () => {
       buffer: Buffer.from(JSON.stringify(backup)),
     })
     await expect(page.locator('#streakCount')).toHaveText('1')
+  })
+})
+
+test.describe('themes', () => {
+  test('defaults to Slate and applies it to the document', async ({ page }) => {
+    await page.goto('./')
+    await page.evaluate(() => localStorage.clear())
+    await page.reload()
+    await expect(page.locator('html')).toHaveAttribute('data-theme', 'slate')
+    await expect(page.locator('#themeSelect')).toHaveValue('slate')
+  })
+
+  test('switching repaints the whole app, badges included', async ({ page }) => {
+    await page.goto('./')
+    const read = () => page.evaluate(() => {
+      const style = getComputedStyle(document.documentElement)
+      return {
+        bg: style.getPropertyValue('--bg').trim(),
+        badge: style.getPropertyValue('--badge-number').trim(),
+        theme: document.documentElement.dataset.theme,
+      }
+    })
+
+    const slate = await read()
+    await page.selectOption('#themeSelect', 'azulejo')
+    const azulejo = await read()
+
+    expect(azulejo.theme).toBe('azulejo')
+    expect(azulejo.bg).not.toBe(slate.bg)
+    // Badge colours are per theme: a highlight on near-black vanishes on cream.
+    expect(azulejo.badge).not.toBe(slate.badge)
+  })
+
+  test('keeps the iOS status bar in step with the theme', async ({ page }) => {
+    await page.goto('./')
+    await page.selectOption('#themeSelect', 'azulejo')
+    const light = await page.getAttribute('meta[name="theme-color"]', 'content')
+    await page.selectOption('#themeSelect', 'slate')
+    const dark = await page.getAttribute('meta[name="theme-color"]', 'content')
+    expect(light).not.toBe(dark)
+  })
+
+  test('survives a reload', async ({ page }) => {
+    await page.goto('./')
+    await page.selectOption('#themeSelect', 'azulejo')
+    await page.reload()
+    await expect(page.locator('html')).toHaveAttribute('data-theme', 'azulejo')
+    await expect(page.locator('#themeSelect')).toHaveValue('azulejo')
+  })
+
+  test('falls back to Slate rather than writing junk into the document', async ({ page }) => {
+    await page.goto('./')
+    await page.evaluate(() => {
+      localStorage.setItem('eupt:v4:settings',
+        JSON.stringify({ deck: 'All', direction: 'a-b', theme: 'neon' }))
+    })
+    await page.reload()
+    await expect(page.locator('html')).toHaveAttribute('data-theme', 'slate')
+  })
+})
+
+test.describe('layout', () => {
+  // The card used to be sized by calc(100svh - 300px); adding a single row broke
+  // it twice. The grid now guarantees the fit, so this is the regression guard.
+  for (const [width, height] of [[1280, 900], [768, 1024], [390, 844], [360, 740], [320, 568]]) {
+    test(`fits ${width}x${height} in both study modes`, async ({ page }) => {
+      await page.setViewportSize({ width: width!, height: height! })
+      await page.goto('./')
+      await expect(page.locator('.card')).toBeVisible()
+
+      const flip = await page.evaluate(() => document.documentElement.scrollHeight)
+      expect(flip, 'flip mode should not overflow').toBeLessThanOrEqual(height!)
+
+      await page.click('#typeBtn')
+      await expect(page.locator('#answerInput')).toBeVisible()
+      const typing = await page.evaluate(() => document.documentElement.scrollHeight)
+      expect(typing, 'typing mode should not overflow').toBeLessThanOrEqual(height!)
+    })
+  }
+
+  test('keeps the mode toggle reachable on a short screen', async ({ page }) => {
+    // It used to be hidden below 700px tall, which put typing entirely out of reach.
+    await page.setViewportSize({ width: 320, height: 568 })
+    await page.goto('./')
+    await expect(page.locator('#typeBtn')).toBeVisible()
+    await expect(page.locator('#shuffleBtn')).toBeVisible()
   })
 })

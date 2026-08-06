@@ -2,7 +2,7 @@
   import Badge from './Badge.svelte'
   import SpeakButton from './SpeakButton.svelte'
   import { badgesFor, hintFor } from '../lib/render/tags.js'
-  import type { Card } from '../lib/cards/schema.js'
+  import { cardId, type Card } from '../lib/cards/schema.js'
   import type { Direction } from '../lib/storage/progress.js'
 
   let {
@@ -24,6 +24,21 @@
   let backSide = $derived(direction === 'a-b' ? ('pt' as const) : ('en' as const))
   let frontLabel = $derived(direction === 'a-b' ? OTHER_LABEL : LANG_LABEL)
   let backLabel = $derived(direction === 'a-b' ? LANG_LABEL : OTHER_LABEL)
+
+  let faces = $derived([
+    {
+      side: frontSide, label: frontLabel, face: 'front',
+      note: 'Tap to flip · swipe left/right to move',
+    },
+    {
+      side: backSide, label: backLabel, face: 'back',
+      note: 'Grade it to schedule the next review',
+    },
+  ])
+
+  // Re-keying on the card fades the new one in; without it the text swaps
+  // instantly and reads as a glitch rather than a change.
+  let key = $derived(cardId(card))
 
   // Swipe: horizontal intent only, so vertical scrolling still works.
   let startX = 0
@@ -59,11 +74,10 @@
   }
 </script>
 
-<div class="cardwrap">
+<div class="cardwrap" class:compact>
   <div
     class="card"
     class:flipped
-    class:compact
     role="button"
     tabindex="0"
     aria-label="Flashcard, activate to flip"
@@ -71,74 +85,108 @@
     onpointerup={onPointerUp}
     onkeydown={(e) => { if (e.key === 'Enter') onflip() }}
   >
-    {#each [{ side: frontSide, label: frontLabel, face: 'front', note: 'Tap to flip · swipe left/right to move' }, { side: backSide, label: backLabel, face: 'back', note: 'Grade it to schedule the next review' }] as f (f.face)}
+    {#each faces as f (f.face)}
       <section class="face {f.face}">
-        <div class="label">{f.label}</div>
-        <div class="word">
-          {card[f.side]}
-          {#if badgesFor(card, f.side).length}
-            <span class="badges">
-              {#each badgesFor(card, f.side) as spec (spec.tag)}
-                <Badge {spec} />
-              {/each}
-            </span>
-          {/if}
-        </div>
-        {#if hintFor(card, f.side)}
-          <div class="hint">{hintFor(card, f.side)}</div>
-        {/if}
-        <!-- Only the Portuguese: hearing the English back teaches nothing. -->
-        {#if f.side === 'pt'}
-          <SpeakButton text={card.pt} />
-        {/if}
-        <div class="note">{f.note}</div>
+        {#key key}
+          <div class="content">
+            <div class="label">{f.label}</div>
+            <div class="word">
+              {card[f.side]}
+              {#if badgesFor(card, f.side).length}
+                <span class="badges">
+                  {#each badgesFor(card, f.side) as spec (spec.tag)}
+                    <Badge {spec} />
+                  {/each}
+                </span>
+              {/if}
+            </div>
+            {#if hintFor(card, f.side)}
+              <div class="hint">{hintFor(card, f.side)}</div>
+            {/if}
+            <!-- Only the Portuguese: hearing the English back teaches nothing. -->
+            {#if f.side === 'pt'}
+              <SpeakButton text={card.pt} />
+            {/if}
+            <div class="note">{f.note}</div>
+          </div>
+        {/key}
       </section>
     {/each}
   </div>
 </div>
 
 <style>
-  .cardwrap { perspective: 1400px; min-height: 0; }
+  /*
+   * The card fills whatever the grid gives it. It used to be sized by
+   * calc(100svh - 300px) with svh caps — guesses at the surrounding chrome that
+   * broke every time a row was added, and did twice.
+   */
+  .cardwrap {
+    perspective: 1400px;
+    min-height: 0;
+    height: 100%;
+  }
+  /* Purely proportion: on a large screen a full-height card leaves the word
+     stranded in an empty field. Safe to cap, because the grid — not this — is
+     what guarantees the page fits. */
+  @media (min-width: 761px) {
+    .cardwrap { max-height: 480px; align-self: center; }
+  }
   .card {
     height: 100%;
-    min-height: 300px;
+    min-height: 140px;
     position: relative;
     transform-style: preserve-3d;
-    transition: transform 0.32s ease;
+    transition: transform var(--t-flip) var(--ease);
     touch-action: pan-y;
     cursor: pointer;
   }
   .card.flipped { transform: rotateY(180deg); }
+
   .face {
     position: absolute;
     inset: 0;
+    display: grid;
+    place-items: center;
+    padding: 28px;
+    border: 1px solid var(--border);
+    border-radius: 26px;
+    background: var(--face-bg);
+    backface-visibility: hidden;
+    box-shadow: var(--face-shadow);
+    overflow: hidden;
+  }
+  .back { transform: rotateY(180deg); }
+
+  .content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 28px;
-    border: 1px solid var(--border);
-    border-radius: 26px;
-    background: linear-gradient(145deg, rgba(30, 41, 59, 0.98), rgba(15, 23, 42, 0.98));
-    backface-visibility: hidden;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+    max-width: 100%;
+    animation: rise var(--t-base) var(--ease);
   }
-  .back { transform: rotateY(180deg); }
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(4px); }
+    to { opacity: 1; transform: none; }
+  }
+
   .label {
     color: var(--accent);
     text-transform: uppercase;
-    letter-spacing: 0.14em;
-    font-size: 12px;
+    letter-spacing: 0.16em;
+    font-size: 11px;
     font-weight: 800;
-    margin-bottom: 16px;
+    margin-bottom: 18px;
   }
   .word {
-    font-size: clamp(32px, 7vw, 72px);
-    line-height: 1.08;
+    font-size: clamp(30px, 6.5vw, 68px);
+    line-height: 1.06;
     text-align: center;
     font-weight: 800;
-    letter-spacing: -0.04em;
+    letter-spacing: -0.035em;
     overflow-wrap: anywhere;
+    text-wrap: balance;
   }
   /* Badges ride at the top-right of the word, never inside it. */
   .badges {
@@ -152,35 +200,23 @@
     color: var(--muted);
     font-size: clamp(12px, 2.2vw, 15px);
     font-weight: 600;
-    margin-top: 12px;
+    margin-top: 14px;
     text-align: center;
     letter-spacing: 0;
   }
-  .note { color: var(--muted); font-size: 13px; margin-top: 16px; text-align: center; }
+  .note { color: var(--muted); font-size: 12px; margin-top: 18px; text-align: center; }
 
-  /* The offsets subtract the surrounding chrome from the viewport. The backup row
-     is new in this version, so it is subtracted too — otherwise the card grows by
-     its height and pushes Known/Again further off screen. */
   @media (max-width: 760px) {
-    .card { min-height: 0; height: calc(100svh - 328px); max-height: 48svh; }
     .face { padding: 16px; border-radius: 20px; }
-    .label { font-size: 10px; margin-bottom: 10px; }
-    .word { font-size: clamp(26px, 10vw, 48px); letter-spacing: -0.025em; }
-    .badges { gap: 3px; margin-left: 0.14em; }
+    .label { font-size: 10px; margin-bottom: 10px; letter-spacing: 0.14em; }
+    .word { font-size: clamp(24px, 9vw, 46px); letter-spacing: -0.02em; }
+    .badges { gap: 3px; }
     .hint { font-size: 12px; margin-top: 8px; }
     .note { font-size: 11px; margin-top: 10px; }
   }
-  @media (max-width: 760px) {
-    .card.compact { max-height: 42svh; }
-  }
-  @media (max-width: 420px) {
-    .card { height: calc(100svh - 300px); max-height: 47svh; }
-    .card.compact { max-height: 42svh; }
-  }
-  /* Short screens drop the static instruction but never the hint, which the
-     card cannot be answered without. */
+  /* On a short screen the static instruction goes, but never the hint — the card
+     cannot be answered without it. */
   @media (max-height: 700px) and (max-width: 760px) {
-    .card { height: calc(100svh - 256px); max-height: 54svh; }
     .note { display: none; }
   }
 </style>

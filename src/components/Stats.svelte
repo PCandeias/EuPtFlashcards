@@ -56,7 +56,7 @@
   .stat {
     min-width: 68px;
     padding: 8px 10px;
-    background: rgba(17, 24, 39, 0.72);
+    background: var(--panel);
     border: 1px solid var(--border);
     border-radius: 14px;
   }

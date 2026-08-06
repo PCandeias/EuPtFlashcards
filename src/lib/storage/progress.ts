@@ -41,12 +41,26 @@ export const KEYS = {
 
 export type Direction = 'a-b' | 'b-a'
 
+/**
+ * Two complete palettes rather than a light/dark pair: Slate is the original cool
+ * dark, Azulejo is deep tile blue on cream. Chosen explicitly, because they are
+ * different looks rather than two renderings of one.
+ */
+export const THEMES = ['slate', 'azulejo'] as const
+export type Theme = (typeof THEMES)[number]
+
+export const THEME_LABELS: Record<Theme, string> = {
+  slate: 'Slate',
+  azulejo: 'Azulejo',
+}
+
 export interface Settings {
   deck: string
   direction: Direction
+  theme: Theme
 }
 
-export const DEFAULT_SETTINGS: Settings = { deck: 'All', direction: 'a-b' }
+export const DEFAULT_SETTINGS: Settings = { deck: 'All', direction: 'a-b', theme: 'slate' }
 
 function readJson(storage: StorageLike, key: string): unknown {
   const raw = storage.getItem(key)
@@ -104,6 +118,7 @@ export function sanitizeSettings(value: unknown): Settings {
     direction: v.direction === 'a-b' || v.direction === 'b-a'
       ? v.direction
       : DEFAULT_SETTINGS.direction,
+    theme: THEMES.includes(v.theme as Theme) ? (v.theme as Theme) : DEFAULT_SETTINGS.theme,
   }
 }
 

@@ -58,13 +58,14 @@
     padding: 6px 4px;
   }
   .rating .label { font-weight: 700; }
-  .rating .interval { font-size: 11px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .rating .interval { font-size: 11px; opacity: 0.75; font-variant-numeric: tabular-nums; }
 
   /* Red through green, so the cost of each answer reads at a glance. */
-  .again { border-color: rgba(251, 113, 133, 0.55); background: rgba(251, 113, 133, 0.14); }
-  .hard  { border-color: rgba(251, 191, 36, 0.5);  background: rgba(251, 191, 36, 0.12); }
-  .good  { border-color: rgba(56, 189, 248, 0.5);  background: rgba(56, 189, 248, 0.14); }
-  .easy  { border-color: rgba(34, 197, 94, 0.55);  background: rgba(34, 197, 94, 0.15); }
+  .again { border-color: var(--bad-line);    background: var(--bad-soft);    color: var(--bad); }
+  .hard  { border-color: var(--warn-line);   background: var(--warn-soft);   color: var(--warn); }
+  .good  { border-color: var(--accent-line); background: var(--accent-soft); color: var(--accent); }
+  .easy  { border-color: var(--good-line);   background: var(--good-soft);   color: var(--good); }
+  .rating:active { transform: scale(0.97); }
 
   @media (max-width: 760px) {
     .controls { gap: 6px; }

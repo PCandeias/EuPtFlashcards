@@ -64,7 +64,7 @@
     font: inherit;
     font-size: 16px; /* under 16px iOS zooms the page on focus */
     color: var(--text);
-    background: rgba(15, 23, 42, 0.92);
+    background: var(--surface-strong);
     border: 1px solid var(--border);
     border-radius: 12px;
   }
@@ -76,7 +76,7 @@
     text-align: center;
   }
   .correct { color: var(--good); }
-  .almost { color: #fbbf24; }
+  .almost { color: var(--warn); }
   .wrong { color: var(--bad); }
 
   @media (max-width: 760px) {

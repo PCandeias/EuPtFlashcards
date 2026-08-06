@@ -160,7 +160,7 @@ describe('runMigration', () => {
     store.setItem(LEGACY_KEYS.deck, 'Class')
     store.setItem(LEGACY_KEYS.direction, 'b-a')
     runMigration(store, CARDS)
-    expect(loadSettings(store)).toEqual({ deck: 'Class', direction: 'b-a' })
+    expect(loadSettings(store)).toMatchObject({ deck: 'Class', direction: 'b-a' })
   })
 
   it('stamps the flag even with nothing to migrate, so it never reruns', () => {
@@ -203,14 +203,23 @@ describe('settings', () => {
   })
 
   it('round-trips', () => {
-    saveSettings(store, { deck: 'Numbers', direction: 'b-a' })
-    expect(loadSettings(store)).toEqual({ deck: 'Numbers', direction: 'b-a' })
+    saveSettings(store, { deck: 'Numbers', direction: 'b-a', theme: 'azulejo' })
+    expect(loadSettings(store)).toEqual({ deck: 'Numbers', direction: 'b-a', theme: 'azulejo' })
+  })
+
+  it('defaults to the original palette', () => {
+    expect(loadSettings(store).theme).toBe('slate')
+  })
+
+  it('rejects an unknown theme rather than writing it into the document', () => {
+    store.setItem(KEYS.settings, JSON.stringify({ deck: 'All', direction: 'a-b', theme: 'neon' }))
+    expect(loadSettings(store).theme).toBe('slate')
   })
 })
 
 describe('backup', () => {
   const progress: Progress = { 'D::a::b': { ...newState(), interval: 6, reps: 2, reviews: 4 } }
-  const settings = { deck: 'Class', direction: 'b-a' as const }
+  const settings = { deck: 'Class', direction: 'b-a' as const, theme: 'azulejo' as const }
 
   it('round-trips', () => {
     const file = buildBackup(progress, settings, '2026-08-06T00:00:00.000Z')

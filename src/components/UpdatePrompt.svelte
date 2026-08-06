@@ -27,8 +27,8 @@
     padding: 10px 12px;
     border: 1px solid var(--border);
     border-radius: 14px;
-    background: rgba(17, 24, 39, 0.96);
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+    background: var(--surface-strong);
+    box-shadow: var(--face-shadow);
     font-size: 13px;
   }
   .update button { min-height: 34px; padding: 4px 10px; font-size: 13px; }
