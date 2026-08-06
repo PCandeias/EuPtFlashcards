@@ -6,6 +6,7 @@
   import Stats from './components/Stats.svelte'
   import BackupBar from './components/BackupBar.svelte'
   import SettingsPanel from './components/SettingsPanel.svelte'
+  import ResetDialog from './components/ResetDialog.svelte'
   import UpdatePrompt from './components/UpdatePrompt.svelte'
   import TypeAnswer from './components/TypeAnswer.svelte'
 
@@ -41,6 +42,7 @@
   let typing = $state(false)
   let conjugating = $state(false)
   let settingsOpen = $state(false)
+  let resetOpen = $state(false)
   let backupMessage = $state('')
 
   const counts = deckCounts()
@@ -221,6 +223,7 @@
     onchange={changeSettings}
     onshuffle={newSession}
     ontoggletyping={toggleTyping}
+    onreset={() => { resetOpen = true }}
     onsettings={() => { settingsOpen = true }}
   />
 
@@ -283,12 +286,17 @@
   <SettingsPanel
     open={settingsOpen}
     {settings}
-    deckLabel={settings.deck}
     onchange={changeSettings}
     onclose={() => { settingsOpen = false }}
     onexport={exportBackup}
     onimport={importBackup}
-    onreset={resetDeck}
+  />
+
+  <ResetDialog
+    open={resetOpen}
+    deckLabel={settings.deck}
+    onconfirm={() => { resetDeck(); resetOpen = false }}
+    onclose={() => { resetOpen = false }}
   />
 
   <UpdatePrompt />

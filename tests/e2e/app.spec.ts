@@ -57,7 +57,7 @@ test('loads the full corpus', async ({ page }) => {
   await page.goto('./')
   await expect(page.locator('.card')).toBeVisible()
   await expect(page.locator('h1')).toContainText('European Portuguese')
-  await expect(page.locator('#totalCount')).toHaveText('1853')
+  await expect(page.locator('#totalCount')).toHaveText('1852')
 })
 
 test('renders a plural badge on the English face and none on the Portuguese', async ({ page }) => {
@@ -89,9 +89,7 @@ test('renders a sense hint as its own line, not inside the word', async ({ page 
 
 test('shows badges on the English face when Portuguese leads', async ({ page }) => {
   await page.goto('./')
-  await openSettings(page)
   await page.selectOption('#directionSelect', 'b-a')
-  await closeSettings(page)
   await findCard(page, { deck: 'Class', front: 'vocês vêm', back: 'you come' })
   await expect(page.locator('.face.front .badge')).toHaveCount(0)
   await expect(page.locator('.face.back .badge')).toHaveText(['PL'])
@@ -236,25 +234,20 @@ test('reset clears progress for the selected deck only', async ({ page }) => {
   await page.click('#goodBtn')
   await expect(page.locator('#learnedCount')).toHaveText('2')
 
-  await openSettings(page)
   await page.click('#resetBtn')
   // Wiping study history asks first.
   await page.click('#resetConfirmBtn')
-  await closeSettings(page)
   // Only the Class card is cleared; the Numbers one survives.
   await expect(page.locator('#learnedCount')).toHaveText('1')
 })
 
 test('settings survive a reload', async ({ page }) => {
   await page.goto('./')
-  await openSettings(page)
   await page.selectOption('#directionSelect', 'b-a')
-  await closeSettings(page)
   await page.selectOption('#deckSelect', 'Numbers')
 
   await page.reload()
   await expect(page.locator('#deckSelect')).toHaveValue('Numbers')
-  await openSettings(page)
   await expect(page.locator('#directionSelect')).toHaveValue('b-a')
 })
 
@@ -551,12 +544,38 @@ test.describe('layout', () => {
     })
   }
 
-  test('keeps the mode toggle reachable on a short screen', async ({ page }) => {
-    // It used to be hidden below 700px tall, which put typing entirely out of reach.
+  // Every control must be reachable on the smallest phone, not merely present in
+  // the DOM: the toolbar has six controls and used to stack them off the screen.
+  for (const [width, height] of [[320, 568], [375, 667], [390, 844]]) {
+    test(`keeps every control on screen at ${width}x${height}`, async ({ page }) => {
+      await page.setViewportSize({ width: width!, height: height! })
+      await page.goto('./')
+      await expect(page.locator('.card')).toBeVisible()
+
+      const ids = [
+        'deckSelect', 'directionSelect', 'typeBtn', 'shuffleBtn', 'resetBtn',
+        'settingsBtn', 'prevBtn', 'flipBtn', 'nextBtn',
+        'againBtn', 'hardBtn', 'goodBtn', 'easyBtn',
+      ]
+      const offscreen = await page.evaluate((ids) => ids.filter((id) => {
+        const el = document.getElementById(id)
+        if (!el) return true
+        const r = el.getBoundingClientRect()
+        return r.width === 0 || r.height === 0 || r.bottom > innerHeight || r.right > innerWidth
+      }), ids)
+      expect(offscreen, 'controls pushed off screen').toEqual([])
+    })
+  }
+
+  test('the settings sheet stays on screen on a phone', async ({ page }) => {
     await page.setViewportSize({ width: 320, height: 568 })
     await page.goto('./')
-    await expect(page.locator('#typeBtn')).toBeVisible()
-    await expect(page.locator('#shuffleBtn')).toBeVisible()
+    await page.click('#settingsBtn')
+    const onScreen = await page.evaluate(() => {
+      const r = document.querySelector('.sheet')!.getBoundingClientRect()
+      return r.top >= -1 && r.bottom <= innerHeight + 1
+    })
+    expect(onScreen).toBe(true)
   })
 })
 
@@ -728,27 +747,25 @@ test.describe('settings panel', () => {
     await expect(page.locator('#settingsDialog')).toBeHidden()
   })
 
-  test('gathers every setting that is not a study control', async ({ page }) => {
+  test('holds appearance, conjugation and backup', async ({ page }) => {
     await page.goto('./')
     await page.click('#settingsBtn')
-    for (const id of ['#themeSelect', '#directionSelect', '#exportBtn', '#importBtn', '#resetBtn']) {
+    for (const id of ['#themeSelect', '#exportBtn', '#importBtn']) {
       await expect(page.locator(id), `${id} should be in settings`).toBeVisible()
     }
     await expect(page.locator('input[value="presente"]')).toBeVisible()
   })
 
-  test('leaves only mid-session controls in the toolbar', async ({ page }) => {
+  test('leaves the study controls in the toolbar', async ({ page }) => {
     await page.goto('./')
-    await expect(page.locator('#deckSelect')).toBeVisible()
-    await expect(page.locator('#typeBtn')).toBeVisible()
-    await expect(page.locator('#shuffleBtn')).toBeVisible()
-    // These moved; a stale copy left behind would be a duplicate control.
+    for (const id of ['#deckSelect', '#directionSelect', '#typeBtn', '#shuffleBtn', '#resetBtn']) {
+      await expect(page.locator(`.topbar ${id}`), `${id} belongs in the toolbar`).toBeVisible()
+    }
+    // Theme moved into settings; a copy left behind would be a duplicate control.
     await expect(page.locator('.topbar #themeSelect')).toHaveCount(0)
-    await expect(page.locator('.topbar #directionSelect')).toHaveCount(0)
-    await expect(page.locator('.topbar #resetBtn')).toHaveCount(0)
   })
 
-  // Reset wipes real study history, so a single misclick must not do it.
+  // Reset is one tap away in the toolbar, so a misclick must not wipe history.
   test('asks before resetting, and cancelling changes nothing', async ({ page }) => {
     await page.goto('./')
     await page.evaluate(() => localStorage.clear())
@@ -757,11 +774,10 @@ test.describe('settings panel', () => {
     await page.click('#goodBtn')
     await expect(page.locator('#learnedCount')).toHaveText('1')
 
-    await page.click('#settingsBtn')
     await page.click('#resetBtn')
-    await expect(page.locator('#resetConfirmBtn')).toBeVisible()
-    await page.getByRole('button', { name: 'Cancel' }).click()
-    await expect(page.locator('#resetConfirmBtn')).toHaveCount(0)
+    await expect(page.locator('#resetDialog')).toBeVisible()
+    await page.click('#resetCancelBtn')
+    await expect(page.locator('#resetDialog')).toBeHidden()
     await expect(page.locator('#learnedCount')).toHaveText('1')
 
     await page.click('#resetBtn')
@@ -772,8 +788,8 @@ test.describe('settings panel', () => {
   test('names the deck it would reset', async ({ page }) => {
     await page.goto('./')
     await page.selectOption('#deckSelect', 'Numbers')
-    await page.click('#settingsBtn')
-    await expect(page.locator('#resetBtn')).toContainText('Numbers')
+    await page.click('#resetBtn')
+    await expect(page.locator('#resetDialog')).toContainText('Numbers')
   })
 
   test('reports the outcome of an export', async ({ page }) => {

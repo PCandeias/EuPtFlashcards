@@ -5,8 +5,9 @@ import { TAGS, cardId, type Tag } from '../src/lib/cards/schema.js'
 const VOCAB = new Set<string>(TAGS)
 
 describe('card corpus', () => {
-  it('preserves all 1853 cards from the legacy file', () => {
-    expect(CARDS.length).toBe(1853)
+  it('preserves the whole corpus', () => {
+    // 1853 originally; one card was removed by the 2026-08 accuracy review.
+    expect(CARDS.length).toBe(1852)
   })
 
   it('covers all 27 decks', () => {
@@ -46,7 +47,7 @@ describe('card corpus', () => {
     const counts: Record<string, number> = {}
     for (const c of CARDS) for (const t of c.tags ?? []) counts[t] = (counts[t] ?? 0) + 1
     expect(counts).toEqual({
-      informal: 45, formal: 18, plural: 35, 'masc-mixed': 10,
+      informal: 45, formal: 18, plural: 35, 'masc-mixed': 9,
       fem: 37, masc: 25, contraction: 2, object: 6,
     })
   })

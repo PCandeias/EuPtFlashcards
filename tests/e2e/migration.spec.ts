@@ -55,7 +55,6 @@ test('carries progress across from the original single-file app', async ({ page 
   // Nothing is "learned" yet in SM-2 terms — the old count measured taps, not recall.
   await expect(page.locator('#learnedCount')).toHaveText('0')
   await expect(page.locator('#deckSelect')).toHaveValue('Numbers')
-  await page.click('#settingsBtn')
   await expect(page.locator('#directionSelect')).toHaveValue('b-a')
 
   // The original data is left in place as a backstop.

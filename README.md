@@ -60,17 +60,19 @@ pushed back a few places so it returns before you finish.
 
 ## Settings
 
-The toolbar keeps only what changes mid-session — deck, typing mode, shuffle.
-Everything else lives behind **Settings**: theme, direction, conjugation tenses,
-backup and reset. Six controls in a row left no room for the card on a narrow
-phone.
+The toolbar holds the study controls — deck, direction, typing mode, shuffle and
+reset. **Settings** holds the rest: theme, conjugation tenses and backup.
+
+On a phone the two selects take a row each and the four actions share one, so the
+toolbar is three rows rather than six. Every control stays on screen down to
+320×568, with tests asserting it.
 
 It is a native `<dialog>`, so focus trapping and Escape come from the platform
 rather than being reimplemented. On a phone it opens as a bottom sheet, which is
 easier to reach one-handed than a centred box.
 
-**Reset now asks first**, and names the deck it would clear. It wipes real
-scheduling and review history, and it used to be a single click in the toolbar.
+**Reset asks first**, and names the deck it would clear. It sits one tap away in
+the toolbar and wipes real scheduling and review history.
 
 ## Themes
 

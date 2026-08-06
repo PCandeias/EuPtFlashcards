@@ -1,28 +1,21 @@
 <script lang="ts">
   import TenseSettings from './TenseSettings.svelte'
-  import {
-    THEMES, THEME_LABELS, type Direction, type Settings, type Theme,
-  } from '../lib/storage/progress.js'
+  import { THEMES, THEME_LABELS, type Settings, type Theme } from '../lib/storage/progress.js'
   import type { TenseId } from '../lib/verbs/tenses.js'
 
   let {
-    open, settings, deckLabel, onchange, onclose, onexport, onimport, onreset,
+    open, settings, onchange, onclose, onexport, onimport,
   }: {
     open: boolean
     settings: Settings
-    /** The deck a reset would clear, named so the button cannot be misread. */
-    deckLabel: string
     onchange: (next: Partial<Settings>) => void
     onclose: () => void
     onexport: () => void
     onimport: (file: File) => void
-    onreset: () => void
   } = $props()
 
   let dialog = $state<HTMLDialogElement | undefined>()
   let fileInput = $state<HTMLInputElement | undefined>()
-  // Reset wipes real study history, so it asks first.
-  let confirmingReset = $state(false)
 
   // A native dialog gives focus trapping and Escape without reimplementing them.
   $effect(() => {
@@ -30,8 +23,6 @@
     if (open && !dialog.open) dialog.showModal()
     if (!open && dialog.open) dialog.close()
   })
-
-  $effect(() => { if (!open) confirmingReset = false })
 
   function onDialogClick(event: MouseEvent) {
     // A click that lands on the dialog itself is a click on the backdrop.
@@ -78,20 +69,6 @@
       <p class="note">Azulejo is light, which reads better outdoors.</p>
     </section>
 
-    <section>
-      <h3>Studying</h3>
-      <label class="row">
-        <span>Direction</span>
-        <select
-          id="directionSelect"
-          value={settings.direction}
-          onchange={(e) => onchange({ direction: e.currentTarget.value as Direction })}
-        >
-          <option value="a-b">English → Portuguese · Portugal</option>
-          <option value="b-a">Portuguese · Portugal → English</option>
-        </select>
-      </label>
-    </section>
 
     <section>
       <h3>Conjugation</h3>
@@ -120,27 +97,6 @@
       </div>
     </section>
 
-    <section class="danger">
-      <h3>Reset</h3>
-      {#if confirmingReset}
-        <p class="note">
-          This clears your scheduling and review counts for <b>{deckLabel}</b>. It
-          cannot be undone — export a backup first if you are unsure.
-        </p>
-        <div class="buttons">
-          <button id="resetConfirmBtn" class="bad" onclick={() => { onreset(); confirmingReset = false }}>
-            Yes, reset {deckLabel}
-          </button>
-          <button onclick={() => { confirmingReset = false }}>Cancel</button>
-        </div>
-      {:else}
-        <div class="buttons">
-          <button id="resetBtn" onclick={() => { confirmingReset = true }}>
-            Reset progress for {deckLabel}
-          </button>
-        </div>
-      {/if}
-    </section>
   </div>
 </dialog>
 
@@ -190,8 +146,6 @@
   .note { margin: 8px 0 0; font-size: 12px; color: var(--muted); line-height: 1.5; }
   .buttons { display: flex; flex-wrap: wrap; gap: 8px; }
   .buttons button { font-size: 13px; }
-
-  .danger h3 { color: var(--bad); }
 
   @media (max-width: 760px) {
     /* Full-height sheet on a phone: a centred box in the middle of the screen is
