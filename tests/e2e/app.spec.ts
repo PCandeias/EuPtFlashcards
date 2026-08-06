@@ -264,8 +264,20 @@ test('registers a service worker and serves a manifest', async ({ page, request 
   expect(body.icons.length).toBeGreaterThan(0)
 })
 
+/**
+ * Not every engine exposes speech synthesis — a headless browser may have none —
+ * and the app deliberately hides the button when it is missing. The invariant to
+ * test is therefore "offered on the Portuguese face and never on the English
+ * one", which holds either way.
+ */
+async function hasSpeech(page: Page): Promise<boolean> {
+  return page.evaluate(() => typeof window.speechSynthesis !== 'undefined')
+}
+
 test('the speak button does not also flip the card', async ({ page }) => {
   await page.goto('./')
+  test.skip(!(await hasSpeech(page)), 'no speech synthesis in this browser')
+
   await page.click('#flipBtn')                       // reveal the Portuguese face
   await expect(page.locator('.card')).toHaveClass(/flipped/)
 
@@ -277,7 +289,9 @@ test('the speak button does not also flip the card', async ({ page }) => {
 
 test('offers audio on the Portuguese face only', async ({ page }) => {
   await page.goto('./')
-  await expect(page.locator('.face.back .speak')).toHaveCount(1)
+  const speech = await hasSpeech(page)
+  await expect(page.locator('.face.back .speak')).toHaveCount(speech ? 1 : 0)
+  // Never on the English face, whatever the browser supports.
   await expect(page.locator('.face.front .speak')).toHaveCount(0)
 })
 

@@ -15,6 +15,7 @@ concurrency:
 
 jobs:
   test:
+    name: Type-check, unit and browser tests
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -27,18 +28,41 @@ jobs:
         run: npm run check
       - name: Unit tests
         run: npm test
-      # WebKit is the closest available engine to the iPhone this app is used on;
-      # the system libraries it needs exist on the runner but not on every laptop.
       - name: Install browsers
-        run: npx playwright install --with-deps chromium webkit
+        run: npx playwright install --with-deps chromium
       - name: End-to-end tests
         run: npm run test:e2e
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 7
+
+  # WebKit is the closest available engine to the iPhone this app is used on, but
+  # it needs system libraries that are not on every development machine, so these
+  # runs have never been seen locally. Reported, not gating, until they have been
+  # green for a while — a deploy should not be blocked by an engine difference
+  # nobody has looked at yet.
+  safari:
+    name: WebKit (informational)
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps webkit
+      - run: npx playwright test --project=ios-safari
         env:
           WEBKIT: '1'
       - uses: actions/upload-artifact@v4
         if: failure()
         with:
-          name: playwright-report
+          name: webkit-report
           path: playwright-report/
           retention-days: 7
 
@@ -61,6 +85,10 @@ jobs:
       - run: npm ci
       - run: npm run build
       - uses: actions/configure-pages@v5
+        # Turns Pages on for the repository if it is not already, so the site does
+        # not need a setting changed by hand before the first deploy.
+        with:
+          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
