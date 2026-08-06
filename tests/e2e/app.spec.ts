@@ -827,3 +827,87 @@ test.describe('settings panel', () => {
     await expect(page.locator('#backupMessage')).toContainText('Exported 1 cards')
   })
 })
+
+test.describe('studying by tense', () => {
+  const setTenses = (page: Page, tenses: string[]) =>
+    page.evaluate((t) => {
+      const s = JSON.parse(localStorage.getItem('eupt:v4:settings') ?? '{}')
+      s.tenses = t
+      localStorage.setItem('eupt:v4:settings', JSON.stringify(s))
+      // The scope migration would widen this back; mark it as already done.
+      localStorage.setItem('eupt:v4:tense-scope', 'test')
+    }, tenses)
+
+  test('shows every card when every tense is selected', async ({ page }) => {
+    await page.goto('./')
+    await page.evaluate(() => localStorage.clear())
+    await page.reload()
+    await expect(page.locator('#totalCount')).toHaveText('1852')
+  })
+
+  test('hides cards in a tense that is switched off', async ({ page }) => {
+    await page.goto('./')
+    await setTenses(page, ['presente', 'perfeito', 'imperfeito', 'futuro', 'futuroProximo'])
+    await page.reload()
+    // The 139 continuous cards drop out; nothing else does.
+    await expect(page.locator('#totalCount')).toHaveText(String(1852 - 139))
+  })
+
+  test('keeps vocabulary and infinitives whatever is selected', async ({ page }) => {
+    await page.goto('./')
+    await setTenses(page, [])
+    await page.reload()
+    // Only the 260 tense-bearing cards go.
+    await expect(page.locator('#totalCount')).toHaveText(String(1852 - 260))
+
+    // A noun and an infinitive are both still reachable.
+    await page.selectOption('#deckSelect', 'Common Verbs')
+    const present = await page.evaluate(async () => {
+      for (let i = 0; i < 300; i++) {
+        const back = document.querySelector('.face.back .word')
+          ?.childNodes[0]?.textContent?.trim()
+        if (back === 'dormir') return true
+        ;(document.getElementById('nextBtn') as HTMLButtonElement).click()
+        await new Promise(r => requestAnimationFrame(r))
+      }
+      return false
+    })
+    expect(present, 'the infinitive should survive the filter').toBe(true)
+  })
+
+  test('the deck menu counts what will actually be shown', async ({ page }) => {
+    await page.goto('./')
+    const before = await page.locator('#deckSelect option', { hasText: 'Basic Present Tense' })
+      .textContent()
+    expect(before).toContain('(115)')
+
+    await setTenses(page, [])
+    await page.reload()
+    const after = await page.locator('#deckSelect option', { hasText: 'Basic Present Tense' })
+      .textContent()
+    // That deck is almost entirely conjugated forms, so the filter guts it.
+    expect(after).toContain('(0)')
+  })
+
+  test('an emptied deck says why rather than looking broken', async ({ page }) => {
+    await page.goto('./')
+    await setTenses(page, [])
+    await page.reload()
+    await page.selectOption('#deckSelect', 'Basic Present Tense Phrases')
+    await expect(page.locator('#emptyDeck')).toContainText('switched off')
+  })
+
+  test('an old narrow selection is widened once, not left hiding cards', async ({ page }) => {
+    await page.goto('./')
+    await page.evaluate(() => {
+      localStorage.clear()
+      // What the previous version stored by default.
+      localStorage.setItem('eupt:v4:settings', JSON.stringify({
+        deck: 'All', direction: 'a-b', theme: 'slate',
+        tenses: ['presente', 'futuroProximo'],
+      }))
+    })
+    await page.reload()
+    await expect(page.locator('#totalCount')).toHaveText('1852')
+  })
+})

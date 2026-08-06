@@ -18,8 +18,9 @@ import { cardId, type Card } from '../cards/schema.js'
 import { newState, type ReviewState } from '../study/sm2.js'
 import {
   LEGACY_KEYS, V3_KEYS, KEYS, saveProgress, saveSettings, sanitizeSettings,
-  type StorageLike,
+  loadSettings, type StorageLike,
 } from './progress.js'
+import { TENSE_IDS } from '../verbs/tenses.js'
 import type { Progress } from '../study/scheduler.js'
 
 /** The shape both legacy and v3 stored. */
@@ -178,4 +179,25 @@ export function runMigration(storage: StorageLike, cards: readonly Card[]): Migr
 
   storage.setItem(KEYS.migrated, new Date().toISOString())
   return result
+}
+
+/**
+ * Widens a tense selection made when the setting meant something narrower.
+ *
+ * It used to control only which tenses the conjugation panel offered. Now it also
+ * decides which cards appear, so a selection of two tenses — the old default —
+ * would quietly remove every card in the others. Runs once.
+ */
+export function migrateTenseScope(storage: StorageLike): boolean {
+  if (storage.getItem(KEYS.tenseScope)) return false
+  storage.setItem(KEYS.tenseScope, new Date().toISOString())
+
+  // Nothing stored yet means a new user, who already gets the full default.
+  if (storage.getItem(KEYS.settings) == null) return false
+
+  const settings = loadSettings(storage)
+  if (settings.tenses.length === TENSE_IDS.length) return false
+
+  saveSettings(storage, { ...settings, tenses: [...TENSE_IDS] })
+  return true
 }

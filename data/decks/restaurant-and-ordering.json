@@ -83,7 +83,8 @@
     },
     {
       "en": "I will eat here",
-      "pt": "vou comer aqui"
+      "pt": "vou comer aqui",
+      "tense": "futuroProximo"
     },
     {
       "en": "what do you recommend?",

@@ -77,7 +77,8 @@
     },
     {
       "en": "okay",
-      "pt": "está bem"
+      "pt": "está bem",
+      "tense": "presente"
     },
     {
       "en": "fine / okay",
@@ -132,11 +133,13 @@
     },
     {
       "en": "I am fine",
-      "pt": "estou bem"
+      "pt": "estou bem",
+      "tense": "presente"
     },
     {
       "en": "I am very well",
-      "pt": "estou muito bem"
+      "pt": "estou muito bem",
+      "tense": "presente"
     },
     {
       "en": "not bad",

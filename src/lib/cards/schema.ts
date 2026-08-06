@@ -1,3 +1,4 @@
+import { isTenseId, type TenseId } from '../verbs/tenses.js'
 /**
  * The card model.
  *
@@ -26,6 +27,14 @@ export interface Card {
   deck: string
   en: string
   pt: string
+  /**
+   * The tense this card is in, when it is in one.
+   *
+   * Absent means the card is not tense-bearing — a noun, an adjective, a fixed
+   * phrase, or an infinitive — and it is always shown whatever tenses are
+   * selected. Only a card that carries a tense can be filtered out by one.
+   */
+  tense?: TenseId
   /** Badges for the English face — the underspecified side. */
   tags?: Tag[]
   /**
@@ -75,6 +84,11 @@ export function parseCard(value: unknown, deck: string, where: string): Card {
       if (!card.tags?.includes(t)) fail(where, `ptTag ${t} is not present in tags`)
     }
     card.ptTags = raw.ptTags as Tag[]
+  }
+
+  if (raw.tense !== undefined) {
+    if (!isTenseId(raw.tense)) fail(where, `unknown tense ${JSON.stringify(raw.tense)}`)
+    card.tense = raw.tense
   }
 
   if (raw.sense !== undefined) {

@@ -9,6 +9,7 @@
 
 export const TENSE_IDS = [
   'presente',
+  'presenteContinuo',
   'perfeito',
   'imperfeito',
   'futuro',
@@ -27,6 +28,12 @@ export interface TenseDef {
 
 export const TENSES: readonly TenseDef[] = [
   { id: 'presente', label: 'Presente', hint: 'what happens now', example: 'eu falo' },
+  {
+    id: 'presenteContinuo',
+    label: 'Presente contínuo',
+    hint: 'what is happening right now',
+    example: 'eu estou a falar',
+  },
   { id: 'perfeito', label: 'Pretérito perfeito', hint: 'what happened', example: 'eu falei' },
   { id: 'imperfeito', label: 'Pretérito imperfeito', hint: 'what used to happen', example: 'eu falava' },
   { id: 'futuro', label: 'Futuro', hint: 'what will happen', example: 'eu falarei' },

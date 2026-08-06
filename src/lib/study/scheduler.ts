@@ -5,6 +5,7 @@
  * and keeps the progress map immutable.
  */
 import { cardId, type Card } from '../cards/schema.js'
+import type { TenseId } from '../verbs/tenses.js'
 import { isDue, newState, review, type Rating, type ReviewState } from './sm2.js'
 
 export type Progress = Record<string, ReviewState>
@@ -53,3 +54,15 @@ export function stats(progress: Progress): Stats {
 
 export { isDue, newState }
 export type { Rating, ReviewState }
+
+/**
+ * Keeps only cards whose tense is being studied.
+ *
+ * A card without a tense — a noun, an adjective, a fixed phrase, an infinitive —
+ * is never filtered out. Only a card that carries one can be hidden by it, so
+ * unticking a tense removes conjugated forms and leaves the vocabulary alone.
+ */
+export function inSelectedTenses(cards: readonly Card[], tenses: readonly TenseId[]): Card[] {
+  const selected = new Set(tenses)
+  return cards.filter(card => !card.tense || selected.has(card.tense))
+}

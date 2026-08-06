@@ -10,9 +10,11 @@
   import UpdatePrompt from './components/UpdatePrompt.svelte'
   import TypeAnswer from './components/TypeAnswer.svelte'
 
-  import { CARDS, deckCounts } from './lib/cards/index.js'
+  import { CARDS, DECKS } from './lib/cards/index.js'
   import { cardId } from './lib/cards/schema.js'
-  import { dueCards, gradeCard, stateFor, stats, type Progress } from './lib/study/scheduler.js'
+  import {
+    dueCards, gradeCard, stateFor, stats, inSelectedTenses, type Progress,
+  } from './lib/study/scheduler.js'
   import { recordReview, streak, retention, type History } from './lib/study/history.js'
   import type { Rating } from './lib/study/sm2.js'
   import { shuffle } from './lib/study/order.js'
@@ -24,7 +26,7 @@
     loadProgress, saveProgress, loadSettings, saveSettings,
     loadHistory, saveHistory, type Settings,
   } from './lib/storage/progress.js'
-  import { runMigration } from './lib/storage/migrate.js'
+  import { runMigration, migrateTenseScope } from './lib/storage/migrate.js'
   import {
     buildBackup, parseBackup, backupFilename, mergeProgress, mergeHistory,
   } from './lib/storage/backup.js'
@@ -33,6 +35,7 @@
 
   // Runs before the first read, so a returning user's history is already in place.
   const migration = runMigration(localStorage, CARDS)
+  migrateTenseScope(localStorage)
 
   let progress = $state<Progress>(loadProgress(localStorage))
   let history = $state<History>(loadHistory(localStorage))
@@ -45,14 +48,31 @@
   let resetOpen = $state(false)
   let backupMessage = $state('')
 
-  const counts = deckCounts()
-  const deckOptions: Array<[string, number]> = [
-    ['All', CARDS.length],
-    ...[...counts.entries()].sort((a, b) => a[0].localeCompare(b[0])),
-  ]
+  // Counted after the tense filter, so the menu never promises cards the filter
+  // is removing. Every deck stays listed even at zero: dropping it would leave a
+  // selected deck pointing at an option that no longer exists, and hide the fact
+  // that the filter is what emptied it.
+  let visibleTotal = $derived(inSelectedTenses(CARDS, settings.tenses).length)
+  let deckOptions = $derived.by<Array<[string, number]>>(() => {
+    const visible = inSelectedTenses(CARDS, settings.tenses)
+    const counts = new Map<string, number>(DECKS.map(deck => [deck, 0]))
+    for (const card of visible) counts.set(card.deck, (counts.get(card.deck) ?? 0) + 1)
+    return [
+      ['All', visible.length],
+      ...[...counts.entries()].sort((a, b) => a[0].localeCompare(b[0])),
+    ]
+  })
 
-  let deckCards = $derived(
+  // Tense-bearing cards outside the selected tenses drop out of the deck; cards
+  // with no tense are never affected.
+  let deckCards = $derived(inSelectedTenses(
     settings.deck === 'All' ? [...CARDS] : CARDS.filter(c => c.deck === settings.deck),
+    settings.tenses,
+  ))
+  // What the tense filter is currently costing, so an empty deck can explain itself.
+  let hiddenByTense = $derived(
+    (settings.deck === 'All' ? CARDS.length : CARDS.filter(c => c.deck === settings.deck).length)
+    - deckCards.length,
   )
   let due = $derived(dueCards(progress, deckCards, now))
 
@@ -202,12 +222,12 @@
     <div>
       <h1>European Portuguese Flashcards</h1>
       <p class="sub">
-        {CARDS.length} cards across {deckOptions.length - 1} decks, scheduled by spaced
-        repetition. Works offline.
+        {visibleTotal} cards across {deckOptions.length - 1} decks, scheduled by
+        spaced repetition. Works offline.
       </p>
     </div>
     <Stats
-      total={CARDS.length}
+      total={visibleTotal}
       due={due.length}
       learned={summary.learned}
       mature={summary.mature}
@@ -260,7 +280,14 @@
       {/if}
       </div>
     {:else}
-      <div class="empty">No cards in this deck.</div>
+      <div class="empty" id="emptyDeck">
+        {#if hiddenByTense}
+          Every card in this deck is in a tense you have switched off.
+          <br />Turn one back on under Settings → Tenses.
+        {:else}
+          No cards in this deck.
+        {/if}
+      </div>
     {/if}
 
     {#if typing && current}

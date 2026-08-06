@@ -58,7 +58,8 @@
     },
     {
       "en": "I am lost",
-      "pt": "estou perdido / perdida"
+      "pt": "estou perdido / perdida",
+      "tense": "presente"
     },
     {
       "en": "where is the toilet?",
@@ -86,7 +87,8 @@
     },
     {
       "en": "I have an allergy",
-      "pt": "tenho uma alergia"
+      "pt": "tenho uma alergia",
+      "tense": "presente"
     },
     {
       "en": "I am vegetarian",
@@ -122,7 +124,8 @@
     },
     {
       "en": "I have a reservation",
-      "pt": "tenho uma reserva"
+      "pt": "tenho uma reserva",
+      "tense": "presente"
     },
     {
       "en": "can I have the menu?",

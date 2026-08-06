@@ -169,7 +169,8 @@
     {
       "en": "I am",
       "pt": "eu sou",
-      "sense": "permanent / identity"
+      "sense": "permanent / identity",
+      "tense": "presente"
     },
     {
       "en": "you are",
@@ -177,7 +178,8 @@
       "tags": [
         "informal"
       ],
-      "sense": "permanent / identity"
+      "sense": "permanent / identity",
+      "tense": "presente"
     },
     {
       "en": "he / she / you is",
@@ -185,12 +187,14 @@
       "tags": [
         "formal"
       ],
-      "sense": "permanent / identity"
+      "sense": "permanent / identity",
+      "tense": "presente"
     },
     {
       "en": "we are",
       "pt": "nós somos",
-      "sense": "permanent / identity"
+      "sense": "permanent / identity",
+      "tense": "presente"
     },
     {
       "en": "they / you are",
@@ -198,7 +202,8 @@
       "tags": [
         "plural"
       ],
-      "sense": "permanent / identity"
+      "sense": "permanent / identity",
+      "tense": "presente"
     },
     {
       "en": "to be",
@@ -208,7 +213,8 @@
     {
       "en": "I am",
       "pt": "eu estou",
-      "sense": "temporary / location"
+      "sense": "temporary / location",
+      "tense": "presente"
     },
     {
       "en": "you are",
@@ -216,7 +222,8 @@
       "tags": [
         "informal"
       ],
-      "sense": "temporary / location"
+      "sense": "temporary / location",
+      "tense": "presente"
     },
     {
       "en": "he / she / you is",
@@ -224,12 +231,14 @@
       "tags": [
         "formal"
       ],
-      "sense": "temporary / location"
+      "sense": "temporary / location",
+      "tense": "presente"
     },
     {
       "en": "we are",
       "pt": "nós estamos",
-      "sense": "temporary / location"
+      "sense": "temporary / location",
+      "tense": "presente"
     },
     {
       "en": "they / you are",
@@ -237,7 +246,8 @@
       "tags": [
         "plural"
       ],
-      "sense": "temporary / location"
+      "sense": "temporary / location",
+      "tense": "presente"
     },
     {
       "en": "to live / reside",
@@ -245,26 +255,31 @@
     },
     {
       "en": "I live / reside",
-      "pt": "eu moro"
+      "pt": "eu moro",
+      "tense": "presente"
     },
     {
       "en": "you live / reside",
       "pt": "tu moras",
       "tags": [
         "informal"
-      ]
+      ],
+      "tense": "presente"
     },
     {
       "en": "he / she lives / resides",
-      "pt": "ele / ela mora"
+      "pt": "ele / ela mora",
+      "tense": "presente"
     },
     {
       "en": "we live / reside",
-      "pt": "nós moramos"
+      "pt": "nós moramos",
+      "tense": "presente"
     },
     {
       "en": "they live / reside",
-      "pt": "eles / elas moram"
+      "pt": "eles / elas moram",
+      "tense": "presente"
     },
     {
       "en": "to inhabit",
@@ -292,18 +307,21 @@
     },
     {
       "en": "I know / I meet",
-      "pt": "eu conheço"
+      "pt": "eu conheço",
+      "tense": "presente"
     },
     {
       "en": "you know / you meet",
       "pt": "tu conheces",
       "tags": [
         "informal"
-      ]
+      ],
+      "tense": "presente"
     },
     {
       "en": "he / she knows / meets",
-      "pt": "ele / ela conhece"
+      "pt": "ele / ela conhece",
+      "tense": "presente"
     },
     {
       "en": "we know / meet",
@@ -311,7 +329,8 @@
     },
     {
       "en": "they know / meet",
-      "pt": "eles / elas conhecem"
+      "pt": "eles / elas conhecem",
+      "tense": "presente"
     },
     {
       "en": "but",
@@ -441,7 +460,8 @@
     },
     {
       "en": "he / she walks",
-      "pt": "ele / ela caminha"
+      "pt": "ele / ela caminha",
+      "tense": "presente"
     },
     {
       "en": "free / unoccupied",
@@ -477,11 +497,13 @@
     },
     {
       "en": "I am hungry",
-      "pt": "tenho fome"
+      "pt": "tenho fome",
+      "tense": "presente"
     },
     {
       "en": "I am hungry",
-      "pt": "estou com fome"
+      "pt": "estou com fome",
+      "tense": "presente"
     },
     {
       "en": "closed",
@@ -569,7 +591,8 @@
     },
     {
       "en": "I am sleepy",
-      "pt": "estou com sono"
+      "pt": "estou com sono",
+      "tense": "presente"
     },
     {
       "en": "the dream",
@@ -871,18 +894,21 @@
     },
     {
       "en": "I come",
-      "pt": "eu venho"
+      "pt": "eu venho",
+      "tense": "presente"
     },
     {
       "en": "you come",
       "pt": "tu vens",
       "tags": [
         "informal"
-      ]
+      ],
+      "tense": "presente"
     },
     {
       "en": "he / she comes",
-      "pt": "ele / ela vem"
+      "pt": "ele / ela vem",
+      "tense": "presente"
     },
     {
       "en": "we come",
@@ -890,7 +916,8 @@
     },
     {
       "en": "they come",
-      "pt": "eles / elas vêm"
+      "pt": "eles / elas vêm",
+      "tense": "presente"
     },
     {
       "en": "I come from Boston",
@@ -918,7 +945,8 @@
     },
     {
       "en": "I am learning",
-      "pt": "estou a aprender"
+      "pt": "estou a aprender",
+      "tense": "presenteContinuo"
     },
     {
       "en": "to teach",
@@ -950,26 +978,31 @@
     },
     {
       "en": "I have",
-      "pt": "eu tenho"
+      "pt": "eu tenho",
+      "tense": "presente"
     },
     {
       "en": "you have",
       "pt": "tu tens",
       "tags": [
         "informal"
-      ]
+      ],
+      "tense": "presente"
     },
     {
       "en": "he / she has",
-      "pt": "ele / ela tem"
+      "pt": "ele / ela tem",
+      "tense": "presente"
     },
     {
       "en": "we have",
-      "pt": "nós temos"
+      "pt": "nós temos",
+      "tense": "presente"
     },
     {
       "en": "they have",
-      "pt": "eles / elas têm"
+      "pt": "eles / elas têm",
+      "tense": "presente"
     },
     {
       "en": "the class / lesson",
@@ -1041,26 +1074,31 @@
     },
     {
       "en": "I want",
-      "pt": "eu quero"
+      "pt": "eu quero",
+      "tense": "presente"
     },
     {
       "en": "you want",
       "pt": "tu queres",
       "tags": [
         "informal"
-      ]
+      ],
+      "tense": "presente"
     },
     {
       "en": "he / she wants",
-      "pt": "ele / ela quer"
+      "pt": "ele / ela quer",
+      "tense": "presente"
     },
     {
       "en": "we want",
-      "pt": "nós queremos"
+      "pt": "nós queremos",
+      "tense": "presente"
     },
     {
       "en": "they want",
-      "pt": "eles / elas querem"
+      "pt": "eles / elas querem",
+      "tense": "presente"
     },
     {
       "en": "to sit down",
@@ -1088,26 +1126,31 @@
     },
     {
       "en": "I comb my hair",
-      "pt": "eu penteio-me"
+      "pt": "eu penteio-me",
+      "tense": "presente"
     },
     {
       "en": "you comb your hair",
       "pt": "tu penteias-te",
       "tags": [
         "informal"
-      ]
+      ],
+      "tense": "presente"
     },
     {
       "en": "he / she combs his / her hair",
-      "pt": "ele / ela penteia-se"
+      "pt": "ele / ela penteia-se",
+      "tense": "presente"
     },
     {
       "en": "we comb our hair",
-      "pt": "nós penteamo-nos"
+      "pt": "nós penteamo-nos",
+      "tense": "presente"
     },
     {
       "en": "they comb their hair",
-      "pt": "eles / elas penteiam-se"
+      "pt": "eles / elas penteiam-se",
+      "tense": "presente"
     },
     {
       "en": "to get dressed",
@@ -1115,18 +1158,21 @@
     },
     {
       "en": "I get dressed",
-      "pt": "eu visto-me"
+      "pt": "eu visto-me",
+      "tense": "presente"
     },
     {
       "en": "you get dressed",
       "pt": "tu vestes-te",
       "tags": [
         "informal"
-      ]
+      ],
+      "tense": "presente"
     },
     {
       "en": "he / she gets dressed",
-      "pt": "ele / ela veste-se"
+      "pt": "ele / ela veste-se",
+      "tense": "presente"
     },
     {
       "en": "we get dressed",
@@ -1134,7 +1180,8 @@
     },
     {
       "en": "they get dressed",
-      "pt": "eles / elas vestem-se"
+      "pt": "eles / elas vestem-se",
+      "tense": "presente"
     },
     {
       "en": "to give",
@@ -1154,26 +1201,31 @@
     },
     {
       "en": "I can",
-      "pt": "eu posso"
+      "pt": "eu posso",
+      "tense": "presente"
     },
     {
       "en": "you can",
       "pt": "tu podes",
       "tags": [
         "informal"
-      ]
+      ],
+      "tense": "presente"
     },
     {
       "en": "he / she can",
-      "pt": "ele / ela pode"
+      "pt": "ele / ela pode",
+      "tense": "presente"
     },
     {
       "en": "we can",
-      "pt": "nós podemos"
+      "pt": "nós podemos",
+      "tense": "presente"
     },
     {
       "en": "they can",
-      "pt": "eles / elas podem"
+      "pt": "eles / elas podem",
+      "tense": "presente"
     },
     {
       "en": "little / not much",
@@ -1420,7 +1472,8 @@
       "tags": [
         "plural"
       ],
-      "sense": "permanent / identity"
+      "sense": "permanent / identity",
+      "tense": "presente"
     },
     {
       "en": "they are",
@@ -1428,7 +1481,8 @@
       "tags": [
         "masc-mixed"
       ],
-      "sense": "permanent / identity"
+      "sense": "permanent / identity",
+      "tense": "presente"
     },
     {
       "en": "they are",
@@ -1436,21 +1490,24 @@
       "tags": [
         "fem"
       ],
-      "sense": "permanent / identity"
+      "sense": "permanent / identity",
+      "tense": "presente"
     },
     {
       "en": "he / she / you lives / resides",
       "pt": "ele / ela / você mora",
       "tags": [
         "formal"
-      ]
+      ],
+      "tense": "presente"
     },
     {
       "en": "you live / reside",
       "pt": "vocês moram",
       "tags": [
         "plural"
-      ]
+      ],
+      "tense": "presente"
     },
     {
       "en": "you are",
@@ -1458,44 +1515,54 @@
       "tags": [
         "plural"
       ],
-      "sense": "temporary / location"
+      "sense": "temporary / location",
+      "tense": "presente"
     },
     {
       "en": "they are",
       "pt": "eles / elas estão",
-      "sense": "temporary / location"
+      "sense": "temporary / location",
+      "tense": "presente"
     },
     {
       "en": "I am working",
-      "pt": "estou a trabalhar"
+      "pt": "estou a trabalhar",
+      "tense": "presenteContinuo"
     },
     {
       "en": "I am walking",
-      "pt": "estou a caminhar / andar"
+      "pt": "estou a caminhar / andar",
+      "tense": "presenteContinuo"
     },
     {
       "en": "I am talking on the phone",
-      "pt": "estou a falar ao telemóvel"
+      "pt": "estou a falar ao telemóvel",
+      "tense": "presenteContinuo"
     },
     {
       "en": "I am sleeping",
-      "pt": "estou a dormir"
+      "pt": "estou a dormir",
+      "tense": "presenteContinuo"
     },
     {
       "en": "I am eating",
-      "pt": "estou a comer"
+      "pt": "estou a comer",
+      "tense": "presenteContinuo"
     },
     {
       "en": "I am going for a walk",
-      "pt": "estou a passear"
+      "pt": "estou a passear",
+      "tense": "presenteContinuo"
     },
     {
       "en": "I am in France",
-      "pt": "estou em França"
+      "pt": "estou em França",
+      "tense": "presente"
     },
     {
       "en": "I am in Portugal",
-      "pt": "estou em Portugal"
+      "pt": "estou em Portugal",
+      "tense": "presente"
     },
     {
       "en": "to stroll / go for a walk",
@@ -1627,23 +1694,28 @@
     },
     {
       "en": "I am having breakfast",
-      "pt": "estou a tomar o pequeno-almoço"
+      "pt": "estou a tomar o pequeno-almoço",
+      "tense": "presenteContinuo"
     },
     {
       "en": "I am talking to my boss",
-      "pt": "estou a falar com o chefe"
+      "pt": "estou a falar com o chefe",
+      "tense": "presenteContinuo"
     },
     {
       "en": "I am cooking",
-      "pt": "estou a cozinhar"
+      "pt": "estou a cozinhar",
+      "tense": "presenteContinuo"
     },
     {
       "en": "I am eating dinner",
-      "pt": "estou a jantar"
+      "pt": "estou a jantar",
+      "tense": "presenteContinuo"
     },
     {
       "en": "I am taking a walk",
-      "pt": "estou a passear"
+      "pt": "estou a passear",
+      "tense": "presenteContinuo"
     },
     {
       "en": "meat with rice",
@@ -1892,44 +1964,52 @@
     },
     {
       "en": "I go",
-      "pt": "eu vou"
+      "pt": "eu vou",
+      "tense": "presente"
     },
     {
       "en": "you go",
       "pt": "tu vais",
       "tags": [
         "informal"
-      ]
+      ],
+      "tense": "presente"
     },
     {
       "en": "he / she goes",
-      "pt": "ele / ela vai"
+      "pt": "ele / ela vai",
+      "tense": "presente"
     },
     {
       "en": "we go",
-      "pt": "nós vamos"
+      "pt": "nós vamos",
+      "tense": "presente"
     },
     {
       "en": "you go",
       "pt": "vocês vão",
       "tags": [
         "plural"
-      ]
+      ],
+      "tense": "presente"
     },
     {
       "en": "they go",
-      "pt": "eles / elas vão"
+      "pt": "eles / elas vão",
+      "tense": "presente"
     },
     {
       "en": "I go to work by bus",
-      "pt": "vou para o trabalho de autocarro"
+      "pt": "vou para o trabalho de autocarro",
+      "tense": "presente"
     },
     {
       "en": "you come",
       "pt": "vocês vêm",
       "tags": [
         "plural"
-      ]
+      ],
+      "tense": "presente"
     },
     {
       "en": "to leave / go out",
@@ -1937,18 +2017,21 @@
     },
     {
       "en": "I leave / go out",
-      "pt": "eu saio"
+      "pt": "eu saio",
+      "tense": "presente"
     },
     {
       "en": "you leave / go out",
       "pt": "tu sais",
       "tags": [
         "informal"
-      ]
+      ],
+      "tense": "presente"
     },
     {
       "en": "he / she leaves / goes out",
-      "pt": "ele / ela sai"
+      "pt": "ele / ela sai",
+      "tense": "presente"
     },
     {
       "en": "we leave / go out",
@@ -1959,48 +2042,57 @@
       "pt": "vocês saem",
       "tags": [
         "plural"
-      ]
+      ],
+      "tense": "presente"
     },
     {
       "en": "they leave / go out",
-      "pt": "eles / elas saem"
+      "pt": "eles / elas saem",
+      "tense": "presente"
     },
     {
       "en": "I sit down",
-      "pt": "eu sento-me"
+      "pt": "eu sento-me",
+      "tense": "presente"
     },
     {
       "en": "you sit down",
       "pt": "tu sentas-te",
       "tags": [
         "informal"
-      ]
+      ],
+      "tense": "presente"
     },
     {
       "en": "he / she sits down",
-      "pt": "ele / ela senta-se"
+      "pt": "ele / ela senta-se",
+      "tense": "presente"
     },
     {
       "en": "we sit down",
-      "pt": "nós sentamo-nos"
+      "pt": "nós sentamo-nos",
+      "tense": "presente"
     },
     {
       "en": "you sit down",
       "pt": "vocês sentam-se",
       "tags": [
         "plural"
-      ]
+      ],
+      "tense": "presente"
     },
     {
       "en": "they sit down",
-      "pt": "eles / elas sentam-se"
+      "pt": "eles / elas sentam-se",
+      "tense": "presente"
     },
     {
       "en": "you can",
       "pt": "vocês podem",
       "tags": [
         "plural"
-      ]
+      ],
+      "tense": "presente"
     },
     {
       "en": "can I speak Portuguese?",
@@ -2012,18 +2104,21 @@
     },
     {
       "en": "I ask for / order",
-      "pt": "eu peço"
+      "pt": "eu peço",
+      "tense": "presente"
     },
     {
       "en": "you ask for / order",
       "pt": "tu pedes",
       "tags": [
         "informal"
-      ]
+      ],
+      "tense": "presente"
     },
     {
       "en": "he / she asks for / orders",
-      "pt": "ele / ela pede"
+      "pt": "ele / ela pede",
+      "tense": "presente"
     },
     {
       "en": "we ask for / order",
@@ -2034,11 +2129,13 @@
       "pt": "vocês pedem",
       "tags": [
         "plural"
-      ]
+      ],
+      "tense": "presente"
     },
     {
       "en": "they ask for / order",
-      "pt": "eles / elas pedem"
+      "pt": "eles / elas pedem",
+      "tense": "presente"
     },
     {
       "en": "Portuguese people are born in Portugal",

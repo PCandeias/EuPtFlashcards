@@ -159,7 +159,8 @@
     },
     {
       "en": "I will take this",
-      "pt": "vou levar isto"
+      "pt": "vou levar isto",
+      "tense": "futuroProximo"
     },
     {
       "en": "is there another one?",

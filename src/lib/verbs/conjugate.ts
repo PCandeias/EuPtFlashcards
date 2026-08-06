@@ -35,6 +35,7 @@ const ENDINGS: Record<Group, Record<TenseId, string[] | null>> = {
     imperfeito: ['ava', 'avas', 'ava', 'ávamos', 'avam'],
     futuro: null,
     futuroProximo: null,
+    presenteContinuo: null,
   },
   er: {
     presente: ['o', 'es', 'e', 'emos', 'em'],
@@ -42,6 +43,7 @@ const ENDINGS: Record<Group, Record<TenseId, string[] | null>> = {
     imperfeito: ['ia', 'ias', 'ia', 'íamos', 'iam'],
     futuro: null,
     futuroProximo: null,
+    presenteContinuo: null,
   },
   ir: {
     presente: ['o', 'es', 'e', 'imos', 'em'],
@@ -49,6 +51,7 @@ const ENDINGS: Record<Group, Record<TenseId, string[] | null>> = {
     imperfeito: ['ia', 'ias', 'ia', 'íamos', 'iam'],
     futuro: null,
     futuroProximo: null,
+    presenteContinuo: null,
   },
 }
 
@@ -58,6 +61,16 @@ const FUTURE_ENDINGS = ['ei', 'ás', 'á', 'emos', 'ão']
 /** `ir` in the present, for the everyday "going to" future. */
 const IR_PRESENT: Record<PersonId, string> = {
   eu: 'vou', tu: 'vais', ele: 'vai', nos: 'vamos', eles: 'vão',
+}
+
+/**
+ * `estar` in the present, for the continuous.
+ *
+ * European Portuguese builds it with `estar a` + infinitive — `estou a comer` —
+ * where Brazilian uses a gerund, `estou comendo`.
+ */
+const ESTAR_PRESENT: Record<PersonId, string> = {
+  eu: 'estou', tu: 'estás', ele: 'está', nos: 'estamos', eles: 'estão',
 }
 
 export function parseVerb(infinitive: string): Verb | null {
@@ -115,6 +128,13 @@ function nearFuture(stem: string): Forms {
   return out
 }
 
+/** `estar a` plus the infinitive — likewise independent of the verb's own forms. */
+function continuous(stem: string): Forms {
+  const out: Forms = {}
+  for (const person of PERSON_IDS) out[person] = `${ESTAR_PRESENT[person]} a ${stem}`
+  return out
+}
+
 function regularForms(stem: string, group: Group, tense: TenseId): Forms | null {
   const root = stem.slice(0, -2)
 
@@ -125,6 +145,7 @@ function regularForms(stem: string, group: Group, tense: TenseId): Forms | null 
   }
 
   if (tense === 'futuroProximo') return nearFuture(stem)
+  if (tense === 'presenteContinuo') return continuous(stem)
 
   const endings = ENDINGS[group][tense]
   if (!endings) return null
@@ -177,8 +198,10 @@ export function conjugate(infinitive: string): Conjugation | null {
     const override = overrides?.[tense]
     // The everyday future needs no group: `pôr` belongs to none, but `vou pôr`
     // is still perfectly ordinary.
-    const regular = tense === 'futuroProximo'
-      ? nearFuture(verb.stem)
+    // These two are built from an auxiliary plus the infinitive, so they need no
+    // group and work even for a verb with no regular pattern of its own.
+    const regular = tense === 'futuroProximo' ? nearFuture(verb.stem)
+      : tense === 'presenteContinuo' ? continuous(verb.stem)
       : group ? regularForms(verb.stem, group, tense) : null
 
     // futuroProximo is `ir` plus the infinitive, so it works even for verbs whose

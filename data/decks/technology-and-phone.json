@@ -127,7 +127,8 @@
     },
     {
       "en": "it is not working",
-      "pt": "não está a funcionar"
+      "pt": "não está a funcionar",
+      "tense": "presenteContinuo"
     },
     {
       "en": "broken",

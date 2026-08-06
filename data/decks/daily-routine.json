@@ -79,31 +79,38 @@
     },
     {
       "en": "I am having breakfast",
-      "pt": "estou a tomar o pequeno-almoço"
+      "pt": "estou a tomar o pequeno-almoço",
+      "tense": "presenteContinuo"
     },
     {
       "en": "I am going to work",
-      "pt": "vou para o trabalho"
+      "pt": "vou para o trabalho",
+      "tense": "presente"
     },
     {
       "en": "I am returning home",
-      "pt": "estou a voltar para casa"
+      "pt": "estou a voltar para casa",
+      "tense": "presenteContinuo"
     },
     {
       "en": "I am cooking",
-      "pt": "estou a cozinhar"
+      "pt": "estou a cozinhar",
+      "tense": "presenteContinuo"
     },
     {
       "en": "I am reading a book",
-      "pt": "estou a ler um livro"
+      "pt": "estou a ler um livro",
+      "tense": "presenteContinuo"
     },
     {
       "en": "I am listening to music",
-      "pt": "estou a ouvir música"
+      "pt": "estou a ouvir música",
+      "tense": "presenteContinuo"
     },
     {
       "en": "I am sleeping",
-      "pt": "estou a dormir"
+      "pt": "estou a dormir",
+      "tense": "presenteContinuo"
     }
   ]
 }

@@ -1,5 +1,7 @@
 import { describe, it, expect } from 'vitest'
-import { dueCards, gradeCard, stateFor, stats, type Progress } from '../src/lib/study/scheduler.js'
+import {
+  dueCards, gradeCard, stateFor, stats, inSelectedTenses, type Progress,
+} from '../src/lib/study/scheduler.js'
 import { newState, DAY_MS } from '../src/lib/study/sm2.js'
 import { shuffle, wrapIndex, orderKey } from '../src/lib/study/order.js'
 import type { Card } from '../src/lib/cards/schema.js'
@@ -128,5 +130,40 @@ describe('orderKey', () => {
   })
   it('is stable for the same set', () => {
     expect(orderKey('D', false, [a, b])).toBe(orderKey('D', false, [a, b]))
+  })
+})
+
+describe('inSelectedTenses', () => {
+  const noun: Card = { deck: 'D', en: 'house', pt: 'a casa' }
+  const infinitive: Card = { deck: 'D', en: 'to eat', pt: 'comer' }
+  const present: Card = { deck: 'D', en: 'I eat', pt: 'eu como', tense: 'presente' }
+  const continuous: Card = {
+    deck: 'D', en: 'I am eating', pt: 'estou a comer', tense: 'presenteContinuo',
+  }
+
+  // The point of the feature: unticking a tense removes its conjugated forms.
+  it('drops cards in a tense that is not selected', () => {
+    const kept = inSelectedTenses([present, continuous], ['presente'])
+    expect(kept).toEqual([present])
+  })
+
+  // And the point of the exception: vocabulary is not a tense and never vanishes.
+  it('always keeps cards that carry no tense', () => {
+    expect(inSelectedTenses([noun, infinitive], [])).toEqual([noun, infinitive])
+  })
+
+  it('keeps everything when every tense is selected', () => {
+    const all = [noun, infinitive, present, continuous]
+    expect(inSelectedTenses(all, ['presente', 'presenteContinuo'])).toEqual(all)
+  })
+
+  it('removes every tense-bearing card when nothing is selected', () => {
+    expect(inSelectedTenses([noun, present, continuous], [])).toEqual([noun])
+  })
+
+  it('does not mutate the input', () => {
+    const input = [noun, present]
+    inSelectedTenses(input, [])
+    expect(input).toHaveLength(2)
   })
 })

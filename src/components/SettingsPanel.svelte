@@ -55,7 +55,7 @@
 
 
     <section>
-      <h3>Conjugation</h3>
+      <h3>Tenses</h3>
       <TenseSettings
         selected={settings.tenses}
         onchange={(tenses: TenseId[]) => onchange({ tenses })}

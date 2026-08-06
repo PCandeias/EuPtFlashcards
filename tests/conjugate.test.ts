@@ -41,6 +41,14 @@ describe('regular verbs', () => {
     expect(form('comer', 'futuro', 'eles')).toBe('comerão')
   })
 
+  // European Portuguese uses estar a + infinitive; Brazilian uses a gerund.
+  it('builds the continuous with estar a plus the infinitive', () => {
+    expect(form('falar', 'presenteContinuo', 'eu')).toBe('estou a falar')
+    expect(form('comer', 'presenteContinuo', 'tu')).toBe('estás a comer')
+    expect(form('ler', 'presenteContinuo', 'nos')).toBe('estamos a ler')
+    expect(form('ir', 'presenteContinuo', 'eles')).toBe('estão a ir')
+  })
+
   it('builds the everyday future from ir plus the infinitive', () => {
     expect(form('falar', 'futuroProximo', 'eu')).toBe('vou falar')
     expect(form('comer', 'futuroProximo', 'eles')).toBe('vão comer')
@@ -114,6 +122,11 @@ describe('irregular verbs', () => {
     expect(form('ser', 'futuroProximo', 'eu')).toBe('vou ser')
     expect(form('pôr', 'futuroProximo', 'tu')).toBe('vais pôr')
   })
+
+  it('gives every verb the continuous too', () => {
+    expect(form('pôr', 'presenteContinuo', 'eu')).toBe('estou a pôr')
+    expect(form('dormir', 'presenteContinuo', 'nos')).toBe('estamos a dormir')
+  })
 })
 
 describe('reflexive verbs', () => {
@@ -131,6 +144,7 @@ describe('reflexive verbs', () => {
 
   it('puts the pronoun on the auxiliary in the everyday future', () => {
     expect(form('sentar-se', 'futuroProximo', 'eu')).toBe('vou sentar-me')
+    expect(form('sentar-se', 'presenteContinuo', 'eu')).toBe('estou a sentar-me')
   })
 
   it('handles a reflexive that is also stem-changing', () => {

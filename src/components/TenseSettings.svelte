@@ -16,8 +16,11 @@
 </script>
 
 <p class="lead">
-  Which tenses the <span class="glyph">?</span> beside a verb offers. Turn them all
-  off to hide it.
+  The tenses you are working on. Cards in a tense you switch off are left out of
+  the deck, and the <span class="glyph">?</span> beside a verb offers only what is
+  ticked here.
+  <br />
+  Vocabulary is never affected — nouns, adjectives and infinitives always show.
 </p>
 
 <ul>

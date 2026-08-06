@@ -219,7 +219,8 @@
     },
     {
       "en": "I have a fever",
-      "pt": "tenho febre"
+      "pt": "tenho febre",
+      "tense": "presente"
     }
   ]
 }

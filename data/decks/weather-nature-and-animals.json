@@ -59,23 +59,28 @@
     },
     {
       "en": "the weather is hot",
-      "pt": "está calor"
+      "pt": "está calor",
+      "tense": "presente"
     },
     {
       "en": "the weather is cold",
-      "pt": "está frio"
+      "pt": "está frio",
+      "tense": "presente"
     },
     {
       "en": "it is raining",
-      "pt": "está a chover"
+      "pt": "está a chover",
+      "tense": "presenteContinuo"
     },
     {
       "en": "it is snowing",
-      "pt": "está a nevar"
+      "pt": "está a nevar",
+      "tense": "presenteContinuo"
     },
     {
       "en": "it is windy",
-      "pt": "está vento"
+      "pt": "está vento",
+      "tense": "presente"
     },
     {
       "en": "sunny",

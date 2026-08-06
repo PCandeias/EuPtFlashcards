@@ -3,33 +3,39 @@
   "cards": [
     {
       "en": "I am going",
-      "pt": "eu vou"
+      "pt": "eu vou",
+      "tense": "presente"
     },
     {
       "en": "you are coming",
       "pt": "tu vens",
       "tags": [
         "informal"
-      ]
+      ],
+      "tense": "presente"
     },
     {
       "en": "he / she is working",
-      "pt": "ele / ela está a trabalhar"
+      "pt": "ele / ela está a trabalhar",
+      "tense": "presenteContinuo"
     },
     {
       "en": "we are eating",
-      "pt": "nós estamos a comer"
+      "pt": "nós estamos a comer",
+      "tense": "presenteContinuo"
     },
     {
       "en": "are you waiting?",
       "pt": "está à espera?",
       "tags": [
         "formal"
-      ]
+      ],
+      "tense": "presente"
     },
     {
       "en": "they are speaking",
-      "pt": "eles / elas estão a falar"
+      "pt": "eles / elas estão a falar",
+      "tense": "presenteContinuo"
     },
     {
       "en": "I do not know",
@@ -99,7 +105,8 @@
     },
     {
       "en": "I am learning Portuguese",
-      "pt": "estou a aprender português"
+      "pt": "estou a aprender português",
+      "tense": "presenteContinuo"
     },
     {
       "en": "I speak English",
@@ -111,7 +118,8 @@
     },
     {
       "en": "I am working today",
-      "pt": "hoje estou a trabalhar"
+      "pt": "hoje estou a trabalhar",
+      "tense": "presenteContinuo"
     },
     {
       "en": "I am not working tomorrow",
@@ -127,7 +135,8 @@
     },
     {
       "en": "I am going now",
-      "pt": "vou agora"
+      "pt": "vou agora",
+      "tense": "presente"
     },
     {
       "en": "I will call later",
@@ -135,11 +144,13 @@
     },
     {
       "en": "I am waiting",
-      "pt": "estou à espera"
+      "pt": "estou à espera",
+      "tense": "presente"
     },
     {
       "en": "I am waiting for you",
-      "pt": "estou à tua espera / estou à sua espera"
+      "pt": "estou à tua espera / estou à sua espera",
+      "tense": "presente"
     },
     {
       "en": "where are you going?",
@@ -160,7 +171,8 @@
       "pt": "o que estás a fazer?",
       "tags": [
         "informal"
-      ]
+      ],
+      "tense": "presenteContinuo"
     },
     {
       "en": "what do you want?",

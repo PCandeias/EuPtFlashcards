@@ -38,6 +38,13 @@ export const KEYS = {
   settings: 'eupt:v4:settings',
   history: 'eupt:v4:history',
   migrated: 'eupt:v4:migrated',
+  /**
+   * Stamped once the tense selection has been widened. The setting used to
+   * choose only what the conjugation panel offered; now it also decides which
+   * cards appear, so an old selection would hide cards the user never chose to
+   * hide.
+   */
+  tenseScope: 'eupt:v4:tense-scope',
 } as const
 
 export type Direction = 'a-b' | 'b-a'
@@ -67,8 +74,9 @@ export const DEFAULT_SETTINGS: Settings = {
   deck: 'All',
   direction: 'a-b',
   theme: 'slate',
-  // The two a beginner needs first; the rest are opt-in.
-  tenses: ['presente', 'futuroProximo'],
+  // Everything: this list also decides which cards appear, so anything less
+  // would hide part of the deck before the user had asked for that.
+  tenses: [...TENSE_IDS],
 }
 
 function readJson(storage: StorageLike, key: string): unknown {

@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import { CARDS, DECKS } from '../src/lib/cards/index.js'
 import { TAGS, cardId, type Tag } from '../src/lib/cards/schema.js'
+import { TENSE_IDS } from '../src/lib/verbs/tenses.js'
 
 const VOCAB = new Set<string>(TAGS)
 
@@ -67,5 +68,53 @@ describe('cardId', () => {
   it('is deck::en::pt', () => {
     const card = { deck: 'Class', en: 'you come', pt: 'vocês vêm', tags: ['plural' as Tag] }
     expect(cardId(card)).toBe('Class::you come::vocês vêm')
+  })
+})
+
+describe('tense tagging', () => {
+  const tensed = CARDS.filter(c => c.tense)
+
+  it('tags only cards that are actually in a tense', () => {
+    const counts: Record<string, number> = {}
+    for (const c of tensed) counts[c.tense!] = (counts[c.tense!] ?? 0) + 1
+    expect(counts).toEqual({ presente: 119, presenteContinuo: 139, futuroProximo: 2 })
+  })
+
+  // Vocabulary must never be filterable, or unticking a tense would take the
+  // nouns and adjectives with it.
+  it('leaves nouns, adjectives and phrases untagged', () => {
+    expect(CARDS.filter(c => !c.tense).length).toBe(1592)
+    expect(CARDS.find(c => c.pt === 'a casa')?.tense).toBeUndefined()
+    expect(CARDS.find(c => c.en === 'beautiful / nice')?.tense).toBeUndefined()
+  })
+
+  // The infinitive is the dictionary form, and the card the conjugation panel is
+  // most useful on.
+  it('leaves infinitives untagged', () => {
+    const infinitives = CARDS.filter(c => /^to\s/i.test(c.en))
+    expect(infinitives.length).toBeGreaterThan(150)
+    expect(infinitives.filter(c => c.tense)).toEqual([])
+  })
+
+  it('tags the continuous, which is the largest verb group', () => {
+    expect(CARDS.find(c => c.pt === 'eu estou a comer')?.tense).toBe('presenteContinuo')
+    expect(CARDS.find(c => c.pt === 'eu sou')?.tense).toBe('presente')
+  })
+
+  // A phrase is in a tense even without a pronoun to announce it.
+  it('tags phrases led by an unmistakable verb form', () => {
+    expect(CARDS.find(c => c.pt === 'vou para a escola')?.tense).toBe('presente')
+    expect(CARDS.find(c => c.pt === 'tenho fome')?.tense).toBe('presente')
+  })
+
+  // `desculpa` is both "sorry" and a form of `desculpar`, and there is no way to
+  // tell from the card which it is — so it stays out of the filter's reach.
+  it('leaves a word that only looks like a verb form alone', () => {
+    expect(CARDS.find(c => c.pt === 'desculpa')?.tense).toBeUndefined()
+  })
+
+  it('never tags a card with a tense outside the registry', () => {
+    const known = new Set(TENSE_IDS)
+    expect(tensed.filter(c => !known.has(c.tense!))).toEqual([])
   })
 })

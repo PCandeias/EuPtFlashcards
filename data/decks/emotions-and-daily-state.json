@@ -51,15 +51,18 @@
     },
     {
       "en": "I am late",
-      "pt": "estou atrasado / atrasada"
+      "pt": "estou atrasado / atrasada",
+      "tense": "presente"
     },
     {
       "en": "I am in a hurry",
-      "pt": "estou com pressa"
+      "pt": "estou com pressa",
+      "tense": "presente"
     },
     {
       "en": "I have time",
-      "pt": "tenho tempo"
+      "pt": "tenho tempo",
+      "tense": "presente"
     },
     {
       "en": "I do not have time",
@@ -67,47 +70,58 @@
     },
     {
       "en": "I am bored",
-      "pt": "estou aborrecido / aborrecida"
+      "pt": "estou aborrecido / aborrecida",
+      "tense": "presente"
     },
     {
       "en": "I am happy",
-      "pt": "estou feliz"
+      "pt": "estou feliz",
+      "tense": "presente"
     },
     {
       "en": "I am sad",
-      "pt": "estou triste"
+      "pt": "estou triste",
+      "tense": "presente"
     },
     {
       "en": "I am tired",
-      "pt": "estou cansado / cansada"
+      "pt": "estou cansado / cansada",
+      "tense": "presente"
     },
     {
       "en": "I am sick",
-      "pt": "estou doente"
+      "pt": "estou doente",
+      "tense": "presente"
     },
     {
       "en": "I am hungry",
-      "pt": "tenho fome"
+      "pt": "tenho fome",
+      "tense": "presente"
     },
     {
       "en": "I am full",
-      "pt": "estou cheio / cheia"
+      "pt": "estou cheio / cheia",
+      "tense": "presente"
     },
     {
       "en": "I am thirsty",
-      "pt": "tenho sede"
+      "pt": "tenho sede",
+      "tense": "presente"
     },
     {
       "en": "I am cold",
-      "pt": "tenho frio"
+      "pt": "tenho frio",
+      "tense": "presente"
     },
     {
       "en": "I am hot",
-      "pt": "tenho calor"
+      "pt": "tenho calor",
+      "tense": "presente"
     },
     {
       "en": "I am afraid",
-      "pt": "tenho medo"
+      "pt": "tenho medo",
+      "tense": "presente"
     },
     {
       "en": "I am glad",

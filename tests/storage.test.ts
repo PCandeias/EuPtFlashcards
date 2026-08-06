@@ -3,9 +3,12 @@ import {
   LEGACY_KEYS, V3_KEYS, KEYS, loadProgress, saveProgress, loadSettings, saveSettings,
   DEFAULT_SETTINGS, type StorageLike,
 } from '../src/lib/storage/progress.js'
-import { remapIds, seedFromFixedDelay, runMigration } from '../src/lib/storage/migrate.js'
+import {
+  remapIds, seedFromFixedDelay, runMigration, migrateTenseScope,
+} from '../src/lib/storage/migrate.js'
 import { buildBackup, parseBackup, mergeProgress } from '../src/lib/storage/backup.js'
 import { newState } from '../src/lib/study/sm2.js'
+import { TENSE_IDS } from '../src/lib/verbs/tenses.js'
 import type { Card } from '../src/lib/cards/schema.js'
 import type { Progress } from '../src/lib/study/scheduler.js'
 
@@ -211,8 +214,10 @@ describe('settings', () => {
     expect(loadSettings(store)).toEqual(settings)
   })
 
-  it('defaults to the tenses a beginner needs first', () => {
-    expect(loadSettings(store).tenses).toEqual(['presente', 'futuroProximo'])
+  // The selection also decides which cards appear, so anything less than all of
+  // them would hide part of the deck before the user asked for that.
+  it('defaults to every tense', () => {
+    expect(loadSettings(store).tenses).toEqual([...TENSE_IDS])
   })
 
   // A tense could be renamed or dropped in a later version; the rest must survive.
@@ -296,5 +301,43 @@ describe('mergeProgress', () => {
 
   it('adds cards the current record has never seen', () => {
     expect(Object.keys(mergeProgress({}, { a: newState() }))).toEqual(['a'])
+  })
+})
+
+describe('migrateTenseScope', () => {
+  // The setting used to choose only what the conjugation panel offered. Now it
+  // also decides which cards appear, so an old narrow selection would quietly
+  // remove every card in the tenses it left out.
+  it('widens a selection made when the setting meant less', () => {
+    saveSettings(store, {
+      deck: 'All', direction: 'a-b', theme: 'slate', tenses: ['presente'],
+    })
+    expect(migrateTenseScope(store)).toBe(true)
+    expect(loadSettings(store).tenses).toEqual([...TENSE_IDS])
+  })
+
+  it('runs only once, so a later narrowing sticks', () => {
+    saveSettings(store, {
+      deck: 'All', direction: 'a-b', theme: 'slate', tenses: ['presente'],
+    })
+    migrateTenseScope(store)
+
+    saveSettings(store, {
+      deck: 'All', direction: 'a-b', theme: 'slate', tenses: ['presente'],
+    })
+    expect(migrateTenseScope(store)).toBe(false)
+    expect(loadSettings(store).tenses).toEqual(['presente'])
+  })
+
+  it('leaves a new user alone — they already get the full default', () => {
+    expect(migrateTenseScope(store)).toBe(false)
+    expect(store.getItem(KEYS.settings)).toBeNull()
+  })
+
+  it('does nothing when every tense was already selected', () => {
+    saveSettings(store, {
+      deck: 'All', direction: 'a-b', theme: 'slate', tenses: [...TENSE_IDS],
+    })
+    expect(migrateTenseScope(store)).toBe(false)
   })
 })
