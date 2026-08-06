@@ -304,10 +304,13 @@ test.describe('typing mode', () => {
     await page.goto('./')
     await page.click('#typeBtn')
 
-    // Find a card whose answer actually carries an accent.
+    // Find a card whose answer actually carries an accent. Read the word's own
+    // text node: textContent would also pick up badge pills and the conjugation
+    // marker, which are inside .word but are not part of the answer.
     const plain = await page.evaluate(async () => {
       for (let i = 0; i < 300; i++) {
-        const back = document.querySelector('.face.back .word')?.textContent?.trim() ?? ''
+        const back = document.querySelector('.face.back .word')
+          ?.childNodes[0]?.textContent?.trim() ?? ''
         const stripped = back.normalize('NFD').replace(/\p{Diacritic}/gu, '')
         if (stripped !== back && !back.includes('/')) return { back, stripped }
         ;(document.getElementById('nextBtn') as HTMLButtonElement).click()
@@ -447,8 +450,6 @@ test.describe('themes', () => {
     await page.evaluate(() => localStorage.clear())
     await page.reload()
     await expect(page.locator('html')).toHaveAttribute('data-theme', 'slate')
-    await openSettings(page)
-    await expect(page.locator('#themeSelect')).toHaveValue('slate')
   })
 
   test('switching repaints the whole app, badges included', async ({ page }) => {
@@ -463,8 +464,7 @@ test.describe('themes', () => {
     })
 
     const slate = await read()
-    await openSettings(page)
-    await page.selectOption('#themeSelect', 'azulejo')
+    await page.click('#themeBtn')
     const azulejo = await read()
 
     expect(azulejo.theme).toBe('azulejo')
@@ -475,22 +475,19 @@ test.describe('themes', () => {
 
   test('keeps the iOS status bar in step with the theme', async ({ page }) => {
     await page.goto('./')
-    await openSettings(page)
-    await page.selectOption('#themeSelect', 'azulejo')
+    await page.click('#themeBtn')
     const light = await page.getAttribute('meta[name="theme-color"]', 'content')
-    await page.selectOption('#themeSelect', 'slate')
+    await page.click('#themeBtn')
     const dark = await page.getAttribute('meta[name="theme-color"]', 'content')
     expect(light).not.toBe(dark)
   })
 
   test('survives a reload', async ({ page }) => {
     await page.goto('./')
-    await openSettings(page)
-    await page.selectOption('#themeSelect', 'azulejo')
+    await page.click('#themeBtn')
     await page.reload()
     await expect(page.locator('html')).toHaveAttribute('data-theme', 'azulejo')
-    await openSettings(page)
-    await expect(page.locator('#themeSelect')).toHaveValue('azulejo')
+    await expect(page.locator('#themeBtn')).toHaveAttribute('aria-label', /dark/i)
   })
 
   test('falls back to Slate rather than writing junk into the document', async ({ page }) => {
@@ -553,7 +550,7 @@ test.describe('layout', () => {
       await expect(page.locator('.card')).toBeVisible()
 
       const ids = [
-        'deckSelect', 'directionSelect', 'typeBtn', 'shuffleBtn', 'resetBtn',
+        'deckSelect', 'directionSelect', 'typeBtn', 'shuffleBtn', 'themeBtn', 'resetBtn',
         'settingsBtn', 'prevBtn', 'flipBtn', 'nextBtn',
         'againBtn', 'hardBtn', 'goodBtn', 'easyBtn',
       ]
@@ -571,8 +568,17 @@ test.describe('layout', () => {
     await page.setViewportSize({ width: 320, height: 568 })
     await page.goto('./')
     await page.click('#settingsBtn')
-    const onScreen = await page.evaluate(() => {
-      const r = document.querySelector('.sheet')!.getBoundingClientRect()
+    // The sheet animates in, so measure once it has settled rather than mid-rise.
+    const onScreen = await page.evaluate(async () => {
+      const rect = () => document.querySelector('.sheet')!.getBoundingClientRect()
+      let previous = -1
+      for (let i = 0; i < 30; i++) {
+        await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)))
+        const bottom = Math.round(rect().bottom)
+        if (bottom === previous) break
+        previous = bottom
+      }
+      const r = rect()
       return r.top >= -1 && r.bottom <= innerHeight + 1
     })
     expect(onScreen).toBe(true)
@@ -750,7 +756,7 @@ test.describe('settings panel', () => {
   test('holds appearance, conjugation and backup', async ({ page }) => {
     await page.goto('./')
     await page.click('#settingsBtn')
-    for (const id of ['#themeSelect', '#exportBtn', '#importBtn']) {
+    for (const id of ['#exportBtn', '#importBtn']) {
       await expect(page.locator(id), `${id} should be in settings`).toBeVisible()
     }
     await expect(page.locator('input[value="presente"]')).toBeVisible()
@@ -761,8 +767,7 @@ test.describe('settings panel', () => {
     for (const id of ['#deckSelect', '#directionSelect', '#typeBtn', '#shuffleBtn', '#resetBtn']) {
       await expect(page.locator(`.topbar ${id}`), `${id} belongs in the toolbar`).toBeVisible()
     }
-    // Theme moved into settings; a copy left behind would be a duplicate control.
-    await expect(page.locator('.topbar #themeSelect')).toHaveCount(0)
+    await expect(page.locator('.topbar #themeBtn')).toBeVisible()
   })
 
   // Reset is one tap away in the toolbar, so a misclick must not wipe history.

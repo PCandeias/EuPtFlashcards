@@ -1,5 +1,6 @@
 <script lang="ts">
-  import type { Direction, Settings } from '../lib/storage/progress.js'
+  import ThemeToggle from './ThemeToggle.svelte'
+  import type { Direction, Settings, Theme } from '../lib/storage/progress.js'
 
   let {
     settings, deckOptions, typing, onchange, onshuffle, ontoggletyping, onreset, onsettings,
@@ -48,16 +49,25 @@
 
     <button id="shuffleBtn" onclick={onshuffle} title="Reshuffle this deck">Shuffle</button>
 
+    <ThemeToggle
+      theme={settings.theme}
+      onchange={(theme: Theme) => onchange({ theme })}
+    />
+
     <!-- Destructive, so it opens a confirmation rather than acting on the click. -->
     <button id="resetBtn" onclick={onreset} title="Reset progress for this deck">Reset</button>
 
     <button id="settingsBtn" onclick={onsettings} aria-haspopup="dialog" title="Settings">
-      <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
-        <circle cx="12" cy="12" r="3.2" fill="none" stroke="currentColor" stroke-width="1.8" />
+      <!-- Sliders, not a cog: a cog's ring-and-spokes reads as a sun next to the
+           theme toggle sitting two buttons away. -->
+      <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true">
         <path
-          d="M12 2.8v2.4M12 18.8v2.4M4.5 12H2.1M21.9 12h-2.4M6.7 6.7 5 5M19 19l-1.7-1.7M17.3 6.7 19 5M5 19l1.7-1.7"
+          d="M4 7h9M17.5 7H20M4 12h3M11.5 12H20M4 17h9M17.5 17H20"
           fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
         />
+        <circle cx="15.2" cy="7" r="2.1" fill="none" stroke="currentColor" stroke-width="1.8" />
+        <circle cx="9.2" cy="12" r="2.1" fill="none" stroke="currentColor" stroke-width="1.8" />
+        <circle cx="15.2" cy="17" r="2.1" fill="none" stroke="currentColor" stroke-width="1.8" />
       </svg>
       <span class="label">Settings</span>
     </button>
@@ -80,8 +90,8 @@
    */
   @media (max-width: 760px) {
     .topbar { grid-template-columns: 1fr; gap: 6px; }
-    .actions { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
-    .actions button { min-height: 38px; padding: 4px 6px; font-size: 13px; }
+    .actions { display: grid; grid-template-columns: repeat(5, 1fr); gap: 5px; }
+    .actions button { min-height: 38px; padding: 4px 4px; font-size: 12px; }
     #settingsBtn .label { display: none; }
   }
   @media (max-height: 700px) and (max-width: 760px) {

@@ -60,8 +60,11 @@ pushed back a few places so it returns before you finish.
 
 ## Settings
 
-The toolbar holds the study controls — deck, direction, typing mode, shuffle and
-reset. **Settings** holds the rest: theme, conjugation tenses and backup.
+The toolbar holds the study controls — deck, direction, typing mode, shuffle, the
+theme toggle and reset. **Settings** holds the rest: conjugation tenses and backup.
+
+The sun/moon button switches straight between the two themes; its icon shows what a
+click will give you rather than what you already have.
 
 On a phone the two selects take a row each and the four actions share one, so the
 toolbar is three rows rather than six. Every control stays on screen down to
@@ -76,7 +79,8 @@ the toolbar and wipes real scheduling and review history.
 
 ## Themes
 
-Two complete palettes, picked in the toolbar and remembered:
+Two complete palettes, switched with the sun/moon button in the toolbar and
+remembered:
 
 - **Slate** — the original cool dark.
 - **Azulejo** — deep tile blue on cream, with terracotta. Light, so it is also the

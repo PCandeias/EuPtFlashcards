@@ -1,6 +1,6 @@
 <script lang="ts">
   import TenseSettings from './TenseSettings.svelte'
-  import { THEMES, THEME_LABELS, type Settings, type Theme } from '../lib/storage/progress.js'
+  import type { Settings } from '../lib/storage/progress.js'
   import type { TenseId } from '../lib/verbs/tenses.js'
 
   let {
@@ -52,22 +52,6 @@
       </button>
     </header>
 
-    <section>
-      <h3>Appearance</h3>
-      <label class="row">
-        <span>Theme</span>
-        <select
-          id="themeSelect"
-          value={settings.theme}
-          onchange={(e) => onchange({ theme: e.currentTarget.value as Theme })}
-        >
-          {#each THEMES as theme (theme)}
-            <option value={theme}>{THEME_LABELS[theme]}</option>
-          {/each}
-        </select>
-      </label>
-      <p class="note">Azulejo is light, which reads better outdoors.</p>
-    </section>
 
 
     <section>
@@ -141,8 +125,6 @@
     color: var(--accent);
   }
 
-  .row { display: grid; grid-template-columns: minmax(90px, auto) 1fr; gap: 12px; align-items: center; }
-  .row span { font-size: 14px; }
   .note { margin: 8px 0 0; font-size: 12px; color: var(--muted); line-height: 1.5; }
   .buttons { display: flex; flex-wrap: wrap; gap: 8px; }
   .buttons button { font-size: 13px; }
@@ -159,6 +141,5 @@
     dialog {
       margin: auto auto 0;
     }
-    .row { grid-template-columns: 1fr; gap: 6px; }
   }
 </style>
