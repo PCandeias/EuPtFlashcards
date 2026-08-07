@@ -4,7 +4,7 @@ Two languages, as one installable offline web app with spaced repetition:
 
 | | | |
 |---|---|---|
-| **Português** | 3128 cards · 37 decks | European Portuguese — `autocarro`, not `ônibus` |
+| **Português** | 3368 cards · 37 decks | European Portuguese — `autocarro`, not `ônibus` |
 | **Türkçe** | 2446 cards · 38 decks | Beginner Turkish — vowel harmony, suffixes, no gender |
 
 **Live:** https://pcandeias.github.io/EuPtFlashcards/
@@ -217,7 +217,7 @@ itself is offered only on dictionary forms: putting it on `evde` would suggest
 ## Example sentences
 
 The `"` beside a word shows it in whole sentences, filtered by the same tense
-selection as the deck: **18,436 sentences** across the two languages, reaching
+selection as the deck: **18,843 sentences** across the two languages, reaching
 52% of the Portuguese cards and 66% of the Turkish ones.
 
 They come from three places, and where they overlap the more careful source wins:
@@ -390,8 +390,9 @@ into an `href`.
 
 Decks live in [`data/pt/decks/`](data/pt/decks/) and
 [`data/tr/decks/`](data/tr/decks/), one JSON file each. The **Class** deck is not
-maintained here: it records what a real class covered, so nothing is added to it,
-though its cards get example sentences and levels like any other. Edit the file and the
+maintained here in the usual sense: it records what a real class covered, so it
+changes only when the class hands over more of its word list — the last of those
+brought 240 cards. Its cards get example sentences and levels like any other. Edit the file and the
 change is picked up on the next build. An unknown tag, a `targetTags` entry not
 present in `tags`, or a tense belonging to the other language, fails the build
 rather than rendering half-right.

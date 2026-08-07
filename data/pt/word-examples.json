@@ -3599,38 +3599,6 @@
       "tense": "futuro"
     }
   ],
-  "o tempo": [
-    {
-      "target": "Aqui está o tempo.",
-      "en": "Here is the time.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou à procura do tempo.",
-      "en": "I am looking for the time.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Encontrei o tempo ontem.",
-      "en": "I found the time yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente havia tempo em toda a parte.",
-      "en": "There used to be the time everywhere.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Vou ver o tempo amanhã.",
-      "en": "I am going to see the time tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Veremos o tempo em breve.",
-      "en": "We will see the time soon.",
-      "tense": "futuro"
-    }
-  ],
   "a escola": [
     {
       "target": "Onde fica a escola?",
@@ -3791,38 +3759,6 @@
       "tense": "futuro"
     }
   ],
-  "o almoço": [
-    {
-      "target": "Aqui está o almoço.",
-      "en": "Here is the lunch.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou à procura do almoço.",
-      "en": "I am looking for the lunch.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Encontrei o almoço ontem.",
-      "en": "I found the lunch yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente havia almoço em toda a parte.",
-      "en": "There used to be the lunch everywhere.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Vou ver o almoço amanhã.",
-      "en": "I am going to see the lunch tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Veremos o almoço em breve.",
-      "en": "We will see the lunch soon.",
-      "tense": "futuro"
-    }
-  ],
   "o jantar": [
     {
       "target": "O jantar é importante para mim.",
@@ -3916,38 +3852,6 @@
     {
       "target": "Veremos as maçãs em breve.",
       "en": "We will see the apples soon.",
-      "tense": "futuro"
-    }
-  ],
-  "a carta": [
-    {
-      "target": "Aqui está a carta.",
-      "en": "Here is the letter.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou à procura da carta.",
-      "en": "I am looking for the letter.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Encontrei a carta ontem.",
-      "en": "I found the letter yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente havia carta em toda a parte.",
-      "en": "There used to be the letter everywhere.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Vou ver a carta amanhã.",
-      "en": "I am going to see the letter tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Veremos a carta em breve.",
-      "en": "We will see the letter soon.",
       "tense": "futuro"
     }
   ],
@@ -4076,38 +3980,6 @@
     {
       "target": "Veremos a mesa em breve.",
       "en": "We will see the table soon.",
-      "tense": "futuro"
-    }
-  ],
-  "o copo": [
-    {
-      "target": "Aqui está o copo.",
-      "en": "Here is the glass.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou à procura do copo.",
-      "en": "I am looking for the glass.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Encontrei o copo ontem.",
-      "en": "I found the glass yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente havia copo em toda a parte.",
-      "en": "There used to be the glass everywhere.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Vou ver o copo amanhã.",
-      "en": "I am going to see the glass tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Veremos o copo em breve.",
-      "en": "We will see the glass soon.",
       "tense": "futuro"
     }
   ],
@@ -4271,38 +4143,6 @@
       "tense": "futuro"
     }
   ],
-  "a aula": [
-    {
-      "target": "Aqui está a aula.",
-      "en": "Here is the class.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou à procura da aula.",
-      "en": "I am looking for the class.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Encontrei a aula ontem.",
-      "en": "I found the class yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente havia aula em toda a parte.",
-      "en": "There used to be the class everywhere.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Vou ver a aula amanhã.",
-      "en": "I am going to see the class tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Veremos a aula em breve.",
-      "en": "We will see the class soon.",
-      "tense": "futuro"
-    }
-  ],
   "as aulas": [
     {
       "target": "As aulas é importante para mim.",
@@ -4396,38 +4236,6 @@
     {
       "target": "Veremos o nome em breve.",
       "en": "We will see the name soon.",
-      "tense": "futuro"
-    }
-  ],
-  "o apelido": [
-    {
-      "target": "Aqui está o apelido.",
-      "en": "Here is the surname.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou à procura do apelido.",
-      "en": "I am looking for the surname.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Encontrei o apelido ontem.",
-      "en": "I found the surname yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente havia apelido em toda a parte.",
-      "en": "There used to be the surname everywhere.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Vou ver o apelido amanhã.",
-      "en": "I am going to see the surname tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Veremos o apelido em breve.",
-      "en": "We will see the surname soon.",
       "tense": "futuro"
     }
   ],
@@ -7823,38 +7631,6 @@
       "tense": "futuro"
     }
   ],
-  "o papel": [
-    {
-      "target": "Aqui está o papel.",
-      "en": "Here is the paper.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou à procura do papel.",
-      "en": "I am looking for the paper.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Encontrei o papel ontem.",
-      "en": "I found the paper yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente havia papel em toda a parte.",
-      "en": "There used to be the paper everywhere.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Vou ver o papel amanhã.",
-      "en": "I am going to see the paper tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Veremos o papel em breve.",
-      "en": "We will see the paper soon.",
-      "tense": "futuro"
-    }
-  ],
   "a tesoura": [
     {
       "target": "A tesoura é importante para mim.",
@@ -7948,38 +7724,6 @@
     {
       "target": "Veremos a caixa em breve.",
       "en": "We will see the box soon.",
-      "tense": "futuro"
-    }
-  ],
-  "o guarda-chuva": [
-    {
-      "target": "Aqui está o guarda-chuva.",
-      "en": "Here is the umbrella.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou à procura do guarda-chuva.",
-      "en": "I am looking for the umbrella.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Encontrei o guarda-chuva ontem.",
-      "en": "I found the umbrella yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente havia guarda-chuva em toda a parte.",
-      "en": "There used to be the umbrella everywhere.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Vou ver o guarda-chuva amanhã.",
-      "en": "I am going to see the umbrella tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Veremos o guarda-chuva em breve.",
-      "en": "We will see the umbrella soon.",
       "tense": "futuro"
     }
   ],
@@ -8079,38 +7823,6 @@
       "tense": "futuro"
     }
   ],
-  "o creme": [
-    {
-      "target": "Aqui está o creme.",
-      "en": "Here is the cream.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou à procura do creme.",
-      "en": "I am looking for the cream.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Encontrei o creme ontem.",
-      "en": "I found the cream yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente havia creme em toda a parte.",
-      "en": "There used to be the cream everywhere.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Vou ver o creme amanhã.",
-      "en": "I am going to see the cream tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Veremos o creme em breve.",
-      "en": "We will see the cream soon.",
-      "tense": "futuro"
-    }
-  ],
   "a bilheteira": [
     {
       "target": "A bilheteira é importante para mim.",
@@ -8204,38 +7916,6 @@
     {
       "target": "Veremos a piscina em breve.",
       "en": "We will see the pool soon.",
-      "tense": "futuro"
-    }
-  ],
-  "o ginásio": [
-    {
-      "target": "Aqui está o ginásio.",
-      "en": "Here is the gym.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou à procura do ginásio.",
-      "en": "I am looking for the gym.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Encontrei o ginásio ontem.",
-      "en": "I found the gym yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente havia ginásio em toda a parte.",
-      "en": "There used to be the gym everywhere.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Vou ver o ginásio amanhã.",
-      "en": "I am going to see the gym tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Veremos o ginásio em breve.",
-      "en": "We will see the gym soon.",
       "tense": "futuro"
     }
   ],
@@ -8335,38 +8015,6 @@
       "tense": "futuro"
     }
   ],
-  "o quadro": [
-    {
-      "target": "Aqui está o quadro.",
-      "en": "Here is the picture.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou à procura do quadro.",
-      "en": "I am looking for the picture.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Encontrei o quadro ontem.",
-      "en": "I found the picture yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente havia quadro em toda a parte.",
-      "en": "There used to be the picture everywhere.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Vou ver o quadro amanhã.",
-      "en": "I am going to see the picture tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Veremos o quadro em breve.",
-      "en": "We will see the picture soon.",
-      "tense": "futuro"
-    }
-  ],
   "o jornal": [
     {
       "target": "O jornal é importante para mim.",
@@ -8460,38 +8108,6 @@
     {
       "target": "Veremos o brinquedo em breve.",
       "en": "We will see the toy soon.",
-      "tense": "futuro"
-    }
-  ],
-  "a bola": [
-    {
-      "target": "Aqui está a bola.",
-      "en": "Here is the ball.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou à procura da bola.",
-      "en": "I am looking for the ball.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Encontrei a bola ontem.",
-      "en": "I found the ball yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente havia bola em toda a parte.",
-      "en": "There used to be the ball everywhere.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Vou ver a bola amanhã.",
-      "en": "I am going to see the ball tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Veremos a bola em breve.",
-      "en": "We will see the ball soon.",
       "tense": "futuro"
     }
   ],
@@ -8623,38 +8239,6 @@
       "tense": "futuro"
     }
   ],
-  "a estrada secundária": [
-    {
-      "target": "Aqui está a estrada secundária.",
-      "en": "Here is the side road.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou à procura da estrada secundária.",
-      "en": "I am looking for the side road.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Encontrei a estrada secundária ontem.",
-      "en": "I found the side road yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente havia estrada secundária em toda a parte.",
-      "en": "There used to be the side road everywhere.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Vou ver a estrada secundária amanhã.",
-      "en": "I am going to see the side road tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Veremos a estrada secundária em breve.",
-      "en": "We will see the side road soon.",
-      "tense": "futuro"
-    }
-  ],
   "o semáforo": [
     {
       "target": "O semáforo é importante para mim.",
@@ -8748,38 +8332,6 @@
     {
       "target": "Veremos a garagem em breve.",
       "en": "We will see the garage soon.",
-      "tense": "futuro"
-    }
-  ],
-  "a gasolina": [
-    {
-      "target": "Aqui está a gasolina.",
-      "en": "Here is the petrol.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou à procura da gasolina.",
-      "en": "I am looking for the petrol.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Encontrei a gasolina ontem.",
-      "en": "I found the petrol yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente havia gasolina em toda a parte.",
-      "en": "There used to be the petrol everywhere.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Vou ver a gasolina amanhã.",
-      "en": "I am going to see the petrol tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Veremos a gasolina em breve.",
-      "en": "We will see the petrol soon.",
       "tense": "futuro"
     }
   ],
@@ -8879,38 +8431,6 @@
       "tense": "futuro"
     }
   ],
-  "o atraso": [
-    {
-      "target": "Aqui está o atraso.",
-      "en": "Here is the delay.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou à procura do atraso.",
-      "en": "I am looking for the delay.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Encontrei o atraso ontem.",
-      "en": "I found the delay yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente havia atraso em toda a parte.",
-      "en": "There used to be the delay everywhere.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Vou ver o atraso amanhã.",
-      "en": "I am going to see the delay tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Veremos o atraso em breve.",
-      "en": "We will see the delay soon.",
-      "tense": "futuro"
-    }
-  ],
   "a chegada": [
     {
       "target": "A chegada é importante para mim.",
@@ -9007,38 +8527,6 @@
       "tense": "futuro"
     }
   ],
-  "o quarto duplo": [
-    {
-      "target": "Aqui está o quarto duplo.",
-      "en": "Here is the double room.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou à procura do quarto duplo.",
-      "en": "I am looking for the double room.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Encontrei o quarto duplo ontem.",
-      "en": "I found the double room yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente havia quarto duplo em toda a parte.",
-      "en": "There used to be the double room everywhere.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Vou ver o quarto duplo amanhã.",
-      "en": "I am going to see the double room tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Veremos o quarto duplo em breve.",
-      "en": "We will see the double room soon.",
-      "tense": "futuro"
-    }
-  ],
   "o quarto individual": [
     {
       "target": "O quarto individual é importante para mim.",
@@ -9132,38 +8620,6 @@
     {
       "target": "Veremos a limpeza em breve.",
       "en": "We will see the cleaning soon.",
-      "tense": "futuro"
-    }
-  ],
-  "o aquecimento": [
-    {
-      "target": "Aqui está o aquecimento.",
-      "en": "Here is the heating.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou à procura do aquecimento.",
-      "en": "I am looking for the heating.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Encontrei o aquecimento ontem.",
-      "en": "I found the heating yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente havia aquecimento em toda a parte.",
-      "en": "There used to be the heating everywhere.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Vou ver o aquecimento amanhã.",
-      "en": "I am going to see the heating tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Veremos o aquecimento em breve.",
-      "en": "We will see the heating soon.",
       "tense": "futuro"
     }
   ],
@@ -9327,38 +8783,6 @@
       "tense": "futuro"
     }
   ],
-  "o grupo": [
-    {
-      "target": "Aqui está o grupo.",
-      "en": "Here is the group.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou à procura do grupo.",
-      "en": "I am looking for the group.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Encontrei o grupo ontem.",
-      "en": "I found the group yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente havia grupo em toda a parte.",
-      "en": "There used to be the group everywhere.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Vou ver o grupo amanhã.",
-      "en": "I am going to see the group tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Veremos o grupo em breve.",
-      "en": "We will see the group soon.",
-      "tense": "futuro"
-    }
-  ],
   "a lista": [
     {
       "target": "A lista é importante para mim.",
@@ -9452,38 +8876,6 @@
     {
       "target": "Veremos a razão em breve.",
       "en": "We will see the reason soon.",
-      "tense": "futuro"
-    }
-  ],
-  "o problema": [
-    {
-      "target": "Aqui está o problema.",
-      "en": "Here is the problem.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou à procura do problema.",
-      "en": "I am looking for the problem.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Encontrei o problema ontem.",
-      "en": "I found the problem yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente havia problema em toda a parte.",
-      "en": "There used to be the problem everywhere.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Vou ver o problema amanhã.",
-      "en": "I am going to see the problem tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Veremos o problema em breve.",
-      "en": "We will see the problem soon.",
       "tense": "futuro"
     }
   ],
@@ -9583,38 +8975,6 @@
       "tense": "futuro"
     }
   ],
-  "o início": [
-    {
-      "target": "Aqui está o início.",
-      "en": "Here is the beginning.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou à procura do início.",
-      "en": "I am looking for the beginning.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Encontrei o início ontem.",
-      "en": "I found the beginning yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente havia início em toda a parte.",
-      "en": "There used to be the beginning everywhere.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Vou ver o início amanhã.",
-      "en": "I am going to see the beginning tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Veremos o início em breve.",
-      "en": "We will see the beginning soon.",
-      "tense": "futuro"
-    }
-  ],
   "o fim": [
     {
       "target": "O fim é importante para mim.",
@@ -9708,38 +9068,6 @@
     {
       "target": "Veremos o fundo em breve.",
       "en": "We will see the bottom soon.",
-      "tense": "futuro"
-    }
-  ],
-  "o lado": [
-    {
-      "target": "Aqui está o lado.",
-      "en": "Here is the side.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou à procura do lado.",
-      "en": "I am looking for the side.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Encontrei o lado ontem.",
-      "en": "I found the side yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente havia lado em toda a parte.",
-      "en": "There used to be the side everywhere.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Vou ver o lado amanhã.",
-      "en": "I am going to see the side tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Veremos o lado em breve.",
-      "en": "We will see the side soon.",
       "tense": "futuro"
     }
   ],
@@ -9839,38 +9167,6 @@
       "tense": "futuro"
     }
   ],
-  "o barulho": [
-    {
-      "target": "Aqui está o barulho.",
-      "en": "Here is the noise.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou à procura do barulho.",
-      "en": "I am looking for the noise.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Encontrei o barulho ontem.",
-      "en": "I found the noise yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente havia barulho em toda a parte.",
-      "en": "There used to be the noise everywhere.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Vou ver o barulho amanhã.",
-      "en": "I am going to see the noise tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Veremos o barulho em breve.",
-      "en": "We will see the noise soon.",
-      "tense": "futuro"
-    }
-  ],
   "o cheiro": [
     {
       "target": "O cheiro é importante para mim.",
@@ -9964,38 +9260,6 @@
     {
       "target": "Veremos o peso em breve.",
       "en": "We will see the weight soon.",
-      "tense": "futuro"
-    }
-  ],
-  "a forma": [
-    {
-      "target": "Aqui está a forma.",
-      "en": "Here is the shape.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou à procura da forma.",
-      "en": "I am looking for the shape.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Encontrei a forma ontem.",
-      "en": "I found the shape yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente havia forma em toda a parte.",
-      "en": "There used to be the shape everywhere.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Vou ver a forma amanhã.",
-      "en": "I am going to see the shape tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Veremos a forma em breve.",
-      "en": "We will see the shape soon.",
       "tense": "futuro"
     }
   ],
@@ -19407,38 +18671,6 @@
       "tense": "futuro"
     }
   ],
-  "a reserva": [
-    {
-      "target": "Aqui está a reserva.",
-      "en": "Here is the reservation.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou à procura da reserva.",
-      "en": "I am looking for the reservation.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Encontrei a reserva ontem.",
-      "en": "I found the reservation yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente havia reserva em toda a parte.",
-      "en": "There used to be the reservation everywhere.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Vou ver a reserva amanhã.",
-      "en": "I am going to see the reservation tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Veremos a reserva em breve.",
-      "en": "We will see the reservation soon.",
-      "tense": "futuro"
-    }
-  ],
   "o pedido": [
     {
       "target": "O pedido é importante para mim.",
@@ -19532,38 +18764,6 @@
     {
       "target": "Veremos a faca em breve.",
       "en": "We will see the knife soon.",
-      "tense": "futuro"
-    }
-  ],
-  "a colher": [
-    {
-      "target": "Aqui está a colher.",
-      "en": "Here is the spoon.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou à procura da colher.",
-      "en": "I am looking for the spoon.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Encontrei a colher ontem.",
-      "en": "I found the spoon yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente havia colher em toda a parte.",
-      "en": "There used to be the spoon everywhere.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Vou ver a colher amanhã.",
-      "en": "I am going to see the spoon tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Veremos a colher em breve.",
-      "en": "We will see the spoon soon.",
       "tense": "futuro"
     }
   ],
@@ -19663,38 +18863,6 @@
       "tense": "futuro"
     }
   ],
-  "a garrafa": [
-    {
-      "target": "Aqui está a garrafa.",
-      "en": "Here is the bottle.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou à procura da garrafa.",
-      "en": "I am looking for the bottle.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Encontrei a garrafa ontem.",
-      "en": "I found the bottle yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente havia garrafa em toda a parte.",
-      "en": "There used to be the bottle everywhere.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Vou ver a garrafa amanhã.",
-      "en": "I am going to see the bottle tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Veremos a garrafa em breve.",
-      "en": "We will see the bottle soon.",
-      "tense": "futuro"
-    }
-  ],
   "a dose": [
     {
       "target": "A dose é importante para mim.",
@@ -19791,38 +18959,6 @@
       "tense": "futuro"
     }
   ],
-  "a gorjeta": [
-    {
-      "target": "Aqui está a gorjeta.",
-      "en": "Here is the tip.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou à procura da gorjeta.",
-      "en": "I am looking for the tip.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Encontrei a gorjeta ontem.",
-      "en": "I found the tip yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente havia gorjeta em toda a parte.",
-      "en": "There used to be the tip everywhere.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Vou ver a gorjeta amanhã.",
-      "en": "I am going to see the tip tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Veremos a gorjeta em breve.",
-      "en": "We will see the tip soon.",
-      "tense": "futuro"
-    }
-  ],
   "o prato principal": [
     {
       "target": "O prato principal é importante para mim.",
@@ -19916,38 +19052,6 @@
     {
       "target": "Veremos a ementa turística em breve.",
       "en": "We will see the set menu soon.",
-      "tense": "futuro"
-    }
-  ],
-  "a esplanada": [
-    {
-      "target": "Aqui está a esplanada.",
-      "en": "Here is the terrace.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou à procura da esplanada.",
-      "en": "I am looking for the terrace.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Encontrei a esplanada ontem.",
-      "en": "I found the terrace yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente havia esplanada em toda a parte.",
-      "en": "There used to be the terrace everywhere.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Vou ver a esplanada amanhã.",
-      "en": "I am going to see the terrace tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Veremos a esplanada em breve.",
-      "en": "We will see the terrace soon.",
       "tense": "futuro"
     }
   ],
@@ -28178,96 +27282,96 @@
   "a consoada": [
     {
       "target": "Aqui está a consoada.",
-      "en": "Here is the Christmas Eve.",
+      "en": "Here is Christmas Eve.",
       "tense": "presente"
     },
     {
       "target": "Estou a pensar na consoada.",
-      "en": "I am thinking about the Christmas Eve.",
+      "en": "I am thinking about Christmas Eve.",
       "tense": "presenteContinuo"
     },
     {
       "target": "Ontem falei da consoada.",
-      "en": "Yesterday I talked about the Christmas Eve.",
+      "en": "Yesterday I talked about Christmas Eve.",
       "tense": "perfeito"
     },
     {
       "target": "Antigamente a consoada era diferente.",
-      "en": "The Christmas Eve used to be different.",
+      "en": "Christmas Eve used to be different.",
       "tense": "imperfeito"
     },
     {
       "target": "Amanhã falaremos da consoada.",
-      "en": "Tomorrow we will talk about the Christmas Eve.",
+      "en": "Tomorrow we will talk about Christmas Eve.",
       "tense": "futuro"
     },
     {
       "target": "Vou falar da consoada.",
-      "en": "I am going to talk about the Christmas Eve.",
+      "en": "I am going to talk about Christmas Eve.",
       "tense": "futuroProximo"
     }
   ],
   "o Santo António": [
     {
       "target": "Aqui está o Santo António.",
-      "en": "Here is the Saint Anthony.",
+      "en": "Here is Saint Anthony.",
       "tense": "presente"
     },
     {
       "target": "Estou a pensar no Santo António.",
-      "en": "I am thinking about the Saint Anthony.",
+      "en": "I am thinking about Saint Anthony.",
       "tense": "presenteContinuo"
     },
     {
       "target": "Ontem falei do Santo António.",
-      "en": "Yesterday I talked about the Saint Anthony.",
+      "en": "Yesterday I talked about Saint Anthony.",
       "tense": "perfeito"
     },
     {
       "target": "Antigamente o Santo António era diferente.",
-      "en": "The Saint Anthony used to be different.",
+      "en": "Saint Anthony used to be different.",
       "tense": "imperfeito"
     },
     {
       "target": "Amanhã falaremos do Santo António.",
-      "en": "Tomorrow we will talk about the Saint Anthony.",
+      "en": "Tomorrow we will talk about Saint Anthony.",
       "tense": "futuro"
     },
     {
       "target": "Vou falar do Santo António.",
-      "en": "I am going to talk about the Saint Anthony.",
+      "en": "I am going to talk about Saint Anthony.",
       "tense": "futuroProximo"
     }
   ],
   "as festas populares": [
     {
       "target": "Aqui estão as festas populares.",
-      "en": "Here are the June street festivals.",
+      "en": "Here are June street festivals.",
       "tense": "presente"
     },
     {
       "target": "Estou a pensar nas festas populares.",
-      "en": "I am thinking about the June street festivals.",
+      "en": "I am thinking about June street festivals.",
       "tense": "presenteContinuo"
     },
     {
       "target": "Ontem falei das festas populares.",
-      "en": "Yesterday I talked about the June street festivals.",
+      "en": "Yesterday I talked about June street festivals.",
       "tense": "perfeito"
     },
     {
       "target": "Antigamente as festas populares eram diferentes.",
-      "en": "The June street festivals used to be different.",
+      "en": "June street festivals used to be different.",
       "tense": "imperfeito"
     },
     {
       "target": "Amanhã falaremos das festas populares.",
-      "en": "Tomorrow we will talk about the June street festivals.",
+      "en": "Tomorrow we will talk about June street festivals.",
       "tense": "futuro"
     },
     {
       "target": "Vou falar das festas populares.",
-      "en": "I am going to talk about the June street festivals.",
+      "en": "I am going to talk about June street festivals.",
       "tense": "futuroProximo"
     }
   ],
@@ -28303,6 +27407,38 @@
       "tense": "futuroProximo"
     }
   ],
+  "o tempo": [
+    {
+      "target": "Aqui está o tempo.",
+      "en": "Here is the time.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no tempo.",
+      "en": "I am thinking about the time.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do tempo.",
+      "en": "Yesterday I talked about the time.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o tempo era diferente.",
+      "en": "The time used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do tempo.",
+      "en": "Tomorrow we will talk about the time.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do tempo.",
+      "en": "I am going to talk about the time.",
+      "tense": "futuroProximo"
+    }
+  ],
   "o aperto de mão": [
     {
       "target": "Aqui está o aperto de mão.",
@@ -28332,6 +27468,1798 @@
     {
       "target": "Vou falar do aperto de mão.",
       "en": "I am going to talk about the handshake.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o almoço": [
+    {
+      "target": "Aqui está o almoço.",
+      "en": "Here is the lunch.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no almoço.",
+      "en": "I am thinking about the lunch.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do almoço.",
+      "en": "Yesterday I talked about the lunch.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o almoço era diferente.",
+      "en": "The lunch used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do almoço.",
+      "en": "Tomorrow we will talk about the lunch.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do almoço.",
+      "en": "I am going to talk about the lunch.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "a carta": [
+    {
+      "target": "Aqui está a carta.",
+      "en": "Here is the letter.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar na carta.",
+      "en": "I am thinking about the letter.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei da carta.",
+      "en": "Yesterday I talked about the letter.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente a carta era diferente.",
+      "en": "The letter used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos da carta.",
+      "en": "Tomorrow we will talk about the letter.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar da carta.",
+      "en": "I am going to talk about the letter.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o copo": [
+    {
+      "target": "Aqui está o copo.",
+      "en": "Here is the glass.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no copo.",
+      "en": "I am thinking about the glass.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do copo.",
+      "en": "Yesterday I talked about the glass.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o copo era diferente.",
+      "en": "The glass used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do copo.",
+      "en": "Tomorrow we will talk about the glass.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do copo.",
+      "en": "I am going to talk about the glass.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "a aula": [
+    {
+      "target": "Aqui está a aula.",
+      "en": "Here is the class / lesson.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar na aula.",
+      "en": "I am thinking about the class / lesson.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei da aula.",
+      "en": "Yesterday I talked about the class / lesson.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente a aula era diferente.",
+      "en": "The class / lesson used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos da aula.",
+      "en": "Tomorrow we will talk about the class / lesson.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar da aula.",
+      "en": "I am going to talk about the class / lesson.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o apelido": [
+    {
+      "target": "Aqui está o apelido.",
+      "en": "Here is the surname.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no apelido.",
+      "en": "I am thinking about the surname.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do apelido.",
+      "en": "Yesterday I talked about the surname.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o apelido era diferente.",
+      "en": "The surname used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do apelido.",
+      "en": "Tomorrow we will talk about the surname.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do apelido.",
+      "en": "I am going to talk about the surname.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o romeno": [
+    {
+      "target": "Aqui está o romeno.",
+      "en": "Here is Romanian language.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no romeno.",
+      "en": "I am thinking about Romanian language.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do romeno.",
+      "en": "Yesterday I talked about Romanian language.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o romeno era diferente.",
+      "en": "Romanian language used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do romeno.",
+      "en": "Tomorrow we will talk about Romanian language.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do romeno.",
+      "en": "I am going to talk about Romanian language.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o mandarim": [
+    {
+      "target": "Aqui está o mandarim.",
+      "en": "Here is Mandarin.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no mandarim.",
+      "en": "I am thinking about Mandarin.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do mandarim.",
+      "en": "Yesterday I talked about Mandarin.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o mandarim era diferente.",
+      "en": "Mandarin used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do mandarim.",
+      "en": "Tomorrow we will talk about Mandarin.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do mandarim.",
+      "en": "I am going to talk about Mandarin.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o hindi": [
+    {
+      "target": "Aqui está o hindi.",
+      "en": "Here is Hindi.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no hindi.",
+      "en": "I am thinking about Hindi.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do hindi.",
+      "en": "Yesterday I talked about Hindi.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o hindi era diferente.",
+      "en": "Hindi used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do hindi.",
+      "en": "Tomorrow we will talk about Hindi.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do hindi.",
+      "en": "I am going to talk about Hindi.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o árabe": [
+    {
+      "target": "Aqui está o árabe.",
+      "en": "Here is Arabic language.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no árabe.",
+      "en": "I am thinking about Arabic language.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do árabe.",
+      "en": "Yesterday I talked about Arabic language.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o árabe era diferente.",
+      "en": "Arabic language used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do árabe.",
+      "en": "Tomorrow we will talk about Arabic language.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do árabe.",
+      "en": "I am going to talk about Arabic language.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o bengali": [
+    {
+      "target": "Aqui está o bengali.",
+      "en": "Here is Bengali.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no bengali.",
+      "en": "I am thinking about Bengali.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do bengali.",
+      "en": "Yesterday I talked about Bengali.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o bengali era diferente.",
+      "en": "Bengali used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do bengali.",
+      "en": "Tomorrow we will talk about Bengali.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do bengali.",
+      "en": "I am going to talk about Bengali.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "a Rússia": [
+    {
+      "target": "Aqui está a Rússia.",
+      "en": "Here is Russia.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar na Rússia.",
+      "en": "I am thinking about Russia.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei da Rússia.",
+      "en": "Yesterday I talked about Russia.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente a Rússia era diferente.",
+      "en": "Russia used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos da Rússia.",
+      "en": "Tomorrow we will talk about Russia.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar da Rússia.",
+      "en": "I am going to talk about Russia.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "a Hungria": [
+    {
+      "target": "Aqui está a Hungria.",
+      "en": "Here is Hungary.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar na Hungria.",
+      "en": "I am thinking about Hungary.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei da Hungria.",
+      "en": "Yesterday I talked about Hungary.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente a Hungria era diferente.",
+      "en": "Hungary used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos da Hungria.",
+      "en": "Tomorrow we will talk about Hungary.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar da Hungria.",
+      "en": "I am going to talk about Hungary.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "a Índia": [
+    {
+      "target": "Aqui está a Índia.",
+      "en": "Here is India.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar na Índia.",
+      "en": "I am thinking about India.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei da Índia.",
+      "en": "Yesterday I talked about India.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente a Índia era diferente.",
+      "en": "India used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos da Índia.",
+      "en": "Tomorrow we will talk about India.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar da Índia.",
+      "en": "I am going to talk about India.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o Japão": [
+    {
+      "target": "Aqui está o Japão.",
+      "en": "Here is Japan.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no Japão.",
+      "en": "I am thinking about Japan.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do Japão.",
+      "en": "Yesterday I talked about Japan.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o Japão era diferente.",
+      "en": "Japan used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do Japão.",
+      "en": "Tomorrow we will talk about Japan.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do Japão.",
+      "en": "I am going to talk about Japan.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o México": [
+    {
+      "target": "Aqui está o México.",
+      "en": "Here is Mexico.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no México.",
+      "en": "I am thinking about Mexico.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do México.",
+      "en": "Yesterday I talked about Mexico.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o México era diferente.",
+      "en": "Mexico used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do México.",
+      "en": "Tomorrow we will talk about Mexico.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do México.",
+      "en": "I am going to talk about Mexico.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o Afeganistão": [
+    {
+      "target": "Aqui está o Afeganistão.",
+      "en": "Here is Afghanistan.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no Afeganistão.",
+      "en": "I am thinking about Afghanistan.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do Afeganistão.",
+      "en": "Yesterday I talked about Afghanistan.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o Afeganistão era diferente.",
+      "en": "Afghanistan used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do Afeganistão.",
+      "en": "Tomorrow we will talk about Afghanistan.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do Afeganistão.",
+      "en": "I am going to talk about Afghanistan.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "as Honduras": [
+    {
+      "target": "Aqui estão as Honduras.",
+      "en": "Here are Honduras.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar nas Honduras.",
+      "en": "I am thinking about Honduras.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei das Honduras.",
+      "en": "Yesterday I talked about Honduras.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente as Honduras eram diferentes.",
+      "en": "Honduras used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos das Honduras.",
+      "en": "Tomorrow we will talk about Honduras.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar das Honduras.",
+      "en": "I am going to talk about Honduras.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "as Filipinas": [
+    {
+      "target": "Aqui estão as Filipinas.",
+      "en": "Here are Philippines.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar nas Filipinas.",
+      "en": "I am thinking about Philippines.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei das Filipinas.",
+      "en": "Yesterday I talked about Philippines.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente as Filipinas eram diferentes.",
+      "en": "Philippines used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos das Filipinas.",
+      "en": "Tomorrow we will talk about Philippines.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar das Filipinas.",
+      "en": "I am going to talk about Philippines.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o Camboja": [
+    {
+      "target": "Aqui está o Camboja.",
+      "en": "Here is Cambodia.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no Camboja.",
+      "en": "I am thinking about Cambodia.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do Camboja.",
+      "en": "Yesterday I talked about Cambodia.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o Camboja era diferente.",
+      "en": "Cambodia used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do Camboja.",
+      "en": "Tomorrow we will talk about Cambodia.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do Camboja.",
+      "en": "I am going to talk about Cambodia.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "a Guiné": [
+    {
+      "target": "Aqui está a Guiné.",
+      "en": "Here is Guinea.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar na Guiné.",
+      "en": "I am thinking about Guinea.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei da Guiné.",
+      "en": "Yesterday I talked about Guinea.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente a Guiné era diferente.",
+      "en": "Guinea used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos da Guiné.",
+      "en": "Tomorrow we will talk about Guinea.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar da Guiné.",
+      "en": "I am going to talk about Guinea.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o Chile": [
+    {
+      "target": "Aqui está o Chile.",
+      "en": "Here is Chile.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no Chile.",
+      "en": "I am thinking about Chile.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do Chile.",
+      "en": "Yesterday I talked about Chile.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o Chile era diferente.",
+      "en": "Chile used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do Chile.",
+      "en": "Tomorrow we will talk about Chile.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do Chile.",
+      "en": "I am going to talk about Chile.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o Peru": [
+    {
+      "target": "Aqui está o Peru.",
+      "en": "Here is Peru.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no Peru.",
+      "en": "I am thinking about Peru.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do Peru.",
+      "en": "Yesterday I talked about Peru.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o Peru era diferente.",
+      "en": "Peru used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do Peru.",
+      "en": "Tomorrow we will talk about Peru.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do Peru.",
+      "en": "I am going to talk about Peru.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o Uruguai": [
+    {
+      "target": "Aqui está o Uruguai.",
+      "en": "Here is Uruguay.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no Uruguai.",
+      "en": "I am thinking about Uruguay.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do Uruguai.",
+      "en": "Yesterday I talked about Uruguay.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o Uruguai era diferente.",
+      "en": "Uruguay used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do Uruguai.",
+      "en": "Tomorrow we will talk about Uruguay.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do Uruguai.",
+      "en": "I am going to talk about Uruguay.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o Haiti": [
+    {
+      "target": "Aqui está o Haiti.",
+      "en": "Here is Haiti.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no Haiti.",
+      "en": "I am thinking about Haiti.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do Haiti.",
+      "en": "Yesterday I talked about Haiti.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o Haiti era diferente.",
+      "en": "Haiti used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do Haiti.",
+      "en": "Tomorrow we will talk about Haiti.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do Haiti.",
+      "en": "I am going to talk about Haiti.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "a Irlanda": [
+    {
+      "target": "Aqui está a Irlanda.",
+      "en": "Here is Ireland.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar na Irlanda.",
+      "en": "I am thinking about Ireland.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei da Irlanda.",
+      "en": "Yesterday I talked about Ireland.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente a Irlanda era diferente.",
+      "en": "Ireland used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos da Irlanda.",
+      "en": "Tomorrow we will talk about Ireland.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar da Irlanda.",
+      "en": "I am going to talk about Ireland.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "os Países Baixos": [
+    {
+      "target": "Aqui estão os Países Baixos.",
+      "en": "Here are Netherlands.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar nos Países Baixos.",
+      "en": "I am thinking about Netherlands.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei dos Países Baixos.",
+      "en": "Yesterday I talked about Netherlands.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente os Países Baixos eram diferentes.",
+      "en": "Netherlands used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos dos Países Baixos.",
+      "en": "Tomorrow we will talk about Netherlands.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar dos Países Baixos.",
+      "en": "I am going to talk about Netherlands.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "a Economia": [
+    {
+      "target": "Aqui está a Economia.",
+      "en": "Here is Economics.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar na Economia.",
+      "en": "I am thinking about Economics.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei da Economia.",
+      "en": "Yesterday I talked about Economics.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente a Economia era diferente.",
+      "en": "Economics used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos da Economia.",
+      "en": "Tomorrow we will talk about Economics.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar da Economia.",
+      "en": "I am going to talk about Economics.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o Teatro": [
+    {
+      "target": "Aqui está o Teatro.",
+      "en": "Here is Theatre.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no Teatro.",
+      "en": "I am thinking about Theatre.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do Teatro.",
+      "en": "Yesterday I talked about Theatre.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o Teatro era diferente.",
+      "en": "Theatre used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do Teatro.",
+      "en": "Tomorrow we will talk about Theatre.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do Teatro.",
+      "en": "I am going to talk about Theatre.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "as Ciências Políticas": [
+    {
+      "target": "Aqui estão as Ciências Políticas.",
+      "en": "Here are Political Science.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar nas Ciências Políticas.",
+      "en": "I am thinking about Political Science.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei das Ciências Políticas.",
+      "en": "Yesterday I talked about Political Science.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente as Ciências Políticas eram diferentes.",
+      "en": "Political Science used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos das Ciências Políticas.",
+      "en": "Tomorrow we will talk about Political Science.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar das Ciências Políticas.",
+      "en": "I am going to talk about Political Science.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "a Literatura": [
+    {
+      "target": "Aqui está a Literatura.",
+      "en": "Here is Literature.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar na Literatura.",
+      "en": "I am thinking about Literature.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei da Literatura.",
+      "en": "Yesterday I talked about Literature.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente a Literatura era diferente.",
+      "en": "Literature used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos da Literatura.",
+      "en": "Tomorrow we will talk about Literature.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar da Literatura.",
+      "en": "I am going to talk about Literature.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "as Relações Comerciais": [
+    {
+      "target": "Aqui estão as Relações Comerciais.",
+      "en": "Here are Business Relations.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar nas Relações Comerciais.",
+      "en": "I am thinking about Business Relations.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei das Relações Comerciais.",
+      "en": "Yesterday I talked about Business Relations.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente as Relações Comerciais eram diferentes.",
+      "en": "Business Relations used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos das Relações Comerciais.",
+      "en": "Tomorrow we will talk about Business Relations.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar das Relações Comerciais.",
+      "en": "I am going to talk about Business Relations.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "as Relações Internacionais": [
+    {
+      "target": "Aqui estão as Relações Internacionais.",
+      "en": "Here are International Relations.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar nas Relações Internacionais.",
+      "en": "I am thinking about International Relations.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei das Relações Internacionais.",
+      "en": "Yesterday I talked about International Relations.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente as Relações Internacionais eram diferentes.",
+      "en": "International Relations used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos das Relações Internacionais.",
+      "en": "Tomorrow we will talk about International Relations.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar das Relações Internacionais.",
+      "en": "I am going to talk about International Relations.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "as Línguas": [
+    {
+      "target": "Aqui estão as Línguas.",
+      "en": "Here are Languages.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar nas Línguas.",
+      "en": "I am thinking about Languages.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei das Línguas.",
+      "en": "Yesterday I talked about Languages.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente as Línguas eram diferentes.",
+      "en": "Languages used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos das Línguas.",
+      "en": "Tomorrow we will talk about Languages.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar das Línguas.",
+      "en": "I am going to talk about Languages.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o Direito": [
+    {
+      "target": "Aqui está o Direito.",
+      "en": "Here is Law.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no Direito.",
+      "en": "I am thinking about Law.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do Direito.",
+      "en": "Yesterday I talked about Law.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o Direito era diferente.",
+      "en": "Law used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do Direito.",
+      "en": "Tomorrow we will talk about Law.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do Direito.",
+      "en": "I am going to talk about Law.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "a Medicina": [
+    {
+      "target": "Aqui está a Medicina.",
+      "en": "Here is Medicine.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar na Medicina.",
+      "en": "I am thinking about Medicine.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei da Medicina.",
+      "en": "Yesterday I talked about Medicine.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente a Medicina era diferente.",
+      "en": "Medicine used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos da Medicina.",
+      "en": "Tomorrow we will talk about Medicine.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar da Medicina.",
+      "en": "I am going to talk about Medicine.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "a Gestão": [
+    {
+      "target": "Aqui está a Gestão.",
+      "en": "Here is Management.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar na Gestão.",
+      "en": "I am thinking about Management.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei da Gestão.",
+      "en": "Yesterday I talked about Management.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente a Gestão era diferente.",
+      "en": "Management used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos da Gestão.",
+      "en": "Tomorrow we will talk about Management.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar da Gestão.",
+      "en": "I am going to talk about Management.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "a Tradução": [
+    {
+      "target": "Aqui está a Tradução.",
+      "en": "Here is Translation.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar na Tradução.",
+      "en": "I am thinking about Translation.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei da Tradução.",
+      "en": "Yesterday I talked about Translation.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente a Tradução era diferente.",
+      "en": "Translation used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos da Tradução.",
+      "en": "Tomorrow we will talk about Translation.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar da Tradução.",
+      "en": "I am going to talk about Translation.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o meu carro": [
+    {
+      "target": "Aqui está o meu carro.",
+      "en": "Here is my car.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no meu carro.",
+      "en": "I am thinking about my car.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do meu carro.",
+      "en": "Yesterday I talked about my car.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o meu carro era diferente.",
+      "en": "My car used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do meu carro.",
+      "en": "Tomorrow we will talk about my car.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do meu carro.",
+      "en": "I am going to talk about my car.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "a minha casa": [
+    {
+      "target": "Aqui está a minha casa.",
+      "en": "Here is my house.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar na minha casa.",
+      "en": "I am thinking about my house.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei da minha casa.",
+      "en": "Yesterday I talked about my house.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente a minha casa era diferente.",
+      "en": "My house used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos da minha casa.",
+      "en": "Tomorrow we will talk about my house.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar da minha casa.",
+      "en": "I am going to talk about my house.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "os meus apartamentos": [
+    {
+      "target": "Aqui estão os meus apartamentos.",
+      "en": "Here are my apartments.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar nos meus apartamentos.",
+      "en": "I am thinking about my apartments.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei dos meus apartamentos.",
+      "en": "Yesterday I talked about my apartments.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente os meus apartamentos eram diferentes.",
+      "en": "My apartments used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos dos meus apartamentos.",
+      "en": "Tomorrow we will talk about my apartments.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar dos meus apartamentos.",
+      "en": "I am going to talk about my apartments.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "as minhas casas": [
+    {
+      "target": "Aqui estão as minhas casas.",
+      "en": "Here are my houses.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar nas minhas casas.",
+      "en": "I am thinking about my houses.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei das minhas casas.",
+      "en": "Yesterday I talked about my houses.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente as minhas casas eram diferentes.",
+      "en": "My houses used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos das minhas casas.",
+      "en": "Tomorrow we will talk about my houses.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar das minhas casas.",
+      "en": "I am going to talk about my houses.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o teu carro": [
+    {
+      "target": "Aqui está o teu carro.",
+      "en": "Here is your car.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no teu carro.",
+      "en": "I am thinking about your car.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do teu carro.",
+      "en": "Yesterday I talked about your car.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o teu carro era diferente.",
+      "en": "Your car used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do teu carro.",
+      "en": "Tomorrow we will talk about your car.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do teu carro.",
+      "en": "I am going to talk about your car.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "a tua casa": [
+    {
+      "target": "Aqui está a tua casa.",
+      "en": "Here is your house.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar na tua casa.",
+      "en": "I am thinking about your house.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei da tua casa.",
+      "en": "Yesterday I talked about your house.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente a tua casa era diferente.",
+      "en": "Your house used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos da tua casa.",
+      "en": "Tomorrow we will talk about your house.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar da tua casa.",
+      "en": "I am going to talk about your house.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "os teus apartamentos": [
+    {
+      "target": "Aqui estão os teus apartamentos.",
+      "en": "Here are your apartments.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar nos teus apartamentos.",
+      "en": "I am thinking about your apartments.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei dos teus apartamentos.",
+      "en": "Yesterday I talked about your apartments.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente os teus apartamentos eram diferentes.",
+      "en": "Your apartments used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos dos teus apartamentos.",
+      "en": "Tomorrow we will talk about your apartments.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar dos teus apartamentos.",
+      "en": "I am going to talk about your apartments.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "as tuas casas": [
+    {
+      "target": "Aqui estão as tuas casas.",
+      "en": "Here are your houses.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar nas tuas casas.",
+      "en": "I am thinking about your houses.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei das tuas casas.",
+      "en": "Yesterday I talked about your houses.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente as tuas casas eram diferentes.",
+      "en": "Your houses used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos das tuas casas.",
+      "en": "Tomorrow we will talk about your houses.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar das tuas casas.",
+      "en": "I am going to talk about your houses.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o seu carro": [
+    {
+      "target": "Aqui está o seu carro.",
+      "en": "Here is his / her / your car.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no seu carro.",
+      "en": "I am thinking about his / her / your car.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do seu carro.",
+      "en": "Yesterday I talked about his / her / your car.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o seu carro era diferente.",
+      "en": "His / her / your car used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do seu carro.",
+      "en": "Tomorrow we will talk about his / her / your car.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do seu carro.",
+      "en": "I am going to talk about his / her / your car.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "a sua casa": [
+    {
+      "target": "Aqui está a sua casa.",
+      "en": "Here is his / her / your house.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar na sua casa.",
+      "en": "I am thinking about his / her / your house.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei da sua casa.",
+      "en": "Yesterday I talked about his / her / your house.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente a sua casa era diferente.",
+      "en": "His / her / your house used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos da sua casa.",
+      "en": "Tomorrow we will talk about his / her / your house.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar da sua casa.",
+      "en": "I am going to talk about his / her / your house.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "os seus apartamentos": [
+    {
+      "target": "Aqui estão os seus apartamentos.",
+      "en": "Here are his / her / your apartments.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar nos seus apartamentos.",
+      "en": "I am thinking about his / her / your apartments.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei dos seus apartamentos.",
+      "en": "Yesterday I talked about his / her / your apartments.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente os seus apartamentos eram diferentes.",
+      "en": "His / her / your apartments used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos dos seus apartamentos.",
+      "en": "Tomorrow we will talk about his / her / your apartments.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar dos seus apartamentos.",
+      "en": "I am going to talk about his / her / your apartments.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "as suas casas": [
+    {
+      "target": "Aqui estão as suas casas.",
+      "en": "Here are his / her / your houses.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar nas suas casas.",
+      "en": "I am thinking about his / her / your houses.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei das suas casas.",
+      "en": "Yesterday I talked about his / her / your houses.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente as suas casas eram diferentes.",
+      "en": "His / her / your houses used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos das suas casas.",
+      "en": "Tomorrow we will talk about his / her / your houses.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar das suas casas.",
+      "en": "I am going to talk about his / her / your houses.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "a família": [
+    {
+      "target": "Aqui está a família.",
+      "en": "Here is the family.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar na família.",
+      "en": "I am thinking about the family.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei da família.",
+      "en": "Yesterday I talked about the family.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente a família era diferente.",
+      "en": "The family used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos da família.",
+      "en": "Tomorrow we will talk about the family.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar da família.",
+      "en": "I am going to talk about the family.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o ex-marido": [
+    {
+      "target": "Aqui está o ex-marido.",
+      "en": "Here is the ex-husband.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no ex-marido.",
+      "en": "I am thinking about the ex-husband.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do ex-marido.",
+      "en": "Yesterday I talked about the ex-husband.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o ex-marido era diferente.",
+      "en": "The ex-husband used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do ex-marido.",
+      "en": "Tomorrow we will talk about the ex-husband.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do ex-marido.",
+      "en": "I am going to talk about the ex-husband.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o neto": [
+    {
+      "target": "Aqui está o neto.",
+      "en": "Here is the grandson.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no neto.",
+      "en": "I am thinking about the grandson.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do neto.",
+      "en": "Yesterday I talked about the grandson.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o neto era diferente.",
+      "en": "The grandson used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do neto.",
+      "en": "Tomorrow we will talk about the grandson.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do neto.",
+      "en": "I am going to talk about the grandson.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "a neta": [
+    {
+      "target": "Aqui está a neta.",
+      "en": "Here is the granddaughter.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar na neta.",
+      "en": "I am thinking about the granddaughter.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei da neta.",
+      "en": "Yesterday I talked about the granddaughter.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente a neta era diferente.",
+      "en": "The granddaughter used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos da neta.",
+      "en": "Tomorrow we will talk about the granddaughter.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar da neta.",
+      "en": "I am going to talk about the granddaughter.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o caracol": [
+    {
+      "target": "Aqui está o caracol.",
+      "en": "Here is the snail.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no caracol.",
+      "en": "I am thinking about the snail.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do caracol.",
+      "en": "Yesterday I talked about the snail.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o caracol era diferente.",
+      "en": "The snail used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do caracol.",
+      "en": "Tomorrow we will talk about the snail.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do caracol.",
+      "en": "I am going to talk about the snail.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o cabelo curto": [
+    {
+      "target": "Aqui está o cabelo curto.",
+      "en": "Here is the short hair.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no cabelo curto.",
+      "en": "I am thinking about the short hair.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do cabelo curto.",
+      "en": "Yesterday I talked about the short hair.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o cabelo curto era diferente.",
+      "en": "The short hair used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do cabelo curto.",
+      "en": "Tomorrow we will talk about the short hair.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do cabelo curto.",
+      "en": "I am going to talk about the short hair.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o cabelo castanho": [
+    {
+      "target": "Aqui está o cabelo castanho.",
+      "en": "Here is the brown hair.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no cabelo castanho.",
+      "en": "I am thinking about the brown hair.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do cabelo castanho.",
+      "en": "Yesterday I talked about the brown hair.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o cabelo castanho era diferente.",
+      "en": "The brown hair used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do cabelo castanho.",
+      "en": "Tomorrow we will talk about the brown hair.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do cabelo castanho.",
+      "en": "I am going to talk about the brown hair.",
       "tense": "futuroProximo"
     }
   ],
@@ -28559,38 +29487,6 @@
       "tense": "futuroProximo"
     }
   ],
-  "o fecho-éclair": [
-    {
-      "target": "Aqui está o fecho-éclair.",
-      "en": "Here is the zip.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou a pensar no fecho-éclair.",
-      "en": "I am thinking about the zip.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Ontem falei do fecho-éclair.",
-      "en": "Yesterday I talked about the zip.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente o fecho-éclair era diferente.",
-      "en": "The zip used to be different.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Amanhã falaremos do fecho-éclair.",
-      "en": "Tomorrow we will talk about the zip.",
-      "tense": "futuro"
-    },
-    {
-      "target": "Vou falar do fecho-éclair.",
-      "en": "I am going to talk about the zip.",
-      "tense": "futuroProximo"
-    }
-  ],
   "o tecido": [
     {
       "target": "Aqui está o tecido.",
@@ -28754,160 +29650,96 @@
   "a Bélgica": [
     {
       "target": "Aqui está a Bélgica.",
-      "en": "Here is the Belgium.",
+      "en": "Here is Belgium.",
       "tense": "presente"
     },
     {
       "target": "Estou a pensar na Bélgica.",
-      "en": "I am thinking about the Belgium.",
+      "en": "I am thinking about Belgium.",
       "tense": "presenteContinuo"
     },
     {
       "target": "Ontem falei da Bélgica.",
-      "en": "Yesterday I talked about the Belgium.",
+      "en": "Yesterday I talked about Belgium.",
       "tense": "perfeito"
     },
     {
       "target": "Antigamente a Bélgica era diferente.",
-      "en": "The Belgium used to be different.",
+      "en": "Belgium used to be different.",
       "tense": "imperfeito"
     },
     {
       "target": "Amanhã falaremos da Bélgica.",
-      "en": "Tomorrow we will talk about the Belgium.",
+      "en": "Tomorrow we will talk about Belgium.",
       "tense": "futuro"
     },
     {
       "target": "Vou falar da Bélgica.",
-      "en": "I am going to talk about the Belgium.",
+      "en": "I am going to talk about Belgium.",
       "tense": "futuroProximo"
     }
   ],
   "a Áustria": [
     {
       "target": "Aqui está a Áustria.",
-      "en": "Here is the Austria.",
+      "en": "Here is Austria.",
       "tense": "presente"
     },
     {
       "target": "Estou a pensar na Áustria.",
-      "en": "I am thinking about the Austria.",
+      "en": "I am thinking about Austria.",
       "tense": "presenteContinuo"
     },
     {
       "target": "Ontem falei da Áustria.",
-      "en": "Yesterday I talked about the Austria.",
+      "en": "Yesterday I talked about Austria.",
       "tense": "perfeito"
     },
     {
       "target": "Antigamente a Áustria era diferente.",
-      "en": "The Austria used to be different.",
+      "en": "Austria used to be different.",
       "tense": "imperfeito"
     },
     {
       "target": "Amanhã falaremos da Áustria.",
-      "en": "Tomorrow we will talk about the Austria.",
+      "en": "Tomorrow we will talk about Austria.",
       "tense": "futuro"
     },
     {
       "target": "Vou falar da Áustria.",
-      "en": "I am going to talk about the Austria.",
+      "en": "I am going to talk about Austria.",
       "tense": "futuroProximo"
     }
   ],
   "a Austrália": [
     {
       "target": "Aqui está a Austrália.",
-      "en": "Here is the Australia.",
+      "en": "Here is Australia.",
       "tense": "presente"
     },
     {
       "target": "Estou a pensar na Austrália.",
-      "en": "I am thinking about the Australia.",
+      "en": "I am thinking about Australia.",
       "tense": "presenteContinuo"
     },
     {
       "target": "Ontem falei da Austrália.",
-      "en": "Yesterday I talked about the Australia.",
+      "en": "Yesterday I talked about Australia.",
       "tense": "perfeito"
     },
     {
       "target": "Antigamente a Austrália era diferente.",
-      "en": "The Australia used to be different.",
+      "en": "Australia used to be different.",
       "tense": "imperfeito"
     },
     {
       "target": "Amanhã falaremos da Austrália.",
-      "en": "Tomorrow we will talk about the Australia.",
+      "en": "Tomorrow we will talk about Australia.",
       "tense": "futuro"
     },
     {
       "target": "Vou falar da Austrália.",
-      "en": "I am going to talk about the Australia.",
-      "tense": "futuroProximo"
-    }
-  ],
-  "a Irlanda": [
-    {
-      "target": "Aqui está a Irlanda.",
-      "en": "Here is the Ireland.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou a pensar na Irlanda.",
-      "en": "I am thinking about the Ireland.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Ontem falei da Irlanda.",
-      "en": "Yesterday I talked about the Ireland.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente a Irlanda era diferente.",
-      "en": "The Ireland used to be different.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Amanhã falaremos da Irlanda.",
-      "en": "Tomorrow we will talk about the Ireland.",
-      "tense": "futuro"
-    },
-    {
-      "target": "Vou falar da Irlanda.",
-      "en": "I am going to talk about the Ireland.",
-      "tense": "futuroProximo"
-    }
-  ],
-  "o árabe": [
-    {
-      "target": "Aqui está o árabe.",
-      "en": "Here is the Arabic.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou a pensar no árabe.",
-      "en": "I am thinking about the Arabic.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Ontem falei do árabe.",
-      "en": "Yesterday I talked about the Arabic.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente o árabe era diferente.",
-      "en": "The Arabic used to be different.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Amanhã falaremos do árabe.",
-      "en": "Tomorrow we will talk about the Arabic.",
-      "tense": "futuro"
-    },
-    {
-      "target": "Vou falar do árabe.",
-      "en": "I am going to talk about the Arabic.",
+      "en": "I am going to talk about Australia.",
       "tense": "futuroProximo"
     }
   ],
@@ -29036,38 +29868,6 @@
     {
       "target": "Vou falar do cabelo comprido.",
       "en": "I am going to talk about the long hair.",
-      "tense": "futuroProximo"
-    }
-  ],
-  "o cabelo curto": [
-    {
-      "target": "Aqui está o cabelo curto.",
-      "en": "Here is the short hair.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou a pensar no cabelo curto.",
-      "en": "I am thinking about the short hair.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Ontem falei do cabelo curto.",
-      "en": "Yesterday I talked about the short hair.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente o cabelo curto era diferente.",
-      "en": "The short hair used to be different.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Amanhã falaremos do cabelo curto.",
-      "en": "Tomorrow we will talk about the short hair.",
-      "tense": "futuro"
-    },
-    {
-      "target": "Vou falar do cabelo curto.",
-      "en": "I am going to talk about the short hair.",
       "tense": "futuroProximo"
     }
   ],
@@ -29423,6 +30223,102 @@
       "tense": "futuroProximo"
     }
   ],
+  "o papel": [
+    {
+      "target": "Aqui está o papel.",
+      "en": "Here is the paper.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no papel.",
+      "en": "I am thinking about the paper.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do papel.",
+      "en": "Yesterday I talked about the paper.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o papel era diferente.",
+      "en": "The paper used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do papel.",
+      "en": "Tomorrow we will talk about the paper.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do papel.",
+      "en": "I am going to talk about the paper.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o guarda-chuva": [
+    {
+      "target": "Aqui está o guarda-chuva.",
+      "en": "Here is the umbrella.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no guarda-chuva.",
+      "en": "I am thinking about the umbrella.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do guarda-chuva.",
+      "en": "Yesterday I talked about the umbrella.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o guarda-chuva era diferente.",
+      "en": "The umbrella used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do guarda-chuva.",
+      "en": "Tomorrow we will talk about the umbrella.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do guarda-chuva.",
+      "en": "I am going to talk about the umbrella.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o creme": [
+    {
+      "target": "Aqui está o creme.",
+      "en": "Here is the cream.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no creme.",
+      "en": "I am thinking about the cream.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do creme.",
+      "en": "Yesterday I talked about the cream.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o creme era diferente.",
+      "en": "The cream used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do creme.",
+      "en": "Tomorrow we will talk about the cream.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do creme.",
+      "en": "I am going to talk about the cream.",
+      "tense": "futuroProximo"
+    }
+  ],
   "a caixa de medicamentos": [
     {
       "target": "Aqui está a caixa de medicamentos.",
@@ -29519,6 +30415,38 @@
       "tense": "futuroProximo"
     }
   ],
+  "o ginásio": [
+    {
+      "target": "Aqui está o ginásio.",
+      "en": "Here is the gym.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no ginásio.",
+      "en": "I am thinking about the gym.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do ginásio.",
+      "en": "Yesterday I talked about the gym.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o ginásio era diferente.",
+      "en": "The gym used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do ginásio.",
+      "en": "Tomorrow we will talk about the gym.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do ginásio.",
+      "en": "I am going to talk about the gym.",
+      "tense": "futuroProximo"
+    }
+  ],
   "a máquina de café": [
     {
       "target": "Aqui está a máquina de café.",
@@ -29551,38 +30479,6 @@
       "tense": "futuroProximo"
     }
   ],
-  "o ferro de engomar": [
-    {
-      "target": "Aqui está o ferro de engomar.",
-      "en": "Here is the iron.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou a pensar no ferro de engomar.",
-      "en": "I am thinking about the iron.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Ontem falei do ferro de engomar.",
-      "en": "Yesterday I talked about the iron.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente o ferro de engomar era diferente.",
-      "en": "The iron used to be different.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Amanhã falaremos do ferro de engomar.",
-      "en": "Tomorrow we will talk about the iron.",
-      "tense": "futuro"
-    },
-    {
-      "target": "Vou falar do ferro de engomar.",
-      "en": "I am going to talk about the iron.",
-      "tense": "futuroProximo"
-    }
-  ],
   "a mesa de centro": [
     {
       "target": "Aqui está a mesa de centro.",
@@ -29612,6 +30508,102 @@
     {
       "target": "Vou falar da mesa de centro.",
       "en": "I am going to talk about the coffee table.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o quadro": [
+    {
+      "target": "Aqui está o quadro.",
+      "en": "Here is the picture / painting.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no quadro.",
+      "en": "I am thinking about the picture / painting.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do quadro.",
+      "en": "Yesterday I talked about the picture / painting.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o quadro era diferente.",
+      "en": "The picture / painting used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do quadro.",
+      "en": "Tomorrow we will talk about the picture / painting.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do quadro.",
+      "en": "I am going to talk about the picture / painting.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "a bola": [
+    {
+      "target": "Aqui está a bola.",
+      "en": "Here is the ball.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar na bola.",
+      "en": "I am thinking about the ball.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei da bola.",
+      "en": "Yesterday I talked about the ball.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente a bola era diferente.",
+      "en": "The ball used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos da bola.",
+      "en": "Tomorrow we will talk about the ball.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar da bola.",
+      "en": "I am going to talk about the ball.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "a estrada secundária": [
+    {
+      "target": "Aqui está a estrada secundária.",
+      "en": "Here is the side road.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar na estrada secundária.",
+      "en": "I am thinking about the side road.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei da estrada secundária.",
+      "en": "Yesterday I talked about the side road.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente a estrada secundária era diferente.",
+      "en": "The side road used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos da estrada secundária.",
+      "en": "Tomorrow we will talk about the side road.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar da estrada secundária.",
+      "en": "I am going to talk about the side road.",
       "tense": "futuroProximo"
     }
   ],
@@ -29708,6 +30700,38 @@
     {
       "target": "Vou falar do parque de estacionamento.",
       "en": "I am going to talk about the parking lot.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "a gasolina": [
+    {
+      "target": "Aqui está a gasolina.",
+      "en": "Here is the petrol / gasoline.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar na gasolina.",
+      "en": "I am thinking about the petrol / gasoline.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei da gasolina.",
+      "en": "Yesterday I talked about the petrol / gasoline.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente a gasolina era diferente.",
+      "en": "The petrol / gasoline used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos da gasolina.",
+      "en": "Tomorrow we will talk about the petrol / gasoline.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar da gasolina.",
+      "en": "I am going to talk about the petrol / gasoline.",
       "tense": "futuroProximo"
     }
   ],
@@ -29903,6 +30927,38 @@
       "tense": "futuroProximo"
     }
   ],
+  "o atraso": [
+    {
+      "target": "Aqui está o atraso.",
+      "en": "Here is the delay.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no atraso.",
+      "en": "I am thinking about the delay.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do atraso.",
+      "en": "Yesterday I talked about the delay.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o atraso era diferente.",
+      "en": "The delay used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do atraso.",
+      "en": "Tomorrow we will talk about the delay.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do atraso.",
+      "en": "I am going to talk about the delay.",
+      "tense": "futuroProximo"
+    }
+  ],
   "o controlo de passaportes": [
     {
       "target": "Aqui está o controlo de passaportes.",
@@ -29996,6 +31052,262 @@
     {
       "target": "Vou falar do serviço de quartos.",
       "en": "I am going to talk about the room service.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o quarto duplo": [
+    {
+      "target": "Aqui está o quarto duplo.",
+      "en": "Here is the double room.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no quarto duplo.",
+      "en": "I am thinking about the double room.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do quarto duplo.",
+      "en": "Yesterday I talked about the double room.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o quarto duplo era diferente.",
+      "en": "The double room used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do quarto duplo.",
+      "en": "Tomorrow we will talk about the double room.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do quarto duplo.",
+      "en": "I am going to talk about the double room.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o aquecimento": [
+    {
+      "target": "Aqui está o aquecimento.",
+      "en": "Here is the heating.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no aquecimento.",
+      "en": "I am thinking about the heating.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do aquecimento.",
+      "en": "Yesterday I talked about the heating.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o aquecimento era diferente.",
+      "en": "The heating used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do aquecimento.",
+      "en": "Tomorrow we will talk about the heating.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do aquecimento.",
+      "en": "I am going to talk about the heating.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o grupo": [
+    {
+      "target": "Aqui está o grupo.",
+      "en": "Here is the group.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no grupo.",
+      "en": "I am thinking about the group.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do grupo.",
+      "en": "Yesterday I talked about the group.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o grupo era diferente.",
+      "en": "The group used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do grupo.",
+      "en": "Tomorrow we will talk about the group.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do grupo.",
+      "en": "I am going to talk about the group.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o problema": [
+    {
+      "target": "Aqui está o problema.",
+      "en": "Here is the problem.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no problema.",
+      "en": "I am thinking about the problem.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do problema.",
+      "en": "Yesterday I talked about the problem.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o problema era diferente.",
+      "en": "The problem used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do problema.",
+      "en": "Tomorrow we will talk about the problem.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do problema.",
+      "en": "I am going to talk about the problem.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o início": [
+    {
+      "target": "Aqui está o início.",
+      "en": "Here is the beginning.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no início.",
+      "en": "I am thinking about the beginning.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do início.",
+      "en": "Yesterday I talked about the beginning.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o início era diferente.",
+      "en": "The beginning used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do início.",
+      "en": "Tomorrow we will talk about the beginning.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do início.",
+      "en": "I am going to talk about the beginning.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o lado": [
+    {
+      "target": "Aqui está o lado.",
+      "en": "Here is the side.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no lado.",
+      "en": "I am thinking about the side.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do lado.",
+      "en": "Yesterday I talked about the side.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o lado era diferente.",
+      "en": "The side used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do lado.",
+      "en": "Tomorrow we will talk about the side.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do lado.",
+      "en": "I am going to talk about the side.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "o barulho": [
+    {
+      "target": "Aqui está o barulho.",
+      "en": "Here is the noise.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no barulho.",
+      "en": "I am thinking about the noise.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do barulho.",
+      "en": "Yesterday I talked about the noise.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o barulho era diferente.",
+      "en": "The noise used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do barulho.",
+      "en": "Tomorrow we will talk about the noise.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do barulho.",
+      "en": "I am going to talk about the noise.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "a forma": [
+    {
+      "target": "Aqui está a forma.",
+      "en": "Here is the shape.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar na forma.",
+      "en": "I am thinking about the shape.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei da forma.",
+      "en": "Yesterday I talked about the shape.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente a forma era diferente.",
+      "en": "The shape used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos da forma.",
+      "en": "Tomorrow we will talk about the shape.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar da forma.",
+      "en": "I am going to talk about the shape.",
       "tense": "futuroProximo"
     }
   ],
@@ -30162,64 +31474,64 @@
   "a minha família": [
     {
       "target": "Aqui está a minha família.",
-      "en": "Here is the family.",
+      "en": "Here is my family.",
       "tense": "presente"
     },
     {
       "target": "Estou a pensar na minha família.",
-      "en": "I am thinking about the family.",
+      "en": "I am thinking about my family.",
       "tense": "presenteContinuo"
     },
     {
       "target": "Ontem falei da minha família.",
-      "en": "Yesterday I talked about the family.",
+      "en": "Yesterday I talked about my family.",
       "tense": "perfeito"
     },
     {
       "target": "Antigamente a minha família era diferente.",
-      "en": "The family used to be different.",
+      "en": "My family used to be different.",
       "tense": "imperfeito"
     },
     {
       "target": "Amanhã falaremos da minha família.",
-      "en": "Tomorrow we will talk about the family.",
+      "en": "Tomorrow we will talk about my family.",
       "tense": "futuro"
     },
     {
       "target": "Vou falar da minha família.",
-      "en": "I am going to talk about the family.",
+      "en": "I am going to talk about my family.",
       "tense": "futuroProximo"
     }
   ],
   "a nossa casa": [
     {
       "target": "Aqui está a nossa casa.",
-      "en": "Here is the our house.",
+      "en": "Here is our house.",
       "tense": "presente"
     },
     {
       "target": "Estou a pensar na nossa casa.",
-      "en": "I am thinking about the our house.",
+      "en": "I am thinking about our house.",
       "tense": "presenteContinuo"
     },
     {
       "target": "Ontem falei da nossa casa.",
-      "en": "Yesterday I talked about the our house.",
+      "en": "Yesterday I talked about our house.",
       "tense": "perfeito"
     },
     {
       "target": "Antigamente a nossa casa era diferente.",
-      "en": "The our house used to be different.",
+      "en": "Our house used to be different.",
       "tense": "imperfeito"
     },
     {
       "target": "Amanhã falaremos da nossa casa.",
-      "en": "Tomorrow we will talk about the our house.",
+      "en": "Tomorrow we will talk about our house.",
       "tense": "futuro"
     },
     {
       "target": "Vou falar da nossa casa.",
-      "en": "I am going to talk about the our house.",
+      "en": "I am going to talk about our house.",
       "tense": "futuroProximo"
     }
   ],
@@ -31346,32 +32658,32 @@
   "os meus pêsames": [
     {
       "target": "Aqui estão os meus pêsames.",
-      "en": "Here are the condolences.",
+      "en": "Here are my condolences.",
       "tense": "presente"
     },
     {
       "target": "Estou a pensar nos meus pêsames.",
-      "en": "I am thinking about the condolences.",
+      "en": "I am thinking about my condolences.",
       "tense": "presenteContinuo"
     },
     {
       "target": "Ontem falei dos meus pêsames.",
-      "en": "Yesterday I talked about the condolences.",
+      "en": "Yesterday I talked about my condolences.",
       "tense": "perfeito"
     },
     {
       "target": "Antigamente os meus pêsames eram diferentes.",
-      "en": "The condolences used to be different.",
+      "en": "My condolences used to be different.",
       "tense": "imperfeito"
     },
     {
       "target": "Amanhã falaremos dos meus pêsames.",
-      "en": "Tomorrow we will talk about the condolences.",
+      "en": "Tomorrow we will talk about my condolences.",
       "tense": "futuro"
     },
     {
       "target": "Vou falar dos meus pêsames.",
-      "en": "I am going to talk about the condolences.",
+      "en": "I am going to talk about my condolences.",
       "tense": "futuroProximo"
     }
   ],
@@ -32591,70 +33903,6 @@
       "tense": "futuroProximo"
     }
   ],
-  "o quarto de dormir": [
-    {
-      "target": "Aqui está o quarto de dormir.",
-      "en": "Here is the bedroom.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou a pensar no quarto de dormir.",
-      "en": "I am thinking about the bedroom.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Ontem falei do quarto de dormir.",
-      "en": "Yesterday I talked about the bedroom.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente o quarto de dormir era diferente.",
-      "en": "The bedroom used to be different.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Amanhã falaremos do quarto de dormir.",
-      "en": "Tomorrow we will talk about the bedroom.",
-      "tense": "futuro"
-    },
-    {
-      "target": "Vou falar do quarto de dormir.",
-      "en": "I am going to talk about the bedroom.",
-      "tense": "futuroProximo"
-    }
-  ],
-  "a sala de estar": [
-    {
-      "target": "Aqui está a sala de estar.",
-      "en": "Here is the living room.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou a pensar na sala de estar.",
-      "en": "I am thinking about the living room.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Ontem falei da sala de estar.",
-      "en": "Yesterday I talked about the living room.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente a sala de estar era diferente.",
-      "en": "The living room used to be different.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Amanhã falaremos da sala de estar.",
-      "en": "Tomorrow we will talk about the living room.",
-      "tense": "futuro"
-    },
-    {
-      "target": "Vou falar da sala de estar.",
-      "en": "I am going to talk about the living room.",
-      "tense": "futuroProximo"
-    }
-  ],
   "o escritório de casa": [
     {
       "target": "Aqui está o escritório de casa.",
@@ -33452,38 +34700,6 @@
     {
       "target": "Vou falar do soldado.",
       "en": "I am going to talk about the soldier.",
-      "tense": "futuroProximo"
-    }
-  ],
-  "o designer": [
-    {
-      "target": "Aqui está o designer.",
-      "en": "Here is the designer.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou a pensar no designer.",
-      "en": "I am thinking about the designer.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Ontem falei do designer.",
-      "en": "Yesterday I talked about the designer.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente o designer era diferente.",
-      "en": "The designer used to be different.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Amanhã falaremos do designer.",
-      "en": "Tomorrow we will talk about the designer.",
-      "tense": "futuro"
-    },
-    {
-      "target": "Vou falar do designer.",
-      "en": "I am going to talk about the designer.",
       "tense": "futuroProximo"
     }
   ],
@@ -34927,38 +36143,6 @@
       "tense": "futuroProximo"
     }
   ],
-  "a mulher": [
-    {
-      "target": "Aqui está a mulher.",
-      "en": "Here is the woman.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou a pensar na mulher.",
-      "en": "I am thinking about the woman.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Ontem falei da mulher.",
-      "en": "Yesterday I talked about the woman.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente a mulher era diferente.",
-      "en": "The woman used to be different.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Amanhã falaremos da mulher.",
-      "en": "Tomorrow we will talk about the woman.",
-      "tense": "futuro"
-    },
-    {
-      "target": "Vou falar da mulher.",
-      "en": "I am going to talk about the woman.",
-      "tense": "futuroProximo"
-    }
-  ],
   "a criança": [
     {
       "target": "Aqui está a criança.",
@@ -35439,38 +36623,6 @@
       "tense": "futuroProximo"
     }
   ],
-  "a família": [
-    {
-      "target": "Aqui está a família.",
-      "en": "Here is the family.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou a pensar na família.",
-      "en": "I am thinking about the family.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Ontem falei da família.",
-      "en": "Yesterday I talked about the family.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente a família era diferente.",
-      "en": "The family used to be different.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Amanhã falaremos da família.",
-      "en": "Tomorrow we will talk about the family.",
-      "tense": "futuro"
-    },
-    {
-      "target": "Vou falar da família.",
-      "en": "I am going to talk about the family.",
-      "tense": "futuroProximo"
-    }
-  ],
   "a morada": [
     {
       "target": "Aqui está a morada.",
@@ -35695,6 +36847,102 @@
       "tense": "futuroProximo"
     }
   ],
+  "a reserva": [
+    {
+      "target": "Aqui está a reserva.",
+      "en": "Here is the reservation.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar na reserva.",
+      "en": "I am thinking about the reservation.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei da reserva.",
+      "en": "Yesterday I talked about the reservation.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente a reserva era diferente.",
+      "en": "The reservation used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos da reserva.",
+      "en": "Tomorrow we will talk about the reservation.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar da reserva.",
+      "en": "I am going to talk about the reservation.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "a garrafa": [
+    {
+      "target": "Aqui está a garrafa.",
+      "en": "Here is the bottle.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar na garrafa.",
+      "en": "I am thinking about the bottle.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei da garrafa.",
+      "en": "Yesterday I talked about the bottle.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente a garrafa era diferente.",
+      "en": "The bottle used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos da garrafa.",
+      "en": "Tomorrow we will talk about the bottle.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar da garrafa.",
+      "en": "I am going to talk about the bottle.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "a gorjeta": [
+    {
+      "target": "Aqui está a gorjeta.",
+      "en": "Here is the tip.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar na gorjeta.",
+      "en": "I am thinking about the tip.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei da gorjeta.",
+      "en": "Yesterday I talked about the tip.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente a gorjeta era diferente.",
+      "en": "The tip used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos da gorjeta.",
+      "en": "Tomorrow we will talk about the tip.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar da gorjeta.",
+      "en": "I am going to talk about the tip.",
+      "tense": "futuroProximo"
+    }
+  ],
   "o café com leite": [
     {
       "target": "Aqui está o café com leite.",
@@ -35884,6 +37132,38 @@
     {
       "target": "Vou falar da carta de vinhos.",
       "en": "I am going to talk about the wine list.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "a esplanada": [
+    {
+      "target": "Aqui está a esplanada.",
+      "en": "Here is the terrace.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar na esplanada.",
+      "en": "I am thinking about the terrace.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei da esplanada.",
+      "en": "Yesterday I talked about the terrace.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente a esplanada era diferente.",
+      "en": "The terrace used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos da esplanada.",
+      "en": "Tomorrow we will talk about the terrace.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar da esplanada.",
+      "en": "I am going to talk about the terrace.",
       "tense": "futuroProximo"
     }
   ],
@@ -37042,32 +38322,32 @@
   "o cartão de cidadão": [
     {
       "target": "Aqui está o cartão de cidadão.",
-      "en": "Here is the ID card.",
+      "en": "Here is ID card.",
       "tense": "presente"
     },
     {
       "target": "Estou a pensar no cartão de cidadão.",
-      "en": "I am thinking about the ID card.",
+      "en": "I am thinking about ID card.",
       "tense": "presenteContinuo"
     },
     {
       "target": "Ontem falei do cartão de cidadão.",
-      "en": "Yesterday I talked about the ID card.",
+      "en": "Yesterday I talked about ID card.",
       "tense": "perfeito"
     },
     {
       "target": "Antigamente o cartão de cidadão era diferente.",
-      "en": "The ID card used to be different.",
+      "en": "ID card used to be different.",
       "tense": "imperfeito"
     },
     {
       "target": "Amanhã falaremos do cartão de cidadão.",
-      "en": "Tomorrow we will talk about the ID card.",
+      "en": "Tomorrow we will talk about ID card.",
       "tense": "futuro"
     },
     {
       "target": "Vou falar do cartão de cidadão.",
-      "en": "I am going to talk about the ID card.",
+      "en": "I am going to talk about ID card.",
       "tense": "futuroProximo"
     }
   ],
@@ -38610,32 +39890,32 @@
   "o currículo": [
     {
       "target": "Aqui está o currículo.",
-      "en": "Here is the CV.",
+      "en": "Here is CV.",
       "tense": "presente"
     },
     {
       "target": "Estou a pensar no currículo.",
-      "en": "I am thinking about the CV.",
+      "en": "I am thinking about CV.",
       "tense": "presenteContinuo"
     },
     {
       "target": "Ontem falei do currículo.",
-      "en": "Yesterday I talked about the CV.",
+      "en": "Yesterday I talked about CV.",
       "tense": "perfeito"
     },
     {
       "target": "Antigamente o currículo era diferente.",
-      "en": "The CV used to be different.",
+      "en": "CV used to be different.",
       "tense": "imperfeito"
     },
     {
       "target": "Amanhã falaremos do currículo.",
-      "en": "Tomorrow we will talk about the CV.",
+      "en": "Tomorrow we will talk about CV.",
       "tense": "futuro"
     },
     {
       "target": "Vou falar do currículo.",
-      "en": "I am going to talk about the CV.",
+      "en": "I am going to talk about CV.",
       "tense": "futuroProximo"
     }
   ],

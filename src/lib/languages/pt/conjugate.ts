@@ -77,6 +77,9 @@ const ESTAR_PRESENT: Record<PersonId, string> = {
 export function parseVerb(infinitive: string): Verb | null {
   const raw = infinitive.trim().toLowerCase()
   if (!raw) return null
+  // One word. Without this, "gostar de aprender" ends in -er like any other verb
+  // and comes back conjugated as "gostar de aprenderei".
+  if (/\s/.test(raw)) return null
 
   const reflexive = raw.endsWith('-se')
   const stem = reflexive ? raw.slice(0, -3) : raw
@@ -261,6 +264,15 @@ export function conjugatePhrase(phrase: string): Conjugation | null {
   if (!head) return null
 
   const tail = words.slice(1).join(' ')
+  // A tail that is itself a verb is usually fine, and usually the point:
+  // `começo a trabalhar`, `gosto de aprender`, `deixo entrar` all conjugate the
+  // head and leave the rest alone. What does not work is two verbs joined by a
+  // conjunction — "identificar e descrever rotinas" would come back as
+  // "identifico e descrever rotinas". Two coordinate verbs are two cards, and
+  // this one gets no table rather than a wrong one.
+  const joined = words.findIndex(w => w === 'e' || w === 'ou')
+  if (joined > 0 && words.slice(joined + 1).some(word => conjugate(word))) return null
+
   const out: Conjugation = {}
   for (const [tense, forms] of Object.entries(head) as Array<[TenseId, Forms]>) {
     const withTail: Forms = {}

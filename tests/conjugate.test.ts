@@ -303,6 +303,33 @@ describe('verb phrases', () => {
     expect(conjugatePhrase('para onde?')).toBeNull()
     expect(conjugatePhrase('o pequeno-almoço')).toBeNull()
   })
+
+  /**
+   * Conjugating the first of two coordinate verbs and carrying the second along
+   * unchanged gives "identifico e descrever rotinas", which is not Portuguese.
+   * Two such verbs are two cards, and this one gets no table rather than a wrong
+   * one. A verb that merely *governs* an infinitive is the ordinary case and has
+   * to keep working.
+   */
+  it('refuses two verbs joined by a conjunction', () => {
+    expect(conjugatePhrase('identificar e descrever rotinas')).toBeNull()
+    expect(conjugatePhrase('ler ou escrever')).toBeNull()
+  })
+
+  it('still conjugates a verb that governs an infinitive', () => {
+    expect(phrase('gostar de aprender', 'presente', 'eu')).toBe('gosto de aprender')
+    expect(phrase('começar a trabalhar', 'presente', 'eu')).toBe('começo a trabalhar')
+    expect(phrase('deixar entrar', 'presente', 'eu')).toBe('deixo entrar')
+    expect(phrase('tomar o pequeno-almoço', 'presente', 'eu')).toBe('tomo o pequeno-almoço')
+    expect(phrase('ir para a escola', 'presente', 'eu')).toBe('vou para a escola')
+  })
+
+  // The whole string used to be read as one -ar verb, and came back as
+  // "gostar de aprenderei".
+  it('never reads a whole phrase as a single infinitive', () => {
+    expect(parseVerb('gostar de aprender')).toBeNull()
+    expect(conjugate('começar a trabalhar')).toBeNull()
+  })
 })
 
 describe('coverage over the real deck', () => {

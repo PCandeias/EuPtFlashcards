@@ -574,6 +574,11 @@
   ],
   "aprender": [
     {
+      "target": "Gosto de aprender novas línguas.",
+      "en": "I like learning new languages.",
+      "tense": "presente"
+    },
+    {
       "target": "Aprendi muito na aula.",
       "en": "I learned a lot in the lesson.",
       "tense": "perfeito"
@@ -2023,6 +2028,16 @@
   ],
   "estudar": [
     {
+      "target": "Estudo Relações Internacionais na universidade.",
+      "en": "I study International Relations at the university.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estudo mandarim e português na universidade.",
+      "en": "I study Mandarin and Portuguese at university.",
+      "tense": "presente"
+    },
+    {
       "target": "Estudo português à noite.",
       "en": "I study Portuguese in the evening.",
       "tense": "presente"
@@ -2102,6 +2117,16 @@
   ],
   "falar": [
     {
+      "target": "Poucas pessoas falam português.",
+      "en": "Few people speak Portuguese.",
+      "tense": "presente"
+    },
+    {
+      "target": "Posso falar português?",
+      "en": "Can I speak Portuguese?",
+      "tense": "presente"
+    },
+    {
       "target": "Falo um pouco de português.",
       "en": "I speak a little Portuguese.",
       "tense": "presente"
@@ -2143,6 +2168,11 @@
     }
   ],
   "fazer": [
+    {
+      "target": "Faço um exame.",
+      "en": "I am taking an exam.",
+      "tense": "presente"
+    },
     {
       "target": "Faço o jantar hoje.",
       "en": "I am making dinner today.",
@@ -2422,6 +2452,16 @@
     }
   ],
   "ir": [
+    {
+      "target": "Vou para o trabalho de autocarro.",
+      "en": "I go to work by bus.",
+      "tense": "presente"
+    },
+    {
+      "target": "Vou de comboio.",
+      "en": "I go by train.",
+      "tense": "presente"
+    },
     {
       "target": "Fomos à praia no domingo.",
       "en": "We went to the beach on Sunday.",
@@ -3978,6 +4018,11 @@
   ],
   "ter": [
     {
+      "target": "Tenho fome.",
+      "en": "I am hungry.",
+      "tense": "presente"
+    },
+    {
       "target": "Tenho dois irmãos.",
       "en": "I have two brothers.",
       "tense": "presente"
@@ -4098,6 +4143,11 @@
     }
   ],
   "trabalhar": [
+    {
+      "target": "Trabalho em Relações Internacionais.",
+      "en": "I work in International Relations.",
+      "tense": "presente"
+    },
     {
       "target": "Trabalhei ontem até tarde.",
       "en": "I worked late yesterday.",
@@ -4257,6 +4307,16 @@
   ],
   "ver": [
     {
+      "target": "Não vejo nada.",
+      "en": "I do not see anything.",
+      "tense": "presente"
+    },
+    {
+      "target": "Ele não vê a verdade.",
+      "en": "He does not see the truth.",
+      "tense": "presente"
+    },
+    {
       "target": "Vejo televisão à noite.",
       "en": "I watch television in the evening.",
       "tense": "presente"
@@ -4377,6 +4437,11 @@
     }
   ],
   "vir": [
+    {
+      "target": "Venho de Boston.",
+      "en": "I come from Boston.",
+      "tense": "presente"
+    },
     {
       "target": "Venho já.",
       "en": "I am coming right away.",
@@ -4914,6 +4979,11 @@
     }
   ],
   "gostar de": [
+    {
+      "target": "Gosto de contar.",
+      "en": "I like counting.",
+      "tense": "presente"
+    },
     {
       "target": "Eu gosto de todos os dias.",
       "en": "I like every day.",
@@ -9358,6 +9428,806 @@
     {
       "target": "Depois eu vou soletrar.",
       "en": "I am going to spell later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "aprender uma nova língua": [
+    {
+      "target": "Muitas vezes eu aprendo uma nova língua.",
+      "en": "I learn a new language often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a aprender uma nova língua.",
+      "en": "I am learning a new language right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu aprendi uma nova língua.",
+      "en": "I learned a new language yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu aprendia uma nova língua.",
+      "en": "I used to learn a new language in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu aprenderei uma nova língua.",
+      "en": "I will learn a new language tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou aprender uma nova língua.",
+      "en": "I am going to learn a new language later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "ajudar os outros": [
+    {
+      "target": "Muitas vezes eu ajudo os outros.",
+      "en": "I help others often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a ajudar os outros.",
+      "en": "I am helping others right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu ajudei os outros.",
+      "en": "I helped others yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu ajudava os outros.",
+      "en": "I used to help others in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu ajudarei os outros.",
+      "en": "I will help others tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou ajudar os outros.",
+      "en": "I am going to help others later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "praticar uma língua": [
+    {
+      "target": "Muitas vezes eu pratico uma língua.",
+      "en": "I practise a language often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a praticar uma língua.",
+      "en": "I am practising a language right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu pratiquei uma língua.",
+      "en": "I practised a language yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu praticava uma língua.",
+      "en": "I used to practise a language in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu praticarei uma língua.",
+      "en": "I will practise a language tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou praticar uma língua.",
+      "en": "I am going to practise a language later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "estar de férias": [
+    {
+      "target": "Muitas vezes eu estou de férias.",
+      "en": "I am on holiday often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a estar de férias.",
+      "en": "I am on holiday right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu estive de férias.",
+      "en": "I was on holiday yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu estava de férias.",
+      "en": "I used to be on holiday in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu estarei de férias.",
+      "en": "I will be on holiday tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou estar de férias.",
+      "en": "I am going to be on holiday later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "ir de carro": [
+    {
+      "target": "Muitas vezes eu vou de carro.",
+      "en": "I go by car often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a ir de carro.",
+      "en": "I am going by car right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu fui de carro.",
+      "en": "I went by car yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu ia de carro.",
+      "en": "I used to go by car in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu irei de carro.",
+      "en": "I will go by car tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou ir de carro.",
+      "en": "I am going to go by car later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "ir de autocarro": [
+    {
+      "target": "Muitas vezes eu vou de autocarro.",
+      "en": "I go by bus often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a ir de autocarro.",
+      "en": "I am going by bus right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu fui de autocarro.",
+      "en": "I went by bus yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu ia de autocarro.",
+      "en": "I used to go by bus in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu irei de autocarro.",
+      "en": "I will go by bus tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou ir de autocarro.",
+      "en": "I am going to go by bus later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "ir de metro": [
+    {
+      "target": "Muitas vezes eu vou de metro.",
+      "en": "I go by metro often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a ir de metro.",
+      "en": "I am going by metro right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu fui de metro.",
+      "en": "I went by metro yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu ia de metro.",
+      "en": "I used to go by metro in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu irei de metro.",
+      "en": "I will go by metro tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou ir de metro.",
+      "en": "I am going to go by metro later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "ir de comboio": [
+    {
+      "target": "Muitas vezes eu vou de comboio.",
+      "en": "I go by train often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a ir de comboio.",
+      "en": "I am going by train right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu fui de comboio.",
+      "en": "I went by train yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu ia de comboio.",
+      "en": "I used to go by train in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu irei de comboio.",
+      "en": "I will go by train tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou ir de comboio.",
+      "en": "I am going to go by train later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "ir de avião": [
+    {
+      "target": "Muitas vezes eu vou de avião.",
+      "en": "I go by plane often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a ir de avião.",
+      "en": "I am going by plane right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu fui de avião.",
+      "en": "I went by plane yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu ia de avião.",
+      "en": "I used to go by plane in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu irei de avião.",
+      "en": "I will go by plane tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou ir de avião.",
+      "en": "I am going to go by plane later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "ir de barco": [
+    {
+      "target": "Muitas vezes eu vou de barco.",
+      "en": "I go by boat often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a ir de barco.",
+      "en": "I am going by boat right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu fui de barco.",
+      "en": "I went by boat yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu ia de barco.",
+      "en": "I used to go by boat in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu irei de barco.",
+      "en": "I will go by boat tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou ir de barco.",
+      "en": "I am going to go by boat later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "ir a pé": [
+    {
+      "target": "Muitas vezes eu vou a pé.",
+      "en": "I go on foot often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a ir a pé.",
+      "en": "I am going on foot right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu fui a pé.",
+      "en": "I went on foot yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu ia a pé.",
+      "en": "I used to go on foot in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu irei a pé.",
+      "en": "I will go on foot tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou ir a pé.",
+      "en": "I am going to go on foot later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "gostar muito": [
+    {
+      "target": "Muitas vezes eu gosto muito.",
+      "en": "I like a lot often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a gostar muito.",
+      "en": "I am liking a lot right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu gostei muito.",
+      "en": "I liked a lot yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu gostava muito.",
+      "en": "I used to like a lot in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu gostarei muito.",
+      "en": "I will like a lot tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou gostar muito.",
+      "en": "I am going to like a lot later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "gostar pouco": [
+    {
+      "target": "Muitas vezes eu gosto pouco.",
+      "en": "I like a little often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a gostar pouco.",
+      "en": "I am liking a little right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu gostei pouco.",
+      "en": "I liked a little yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu gostava pouco.",
+      "en": "I used to like a little in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu gostarei pouco.",
+      "en": "I will like a little tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou gostar pouco.",
+      "en": "I am going to like a little later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "perguntar sobre hábitos de familiares": [
+    {
+      "target": "Muitas vezes eu pergunto sobre hábitos de familiares.",
+      "en": "I ask about family habits often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a perguntar sobre hábitos de familiares.",
+      "en": "I am asking about family habits right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu perguntei sobre hábitos de familiares.",
+      "en": "I asked about family habits yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu perguntava sobre hábitos de familiares.",
+      "en": "I used to ask about family habits in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu perguntarei sobre hábitos de familiares.",
+      "en": "I will ask about family habits tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou perguntar sobre hábitos de familiares.",
+      "en": "I am going to ask about family habits later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "falar sobre hábitos de familiares": [
+    {
+      "target": "Muitas vezes eu falo sobre hábitos de familiares.",
+      "en": "I talk about family habits often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a falar sobre hábitos de familiares.",
+      "en": "I am talking about family habits right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu falei sobre hábitos de familiares.",
+      "en": "I talked about family habits yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu falava sobre hábitos de familiares.",
+      "en": "I used to talk about family habits in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu falarei sobre hábitos de familiares.",
+      "en": "I will talk about family habits tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou falar sobre hábitos de familiares.",
+      "en": "I am going to talk about family habits later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "planear o dia": [
+    {
+      "target": "Muitas vezes eu planeio o dia.",
+      "en": "I plan the day often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a planear o dia.",
+      "en": "I am planning the day right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu planeei o dia.",
+      "en": "I planned the day yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu planeava o dia.",
+      "en": "I used to plan the day in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu planearei o dia.",
+      "en": "I will plan the day tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou planear o dia.",
+      "en": "I am going to plan the day later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "compreender horários": [
+    {
+      "target": "Muitas vezes eu compreendo horários.",
+      "en": "I understand schedules often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a compreender horários.",
+      "en": "I am understanding schedules right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu compreendi horários.",
+      "en": "I understood schedules yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu compreendia horários.",
+      "en": "I used to understand schedules in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu compreenderei horários.",
+      "en": "I will understand schedules tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou compreender horários.",
+      "en": "I am going to understand schedules later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "perguntar sobre horários de trabalho": [
+    {
+      "target": "Muitas vezes eu pergunto sobre horários de trabalho.",
+      "en": "I ask about work hours often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a perguntar sobre horários de trabalho.",
+      "en": "I am asking about work hours right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu perguntei sobre horários de trabalho.",
+      "en": "I asked about work hours yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu perguntava sobre horários de trabalho.",
+      "en": "I used to ask about work hours in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu perguntarei sobre horários de trabalho.",
+      "en": "I will ask about work hours tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou perguntar sobre horários de trabalho.",
+      "en": "I am going to ask about work hours later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "perguntar sobre serviços": [
+    {
+      "target": "Muitas vezes eu pergunto sobre serviços.",
+      "en": "I ask about services often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a perguntar sobre serviços.",
+      "en": "I am asking about services right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu perguntei sobre serviços.",
+      "en": "I asked about services yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu perguntava sobre serviços.",
+      "en": "I used to ask about services in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu perguntarei sobre serviços.",
+      "en": "I will ask about services tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou perguntar sobre serviços.",
+      "en": "I am going to ask about services later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "solicitar informação": [
+    {
+      "target": "Muitas vezes eu solicito informação.",
+      "en": "I request information often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a solicitar informação.",
+      "en": "I am requesting information right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu solicitei informação.",
+      "en": "I requested information yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu solicitava informação.",
+      "en": "I used to request information in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu solicitarei informação.",
+      "en": "I will request information tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou solicitar informação.",
+      "en": "I am going to request information later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "transmitir informação": [
+    {
+      "target": "Muitas vezes eu transmito informação.",
+      "en": "I transmit information often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a transmitir informação.",
+      "en": "I am transmiting information right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu transmiti informação.",
+      "en": "I transmited information yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu transmitia informação.",
+      "en": "I used to transmit information in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu transmitirei informação.",
+      "en": "I will transmit information tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou transmitir informação.",
+      "en": "I am going to transmit information later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "exprimir uma opinião": [
+    {
+      "target": "Muitas vezes eu exprimo uma opinião.",
+      "en": "I express an opinion often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a exprimir uma opinião.",
+      "en": "I am expressing an opinion right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu exprimi uma opinião.",
+      "en": "I expressed an opinion yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu exprimia uma opinião.",
+      "en": "I used to express an opinion in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu exprimirei uma opinião.",
+      "en": "I will express an opinion tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou exprimir uma opinião.",
+      "en": "I am going to express an opinion later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "exprimir uma apreciação": [
+    {
+      "target": "Muitas vezes eu exprimo uma apreciação.",
+      "en": "I express appreciation often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a exprimir uma apreciação.",
+      "en": "I am expressing appreciation right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu exprimi uma apreciação.",
+      "en": "I expressed appreciation yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu exprimia uma apreciação.",
+      "en": "I used to express appreciation in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu exprimirei uma apreciação.",
+      "en": "I will express appreciation tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou exprimir uma apreciação.",
+      "en": "I am going to express appreciation later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "exprimir uma valorização": [
+    {
+      "target": "Muitas vezes eu exprimo uma valorização.",
+      "en": "I express value judgement often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a exprimir uma valorização.",
+      "en": "I am expressing value judgement right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu exprimi uma valorização.",
+      "en": "I expressed value judgement yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu exprimia uma valorização.",
+      "en": "I used to express value judgement in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu exprimirei uma valorização.",
+      "en": "I will express value judgement tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou exprimir uma valorização.",
+      "en": "I am going to express value judgement later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "falar sobre momentos do dia": [
+    {
+      "target": "Muitas vezes eu falo sobre momentos do dia.",
+      "en": "I talk about moments of the day often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a falar sobre momentos do dia.",
+      "en": "I am talking about moments of the day right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu falei sobre momentos do dia.",
+      "en": "I talked about moments of the day yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu falava sobre momentos do dia.",
+      "en": "I used to talk about moments of the day in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu falarei sobre momentos do dia.",
+      "en": "I will talk about moments of the day tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou falar sobre momentos do dia.",
+      "en": "I am going to talk about moments of the day later.",
       "tense": "futuroProximo"
     }
   ]
