@@ -14,6 +14,7 @@ import type { Card, Tag } from '../cards/schema.js'
 import type { TenseDef, PersonDef } from '../grammar/types.js'
 import type { TenseId, PersonId, Conjugation } from '../grammar/tenses.js'
 import type { AnnotationKind } from '../annotations/types.js'
+import type { ReferenceTable } from '../reference/build.js'
 import type { StorageLike } from '../storage/progress.js'
 import type { MigrationResult } from '../storage/migrate.js'
 
@@ -67,6 +68,17 @@ export interface LanguageDef {
    * in the other, and the badge should say so.
    */
   badgeHints?: Partial<Record<Tag, string>>
+  /**
+   * A regular verb, conjugated in full on the reference page as the pattern the
+   * others follow.
+   */
+  modelVerb?: string
+  /**
+   * Anything this language has to explain that the shared registries do not
+   * cover — Turkish noun endings, Portuguese contractions. Shown first, because
+   * it is the part a learner of that language actually looks up.
+   */
+  reference?: ReferenceTable[]
   /**
    * Carries an earlier version's data forward, if this language has one to carry.
    * Returns what it moved, for the note the app shows once.

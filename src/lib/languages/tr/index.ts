@@ -18,13 +18,14 @@ import { createExamplesKind, type Example } from '../../annotations/examples.js'
 import { createSuffixKind } from '../../annotations/suffixes.js'
 import { TR_PERSONS, TR_TENSES, TR_TENSE_IDS } from './tenses.js'
 import { conjugatePhrase } from './conjugate.js'
-import { canSuffix, suffixTable } from './suffixes.js'
+import { attach, canSuffix, suffixTable, TR_SUFFIXES } from './suffixes.js'
 import { BACK, lastVowel } from './harmony.js'
 import { verbOf } from './detect.js'
 import Flag from './Flag.svelte'
 import verbData from '../../../../data/tr/verb-examples.json'
 import wordData from '../../../../data/tr/word-examples.json'
 import type { LanguageDef, VoiceSpec } from '../types.js'
+import type { ReferenceTable } from '../../reference/build.js'
 import type { AnnotationKind } from '../../annotations/types.js'
 
 const modules = import.meta.glob<{ default: { deck: string; cards: unknown[] } }>(
@@ -89,6 +90,95 @@ export const suffixKind = createSuffixKind({
   },
 })
 
+/**
+ * The endings, worked on two words at once.
+ *
+ * `ev` has a front vowel and `okul` a back one, so every row shows the same
+ * suffix in both of its shapes. That side-by-side is the whole of vowel harmony.
+ */
+const suffixReference: ReferenceTable = {
+  title: 'Noun endings',
+  blurb: 'Turkish puts on an ending where English puts a word in front. The '
+    + 'ending changes shape to match the word: ev takes e and i, okul takes a '
+    + 'and ı. Every noun card carries a + with its own full set.',
+  columns: ['Ending', 'Meaning', 'ev — front', 'okul — back'],
+  rows: TR_SUFFIXES.map(s => [
+    s.shape, s.gloss, attach('ev', s.id) ?? '—', attach('okul', s.id) ?? '—',
+  ]),
+}
+
+const harmonyReference: ReferenceTable = {
+  title: 'Vowel harmony',
+  blurb: 'The last vowel of a word decides the vowel of everything that follows '
+    + 'it. Two-way endings pick from the first column, four-way endings from the '
+    + 'second.',
+  columns: ['Last vowel', 'Two-way (a/e)', 'Four-way (ı/i/u/ü)', 'For example'],
+  rows: [
+    ['a, ı', 'a', 'ı', 'kız → kızda, kızı'],
+    ['e, i', 'e', 'i', 'ev → evde, evi'],
+    ['o, u', 'a', 'u', 'okul → okulda, okulu'],
+    ['ö, ü', 'e', 'ü', 'göz → gözde, gözü'],
+  ],
+}
+
+/**
+ * The one thing a conjugation panel cannot show, because there is no verb in it.
+ *
+ * `öğrenciyim` is a noun with a person on the end. The deck teaches the forms one
+ * at a time; this is the whole pattern in one place.
+ */
+const copulaReference: ReferenceTable = {
+  title: 'Saying what something is',
+  blurb: 'Turkish has no verb for "am" or "is": the person goes on the end of the '
+    + 'word itself. A y appears when the word already ends in a vowel, and the '
+    + 'ending harmonises like any other.',
+  columns: ['', 'öğrenci — student', 'doktor — doctor', 'not'],
+  rows: [
+    ['ben', 'öğrenciyim', 'doktorum', 'öğrenci değilim'],
+    ['sen', 'öğrencisin', 'doktorsun', 'öğrenci değilsin'],
+    ['o', 'öğrenci', 'doktor', 'öğrenci değil'],
+    ['biz', 'öğrenciyiz', 'doktoruz', 'öğrenci değiliz'],
+    ['siz', 'öğrencisiniz', 'doktorsunuz', 'öğrenci değilsiniz'],
+    ['onlar', 'öğrenciler', 'doktorlar', 'öğrenci değiller'],
+  ],
+}
+
+/**
+ * Questions, and the two words that carry every sentence about having something.
+ */
+const questionReference: ReferenceTable = {
+  title: 'Asking, and having',
+  blurb: 'A question is not word order in Turkish, it is a word: mi, written '
+    + 'apart, harmonised to what comes before it, with the person ending on its '
+    + 'back. There is no verb "to have" either — you say a thing exists.',
+  columns: ['Word', 'What it does', 'For example'],
+  rows: [
+    ['mı mi mu mü', 'turns anything into a question', 'Öğrenci misin? — are you a student?'],
+    ['…on a verb', 'the same word, after the tense', 'Çay istiyor musun? — do you want tea?'],
+    ['değil', 'not, for anything that is not a verb', 'Bu iyi değil — this is not good'],
+    ['var', 'there is — and so, I have', 'Evde çay var — there is tea at home'],
+    ['yok', 'there is not — and so, I have not', 'Vaktim yok — I have no time'],
+    ['var mı?', 'is there? do you have?', 'Çay var mı? — is there any tea?'],
+  ],
+}
+
+const consonantReference: ReferenceTable = {
+  title: 'Consonants that change',
+  blurb: 'Two more rules and one thing that is not a rule. Which words soften is '
+    + 'a fact about each word, so the app keeps a list and says nothing for a '
+    + 'word it has not been told about.',
+  columns: ['What happens', 'When', 'For example'],
+  emphasiseFirst: false,
+  rows: [
+    ['d becomes t', 'after ç f h k p s ş t', 'kitap → kitapta, not kitapda'],
+    ['p becomes b, ç becomes c, t becomes d', 'before a vowel, for some words', 'kitap → kitabı'],
+    ['…but not for others', 'no rule tells you which', 'sepet → sepeti'],
+    ['k becomes ğ', 'before a vowel', 'ekmek → ekmeği'],
+    ['nk becomes ng', 'before a vowel', 'renk → rengi'],
+    ['a y appears', 'between two vowels', 'araba → arabayı'],
+  ],
+}
+
 export const turkish: LanguageDef = {
   id: 'tr',
   name: 'Turkish',
@@ -115,6 +205,14 @@ export const turkish: LanguageDef = {
   conjugate: conjugatePhrase,
   verbOf,
   voice,
+  modelVerb: 'gelmek',
+  reference: [
+    suffixReference,
+    harmonyReference,
+    consonantReference,
+    copulaReference,
+    questionReference,
+  ],
   badgeHints: {
     plural: 'plural — siz / onlar',
     informal: 'informal — sen',

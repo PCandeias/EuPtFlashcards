@@ -17,6 +17,7 @@ import verbData from '../../../../data/pt/verb-examples.json'
 import wordData from '../../../../data/pt/word-examples.json'
 import Flag from './Flag.svelte'
 import type { LanguageDef, VoiceSpec } from '../types.js'
+import type { ReferenceTable } from '../../reference/build.js'
 import type { AnnotationKind } from '../../annotations/types.js'
 
 const modules = import.meta.glob<{ default: { deck: string; cards: unknown[] } }>(
@@ -44,6 +45,98 @@ export const examplesKind = createExamplesKind({
   // "ir para a escola" borrows `ir`'s sentences.
   headOf: infinitive => (parseVerb(infinitive) ? infinitive : infinitive.split(/\s+/)[0]!),
 })
+
+/**
+ * The articles, which carry the gender the English side cannot show, and the
+ * contractions they make with the prepositions in front of them.
+ */
+const articleReference: ReferenceTable = {
+  title: 'Articles and gender',
+  blurb: 'Every noun on a card carries its article, because the article is what '
+    + 'tells you the gender. Learn them together: it is not casa, it is a casa.',
+  columns: ['', 'Masculine', 'Feminine'],
+  emphasiseFirst: false,
+  rows: [
+    ['the', 'o carro', 'a casa'],
+    ['the — plural', 'os carros', 'as casas'],
+    ['a, an', 'um carro', 'uma casa'],
+    ['some', 'uns carros', 'umas casas'],
+  ],
+}
+
+const contractionReference: ReferenceTable = {
+  title: 'Contractions',
+  blurb: 'A preposition in front of an article merges with it. This is not '
+    + 'optional: de o is never written, only do.',
+  columns: ['', 'o', 'a', 'os', 'as'],
+  rows: [
+    ['de — of, from', 'do', 'da', 'dos', 'das'],
+    ['em — in, on', 'no', 'na', 'nos', 'nas'],
+    ['a — to', 'ao', 'à', 'aos', 'às'],
+    ['por — by, through', 'pelo', 'pela', 'pelos', 'pelas'],
+  ],
+}
+
+/**
+ * The two verbs the English side cannot tell apart.
+ *
+ * Both are glossed `to be`, so the deck alone will never teach the difference.
+ * The forms come from the conjugator rather than from a list typed out here, so
+ * this table and the panel on a card can never disagree.
+ */
+const serEstarReference: ReferenceTable = (() => {
+  const ser = conjugatePhrase('ser')
+  const estar = conjugatePhrase('estar')
+  return {
+    title: 'Ser and estar',
+    blurb: 'Two verbs for one English word. Ser is what something is; estar is '
+      + 'how or where it is at the moment.',
+    columns: ['', 'ser — what it is', 'estar — how it is'],
+    rows: PT_PERSONS.map(person => [
+      person.label,
+      ser?.presente?.[person.id] ?? '—',
+      estar?.presente?.[person.id] ?? '—',
+    ]),
+  }
+})()
+
+const whichToBeReference: ReferenceTable = {
+  title: 'Which "to be"',
+  blurb: 'The same noun takes either one, and the choice is the meaning: a sopa é '
+    + 'boa is what the soup is like, a sopa está fria is how it is right now.',
+  columns: ['You mean', 'Portuguese', 'Why'],
+  emphasiseFirst: false,
+  rows: [
+    ['I am Portuguese', 'sou português', 'what you are — ser'],
+    ['I am a doctor', 'sou médico', 'what you do — ser'],
+    ['it is two o’clock', 'são duas horas', 'the time is always ser'],
+    ['the soup is good', 'a sopa é boa', 'what it is like — ser'],
+    ['I am tired', 'estou cansado', 'how you are today — estar'],
+    ['I am in Lisbon', 'estou em Lisboa', 'where you are — estar'],
+    ['I am speaking', 'estou a falar', 'what you are doing — estar'],
+    ['the soup is cold', 'a sopa está fria', 'how it is right now — estar'],
+  ],
+}
+
+/**
+ * The distinction the deck is built around, and the one a Brazilian course will
+ * not teach you.
+ */
+const europeanReference: ReferenceTable = {
+  title: 'European, not Brazilian',
+  blurb: 'This deck teaches the Portuguese of Portugal throughout, including the '
+    + 'places where the two are simply different words.',
+  columns: ['Portugal', 'Brazil', 'English'],
+  rows: [
+    ['o autocarro', 'o ônibus', 'the bus'],
+    ['o comboio', 'o trem', 'the train'],
+    ['o telemóvel', 'o celular', 'the mobile phone'],
+    ['a casa de banho', 'o banheiro', 'the bathroom'],
+    ['o pequeno-almoço', 'o café da manhã', 'breakfast'],
+    ['o frigorífico', 'a geladeira', 'the fridge'],
+    ['estou a falar', 'estou falando', 'I am speaking'],
+  ],
+}
 
 export const portuguese: LanguageDef = {
   id: 'pt',
@@ -79,6 +172,14 @@ export const portuguese: LanguageDef = {
     migrateTenseScope(storage, { tenses: PT_TENSES })
     return result
   },
+  modelVerb: 'falar',
+  reference: [
+    articleReference,
+    contractionReference,
+    serEstarReference,
+    whichToBeReference,
+    europeanReference,
+  ],
   badgeHints: {
     plural: 'plural — vocês / eles',
     informal: 'informal — tu',

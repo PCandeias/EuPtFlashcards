@@ -11,7 +11,9 @@ Two languages, as one installable offline web app with spaced repetition:
 
 The app opens on a picker; choosing one routes to `#/pt` or `#/tr`. Neither is the
 default, and each keeps its own progress, settings and reported cards — studying
-one never disturbs the other.
+one never disturbs the other. Each also has a [reference
+page](#the-reference-page) at `#/pt/reference` and `#/tr/reference`: the grammar
+behind its deck, and a search across every card in it.
 
 Add it to your iPhone home screen (Share → Add to Home Screen) and it runs
 standalone with no network.
@@ -313,6 +315,43 @@ in the Portuguese engine, a missing accent rule (`saía`, not `saia` — the sec
 is a skirt), a hand-written sentence that had the same error, `construir` and the
 defective `doer` being run through rules that do not fit them, and four Turkish
 verbs the deck used in sentences but never taught.
+
+## The reference page
+
+Every language has a second page at `#/pt/reference` and `#/tr/reference`,
+reached from **Reference & search** under the title. It is the grammar behind the
+deck in one place, plus a search across every card in it.
+
+Almost nothing on it is written by hand. The sections are **built from the same
+registries the study screen uses** — the tense list, the verb engine, the tag
+vocabulary, the level registry, the corpus itself — so the reference cannot drift
+away from what the app teaches:
+
+| Section | Where it comes from |
+|---|---|
+| Tenses | `language.tenses`, the same list Settings filters on |
+| A verb in full | `language.conjugate(language.modelVerb)` — `falar`, `gelmek` |
+| Ser and estar | `conjugate('ser')` and `conjugate('estar')`, not a typed-out table |
+| Noun endings | the suffix engine, worked on `ev` and `okul` at once |
+| Badges | the tags the language's own cards actually carry |
+| Levels, Decks | counted from the corpus |
+
+A language adds whatever else is worth saying as `reference` tables of its own:
+Portuguese explains articles, contractions, `ser` against `estar` and the
+European-against-Brazilian words; Turkish explains the endings, vowel harmony,
+the consonants that change, the person endings that stand in for *to be*
+(`öğrenciyim`), and the `mi` that turns a sentence into a question.
+
+**Search** folds accents and case, so `cafe` finds `café` and `ogrenci` finds
+`öğrenci`, and it ranks an exact match above a word that merely starts with the
+query. It searches both sides of the card and the sense note, and it says which
+deck, tense and level each hit came from.
+
+Two small things the hash routing forces: the section links scroll rather than
+navigate, because `#levels` reaching the router would read as *no language* and
+bounce you back to the picker; and section anchors are slugged down to letters
+and digits, because a title like `Which "to be"` has to survive being written
+into an `href`.
 
 ## Editing cards
 

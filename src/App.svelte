@@ -37,10 +37,12 @@
     reportsAsText, reportsFilename, type Reports,
   } from './lib/storage/reports.js'
 
-  let { language, onleave }: {
+  let { language, onleave, onreference }: {
     language: LanguageDef
     /** Back to the picker. */
     onleave: () => void
+    /** Across to this language's reference page. */
+    onreference: () => void
   } = $props()
 
   // Everything below reads the language once. Root remounts this component when
@@ -314,6 +316,9 @@
         {visibleTotal} cards across {deckOptions.length - 1} decks, scheduled by
         spaced repetition. Works offline.
       </p>
+      <button id="referenceBtn" class="reference" onclick={onreference}>
+        Reference &amp; search →
+      </button>
     </div>
     <Stats
       total={visibleTotal}
@@ -441,6 +446,15 @@
 
 <style>
   .header { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; }
+  .reference {
+    margin-top: 8px;
+    padding: 5px 12px;
+    min-height: 0;
+    border-radius: 999px;
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .reference:hover { color: inherit; }
   /* The flag doubles as the way back to the picker: it is already the thing that
      says which language you are in. */
   .switch {
