@@ -573,6 +573,231 @@
       "en": "it is very tasty",
       "target": "çok lezzetli",
       "level": "a1"
+    },
+    {
+      "en": "broccoli",
+      "target": "brokoli",
+      "level": "a2"
+    },
+    {
+      "en": "courgette",
+      "target": "kabak",
+      "level": "a2"
+    },
+    {
+      "en": "radish",
+      "target": "turp",
+      "level": "a2"
+    },
+    {
+      "en": "grapefruit",
+      "target": "greyfurt",
+      "level": "a2"
+    },
+    {
+      "en": "pineapple",
+      "target": "ananas",
+      "level": "a1"
+    },
+    {
+      "en": "chocolate",
+      "target": "çikolata",
+      "level": "a1"
+    },
+    {
+      "en": "cake",
+      "target": "kek",
+      "level": "a1"
+    },
+    {
+      "en": "pastry",
+      "target": "pasta",
+      "level": "a1"
+    },
+    {
+      "en": "biscuit",
+      "target": "bisküvi",
+      "level": "a1"
+    },
+    {
+      "en": "almond",
+      "target": "badem",
+      "level": "a2"
+    },
+    {
+      "en": "peanut",
+      "target": "fıstık",
+      "level": "a2"
+    },
+    {
+      "en": "cinnamon",
+      "target": "tarçın",
+      "level": "a2"
+    },
+    {
+      "en": "mint",
+      "target": "nane",
+      "level": "a2"
+    },
+    {
+      "en": "parsley",
+      "target": "maydanoz",
+      "level": "a2"
+    },
+    {
+      "en": "lemonade",
+      "target": "limonata",
+      "level": "a1"
+    },
+    {
+      "en": "orange juice",
+      "target": "portakal suyu",
+      "level": "a1"
+    },
+    {
+      "en": "hot chocolate",
+      "target": "sıcak çikolata",
+      "level": "a1"
+    },
+    {
+      "en": "iced tea",
+      "target": "buzlu çay",
+      "level": "a2"
+    },
+    {
+      "en": "gluten-free",
+      "target": "glutensiz",
+      "level": "b1"
+    },
+    {
+      "en": "a slice of cake",
+      "target": "bir dilim kek",
+      "level": "a2"
+    },
+    {
+      "en": "döner",
+      "target": "döner",
+      "level": "a1"
+    },
+    {
+      "en": "lahmacun",
+      "target": "lahmacun",
+      "level": "a1"
+    },
+    {
+      "en": "pide",
+      "target": "pide",
+      "level": "a1"
+    },
+    {
+      "en": "mantı",
+      "target": "mantı",
+      "level": "a1"
+    },
+    {
+      "en": "gözleme",
+      "target": "gözleme",
+      "level": "a1"
+    },
+    {
+      "en": "cacık",
+      "target": "cacık",
+      "level": "a1"
+    },
+    {
+      "en": "pickles",
+      "target": "turşu",
+      "level": "a1"
+    },
+    {
+      "en": "tomato paste",
+      "target": "salça",
+      "level": "a2"
+    },
+    {
+      "en": "künefe",
+      "target": "künefe",
+      "level": "a2"
+    },
+    {
+      "en": "halva",
+      "target": "helva",
+      "level": "a2"
+    },
+    {
+      "en": "çiğ köfte",
+      "target": "çiğ köfte",
+      "level": "a2"
+    },
+    {
+      "en": "baked potato",
+      "target": "kumpir",
+      "level": "a2"
+    },
+    {
+      "en": "coffee with milk",
+      "target": "sütlü kahve",
+      "level": "a1"
+    },
+    {
+      "en": "coffee without sugar",
+      "target": "sade kahve",
+      "level": "a1"
+    },
+    {
+      "en": "meal",
+      "target": "öğün",
+      "level": "a1"
+    },
+    {
+      "en": "portion",
+      "target": "porsiyon",
+      "level": "a1"
+    },
+    {
+      "en": "breakfast spread",
+      "target": "kahvaltı sofrası",
+      "level": "a2"
+    },
+    {
+      "en": "food",
+      "target": "yiyecek",
+      "level": "a1"
+    },
+    {
+      "en": "jam jar",
+      "target": "reçel kavanozu",
+      "level": "a2"
+    },
+    {
+      "en": "dough",
+      "target": "hamur",
+      "level": "a1"
+    },
+    {
+      "en": "sauce",
+      "target": "sos",
+      "level": "a1"
+    },
+    {
+      "en": "soup spoon",
+      "target": "çorba kaşığı",
+      "level": "a1"
+    },
+    {
+      "en": "nibbles",
+      "target": "çerez",
+      "level": "a1"
+    },
+    {
+      "en": "fresh bread",
+      "target": "taze ekmek",
+      "level": "a1"
+    },
+    {
+      "en": "half a kilo",
+      "target": "yarım kilo",
+      "level": "a1"
     }
   ]
 }

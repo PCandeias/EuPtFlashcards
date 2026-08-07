@@ -213,6 +213,81 @@
       "en": "is there bread?",
       "target": "ekmek var mı?",
       "level": "a1"
+    },
+    {
+      "en": "to the book",
+      "target": "kitaba",
+      "level": "a1"
+    },
+    {
+      "en": "of the book",
+      "target": "kitabın",
+      "level": "a2"
+    },
+    {
+      "en": "to the water",
+      "target": "suya",
+      "level": "a1"
+    },
+    {
+      "en": "from the water",
+      "target": "sudan",
+      "level": "a2"
+    },
+    {
+      "en": "of the water",
+      "target": "suyun",
+      "level": "a2"
+    },
+    {
+      "en": "my water",
+      "target": "suyum",
+      "level": "a1"
+    },
+    {
+      "en": "the car",
+      "target": "arabayı",
+      "level": "a1"
+    },
+    {
+      "en": "to the car",
+      "target": "arabaya",
+      "level": "a1"
+    },
+    {
+      "en": "the door",
+      "target": "kapıyı",
+      "level": "a1"
+    },
+    {
+      "en": "at the door",
+      "target": "kapıda",
+      "level": "a1"
+    },
+    {
+      "en": "the tree",
+      "target": "ağacı",
+      "level": "a2"
+    },
+    {
+      "en": "in the tree",
+      "target": "ağaçta",
+      "level": "a2"
+    },
+    {
+      "en": "my glasses",
+      "target": "gözlüğüm",
+      "level": "a2"
+    },
+    {
+      "en": "the flower",
+      "target": "çiçeği",
+      "level": "a2"
+    },
+    {
+      "en": "with a friend",
+      "target": "arkadaşla",
+      "level": "a2"
     }
   ]
 }

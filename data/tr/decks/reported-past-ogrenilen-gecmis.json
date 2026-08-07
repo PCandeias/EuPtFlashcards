@@ -1,0 +1,439 @@
+{
+  "deck": "Reported Past (Öğrenilen Geçmiş)",
+  "cards": [
+    {
+      "en": "I came, apparently",
+      "target": "ben gelmişim",
+      "tense": "ogrenilen",
+      "level": "b1"
+    },
+    {
+      "en": "you came, apparently",
+      "target": "sen gelmişsin",
+      "tense": "ogrenilen",
+      "level": "b1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she came, apparently",
+      "target": "o gelmiş",
+      "tense": "ogrenilen",
+      "level": "b1"
+    },
+    {
+      "en": "we came, apparently",
+      "target": "biz gelmişiz",
+      "tense": "ogrenilen",
+      "level": "b1"
+    },
+    {
+      "en": "you came, apparently",
+      "target": "siz gelmişsiniz",
+      "tense": "ogrenilen",
+      "level": "b1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they came, apparently",
+      "target": "onlar gelmişler",
+      "tense": "ogrenilen",
+      "level": "b1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I went, apparently",
+      "target": "ben gitmişim",
+      "tense": "ogrenilen",
+      "level": "b1"
+    },
+    {
+      "en": "you went, apparently",
+      "target": "sen gitmişsin",
+      "tense": "ogrenilen",
+      "level": "b1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she went, apparently",
+      "target": "o gitmiş",
+      "tense": "ogrenilen",
+      "level": "b1"
+    },
+    {
+      "en": "we went, apparently",
+      "target": "biz gitmişiz",
+      "tense": "ogrenilen",
+      "level": "b1"
+    },
+    {
+      "en": "you went, apparently",
+      "target": "siz gitmişsiniz",
+      "tense": "ogrenilen",
+      "level": "b1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they went, apparently",
+      "target": "onlar gitmişler",
+      "tense": "ogrenilen",
+      "level": "b1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I did, apparently",
+      "target": "ben yapmışım",
+      "tense": "ogrenilen",
+      "level": "b1"
+    },
+    {
+      "en": "you did, apparently",
+      "target": "sen yapmışsın",
+      "tense": "ogrenilen",
+      "level": "b1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she did, apparently",
+      "target": "o yapmış",
+      "tense": "ogrenilen",
+      "level": "b1"
+    },
+    {
+      "en": "we did, apparently",
+      "target": "biz yapmışız",
+      "tense": "ogrenilen",
+      "level": "b1"
+    },
+    {
+      "en": "you did, apparently",
+      "target": "siz yapmışsınız",
+      "tense": "ogrenilen",
+      "level": "b1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they did, apparently",
+      "target": "onlar yapmışlar",
+      "tense": "ogrenilen",
+      "level": "b1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I ate, apparently",
+      "target": "ben yemişim",
+      "tense": "ogrenilen",
+      "level": "b1"
+    },
+    {
+      "en": "you ate, apparently",
+      "target": "sen yemişsin",
+      "tense": "ogrenilen",
+      "level": "b1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she ate, apparently",
+      "target": "o yemiş",
+      "tense": "ogrenilen",
+      "level": "b1"
+    },
+    {
+      "en": "we ate, apparently",
+      "target": "biz yemişiz",
+      "tense": "ogrenilen",
+      "level": "b1"
+    },
+    {
+      "en": "you ate, apparently",
+      "target": "siz yemişsiniz",
+      "tense": "ogrenilen",
+      "level": "b1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they ate, apparently",
+      "target": "onlar yemişler",
+      "tense": "ogrenilen",
+      "level": "b1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I drank, apparently",
+      "target": "ben içmişim",
+      "tense": "ogrenilen",
+      "level": "b1"
+    },
+    {
+      "en": "you drank, apparently",
+      "target": "sen içmişsin",
+      "tense": "ogrenilen",
+      "level": "b1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she drank, apparently",
+      "target": "o içmiş",
+      "tense": "ogrenilen",
+      "level": "b1"
+    },
+    {
+      "en": "we drank, apparently",
+      "target": "biz içmişiz",
+      "tense": "ogrenilen",
+      "level": "b1"
+    },
+    {
+      "en": "you drank, apparently",
+      "target": "siz içmişsiniz",
+      "tense": "ogrenilen",
+      "level": "b1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they drank, apparently",
+      "target": "onlar içmişler",
+      "tense": "ogrenilen",
+      "level": "b1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I read, apparently",
+      "target": "ben okumuşum",
+      "tense": "ogrenilen",
+      "level": "b1"
+    },
+    {
+      "en": "you read, apparently",
+      "target": "sen okumuşsun",
+      "tense": "ogrenilen",
+      "level": "b1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she read, apparently",
+      "target": "o okumuş",
+      "tense": "ogrenilen",
+      "level": "b1"
+    },
+    {
+      "en": "we read, apparently",
+      "target": "biz okumuşuz",
+      "tense": "ogrenilen",
+      "level": "b1"
+    },
+    {
+      "en": "you read, apparently",
+      "target": "siz okumuşsunuz",
+      "tense": "ogrenilen",
+      "level": "b1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they read, apparently",
+      "target": "onlar okumuşlar",
+      "tense": "ogrenilen",
+      "level": "b1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I worked, apparently",
+      "target": "ben çalışmışım",
+      "tense": "ogrenilen",
+      "level": "b1"
+    },
+    {
+      "en": "you worked, apparently",
+      "target": "sen çalışmışsın",
+      "tense": "ogrenilen",
+      "level": "b1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she worked, apparently",
+      "target": "o çalışmış",
+      "tense": "ogrenilen",
+      "level": "b1"
+    },
+    {
+      "en": "we worked, apparently",
+      "target": "biz çalışmışız",
+      "tense": "ogrenilen",
+      "level": "b1"
+    },
+    {
+      "en": "you worked, apparently",
+      "target": "siz çalışmışsınız",
+      "tense": "ogrenilen",
+      "level": "b1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they worked, apparently",
+      "target": "onlar çalışmışlar",
+      "tense": "ogrenilen",
+      "level": "b1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I wanted, apparently",
+      "target": "ben istemişim",
+      "tense": "ogrenilen",
+      "level": "b1"
+    },
+    {
+      "en": "you wanted, apparently",
+      "target": "sen istemişsin",
+      "tense": "ogrenilen",
+      "level": "b1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she wanted, apparently",
+      "target": "o istemiş",
+      "tense": "ogrenilen",
+      "level": "b1"
+    },
+    {
+      "en": "we wanted, apparently",
+      "target": "biz istemişiz",
+      "tense": "ogrenilen",
+      "level": "b1"
+    },
+    {
+      "en": "you wanted, apparently",
+      "target": "siz istemişsiniz",
+      "tense": "ogrenilen",
+      "level": "b1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they wanted, apparently",
+      "target": "onlar istemişler",
+      "tense": "ogrenilen",
+      "level": "b1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "Ali came, apparently",
+      "target": "Ali gelmiş",
+      "tense": "ogrenilen",
+      "level": "b1"
+    },
+    {
+      "en": "it snowed yesterday, by all accounts",
+      "target": "Dün kar yağmış",
+      "tense": "ogrenilen",
+      "level": "b1"
+    },
+    {
+      "en": "I fell asleep, I realise",
+      "target": "Uyumuşum",
+      "tense": "ogrenilen",
+      "level": "b1"
+    },
+    {
+      "en": "the bus has left, apparently",
+      "target": "Otobüs kalkmış",
+      "tense": "ogrenilen",
+      "level": "b1"
+    },
+    {
+      "en": "the food has turned out very good",
+      "target": "Yemek çok güzel olmuş",
+      "tense": "ogrenilen",
+      "level": "b1"
+    },
+    {
+      "en": "you called me, it seems",
+      "target": "Beni aramışsın",
+      "tense": "ogrenilen",
+      "level": "b1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "the weather has turned cold",
+      "target": "Hava soğumuş",
+      "tense": "ogrenilen",
+      "level": "b1"
+    },
+    {
+      "en": "they have gone on holiday, apparently",
+      "target": "Onlar tatile gitmiş",
+      "tense": "ogrenilen",
+      "level": "b1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I got very tired, I realise",
+      "target": "Çok yorulmuşum",
+      "tense": "ogrenilen",
+      "level": "b1"
+    },
+    {
+      "en": "it has started raining, apparently",
+      "target": "Yağmur başlamış",
+      "tense": "ogrenilen",
+      "level": "b1"
+    }
+  ]
+}

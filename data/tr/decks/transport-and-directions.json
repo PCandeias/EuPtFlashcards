@@ -313,6 +313,126 @@
       "en": "how far is it?",
       "target": "ne kadar uzakta?",
       "level": "a1"
+    },
+    {
+      "en": "departure",
+      "target": "kalkış",
+      "level": "a2"
+    },
+    {
+      "en": "arrival",
+      "target": "varış",
+      "level": "a2"
+    },
+    {
+      "en": "flight",
+      "target": "uçuş",
+      "level": "a1"
+    },
+    {
+      "en": "passenger",
+      "target": "yolcu",
+      "level": "a2"
+    },
+    {
+      "en": "driver",
+      "target": "şoför",
+      "level": "a1"
+    },
+    {
+      "en": "boat",
+      "target": "tekne",
+      "level": "a2"
+    },
+    {
+      "en": "petrol",
+      "target": "benzin",
+      "level": "a2"
+    },
+    {
+      "en": "tyre",
+      "target": "lastik",
+      "level": "a2"
+    },
+    {
+      "en": "accident",
+      "target": "kaza",
+      "level": "a2"
+    },
+    {
+      "en": "insurance",
+      "target": "sigorta",
+      "level": "b1"
+    },
+    {
+      "en": "journey",
+      "target": "yolculuk",
+      "level": "a1"
+    },
+    {
+      "en": "to buy a ticket",
+      "target": "bilet almak",
+      "level": "a1"
+    },
+    {
+      "en": "bus ticket",
+      "target": "otobüs bileti",
+      "level": "a1"
+    },
+    {
+      "en": "train ticket",
+      "target": "tren bileti",
+      "level": "a1"
+    },
+    {
+      "en": "plane ticket",
+      "target": "uçak bileti",
+      "level": "a1"
+    },
+    {
+      "en": "direction",
+      "target": "yön",
+      "level": "a1"
+    },
+    {
+      "en": "sign",
+      "target": "işaret",
+      "level": "a1"
+    },
+    {
+      "en": "speed",
+      "target": "hız",
+      "level": "a2"
+    },
+    {
+      "en": "on foot",
+      "target": "yürüyerek",
+      "level": "a1"
+    },
+    {
+      "en": "by bus",
+      "target": "otobüsle",
+      "level": "a1"
+    },
+    {
+      "en": "by car",
+      "target": "arabayla",
+      "level": "a1"
+    },
+    {
+      "en": "by plane",
+      "target": "uçakla",
+      "level": "a1"
+    },
+    {
+      "en": "to the airport",
+      "target": "havaalanına",
+      "level": "a1"
+    },
+    {
+      "en": "from the station",
+      "target": "istasyondan",
+      "level": "a1"
     }
   ]
 }

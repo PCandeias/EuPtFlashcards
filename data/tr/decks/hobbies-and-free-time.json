@@ -1,0 +1,256 @@
+{
+  "deck": "Hobbies & Free Time",
+  "cards": [
+    {
+      "en": "hobby",
+      "target": "hobi",
+      "level": "a1"
+    },
+    {
+      "en": "free time",
+      "target": "boş zaman",
+      "level": "a1"
+    },
+    {
+      "en": "music",
+      "target": "müzik",
+      "level": "a1"
+    },
+    {
+      "en": "song",
+      "target": "şarkı",
+      "level": "a1"
+    },
+    {
+      "en": "film",
+      "target": "film",
+      "level": "a1"
+    },
+    {
+      "en": "series",
+      "target": "dizi",
+      "level": "a1"
+    },
+    {
+      "en": "game",
+      "target": "oyun",
+      "level": "a1"
+    },
+    {
+      "en": "football",
+      "target": "futbol",
+      "level": "a1"
+    },
+    {
+      "en": "basketball",
+      "target": "basketbol",
+      "level": "a1"
+    },
+    {
+      "en": "volleyball",
+      "target": "voleybol",
+      "level": "a2"
+    },
+    {
+      "en": "tennis",
+      "target": "tenis",
+      "level": "a1"
+    },
+    {
+      "en": "swimming",
+      "target": "yüzme",
+      "level": "a1"
+    },
+    {
+      "en": "running",
+      "target": "koşu",
+      "level": "a2"
+    },
+    {
+      "en": "chess",
+      "target": "satranç",
+      "level": "a2"
+    },
+    {
+      "en": "card game",
+      "target": "kart oyunu",
+      "level": "a2"
+    },
+    {
+      "en": "dance",
+      "target": "dans",
+      "level": "a1"
+    },
+    {
+      "en": "guitar",
+      "target": "gitar",
+      "level": "a1"
+    },
+    {
+      "en": "piano",
+      "target": "piyano",
+      "level": "a1"
+    },
+    {
+      "en": "violin",
+      "target": "keman",
+      "level": "a2"
+    },
+    {
+      "en": "concert",
+      "target": "konser",
+      "level": "a1"
+    },
+    {
+      "en": "exhibition",
+      "target": "sergi",
+      "level": "a2"
+    },
+    {
+      "en": "picnic",
+      "target": "piknik",
+      "level": "a1"
+    },
+    {
+      "en": "camping",
+      "target": "kamp",
+      "level": "a2"
+    },
+    {
+      "en": "yoga",
+      "target": "yoga",
+      "level": "a2"
+    },
+    {
+      "en": "gym",
+      "target": "spor salonu",
+      "level": "a1"
+    },
+    {
+      "en": "team",
+      "target": "takım",
+      "level": "a1"
+    },
+    {
+      "en": "match",
+      "target": "maç",
+      "level": "a1"
+    },
+    {
+      "en": "player",
+      "target": "oyuncu",
+      "level": "a2"
+    },
+    {
+      "en": "fun",
+      "target": "eğlenceli",
+      "level": "a1"
+    },
+    {
+      "en": "to sing",
+      "target": "şarkı söylemek",
+      "level": "a1"
+    },
+    {
+      "en": "to dance",
+      "target": "dans etmek",
+      "level": "a1"
+    },
+    {
+      "en": "to draw",
+      "target": "resim yapmak",
+      "level": "a1"
+    },
+    {
+      "en": "to play the guitar",
+      "target": "gitar çalmak",
+      "level": "a1"
+    },
+    {
+      "en": "to play a game",
+      "target": "oyun oynamak",
+      "level": "a1"
+    },
+    {
+      "en": "to play football",
+      "target": "futbol oynamak",
+      "level": "a1"
+    },
+    {
+      "en": "to go camping",
+      "target": "kamp yapmak",
+      "level": "a2"
+    },
+    {
+      "en": "to take a photo",
+      "target": "fotoğraf çekmek",
+      "level": "a1"
+    },
+    {
+      "en": "to go fishing",
+      "target": "balık tutmak",
+      "level": "a2"
+    },
+    {
+      "en": "to travel",
+      "target": "seyahat etmek",
+      "level": "a1"
+    },
+    {
+      "en": "to wander around",
+      "target": "gezmek",
+      "level": "a1"
+    },
+    {
+      "en": "to have fun",
+      "target": "eğlenmek",
+      "level": "a1"
+    },
+    {
+      "en": "to play",
+      "target": "oynamak",
+      "level": "a1"
+    },
+    {
+      "en": "what do you do in your free time?",
+      "target": "Boş zamanında ne yaparsın?",
+      "tense": "genis",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "what is your hobby?",
+      "target": "Hobin ne?",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "I like going to the cinema",
+      "target": "Sinemaya gitmeyi severim",
+      "tense": "genis",
+      "level": "a2"
+    },
+    {
+      "en": "I like watching football",
+      "target": "Futbol izlemeyi severim",
+      "tense": "genis",
+      "level": "a2"
+    },
+    {
+      "en": "I play the guitar every day",
+      "target": "Her gün gitar çalarım",
+      "tense": "genis",
+      "level": "a2"
+    },
+    {
+      "en": "we are watching a film",
+      "target": "Film izliyoruz",
+      "tense": "simdiki",
+      "level": "a1"
+    }
+  ]
+}

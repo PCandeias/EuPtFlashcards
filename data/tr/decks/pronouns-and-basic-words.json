@@ -378,6 +378,106 @@
       "en": "too much",
       "target": "fazla",
       "level": "a1"
+    },
+    {
+      "en": "myself",
+      "target": "kendim",
+      "level": "a2"
+    },
+    {
+      "en": "own",
+      "target": "kendi",
+      "level": "a2"
+    },
+    {
+      "en": "all of it",
+      "target": "hepsi",
+      "level": "a1"
+    },
+    {
+      "en": "none of it",
+      "target": "hiçbiri",
+      "level": "a2"
+    },
+    {
+      "en": "some of them",
+      "target": "bazıları",
+      "level": "a2"
+    },
+    {
+      "en": "most",
+      "target": "çoğu",
+      "level": "a2"
+    },
+    {
+      "en": "anyone",
+      "target": "kimse",
+      "level": "a1"
+    },
+    {
+      "en": "no one",
+      "target": "hiç kimse",
+      "level": "a1"
+    },
+    {
+      "en": "everything",
+      "target": "her şey",
+      "level": "a1"
+    },
+    {
+      "en": "nothing",
+      "target": "hiçbir şey",
+      "level": "a1"
+    },
+    {
+      "en": "all of us",
+      "target": "hepimiz",
+      "level": "a1"
+    },
+    {
+      "en": "like that",
+      "target": "öyle",
+      "level": "a1"
+    },
+    {
+      "en": "like this",
+      "target": "şöyle",
+      "level": "a1"
+    },
+    {
+      "en": "anyway",
+      "target": "neyse",
+      "level": "a2"
+    },
+    {
+      "en": "probably",
+      "target": "galiba",
+      "level": "a1"
+    },
+    {
+      "en": "definitely",
+      "target": "kesinlikle",
+      "level": "a1"
+    },
+    {
+      "en": "really",
+      "target": "gerçekten",
+      "level": "a1"
+    },
+    {
+      "en": "actually",
+      "target": "aslında",
+      "level": "a1"
+    },
+    {
+      "en": "usually",
+      "target": "genellikle",
+      "level": "a1"
+    },
+    {
+      "en": "sometimes",
+      "target": "bazen",
+      "level": "a1"
     }
   ]
 }

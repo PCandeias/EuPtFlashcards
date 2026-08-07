@@ -517,6 +517,91 @@
       "en": "to win",
       "target": "ganhar",
       "level": "a2"
+    },
+    {
+      "en": "to think about",
+      "target": "pensar em",
+      "level": "a1"
+    },
+    {
+      "en": "to show",
+      "target": "mostrar",
+      "level": "a1"
+    },
+    {
+      "en": "to stay",
+      "target": "ficar",
+      "level": "a1"
+    },
+    {
+      "en": "to leave behind",
+      "target": "deixar",
+      "level": "a2"
+    },
+    {
+      "en": "to carry",
+      "target": "transportar",
+      "level": "a2"
+    },
+    {
+      "en": "to tell",
+      "target": "contar uma história",
+      "level": "a2"
+    },
+    {
+      "en": "to spend",
+      "target": "passar tempo",
+      "level": "a2"
+    },
+    {
+      "en": "to get tired",
+      "target": "cansar-se",
+      "level": "a2"
+    },
+    {
+      "en": "to meet",
+      "target": "conhecer alguém",
+      "level": "a1"
+    },
+    {
+      "en": "to thank",
+      "target": "agradecer",
+      "level": "a1"
+    },
+    {
+      "en": "to forgive",
+      "target": "perdoar",
+      "level": "a2"
+    },
+    {
+      "en": "to fall asleep",
+      "target": "adormecer",
+      "level": "a2"
+    },
+    {
+      "en": "to wake up early",
+      "target": "acordar cedo",
+      "level": "a1"
+    },
+    {
+      "en": "to touch",
+      "target": "tocar",
+      "level": "a2"
+    },
+    {
+      "en": "to die",
+      "target": "morrer",
+      "level": "a2"
+    },
+    {
+      "en": "to become",
+      "target": "tornar-se",
+      "level": "b1"
+    },
+    {
+      "en": "to allow",
+      "target": "deixar entrar",
+      "level": "a2"
     }
   ]
 }

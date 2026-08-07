@@ -1,0 +1,126 @@
+{
+  "deck": "Learning Portuguese",
+  "cards": [
+    {
+      "en": "word",
+      "target": "a palavra",
+      "level": "a1"
+    },
+    {
+      "en": "sentence",
+      "target": "a frase",
+      "level": "a1"
+    },
+    {
+      "en": "letter",
+      "target": "a letra",
+      "level": "a1"
+    },
+    {
+      "en": "exercise",
+      "target": "o exercício",
+      "level": "a1"
+    },
+    {
+      "en": "dictionary",
+      "target": "o dicionário",
+      "level": "a1"
+    },
+    {
+      "en": "translation",
+      "target": "a tradução",
+      "level": "a2"
+    },
+    {
+      "en": "pronunciation",
+      "target": "a pronúncia",
+      "level": "a2"
+    },
+    {
+      "en": "grammar",
+      "target": "a gramática",
+      "level": "a2"
+    },
+    {
+      "en": "vowel",
+      "target": "a vogal",
+      "level": "a2"
+    },
+    {
+      "en": "consonant",
+      "target": "a consoante",
+      "level": "a2"
+    },
+    {
+      "en": "verb",
+      "target": "o verbo",
+      "level": "a1"
+    },
+    {
+      "en": "noun",
+      "target": "o substantivo",
+      "level": "a2"
+    },
+    {
+      "en": "adjective",
+      "target": "o adjetivo",
+      "level": "a2"
+    },
+    {
+      "en": "tense",
+      "target": "o tempo verbal",
+      "level": "a2"
+    },
+    {
+      "en": "meaning",
+      "target": "o significado",
+      "level": "a1"
+    },
+    {
+      "en": "accent",
+      "target": "o sotaque",
+      "level": "a2"
+    },
+    {
+      "en": "rule",
+      "target": "a regra",
+      "level": "a1"
+    },
+    {
+      "en": "mistake",
+      "target": "o engano",
+      "level": "a2"
+    },
+    {
+      "en": "to practise",
+      "target": "praticar",
+      "level": "a1"
+    },
+    {
+      "en": "to translate",
+      "target": "traduzir",
+      "level": "a1"
+    },
+    {
+      "en": "to spell",
+      "target": "soletrar",
+      "level": "a2"
+    },
+    {
+      "en": "how is it spelled?",
+      "target": "como se escreve?",
+      "level": "a1"
+    },
+    {
+      "en": "what does it mean?",
+      "target": "o que quer dizer?",
+      "level": "a1"
+    },
+    {
+      "en": "I am learning",
+      "target": "estou a aprender português todos os dias",
+      "tense": "presenteContinuo",
+      "level": "a1"
+    }
+  ]
+}

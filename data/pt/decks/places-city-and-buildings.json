@@ -305,6 +305,68 @@
       "en": "the countryside",
       "target": "o campo",
       "level": "a2"
+    },
+    {
+      "en": "the patisserie",
+      "target": "a pastelaria",
+      "level": "a1"
+    },
+    {
+      "en": "the stationery shop",
+      "target": "a papelaria",
+      "level": "a1"
+    },
+    {
+      "en": "the barber shop",
+      "target": "a barbearia",
+      "level": "a1"
+    },
+    {
+      "en": "the hairdresser",
+      "target": "o cabeleireiro",
+      "level": "a1",
+      "sense": "the shop"
+    },
+    {
+      "en": "the vet",
+      "target": "o veterinário",
+      "level": "a2",
+      "sense": "the practice"
+    },
+    {
+      "en": "the town hall square",
+      "target": "a praça do município",
+      "level": "a2"
+    },
+    {
+      "en": "the tourist office",
+      "target": "o posto de turismo",
+      "level": "a2"
+    },
+    {
+      "en": "the embassy",
+      "target": "a embaixada",
+      "level": "b1"
+    },
+    {
+      "en": "the consulate",
+      "target": "o consulado",
+      "level": "b1"
+    },
+    {
+      "en": "the flower shop",
+      "target": "a loja de flores",
+      "level": "a1"
+    },
+    {
+      "en": "the newsagent",
+      "target": "o quiosque de jornais",
+      "level": "a2"
+    },
+    {
+      "en": "the petrol station",
+      "target": "a estação de serviço",
+      "level": "a1"
     }
   ]
 }

@@ -376,6 +376,96 @@
       "en": "useless",
       "target": "inútil",
       "level": "a2"
+    },
+    {
+      "en": "complete",
+      "target": "completo / completa",
+      "level": "a1"
+    },
+    {
+      "en": "bright",
+      "target": "brilhante",
+      "level": "a1"
+    },
+    {
+      "en": "colourful",
+      "target": "colorido / colorida",
+      "level": "a1"
+    },
+    {
+      "en": "plain",
+      "target": "simples",
+      "level": "a1"
+    },
+    {
+      "en": "round",
+      "target": "redondo / redonda",
+      "level": "a1"
+    },
+    {
+      "en": "square",
+      "target": "quadrado / quadrada",
+      "level": "a1"
+    },
+    {
+      "en": "sturdy",
+      "target": "resistente",
+      "level": "a2"
+    },
+    {
+      "en": "broken",
+      "target": "partido / partida",
+      "level": "a1"
+    },
+    {
+      "en": "crowded",
+      "target": "cheio de gente",
+      "level": "a2"
+    },
+    {
+      "en": "tiring",
+      "target": "cansativo / cansativa",
+      "level": "a2"
+    },
+    {
+      "en": "available",
+      "target": "disponível",
+      "level": "a2"
+    },
+    {
+      "en": "suitable",
+      "target": "adequado / adequada",
+      "level": "a2"
+    },
+    {
+      "en": "real",
+      "target": "verdadeiro / verdadeira",
+      "level": "a1"
+    },
+    {
+      "en": "similar",
+      "target": "parecido / parecida",
+      "level": "a1"
+    },
+    {
+      "en": "wonderful",
+      "target": "maravilhoso / maravilhosa",
+      "level": "a1"
+    },
+    {
+      "en": "terrible",
+      "target": "terrível",
+      "level": "a1"
+    },
+    {
+      "en": "sour",
+      "target": "ácido / ácida",
+      "level": "a2"
+    },
+    {
+      "en": "rich in flavour",
+      "target": "saboroso / saborosa",
+      "level": "a2"
     }
   ]
 }

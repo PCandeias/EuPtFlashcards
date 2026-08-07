@@ -1,0 +1,452 @@
+{
+  "deck": "Present Continuous (Şimdiki Zaman)",
+  "cards": [
+    {
+      "en": "I am coming",
+      "target": "ben geliyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "you are coming",
+      "target": "sen geliyorsun",
+      "tense": "simdiki",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she is coming",
+      "target": "o geliyor",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "we are coming",
+      "target": "biz geliyoruz",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "you are coming",
+      "target": "siz geliyorsunuz",
+      "tense": "simdiki",
+      "level": "a1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they are coming",
+      "target": "onlar geliyorlar",
+      "tense": "simdiki",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I am going",
+      "target": "ben gidiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "you are going",
+      "target": "sen gidiyorsun",
+      "tense": "simdiki",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she is going",
+      "target": "o gidiyor",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "we are going",
+      "target": "biz gidiyoruz",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "you are going",
+      "target": "siz gidiyorsunuz",
+      "tense": "simdiki",
+      "level": "a1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they are going",
+      "target": "onlar gidiyorlar",
+      "tense": "simdiki",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I am doing",
+      "target": "ben yapıyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "you are doing",
+      "target": "sen yapıyorsun",
+      "tense": "simdiki",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she is doing",
+      "target": "o yapıyor",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "we are doing",
+      "target": "biz yapıyoruz",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "you are doing",
+      "target": "siz yapıyorsunuz",
+      "tense": "simdiki",
+      "level": "a1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they are doing",
+      "target": "onlar yapıyorlar",
+      "tense": "simdiki",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I am eating",
+      "target": "ben yiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "you are eating",
+      "target": "sen yiyorsun",
+      "tense": "simdiki",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she is eating",
+      "target": "o yiyor",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "we are eating",
+      "target": "biz yiyoruz",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "you are eating",
+      "target": "siz yiyorsunuz",
+      "tense": "simdiki",
+      "level": "a1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they are eating",
+      "target": "onlar yiyorlar",
+      "tense": "simdiki",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I am drinking",
+      "target": "ben içiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "you are drinking",
+      "target": "sen içiyorsun",
+      "tense": "simdiki",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she is drinking",
+      "target": "o içiyor",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "we are drinking",
+      "target": "biz içiyoruz",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "you are drinking",
+      "target": "siz içiyorsunuz",
+      "tense": "simdiki",
+      "level": "a1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they are drinking",
+      "target": "onlar içiyorlar",
+      "tense": "simdiki",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I am reading",
+      "target": "ben okuyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "you are reading",
+      "target": "sen okuyorsun",
+      "tense": "simdiki",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she is reading",
+      "target": "o okuyor",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "we are reading",
+      "target": "biz okuyoruz",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "you are reading",
+      "target": "siz okuyorsunuz",
+      "tense": "simdiki",
+      "level": "a1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they are reading",
+      "target": "onlar okuyorlar",
+      "tense": "simdiki",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I am working",
+      "target": "ben çalışıyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "you are working",
+      "target": "sen çalışıyorsun",
+      "tense": "simdiki",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she is working",
+      "target": "o çalışıyor",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "we are working",
+      "target": "biz çalışıyoruz",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "you are working",
+      "target": "siz çalışıyorsunuz",
+      "tense": "simdiki",
+      "level": "a1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they are working",
+      "target": "onlar çalışıyorlar",
+      "tense": "simdiki",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I want",
+      "target": "ben istiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "you want",
+      "target": "sen istiyorsun",
+      "tense": "simdiki",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she wants",
+      "target": "o istiyor",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "we want",
+      "target": "biz istiyoruz",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "you want",
+      "target": "siz istiyorsunuz",
+      "tense": "simdiki",
+      "level": "a1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they want",
+      "target": "onlar istiyorlar",
+      "tense": "simdiki",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I am going home now",
+      "target": "Şimdi eve gidiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I am drinking coffee",
+      "target": "Kahve içiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "my mother is cooking",
+      "target": "Annem yemek pişiriyor",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "the children are playing in the garden",
+      "target": "Çocuklar bahçede oynuyor",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "we are waiting for the bus",
+      "target": "Otobüsü bekliyoruz",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "my father is reading a book",
+      "target": "Babam kitap okuyor",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I am working right now",
+      "target": "Şu anda çalışıyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "we are learning Turkish",
+      "target": "Türkçe öğreniyoruz",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "my brother is listening to music",
+      "target": "Kardeşim müzik dinliyor",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I am doing my homework",
+      "target": "Ödevimi yapıyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "they are watching television",
+      "target": "Onlar televizyon izliyor",
+      "tense": "simdiki",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "what are you eating?",
+      "target": "Ne yiyorsunuz?",
+      "tense": "simdiki",
+      "level": "a1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    }
+  ]
+}

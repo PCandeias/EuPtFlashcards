@@ -382,6 +382,116 @@
       "target": "está um frio de rachar",
       "tense": "presente",
       "level": "a1"
+    },
+    {
+      "en": "the desert",
+      "target": "o deserto",
+      "level": "a2"
+    },
+    {
+      "en": "the rainbow",
+      "target": "o arco-íris",
+      "level": "a2"
+    },
+    {
+      "en": "the ice",
+      "target": "o gelo",
+      "level": "a1"
+    },
+    {
+      "en": "the mud",
+      "target": "a lama",
+      "level": "a2"
+    },
+    {
+      "en": "the wave of cold",
+      "target": "a onda de frio",
+      "level": "a2"
+    },
+    {
+      "en": "the duckling",
+      "target": "o patinho",
+      "level": "a2"
+    },
+    {
+      "en": "the wolf",
+      "target": "o lobo",
+      "level": "a1"
+    },
+    {
+      "en": "the fox",
+      "target": "a raposa",
+      "level": "a2"
+    },
+    {
+      "en": "the giraffe",
+      "target": "a girafa",
+      "level": "a2"
+    },
+    {
+      "en": "the camel",
+      "target": "o camelo",
+      "level": "a2"
+    },
+    {
+      "en": "the frog",
+      "target": "a rã",
+      "level": "a2"
+    },
+    {
+      "en": "the dolphin",
+      "target": "o golfinho",
+      "level": "a2"
+    },
+    {
+      "en": "the shark",
+      "target": "o tubarão",
+      "level": "a2"
+    },
+    {
+      "en": "the owl",
+      "target": "a coruja",
+      "level": "a2"
+    },
+    {
+      "en": "the eagle",
+      "target": "a águia",
+      "level": "a2"
+    },
+    {
+      "en": "the pigeon",
+      "target": "o pombo",
+      "level": "a1"
+    },
+    {
+      "en": "the fly",
+      "target": "a mosca",
+      "level": "a1"
+    },
+    {
+      "en": "the wing",
+      "target": "a asa",
+      "level": "a1"
+    },
+    {
+      "en": "the tail",
+      "target": "a cauda",
+      "level": "a2"
+    },
+    {
+      "en": "the pet",
+      "target": "o animal de estimação",
+      "level": "a1"
+    },
+    {
+      "en": "the zoo",
+      "target": "o jardim zoológico",
+      "level": "a1"
+    },
+    {
+      "en": "the farm",
+      "target": "a quinta",
+      "level": "a1"
     }
   ]
 }

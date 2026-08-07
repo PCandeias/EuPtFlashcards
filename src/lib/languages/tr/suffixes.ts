@@ -97,6 +97,16 @@ const SOFTENS = new Set([
   'terlik', 'uzak', 'yastık', 'yatak', 'yağmurluk', 'yemek', 'yüzük',
   'ıspanak', 'ışık', 'öksürük', 'örümcek',
   'uçak', 'ocak', 'klinik', 'ılık', 'ıslak', 'ilginç', 'utangaç', 'fındık',
+  'inek', 'kabak', 'fıstık', 'tırnak', 'kirpik', 'topuk', 'kemik', 'böbrek',
+  'yumuşak', 'kalabalık', 'toprak', 'matematik', 'lastik', 'yaprak', 'kuyruk',
+  'piknik', 'kurt', 'yengeç', 'utanç', 'kıskanç', 'satranç',
+  'gerçek', 'kelebek', 'sinek', 'ördek', 'çiftlik', 'mutluluk', 'müzik',
+  'elektrik', 'çeyrek', 'şimşek', 'sıcaklık', 'parlak', 'yuvarlak', 'kırık',
+  'sağlık', 'hastalık', 'pamuk', 'kıvırcık', 'cacık', 'kitaplık', 'meslek',
+  'örnek', 'sözlük', 'birçok', 'konsolosluk', 'elçilik', 'yolculuk',
+  'bayrak', 'gümrük', 'çekiç', 'tarak', 'yiyecek', 'benzinlik',
+  // -p becomes b here too: garip is garibi.
+  'garip',
   // nk becomes ng rather than nğ
   'renk',
 ])
@@ -121,6 +131,10 @@ const KEEPS = new Set([
   'bisiklet', 'komik', 'nazik', 'otopark', 'süpermarket', 'trafik',
   // Monosyllables again: et is eti, üç is üçü.
   'et', 'aç', 'üç', 'süt', 'tost',
+  'at', 'ahtapot', 'aşk', 'nefret', 'rahat', 'turp', 'greyfurt', 'kek', 'kamp',
+  'maç', 'sert', 'çift', 'tek', 'taksit', 'müsait', 'berbat', 'diyet', 'kravat',
+  'avukat', 'pilot', 'ek', 'kök', 'ilk', 'birkaç', 'işaret', 'kat', 'halat',
+  'turist', 'davet',
 ])
 
 /**

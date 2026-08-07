@@ -313,6 +313,66 @@
       "en": "to pay by card",
       "target": "pagar com cartão",
       "level": "a1"
+    },
+    {
+      "en": "the instalment",
+      "target": "a prestação",
+      "level": "b1"
+    },
+    {
+      "en": "the payment",
+      "target": "o pagamento",
+      "level": "a2"
+    },
+    {
+      "en": "the product",
+      "target": "o produto",
+      "level": "a2"
+    },
+    {
+      "en": "the brand",
+      "target": "a marca",
+      "level": "a1"
+    },
+    {
+      "en": "the sale price",
+      "target": "o preço de saldo",
+      "level": "a2"
+    },
+    {
+      "en": "the price tag",
+      "target": "a etiqueta do preço",
+      "level": "a1"
+    },
+    {
+      "en": "the shopping bag",
+      "target": "o saco das compras",
+      "level": "a1"
+    },
+    {
+      "en": "half price",
+      "target": "metade do preço",
+      "level": "a1"
+    },
+    {
+      "en": "a kilo of apples",
+      "target": "um quilo de maçãs",
+      "level": "a1"
+    },
+    {
+      "en": "a bottle of milk",
+      "target": "uma garrafa de leite",
+      "level": "a1"
+    },
+    {
+      "en": "a packet of tea",
+      "target": "um pacote de chá",
+      "level": "a1"
+    },
+    {
+      "en": "too expensive",
+      "target": "demasiado caro",
+      "level": "a1"
     }
   ]
 }

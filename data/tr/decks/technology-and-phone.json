@@ -233,6 +233,57 @@
       "target": "çekmiyor",
       "tense": "simdiki",
       "level": "a1"
+    },
+    {
+      "en": "keyboard",
+      "target": "klavye",
+      "level": "a1"
+    },
+    {
+      "en": "software",
+      "target": "yazılım",
+      "level": "a2"
+    },
+    {
+      "en": "social media",
+      "target": "sosyal medya",
+      "level": "a1"
+    },
+    {
+      "en": "online",
+      "target": "çevrimiçi",
+      "level": "a2"
+    },
+    {
+      "en": "offline",
+      "target": "çevrimdışı",
+      "level": "a2"
+    },
+    {
+      "en": "wireless",
+      "target": "kablosuz",
+      "level": "a2"
+    },
+    {
+      "en": "calculator",
+      "target": "hesap makinesi",
+      "level": "a2"
+    },
+    {
+      "en": "smartwatch",
+      "target": "akıllı saat",
+      "level": "a2"
+    },
+    {
+      "en": "screenshot",
+      "target": "ekran görüntüsü",
+      "level": "b1"
+    },
+    {
+      "en": "mouse",
+      "target": "fare",
+      "level": "a1",
+      "sense": "the one on a desk"
     }
   ]
 }

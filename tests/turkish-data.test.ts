@@ -62,7 +62,7 @@ describe('the Turkish corpus', () => {
     for (const c of CARDS) byWord.set(c.target, [...(byWord.get(c.target) ?? []), c.en])
     const repeated = [...byWord.entries()].filter(([, glosses]) => glosses.length > 1)
     expect(repeated.map(([w]) => w).sort()).toEqual(
-      ['fırın', 'hesap', 'kapı', 'koltuk', 'o', 'onlar', 'saat', 'yemek', 'yüz'],
+      ['fare', 'fırın', 'hesap', 'kapı', 'koltuk', 'o', 'onlar', 'saat', 'yemek', 'yüz'],
     )
     // And each of those says which meaning it is.
     for (const [word] of repeated) {
@@ -161,8 +161,9 @@ describe('the suffix reference', () => {
       .map(c => c.target)
       .filter(t => /[pçtk]$/.test(t) && t === t.toLocaleLowerCase('tr'))
       .filter(t => mutationOf(t) === null))]
-    // `ancak` is a conjunction; it takes no case ending and needs no decision.
-    expect(undecided).toEqual(['ancak'])
+    // `ancak` is a conjunction and `yürüyerek` a converb — "by walking". Neither
+    // takes a case ending, so neither needs a decision.
+    expect(undecided).toEqual(['ancak', 'yürüyerek'])
   })
 
   it('agrees with the cards that teach the endings', () => {

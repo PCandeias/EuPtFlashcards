@@ -1,0 +1,451 @@
+{
+  "deck": "Future Tense (Gelecek Zaman)",
+  "cards": [
+    {
+      "en": "I will come",
+      "target": "ben geleceğim",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "you will come",
+      "target": "sen geleceksin",
+      "tense": "gelecek",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she will come",
+      "target": "o gelecek",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "we will come",
+      "target": "biz geleceğiz",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "you will come",
+      "target": "siz geleceksiniz",
+      "tense": "gelecek",
+      "level": "a2",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they will come",
+      "target": "onlar gelecekler",
+      "tense": "gelecek",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I will go",
+      "target": "ben gideceğim",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "you will go",
+      "target": "sen gideceksin",
+      "tense": "gelecek",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she will go",
+      "target": "o gidecek",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "we will go",
+      "target": "biz gideceğiz",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "you will go",
+      "target": "siz gideceksiniz",
+      "tense": "gelecek",
+      "level": "a2",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they will go",
+      "target": "onlar gidecekler",
+      "tense": "gelecek",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I will do",
+      "target": "ben yapacağım",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "you will do",
+      "target": "sen yapacaksın",
+      "tense": "gelecek",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she will do",
+      "target": "o yapacak",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "we will do",
+      "target": "biz yapacağız",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "you will do",
+      "target": "siz yapacaksınız",
+      "tense": "gelecek",
+      "level": "a2",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they will do",
+      "target": "onlar yapacaklar",
+      "tense": "gelecek",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I will eat",
+      "target": "ben yiyeceğim",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "you will eat",
+      "target": "sen yiyeceksin",
+      "tense": "gelecek",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she will eat",
+      "target": "o yiyecek",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "we will eat",
+      "target": "biz yiyeceğiz",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "you will eat",
+      "target": "siz yiyeceksiniz",
+      "tense": "gelecek",
+      "level": "a2",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they will eat",
+      "target": "onlar yiyecekler",
+      "tense": "gelecek",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I will drink",
+      "target": "ben içeceğim",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "you will drink",
+      "target": "sen içeceksin",
+      "tense": "gelecek",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she will drink",
+      "target": "o içecek",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "we will drink",
+      "target": "biz içeceğiz",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "you will drink",
+      "target": "siz içeceksiniz",
+      "tense": "gelecek",
+      "level": "a2",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they will drink",
+      "target": "onlar içecekler",
+      "tense": "gelecek",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I will read",
+      "target": "ben okuyacağım",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "you will read",
+      "target": "sen okuyacaksın",
+      "tense": "gelecek",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she will read",
+      "target": "o okuyacak",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "we will read",
+      "target": "biz okuyacağız",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "you will read",
+      "target": "siz okuyacaksınız",
+      "tense": "gelecek",
+      "level": "a2",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they will read",
+      "target": "onlar okuyacaklar",
+      "tense": "gelecek",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I will work",
+      "target": "ben çalışacağım",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "you will work",
+      "target": "sen çalışacaksın",
+      "tense": "gelecek",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she will work",
+      "target": "o çalışacak",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "we will work",
+      "target": "biz çalışacağız",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "you will work",
+      "target": "siz çalışacaksınız",
+      "tense": "gelecek",
+      "level": "a2",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they will work",
+      "target": "onlar çalışacaklar",
+      "tense": "gelecek",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I will want",
+      "target": "ben isteyeceğim",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "you will want",
+      "target": "sen isteyeceksin",
+      "tense": "gelecek",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she will want",
+      "target": "o isteyecek",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "we will want",
+      "target": "biz isteyeceğiz",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "you will want",
+      "target": "siz isteyeceksiniz",
+      "tense": "gelecek",
+      "level": "a2",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they will want",
+      "target": "onlar isteyecekler",
+      "tense": "gelecek",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I will call you tomorrow",
+      "target": "Yarın seni arayacağım",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "we will go to Istanbul next week",
+      "target": "Gelecek hafta İstanbul'a gideceğiz",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "what will you do?",
+      "target": "Ne yapacaksın?",
+      "tense": "gelecek",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "I will cook this evening",
+      "target": "Akşam yemek pişireceğim",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "I will not work tomorrow",
+      "target": "Yarın çalışmayacağım",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "I will help you",
+      "target": "Sana yardım edeceğim",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "they will come late",
+      "target": "Onlar geç gelecek",
+      "tense": "gelecek",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I will read this book",
+      "target": "Bu kitabı okuyacağım",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "it will rain tomorrow",
+      "target": "Yarın yağmur yağacak",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "what time will it start?",
+      "target": "Saat kaçta başlayacak?",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "we will wait here",
+      "target": "Burada bekleyeceğiz",
+      "tense": "gelecek",
+      "level": "a2"
+    },
+    {
+      "en": "I will get a coffee",
+      "target": "Bir kahve alacağım",
+      "tense": "gelecek",
+      "level": "a2"
+    }
+  ]
+}

@@ -403,6 +403,186 @@
       "target": "viveremos em Portugal",
       "tense": "futuro",
       "level": "b1"
+    },
+    {
+      "en": "I will want",
+      "target": "eu quererei",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "you will want",
+      "target": "tu quererás",
+      "tense": "futuro",
+      "level": "b1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she will want",
+      "target": "ele / ela quererá",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "we will want",
+      "target": "nós quereremos",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "they will want",
+      "target": "eles / elas quererão",
+      "tense": "futuro",
+      "level": "b1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I will be able",
+      "target": "eu poderei",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "you will be able",
+      "target": "tu poderás",
+      "tense": "futuro",
+      "level": "b1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she will be able",
+      "target": "ele / ela poderá",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "we will be able",
+      "target": "nós poderemos",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "they will be able",
+      "target": "eles / elas poderão",
+      "tense": "futuro",
+      "level": "b1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I will say",
+      "target": "eu direi",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "you will say",
+      "target": "tu dirás",
+      "tense": "futuro",
+      "level": "b1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she will say",
+      "target": "ele / ela dirá",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "we will say",
+      "target": "nós diremos",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "they will say",
+      "target": "eles / elas dirão",
+      "tense": "futuro",
+      "level": "b1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I will come",
+      "target": "eu virei",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "you will come",
+      "target": "tu virás",
+      "tense": "futuro",
+      "level": "b1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she will come",
+      "target": "ele / ela virá",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "we will come",
+      "target": "nós viremos",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "they will come",
+      "target": "eles / elas virão",
+      "tense": "futuro",
+      "level": "b1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I will sleep",
+      "target": "eu dormirei",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "you will sleep",
+      "target": "tu dormirás",
+      "tense": "futuro",
+      "level": "b1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she will sleep",
+      "target": "ele / ela dormirá",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "we will sleep",
+      "target": "nós dormiremos",
+      "tense": "futuro",
+      "level": "b1"
+    },
+    {
+      "en": "they will sleep",
+      "target": "eles / elas dormirão",
+      "tense": "futuro",
+      "level": "b1",
+      "tags": [
+        "plural"
+      ]
     }
   ]
 }

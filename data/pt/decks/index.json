@@ -2,7 +2,7 @@
   {
     "deck": "Adjectives & Opposites",
     "file": "adjectives-and-opposites",
-    "count": 75
+    "count": 93
   },
   {
     "deck": "Basic Present Tense Phrases",
@@ -12,7 +12,12 @@
   {
     "deck": "Body & Health",
     "file": "body-and-health",
-    "count": 83
+    "count": 96
+  },
+  {
+    "deck": "Celebrations & Holidays",
+    "file": "celebrations-and-holidays",
+    "count": 23
   },
   {
     "deck": "Class",
@@ -22,32 +27,37 @@
   {
     "deck": "Clothing & Colors",
     "file": "clothing-and-colors",
-    "count": 72
+    "count": 82
   },
   {
     "deck": "Common Verbs",
     "file": "common-verbs",
-    "count": 103
+    "count": 120
   },
   {
     "deck": "Countries & Languages",
     "file": "countries-and-languages",
-    "count": 46
+    "count": 55
   },
   {
     "deck": "Daily Routine",
     "file": "daily-routine",
-    "count": 45
+    "count": 52
+  },
+  {
+    "deck": "Describing People",
+    "file": "describing-people",
+    "count": 24
   },
   {
     "deck": "Emotions & Daily State",
     "file": "emotions-and-daily-state",
-    "count": 47
+    "count": 65
   },
   {
     "deck": "Essential Survival Phrases",
     "file": "essential-survival-phrases",
-    "count": 56
+    "count": 62
   },
   {
     "deck": "Extra Useful A1 Words",
@@ -57,87 +67,107 @@
   {
     "deck": "Family & Relationships",
     "file": "family-and-relationships",
-    "count": 66
+    "count": 75
   },
   {
     "deck": "Food & Drink",
     "file": "food-and-drink",
-    "count": 114
+    "count": 139
   },
   {
     "deck": "Future Tense (Futuro)",
     "file": "future-tense-futuro",
-    "count": 60
+    "count": 85
   },
   {
     "deck": "Greetings & Polite Expressions",
     "file": "greetings-and-polite-expressions",
-    "count": 67
+    "count": 75
+  },
+  {
+    "deck": "Hobbies & Free Time",
+    "file": "hobbies-and-free-time",
+    "count": 50
   },
   {
     "deck": "Home & Household Objects",
     "file": "home-and-household-objects",
-    "count": 82
+    "count": 102
+  },
+  {
+    "deck": "Jobs & Professions",
+    "file": "jobs-and-professions",
+    "count": 36
+  },
+  {
+    "deck": "Learning Portuguese",
+    "file": "learning-portuguese",
+    "count": 24
   },
   {
     "deck": "Near Future (Ir + Infinitive)",
     "file": "near-future",
-    "count": 55
+    "count": 80
   },
   {
     "deck": "Numbers",
     "file": "numbers",
-    "count": 62
+    "count": 71
   },
   {
     "deck": "Past Habits (Imperfeito)",
     "file": "past-habits-imperfeito",
-    "count": 62
+    "count": 87
   },
   {
     "deck": "Past Tense (Perfeito)",
     "file": "past-tense-perfeito",
-    "count": 64
+    "count": 89
   },
   {
     "deck": "Places, City & Buildings",
     "file": "places-city-and-buildings",
-    "count": 61
+    "count": 73
+  },
+  {
+    "deck": "Present Tense (Presente)",
+    "file": "present-tense-presente",
+    "count": 62
   },
   {
     "deck": "Pronouns & Basic Words",
     "file": "pronouns-and-basic-words",
-    "count": 76
+    "count": 88
   },
   {
     "deck": "Question Words & Connectors",
     "file": "question-words-and-connectors",
-    "count": 54
+    "count": 61
   },
   {
     "deck": "Restaurant & Ordering",
     "file": "restaurant-and-ordering",
-    "count": 58
+    "count": 63
   },
   {
     "deck": "Shopping & Money",
     "file": "shopping-and-money",
-    "count": 62
+    "count": 74
   },
   {
     "deck": "Technology & Phone",
     "file": "technology-and-phone",
-    "count": 47
+    "count": 57
   },
   {
     "deck": "Time, Days & Calendar",
     "file": "time-days-and-calendar",
-    "count": 72
+    "count": 87
   },
   {
     "deck": "Transport & Directions",
     "file": "transport-and-directions",
-    "count": 59
+    "count": 76
   },
   {
     "deck": "Useful Verb Phrases",
@@ -147,11 +177,11 @@
   {
     "deck": "Weather, Nature & Animals",
     "file": "weather-nature-and-animals",
-    "count": 75
+    "count": 97
   },
   {
     "deck": "Work, School & Study",
     "file": "work-school-and-study",
-    "count": 63
+    "count": 79
   }
 ]

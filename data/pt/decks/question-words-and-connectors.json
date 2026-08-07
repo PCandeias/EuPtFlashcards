@@ -270,6 +270,44 @@
       "en": "next to",
       "target": "ao lado",
       "level": "a1"
+    },
+    {
+      "en": "how old?",
+      "target": "que idade?",
+      "level": "a1"
+    },
+    {
+      "en": "which is better?",
+      "target": "qual é melhor?",
+      "level": "a2"
+    },
+    {
+      "en": "what happened next?",
+      "target": "o que aconteceu depois?",
+      "level": "a2"
+    },
+    {
+      "en": "is that right?",
+      "target": "está certo?",
+      "level": "a1"
+    },
+    {
+      "en": "what do you think?",
+      "target": "o que é que achas?",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "how much time?",
+      "target": "quanto tempo?",
+      "level": "a1"
+    },
+    {
+      "en": "how often?",
+      "target": "com que frequência?",
+      "level": "a2"
     }
   ]
 }

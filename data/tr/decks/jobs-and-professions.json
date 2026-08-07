@@ -1,0 +1,174 @@
+{
+  "deck": "Jobs & Professions",
+  "cards": [
+    {
+      "en": "profession",
+      "target": "meslek",
+      "level": "a1"
+    },
+    {
+      "en": "lawyer",
+      "target": "avukat",
+      "level": "a1"
+    },
+    {
+      "en": "nurse",
+      "target": "hemşire",
+      "level": "a1"
+    },
+    {
+      "en": "police officer",
+      "target": "polis",
+      "level": "a1"
+    },
+    {
+      "en": "firefighter",
+      "target": "itfaiyeci",
+      "level": "a1"
+    },
+    {
+      "en": "pilot",
+      "target": "pilot",
+      "level": "a1"
+    },
+    {
+      "en": "flight attendant",
+      "target": "hostes",
+      "level": "a2"
+    },
+    {
+      "en": "civil servant",
+      "target": "memur",
+      "level": "a2"
+    },
+    {
+      "en": "secretary",
+      "target": "sekreter",
+      "level": "a1"
+    },
+    {
+      "en": "accountant",
+      "target": "muhasebeci",
+      "level": "a2"
+    },
+    {
+      "en": "architect",
+      "target": "mimar",
+      "level": "a1"
+    },
+    {
+      "en": "artist",
+      "target": "sanatçı",
+      "level": "a1"
+    },
+    {
+      "en": "painter",
+      "target": "ressam",
+      "level": "a1"
+    },
+    {
+      "en": "musician",
+      "target": "müzisyen",
+      "level": "a1"
+    },
+    {
+      "en": "singer",
+      "target": "şarkıcı",
+      "level": "a1"
+    },
+    {
+      "en": "writer",
+      "target": "yazar",
+      "level": "a1"
+    },
+    {
+      "en": "journalist",
+      "target": "gazeteci",
+      "level": "a1"
+    },
+    {
+      "en": "photographer",
+      "target": "fotoğrafçı",
+      "level": "a1"
+    },
+    {
+      "en": "farmer",
+      "target": "çiftçi",
+      "level": "a1"
+    },
+    {
+      "en": "fisherman",
+      "target": "balıkçı",
+      "level": "a1"
+    },
+    {
+      "en": "gardener",
+      "target": "bahçıvan",
+      "level": "a2"
+    },
+    {
+      "en": "cleaner",
+      "target": "temizlikçi",
+      "level": "a2"
+    },
+    {
+      "en": "repairman",
+      "target": "tamirci",
+      "level": "a2"
+    },
+    {
+      "en": "electrician",
+      "target": "elektrikçi",
+      "level": "a2"
+    },
+    {
+      "en": "postman",
+      "target": "postacı",
+      "level": "a1"
+    },
+    {
+      "en": "soldier",
+      "target": "asker",
+      "level": "a1"
+    },
+    {
+      "en": "pharmacist",
+      "target": "eczacı",
+      "level": "a1"
+    },
+    {
+      "en": "dentist",
+      "target": "diş hekimi",
+      "level": "a1"
+    },
+    {
+      "en": "psychologist",
+      "target": "psikolog",
+      "level": "a2"
+    },
+    {
+      "en": "businessman",
+      "target": "iş adamı",
+      "level": "a1"
+    },
+    {
+      "en": "what do you do for a living?",
+      "target": "Ne iş yapıyorsun?",
+      "tense": "simdiki",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "I am a teacher",
+      "target": "Ben öğretmenim",
+      "level": "a1"
+    },
+    {
+      "en": "he is a doctor",
+      "target": "O bir doktor",
+      "level": "a1"
+    }
+  ]
+}

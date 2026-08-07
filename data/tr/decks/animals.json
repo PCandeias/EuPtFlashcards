@@ -1,0 +1,261 @@
+{
+  "deck": "Animals",
+  "cards": [
+    {
+      "en": "horse",
+      "target": "at",
+      "level": "a1"
+    },
+    {
+      "en": "cow",
+      "target": "inek",
+      "level": "a1"
+    },
+    {
+      "en": "sheep",
+      "target": "koyun",
+      "level": "a1"
+    },
+    {
+      "en": "goat",
+      "target": "keçi",
+      "level": "a1"
+    },
+    {
+      "en": "lamb",
+      "target": "kuzu",
+      "level": "a2"
+    },
+    {
+      "en": "rabbit",
+      "target": "tavşan",
+      "level": "a1"
+    },
+    {
+      "en": "mouse",
+      "target": "fare",
+      "level": "a1",
+      "sense": "the animal"
+    },
+    {
+      "en": "lion",
+      "target": "aslan",
+      "level": "a1"
+    },
+    {
+      "en": "tiger",
+      "target": "kaplan",
+      "level": "a1"
+    },
+    {
+      "en": "bear",
+      "target": "ayı",
+      "level": "a1"
+    },
+    {
+      "en": "wolf",
+      "target": "kurt",
+      "level": "a2"
+    },
+    {
+      "en": "fox",
+      "target": "tilki",
+      "level": "a2"
+    },
+    {
+      "en": "elephant",
+      "target": "fil",
+      "level": "a1"
+    },
+    {
+      "en": "monkey",
+      "target": "maymun",
+      "level": "a1"
+    },
+    {
+      "en": "giraffe",
+      "target": "zürafa",
+      "level": "a2"
+    },
+    {
+      "en": "camel",
+      "target": "deve",
+      "level": "a2"
+    },
+    {
+      "en": "snake",
+      "target": "yılan",
+      "level": "a2"
+    },
+    {
+      "en": "tortoise",
+      "target": "kaplumbağa",
+      "level": "a2"
+    },
+    {
+      "en": "frog",
+      "target": "kurbağa",
+      "level": "a2"
+    },
+    {
+      "en": "butterfly",
+      "target": "kelebek",
+      "level": "a1"
+    },
+    {
+      "en": "bee",
+      "target": "arı",
+      "level": "a1"
+    },
+    {
+      "en": "fly",
+      "target": "sinek",
+      "level": "a1"
+    },
+    {
+      "en": "rooster",
+      "target": "horoz",
+      "level": "a2"
+    },
+    {
+      "en": "duck",
+      "target": "ördek",
+      "level": "a1"
+    },
+    {
+      "en": "goose",
+      "target": "kaz",
+      "level": "a2"
+    },
+    {
+      "en": "pigeon",
+      "target": "güvercin",
+      "level": "a2"
+    },
+    {
+      "en": "owl",
+      "target": "baykuş",
+      "level": "a2"
+    },
+    {
+      "en": "eagle",
+      "target": "kartal",
+      "level": "a2"
+    },
+    {
+      "en": "parrot",
+      "target": "papağan",
+      "level": "a2"
+    },
+    {
+      "en": "dolphin",
+      "target": "yunus",
+      "level": "a2"
+    },
+    {
+      "en": "shark",
+      "target": "köpekbalığı",
+      "level": "a2"
+    },
+    {
+      "en": "octopus",
+      "target": "ahtapot",
+      "level": "a2"
+    },
+    {
+      "en": "crab",
+      "target": "yengeç",
+      "level": "a2"
+    },
+    {
+      "en": "kitten",
+      "target": "kedi yavrusu",
+      "level": "a2"
+    },
+    {
+      "en": "puppy",
+      "target": "köpek yavrusu",
+      "level": "a2"
+    },
+    {
+      "en": "pet",
+      "target": "evcil hayvan",
+      "level": "a1"
+    },
+    {
+      "en": "zoo",
+      "target": "hayvanat bahçesi",
+      "level": "a1"
+    },
+    {
+      "en": "farm",
+      "target": "çiftlik",
+      "level": "a1"
+    },
+    {
+      "en": "nest",
+      "target": "yuva",
+      "level": "a2"
+    },
+    {
+      "en": "tail",
+      "target": "kuyruk",
+      "level": "a2"
+    },
+    {
+      "en": "wing",
+      "target": "kanat",
+      "level": "a2"
+    },
+    {
+      "en": "paw",
+      "target": "pati",
+      "level": "a2"
+    },
+    {
+      "en": "wild",
+      "target": "vahşi",
+      "level": "a2"
+    },
+    {
+      "en": "to bark",
+      "target": "havlamak",
+      "level": "a2"
+    },
+    {
+      "en": "to bite",
+      "target": "ısırmak",
+      "level": "a2"
+    },
+    {
+      "en": "to fly",
+      "target": "uçmak",
+      "level": "a1"
+    },
+    {
+      "en": "my cat is sleeping",
+      "target": "Kedim uyuyor",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "do you have a pet?",
+      "target": "Evcil hayvanın var mı?",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "dogs bark",
+      "target": "Köpekler havlar",
+      "tense": "genis",
+      "level": "a2"
+    },
+    {
+      "en": "there is a bird in the tree",
+      "target": "Ağaçta bir kuş var",
+      "level": "a1"
+    }
+  ]
+}

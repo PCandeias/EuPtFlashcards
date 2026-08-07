@@ -291,6 +291,31 @@
       "en": "to book a table",
       "target": "reservar uma mesa",
       "level": "a2"
+    },
+    {
+      "en": "the order",
+      "target": "o pedido de comida",
+      "level": "a1"
+    },
+    {
+      "en": "the service",
+      "target": "o serviço de mesa",
+      "level": "a2"
+    },
+    {
+      "en": "the tip for the waiter",
+      "target": "a gorjeta para o empregado",
+      "level": "a2"
+    },
+    {
+      "en": "a table by the window",
+      "target": "uma mesa à janela",
+      "level": "a2"
+    },
+    {
+      "en": "the set menu",
+      "target": "o menu do dia",
+      "level": "a1"
     }
   ]
 }

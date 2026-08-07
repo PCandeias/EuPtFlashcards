@@ -196,6 +196,26 @@
       "en": "to book a table",
       "target": "masa ayırtmak",
       "level": "a2"
+    },
+    {
+      "en": "order",
+      "target": "sipariş",
+      "level": "a1"
+    },
+    {
+      "en": "service",
+      "target": "servis",
+      "level": "a2"
+    },
+    {
+      "en": "cook",
+      "target": "aşçı",
+      "level": "a1"
+    },
+    {
+      "en": "tip",
+      "target": "bahşiş",
+      "level": "a2"
     }
   ]
 }

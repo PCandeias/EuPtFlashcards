@@ -1,0 +1,129 @@
+{
+  "deck": "Celebrations & Holidays",
+  "cards": [
+    {
+      "en": "party",
+      "target": "a festa",
+      "level": "a1"
+    },
+    {
+      "en": "gift",
+      "target": "a prenda",
+      "level": "a1"
+    },
+    {
+      "en": "invitation",
+      "target": "o convite",
+      "level": "a1"
+    },
+    {
+      "en": "engagement",
+      "target": "o noivado",
+      "level": "a2"
+    },
+    {
+      "en": "christening",
+      "target": "o batizado",
+      "level": "a2"
+    },
+    {
+      "en": "birthday cake",
+      "target": "o bolo de aniversário",
+      "level": "a1"
+    },
+    {
+      "en": "candle",
+      "target": "a vela",
+      "level": "a1"
+    },
+    {
+      "en": "balloon",
+      "target": "o balão",
+      "level": "a1"
+    },
+    {
+      "en": "fireworks",
+      "target": "o fogo de artifício",
+      "level": "a2"
+    },
+    {
+      "en": "flag",
+      "target": "a bandeira",
+      "level": "a1"
+    },
+    {
+      "en": "decoration",
+      "target": "a decoração",
+      "level": "a2"
+    },
+    {
+      "en": "toast",
+      "target": "o brinde",
+      "level": "a2"
+    },
+    {
+      "en": "the guests",
+      "target": "os convidados",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "Christmas Eve",
+      "target": "a consoada",
+      "level": "a2"
+    },
+    {
+      "en": "Saint Anthony",
+      "target": "o Santo António",
+      "level": "a2",
+      "sense": "Lisbon's June festival"
+    },
+    {
+      "en": "Saint John",
+      "target": "o São João",
+      "level": "a2",
+      "sense": "Porto's June festival"
+    },
+    {
+      "en": "the June street festivals",
+      "target": "as festas populares",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "grilled sardine",
+      "target": "a sardinha assada",
+      "level": "a1"
+    },
+    {
+      "en": "to celebrate",
+      "target": "celebrar",
+      "level": "a1"
+    },
+    {
+      "en": "to invite",
+      "target": "convidar",
+      "level": "a1"
+    },
+    {
+      "en": "to give a present",
+      "target": "dar uma prenda",
+      "level": "a1"
+    },
+    {
+      "en": "to blow out the candles",
+      "target": "soprar as velas",
+      "level": "a2"
+    },
+    {
+      "en": "it is my birthday today",
+      "target": "faço anos hoje",
+      "tense": "presente",
+      "level": "a1"
+    }
+  ]
+}

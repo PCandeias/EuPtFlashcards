@@ -1,0 +1,134 @@
+{
+  "deck": "Describing People",
+  "cards": [
+    {
+      "en": "height",
+      "target": "a altura",
+      "level": "a1"
+    },
+    {
+      "en": "tall",
+      "target": "alto / alta",
+      "level": "a1"
+    },
+    {
+      "en": "short",
+      "target": "baixo / baixa",
+      "level": "a1"
+    },
+    {
+      "en": "fat",
+      "target": "gordo / gorda",
+      "level": "a1"
+    },
+    {
+      "en": "thin",
+      "target": "magro / magra",
+      "level": "a1"
+    },
+    {
+      "en": "cute",
+      "target": "giro / gira",
+      "level": "a1"
+    },
+    {
+      "en": "bald",
+      "target": "careca",
+      "level": "a2"
+    },
+    {
+      "en": "with a beard",
+      "target": "com barba",
+      "level": "a2"
+    },
+    {
+      "en": "with a moustache",
+      "target": "de bigode",
+      "level": "a2"
+    },
+    {
+      "en": "straight hair",
+      "target": "o cabelo liso",
+      "level": "a1"
+    },
+    {
+      "en": "curly hair",
+      "target": "o cabelo encaracolado",
+      "level": "a2"
+    },
+    {
+      "en": "long hair",
+      "target": "o cabelo comprido",
+      "level": "a1"
+    },
+    {
+      "en": "short hair",
+      "target": "o cabelo curto",
+      "level": "a1"
+    },
+    {
+      "en": "blond",
+      "target": "loiro / loira",
+      "level": "a1"
+    },
+    {
+      "en": "dark-haired",
+      "target": "moreno / morena",
+      "level": "a1"
+    },
+    {
+      "en": "red-haired",
+      "target": "ruivo / ruiva",
+      "level": "a2"
+    },
+    {
+      "en": "wearing glasses",
+      "target": "de óculos",
+      "level": "a1"
+    },
+    {
+      "en": "blue eyes",
+      "target": "os olhos azuis",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "brown eyes",
+      "target": "os olhos castanhos",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "to look",
+      "target": "parecer",
+      "level": "a2"
+    },
+    {
+      "en": "he is tall",
+      "target": "ele é alto",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "she has long hair",
+      "target": "ela tem cabelo comprido",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "what is he like?",
+      "target": "como é ele?",
+      "level": "a2"
+    },
+    {
+      "en": "he is thirty years old",
+      "target": "ele tem trinta anos",
+      "tense": "presente",
+      "level": "a1"
+    }
+  ]
+}

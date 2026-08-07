@@ -330,6 +330,76 @@
       "en": "a bag, please",
       "target": "bir poşet lütfen",
       "level": "a1"
+    },
+    {
+      "en": "instalment",
+      "target": "taksit",
+      "level": "b1"
+    },
+    {
+      "en": "change",
+      "target": "para üstü",
+      "level": "a2"
+    },
+    {
+      "en": "payment",
+      "target": "ödeme",
+      "level": "a2"
+    },
+    {
+      "en": "product",
+      "target": "ürün",
+      "level": "a2"
+    },
+    {
+      "en": "brand",
+      "target": "marka",
+      "level": "a1"
+    },
+    {
+      "en": "sale",
+      "target": "satış",
+      "level": "a2"
+    },
+    {
+      "en": "shop window display",
+      "target": "vitrin camı",
+      "level": "a2"
+    },
+    {
+      "en": "price tag",
+      "target": "fiyat etiketi",
+      "level": "a1"
+    },
+    {
+      "en": "shopping bag",
+      "target": "alışveriş poşeti",
+      "level": "a1"
+    },
+    {
+      "en": "half price",
+      "target": "yarı fiyat",
+      "level": "a1"
+    },
+    {
+      "en": "a kilo of apples",
+      "target": "bir kilo elma",
+      "level": "a1"
+    },
+    {
+      "en": "a bottle of milk",
+      "target": "bir şişe süt",
+      "level": "a1"
+    },
+    {
+      "en": "a packet of tea",
+      "target": "bir paket çay",
+      "level": "a1"
+    },
+    {
+      "en": "too expensive",
+      "target": "fazla pahalı",
+      "level": "a1"
     }
   ]
 }

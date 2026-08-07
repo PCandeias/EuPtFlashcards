@@ -250,6 +250,97 @@
       "target": "estou bem, obrigado",
       "tense": "presente",
       "level": "a1"
+    },
+    {
+      "en": "the feeling",
+      "target": "o sentimento",
+      "level": "a1"
+    },
+    {
+      "en": "the happiness",
+      "target": "a felicidade",
+      "level": "a2"
+    },
+    {
+      "en": "the sadness",
+      "target": "a tristeza",
+      "level": "a2"
+    },
+    {
+      "en": "the fear",
+      "target": "o medo",
+      "level": "a1"
+    },
+    {
+      "en": "the anger",
+      "target": "a raiva",
+      "level": "a2"
+    },
+    {
+      "en": "the excitement",
+      "target": "o entusiasmo",
+      "level": "a2"
+    },
+    {
+      "en": "the worry",
+      "target": "a preocupação",
+      "level": "a2"
+    },
+    {
+      "en": "the pride",
+      "target": "o orgulho",
+      "level": "b1"
+    },
+    {
+      "en": "the love",
+      "target": "o amor",
+      "level": "a1"
+    },
+    {
+      "en": "stressed",
+      "target": "stressado / stressada",
+      "level": "a2"
+    },
+    {
+      "en": "cheerful",
+      "target": "alegre",
+      "level": "a1"
+    },
+    {
+      "en": "lucky",
+      "target": "com sorte",
+      "level": "a1"
+    },
+    {
+      "en": "unlucky",
+      "target": "sem sorte",
+      "level": "a2"
+    },
+    {
+      "en": "to feel",
+      "target": "sentir-se",
+      "level": "a1"
+    },
+    {
+      "en": "to be afraid",
+      "target": "ter medo",
+      "level": "a1"
+    },
+    {
+      "en": "to worry",
+      "target": "preocupar-se",
+      "level": "a2"
+    },
+    {
+      "en": "to miss someone",
+      "target": "sentir a falta de alguém",
+      "level": "a2"
+    },
+    {
+      "en": "I am happy",
+      "target": "estou feliz hoje",
+      "tense": "presente",
+      "level": "a1"
     }
   ]
 }

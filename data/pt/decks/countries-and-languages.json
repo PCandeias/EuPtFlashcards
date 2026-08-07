@@ -236,6 +236,51 @@
       "en": "local",
       "target": "local",
       "level": "a2"
+    },
+    {
+      "en": "Belgium",
+      "target": "a Bélgica",
+      "level": "a1"
+    },
+    {
+      "en": "Austria",
+      "target": "a Áustria",
+      "level": "a1"
+    },
+    {
+      "en": "Australia",
+      "target": "a Austrália",
+      "level": "a1"
+    },
+    {
+      "en": "Ireland",
+      "target": "a Irlanda",
+      "level": "a1"
+    },
+    {
+      "en": "Morocco",
+      "target": "Marrocos",
+      "level": "a1"
+    },
+    {
+      "en": "Angola",
+      "target": "Angola",
+      "level": "a1"
+    },
+    {
+      "en": "Mozambique",
+      "target": "Moçambique",
+      "level": "a1"
+    },
+    {
+      "en": "Cape Verde",
+      "target": "Cabo Verde",
+      "level": "a1"
+    },
+    {
+      "en": "Arabic",
+      "target": "o árabe",
+      "level": "a1"
     }
   ]
 }

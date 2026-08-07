@@ -416,6 +416,71 @@
       "en": "it hurts here",
       "target": "dói-me aqui",
       "level": "a1"
+    },
+    {
+      "en": "the nail",
+      "target": "a unha do dedo",
+      "level": "a2"
+    },
+    {
+      "en": "the eyelash",
+      "target": "a pestana do olho",
+      "level": "a2"
+    },
+    {
+      "en": "the chin",
+      "target": "o queixo",
+      "level": "a2"
+    },
+    {
+      "en": "the waist",
+      "target": "a cintura",
+      "level": "a2"
+    },
+    {
+      "en": "the brain",
+      "target": "o cérebro",
+      "level": "a2"
+    },
+    {
+      "en": "the health",
+      "target": "a saúde",
+      "level": "a1"
+    },
+    {
+      "en": "the illness",
+      "target": "a doença",
+      "level": "a1"
+    },
+    {
+      "en": "the painkiller",
+      "target": "o analgésico",
+      "level": "a2"
+    },
+    {
+      "en": "the vitamin",
+      "target": "a vitamina",
+      "level": "a2"
+    },
+    {
+      "en": "the diet",
+      "target": "a dieta",
+      "level": "a2"
+    },
+    {
+      "en": "the exercise",
+      "target": "o exercício físico",
+      "level": "a1"
+    },
+    {
+      "en": "the sleep",
+      "target": "o descanso",
+      "level": "a1"
+    },
+    {
+      "en": "the breath",
+      "target": "a respiração",
+      "level": "a2"
     }
   ]
 }

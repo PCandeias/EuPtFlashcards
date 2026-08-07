@@ -310,6 +310,51 @@
       "en": "many / a lot",
       "target": "muitos / muitas",
       "level": "a1"
+    },
+    {
+      "en": "two hundred and fifty",
+      "target": "duzentos e cinquenta",
+      "level": "a1"
+    },
+    {
+      "en": "one thousand five hundred",
+      "target": "mil e quinhentos",
+      "level": "a1"
+    },
+    {
+      "en": "ten thousand",
+      "target": "dez mil",
+      "level": "a1"
+    },
+    {
+      "en": "a million",
+      "target": "um milhão",
+      "level": "a1"
+    },
+    {
+      "en": "per cent",
+      "target": "por cento",
+      "level": "a1"
+    },
+    {
+      "en": "the pair",
+      "target": "o par de sapatos",
+      "level": "a1"
+    },
+    {
+      "en": "the dozen",
+      "target": "a dúzia",
+      "level": "a1"
+    },
+    {
+      "en": "the first one",
+      "target": "o primeiro",
+      "level": "a1"
+    },
+    {
+      "en": "the last one",
+      "target": "o último",
+      "level": "a1"
     }
   ]
 }

@@ -374,6 +374,166 @@
       "en": "delicious",
       "target": "nefis",
       "level": "a1"
+    },
+    {
+      "en": "rich",
+      "target": "zengin",
+      "level": "a1"
+    },
+    {
+      "en": "poor",
+      "target": "fakir",
+      "level": "a1"
+    },
+    {
+      "en": "soft",
+      "target": "yumuşak",
+      "level": "a1"
+    },
+    {
+      "en": "hard",
+      "target": "sert",
+      "level": "a1"
+    },
+    {
+      "en": "sour",
+      "target": "ekşi",
+      "level": "a2"
+    },
+    {
+      "en": "wonderful",
+      "target": "harika",
+      "level": "a1"
+    },
+    {
+      "en": "terrible",
+      "target": "berbat",
+      "level": "a2"
+    },
+    {
+      "en": "available",
+      "target": "müsait",
+      "level": "a2"
+    },
+    {
+      "en": "suitable",
+      "target": "uygun",
+      "level": "a2"
+    },
+    {
+      "en": "crowded",
+      "target": "kalabalık",
+      "level": "a2"
+    },
+    {
+      "en": "tiring",
+      "target": "yorucu",
+      "level": "a2"
+    },
+    {
+      "en": "strange",
+      "target": "garip",
+      "level": "a2"
+    },
+    {
+      "en": "real",
+      "target": "gerçek",
+      "level": "a2"
+    },
+    {
+      "en": "similar",
+      "target": "benzer",
+      "level": "a2"
+    },
+    {
+      "en": "complete",
+      "target": "tam",
+      "level": "a1"
+    },
+    {
+      "en": "bright",
+      "target": "parlak",
+      "level": "a1"
+    },
+    {
+      "en": "colourful",
+      "target": "renkli",
+      "level": "a1"
+    },
+    {
+      "en": "plain",
+      "target": "sade",
+      "level": "a1"
+    },
+    {
+      "en": "round",
+      "target": "yuvarlak",
+      "level": "a1"
+    },
+    {
+      "en": "square",
+      "target": "kare",
+      "level": "a1"
+    },
+    {
+      "en": "triangle",
+      "target": "üçgen",
+      "level": "a1"
+    },
+    {
+      "en": "tight",
+      "target": "sıkı",
+      "level": "a1"
+    },
+    {
+      "en": "sturdy",
+      "target": "sağlam",
+      "level": "a2"
+    },
+    {
+      "en": "broken",
+      "target": "kırık",
+      "level": "a1"
+    },
+    {
+      "en": "an empty seat",
+      "target": "boş yer",
+      "level": "a1"
+    },
+    {
+      "en": "heavy bag",
+      "target": "ağır çanta",
+      "level": "a1"
+    },
+    {
+      "en": "light bag",
+      "target": "hafif çanta",
+      "level": "a1"
+    },
+    {
+      "en": "warm water",
+      "target": "ılık su",
+      "level": "a1"
+    },
+    {
+      "en": "cold water",
+      "target": "soğuk su",
+      "level": "a1"
+    },
+    {
+      "en": "a big house",
+      "target": "büyük bir ev",
+      "level": "a1"
+    },
+    {
+      "en": "a small car",
+      "target": "küçük bir araba",
+      "level": "a1"
+    },
+    {
+      "en": "a good idea",
+      "target": "iyi bir fikir",
+      "level": "a1"
     }
   ]
 }

@@ -360,6 +360,81 @@
       "en": "what time do you open?",
       "target": "a que horas abrem?",
       "level": "a1"
+    },
+    {
+      "en": "next month",
+      "target": "o próximo mês",
+      "level": "a1"
+    },
+    {
+      "en": "last month",
+      "target": "o mês passado",
+      "level": "a1"
+    },
+    {
+      "en": "next year",
+      "target": "o próximo ano",
+      "level": "a1"
+    },
+    {
+      "en": "last year",
+      "target": "o ano passado",
+      "level": "a1"
+    },
+    {
+      "en": "this month",
+      "target": "este mês",
+      "level": "a1"
+    },
+    {
+      "en": "this year",
+      "target": "este ano",
+      "level": "a1"
+    },
+    {
+      "en": "the date",
+      "target": "a data",
+      "level": "a1"
+    },
+    {
+      "en": "a quarter of an hour",
+      "target": "um quarto de hora",
+      "level": "a1"
+    },
+    {
+      "en": "the day before",
+      "target": "o dia anterior",
+      "level": "a1"
+    },
+    {
+      "en": "the day after",
+      "target": "o dia seguinte",
+      "level": "a1"
+    },
+    {
+      "en": "all day",
+      "target": "o dia todo",
+      "level": "a1"
+    },
+    {
+      "en": "all week",
+      "target": "a semana toda",
+      "level": "a1"
+    },
+    {
+      "en": "for two hours",
+      "target": "durante duas horas",
+      "level": "a1"
+    },
+    {
+      "en": "at noon",
+      "target": "ao meio-dia",
+      "level": "a1"
+    },
+    {
+      "en": "at night",
+      "target": "de noite",
+      "level": "a1"
     }
   ]
 }

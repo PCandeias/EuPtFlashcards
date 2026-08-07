@@ -1,0 +1,454 @@
+{
+  "deck": "Past Tense (Görülen Geçmiş)",
+  "cards": [
+    {
+      "en": "I came",
+      "target": "ben geldim",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "you came",
+      "target": "sen geldin",
+      "tense": "gecmis",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she came",
+      "target": "o geldi",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "we came",
+      "target": "biz geldik",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "you came",
+      "target": "siz geldiniz",
+      "tense": "gecmis",
+      "level": "a2",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they came",
+      "target": "onlar geldiler",
+      "tense": "gecmis",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I went",
+      "target": "ben gittim",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "you went",
+      "target": "sen gittin",
+      "tense": "gecmis",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she went",
+      "target": "o gitti",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "we went",
+      "target": "biz gittik",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "you went",
+      "target": "siz gittiniz",
+      "tense": "gecmis",
+      "level": "a2",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they went",
+      "target": "onlar gittiler",
+      "tense": "gecmis",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I did",
+      "target": "ben yaptım",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "you did",
+      "target": "sen yaptın",
+      "tense": "gecmis",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she did",
+      "target": "o yaptı",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "we did",
+      "target": "biz yaptık",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "you did",
+      "target": "siz yaptınız",
+      "tense": "gecmis",
+      "level": "a2",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they did",
+      "target": "onlar yaptılar",
+      "tense": "gecmis",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I ate",
+      "target": "ben yedim",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "you ate",
+      "target": "sen yedin",
+      "tense": "gecmis",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she ate",
+      "target": "o yedi",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "we ate",
+      "target": "biz yedik",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "you ate",
+      "target": "siz yediniz",
+      "tense": "gecmis",
+      "level": "a2",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they ate",
+      "target": "onlar yediler",
+      "tense": "gecmis",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I drank",
+      "target": "ben içtim",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "you drank",
+      "target": "sen içtin",
+      "tense": "gecmis",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she drank",
+      "target": "o içti",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "we drank",
+      "target": "biz içtik",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "you drank",
+      "target": "siz içtiniz",
+      "tense": "gecmis",
+      "level": "a2",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they drank",
+      "target": "onlar içtiler",
+      "tense": "gecmis",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I read",
+      "target": "ben okudum",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "you read",
+      "target": "sen okudun",
+      "tense": "gecmis",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she read",
+      "target": "o okudu",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "we read",
+      "target": "biz okuduk",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "you read",
+      "target": "siz okudunuz",
+      "tense": "gecmis",
+      "level": "a2",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they read",
+      "target": "onlar okudular",
+      "tense": "gecmis",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I worked",
+      "target": "ben çalıştım",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "you worked",
+      "target": "sen çalıştın",
+      "tense": "gecmis",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she worked",
+      "target": "o çalıştı",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "we worked",
+      "target": "biz çalıştık",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "you worked",
+      "target": "siz çalıştınız",
+      "tense": "gecmis",
+      "level": "a2",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they worked",
+      "target": "onlar çalıştılar",
+      "tense": "gecmis",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I wanted",
+      "target": "ben istedim",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "you wanted",
+      "target": "sen istedin",
+      "tense": "gecmis",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she wanted",
+      "target": "o istedi",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "we wanted",
+      "target": "biz istedik",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "you wanted",
+      "target": "siz istediniz",
+      "tense": "gecmis",
+      "level": "a2",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they wanted",
+      "target": "onlar istediler",
+      "tense": "gecmis",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I came home late last night",
+      "target": "Dün akşam eve geç geldim",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "I ate eggs for breakfast",
+      "target": "Kahvaltıda yumurta yedim",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "I missed the bus",
+      "target": "Otobüsü kaçırdım",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "we went to Istanbul last week",
+      "target": "Geçen hafta İstanbul'a gittik",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "we watched the film",
+      "target": "Filmi izledik",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "I saw him yesterday",
+      "target": "Onu dün gördüm",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "did you read the book?",
+      "target": "Kitabı okudun mu?",
+      "tense": "gecmis",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "I worked a lot",
+      "target": "Çok çalıştım",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "they helped us",
+      "target": "Bize yardım ettiler",
+      "tense": "gecmis",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I lost my key",
+      "target": "Anahtarımı kaybettim",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "it rained a lot yesterday",
+      "target": "Dün çok yağmur yağdı",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "what did you say?",
+      "target": "Ne dedin?",
+      "tense": "gecmis",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    }
+  ]
+}

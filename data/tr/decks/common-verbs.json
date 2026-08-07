@@ -512,6 +512,166 @@
       "en": "to stand up",
       "target": "ayağa kalkmak",
       "level": "a1"
+    },
+    {
+      "en": "to think",
+      "target": "düşünmek",
+      "level": "a1"
+    },
+    {
+      "en": "to choose",
+      "target": "seçmek",
+      "level": "a1"
+    },
+    {
+      "en": "to show",
+      "target": "göstermek",
+      "level": "a1"
+    },
+    {
+      "en": "to stay",
+      "target": "kalmak",
+      "level": "a1"
+    },
+    {
+      "en": "to leave",
+      "target": "bırakmak",
+      "level": "a2"
+    },
+    {
+      "en": "to carry",
+      "target": "taşımak",
+      "level": "a2"
+    },
+    {
+      "en": "to tell",
+      "target": "anlatmak",
+      "level": "a2"
+    },
+    {
+      "en": "to spend",
+      "target": "geçirmek",
+      "level": "a2",
+      "sense": "time"
+    },
+    {
+      "en": "to miss",
+      "target": "kaçırmak",
+      "level": "a2",
+      "sense": "a bus, a train"
+    },
+    {
+      "en": "to get tired",
+      "target": "yorulmak",
+      "level": "a2"
+    },
+    {
+      "en": "to meet",
+      "target": "tanışmak",
+      "level": "a1",
+      "sense": "for the first time"
+    },
+    {
+      "en": "to know",
+      "target": "tanımak",
+      "level": "a1",
+      "sense": "a person"
+    },
+    {
+      "en": "to thank",
+      "target": "teşekkür etmek",
+      "level": "a1"
+    },
+    {
+      "en": "to forgive",
+      "target": "affetmek",
+      "level": "a2"
+    },
+    {
+      "en": "to set up",
+      "target": "kurmak",
+      "level": "a2"
+    },
+    {
+      "en": "to send",
+      "target": "yollamak",
+      "level": "a2"
+    },
+    {
+      "en": "to arrive",
+      "target": "varmak",
+      "level": "a2"
+    },
+    {
+      "en": "to enter",
+      "target": "girmek",
+      "level": "a1"
+    },
+    {
+      "en": "to exit",
+      "target": "çıkmak",
+      "level": "a1"
+    },
+    {
+      "en": "to fall asleep",
+      "target": "uykuya dalmak",
+      "level": "b1"
+    },
+    {
+      "en": "to play",
+      "target": "çalmak",
+      "level": "a1",
+      "sense": "an instrument"
+    },
+    {
+      "en": "to die",
+      "target": "ölmek",
+      "level": "a2"
+    },
+    {
+      "en": "to watch",
+      "target": "seyretmek",
+      "level": "a1"
+    },
+    {
+      "en": "to be quiet",
+      "target": "susmak",
+      "level": "a2"
+    },
+    {
+      "en": "to touch",
+      "target": "dokunmak",
+      "level": "a2"
+    },
+    {
+      "en": "to open the door",
+      "target": "kapıyı açmak",
+      "level": "a1"
+    },
+    {
+      "en": "to close the window",
+      "target": "pencereyi kapatmak",
+      "level": "a1"
+    },
+    {
+      "en": "to walk around",
+      "target": "dolaşmak",
+      "level": "a1"
+    },
+    {
+      "en": "to lift",
+      "target": "kaldırmak",
+      "level": "a1"
+    },
+    {
+      "en": "to knock",
+      "target": "kapıyı çalmak",
+      "level": "a1"
+    },
+    {
+      "en": "to point",
+      "target": "işaret etmek",
+      "level": "a2"
     }
   ]
 }

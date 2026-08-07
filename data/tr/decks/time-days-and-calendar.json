@@ -321,6 +321,116 @@
       "en": "five minutes",
       "target": "beş dakika",
       "level": "a1"
+    },
+    {
+      "en": "next week",
+      "target": "gelecek hafta",
+      "level": "a1"
+    },
+    {
+      "en": "last week",
+      "target": "geçen hafta",
+      "level": "a1"
+    },
+    {
+      "en": "next month",
+      "target": "gelecek ay",
+      "level": "a1"
+    },
+    {
+      "en": "last month",
+      "target": "geçen ay",
+      "level": "a1"
+    },
+    {
+      "en": "next year",
+      "target": "gelecek yıl",
+      "level": "a1"
+    },
+    {
+      "en": "last year",
+      "target": "geçen yıl",
+      "level": "a1"
+    },
+    {
+      "en": "this week",
+      "target": "bu hafta",
+      "level": "a1"
+    },
+    {
+      "en": "this month",
+      "target": "bu ay",
+      "level": "a1"
+    },
+    {
+      "en": "this year",
+      "target": "bu yıl",
+      "level": "a1"
+    },
+    {
+      "en": "afternoon",
+      "target": "öğleden sonra",
+      "level": "a1"
+    },
+    {
+      "en": "midnight",
+      "target": "gece yarısı",
+      "level": "a2"
+    },
+    {
+      "en": "date",
+      "target": "tarih",
+      "level": "a1"
+    },
+    {
+      "en": "calendar",
+      "target": "takvim",
+      "level": "a1"
+    },
+    {
+      "en": "a quarter of an hour",
+      "target": "çeyrek saat",
+      "level": "a2"
+    },
+    {
+      "en": "the day before",
+      "target": "bir gün önce",
+      "level": "a1"
+    },
+    {
+      "en": "the day after",
+      "target": "bir gün sonra",
+      "level": "a1"
+    },
+    {
+      "en": "in the morning",
+      "target": "sabahları",
+      "level": "a1"
+    },
+    {
+      "en": "at night",
+      "target": "geceleri",
+      "level": "a1"
+    },
+    {
+      "en": "at noon",
+      "target": "öğlende",
+      "level": "a1"
+    },
+    {
+      "en": "all day",
+      "target": "bütün gün",
+      "level": "a1"
+    },
+    {
+      "en": "all week",
+      "target": "bütün hafta",
+      "level": "a1"
+    },
+    {
+      "en": "for two hours",
+      "target": "iki saat",
+      "level": "a1"
     }
   ]
 }

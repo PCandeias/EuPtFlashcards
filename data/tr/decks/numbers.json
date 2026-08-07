@@ -566,6 +566,116 @@
       "en": "how many lira?",
       "target": "kaç lira?",
       "level": "a1"
+    },
+    {
+      "en": "fourth",
+      "target": "dördüncü",
+      "level": "a1"
+    },
+    {
+      "en": "fifth",
+      "target": "beşinci",
+      "level": "a1"
+    },
+    {
+      "en": "tenth",
+      "target": "onuncu",
+      "level": "a1"
+    },
+    {
+      "en": "a quarter",
+      "target": "çeyrek",
+      "level": "a1"
+    },
+    {
+      "en": "a dozen",
+      "target": "bir düzine",
+      "level": "a2"
+    },
+    {
+      "en": "sixth",
+      "target": "altıncı",
+      "level": "a1"
+    },
+    {
+      "en": "seventh",
+      "target": "yedinci",
+      "level": "a1"
+    },
+    {
+      "en": "eighth",
+      "target": "sekizinci",
+      "level": "a1"
+    },
+    {
+      "en": "ninth",
+      "target": "dokuzuncu",
+      "level": "a1"
+    },
+    {
+      "en": "per cent",
+      "target": "yüzde",
+      "level": "a1"
+    },
+    {
+      "en": "pair",
+      "target": "çift",
+      "level": "a1"
+    },
+    {
+      "en": "single",
+      "target": "tek",
+      "level": "a1"
+    },
+    {
+      "en": "first",
+      "target": "ilk",
+      "level": "a1"
+    },
+    {
+      "en": "last",
+      "target": "son",
+      "level": "a1"
+    },
+    {
+      "en": "a few",
+      "target": "birkaç",
+      "level": "a1"
+    },
+    {
+      "en": "many",
+      "target": "birçok",
+      "level": "a1"
+    },
+    {
+      "en": "two hundred and fifty",
+      "target": "iki yüz elli",
+      "level": "a1"
+    },
+    {
+      "en": "one thousand five hundred",
+      "target": "bin beş yüz",
+      "level": "a1"
+    },
+    {
+      "en": "ten thousand",
+      "target": "on bin",
+      "level": "a1"
+    },
+    {
+      "en": "a million",
+      "target": "bir milyon",
+      "level": "a1"
+    },
+    {
+      "en": "both",
+      "target": "her ikisi",
+      "level": "a1"
+    },
+    {
+      "en": "a couple of",
+      "target": "bir çift",
+      "level": "a1"
     }
   ]
 }

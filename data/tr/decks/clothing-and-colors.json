@@ -257,6 +257,61 @@
       "en": "to wear",
       "target": "giymek",
       "level": "a1"
+    },
+    {
+      "en": "suit",
+      "target": "takım elbise",
+      "level": "a1"
+    },
+    {
+      "en": "tie",
+      "target": "kravat",
+      "level": "a1"
+    },
+    {
+      "en": "beanie",
+      "target": "bere",
+      "level": "a1"
+    },
+    {
+      "en": "boots",
+      "target": "çizme",
+      "level": "a1"
+    },
+    {
+      "en": "high heels",
+      "target": "topuklu ayakkabı",
+      "level": "a2"
+    },
+    {
+      "en": "zip",
+      "target": "fermuar",
+      "level": "a2"
+    },
+    {
+      "en": "collar",
+      "target": "yaka",
+      "level": "a2"
+    },
+    {
+      "en": "fabric",
+      "target": "kumaş",
+      "level": "a2"
+    },
+    {
+      "en": "cotton",
+      "target": "pamuk",
+      "level": "a1"
+    },
+    {
+      "en": "wool",
+      "target": "yün",
+      "level": "a1"
+    },
+    {
+      "en": "leather",
+      "target": "deri",
+      "level": "a1"
     }
   ]
 }

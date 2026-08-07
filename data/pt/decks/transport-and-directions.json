@@ -295,6 +295,91 @@
       "en": "to miss the bus",
       "target": "perder o autocarro",
       "level": "a2"
+    },
+    {
+      "en": "the departure time",
+      "target": "a hora de partida",
+      "level": "a2"
+    },
+    {
+      "en": "the arrival time",
+      "target": "a hora de chegada",
+      "level": "a2"
+    },
+    {
+      "en": "the flight",
+      "target": "o voo",
+      "level": "a1"
+    },
+    {
+      "en": "the passenger",
+      "target": "o passageiro / a passageira",
+      "level": "a2"
+    },
+    {
+      "en": "the driver of the bus",
+      "target": "o motorista do autocarro",
+      "level": "a1"
+    },
+    {
+      "en": "the petrol",
+      "target": "o combustível",
+      "level": "a2"
+    },
+    {
+      "en": "the tyre of the car",
+      "target": "o pneu do carro",
+      "level": "a2"
+    },
+    {
+      "en": "the accident",
+      "target": "o acidente",
+      "level": "a2"
+    },
+    {
+      "en": "the insurance",
+      "target": "o seguro",
+      "level": "b1"
+    },
+    {
+      "en": "on foot",
+      "target": "a pé",
+      "level": "a1"
+    },
+    {
+      "en": "by bus",
+      "target": "de autocarro",
+      "level": "a1"
+    },
+    {
+      "en": "by car",
+      "target": "de carro",
+      "level": "a1"
+    },
+    {
+      "en": "by plane",
+      "target": "de avião",
+      "level": "a1"
+    },
+    {
+      "en": "by train",
+      "target": "de comboio",
+      "level": "a1"
+    },
+    {
+      "en": "the journey",
+      "target": "a viagem",
+      "level": "a1"
+    },
+    {
+      "en": "the direction",
+      "target": "a direção",
+      "level": "a1"
+    },
+    {
+      "en": "the road sign",
+      "target": "o sinal de trânsito",
+      "level": "a2"
     }
   ]
 }

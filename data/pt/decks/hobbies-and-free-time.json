@@ -1,0 +1,262 @@
+{
+  "deck": "Hobbies & Free Time",
+  "cards": [
+    {
+      "en": "hobby",
+      "target": "o passatempo",
+      "level": "a1"
+    },
+    {
+      "en": "free time",
+      "target": "o tempo livre",
+      "level": "a1"
+    },
+    {
+      "en": "music",
+      "target": "a música",
+      "level": "a1"
+    },
+    {
+      "en": "song",
+      "target": "a canção",
+      "level": "a1"
+    },
+    {
+      "en": "film",
+      "target": "o filme",
+      "level": "a1"
+    },
+    {
+      "en": "series",
+      "target": "a série",
+      "level": "a1"
+    },
+    {
+      "en": "sport",
+      "target": "o desporto",
+      "level": "a1"
+    },
+    {
+      "en": "football",
+      "target": "o futebol",
+      "level": "a1"
+    },
+    {
+      "en": "basketball",
+      "target": "o basquetebol",
+      "level": "a1"
+    },
+    {
+      "en": "volleyball",
+      "target": "o voleibol",
+      "level": "a2"
+    },
+    {
+      "en": "tennis",
+      "target": "o ténis",
+      "level": "a1"
+    },
+    {
+      "en": "swimming",
+      "target": "a natação",
+      "level": "a1"
+    },
+    {
+      "en": "running",
+      "target": "a corrida",
+      "level": "a1"
+    },
+    {
+      "en": "cycling",
+      "target": "o ciclismo",
+      "level": "a2"
+    },
+    {
+      "en": "chess",
+      "target": "o xadrez",
+      "level": "a2"
+    },
+    {
+      "en": "cards",
+      "target": "as cartas",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "board game",
+      "target": "o jogo de tabuleiro",
+      "level": "a2"
+    },
+    {
+      "en": "video game",
+      "target": "o videojogo",
+      "level": "a1"
+    },
+    {
+      "en": "dance",
+      "target": "a dança",
+      "level": "a1"
+    },
+    {
+      "en": "drawing",
+      "target": "o desenho",
+      "level": "a1"
+    },
+    {
+      "en": "painting",
+      "target": "a pintura",
+      "level": "a2"
+    },
+    {
+      "en": "guitar",
+      "target": "a guitarra",
+      "level": "a1"
+    },
+    {
+      "en": "piano",
+      "target": "o piano",
+      "level": "a1"
+    },
+    {
+      "en": "violin",
+      "target": "o violino",
+      "level": "a2"
+    },
+    {
+      "en": "concert",
+      "target": "o concerto",
+      "level": "a1"
+    },
+    {
+      "en": "exhibition",
+      "target": "a exposição",
+      "level": "a2"
+    },
+    {
+      "en": "picnic",
+      "target": "o piquenique",
+      "level": "a1"
+    },
+    {
+      "en": "camping",
+      "target": "o campismo",
+      "level": "a2"
+    },
+    {
+      "en": "fishing",
+      "target": "a pesca",
+      "level": "a2"
+    },
+    {
+      "en": "gardening",
+      "target": "a jardinagem",
+      "level": "a2"
+    },
+    {
+      "en": "reading",
+      "target": "a leitura",
+      "level": "a1"
+    },
+    {
+      "en": "team",
+      "target": "a equipa",
+      "level": "a1"
+    },
+    {
+      "en": "fan",
+      "target": "o adepto",
+      "level": "a2"
+    },
+    {
+      "en": "player",
+      "target": "o jogador / a jogadora",
+      "level": "a1"
+    },
+    {
+      "en": "to sing",
+      "target": "cantar",
+      "level": "a1"
+    },
+    {
+      "en": "to dance",
+      "target": "dançar",
+      "level": "a1"
+    },
+    {
+      "en": "to paint",
+      "target": "pintar",
+      "level": "a1"
+    },
+    {
+      "en": "to play the guitar",
+      "target": "tocar guitarra",
+      "level": "a1"
+    },
+    {
+      "en": "to play football",
+      "target": "jogar futebol",
+      "level": "a1"
+    },
+    {
+      "en": "to go to the cinema",
+      "target": "ir ao cinema",
+      "level": "a1"
+    },
+    {
+      "en": "to ride a bike",
+      "target": "andar de bicicleta",
+      "level": "a1"
+    },
+    {
+      "en": "to go for a walk",
+      "target": "dar uma caminhada",
+      "level": "a1"
+    },
+    {
+      "en": "to take photos",
+      "target": "tirar fotografias",
+      "level": "a1"
+    },
+    {
+      "en": "to watch a series",
+      "target": "ver uma série",
+      "level": "a1"
+    },
+    {
+      "en": "to play cards",
+      "target": "jogar às cartas",
+      "level": "a2"
+    },
+    {
+      "en": "to do yoga",
+      "target": "fazer ioga",
+      "level": "a2"
+    },
+    {
+      "en": "to swim in the pool",
+      "target": "nadar na piscina",
+      "level": "a1"
+    },
+    {
+      "en": "to read a novel",
+      "target": "ler um romance",
+      "level": "a2"
+    },
+    {
+      "en": "what do you do in your free time?",
+      "target": "o que fazes nos tempos livres?",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "I like cooking",
+      "target": "gosto de cozinhar",
+      "tense": "presente",
+      "level": "a1"
+    }
+  ]
+}

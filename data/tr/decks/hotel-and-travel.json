@@ -1,0 +1,153 @@
+{
+  "deck": "Hotel & Travel",
+  "cards": [
+    {
+      "en": "single room",
+      "target": "tek kişilik oda",
+      "level": "a1"
+    },
+    {
+      "en": "double room",
+      "target": "çift kişilik oda",
+      "level": "a1"
+    },
+    {
+      "en": "reception",
+      "target": "resepsiyon",
+      "level": "a1"
+    },
+    {
+      "en": "key card",
+      "target": "anahtar kartı",
+      "level": "a1"
+    },
+    {
+      "en": "floor",
+      "target": "kat",
+      "level": "a1"
+    },
+    {
+      "en": "room service",
+      "target": "oda servisi",
+      "level": "a1"
+    },
+    {
+      "en": "breakfast included",
+      "target": "kahvaltı dahil",
+      "level": "a1"
+    },
+    {
+      "en": "check-in time",
+      "target": "giriş saati",
+      "level": "a1"
+    },
+    {
+      "en": "check-out time",
+      "target": "çıkış saati",
+      "level": "a1"
+    },
+    {
+      "en": "suitcase",
+      "target": "bavul",
+      "level": "a1"
+    },
+    {
+      "en": "passport control",
+      "target": "pasaport kontrolü",
+      "level": "a2"
+    },
+    {
+      "en": "customs",
+      "target": "gümrük",
+      "level": "a2"
+    },
+    {
+      "en": "boarding pass",
+      "target": "biniş kartı",
+      "level": "a2"
+    },
+    {
+      "en": "gate number",
+      "target": "kapı numarası",
+      "level": "a1"
+    },
+    {
+      "en": "delay",
+      "target": "gecikme",
+      "level": "a1"
+    },
+    {
+      "en": "tourist",
+      "target": "turist",
+      "level": "a1"
+    },
+    {
+      "en": "guide",
+      "target": "rehber",
+      "level": "a1"
+    },
+    {
+      "en": "tour",
+      "target": "tur",
+      "level": "a1"
+    },
+    {
+      "en": "souvenir",
+      "target": "hediyelik eşya",
+      "level": "a1"
+    },
+    {
+      "en": "postcard",
+      "target": "kartpostal",
+      "level": "a1"
+    },
+    {
+      "en": "beach towel",
+      "target": "plaj havlusu",
+      "level": "a1"
+    },
+    {
+      "en": "sunscreen",
+      "target": "güneş kremi",
+      "level": "a1"
+    },
+    {
+      "en": "umbrella",
+      "target": "şemsiye",
+      "level": "a1"
+    },
+    {
+      "en": "travel insurance",
+      "target": "seyahat sigortası",
+      "level": "b1"
+    },
+    {
+      "en": "accommodation",
+      "target": "konaklama",
+      "level": "a2"
+    },
+    {
+      "en": "view",
+      "target": "manzara",
+      "level": "a1"
+    },
+    {
+      "en": "sea view",
+      "target": "deniz manzarası",
+      "level": "a1"
+    },
+    {
+      "en": "do you have a free room?",
+      "target": "Boş odanız var mı?",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "what time is breakfast?",
+      "target": "Kahvaltı saat kaçta?",
+      "level": "a1"
+    }
+  ]
+}

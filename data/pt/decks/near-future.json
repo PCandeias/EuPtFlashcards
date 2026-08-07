@@ -373,6 +373,186 @@
       "target": "vai chover",
       "tense": "futuroProximo",
       "level": "a1"
+    },
+    {
+      "en": "I am going to sleep",
+      "target": "eu vou dormir",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "you are going to sleep",
+      "target": "tu vais dormir",
+      "tense": "futuroProximo",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she is going to sleep",
+      "target": "ele / ela vai dormir",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "we are going to sleep",
+      "target": "nós vamos dormir",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "they are going to sleep",
+      "target": "eles / elas vão dormir",
+      "tense": "futuroProximo",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I am going to buy",
+      "target": "eu vou comprar",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "you are going to buy",
+      "target": "tu vais comprar",
+      "tense": "futuroProximo",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she is going to buy",
+      "target": "ele / ela vai comprar",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "we are going to buy",
+      "target": "nós vamos comprar",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "they are going to buy",
+      "target": "eles / elas vão comprar",
+      "tense": "futuroProximo",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I am going to arrive",
+      "target": "eu vou chegar",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "you are going to arrive",
+      "target": "tu vais chegar",
+      "tense": "futuroProximo",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she is going to arrive",
+      "target": "ele / ela vai chegar",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "we are going to arrive",
+      "target": "nós vamos chegar",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "they are going to arrive",
+      "target": "eles / elas vão chegar",
+      "tense": "futuroProximo",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I am going to write",
+      "target": "eu vou escrever",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "you are going to write",
+      "target": "tu vais escrever",
+      "tense": "futuroProximo",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she is going to write",
+      "target": "ele / ela vai escrever",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "we are going to write",
+      "target": "nós vamos escrever",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "they are going to write",
+      "target": "eles / elas vão escrever",
+      "tense": "futuroProximo",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I am going to read",
+      "target": "eu vou ler",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "you are going to read",
+      "target": "tu vais ler",
+      "tense": "futuroProximo",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she is going to read",
+      "target": "ele / ela vai ler",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "we are going to read",
+      "target": "nós vamos ler",
+      "tense": "futuroProximo",
+      "level": "a1"
+    },
+    {
+      "en": "they are going to read",
+      "target": "eles / elas vão ler",
+      "tense": "futuroProximo",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
     }
   ]
 }

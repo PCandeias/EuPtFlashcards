@@ -325,6 +325,101 @@
       "en": "to recover",
       "target": "iyileşmek",
       "level": "a2"
+    },
+    {
+      "en": "nail",
+      "target": "tırnak",
+      "level": "a2"
+    },
+    {
+      "en": "eyebrow",
+      "target": "kaş",
+      "level": "a2"
+    },
+    {
+      "en": "eyelash",
+      "target": "kirpik",
+      "level": "a2"
+    },
+    {
+      "en": "chin",
+      "target": "çene",
+      "level": "a2"
+    },
+    {
+      "en": "forehead",
+      "target": "alın",
+      "level": "a2"
+    },
+    {
+      "en": "heel",
+      "target": "topuk",
+      "level": "a2"
+    },
+    {
+      "en": "waist",
+      "target": "bel",
+      "level": "a2"
+    },
+    {
+      "en": "bone",
+      "target": "kemik",
+      "level": "a1"
+    },
+    {
+      "en": "brain",
+      "target": "beyin",
+      "level": "a2"
+    },
+    {
+      "en": "kidney",
+      "target": "böbrek",
+      "level": "b1"
+    },
+    {
+      "en": "vein",
+      "target": "damar",
+      "level": "b1"
+    },
+    {
+      "en": "health",
+      "target": "sağlık",
+      "level": "a1"
+    },
+    {
+      "en": "illness",
+      "target": "hastalık",
+      "level": "a1"
+    },
+    {
+      "en": "painkiller",
+      "target": "ağrı kesici",
+      "level": "a2"
+    },
+    {
+      "en": "vitamin",
+      "target": "vitamin",
+      "level": "a2"
+    },
+    {
+      "en": "diet",
+      "target": "diyet",
+      "level": "a2"
+    },
+    {
+      "en": "exercise",
+      "target": "egzersiz",
+      "level": "a1"
+    },
+    {
+      "en": "sleep",
+      "target": "uyku",
+      "level": "a1"
+    },
+    {
+      "en": "breath",
+      "target": "nefes",
+      "level": "a2"
     }
   ]
 }

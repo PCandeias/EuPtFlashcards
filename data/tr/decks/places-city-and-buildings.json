@@ -356,6 +356,121 @@
       "en": "near here",
       "target": "buraya yakın",
       "level": "a1"
+    },
+    {
+      "en": "patisserie",
+      "target": "pastane",
+      "level": "a1"
+    },
+    {
+      "en": "stationery shop",
+      "target": "kırtasiye",
+      "level": "a2"
+    },
+    {
+      "en": "barber",
+      "target": "berber",
+      "level": "a1"
+    },
+    {
+      "en": "hairdresser",
+      "target": "kuaför",
+      "level": "a1"
+    },
+    {
+      "en": "tailor",
+      "target": "terzi",
+      "level": "a2"
+    },
+    {
+      "en": "vet",
+      "target": "veteriner",
+      "level": "a2"
+    },
+    {
+      "en": "eating house",
+      "target": "lokanta",
+      "level": "a1"
+    },
+    {
+      "en": "block of flats",
+      "target": "apartman",
+      "level": "a1"
+    },
+    {
+      "en": "lift",
+      "target": "asansör",
+      "level": "a1"
+    },
+    {
+      "en": "basement",
+      "target": "bodrum",
+      "level": "a2"
+    },
+    {
+      "en": "tourist office",
+      "target": "turizm ofisi",
+      "level": "a2"
+    },
+    {
+      "en": "consulate",
+      "target": "konsolosluk",
+      "level": "b1"
+    },
+    {
+      "en": "embassy",
+      "target": "elçilik",
+      "level": "b1"
+    },
+    {
+      "en": "town hall",
+      "target": "belediye",
+      "level": "a2"
+    },
+    {
+      "en": "police station",
+      "target": "karakol",
+      "level": "a1"
+    },
+    {
+      "en": "road",
+      "target": "yol",
+      "level": "a1"
+    },
+    {
+      "en": "market square",
+      "target": "pazar yeri",
+      "level": "a1"
+    },
+    {
+      "en": "bus station",
+      "target": "otobüs terminali",
+      "level": "a1"
+    },
+    {
+      "en": "petrol station",
+      "target": "benzinlik",
+      "level": "a1"
+    },
+    {
+      "en": "playground",
+      "target": "çocuk parkı",
+      "level": "a1"
+    },
+    {
+      "en": "florist",
+      "target": "çiçekçi",
+      "level": "a1"
+    },
+    {
+      "en": "newsagent",
+      "target": "gazete bayisi",
+      "level": "a2"
+    },
+    {
+      "en": "bridge over the river",
+      "target": "nehir köprüsü",
+      "level": "a2"
     }
   ]
 }

@@ -431,6 +431,186 @@
       ],
       "tense": "perfeito",
       "level": "a2"
+    },
+    {
+      "en": "I wanted",
+      "target": "eu quis",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "you wanted",
+      "target": "tu quiseste",
+      "tense": "perfeito",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she wanted",
+      "target": "ele / ela quis",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "we wanted",
+      "target": "nós quisemos",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "they wanted",
+      "target": "eles / elas quiseram",
+      "tense": "perfeito",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I could",
+      "target": "eu pude",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "you could",
+      "target": "tu pudeste",
+      "tense": "perfeito",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she could",
+      "target": "ele / ela pôde",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "we could",
+      "target": "nós pudemos",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "they could",
+      "target": "eles / elas puderam",
+      "tense": "perfeito",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I said",
+      "target": "eu disse",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "you said",
+      "target": "tu disseste",
+      "tense": "perfeito",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she said",
+      "target": "ele / ela disse",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "we said",
+      "target": "nós dissemos",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "they said",
+      "target": "eles / elas disseram",
+      "tense": "perfeito",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I came",
+      "target": "eu vim",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "you came",
+      "target": "tu vieste",
+      "tense": "perfeito",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she came",
+      "target": "ele / ela veio",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "we came",
+      "target": "nós viemos",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "they came",
+      "target": "eles / elas vieram",
+      "tense": "perfeito",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I slept",
+      "target": "eu dormi",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "you slept",
+      "target": "tu dormiste",
+      "tense": "perfeito",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she slept",
+      "target": "ele / ela dormiu",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "we slept",
+      "target": "nós dormimos",
+      "tense": "perfeito",
+      "level": "a2"
+    },
+    {
+      "en": "they slept",
+      "target": "eles / elas dormiram",
+      "tense": "perfeito",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
     }
   ]
 }

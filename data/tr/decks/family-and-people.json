@@ -281,6 +281,122 @@
       "en": "a man and a woman",
       "target": "bir adam ve bir kadın",
       "level": "a1"
+    },
+    {
+      "en": "grandfather",
+      "target": "dede",
+      "level": "a1"
+    },
+    {
+      "en": "grandmother",
+      "target": "babaanne",
+      "level": "a1",
+      "sense": "father's mother"
+    },
+    {
+      "en": "grandmother",
+      "target": "anneanne",
+      "level": "a1",
+      "sense": "mother's mother"
+    },
+    {
+      "en": "grandchild",
+      "target": "torun",
+      "level": "a2"
+    },
+    {
+      "en": "nephew",
+      "target": "yeğen",
+      "level": "a2"
+    },
+    {
+      "en": "cousin",
+      "target": "kuzen",
+      "level": "a2"
+    },
+    {
+      "en": "aunt",
+      "target": "teyze",
+      "level": "a1",
+      "sense": "mother's sister"
+    },
+    {
+      "en": "aunt",
+      "target": "hala",
+      "level": "a1",
+      "sense": "father's sister"
+    },
+    {
+      "en": "uncle",
+      "target": "amca",
+      "level": "a1",
+      "sense": "father's brother"
+    },
+    {
+      "en": "uncle",
+      "target": "dayı",
+      "level": "a1",
+      "sense": "mother's brother"
+    },
+    {
+      "en": "relative",
+      "target": "akraba",
+      "level": "a2"
+    },
+    {
+      "en": "fiancé",
+      "target": "nişanlı",
+      "level": "a2"
+    },
+    {
+      "en": "sweetheart",
+      "target": "sevgili",
+      "level": "a1"
+    },
+    {
+      "en": "single",
+      "target": "bekar",
+      "level": "a1"
+    },
+    {
+      "en": "married",
+      "target": "evli",
+      "level": "a1"
+    },
+    {
+      "en": "divorced",
+      "target": "boşanmış",
+      "level": "a2"
+    },
+    {
+      "en": "family of four",
+      "target": "dört kişilik aile",
+      "level": "a1"
+    },
+    {
+      "en": "my family",
+      "target": "ailem",
+      "level": "a1"
+    },
+    {
+      "en": "our house",
+      "target": "evimiz",
+      "level": "a1"
+    },
+    {
+      "en": "their child",
+      "target": "onların çocuğu",
+      "level": "a1"
+    },
+    {
+      "en": "young man",
+      "target": "genç adam",
+      "level": "a1"
+    },
+    {
+      "en": "old woman",
+      "target": "yaşlı kadın",
+      "level": "a1"
     }
   ]
 }

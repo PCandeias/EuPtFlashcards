@@ -1,0 +1,257 @@
+{
+  "deck": "Feelings & Emotions",
+  "cards": [
+    {
+      "en": "feeling",
+      "target": "duygu",
+      "level": "a1"
+    },
+    {
+      "en": "happiness",
+      "target": "mutluluk",
+      "level": "a2"
+    },
+    {
+      "en": "sadness",
+      "target": "üzüntü",
+      "level": "a2"
+    },
+    {
+      "en": "fear",
+      "target": "korku",
+      "level": "a1"
+    },
+    {
+      "en": "anger",
+      "target": "öfke",
+      "level": "a2"
+    },
+    {
+      "en": "excitement",
+      "target": "heyecan",
+      "level": "a2"
+    },
+    {
+      "en": "worry",
+      "target": "endişe",
+      "level": "a2"
+    },
+    {
+      "en": "shame",
+      "target": "utanç",
+      "level": "b1"
+    },
+    {
+      "en": "pride",
+      "target": "gurur",
+      "level": "b1"
+    },
+    {
+      "en": "love",
+      "target": "sevgi",
+      "level": "a1"
+    },
+    {
+      "en": "love",
+      "target": "aşk",
+      "level": "a2",
+      "sense": "romantic"
+    },
+    {
+      "en": "hatred",
+      "target": "nefret",
+      "level": "a2"
+    },
+    {
+      "en": "disappointment",
+      "target": "hayal kırıklığı",
+      "level": "b1"
+    },
+    {
+      "en": "afraid",
+      "target": "korkmuş",
+      "level": "a1"
+    },
+    {
+      "en": "excited",
+      "target": "heyecanlı",
+      "level": "a2"
+    },
+    {
+      "en": "surprised",
+      "target": "şaşkın",
+      "level": "a2"
+    },
+    {
+      "en": "worried",
+      "target": "endişeli",
+      "level": "a2"
+    },
+    {
+      "en": "proud",
+      "target": "gururlu",
+      "level": "a2"
+    },
+    {
+      "en": "bored",
+      "target": "sıkılmış",
+      "level": "a2"
+    },
+    {
+      "en": "relaxed",
+      "target": "rahat",
+      "level": "a1"
+    },
+    {
+      "en": "stressed",
+      "target": "stresli",
+      "level": "a2"
+    },
+    {
+      "en": "pleased",
+      "target": "memnun",
+      "level": "a1"
+    },
+    {
+      "en": "tense",
+      "target": "gergin",
+      "level": "a2"
+    },
+    {
+      "en": "cheerful",
+      "target": "neşeli",
+      "level": "a2"
+    },
+    {
+      "en": "hurt",
+      "target": "kırgın",
+      "level": "b1"
+    },
+    {
+      "en": "regretful",
+      "target": "pişman",
+      "level": "b1"
+    },
+    {
+      "en": "lucky",
+      "target": "şanslı",
+      "level": "a2"
+    },
+    {
+      "en": "unlucky",
+      "target": "şanssız",
+      "level": "a2"
+    },
+    {
+      "en": "curious",
+      "target": "meraklı",
+      "level": "a2"
+    },
+    {
+      "en": "jealous",
+      "target": "kıskanç",
+      "level": "a2"
+    },
+    {
+      "en": "grateful",
+      "target": "minnettar",
+      "level": "b1"
+    },
+    {
+      "en": "relieved",
+      "target": "rahatlamış",
+      "level": "b1"
+    },
+    {
+      "en": "to feel",
+      "target": "hissetmek",
+      "level": "a1"
+    },
+    {
+      "en": "to be afraid",
+      "target": "korkmak",
+      "level": "a1"
+    },
+    {
+      "en": "to cry",
+      "target": "ağlamak",
+      "level": "a1"
+    },
+    {
+      "en": "to be glad",
+      "target": "sevinmek",
+      "level": "a2"
+    },
+    {
+      "en": "to get angry",
+      "target": "kızmak",
+      "level": "a2"
+    },
+    {
+      "en": "to be surprised",
+      "target": "şaşırmak",
+      "level": "a2"
+    },
+    {
+      "en": "to worry",
+      "target": "endişelenmek",
+      "level": "a2"
+    },
+    {
+      "en": "to miss",
+      "target": "özlemek",
+      "level": "a2",
+      "sense": "a person"
+    },
+    {
+      "en": "I am happy",
+      "target": "Mutluyum",
+      "level": "a1"
+    },
+    {
+      "en": "I am sad",
+      "target": "Üzgünüm",
+      "level": "a1"
+    },
+    {
+      "en": "I am afraid",
+      "target": "Korkuyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I missed you",
+      "target": "Seni özledim",
+      "tense": "gecmis",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "how do you feel?",
+      "target": "Nasıl hissediyorsun?",
+      "tense": "simdiki",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "I feel good",
+      "target": "Kendimi iyi hissediyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I am fed up",
+      "target": "Canım sıkkın",
+      "level": "a2"
+    },
+    {
+      "en": "I am down",
+      "target": "Moralim bozuk",
+      "level": "a2"
+    }
+  ]
+}

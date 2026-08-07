@@ -197,6 +197,132 @@
       "en": "it is windy",
       "target": "hava rüzgârlı",
       "level": "a1"
+    },
+    {
+      "en": "lake",
+      "target": "göl",
+      "level": "a1"
+    },
+    {
+      "en": "river",
+      "target": "nehir",
+      "level": "a1"
+    },
+    {
+      "en": "island",
+      "target": "ada",
+      "level": "a1"
+    },
+    {
+      "en": "desert",
+      "target": "çöl",
+      "level": "a2"
+    },
+    {
+      "en": "star",
+      "target": "yıldız",
+      "level": "a1"
+    },
+    {
+      "en": "rainbow",
+      "target": "gökkuşağı",
+      "level": "a2"
+    },
+    {
+      "en": "storm",
+      "target": "fırtına",
+      "level": "a2"
+    },
+    {
+      "en": "fog",
+      "target": "sis",
+      "level": "a2"
+    },
+    {
+      "en": "ice",
+      "target": "buz",
+      "level": "a1"
+    },
+    {
+      "en": "grass",
+      "target": "çim",
+      "level": "a2"
+    },
+    {
+      "en": "leaf",
+      "target": "yaprak",
+      "level": "a1"
+    },
+    {
+      "en": "rock",
+      "target": "kaya",
+      "level": "a2"
+    },
+    {
+      "en": "stone",
+      "target": "taş",
+      "level": "a1"
+    },
+    {
+      "en": "soil",
+      "target": "toprak",
+      "level": "a2"
+    },
+    {
+      "en": "lightning",
+      "target": "şimşek",
+      "level": "a2"
+    },
+    {
+      "en": "thunder",
+      "target": "gök gürültüsü",
+      "level": "b1"
+    },
+    {
+      "en": "temperature",
+      "target": "sıcaklık",
+      "level": "a2"
+    },
+    {
+      "en": "degree",
+      "target": "derece",
+      "level": "a2"
+    },
+    {
+      "en": "cloudy",
+      "target": "bulutlu",
+      "level": "a1"
+    },
+    {
+      "en": "rainy",
+      "target": "yağmurlu",
+      "level": "a1"
+    },
+    {
+      "en": "snowy",
+      "target": "karlı",
+      "level": "a1"
+    },
+    {
+      "en": "it is cold today",
+      "target": "Bugün hava soğuk",
+      "level": "a1"
+    },
+    {
+      "en": "it is very hot, is it not?",
+      "target": "Hava çok sıcak değil mi?",
+      "level": "a2"
+    },
+    {
+      "en": "the sun is out",
+      "target": "Güneş açtı",
+      "tense": "gecmis",
+      "level": "a2"
+    },
+    {
+      "en": "a windy day",
+      "target": "rüzgârlı bir gün",
+      "level": "a1"
     }
   ]
 }

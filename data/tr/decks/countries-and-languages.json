@@ -120,6 +120,71 @@
       ],
       "tense": "simdiki",
       "level": "a1"
+    },
+    {
+      "en": "Netherlands",
+      "target": "Hollanda",
+      "level": "a1"
+    },
+    {
+      "en": "China",
+      "target": "Çin",
+      "level": "a1"
+    },
+    {
+      "en": "Chinese",
+      "target": "Çince",
+      "level": "a1"
+    },
+    {
+      "en": "Japan",
+      "target": "Japonya",
+      "level": "a1"
+    },
+    {
+      "en": "Japanese",
+      "target": "Japonca",
+      "level": "a1"
+    },
+    {
+      "en": "Russia",
+      "target": "Rusya",
+      "level": "a1"
+    },
+    {
+      "en": "Russian",
+      "target": "Rusça",
+      "level": "a1"
+    },
+    {
+      "en": "Brazil",
+      "target": "Brezilya",
+      "level": "a1"
+    },
+    {
+      "en": "Arabic",
+      "target": "Arapça",
+      "level": "a1"
+    },
+    {
+      "en": "Austria",
+      "target": "Avusturya",
+      "level": "a1"
+    },
+    {
+      "en": "Belgium",
+      "target": "Belçika",
+      "level": "a1"
+    },
+    {
+      "en": "Canada",
+      "target": "Kanada",
+      "level": "a1"
+    },
+    {
+      "en": "Australia",
+      "target": "Avustralya",
+      "level": "a1"
     }
   ]
 }

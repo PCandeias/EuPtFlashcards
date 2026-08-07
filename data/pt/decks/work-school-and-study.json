@@ -315,6 +315,89 @@
       "en": "I work from home",
       "target": "trabalho a partir de casa",
       "level": "a1"
+    },
+    {
+      "en": "the career",
+      "target": "a carreira",
+      "level": "a2"
+    },
+    {
+      "en": "the working hours",
+      "target": "o horário de trabalho",
+      "level": "a2"
+    },
+    {
+      "en": "the time off",
+      "target": "a licença",
+      "level": "a2"
+    },
+    {
+      "en": "retired",
+      "target": "reformado / reformada",
+      "level": "a2"
+    },
+    {
+      "en": "unemployed",
+      "target": "desempregado / desempregada",
+      "level": "a2"
+    },
+    {
+      "en": "the CV",
+      "target": "o currículo",
+      "level": "b1"
+    },
+    {
+      "en": "the diploma",
+      "target": "o diploma",
+      "level": "a2"
+    },
+    {
+      "en": "the graduate",
+      "target": "o licenciado / a licenciada",
+      "level": "a2"
+    },
+    {
+      "en": "the ruler",
+      "target": "a régua",
+      "level": "a1"
+    },
+    {
+      "en": "maths",
+      "target": "a matemática",
+      "level": "a1"
+    },
+    {
+      "en": "geography",
+      "target": "a geografia",
+      "level": "a1"
+    },
+    {
+      "en": "history",
+      "target": "a história",
+      "level": "a1"
+    },
+    {
+      "en": "science",
+      "target": "as ciências",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "the school bag",
+      "target": "a mochila da escola",
+      "level": "a1"
+    },
+    {
+      "en": "the group work",
+      "target": "o trabalho de grupo",
+      "level": "a2"
+    },
+    {
+      "en": "the final exam",
+      "target": "o exame final",
+      "level": "a2"
     }
   ]
 }

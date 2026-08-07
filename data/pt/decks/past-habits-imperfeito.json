@@ -412,6 +412,186 @@
       "target": "estudávamos juntos",
       "tense": "imperfeito",
       "level": "a2"
+    },
+    {
+      "en": "I used to want",
+      "target": "eu queria",
+      "tense": "imperfeito",
+      "level": "a2"
+    },
+    {
+      "en": "you used to want",
+      "target": "tu querias",
+      "tense": "imperfeito",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she used to want",
+      "target": "ele / ela queria",
+      "tense": "imperfeito",
+      "level": "a2"
+    },
+    {
+      "en": "we used to want",
+      "target": "nós queríamos",
+      "tense": "imperfeito",
+      "level": "a2"
+    },
+    {
+      "en": "they used to want",
+      "target": "eles / elas queriam",
+      "tense": "imperfeito",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I used to be able",
+      "target": "eu podia",
+      "tense": "imperfeito",
+      "level": "a2"
+    },
+    {
+      "en": "you used to be able",
+      "target": "tu podias",
+      "tense": "imperfeito",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she used to be able",
+      "target": "ele / ela podia",
+      "tense": "imperfeito",
+      "level": "a2"
+    },
+    {
+      "en": "we used to be able",
+      "target": "nós podíamos",
+      "tense": "imperfeito",
+      "level": "a2"
+    },
+    {
+      "en": "they used to be able",
+      "target": "eles / elas podiam",
+      "tense": "imperfeito",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I used to say",
+      "target": "eu dizia",
+      "tense": "imperfeito",
+      "level": "a2"
+    },
+    {
+      "en": "you used to say",
+      "target": "tu dizias",
+      "tense": "imperfeito",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she used to say",
+      "target": "ele / ela dizia",
+      "tense": "imperfeito",
+      "level": "a2"
+    },
+    {
+      "en": "we used to say",
+      "target": "nós dizíamos",
+      "tense": "imperfeito",
+      "level": "a2"
+    },
+    {
+      "en": "they used to say",
+      "target": "eles / elas diziam",
+      "tense": "imperfeito",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I used to come",
+      "target": "eu vinha",
+      "tense": "imperfeito",
+      "level": "a2"
+    },
+    {
+      "en": "you used to come",
+      "target": "tu vinhas",
+      "tense": "imperfeito",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she used to come",
+      "target": "ele / ela vinha",
+      "tense": "imperfeito",
+      "level": "a2"
+    },
+    {
+      "en": "we used to come",
+      "target": "nós vínhamos",
+      "tense": "imperfeito",
+      "level": "a2"
+    },
+    {
+      "en": "they used to come",
+      "target": "eles / elas vinham",
+      "tense": "imperfeito",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I used to sleep",
+      "target": "eu dormia",
+      "tense": "imperfeito",
+      "level": "a2"
+    },
+    {
+      "en": "you used to sleep",
+      "target": "tu dormias",
+      "tense": "imperfeito",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she used to sleep",
+      "target": "ele / ela dormia",
+      "tense": "imperfeito",
+      "level": "a2"
+    },
+    {
+      "en": "we used to sleep",
+      "target": "nós dormíamos",
+      "tense": "imperfeito",
+      "level": "a2"
+    },
+    {
+      "en": "they used to sleep",
+      "target": "eles / elas dormiam",
+      "tense": "imperfeito",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
     }
   ]
 }

@@ -191,6 +191,71 @@
       "en": "every day",
       "target": "her gün",
       "level": "a1"
+    },
+    {
+      "en": "to get up early",
+      "target": "erken kalkmak",
+      "level": "a1"
+    },
+    {
+      "en": "to go to bed late",
+      "target": "geç yatmak",
+      "level": "a1"
+    },
+    {
+      "en": "to shave",
+      "target": "tıraş olmak",
+      "level": "a2"
+    },
+    {
+      "en": "to put on make-up",
+      "target": "makyaj yapmak",
+      "level": "a2"
+    },
+    {
+      "en": "to comb your hair",
+      "target": "saçını taramak",
+      "level": "a2"
+    },
+    {
+      "en": "to do the laundry",
+      "target": "çamaşır yıkamak",
+      "level": "a1"
+    },
+    {
+      "en": "to iron",
+      "target": "ütü yapmak",
+      "level": "a2"
+    },
+    {
+      "en": "to wash your face",
+      "target": "yüz yıkamak",
+      "level": "a1"
+    },
+    {
+      "en": "to do the housework",
+      "target": "ev işi yapmak",
+      "level": "a1"
+    },
+    {
+      "en": "to make coffee",
+      "target": "kahve yapmak",
+      "level": "a1"
+    },
+    {
+      "en": "to brew tea",
+      "target": "çay demlemek",
+      "level": "a1"
+    },
+    {
+      "en": "to go to bed early",
+      "target": "erken yatmak",
+      "level": "a1"
+    },
+    {
+      "en": "to come back from work",
+      "target": "işten dönmek",
+      "level": "a1"
     }
   ]
 }

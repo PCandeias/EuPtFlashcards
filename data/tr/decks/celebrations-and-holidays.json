@@ -1,0 +1,120 @@
+{
+  "deck": "Celebrations & Holidays",
+  "cards": [
+    {
+      "en": "festival",
+      "target": "bayram",
+      "level": "a1"
+    },
+    {
+      "en": "Ramadan",
+      "target": "Ramazan",
+      "level": "a1"
+    },
+    {
+      "en": "celebration",
+      "target": "kutlama",
+      "level": "a1"
+    },
+    {
+      "en": "gift",
+      "target": "hediye",
+      "level": "a1"
+    },
+    {
+      "en": "invitation",
+      "target": "davet",
+      "level": "a1"
+    },
+    {
+      "en": "wedding",
+      "target": "düğün",
+      "level": "a1"
+    },
+    {
+      "en": "engagement",
+      "target": "nişan",
+      "level": "a2"
+    },
+    {
+      "en": "party",
+      "target": "parti",
+      "level": "a1"
+    },
+    {
+      "en": "guest",
+      "target": "misafir",
+      "level": "a1"
+    },
+    {
+      "en": "balloon",
+      "target": "balon",
+      "level": "a1"
+    },
+    {
+      "en": "birthday candle",
+      "target": "doğum günü mumu",
+      "level": "a2"
+    },
+    {
+      "en": "fireworks",
+      "target": "havai fişek",
+      "level": "a2"
+    },
+    {
+      "en": "flag",
+      "target": "bayrak",
+      "level": "a1"
+    },
+    {
+      "en": "dance floor",
+      "target": "dans pisti",
+      "level": "a2"
+    },
+    {
+      "en": "music band",
+      "target": "müzik grubu",
+      "level": "a2"
+    },
+    {
+      "en": "anniversary",
+      "target": "yıl dönümü",
+      "level": "a2"
+    },
+    {
+      "en": "congratulations",
+      "target": "Tebrikler",
+      "level": "a1"
+    },
+    {
+      "en": "happy birthday",
+      "target": "İyi ki doğdun",
+      "level": "a1"
+    },
+    {
+      "en": "happy new year",
+      "target": "Mutlu yıllar",
+      "level": "a1"
+    },
+    {
+      "en": "happy holiday",
+      "target": "İyi bayramlar",
+      "level": "a1"
+    },
+    {
+      "en": "to celebrate",
+      "target": "kutlamak",
+      "level": "a1"
+    },
+    {
+      "en": "to invite",
+      "target": "davet etmek",
+      "level": "a1"
+    },
+    {
+      "en": "to give a gift",
+      "target": "hediye vermek",
+      "level": "a1"
+    }
+  ]
+}

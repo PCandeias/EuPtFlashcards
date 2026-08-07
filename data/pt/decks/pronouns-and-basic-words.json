@@ -469,6 +469,66 @@
       "en": "day",
       "target": "o dia",
       "level": "a1"
+    },
+    {
+      "en": "anyone",
+      "target": "qualquer pessoa",
+      "level": "a1"
+    },
+    {
+      "en": "everything",
+      "target": "tudo o que",
+      "level": "a1"
+    },
+    {
+      "en": "most",
+      "target": "a maior parte",
+      "level": "a1"
+    },
+    {
+      "en": "a few",
+      "target": "alguns / algumas",
+      "level": "a1"
+    },
+    {
+      "en": "both",
+      "target": "ambos / ambas",
+      "level": "a1"
+    },
+    {
+      "en": "anyway",
+      "target": "de qualquer maneira",
+      "level": "a2"
+    },
+    {
+      "en": "probably",
+      "target": "provavelmente",
+      "level": "a1"
+    },
+    {
+      "en": "definitely",
+      "target": "sem dúvida",
+      "level": "a1"
+    },
+    {
+      "en": "really",
+      "target": "realmente",
+      "level": "a1"
+    },
+    {
+      "en": "actually",
+      "target": "na verdade",
+      "level": "a1"
+    },
+    {
+      "en": "especially",
+      "target": "especialmente",
+      "level": "a2"
+    },
+    {
+      "en": "at least",
+      "target": "pelo menos",
+      "level": "a1"
     }
   ]
 }

@@ -354,6 +354,51 @@
       "en": "to look like",
       "target": "parecer-se com",
       "level": "a2"
+    },
+    {
+      "en": "the family of four",
+      "target": "a família de quatro pessoas",
+      "level": "a1"
+    },
+    {
+      "en": "my family",
+      "target": "a minha família",
+      "level": "a1"
+    },
+    {
+      "en": "our house",
+      "target": "a nossa casa",
+      "level": "a1"
+    },
+    {
+      "en": "the young man",
+      "target": "o jovem",
+      "level": "a1"
+    },
+    {
+      "en": "the old woman",
+      "target": "a senhora idosa",
+      "level": "a1"
+    },
+    {
+      "en": "the godson",
+      "target": "o afilhado",
+      "level": "a2"
+    },
+    {
+      "en": "the goddaughter",
+      "target": "a afilhada",
+      "level": "a2"
+    },
+    {
+      "en": "the great-grandfather",
+      "target": "o bisavô",
+      "level": "a2"
+    },
+    {
+      "en": "the great-grandmother",
+      "target": "a bisavó",
+      "level": "a2"
     }
   ]
 }

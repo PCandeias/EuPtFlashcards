@@ -227,6 +227,77 @@
       "en": "is that so?",
       "target": "öyle mi?",
       "level": "a1"
+    },
+    {
+      "en": "how much",
+      "target": "ne kadar",
+      "level": "a1"
+    },
+    {
+      "en": "at what time",
+      "target": "kaçta",
+      "level": "a1"
+    },
+    {
+      "en": "how many people",
+      "target": "kaç kişi",
+      "level": "a1"
+    },
+    {
+      "en": "what kind",
+      "target": "nasıl bir",
+      "level": "a2"
+    },
+    {
+      "en": "who are you?",
+      "target": "Kimsin?",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "what happened?",
+      "target": "Ne oldu?",
+      "tense": "gecmis",
+      "level": "a1"
+    },
+    {
+      "en": "where are you?",
+      "target": "Neredesin?",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "what do you think?",
+      "target": "Ne düşünüyorsun?",
+      "tense": "simdiki",
+      "level": "a2",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "how old?",
+      "target": "kaç yaşında?",
+      "level": "a1"
+    },
+    {
+      "en": "which is better?",
+      "target": "hangisi daha iyi?",
+      "level": "a2"
+    },
+    {
+      "en": "what happened next?",
+      "target": "sonra ne oldu?",
+      "level": "a2"
+    },
+    {
+      "en": "is that right?",
+      "target": "doğru mu?",
+      "level": "a1"
     }
   ]
 }

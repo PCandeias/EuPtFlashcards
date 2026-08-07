@@ -2,17 +2,27 @@
   {
     "deck": "Adjectives & Opposites",
     "file": "adjectives-and-opposites",
-    "count": 74
+    "count": 106
+  },
+  {
+    "deck": "Animals",
+    "file": "animals",
+    "count": 50
   },
   {
     "deck": "Body & Health",
     "file": "body-and-health",
-    "count": 64
+    "count": 83
+  },
+  {
+    "deck": "Celebrations & Holidays",
+    "file": "celebrations-and-holidays",
+    "count": 23
   },
   {
     "deck": "Clothing & Colors",
     "file": "clothing-and-colors",
-    "count": 51
+    "count": 62
   },
   {
     "deck": "Common Sentence Patterns",
@@ -22,17 +32,22 @@
   {
     "deck": "Common Verbs",
     "file": "common-verbs",
-    "count": 102
+    "count": 133
   },
   {
     "deck": "Countries & Languages",
     "file": "countries-and-languages",
-    "count": 23
+    "count": 36
   },
   {
     "deck": "Daily Routine",
     "file": "daily-routine",
-    "count": 37
+    "count": 50
+  },
+  {
+    "deck": "Describing People",
+    "file": "describing-people",
+    "count": 21
   },
   {
     "deck": "Essential Survival Phrases",
@@ -42,72 +57,122 @@
   {
     "deck": "Family & People",
     "file": "family-and-people",
-    "count": 53
+    "count": 75
+  },
+  {
+    "deck": "Feelings & Emotions",
+    "file": "feelings-and-emotions",
+    "count": 48
   },
   {
     "deck": "Food & Drink",
     "file": "food-and-drink",
-    "count": 113
+    "count": 158
+  },
+  {
+    "deck": "Future Tense (Gelecek Zaman)",
+    "file": "future-tense-gelecek",
+    "count": 60
   },
   {
     "deck": "Greetings & Polite Expressions",
     "file": "greetings-and-polite-expressions",
-    "count": 50
+    "count": 66
+  },
+  {
+    "deck": "Habitual (Geniş Zaman)",
+    "file": "habitual-genis",
+    "count": 60
+  },
+  {
+    "deck": "Hobbies & Free Time",
+    "file": "hobbies-and-free-time",
+    "count": 48
   },
   {
     "deck": "Home & Household Objects",
     "file": "home-and-household-objects",
-    "count": 76
+    "count": 106
+  },
+  {
+    "deck": "Hotel & Travel",
+    "file": "hotel-and-travel",
+    "count": 29
+  },
+  {
+    "deck": "Jobs & Professions",
+    "file": "jobs-and-professions",
+    "count": 33
+  },
+  {
+    "deck": "Learning Turkish",
+    "file": "learning-turkish",
+    "count": 21
   },
   {
     "deck": "Numbers",
     "file": "numbers",
-    "count": 113
+    "count": 135
+  },
+  {
+    "deck": "Past Tense (Görülen Geçmiş)",
+    "file": "past-tense-gorulen-gecmis",
+    "count": 60
   },
   {
     "deck": "Places, City & Buildings",
     "file": "places-city-and-buildings",
-    "count": 71
+    "count": 94
+  },
+  {
+    "deck": "Present Continuous (Şimdiki Zaman)",
+    "file": "present-continuous-simdiki",
+    "count": 60
   },
   {
     "deck": "Pronouns & Basic Words",
     "file": "pronouns-and-basic-words",
-    "count": 69
+    "count": 89
   },
   {
     "deck": "Question Words & Connectors",
     "file": "question-words-and-connectors",
-    "count": 41
+    "count": 53
+  },
+  {
+    "deck": "Reported Past (Öğrenilen Geçmiş)",
+    "file": "reported-past-ogrenilen-gecmis",
+    "count": 58
   },
   {
     "deck": "Restaurant & Ordering",
     "file": "restaurant-and-ordering",
-    "count": 37
+    "count": 41
   },
   {
     "deck": "Shopping & Money",
     "file": "shopping-and-money",
-    "count": 64
+    "count": 78
   },
   {
     "deck": "Suffixes & Vowel Harmony",
     "file": "suffixes-and-vowel-harmony",
-    "count": 42
+    "count": 57
   },
   {
     "deck": "Technology & Phone",
     "file": "technology-and-phone",
-    "count": 46
+    "count": 56
   },
   {
     "deck": "Time, Days & Calendar",
     "file": "time-days-and-calendar",
-    "count": 64
+    "count": 86
   },
   {
     "deck": "Transport & Directions",
     "file": "transport-and-directions",
-    "count": 62
+    "count": 86
   },
   {
     "deck": "Useful Verb Phrases",
@@ -117,11 +182,11 @@
   {
     "deck": "Weather, Nature & Animals",
     "file": "weather-nature-and-animals",
-    "count": 39
+    "count": 64
   },
   {
     "deck": "Work, School & Study",
     "file": "work-school-and-study",
-    "count": 33
+    "count": 54
   }
 ]

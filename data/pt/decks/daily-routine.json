@@ -232,6 +232,41 @@
       "en": "at night",
       "target": "à noite",
       "level": "a1"
+    },
+    {
+      "en": "to wash your face",
+      "target": "lavar a cara",
+      "level": "a1"
+    },
+    {
+      "en": "to do the housework",
+      "target": "fazer as lidas da casa",
+      "level": "a2"
+    },
+    {
+      "en": "to make coffee",
+      "target": "fazer café",
+      "level": "a1"
+    },
+    {
+      "en": "to shave",
+      "target": "fazer a barba",
+      "level": "a2"
+    },
+    {
+      "en": "to iron the clothes",
+      "target": "engomar a roupa",
+      "level": "a2"
+    },
+    {
+      "en": "to go to bed early",
+      "target": "deitar-se cedo",
+      "level": "a1"
+    },
+    {
+      "en": "to come back from work",
+      "target": "voltar do trabalho",
+      "level": "a1"
     }
   ]
 }

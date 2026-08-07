@@ -1,0 +1,110 @@
+{
+  "deck": "Learning Turkish",
+  "cards": [
+    {
+      "en": "word",
+      "target": "kelime",
+      "level": "a1"
+    },
+    {
+      "en": "sentence",
+      "target": "cümle",
+      "level": "a1"
+    },
+    {
+      "en": "letter",
+      "target": "harf",
+      "level": "a1"
+    },
+    {
+      "en": "number",
+      "target": "sayı",
+      "level": "a1"
+    },
+    {
+      "en": "question",
+      "target": "soru",
+      "level": "a1"
+    },
+    {
+      "en": "answer",
+      "target": "cevap",
+      "level": "a1"
+    },
+    {
+      "en": "example",
+      "target": "örnek",
+      "level": "a1"
+    },
+    {
+      "en": "exercise",
+      "target": "alıştırma",
+      "level": "a1"
+    },
+    {
+      "en": "dictionary",
+      "target": "sözlük",
+      "level": "a1"
+    },
+    {
+      "en": "translation",
+      "target": "çeviri",
+      "level": "a2"
+    },
+    {
+      "en": "pronunciation",
+      "target": "telaffuz",
+      "level": "a2"
+    },
+    {
+      "en": "grammar",
+      "target": "dilbilgisi",
+      "level": "a2"
+    },
+    {
+      "en": "vowel",
+      "target": "sesli harf",
+      "level": "a2"
+    },
+    {
+      "en": "consonant",
+      "target": "sessiz harf",
+      "level": "a2"
+    },
+    {
+      "en": "suffix",
+      "target": "ek",
+      "level": "a2"
+    },
+    {
+      "en": "root",
+      "target": "kök",
+      "level": "a2"
+    },
+    {
+      "en": "more than one",
+      "target": "çoğul",
+      "level": "a2"
+    },
+    {
+      "en": "meaning",
+      "target": "anlam",
+      "level": "a1"
+    },
+    {
+      "en": "what does this mean?",
+      "target": "Bu ne demek?",
+      "level": "a1"
+    },
+    {
+      "en": "is Turkish hard?",
+      "target": "Türkçe zor mu?",
+      "level": "a1"
+    },
+    {
+      "en": "how is it written?",
+      "target": "Nasıl yazılır?",
+      "level": "a2"
+    }
+  ]
+}

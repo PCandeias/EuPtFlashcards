@@ -1,0 +1,110 @@
+{
+  "deck": "Describing People",
+  "cards": [
+    {
+      "en": "height",
+      "target": "boy",
+      "level": "a1"
+    },
+    {
+      "en": "weight",
+      "target": "kilo",
+      "level": "a1"
+    },
+    {
+      "en": "tall",
+      "target": "uzun boylu",
+      "level": "a1"
+    },
+    {
+      "en": "short",
+      "target": "kısa boylu",
+      "level": "a1"
+    },
+    {
+      "en": "fat",
+      "target": "şişman",
+      "level": "a1"
+    },
+    {
+      "en": "cute",
+      "target": "sevimli",
+      "level": "a1"
+    },
+    {
+      "en": "handsome",
+      "target": "yakışıklı",
+      "level": "a1"
+    },
+    {
+      "en": "bearded",
+      "target": "sakallı",
+      "level": "a2"
+    },
+    {
+      "en": "with a moustache",
+      "target": "bıyıklı",
+      "level": "a2"
+    },
+    {
+      "en": "bald",
+      "target": "kel",
+      "level": "a2"
+    },
+    {
+      "en": "curly",
+      "target": "kıvırcık",
+      "level": "a2"
+    },
+    {
+      "en": "straight hair",
+      "target": "düz saç",
+      "level": "a1"
+    },
+    {
+      "en": "blond",
+      "target": "sarışın",
+      "level": "a1"
+    },
+    {
+      "en": "dark-haired",
+      "target": "esmer",
+      "level": "a1"
+    },
+    {
+      "en": "light brown-haired",
+      "target": "kumral",
+      "level": "a2"
+    },
+    {
+      "en": "wearing glasses",
+      "target": "gözlüklü",
+      "level": "a2"
+    },
+    {
+      "en": "years old",
+      "target": "yaşında",
+      "level": "a1"
+    },
+    {
+      "en": "to look",
+      "target": "görünmek",
+      "level": "a2"
+    },
+    {
+      "en": "to resemble",
+      "target": "benzemek",
+      "level": "a2"
+    },
+    {
+      "en": "he is tall",
+      "target": "O uzun boylu",
+      "level": "a1"
+    },
+    {
+      "en": "what is he like?",
+      "target": "Nasıl biri?",
+      "level": "a2"
+    }
+  ]
+}

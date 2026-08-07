@@ -359,6 +359,49 @@
       "en": "see you around",
       "target": "até qualquer dia",
       "level": "a1"
+    },
+    {
+      "en": "how is it going?",
+      "target": "como vai isso?",
+      "level": "a1"
+    },
+    {
+      "en": "it has been a long time",
+      "target": "há quanto tempo!",
+      "level": "a2"
+    },
+    {
+      "en": "have fun",
+      "target": "divirtam-se",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "see you on Monday",
+      "target": "até segunda",
+      "level": "a1"
+    },
+    {
+      "en": "welcome home",
+      "target": "bem-vindo a casa",
+      "level": "a1"
+    },
+    {
+      "en": "good luck with the exam",
+      "target": "boa sorte para o exame",
+      "level": "a2"
+    },
+    {
+      "en": "work well",
+      "target": "bom trabalho",
+      "level": "a1"
+    },
+    {
+      "en": "enjoy your meal",
+      "target": "bom proveito",
+      "level": "a1"
     }
   ]
 }

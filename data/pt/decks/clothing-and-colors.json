@@ -360,6 +360,59 @@
       "en": "it suits you",
       "target": "fica-te bem",
       "level": "a1"
+    },
+    {
+      "en": "the suit jacket",
+      "target": "o casaco do fato",
+      "level": "a2"
+    },
+    {
+      "en": "the beanie",
+      "target": "o barrete",
+      "level": "a1"
+    },
+    {
+      "en": "the high heels",
+      "target": "os sapatos de salto alto",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "the button",
+      "target": "o botão",
+      "level": "a1"
+    },
+    {
+      "en": "the zip",
+      "target": "o fecho-éclair",
+      "level": "a2"
+    },
+    {
+      "en": "the fabric",
+      "target": "o tecido",
+      "level": "a2"
+    },
+    {
+      "en": "the cotton",
+      "target": "o algodão",
+      "level": "a1"
+    },
+    {
+      "en": "the wool",
+      "target": "a lã",
+      "level": "a1"
+    },
+    {
+      "en": "the leather",
+      "target": "o cabedal",
+      "level": "a2"
+    },
+    {
+      "en": "the size in numbers",
+      "target": "o número do sapato",
+      "level": "a1"
     }
   ]
 }

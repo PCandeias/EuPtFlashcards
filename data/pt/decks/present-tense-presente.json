@@ -1,0 +1,446 @@
+{
+  "deck": "Present Tense (Presente)",
+  "cards": [
+    {
+      "en": "I speak",
+      "target": "eu falo",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "you speak",
+      "target": "tu falas",
+      "tense": "presente",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she speaks",
+      "target": "ele / ela fala",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "we speak",
+      "target": "nós falamos",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "they speak",
+      "target": "eles / elas falam",
+      "tense": "presente",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I eat",
+      "target": "eu como",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "you eat",
+      "target": "tu comes",
+      "tense": "presente",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she eats",
+      "target": "ele / ela come",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "we eat",
+      "target": "nós comemos",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "they eat",
+      "target": "eles / elas comem",
+      "tense": "presente",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I drink",
+      "target": "eu bebo",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "you drink",
+      "target": "tu bebes",
+      "tense": "presente",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she drinks",
+      "target": "ele / ela bebe",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "we drink",
+      "target": "nós bebemos",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "they drink",
+      "target": "eles / elas bebem",
+      "tense": "presente",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I work",
+      "target": "eu trabalho",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "you work",
+      "target": "tu trabalhas",
+      "tense": "presente",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she works",
+      "target": "ele / ela trabalha",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "we work",
+      "target": "nós trabalhamos",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "they work",
+      "target": "eles / elas trabalham",
+      "tense": "presente",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I see",
+      "target": "eu vejo",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "you see",
+      "target": "tu vês",
+      "tense": "presente",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she sees",
+      "target": "ele / ela vê",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "we see",
+      "target": "nós vemos",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "they see",
+      "target": "eles / elas veem",
+      "tense": "presente",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I do",
+      "target": "eu faço",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "you do",
+      "target": "tu fazes",
+      "tense": "presente",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she does",
+      "target": "ele / ela faz",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "we do",
+      "target": "nós fazemos",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "they do",
+      "target": "eles / elas fazem",
+      "tense": "presente",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I sleep",
+      "target": "eu durmo",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "you sleep",
+      "target": "tu dormes",
+      "tense": "presente",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she sleeps",
+      "target": "ele / ela dorme",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "we sleep",
+      "target": "nós dormimos",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "they sleep",
+      "target": "eles / elas dormem",
+      "tense": "presente",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I write",
+      "target": "eu escrevo",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "you write",
+      "target": "tu escreves",
+      "tense": "presente",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she writes",
+      "target": "ele / ela escreve",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "we write",
+      "target": "nós escrevemos",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "they write",
+      "target": "eles / elas escrevem",
+      "tense": "presente",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I open",
+      "target": "eu abro",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "you open",
+      "target": "tu abres",
+      "tense": "presente",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she opens",
+      "target": "ele / ela abre",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "we open",
+      "target": "nós abrimos",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "they open",
+      "target": "eles / elas abrem",
+      "tense": "presente",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I live",
+      "target": "eu vivo",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "you live",
+      "target": "tu vives",
+      "tense": "presente",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she lives",
+      "target": "ele / ela vive",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "we live",
+      "target": "nós vivemos",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "they live",
+      "target": "eles / elas vivem",
+      "tense": "presente",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I speak a little Portuguese",
+      "target": "falo um pouco",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "she works in a hospital",
+      "target": "ela trabalha num hospital",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "we eat at eight",
+      "target": "nós comemos às oito",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "they live in Lisbon",
+      "target": "eles vivem em Lisboa",
+      "tense": "presente",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I open the shop at nine",
+      "target": "abro a loja às nove",
+      "tense": "presente",
+      "level": "a2"
+    },
+    {
+      "en": "he writes to his mother",
+      "target": "ele escreve à mãe",
+      "tense": "presente",
+      "level": "a2"
+    },
+    {
+      "en": "I sleep eight hours",
+      "target": "durmo oito horas",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "do you see the sea?",
+      "target": "vês o mar?",
+      "tense": "presente",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "we do this every day",
+      "target": "fazemos isto todos os dias",
+      "tense": "presente",
+      "level": "a2"
+    },
+    {
+      "en": "she drinks coffee in the morning",
+      "target": "ela bebe café de manhã",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "I work in an office",
+      "target": "trabalho num escritório",
+      "tense": "presente",
+      "level": "a1"
+    },
+    {
+      "en": "they speak Portuguese at home",
+      "target": "eles falam português em casa",
+      "tense": "presente",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    }
+  ]
+}

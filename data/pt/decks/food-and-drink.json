@@ -570,6 +570,137 @@
       "en": "to roast",
       "target": "assar",
       "level": "a2"
+    },
+    {
+      "en": "the broccoli",
+      "target": "os brócolos",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "the pineapple",
+      "target": "o ananás",
+      "level": "a1"
+    },
+    {
+      "en": "the biscuit tin",
+      "target": "a lata de bolachas",
+      "level": "a2"
+    },
+    {
+      "en": "the almond",
+      "target": "a amêndoa",
+      "level": "a2"
+    },
+    {
+      "en": "the walnut",
+      "target": "a noz",
+      "level": "a2"
+    },
+    {
+      "en": "the cinnamon",
+      "target": "a canela",
+      "level": "a2"
+    },
+    {
+      "en": "the mint",
+      "target": "a hortelã",
+      "level": "a2"
+    },
+    {
+      "en": "the parsley",
+      "target": "a salsa",
+      "level": "a2"
+    },
+    {
+      "en": "the coriander",
+      "target": "os coentros",
+      "level": "a2",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "the honeydew",
+      "target": "o melão branco",
+      "level": "a2"
+    },
+    {
+      "en": "the fruit juice",
+      "target": "o sumo de fruta",
+      "level": "a1"
+    },
+    {
+      "en": "the hot chocolate",
+      "target": "o chocolate quente",
+      "level": "a1"
+    },
+    {
+      "en": "the iced tea",
+      "target": "o chá gelado",
+      "level": "a1"
+    },
+    {
+      "en": "the dough",
+      "target": "a massa de pão",
+      "level": "a2"
+    },
+    {
+      "en": "the sauce",
+      "target": "o molho",
+      "level": "a1"
+    },
+    {
+      "en": "the tavern",
+      "target": "a tasca",
+      "level": "a2"
+    },
+    {
+      "en": "the codfish cake",
+      "target": "o pastel de bacalhau",
+      "level": "a1"
+    },
+    {
+      "en": "the custard tart",
+      "target": "o pastel de Belém",
+      "level": "a1"
+    },
+    {
+      "en": "the grilled chicken",
+      "target": "o frango assado",
+      "level": "a1"
+    },
+    {
+      "en": "the steak",
+      "target": "o bife",
+      "level": "a1"
+    },
+    {
+      "en": "the vegetable soup",
+      "target": "a sopa de legumes",
+      "level": "a1"
+    },
+    {
+      "en": "the fresh bread",
+      "target": "o pão fresco",
+      "level": "a1"
+    },
+    {
+      "en": "half a kilo",
+      "target": "meio quilo",
+      "level": "a1"
+    },
+    {
+      "en": "a slice of cake",
+      "target": "uma fatia de bolo",
+      "level": "a1"
+    },
+    {
+      "en": "gluten-free",
+      "target": "sem glúten",
+      "level": "b1"
     }
   ]
 }

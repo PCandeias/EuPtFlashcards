@@ -1,0 +1,445 @@
+{
+  "deck": "Habitual (Geniş Zaman)",
+  "cards": [
+    {
+      "en": "I come",
+      "target": "ben gelirim",
+      "tense": "genis",
+      "level": "a1"
+    },
+    {
+      "en": "you come",
+      "target": "sen gelirsin",
+      "tense": "genis",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she comes",
+      "target": "o gelir",
+      "tense": "genis",
+      "level": "a1"
+    },
+    {
+      "en": "we come",
+      "target": "biz geliriz",
+      "tense": "genis",
+      "level": "a1"
+    },
+    {
+      "en": "you come",
+      "target": "siz gelirsiniz",
+      "tense": "genis",
+      "level": "a1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they come",
+      "target": "onlar gelirler",
+      "tense": "genis",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I go",
+      "target": "ben giderim",
+      "tense": "genis",
+      "level": "a1"
+    },
+    {
+      "en": "you go",
+      "target": "sen gidersin",
+      "tense": "genis",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she goes",
+      "target": "o gider",
+      "tense": "genis",
+      "level": "a1"
+    },
+    {
+      "en": "we go",
+      "target": "biz gideriz",
+      "tense": "genis",
+      "level": "a1"
+    },
+    {
+      "en": "you go",
+      "target": "siz gidersiniz",
+      "tense": "genis",
+      "level": "a1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they go",
+      "target": "onlar giderler",
+      "tense": "genis",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I do",
+      "target": "ben yaparım",
+      "tense": "genis",
+      "level": "a1"
+    },
+    {
+      "en": "you do",
+      "target": "sen yaparsın",
+      "tense": "genis",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she does",
+      "target": "o yapar",
+      "tense": "genis",
+      "level": "a1"
+    },
+    {
+      "en": "we do",
+      "target": "biz yaparız",
+      "tense": "genis",
+      "level": "a1"
+    },
+    {
+      "en": "you do",
+      "target": "siz yaparsınız",
+      "tense": "genis",
+      "level": "a1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they do",
+      "target": "onlar yaparlar",
+      "tense": "genis",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I eat",
+      "target": "ben yerim",
+      "tense": "genis",
+      "level": "a1"
+    },
+    {
+      "en": "you eat",
+      "target": "sen yersin",
+      "tense": "genis",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she eats",
+      "target": "o yer",
+      "tense": "genis",
+      "level": "a1"
+    },
+    {
+      "en": "we eat",
+      "target": "biz yeriz",
+      "tense": "genis",
+      "level": "a1"
+    },
+    {
+      "en": "you eat",
+      "target": "siz yersiniz",
+      "tense": "genis",
+      "level": "a1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they eat",
+      "target": "onlar yerler",
+      "tense": "genis",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I drink",
+      "target": "ben içerim",
+      "tense": "genis",
+      "level": "a1"
+    },
+    {
+      "en": "you drink",
+      "target": "sen içersin",
+      "tense": "genis",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she drinks",
+      "target": "o içer",
+      "tense": "genis",
+      "level": "a1"
+    },
+    {
+      "en": "we drink",
+      "target": "biz içeriz",
+      "tense": "genis",
+      "level": "a1"
+    },
+    {
+      "en": "you drink",
+      "target": "siz içersiniz",
+      "tense": "genis",
+      "level": "a1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they drink",
+      "target": "onlar içerler",
+      "tense": "genis",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I read",
+      "target": "ben okurum",
+      "tense": "genis",
+      "level": "a1"
+    },
+    {
+      "en": "you read",
+      "target": "sen okursun",
+      "tense": "genis",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she reads",
+      "target": "o okur",
+      "tense": "genis",
+      "level": "a1"
+    },
+    {
+      "en": "we read",
+      "target": "biz okuruz",
+      "tense": "genis",
+      "level": "a1"
+    },
+    {
+      "en": "you read",
+      "target": "siz okursunuz",
+      "tense": "genis",
+      "level": "a1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they read",
+      "target": "onlar okurlar",
+      "tense": "genis",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I work",
+      "target": "ben çalışırım",
+      "tense": "genis",
+      "level": "a1"
+    },
+    {
+      "en": "you work",
+      "target": "sen çalışırsın",
+      "tense": "genis",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she works",
+      "target": "o çalışır",
+      "tense": "genis",
+      "level": "a1"
+    },
+    {
+      "en": "we work",
+      "target": "biz çalışırız",
+      "tense": "genis",
+      "level": "a1"
+    },
+    {
+      "en": "you work",
+      "target": "siz çalışırsınız",
+      "tense": "genis",
+      "level": "a1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they work",
+      "target": "onlar çalışırlar",
+      "tense": "genis",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I want",
+      "target": "ben isterim",
+      "tense": "genis",
+      "level": "a1"
+    },
+    {
+      "en": "you want",
+      "target": "sen istersin",
+      "tense": "genis",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she wants",
+      "target": "o ister",
+      "tense": "genis",
+      "level": "a1"
+    },
+    {
+      "en": "we want",
+      "target": "biz isteriz",
+      "tense": "genis",
+      "level": "a1"
+    },
+    {
+      "en": "you want",
+      "target": "siz istersiniz",
+      "tense": "genis",
+      "level": "a1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they want",
+      "target": "onlar isterler",
+      "tense": "genis",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I drink tea every morning",
+      "target": "Her sabah çay içerim",
+      "tense": "genis",
+      "level": "a2"
+    },
+    {
+      "en": "I usually get up early",
+      "target": "Genelde erken kalkarım",
+      "tense": "genis",
+      "level": "a2"
+    },
+    {
+      "en": "we get up late at the weekend",
+      "target": "Hafta sonu geç kalkarız",
+      "tense": "genis",
+      "level": "a2"
+    },
+    {
+      "en": "Turks drink a lot of tea",
+      "target": "Türkler çok çay içer",
+      "tense": "genis",
+      "level": "a2"
+    },
+    {
+      "en": "I sometimes go to the cinema",
+      "target": "Bazen sinemaya giderim",
+      "tense": "genis",
+      "level": "a2"
+    },
+    {
+      "en": "I will help",
+      "target": "Yardım ederim",
+      "tense": "genis",
+      "level": "a2"
+    },
+    {
+      "en": "it snows in winter",
+      "target": "Kışın kar yağar",
+      "tense": "genis",
+      "level": "a2"
+    },
+    {
+      "en": "I have breakfast every day",
+      "target": "Her gün kahvaltı yaparım",
+      "tense": "genis",
+      "level": "a2"
+    },
+    {
+      "en": "this train leaves at three",
+      "target": "Bu tren saat üçte kalkar",
+      "tense": "genis",
+      "level": "a2"
+    },
+    {
+      "en": "I read in the evenings",
+      "target": "Akşamları kitap okurum",
+      "tense": "genis",
+      "level": "a2"
+    },
+    {
+      "en": "I like fish",
+      "target": "Balık severim",
+      "tense": "genis",
+      "level": "a2"
+    },
+    {
+      "en": "I understand this",
+      "target": "Bunu anlarım",
+      "tense": "genis",
+      "level": "a2"
+    }
+  ]
+}

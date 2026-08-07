@@ -286,6 +286,47 @@
       "en": "leave me alone",
       "target": "deixe-me em paz",
       "level": "a2"
+    },
+    {
+      "en": "I do not understand you",
+      "target": "não o compreendo",
+      "tense": "presente",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "can you help me with this?",
+      "target": "pode ajudar-me com isto?",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "where can I find a taxi?",
+      "target": "onde posso encontrar um táxi?",
+      "level": "a1"
+    },
+    {
+      "en": "is it far from here?",
+      "target": "fica longe daqui?",
+      "level": "a1"
+    },
+    {
+      "en": "I am looking for this address",
+      "target": "procuro esta morada",
+      "tense": "presente",
+      "level": "a2"
+    },
+    {
+      "en": "can you write it down?",
+      "target": "pode escrever isso?",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ]
     }
   ]
 }

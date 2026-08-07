@@ -236,6 +236,59 @@
       "en": "there is no signal",
       "target": "não há rede",
       "level": "a1"
+    },
+    {
+      "en": "the keyboard",
+      "target": "o teclado do computador",
+      "level": "a1"
+    },
+    {
+      "en": "the mouse",
+      "target": "o rato do computador",
+      "level": "a1"
+    },
+    {
+      "en": "the software",
+      "target": "o programa",
+      "level": "a2"
+    },
+    {
+      "en": "social media",
+      "target": "as redes sociais",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "online",
+      "target": "em linha",
+      "level": "a2"
+    },
+    {
+      "en": "wireless",
+      "target": "sem fios",
+      "level": "a2"
+    },
+    {
+      "en": "the calculator",
+      "target": "a calculadora",
+      "level": "a2"
+    },
+    {
+      "en": "the smartwatch",
+      "target": "o relógio inteligente",
+      "level": "a2"
+    },
+    {
+      "en": "the screenshot",
+      "target": "a captura de ecrã",
+      "level": "b1"
+    },
+    {
+      "en": "the charger cable",
+      "target": "o cabo do carregador",
+      "level": "a1"
     }
   ]
 }

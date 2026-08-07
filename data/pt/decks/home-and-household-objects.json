@@ -410,6 +410,106 @@
       "en": "the hanger",
       "target": "o cabide",
       "level": "a2"
+    },
+    {
+      "en": "the bedroom",
+      "target": "o quarto de dormir",
+      "level": "a1"
+    },
+    {
+      "en": "the living room",
+      "target": "a sala de estar",
+      "level": "a1"
+    },
+    {
+      "en": "the study",
+      "target": "o escritório de casa",
+      "level": "a2"
+    },
+    {
+      "en": "the electricity",
+      "target": "a eletricidade",
+      "level": "a2"
+    },
+    {
+      "en": "the rent",
+      "target": "a renda",
+      "level": "a2"
+    },
+    {
+      "en": "the landlord",
+      "target": "o senhorio",
+      "level": "a2"
+    },
+    {
+      "en": "the vase",
+      "target": "a jarra",
+      "level": "a2"
+    },
+    {
+      "en": "the plant pot",
+      "target": "o vaso",
+      "level": "a2"
+    },
+    {
+      "en": "the bedside table",
+      "target": "a mesa de cabeceira",
+      "level": "a2"
+    },
+    {
+      "en": "the furniture",
+      "target": "a mobília",
+      "level": "a1"
+    },
+    {
+      "en": "the bookcase",
+      "target": "a estante",
+      "level": "a1"
+    },
+    {
+      "en": "the scissors",
+      "target": "a tesoura de cozinha",
+      "level": "a1"
+    },
+    {
+      "en": "the comb",
+      "target": "o pente de cabelo",
+      "level": "a1"
+    },
+    {
+      "en": "the envelope",
+      "target": "o envelope",
+      "level": "a1"
+    },
+    {
+      "en": "the stamp",
+      "target": "o selo",
+      "level": "a1"
+    },
+    {
+      "en": "the needle",
+      "target": "a agulha",
+      "level": "a2"
+    },
+    {
+      "en": "the glue",
+      "target": "a cola",
+      "level": "a2"
+    },
+    {
+      "en": "the hammer",
+      "target": "o martelo",
+      "level": "a2"
+    },
+    {
+      "en": "the nail",
+      "target": "o prego",
+      "level": "a2"
+    },
+    {
+      "en": "the rope",
+      "target": "a corda",
+      "level": "a2"
     }
   ]
 }

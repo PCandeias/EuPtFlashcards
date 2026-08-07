@@ -165,6 +165,111 @@
       "en": "to take notes",
       "target": "not almak",
       "level": "a2"
+    },
+    {
+      "en": "career",
+      "target": "kariyer",
+      "level": "a2"
+    },
+    {
+      "en": "working hours",
+      "target": "mesai",
+      "level": "b1"
+    },
+    {
+      "en": "leave",
+      "target": "izin",
+      "level": "a2"
+    },
+    {
+      "en": "retired",
+      "target": "emekli",
+      "level": "a2"
+    },
+    {
+      "en": "unemployed",
+      "target": "işsiz",
+      "level": "a2"
+    },
+    {
+      "en": "CV",
+      "target": "özgeçmiş",
+      "level": "b1"
+    },
+    {
+      "en": "diploma",
+      "target": "diploma",
+      "level": "a2"
+    },
+    {
+      "en": "graduate",
+      "target": "mezun",
+      "level": "a2"
+    },
+    {
+      "en": "classroom",
+      "target": "sınıf",
+      "level": "a1"
+    },
+    {
+      "en": "eraser",
+      "target": "silgi",
+      "level": "a1"
+    },
+    {
+      "en": "ruler",
+      "target": "cetvel",
+      "level": "a1"
+    },
+    {
+      "en": "maths",
+      "target": "matematik",
+      "level": "a1"
+    },
+    {
+      "en": "geography",
+      "target": "coğrafya",
+      "level": "a2"
+    },
+    {
+      "en": "work desk",
+      "target": "çalışma masası",
+      "level": "a1"
+    },
+    {
+      "en": "school bag",
+      "target": "okul çantası",
+      "level": "a1"
+    },
+    {
+      "en": "school bell",
+      "target": "okul zili",
+      "level": "a1"
+    },
+    {
+      "en": "break time",
+      "target": "ara",
+      "level": "a1"
+    },
+    {
+      "en": "first lesson",
+      "target": "ilk ders",
+      "level": "a1"
+    },
+    {
+      "en": "group work",
+      "target": "grup çalışması",
+      "level": "a2"
+    },
+    {
+      "en": "final exam",
+      "target": "final sınavı",
+      "level": "a2"
+    },
+    {
+      "en": "school year",
+      "target": "ders yılı",
+      "level": "a2"
     }
   ]
 }

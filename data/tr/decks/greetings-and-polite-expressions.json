@@ -267,6 +267,100 @@
       "en": "take care",
       "target": "kendine iyi bak",
       "level": "a1"
+    },
+    {
+      "en": "may it be easy",
+      "target": "Kolay gelsin",
+      "level": "a2",
+      "sense": "to someone at work"
+    },
+    {
+      "en": "get well soon",
+      "target": "Geçmiş olsun",
+      "level": "a1"
+    },
+    {
+      "en": "thank you for the meal",
+      "target": "Elinize sağlık",
+      "level": "a2",
+      "sense": "to whoever cooked"
+    },
+    {
+      "en": "goodbye",
+      "target": "Güle güle",
+      "level": "a1",
+      "sense": "said by the one staying"
+    },
+    {
+      "en": "thanks",
+      "target": "Sağ ol",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "have a good day at work",
+      "target": "İyi çalışmalar",
+      "level": "a2"
+    },
+    {
+      "en": "how is it going?",
+      "target": "Nasıl gidiyor?",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "what's new?",
+      "target": "Ne var ne yok?",
+      "level": "a2"
+    },
+    {
+      "en": "it has been a long time",
+      "target": "Uzun zaman oldu",
+      "level": "a2"
+    },
+    {
+      "en": "have fun",
+      "target": "İyi eğlenceler",
+      "level": "a2"
+    },
+    {
+      "en": "goodbye",
+      "target": "Allah'a ısmarladık",
+      "level": "a2",
+      "sense": "said by the one leaving"
+    },
+    {
+      "en": "take care",
+      "target": "Kendinize iyi bakın",
+      "level": "a2",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "good luck with the exam",
+      "target": "Sınavda başarılar",
+      "level": "a2"
+    },
+    {
+      "en": "see you on Monday",
+      "target": "Pazartesi görüşürüz",
+      "level": "a1"
+    },
+    {
+      "en": "welcome home",
+      "target": "Eve hoş geldin",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "I am pleased to hear it",
+      "target": "Buna sevindim",
+      "level": "a2"
     }
   ]
 }

@@ -383,6 +383,156 @@
       "en": "hanger",
       "target": "askı",
       "level": "a2"
+    },
+    {
+      "en": "bedroom",
+      "target": "yatak odası",
+      "level": "a1"
+    },
+    {
+      "en": "living room",
+      "target": "oturma odası",
+      "level": "a1"
+    },
+    {
+      "en": "study",
+      "target": "çalışma odası",
+      "level": "a2"
+    },
+    {
+      "en": "garage",
+      "target": "garaj",
+      "level": "a1"
+    },
+    {
+      "en": "attic",
+      "target": "çatı katı",
+      "level": "a2"
+    },
+    {
+      "en": "electricity",
+      "target": "elektrik",
+      "level": "a2"
+    },
+    {
+      "en": "rent",
+      "target": "kira",
+      "level": "a2"
+    },
+    {
+      "en": "landlord",
+      "target": "ev sahibi",
+      "level": "a2"
+    },
+    {
+      "en": "vase",
+      "target": "vazo",
+      "level": "a2"
+    },
+    {
+      "en": "plant pot",
+      "target": "saksı",
+      "level": "a2"
+    },
+    {
+      "en": "candle",
+      "target": "mum",
+      "level": "a1"
+    },
+    {
+      "en": "bedside table",
+      "target": "komodin",
+      "level": "a2"
+    },
+    {
+      "en": "furniture",
+      "target": "mobilya",
+      "level": "a1"
+    },
+    {
+      "en": "bookcase",
+      "target": "kitaplık",
+      "level": "a1"
+    },
+    {
+      "en": "chandelier",
+      "target": "avize",
+      "level": "a2"
+    },
+    {
+      "en": "door handle",
+      "target": "kapı kolu",
+      "level": "a2"
+    },
+    {
+      "en": "bin bag",
+      "target": "çöp poşeti",
+      "level": "a2"
+    },
+    {
+      "en": "bedspread",
+      "target": "yatak örtüsü",
+      "level": "a2"
+    },
+    {
+      "en": "scissors",
+      "target": "makas",
+      "level": "a1"
+    },
+    {
+      "en": "comb",
+      "target": "tarak",
+      "level": "a1"
+    },
+    {
+      "en": "handkerchief",
+      "target": "mendil",
+      "level": "a1"
+    },
+    {
+      "en": "envelope",
+      "target": "zarf",
+      "level": "a1"
+    },
+    {
+      "en": "stamp",
+      "target": "pul",
+      "level": "a1"
+    },
+    {
+      "en": "box",
+      "target": "kutu",
+      "level": "a1"
+    },
+    {
+      "en": "needle",
+      "target": "iğne",
+      "level": "a1"
+    },
+    {
+      "en": "glue",
+      "target": "yapıştırıcı",
+      "level": "a2"
+    },
+    {
+      "en": "pencil sharpener",
+      "target": "kalemtıraş",
+      "level": "a1"
+    },
+    {
+      "en": "rope",
+      "target": "halat",
+      "level": "a2"
+    },
+    {
+      "en": "nail",
+      "target": "çivi",
+      "level": "a2"
+    },
+    {
+      "en": "hammer",
+      "target": "çekiç",
+      "level": "a2"
     }
   ]
 }

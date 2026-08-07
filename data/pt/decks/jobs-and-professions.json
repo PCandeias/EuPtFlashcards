@@ -1,0 +1,189 @@
+{
+  "deck": "Jobs & Professions",
+  "cards": [
+    {
+      "en": "lawyer",
+      "target": "o advogado / a advogada",
+      "level": "a1"
+    },
+    {
+      "en": "architect",
+      "target": "o arquiteto / a arquiteta",
+      "level": "a1"
+    },
+    {
+      "en": "firefighter",
+      "target": "o bombeiro / a bombeira",
+      "level": "a1"
+    },
+    {
+      "en": "pilot",
+      "target": "o piloto / a pilota",
+      "level": "a1"
+    },
+    {
+      "en": "flight attendant",
+      "target": "o assistente de bordo",
+      "level": "a2"
+    },
+    {
+      "en": "civil servant",
+      "target": "o funcionário público",
+      "level": "a2"
+    },
+    {
+      "en": "secretary",
+      "target": "o secretário / a secretária",
+      "level": "a1"
+    },
+    {
+      "en": "journalist",
+      "target": "o jornalista / a jornalista",
+      "level": "a1"
+    },
+    {
+      "en": "photographer",
+      "target": "o fotógrafo / a fotógrafa",
+      "level": "a1"
+    },
+    {
+      "en": "farmer",
+      "target": "o agricultor / a agricultora",
+      "level": "a1"
+    },
+    {
+      "en": "fisherman",
+      "target": "o pescador",
+      "level": "a1"
+    },
+    {
+      "en": "gardener",
+      "target": "o jardineiro / a jardineira",
+      "level": "a2"
+    },
+    {
+      "en": "electrician",
+      "target": "o eletricista",
+      "level": "a2"
+    },
+    {
+      "en": "plumber",
+      "target": "o canalizador",
+      "level": "a2"
+    },
+    {
+      "en": "postman",
+      "target": "o carteiro",
+      "level": "a1"
+    },
+    {
+      "en": "soldier",
+      "target": "o soldado",
+      "level": "a1"
+    },
+    {
+      "en": "pharmacist",
+      "target": "o farmacêutico / a farmacêutica",
+      "level": "a1"
+    },
+    {
+      "en": "psychologist",
+      "target": "o psicólogo / a psicóloga",
+      "level": "a2"
+    },
+    {
+      "en": "writer",
+      "target": "o escritor / a escritora",
+      "level": "a1"
+    },
+    {
+      "en": "musician",
+      "target": "o músico / a música",
+      "level": "a1"
+    },
+    {
+      "en": "singer",
+      "target": "o cantor / a cantora",
+      "level": "a1"
+    },
+    {
+      "en": "actor",
+      "target": "o ator / a atriz",
+      "level": "a1"
+    },
+    {
+      "en": "artist",
+      "target": "o artista / a artista",
+      "level": "a1"
+    },
+    {
+      "en": "designer",
+      "target": "o designer",
+      "level": "a2"
+    },
+    {
+      "en": "programmer",
+      "target": "o programador / a programadora",
+      "level": "a2"
+    },
+    {
+      "en": "businessman",
+      "target": "o empresário / a empresária",
+      "level": "a2"
+    },
+    {
+      "en": "mechanic",
+      "target": "o mecânico",
+      "level": "a1"
+    },
+    {
+      "en": "baker",
+      "target": "o padeiro / a padeira",
+      "level": "a1"
+    },
+    {
+      "en": "butcher",
+      "target": "o talhante",
+      "level": "a2"
+    },
+    {
+      "en": "cook",
+      "target": "o cozinheiro / a cozinheira",
+      "level": "a1"
+    },
+    {
+      "en": "cleaner",
+      "target": "o empregado de limpeza",
+      "level": "a2"
+    },
+    {
+      "en": "security guard",
+      "target": "o segurança",
+      "level": "a2"
+    },
+    {
+      "en": "receptionist",
+      "target": "o rececionista / a rececionista",
+      "level": "a2"
+    },
+    {
+      "en": "translator",
+      "target": "o tradutor / a tradutora",
+      "level": "a2"
+    },
+    {
+      "en": "what do you do for a living?",
+      "target": "o que é que faz?",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "I am a teacher",
+      "target": "sou professor / sou professora",
+      "tense": "presente",
+      "level": "a1"
+    }
+  ]
+}
