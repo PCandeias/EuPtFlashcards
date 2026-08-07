@@ -94,7 +94,7 @@
   }
 </script>
 
-<div class="reference">
+<div class="reference" lang="en">
   <header>
     <div class="titles">
       <button class="switch" onclick={onleave} title="Choose another language">

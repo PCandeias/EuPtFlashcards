@@ -19,6 +19,16 @@
       "target": "O carro será grande.",
       "en": "The car will be big.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar grande.",
+      "en": "It is getting big.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar grande.",
+      "en": "It is going to get big.",
+      "tense": "futuroProximo"
     }
   ],
   "pequeno / pequena": [
@@ -41,6 +51,16 @@
       "target": "O carro será pequeno.",
       "en": "The car will be small.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar pequeno.",
+      "en": "It is getting small.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar pequeno.",
+      "en": "It is going to get small.",
+      "tense": "futuroProximo"
     }
   ],
   "bom / boa": [
@@ -63,6 +83,16 @@
       "target": "O livro será bom.",
       "en": "The book will be good.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar bom.",
+      "en": "It is getting good.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar bom.",
+      "en": "It is going to get good.",
+      "tense": "futuroProximo"
     }
   ],
   "mau / má": [
@@ -85,6 +115,16 @@
       "target": "O tempo estará mau.",
       "en": "The weather will be bad.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar mau.",
+      "en": "It is getting bad.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar mau.",
+      "en": "It is going to get bad.",
+      "tense": "futuroProximo"
     }
   ],
   "bonito / bonita": [
@@ -107,6 +147,16 @@
       "target": "O jardim será bonito.",
       "en": "The garden will be beautiful.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar bonito.",
+      "en": "It is getting beautiful.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar bonito.",
+      "en": "It is going to get beautiful.",
+      "tense": "futuroProximo"
     }
   ],
   "feio / feia": [
@@ -129,6 +179,16 @@
       "target": "O edifício será feio.",
       "en": "The building will be ugly.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar feio.",
+      "en": "It is getting ugly.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar feio.",
+      "en": "It is going to get ugly.",
+      "tense": "futuroProximo"
     }
   ],
   "novo / nova": [
@@ -195,6 +255,16 @@
       "target": "O professor será jovem.",
       "en": "The teacher will be young.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar jovem.",
+      "en": "It is getting young.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar jovem.",
+      "en": "It is going to get young.",
+      "tense": "futuroProximo"
     }
   ],
   "idoso / idosa": [
@@ -217,6 +287,16 @@
       "target": "O vizinho será idoso.",
       "en": "The neighbour will be elderly.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar idoso.",
+      "en": "It is getting elderly.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar idoso.",
+      "en": "It is going to get elderly.",
+      "tense": "futuroProximo"
     }
   ],
   "fácil": [
@@ -239,6 +319,16 @@
       "target": "O exercício será fácil.",
       "en": "The exercise will be easy.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar fácil.",
+      "en": "It is getting easy.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar fácil.",
+      "en": "It is going to get easy.",
+      "tense": "futuroProximo"
     }
   ],
   "difícil": [
@@ -261,6 +351,16 @@
       "target": "O exame será difícil.",
       "en": "The exam will be difficult.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar difícil.",
+      "en": "It is getting difficult.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar difícil.",
+      "en": "It is going to get difficult.",
+      "tense": "futuroProximo"
     }
   ],
   "rápido / rápida": [
@@ -283,6 +383,16 @@
       "target": "O comboio será rápido.",
       "en": "The train will be fast.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar rápido.",
+      "en": "It is getting fast.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar rápido.",
+      "en": "It is going to get fast.",
+      "tense": "futuroProximo"
     }
   ],
   "lento / lenta": [
@@ -305,6 +415,16 @@
       "target": "O autocarro será lento.",
       "en": "The bus will be slow.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar lento.",
+      "en": "It is getting slow.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar lento.",
+      "en": "It is going to get slow.",
+      "tense": "futuroProximo"
     }
   ],
   "rico / rica": [
@@ -327,6 +447,16 @@
       "target": "O país será rico.",
       "en": "The country will be rich.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar rico.",
+      "en": "It is getting rich.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar rico.",
+      "en": "It is going to get rich.",
+      "tense": "futuroProximo"
     }
   ],
   "pobre": [
@@ -349,6 +479,16 @@
       "target": "O bairro será pobre.",
       "en": "The neighbourhood will be poor.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar pobre.",
+      "en": "It is getting poor.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar pobre.",
+      "en": "It is going to get poor.",
+      "tense": "futuroProximo"
     }
   ],
   "pesado / pesada": [
@@ -371,6 +511,16 @@
       "target": "O saco estará pesado.",
       "en": "The bag will be heavy.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar pesado.",
+      "en": "It is getting heavy.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar pesado.",
+      "en": "It is going to get heavy.",
+      "tense": "futuroProximo"
     }
   ],
   "leve": [
@@ -393,6 +543,16 @@
       "target": "O casaco será leve.",
       "en": "The jacket will be light.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar leve.",
+      "en": "It is getting light.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar leve.",
+      "en": "It is going to get light.",
+      "tense": "futuroProximo"
     }
   ],
   "certo / certa": [
@@ -415,6 +575,16 @@
       "target": "O número estará certo.",
       "en": "The number will be right.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar certo.",
+      "en": "It is getting correct.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar certo.",
+      "en": "It is going to get correct.",
+      "tense": "futuroProximo"
     }
   ],
   "errado / errada": [
@@ -437,6 +607,16 @@
       "target": "O número estará errado.",
       "en": "The number will be wrong.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar errado.",
+      "en": "It is getting wrong.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar errado.",
+      "en": "It is going to get wrong.",
+      "tense": "futuroProximo"
     }
   ],
   "feliz": [
@@ -459,6 +639,16 @@
       "target": "O meu irmão estará feliz.",
       "en": "My brother will be happy.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar feliz.",
+      "en": "It is getting happy.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar feliz.",
+      "en": "It is going to get happy.",
+      "tense": "futuroProximo"
     }
   ],
   "triste": [
@@ -481,6 +671,16 @@
       "target": "O meu amigo estará triste.",
       "en": "My friend will be sad.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar triste.",
+      "en": "It is getting sad.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar triste.",
+      "en": "It is going to get sad.",
+      "tense": "futuroProximo"
     }
   ],
   "zangado / zangada": [
@@ -503,6 +703,16 @@
       "target": "O chefe estará zangado.",
       "en": "The boss will be angry.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar zangado.",
+      "en": "It is getting angry.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar zangado.",
+      "en": "It is going to get angry.",
+      "tense": "futuroProximo"
     }
   ],
   "calmo / calma": [
@@ -525,6 +735,16 @@
       "target": "O mar estará calmo.",
       "en": "The sea will be calm.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar calmo.",
+      "en": "It is getting calm.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar calmo.",
+      "en": "It is going to get calm.",
+      "tense": "futuroProximo"
     }
   ],
   "pronto / pronta": [
@@ -547,6 +767,16 @@
       "target": "O jantar estará pronto.",
       "en": "Dinner will be ready.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar pronto.",
+      "en": "It is getting ready.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar pronto.",
+      "en": "It is going to get ready.",
+      "tense": "futuroProximo"
     }
   ],
   "ocupado / ocupada": [
@@ -569,6 +799,16 @@
       "target": "O lugar estará ocupado.",
       "en": "The seat will be taken.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar ocupado.",
+      "en": "It is getting busy.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar ocupado.",
+      "en": "It is going to get busy.",
+      "tense": "futuroProximo"
     }
   ],
   "livre": [
@@ -591,6 +831,16 @@
       "target": "O quarto estará livre.",
       "en": "The room will be free.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar livre.",
+      "en": "It is getting free.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar livre.",
+      "en": "It is going to get free.",
+      "tense": "futuroProximo"
     }
   ],
   "perigoso / perigosa": [
@@ -613,6 +863,16 @@
       "target": "O caminho será perigoso.",
       "en": "The path will be dangerous.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar perigoso.",
+      "en": "It is getting dangerous.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar perigoso.",
+      "en": "It is going to get dangerous.",
+      "tense": "futuroProximo"
     }
   ],
   "seguro / segura": [
@@ -635,6 +895,16 @@
       "target": "O bairro será seguro.",
       "en": "The neighbourhood will be safe.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar seguro.",
+      "en": "It is getting safe.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar seguro.",
+      "en": "It is going to get safe.",
+      "tense": "futuroProximo"
     }
   ],
   "importante": [
@@ -657,6 +927,16 @@
       "target": "O trabalho será importante.",
       "en": "The work will be important.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar importante.",
+      "en": "It is getting important.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar importante.",
+      "en": "It is going to get important.",
+      "tense": "futuroProximo"
     }
   ],
   "igual": [
@@ -679,6 +959,16 @@
       "target": "O preço será igual.",
       "en": "The price will be the same.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar igual.",
+      "en": "It is getting same.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar igual.",
+      "en": "It is going to get same.",
+      "tense": "futuroProximo"
     }
   ],
   "diferente": [
@@ -701,6 +991,16 @@
       "target": "O sabor será diferente.",
       "en": "The flavour will be different.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar diferente.",
+      "en": "It is getting different.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar diferente.",
+      "en": "It is going to get different.",
+      "tense": "futuroProximo"
     }
   ],
   "possível": [
@@ -723,6 +1023,16 @@
       "target": "O horário será possível.",
       "en": "The schedule will be possible.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar possível.",
+      "en": "It is getting possible.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar possível.",
+      "en": "It is going to get possible.",
+      "tense": "futuroProximo"
     }
   ],
   "impossível": [
@@ -745,6 +1055,16 @@
       "target": "O horário será impossível.",
       "en": "The schedule will be impossible.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar impossível.",
+      "en": "It is getting impossible.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar impossível.",
+      "en": "It is going to get impossible.",
+      "tense": "futuroProximo"
     }
   ],
   "estranho / estranha": [
@@ -767,6 +1087,16 @@
       "target": "O barulho será estranho.",
       "en": "The noise will be strange.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar estranho.",
+      "en": "It is getting strange.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar estranho.",
+      "en": "It is going to get strange.",
+      "tense": "futuroProximo"
     }
   ],
   "escuro / escura": [
@@ -789,6 +1119,16 @@
       "target": "O quarto estará escuro.",
       "en": "The room will be dark.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar escuro.",
+      "en": "It is getting dark.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar escuro.",
+      "en": "It is going to get dark.",
+      "tense": "futuroProximo"
     }
   ],
   "claro / clara": [
@@ -811,6 +1151,16 @@
       "target": "O dia estará claro.",
       "en": "The day will be bright.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar claro.",
+      "en": "It is getting bright.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar claro.",
+      "en": "It is going to get bright.",
+      "tense": "futuroProximo"
     }
   ],
   "duro / dura": [
@@ -833,6 +1183,16 @@
       "target": "O pão estará duro.",
       "en": "The bread will be hard.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar duro.",
+      "en": "It is getting hard.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar duro.",
+      "en": "It is going to get hard.",
+      "tense": "futuroProximo"
     }
   ],
   "macio / macia": [
@@ -855,6 +1215,16 @@
       "target": "O cobertor será macio.",
       "en": "The blanket will be soft.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar macio.",
+      "en": "It is getting soft.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar macio.",
+      "en": "It is going to get soft.",
+      "tense": "futuroProximo"
     }
   ],
   "seco / seca": [
@@ -877,6 +1247,16 @@
       "target": "O chão estará seco.",
       "en": "The floor will be dry.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar seco.",
+      "en": "It is getting dry.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar seco.",
+      "en": "It is going to get dry.",
+      "tense": "futuroProximo"
     }
   ],
   "molhado / molhada": [
@@ -899,6 +1279,16 @@
       "target": "O chão estará molhado.",
       "en": "The floor will be wet.",
       "tense": "futuro"
+    },
+    {
+      "target": "Está a ficar molhado.",
+      "en": "It is getting wet.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Vai ficar molhado.",
+      "en": "It is going to get wet.",
+      "tense": "futuroProximo"
     }
   ],
   "limpo / limpa": [
@@ -40237,6 +40627,3425 @@
       "target": "Vou falar do exame final.",
       "en": "I am going to talk about the final exam.",
       "tense": "futuroProximo"
+    }
+  ],
+  "me": [
+    {
+      "target": "Ele deu-me o livro.",
+      "en": "He gave me the book.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Ela viu-me na rua.",
+      "en": "She saw me in the street.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Podes ajudar-me?",
+      "en": "Can you help me?",
+      "tense": "presente"
+    }
+  ],
+  "te": [
+    {
+      "target": "Eu vi-te ontem.",
+      "en": "I saw you yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Escrevo-te amanhã.",
+      "en": "I will write to you tomorrow.",
+      "tense": "presente"
+    },
+    {
+      "target": "Ele disse-te a verdade.",
+      "en": "He told you the truth.",
+      "tense": "perfeito"
+    }
+  ],
+  "o": [
+    {
+      "target": "Eu conheço-o bem.",
+      "en": "I know him well.",
+      "tense": "presente"
+    },
+    {
+      "target": "Vou vê-lo amanhã.",
+      "en": "I am going to see him tomorrow.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ela chamou-o ontem.",
+      "en": "She called him yesterday.",
+      "tense": "perfeito"
+    }
+  ],
+  "a": [
+    {
+      "target": "Eu conheço-a bem.",
+      "en": "I know her well.",
+      "tense": "presente"
+    },
+    {
+      "target": "Ele ajudou-a com o trabalho.",
+      "en": "He helped her with the work.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Nós vimo-la na praia.",
+      "en": "We saw her at the beach.",
+      "tense": "perfeito"
+    }
+  ],
+  "nos": [
+    {
+      "target": "Eles ajudaram-nos muito.",
+      "en": "They helped us a lot.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "O professor deu-nos um livro.",
+      "en": "The teacher gave us a book.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Ela conhece-nos há anos.",
+      "en": "She has known us for years.",
+      "tense": "presente"
+    }
+  ],
+  "vos": [
+    {
+      "target": "Eu escrevo-vos hoje.",
+      "en": "I am writing to you today.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eles esperaram-vos na estação.",
+      "en": "They waited for you at the station.",
+      "tense": "perfeito"
+    }
+  ],
+  "os": [
+    {
+      "target": "Eu vi-os no café.",
+      "en": "I saw them at the café.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Ela conhece-os desde criança.",
+      "en": "She has known them since childhood.",
+      "tense": "presente"
+    }
+  ],
+  "as": [
+    {
+      "target": "Eu vi-as no mercado.",
+      "en": "I saw them at the market.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Ele comprou-as ontem.",
+      "en": "He bought them yesterday.",
+      "tense": "perfeito"
+    }
+  ],
+  "lhe": [
+    {
+      "target": "Eu dei-lhe o dinheiro.",
+      "en": "I gave him the money.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Ela disse-lhe a verdade.",
+      "en": "She told him the truth.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Vou telefonar-lhe amanhã.",
+      "en": "I am going to call him tomorrow.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "lhes": [
+    {
+      "target": "Eu respondo-lhes sempre.",
+      "en": "I always answer them.",
+      "tense": "presente"
+    },
+    {
+      "target": "Ele deu-lhes um presente.",
+      "en": "He gave them a present.",
+      "tense": "perfeito"
+    }
+  ],
+  "mas": [
+    {
+      "target": "Quero ir, mas não posso.",
+      "en": "I want to go, but I cannot.",
+      "tense": "presente"
+    },
+    {
+      "target": "É caro, mas é bom.",
+      "en": "It is expensive, but it is good.",
+      "tense": "presente"
+    }
+  ],
+  "com": [
+    {
+      "target": "Vou com o meu irmão.",
+      "en": "I am going with my brother.",
+      "tense": "presente"
+    },
+    {
+      "target": "Bebo café com leite.",
+      "en": "I drink coffee with milk.",
+      "tense": "presente"
+    }
+  ],
+  "sem": [
+    {
+      "target": "Bebo o café sem açúcar.",
+      "en": "I drink my coffee without sugar.",
+      "tense": "presente"
+    },
+    {
+      "target": "Saí sem o casaco.",
+      "en": "I went out without my coat.",
+      "tense": "perfeito"
+    }
+  ],
+  "agora": [
+    {
+      "target": "Agora estou a trabalhar.",
+      "en": "I am working now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Não posso falar agora.",
+      "en": "I cannot talk now.",
+      "tense": "presente"
+    }
+  ],
+  "no": [
+    {
+      "target": "O livro está no quarto.",
+      "en": "The book is in the bedroom.",
+      "tense": "presente"
+    },
+    {
+      "target": "Trabalho no hospital.",
+      "en": "I work at the hospital.",
+      "tense": "presente"
+    }
+  ],
+  "na": [
+    {
+      "target": "A chave está na mesa.",
+      "en": "The key is on the table.",
+      "tense": "presente"
+    },
+    {
+      "target": "Moro na cidade.",
+      "en": "I live in the city.",
+      "tense": "presente"
+    }
+  ],
+  "para": [
+    {
+      "target": "Este café é para ti.",
+      "en": "This coffee is for you.",
+      "tense": "presente"
+    },
+    {
+      "target": "Vou para casa.",
+      "en": "I am going home.",
+      "tense": "presente"
+    }
+  ],
+  "onde": [
+    {
+      "target": "Onde está a estação?",
+      "en": "Where is the station?",
+      "tense": "presente"
+    },
+    {
+      "target": "Não sei onde ele mora.",
+      "en": "I do not know where he lives.",
+      "tense": "presente"
+    }
+  ],
+  "até": [
+    {
+      "target": "Trabalho até às seis.",
+      "en": "I work until six.",
+      "tense": "presente"
+    },
+    {
+      "target": "Fico aqui até amanhã.",
+      "en": "I am staying here until tomorrow.",
+      "tense": "presente"
+    }
+  ],
+  "entre": [
+    {
+      "target": "A farmácia fica entre o banco e o café.",
+      "en": "The pharmacy is between the bank and the café.",
+      "tense": "presente"
+    }
+  ],
+  "ainda": [
+    {
+      "target": "Ainda não comi.",
+      "en": "I have not eaten yet.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Ele ainda está a dormir.",
+      "en": "He is still sleeping.",
+      "tense": "presenteContinuo"
+    }
+  ],
+  "porque": [
+    {
+      "target": "Não vou porque estou doente.",
+      "en": "I am not going because I am ill.",
+      "tense": "presente"
+    }
+  ],
+  "também": [
+    {
+      "target": "Eu também falo inglês.",
+      "en": "I speak English too.",
+      "tense": "presente"
+    },
+    {
+      "target": "Ela também vem.",
+      "en": "She is coming too.",
+      "tense": "presente"
+    }
+  ],
+  "nem": [
+    {
+      "target": "Não bebo café nem chá.",
+      "en": "I drink neither coffee nor tea.",
+      "tense": "presente"
+    }
+  ],
+  "enquanto": [
+    {
+      "target": "Ouço música enquanto trabalho.",
+      "en": "I listen to music while I work.",
+      "tense": "presente"
+    }
+  ],
+  "depois": [
+    {
+      "target": "Falamos depois.",
+      "en": "We will talk later.",
+      "tense": "presente"
+    },
+    {
+      "target": "Depois fui para casa.",
+      "en": "Afterwards I went home.",
+      "tense": "perfeito"
+    }
+  ],
+  "antes de": [
+    {
+      "target": "Tomo o pequeno-almoço antes de sair.",
+      "en": "I have breakfast before going out.",
+      "tense": "presente"
+    }
+  ],
+  "depois de": [
+    {
+      "target": "Depois de jantar, vejo televisão.",
+      "en": "After dinner I watch television.",
+      "tense": "presente"
+    }
+  ],
+  "hoje": [
+    {
+      "target": "Hoje está calor.",
+      "en": "It is hot today.",
+      "tense": "presente"
+    },
+    {
+      "target": "Hoje não trabalho.",
+      "en": "I am not working today.",
+      "tense": "presente"
+    }
+  ],
+  "muito": [
+    {
+      "target": "Gosto muito de Lisboa.",
+      "en": "I like Lisbon a lot.",
+      "tense": "presente"
+    },
+    {
+      "target": "Está muito frio.",
+      "en": "It is very cold.",
+      "tense": "presente"
+    }
+  ],
+  "pouco": [
+    {
+      "target": "Falo pouco português.",
+      "en": "I speak little Portuguese.",
+      "tense": "presente"
+    }
+  ],
+  "mais": [
+    {
+      "target": "Quero mais um café.",
+      "en": "I want one more coffee.",
+      "tense": "presente"
+    },
+    {
+      "target": "Ele fala mais devagar.",
+      "en": "He speaks more slowly.",
+      "tense": "presente"
+    }
+  ],
+  "menos": [
+    {
+      "target": "Hoje está menos frio.",
+      "en": "It is less cold today.",
+      "tense": "presente"
+    }
+  ],
+  "todos os dias": [
+    {
+      "target": "Trabalho todos os dias.",
+      "en": "I work every day.",
+      "tense": "presente"
+    }
+  ],
+  "às vezes": [
+    {
+      "target": "Às vezes vou ao cinema.",
+      "en": "Sometimes I go to the cinema.",
+      "tense": "presente"
+    }
+  ],
+  "sempre": [
+    {
+      "target": "Bebo sempre café de manhã.",
+      "en": "I always drink coffee in the morning.",
+      "tense": "presente"
+    }
+  ],
+  "nunca": [
+    {
+      "target": "Nunca fui ao Brasil.",
+      "en": "I have never been to Brazil.",
+      "tense": "perfeito"
+    }
+  ],
+  "quase nunca": [
+    {
+      "target": "Quase nunca vejo televisão.",
+      "en": "I almost never watch television.",
+      "tense": "presente"
+    }
+  ],
+  "raramente": [
+    {
+      "target": "Raramente saio à noite.",
+      "en": "I rarely go out at night.",
+      "tense": "presente"
+    }
+  ],
+  "três vezes por semana": [
+    {
+      "target": "Faço desporto três vezes por semana.",
+      "en": "I do sport three times a week.",
+      "tense": "presente"
+    }
+  ],
+  "este": [
+    {
+      "target": "Este livro é meu.",
+      "en": "This book is mine.",
+      "tense": "presente"
+    }
+  ],
+  "esta": [
+    {
+      "target": "Esta casa é grande.",
+      "en": "This house is big.",
+      "tense": "presente"
+    }
+  ],
+  "estes": [
+    {
+      "target": "Estes sapatos são novos.",
+      "en": "These shoes are new.",
+      "tense": "presente"
+    }
+  ],
+  "estas": [
+    {
+      "target": "Estas cadeiras são confortáveis.",
+      "en": "These chairs are comfortable.",
+      "tense": "presente"
+    }
+  ],
+  "esse": [
+    {
+      "target": "Esse carro é teu?",
+      "en": "Is that car yours?",
+      "tense": "presente"
+    }
+  ],
+  "essa": [
+    {
+      "target": "Essa mesa está livre?",
+      "en": "Is that table free?",
+      "tense": "presente"
+    }
+  ],
+  "esses": [
+    {
+      "target": "Esses bilhetes são caros.",
+      "en": "Those tickets are expensive.",
+      "tense": "presente"
+    }
+  ],
+  "essas": [
+    {
+      "target": "Essas lojas fecham às sete.",
+      "en": "Those shops close at seven.",
+      "tense": "presente"
+    }
+  ],
+  "aquele": [
+    {
+      "target": "Aquele prédio é muito antigo.",
+      "en": "That building over there is very old.",
+      "tense": "presente"
+    }
+  ],
+  "aquela": [
+    {
+      "target": "Aquela praia é bonita.",
+      "en": "That beach over there is beautiful.",
+      "tense": "presente"
+    }
+  ],
+  "aqueles": [
+    {
+      "target": "Aqueles carros são rápidos.",
+      "en": "Those cars over there are fast.",
+      "tense": "presente"
+    }
+  ],
+  "aquelas": [
+    {
+      "target": "Aquelas casas são novas.",
+      "en": "Those houses over there are new.",
+      "tense": "presente"
+    }
+  ],
+  "isto": [
+    {
+      "target": "O que é isto?",
+      "en": "What is this?",
+      "tense": "presente"
+    }
+  ],
+  "isso": [
+    {
+      "target": "Isso não é verdade.",
+      "en": "That is not true.",
+      "tense": "presente"
+    }
+  ],
+  "aquilo": [
+    {
+      "target": "Aquilo é o meu carro.",
+      "en": "That over there is my car.",
+      "tense": "presente"
+    }
+  ],
+  "elas são": [
+    {
+      "target": "Elas são de Lisboa.",
+      "en": "They are from Lisbon.",
+      "tense": "presente"
+    },
+    {
+      "target": "Elas são estudante.",
+      "en": "They are a student.",
+      "tense": "presente"
+    }
+  ],
+  "eu sou": [
+    {
+      "target": "Eu sou de Lisboa.",
+      "en": "I am from Lisbon.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eu sou estudante.",
+      "en": "I am a student.",
+      "tense": "presente"
+    }
+  ],
+  "tu és": [
+    {
+      "target": "Tu és de Lisboa.",
+      "en": "You are from Lisbon.",
+      "tense": "presente"
+    },
+    {
+      "target": "Tu és estudante.",
+      "en": "You are a student.",
+      "tense": "presente"
+    }
+  ],
+  "nós somos": [
+    {
+      "target": "Nós somos de Lisboa.",
+      "en": "We are from Lisbon.",
+      "tense": "presente"
+    },
+    {
+      "target": "Nós somos estudantes.",
+      "en": "We are students.",
+      "tense": "presente"
+    }
+  ],
+  "eu estou": [
+    {
+      "target": "Eu estou em casa.",
+      "en": "I am at home.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eu estou bem.",
+      "en": "I am well.",
+      "tense": "presente"
+    }
+  ],
+  "tu estás": [
+    {
+      "target": "Tu estás em casa.",
+      "en": "You are at home.",
+      "tense": "presente"
+    },
+    {
+      "target": "Tu estás bem.",
+      "en": "You are well.",
+      "tense": "presente"
+    }
+  ],
+  "nós estamos": [
+    {
+      "target": "Nós estamos em casa.",
+      "en": "We are at home.",
+      "tense": "presente"
+    },
+    {
+      "target": "Nós estamos bem.",
+      "en": "We are well.",
+      "tense": "presente"
+    }
+  ],
+  "eu moro": [
+    {
+      "target": "Eu moro em Lisboa.",
+      "en": "I live in Lisbon.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eu moro perto do rio.",
+      "en": "I live near the river.",
+      "tense": "presente"
+    }
+  ],
+  "tu moras": [
+    {
+      "target": "Tu moras em Lisboa.",
+      "en": "You live in Lisbon.",
+      "tense": "presente"
+    },
+    {
+      "target": "Tu moras perto do rio.",
+      "en": "You live near the river.",
+      "tense": "presente"
+    }
+  ],
+  "ele / ela mora": [
+    {
+      "target": "Ele mora em Lisboa.",
+      "en": "He lives in Lisbon.",
+      "tense": "presente"
+    },
+    {
+      "target": "Ele mora perto do rio.",
+      "en": "He lives near the river.",
+      "tense": "presente"
+    }
+  ],
+  "nós moramos": [
+    {
+      "target": "Nós moramos em Lisboa.",
+      "en": "We live in Lisbon.",
+      "tense": "presente"
+    },
+    {
+      "target": "Nós moramos perto do rio.",
+      "en": "We live near the river.",
+      "tense": "presente"
+    }
+  ],
+  "eles / elas moram": [
+    {
+      "target": "Eles moram em Lisboa.",
+      "en": "They live in Lisbon.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eles moram perto do rio.",
+      "en": "They live near the river.",
+      "tense": "presente"
+    }
+  ],
+  "eu conheço": [
+    {
+      "target": "Eu conheço esta cidade.",
+      "en": "I know this city.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eu conheço o caminho.",
+      "en": "I know the way.",
+      "tense": "presente"
+    }
+  ],
+  "tu conheces": [
+    {
+      "target": "Tu conheces esta cidade.",
+      "en": "You know this city.",
+      "tense": "presente"
+    },
+    {
+      "target": "Tu conheces o caminho.",
+      "en": "You know the way.",
+      "tense": "presente"
+    }
+  ],
+  "ele / ela conhece": [
+    {
+      "target": "Ele conhece esta cidade.",
+      "en": "He knows this city.",
+      "tense": "presente"
+    },
+    {
+      "target": "Ele conhece o caminho.",
+      "en": "He knows the way.",
+      "tense": "presente"
+    }
+  ],
+  "eles / elas conhecem": [
+    {
+      "target": "Eles conhecem esta cidade.",
+      "en": "They know this city.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eles conhecem o caminho.",
+      "en": "They know the way.",
+      "tense": "presente"
+    }
+  ],
+  "eu venho": [
+    {
+      "target": "Eu venho de Portugal.",
+      "en": "I come from Portugal.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eu venho de comboio.",
+      "en": "I come by train.",
+      "tense": "presente"
+    }
+  ],
+  "tu vens": [
+    {
+      "target": "Tu vens de Portugal.",
+      "en": "You come from Portugal.",
+      "tense": "presente"
+    },
+    {
+      "target": "Tu vens de comboio.",
+      "en": "You come by train.",
+      "tense": "presente"
+    }
+  ],
+  "ele / ela vem": [
+    {
+      "target": "Ele vem de Portugal.",
+      "en": "He comes from Portugal.",
+      "tense": "presente"
+    },
+    {
+      "target": "Ele vem de comboio.",
+      "en": "He comes by train.",
+      "tense": "presente"
+    }
+  ],
+  "eles / elas vêm": [
+    {
+      "target": "Eles vêm de Portugal.",
+      "en": "They come from Portugal.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eles vêm de comboio.",
+      "en": "They come by train.",
+      "tense": "presente"
+    }
+  ],
+  "eu tenho": [
+    {
+      "target": "Eu tenho tempo.",
+      "en": "I have time.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eu tenho dois filhos.",
+      "en": "I have two children.",
+      "tense": "presente"
+    }
+  ],
+  "tu tens": [
+    {
+      "target": "Tu tens tempo.",
+      "en": "You have time.",
+      "tense": "presente"
+    },
+    {
+      "target": "Tu tens dois filhos.",
+      "en": "You have two children.",
+      "tense": "presente"
+    }
+  ],
+  "ele / ela tem": [
+    {
+      "target": "Ele tem tempo.",
+      "en": "He haves time.",
+      "tense": "presente"
+    },
+    {
+      "target": "Ele tem dois filhos.",
+      "en": "He haves two children.",
+      "tense": "presente"
+    }
+  ],
+  "nós temos": [
+    {
+      "target": "Nós temos tempo.",
+      "en": "We have time.",
+      "tense": "presente"
+    },
+    {
+      "target": "Nós temos dois filhos.",
+      "en": "We have two children.",
+      "tense": "presente"
+    }
+  ],
+  "eles / elas têm": [
+    {
+      "target": "Eles têm tempo.",
+      "en": "They have time.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eles têm dois filhos.",
+      "en": "They have two children.",
+      "tense": "presente"
+    }
+  ],
+  "eu quero": [
+    {
+      "target": "Eu quero um café.",
+      "en": "I want a coffee.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eu quero ir ao cinema.",
+      "en": "I want to go to the cinema.",
+      "tense": "presente"
+    }
+  ],
+  "tu queres": [
+    {
+      "target": "Tu queres um café.",
+      "en": "You want a coffee.",
+      "tense": "presente"
+    },
+    {
+      "target": "Tu queres ir ao cinema.",
+      "en": "You want to go to the cinema.",
+      "tense": "presente"
+    }
+  ],
+  "ele / ela quer": [
+    {
+      "target": "Ele quer um café.",
+      "en": "He wants a coffee.",
+      "tense": "presente"
+    },
+    {
+      "target": "Ele quer ir ao cinema.",
+      "en": "He wants to go to the cinema.",
+      "tense": "presente"
+    }
+  ],
+  "nós queremos": [
+    {
+      "target": "Nós queremos um café.",
+      "en": "We want a coffee.",
+      "tense": "presente"
+    },
+    {
+      "target": "Nós queremos ir ao cinema.",
+      "en": "We want to go to the cinema.",
+      "tense": "presente"
+    }
+  ],
+  "eles / elas querem": [
+    {
+      "target": "Eles querem um café.",
+      "en": "They want a coffee.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eles querem ir ao cinema.",
+      "en": "They want to go to the cinema.",
+      "tense": "presente"
+    }
+  ],
+  "eu posso": [
+    {
+      "target": "Eu posso esperar.",
+      "en": "I can wait.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eu posso ajudar.",
+      "en": "I can help.",
+      "tense": "presente"
+    }
+  ],
+  "tu podes": [
+    {
+      "target": "Tu podes esperar.",
+      "en": "You can wait.",
+      "tense": "presente"
+    },
+    {
+      "target": "Tu podes ajudar.",
+      "en": "You can help.",
+      "tense": "presente"
+    }
+  ],
+  "ele / ela pode": [
+    {
+      "target": "Ele pode esperar.",
+      "en": "He can wait.",
+      "tense": "presente"
+    },
+    {
+      "target": "Ele pode ajudar.",
+      "en": "He can help.",
+      "tense": "presente"
+    }
+  ],
+  "nós podemos": [
+    {
+      "target": "Nós podemos esperar.",
+      "en": "We can wait.",
+      "tense": "presente"
+    },
+    {
+      "target": "Nós podemos ajudar.",
+      "en": "We can help.",
+      "tense": "presente"
+    }
+  ],
+  "eles / elas podem": [
+    {
+      "target": "Eles podem esperar.",
+      "en": "They can wait.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eles podem ajudar.",
+      "en": "They can help.",
+      "tense": "presente"
+    }
+  ],
+  "vocês são": [
+    {
+      "target": "Vocês são de Lisboa.",
+      "en": "You are from Lisbon.",
+      "tense": "presente"
+    },
+    {
+      "target": "Vocês são estudantes.",
+      "en": "You are students.",
+      "tense": "presente"
+    }
+  ],
+  "eles são": [
+    {
+      "target": "Eles são de Lisboa.",
+      "en": "They are from Lisbon.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eles são estudantes.",
+      "en": "They are students.",
+      "tense": "presente"
+    }
+  ],
+  "vocês moram": [
+    {
+      "target": "Vocês moram em Lisboa.",
+      "en": "You live in Lisbon.",
+      "tense": "presente"
+    },
+    {
+      "target": "Vocês moram perto do rio.",
+      "en": "You live near the river.",
+      "tense": "presente"
+    }
+  ],
+  "vocês estão": [
+    {
+      "target": "Vocês estão em casa.",
+      "en": "You are at home.",
+      "tense": "presente"
+    },
+    {
+      "target": "Vocês estão bem.",
+      "en": "You are well.",
+      "tense": "presente"
+    }
+  ],
+  "eles / elas estão": [
+    {
+      "target": "Eles estão em casa.",
+      "en": "They are at home.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eles estão bem.",
+      "en": "They are well.",
+      "tense": "presente"
+    }
+  ],
+  "eu vou": [
+    {
+      "target": "Eu vou para casa.",
+      "en": "I go home.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eu vou ao mercado.",
+      "en": "I go to the market.",
+      "tense": "presente"
+    }
+  ],
+  "tu vais": [
+    {
+      "target": "Tu vais para casa.",
+      "en": "You go home.",
+      "tense": "presente"
+    },
+    {
+      "target": "Tu vais ao mercado.",
+      "en": "You go to the market.",
+      "tense": "presente"
+    }
+  ],
+  "ele / ela vai": [
+    {
+      "target": "Ele vai para casa.",
+      "en": "He goes home.",
+      "tense": "presente"
+    },
+    {
+      "target": "Ele vai ao mercado.",
+      "en": "He goes to the market.",
+      "tense": "presente"
+    }
+  ],
+  "nós vamos": [
+    {
+      "target": "Nós vamos para casa.",
+      "en": "We go home.",
+      "tense": "presente"
+    },
+    {
+      "target": "Nós vamos ao mercado.",
+      "en": "We go to the market.",
+      "tense": "presente"
+    }
+  ],
+  "vocês vão": [
+    {
+      "target": "Vocês vão para casa.",
+      "en": "You go home.",
+      "tense": "presente"
+    },
+    {
+      "target": "Vocês vão ao mercado.",
+      "en": "You go to the market.",
+      "tense": "presente"
+    }
+  ],
+  "eles / elas vão": [
+    {
+      "target": "Eles vão para casa.",
+      "en": "They go home.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eles vão ao mercado.",
+      "en": "They go to the market.",
+      "tense": "presente"
+    }
+  ],
+  "vocês vêm": [
+    {
+      "target": "Vocês vêm de Portugal.",
+      "en": "You come from Portugal.",
+      "tense": "presente"
+    },
+    {
+      "target": "Vocês vêm de comboio.",
+      "en": "You come by train.",
+      "tense": "presente"
+    }
+  ],
+  "eu saio": [
+    {
+      "target": "Eu saio de casa às oito.",
+      "en": "I leave the house at eight.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eu saio com amigos.",
+      "en": "I leave with friends.",
+      "tense": "presente"
+    }
+  ],
+  "tu sais": [
+    {
+      "target": "Tu sais de casa às oito.",
+      "en": "You leave the house at eight.",
+      "tense": "presente"
+    },
+    {
+      "target": "Tu sais com amigos.",
+      "en": "You leave with friends.",
+      "tense": "presente"
+    }
+  ],
+  "ele / ela sai": [
+    {
+      "target": "Ele sai de casa às oito.",
+      "en": "He leaves the house at eight.",
+      "tense": "presente"
+    },
+    {
+      "target": "Ele sai com amigos.",
+      "en": "He leaves with friends.",
+      "tense": "presente"
+    }
+  ],
+  "vocês saem": [
+    {
+      "target": "Vocês saem de casa às oito.",
+      "en": "You leave the house at eight.",
+      "tense": "presente"
+    },
+    {
+      "target": "Vocês saem com amigos.",
+      "en": "You leave with friends.",
+      "tense": "presente"
+    }
+  ],
+  "eles / elas saem": [
+    {
+      "target": "Eles saem de casa às oito.",
+      "en": "They leave the house at eight.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eles saem com amigos.",
+      "en": "They leave with friends.",
+      "tense": "presente"
+    }
+  ],
+  "vocês podem": [
+    {
+      "target": "Vocês podem esperar.",
+      "en": "You can wait.",
+      "tense": "presente"
+    },
+    {
+      "target": "Vocês podem ajudar.",
+      "en": "You can help.",
+      "tense": "presente"
+    }
+  ],
+  "eu peço": [
+    {
+      "target": "Eu peço a conta.",
+      "en": "I ask for the bill.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eu peço um chá.",
+      "en": "I ask for a tea.",
+      "tense": "presente"
+    }
+  ],
+  "tu pedes": [
+    {
+      "target": "Tu pedes a conta.",
+      "en": "You ask for the bill.",
+      "tense": "presente"
+    },
+    {
+      "target": "Tu pedes um chá.",
+      "en": "You ask for a tea.",
+      "tense": "presente"
+    }
+  ],
+  "ele / ela pede": [
+    {
+      "target": "Ele pede a conta.",
+      "en": "He asks for the bill.",
+      "tense": "presente"
+    },
+    {
+      "target": "Ele pede um chá.",
+      "en": "He asks for a tea.",
+      "tense": "presente"
+    }
+  ],
+  "vocês pedem": [
+    {
+      "target": "Vocês pedem a conta.",
+      "en": "You ask for the bill.",
+      "tense": "presente"
+    },
+    {
+      "target": "Vocês pedem um chá.",
+      "en": "You ask for a tea.",
+      "tense": "presente"
+    }
+  ],
+  "eles / elas pedem": [
+    {
+      "target": "Eles pedem a conta.",
+      "en": "They ask for the bill.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eles pedem um chá.",
+      "en": "They ask for a tea.",
+      "tense": "presente"
+    }
+  ],
+  "eu falo": [
+    {
+      "target": "Eu falo português.",
+      "en": "I speak Portuguese.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eu falo com o professor.",
+      "en": "I speak to the teacher.",
+      "tense": "presente"
+    }
+  ],
+  "tu falas": [
+    {
+      "target": "Tu falas português.",
+      "en": "You speak Portuguese.",
+      "tense": "presente"
+    },
+    {
+      "target": "Tu falas com o professor.",
+      "en": "You speak to the teacher.",
+      "tense": "presente"
+    }
+  ],
+  "nós falamos": [
+    {
+      "target": "Nós falamos português.",
+      "en": "We speak Portuguese.",
+      "tense": "presente"
+    },
+    {
+      "target": "Nós falamos com o professor.",
+      "en": "We speak to the teacher.",
+      "tense": "presente"
+    }
+  ],
+  "eu aprendo": [
+    {
+      "target": "Eu aprendo português.",
+      "en": "I learn Portuguese.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eu aprendo depressa.",
+      "en": "I learn quickly.",
+      "tense": "presente"
+    }
+  ],
+  "tu aprendes": [
+    {
+      "target": "Tu aprendes português.",
+      "en": "You learn Portuguese.",
+      "tense": "presente"
+    },
+    {
+      "target": "Tu aprendes depressa.",
+      "en": "You learn quickly.",
+      "tense": "presente"
+    }
+  ],
+  "nós aprendemos": [
+    {
+      "target": "Nós aprendemos português.",
+      "en": "We learn Portuguese.",
+      "tense": "presente"
+    },
+    {
+      "target": "Nós aprendemos depressa.",
+      "en": "We learn quickly.",
+      "tense": "presente"
+    }
+  ],
+  "eu faço": [
+    {
+      "target": "Eu faço o jantar.",
+      "en": "I make dinner.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eu faço desporto.",
+      "en": "I make sport.",
+      "tense": "presente"
+    }
+  ],
+  "tu fazes": [
+    {
+      "target": "Tu fazes o jantar.",
+      "en": "You make dinner.",
+      "tense": "presente"
+    },
+    {
+      "target": "Tu fazes desporto.",
+      "en": "You make sport.",
+      "tense": "presente"
+    }
+  ],
+  "ele / ela faz": [
+    {
+      "target": "Ele faz o jantar.",
+      "en": "He makes dinner.",
+      "tense": "presente"
+    },
+    {
+      "target": "Ele faz desporto.",
+      "en": "He makes sport.",
+      "tense": "presente"
+    }
+  ],
+  "nós fazemos": [
+    {
+      "target": "Nós fazemos o jantar.",
+      "en": "We make dinner.",
+      "tense": "presente"
+    },
+    {
+      "target": "Nós fazemos desporto.",
+      "en": "We make sport.",
+      "tense": "presente"
+    }
+  ],
+  "eles / elas fazem": [
+    {
+      "target": "Eles fazem o jantar.",
+      "en": "They make dinner.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eles fazem desporto.",
+      "en": "They make sport.",
+      "tense": "presente"
+    }
+  ],
+  "eu leio": [
+    {
+      "target": "Eu leio o jornal.",
+      "en": "I read the newspaper.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eu leio um livro.",
+      "en": "I read a book.",
+      "tense": "presente"
+    }
+  ],
+  "tu lês": [
+    {
+      "target": "Tu lês o jornal.",
+      "en": "You read the newspaper.",
+      "tense": "presente"
+    },
+    {
+      "target": "Tu lês um livro.",
+      "en": "You read a book.",
+      "tense": "presente"
+    }
+  ],
+  "ele / ela lê": [
+    {
+      "target": "Ele lê o jornal.",
+      "en": "He reads the newspaper.",
+      "tense": "presente"
+    },
+    {
+      "target": "Ele lê um livro.",
+      "en": "He reads a book.",
+      "tense": "presente"
+    }
+  ],
+  "nós lemos": [
+    {
+      "target": "Nós lemos o jornal.",
+      "en": "We read the newspaper.",
+      "tense": "presente"
+    },
+    {
+      "target": "Nós lemos um livro.",
+      "en": "We read a book.",
+      "tense": "presente"
+    }
+  ],
+  "eles / elas leem": [
+    {
+      "target": "Eles leem o jornal.",
+      "en": "They read the newspaper.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eles leem um livro.",
+      "en": "They read a book.",
+      "tense": "presente"
+    }
+  ],
+  "eu vejo": [
+    {
+      "target": "Eu vejo o mar.",
+      "en": "I see the sea.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eu vejo televisão.",
+      "en": "I see television.",
+      "tense": "presente"
+    }
+  ],
+  "tu vês": [
+    {
+      "target": "Tu vês o mar.",
+      "en": "You see the sea.",
+      "tense": "presente"
+    },
+    {
+      "target": "Tu vês televisão.",
+      "en": "You see television.",
+      "tense": "presente"
+    }
+  ],
+  "ele / ela vê": [
+    {
+      "target": "Ele vê o mar.",
+      "en": "He sees the sea.",
+      "tense": "presente"
+    },
+    {
+      "target": "Ele vê televisão.",
+      "en": "He sees television.",
+      "tense": "presente"
+    }
+  ],
+  "nós vemos": [
+    {
+      "target": "Nós vemos o mar.",
+      "en": "We see the sea.",
+      "tense": "presente"
+    },
+    {
+      "target": "Nós vemos televisão.",
+      "en": "We see television.",
+      "tense": "presente"
+    }
+  ],
+  "eles / elas veem": [
+    {
+      "target": "Eles veem o mar.",
+      "en": "They see the sea.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eles veem televisão.",
+      "en": "They see television.",
+      "tense": "presente"
+    }
+  ],
+  "eu ouço": [
+    {
+      "target": "Eu ouço música.",
+      "en": "I listen to music.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eu ouço as notícias.",
+      "en": "I listen to the news.",
+      "tense": "presente"
+    }
+  ],
+  "tu ouves": [
+    {
+      "target": "Tu ouves música.",
+      "en": "You listen to music.",
+      "tense": "presente"
+    },
+    {
+      "target": "Tu ouves as notícias.",
+      "en": "You listen to the news.",
+      "tense": "presente"
+    }
+  ],
+  "ele / ela ouve": [
+    {
+      "target": "Ele ouve música.",
+      "en": "He listens to music.",
+      "tense": "presente"
+    },
+    {
+      "target": "Ele ouve as notícias.",
+      "en": "He listens to the news.",
+      "tense": "presente"
+    }
+  ],
+  "nós ouvimos": [
+    {
+      "target": "Nós ouvimos música.",
+      "en": "We listen to music.",
+      "tense": "presente"
+    },
+    {
+      "target": "Nós ouvimos as notícias.",
+      "en": "We listen to the news.",
+      "tense": "presente"
+    }
+  ],
+  "eles / elas ouvem": [
+    {
+      "target": "Eles ouvem música.",
+      "en": "They listen to music.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eles ouvem as notícias.",
+      "en": "They listen to the news.",
+      "tense": "presente"
+    }
+  ],
+  "eu": [
+    {
+      "target": "Eu sou português.",
+      "en": "I am Portuguese.",
+      "tense": "presente"
+    },
+    {
+      "target": "Eu moro em Lisboa.",
+      "en": "I live in Lisbon.",
+      "tense": "presente"
+    }
+  ],
+  "tu": [
+    {
+      "target": "Tu falas muito bem.",
+      "en": "You speak very well.",
+      "tense": "presente"
+    },
+    {
+      "target": "Tu vens comigo?",
+      "en": "Are you coming with me?",
+      "tense": "presente"
+    }
+  ],
+  "você": [
+    {
+      "target": "Você fala inglês?",
+      "en": "Do you speak English?",
+      "tense": "presente"
+    }
+  ],
+  "ele": [
+    {
+      "target": "Ele trabalha no hospital.",
+      "en": "He works at the hospital.",
+      "tense": "presente"
+    }
+  ],
+  "ela": [
+    {
+      "target": "Ela mora perto daqui.",
+      "en": "She lives near here.",
+      "tense": "presente"
+    }
+  ],
+  "nós": [
+    {
+      "target": "Nós somos amigos.",
+      "en": "We are friends.",
+      "tense": "presente"
+    }
+  ],
+  "vocês": [
+    {
+      "target": "Vocês querem café?",
+      "en": "Do you want coffee?",
+      "tense": "presente"
+    }
+  ],
+  "eles": [
+    {
+      "target": "Eles chegam amanhã.",
+      "en": "They arrive tomorrow.",
+      "tense": "presente"
+    }
+  ],
+  "elas": [
+    {
+      "target": "Elas são irmãs.",
+      "en": "They are sisters.",
+      "tense": "presente"
+    }
+  ],
+  "em": [
+    {
+      "target": "Estou em casa.",
+      "en": "I am at home.",
+      "tense": "presente"
+    },
+    {
+      "target": "Ele nasceu em Lisboa.",
+      "en": "He was born in Lisbon.",
+      "tense": "perfeito"
+    }
+  ],
+  "de": [
+    {
+      "target": "Sou de Portugal.",
+      "en": "I am from Portugal.",
+      "tense": "presente"
+    },
+    {
+      "target": "A porta de casa está aberta.",
+      "en": "The front door is open.",
+      "tense": "presente"
+    }
+  ],
+  "daqui": [
+    {
+      "target": "A farmácia fica perto daqui.",
+      "en": "The pharmacy is near here.",
+      "tense": "presente"
+    }
+  ],
+  "dali": [
+    {
+      "target": "Ele veio dali.",
+      "en": "He came from over there.",
+      "tense": "perfeito"
+    }
+  ],
+  "daí": [
+    {
+      "target": "Sai daí, por favor.",
+      "en": "Come away from there, please.",
+      "tense": "presente"
+    }
+  ],
+  "dele": [
+    {
+      "target": "O carro dele é azul.",
+      "en": "His car is blue.",
+      "tense": "presente"
+    }
+  ],
+  "dela": [
+    {
+      "target": "A casa dela é grande.",
+      "en": "Her house is big.",
+      "tense": "presente"
+    }
+  ],
+  "deles": [
+    {
+      "target": "Os filhos deles estudam aqui.",
+      "en": "Their children study here.",
+      "tense": "presente"
+    }
+  ],
+  "delas": [
+    {
+      "target": "A mãe delas chega hoje.",
+      "en": "Their mother arrives today.",
+      "tense": "presente"
+    }
+  ],
+  "para onde": [
+    {
+      "target": "Para onde vais?",
+      "en": "Where are you going?",
+      "tense": "presente"
+    }
+  ],
+  "de onde": [
+    {
+      "target": "De onde vens?",
+      "en": "Where do you come from?",
+      "tense": "presente"
+    }
+  ],
+  "para quê": [
+    {
+      "target": "Para quê tanto trabalho?",
+      "en": "What is all this work for?",
+      "tense": "presente"
+    }
+  ],
+  "domingo": [
+    {
+      "target": "Ao domingo não trabalho.",
+      "en": "On Sundays I do not work.",
+      "tense": "presente"
+    }
+  ],
+  "segunda-feira": [
+    {
+      "target": "Na segunda-feira tenho aula.",
+      "en": "On Monday I have a class.",
+      "tense": "presente"
+    }
+  ],
+  "terça-feira": [
+    {
+      "target": "A reunião é na terça-feira.",
+      "en": "The meeting is on Tuesday.",
+      "tense": "presente"
+    }
+  ],
+  "quarta-feira": [
+    {
+      "target": "Vou ao médico na quarta-feira.",
+      "en": "I am going to the doctor on Wednesday.",
+      "tense": "presente"
+    }
+  ],
+  "quinta-feira": [
+    {
+      "target": "Na quinta-feira janto fora.",
+      "en": "On Thursday I eat out.",
+      "tense": "presente"
+    }
+  ],
+  "sexta-feira": [
+    {
+      "target": "Na sexta-feira saio mais cedo.",
+      "en": "On Friday I leave earlier.",
+      "tense": "presente"
+    }
+  ],
+  "sábado": [
+    {
+      "target": "No sábado vamos à praia.",
+      "en": "On Saturday we are going to the beach.",
+      "tense": "presente"
+    }
+  ],
+  "à uma hora": [
+    {
+      "target": "Almoço à uma hora.",
+      "en": "I have lunch at one o’clock.",
+      "tense": "presente"
+    }
+  ],
+  "às duas horas": [
+    {
+      "target": "A aula começa às duas horas.",
+      "en": "The class starts at two o’clock.",
+      "tense": "presente"
+    }
+  ],
+  "quatro e meia": [
+    {
+      "target": "São quatro e meia.",
+      "en": "It is half past four.",
+      "tense": "presente"
+    }
+  ],
+  "meio-dia": [
+    {
+      "target": "Comemos ao meio-dia.",
+      "en": "We eat at noon.",
+      "tense": "presente"
+    }
+  ],
+  "quarenta e três": [
+    {
+      "target": "O meu pai tem quarenta e três anos.",
+      "en": "My father is forty-three years old.",
+      "tense": "presente"
+    }
+  ],
+  "cinquenta e quatro": [
+    {
+      "target": "Custa cinquenta e quatro euros.",
+      "en": "It costs fifty-four euros.",
+      "tense": "presente"
+    }
+  ],
+  "sessenta e cinco": [
+    {
+      "target": "Ele reformou-se aos sessenta e cinco.",
+      "en": "He retired at sixty-five.",
+      "tense": "perfeito"
+    }
+  ],
+  "setenta e seis": [
+    {
+      "target": "A minha avó tem setenta e seis anos.",
+      "en": "My grandmother is seventy-six years old.",
+      "tense": "presente"
+    }
+  ],
+  "oitenta e sete": [
+    {
+      "target": "São oitenta e sete euros.",
+      "en": "That is eighty-seven euros.",
+      "tense": "presente"
+    }
+  ],
+  "noventa e oito": [
+    {
+      "target": "O hotel tem noventa e oito quartos.",
+      "en": "The hotel has ninety-eight rooms.",
+      "tense": "presente"
+    }
+  ],
+  "italiano / italiana": [
+    {
+      "target": "Ele é italiano.",
+      "en": "He is Italian.",
+      "tense": "presente"
+    }
+  ],
+  "japonês / japonesa": [
+    {
+      "target": "O meu colega é japonês.",
+      "en": "My colleague is Japanese.",
+      "tense": "presente"
+    }
+  ],
+  "canadiano / canadiana": [
+    {
+      "target": "Ele é canadiano.",
+      "en": "He is Canadian.",
+      "tense": "presente"
+    }
+  ],
+  "turco / turca": [
+    {
+      "target": "O meu amigo é turco.",
+      "en": "My friend is Turkish.",
+      "tense": "presente"
+    }
+  ],
+  "espanhol / espanhola": [
+    {
+      "target": "O vinho é espanhol.",
+      "en": "The wine is Spanish.",
+      "tense": "presente"
+    }
+  ],
+  "alemão / alemã": [
+    {
+      "target": "O carro é alemão.",
+      "en": "The car is German.",
+      "tense": "presente"
+    }
+  ],
+  "suíço / suíça": [
+    {
+      "target": "O chocolate é suíço.",
+      "en": "The chocolate is Swiss.",
+      "tense": "presente"
+    }
+  ],
+  "francês / francesa": [
+    {
+      "target": "O queijo é francês.",
+      "en": "The cheese is French.",
+      "tense": "presente"
+    }
+  ],
+  "chinês / chinesa": [
+    {
+      "target": "O restaurante é chinês.",
+      "en": "The restaurant is Chinese.",
+      "tense": "presente"
+    }
+  ],
+  "americano / americana": [
+    {
+      "target": "Ele é americano.",
+      "en": "He is American.",
+      "tense": "presente"
+    }
+  ],
+  "belga": [
+    {
+      "target": "A cerveja é belga.",
+      "en": "The beer is Belgian.",
+      "tense": "presente"
+    }
+  ],
+  "russo / russa": [
+    {
+      "target": "O escritor é russo.",
+      "en": "The writer is Russian.",
+      "tense": "presente"
+    }
+  ],
+  "húngaro / húngara": [
+    {
+      "target": "O vinho húngaro é doce.",
+      "en": "Hungarian wine is sweet.",
+      "tense": "presente"
+    }
+  ],
+  "sueco / sueca": [
+    {
+      "target": "O meu vizinho é sueco.",
+      "en": "My neighbour is Swedish.",
+      "tense": "presente"
+    }
+  ],
+  "romeno / romena": [
+    {
+      "target": "Ele é romeno.",
+      "en": "He is Romanian.",
+      "tense": "presente"
+    }
+  ],
+  "mexicano / mexicana": [
+    {
+      "target": "O restaurante mexicano é bom.",
+      "en": "The Mexican restaurant is good.",
+      "tense": "presente"
+    }
+  ],
+  "simpático / simpática": [
+    {
+      "target": "O teu irmão é muito simpático.",
+      "en": "Your brother is very nice.",
+      "tense": "presente"
+    }
+  ],
+  "lindo / linda": [
+    {
+      "target": "Que dia lindo!",
+      "en": "What a beautiful day!",
+      "tense": "presente"
+    }
+  ],
+  "casado / casada": [
+    {
+      "target": "Ele é casado há dez anos.",
+      "en": "He has been married for ten years.",
+      "tense": "presente"
+    }
+  ],
+  "preocupado / preocupada": [
+    {
+      "target": "Estou preocupado com o exame.",
+      "en": "I am worried about the exam.",
+      "tense": "presente"
+    }
+  ],
+  "ligado / ligada": [
+    {
+      "target": "O computador está ligado.",
+      "en": "The computer is on.",
+      "tense": "presente"
+    }
+  ],
+  "desligado / desligada": [
+    {
+      "target": "O telemóvel está desligado.",
+      "en": "The phone is off.",
+      "tense": "presente"
+    }
+  ],
+  "encaracolado / encaracolada": [
+    {
+      "target": "Ela tem o cabelo encaracolado.",
+      "en": "She has curly hair.",
+      "tense": "presente"
+    }
+  ],
+  "castanho / castanha": [
+    {
+      "target": "Tenho os olhos castanhos.",
+      "en": "I have brown eyes.",
+      "tense": "presente"
+    }
+  ],
+  "divorciado / separado": [
+    {
+      "target": "Ele é divorciado.",
+      "en": "He is divorced.",
+      "tense": "presente"
+    }
+  ],
+  "melhor": [
+    {
+      "target": "Este café é melhor.",
+      "en": "This coffee is better.",
+      "tense": "presente"
+    }
+  ],
+  "pior": [
+    {
+      "target": "Hoje o tempo está pior.",
+      "en": "The weather is worse today.",
+      "tense": "presente"
+    }
+  ],
+  "nenhum": [
+    {
+      "target": "Não tenho nenhum livro.",
+      "en": "I do not have a single book.",
+      "tense": "presente"
+    }
+  ],
+  "nenhuma": [
+    {
+      "target": "Não há nenhuma cadeira livre.",
+      "en": "There is not a single free chair.",
+      "tense": "presente"
+    }
+  ],
+  "todos": [
+    {
+      "target": "Todos os alunos chegaram.",
+      "en": "All the students arrived.",
+      "tense": "perfeito"
+    }
+  ],
+  "todas": [
+    {
+      "target": "Todas as lojas estão fechadas.",
+      "en": "All the shops are closed.",
+      "tense": "presente"
+    }
+  ],
+  "uma vez": [
+    {
+      "target": "Vou ao ginásio uma vez por semana.",
+      "en": "I go to the gym once a week.",
+      "tense": "presente"
+    }
+  ],
+  "duas vezes": [
+    {
+      "target": "Como fora duas vezes por mês.",
+      "en": "I eat out twice a month.",
+      "tense": "presente"
+    }
+  ],
+  "muitas vezes": [
+    {
+      "target": "Muitas vezes chego atrasado.",
+      "en": "I am often late.",
+      "tense": "presente"
+    }
+  ],
+  "outra vez": [
+    {
+      "target": "Podes dizer outra vez?",
+      "en": "Can you say that again?",
+      "tense": "presente"
+    }
+  ],
+  "normalmente": [
+    {
+      "target": "Normalmente acordo às sete.",
+      "en": "I normally wake up at seven.",
+      "tense": "presente"
+    }
+  ],
+  "atualmente": [
+    {
+      "target": "Atualmente moro no Porto.",
+      "en": "I currently live in Porto.",
+      "tense": "presente"
+    }
+  ],
+  "felizmente": [
+    {
+      "target": "Felizmente está tudo bem.",
+      "en": "Fortunately everything is fine.",
+      "tense": "presente"
+    }
+  ],
+  "infelizmente": [
+    {
+      "target": "Infelizmente não posso ir.",
+      "en": "Unfortunately I cannot go.",
+      "tense": "presente"
+    }
+  ],
+  "uns / umas": [
+    {
+      "target": "Tenho uns livros para ti.",
+      "en": "I have some books for you.",
+      "tense": "presente"
+    }
+  ],
+  "alguns / algumas": [
+    {
+      "target": "Alguns amigos vêm jantar.",
+      "en": "Some friends are coming for dinner.",
+      "tense": "presente"
+    }
+  ],
+  "nunca / jamais": [
+    {
+      "target": "Nunca fui a Espanha.",
+      "en": "I have never been to Spain.",
+      "tense": "perfeito"
+    }
+  ],
+  "todas as noites": [
+    {
+      "target": "Leio todas as noites.",
+      "en": "I read every night.",
+      "tense": "presente"
+    }
+  ],
+  "a seguir": [
+    {
+      "target": "A seguir vamos ao café.",
+      "en": "Next we are going to the café.",
+      "tense": "presente"
+    }
+  ],
+  "durante a semana": [
+    {
+      "target": "Durante a semana trabalho muito.",
+      "en": "During the week I work a lot.",
+      "tense": "presente"
+    }
+  ],
+  "todo o mundo": [
+    {
+      "target": "Todo o mundo sabe disso.",
+      "en": "Everyone knows that.",
+      "tense": "presente"
+    }
+  ],
+  "menos caro": [
+    {
+      "target": "Este hotel é menos caro.",
+      "en": "This hotel is less expensive.",
+      "tense": "presente"
+    }
+  ],
+  "carne com arroz": [
+    {
+      "target": "Comi carne com arroz.",
+      "en": "I ate meat with rice.",
+      "tense": "perfeito"
+    }
+  ],
+  "pão francês": [
+    {
+      "target": "Quero um pão francês.",
+      "en": "I want a French roll.",
+      "tense": "presente"
+    }
+  ],
+  "comprido / alto": [
+    {
+      "target": "Está a ficar comprido.",
+      "en": "It is getting long.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era comprido.",
+      "en": "It used to be long.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será comprido.",
+      "en": "Tomorrow it will be long.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar comprido.",
+      "en": "It is going to get long.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve comprido.",
+      "en": "Yesterday it was long.",
+      "tense": "perfeito"
+    }
+  ],
+  "curto / baixo": [
+    {
+      "target": "Está a ficar curto.",
+      "en": "It is getting short.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era curto.",
+      "en": "It used to be short.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será curto.",
+      "en": "Tomorrow it will be short.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar curto.",
+      "en": "It is going to get short.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve curto.",
+      "en": "Yesterday it was short.",
+      "tense": "perfeito"
+    }
+  ],
+  "morno / morna": [
+    {
+      "target": "Está a ficar morno.",
+      "en": "It is getting warm.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era morno.",
+      "en": "It used to be warm.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será morno.",
+      "en": "Tomorrow it will be warm.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar morno.",
+      "en": "It is going to get warm.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve morno.",
+      "en": "Yesterday it was warm.",
+      "tense": "perfeito"
+    }
+  ],
+  "fresco / fresca": [
+    {
+      "target": "Está a ficar fresco.",
+      "en": "It is getting cool.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era fresco.",
+      "en": "It used to be cool.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será fresco.",
+      "en": "Tomorrow it will be cool.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar fresco.",
+      "en": "It is going to get cool.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve fresco.",
+      "en": "Yesterday it was cool.",
+      "tense": "perfeito"
+    }
+  ],
+  "silencioso / silenciosa": [
+    {
+      "target": "Está a ficar silencioso.",
+      "en": "It is getting quiet.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era silencioso.",
+      "en": "It used to be quiet.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será silencioso.",
+      "en": "Tomorrow it will be quiet.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar silencioso.",
+      "en": "It is going to get quiet.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve silencioso.",
+      "en": "Yesterday it was quiet.",
+      "tense": "perfeito"
+    }
+  ],
+  "barulhento / barulhenta": [
+    {
+      "target": "Está a ficar barulhento.",
+      "en": "It is getting noisy.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era barulhento.",
+      "en": "It used to be noisy.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será barulhento.",
+      "en": "Tomorrow it will be noisy.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar barulhento.",
+      "en": "It is going to get noisy.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve barulhento.",
+      "en": "Yesterday it was noisy.",
+      "tense": "perfeito"
+    }
+  ],
+  "fraco / fraca": [
+    {
+      "target": "Está a ficar fraco.",
+      "en": "It is getting weak.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era fraco.",
+      "en": "It used to be weak.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será fraco.",
+      "en": "Tomorrow it will be weak.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar fraco.",
+      "en": "It is going to get weak.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve fraco.",
+      "en": "Yesterday it was weak.",
+      "tense": "perfeito"
+    }
+  ],
+  "estreito / estreita": [
+    {
+      "target": "Está a ficar estreito.",
+      "en": "It is getting narrow.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era estreito.",
+      "en": "It used to be narrow.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será estreito.",
+      "en": "Tomorrow it will be narrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar estreito.",
+      "en": "It is going to get narrow.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve estreito.",
+      "en": "Yesterday it was narrow.",
+      "tense": "perfeito"
+    }
+  ],
+  "grosso / grossa": [
+    {
+      "target": "Está a ficar grosso.",
+      "en": "It is getting thick.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era grosso.",
+      "en": "It used to be thick.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será grosso.",
+      "en": "Tomorrow it will be thick.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar grosso.",
+      "en": "It is going to get thick.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve grosso.",
+      "en": "Yesterday it was thick.",
+      "tense": "perfeito"
+    }
+  ],
+  "fino / fina": [
+    {
+      "target": "Está a ficar fino.",
+      "en": "It is getting thin.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era fino.",
+      "en": "It used to be thin.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será fino.",
+      "en": "Tomorrow it will be thin.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar fino.",
+      "en": "It is going to get thin.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve fino.",
+      "en": "Yesterday it was thin.",
+      "tense": "perfeito"
+    }
+  ],
+  "fundo / funda": [
+    {
+      "target": "Está a ficar fundo.",
+      "en": "It is getting deep.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era fundo.",
+      "en": "It used to be deep.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será fundo.",
+      "en": "Tomorrow it will be deep.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar fundo.",
+      "en": "It is going to get deep.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve fundo.",
+      "en": "Yesterday it was deep.",
+      "tense": "perfeito"
+    }
+  ],
+  "liso / lisa": [
+    {
+      "target": "Está a ficar liso.",
+      "en": "It is getting smooth.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era liso.",
+      "en": "It used to be smooth.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será liso.",
+      "en": "Tomorrow it will be smooth.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar liso.",
+      "en": "It is going to get smooth.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve liso.",
+      "en": "Yesterday it was smooth.",
+      "tense": "perfeito"
+    }
+  ],
+  "áspero / áspera": [
+    {
+      "target": "Está a ficar áspero.",
+      "en": "It is getting rough.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era áspero.",
+      "en": "It used to be rough.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será áspero.",
+      "en": "Tomorrow it will be rough.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar áspero.",
+      "en": "It is going to get rough.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve áspero.",
+      "en": "Yesterday it was rough.",
+      "tense": "perfeito"
+    }
+  ],
+  "corajoso / corajosa": [
+    {
+      "target": "Está a ficar corajoso.",
+      "en": "It is getting brave.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era corajoso.",
+      "en": "It used to be brave.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será corajoso.",
+      "en": "Tomorrow it will be brave.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar corajoso.",
+      "en": "It is going to get brave.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve corajoso.",
+      "en": "Yesterday it was brave.",
+      "tense": "perfeito"
+    }
+  ],
+  "tímido / tímida": [
+    {
+      "target": "Está a ficar tímido.",
+      "en": "It is getting shy.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era tímido.",
+      "en": "It used to be shy.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será tímido.",
+      "en": "Tomorrow it will be shy.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar tímido.",
+      "en": "It is going to get shy.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve tímido.",
+      "en": "Yesterday it was shy.",
+      "tense": "perfeito"
+    }
+  ],
+  "educado / educada": [
+    {
+      "target": "Está a ficar educado.",
+      "en": "It is getting polite.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era educado.",
+      "en": "It used to be polite.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será educado.",
+      "en": "Tomorrow it will be polite.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar educado.",
+      "en": "It is going to get polite.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve educado.",
+      "en": "Yesterday it was polite.",
+      "tense": "perfeito"
+    }
+  ],
+  "mal-educado / mal-educada": [
+    {
+      "target": "Está a ficar mal-educado.",
+      "en": "It is getting rude.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era mal-educado.",
+      "en": "It used to be rude.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será mal-educado.",
+      "en": "Tomorrow it will be rude.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar mal-educado.",
+      "en": "It is going to get rude.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve mal-educado.",
+      "en": "Yesterday it was rude.",
+      "tense": "perfeito"
+    }
+  ],
+  "engraçado / engraçada": [
+    {
+      "target": "Está a ficar engraçado.",
+      "en": "It is getting funny.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era engraçado.",
+      "en": "It used to be funny.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será engraçado.",
+      "en": "Tomorrow it will be funny.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar engraçado.",
+      "en": "It is going to get funny.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve engraçado.",
+      "en": "Yesterday it was funny.",
+      "tense": "perfeito"
+    }
+  ],
+  "sério / séria": [
+    {
+      "target": "Está a ficar sério.",
+      "en": "It is getting serious.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era sério.",
+      "en": "It used to be serious.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será sério.",
+      "en": "Tomorrow it will be serious.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar sério.",
+      "en": "It is going to get serious.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve sério.",
+      "en": "Yesterday it was serious.",
+      "tense": "perfeito"
+    }
+  ],
+  "preguiçoso / preguiçosa": [
+    {
+      "target": "Está a ficar preguiçoso.",
+      "en": "It is getting lazy.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era preguiçoso.",
+      "en": "It used to be lazy.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será preguiçoso.",
+      "en": "Tomorrow it will be lazy.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar preguiçoso.",
+      "en": "It is going to get lazy.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve preguiçoso.",
+      "en": "Yesterday it was lazy.",
+      "tense": "perfeito"
+    }
+  ],
+  "trabalhador / trabalhadora": [
+    {
+      "target": "Está a ficar trabalhador.",
+      "en": "It is getting hard-working.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era trabalhador.",
+      "en": "It used to be hard-working.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será trabalhador.",
+      "en": "Tomorrow it will be hard-working.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar trabalhador.",
+      "en": "It is going to get hard-working.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve trabalhador.",
+      "en": "Yesterday it was hard-working.",
+      "tense": "perfeito"
+    }
+  ],
+  "generoso / generosa": [
+    {
+      "target": "Está a ficar generoso.",
+      "en": "It is getting generous.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era generoso.",
+      "en": "It used to be generous.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será generoso.",
+      "en": "Tomorrow it will be generous.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar generoso.",
+      "en": "It is going to get generous.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve generoso.",
+      "en": "Yesterday it was generous.",
+      "tense": "perfeito"
+    }
+  ],
+  "honesto / honesta": [
+    {
+      "target": "Está a ficar honesto.",
+      "en": "It is getting honest.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era honesto.",
+      "en": "It used to be honest.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será honesto.",
+      "en": "Tomorrow it will be honest.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar honesto.",
+      "en": "It is going to get honest.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve honesto.",
+      "en": "Yesterday it was honest.",
+      "tense": "perfeito"
+    }
+  ],
+  "famoso / famosa": [
+    {
+      "target": "Está a ficar famoso.",
+      "en": "It is getting famous.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era famoso.",
+      "en": "It used to be famous.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será famoso.",
+      "en": "Tomorrow it will be famous.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar famoso.",
+      "en": "It is going to get famous.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve famoso.",
+      "en": "Yesterday it was famous.",
+      "tense": "perfeito"
+    }
+  ],
+  "moderno / moderna": [
+    {
+      "target": "Está a ficar moderno.",
+      "en": "It is getting modern.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era moderno.",
+      "en": "It used to be modern.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será moderno.",
+      "en": "Tomorrow it will be modern.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar moderno.",
+      "en": "It is going to get modern.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve moderno.",
+      "en": "Yesterday it was modern.",
+      "tense": "perfeito"
+    }
+  ],
+  "aborrecido / aborrecida": [
+    {
+      "target": "Está a ficar aborrecido.",
+      "en": "It is getting boring.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era aborrecido.",
+      "en": "It used to be boring.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será aborrecido.",
+      "en": "Tomorrow it will be boring.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar aborrecido.",
+      "en": "It is going to get boring.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve aborrecido.",
+      "en": "Yesterday it was boring.",
+      "tense": "perfeito"
+    }
+  ],
+  "amargo / amarga": [
+    {
+      "target": "Está a ficar amargo.",
+      "en": "It is getting bitter.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era amargo.",
+      "en": "It used to be bitter.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será amargo.",
+      "en": "Tomorrow it will be bitter.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar amargo.",
+      "en": "It is going to get bitter.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve amargo.",
+      "en": "Yesterday it was bitter.",
+      "tense": "perfeito"
+    }
+  ],
+  "necessário / necessária": [
+    {
+      "target": "Está a ficar necessário.",
+      "en": "It is getting necessary.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era necessário.",
+      "en": "It used to be necessary.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será necessário.",
+      "en": "Tomorrow it will be necessary.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar necessário.",
+      "en": "It is going to get necessary.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve necessário.",
+      "en": "Yesterday it was necessary.",
+      "tense": "perfeito"
+    }
+  ],
+  "completo / completa": [
+    {
+      "target": "Está a ficar completo.",
+      "en": "It is getting complete.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era completo.",
+      "en": "It used to be complete.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será completo.",
+      "en": "Tomorrow it will be complete.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar completo.",
+      "en": "It is going to get complete.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve completo.",
+      "en": "Yesterday it was complete.",
+      "tense": "perfeito"
+    }
+  ],
+  "brilhante": [
+    {
+      "target": "Está a ficar brilhante.",
+      "en": "It is getting bright.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era brilhante.",
+      "en": "It used to be bright.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será brilhante.",
+      "en": "Tomorrow it will be bright.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar brilhante.",
+      "en": "It is going to get bright.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve brilhante.",
+      "en": "Yesterday it was bright.",
+      "tense": "perfeito"
+    }
+  ],
+  "colorido / colorida": [
+    {
+      "target": "Está a ficar colorido.",
+      "en": "It is getting colourful.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era colorido.",
+      "en": "It used to be colourful.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será colorido.",
+      "en": "Tomorrow it will be colourful.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar colorido.",
+      "en": "It is going to get colourful.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve colorido.",
+      "en": "Yesterday it was colourful.",
+      "tense": "perfeito"
+    }
+  ],
+  "simples": [
+    {
+      "target": "Está a ficar simples.",
+      "en": "It is getting plain.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era simples.",
+      "en": "It used to be plain.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será simples.",
+      "en": "Tomorrow it will be plain.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar simples.",
+      "en": "It is going to get plain.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve simples.",
+      "en": "Yesterday it was plain.",
+      "tense": "perfeito"
+    }
+  ],
+  "redondo / redonda": [
+    {
+      "target": "Está a ficar redondo.",
+      "en": "It is getting round.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era redondo.",
+      "en": "It used to be round.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será redondo.",
+      "en": "Tomorrow it will be round.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar redondo.",
+      "en": "It is going to get round.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve redondo.",
+      "en": "Yesterday it was round.",
+      "tense": "perfeito"
+    }
+  ],
+  "quadrado / quadrada": [
+    {
+      "target": "Está a ficar quadrado.",
+      "en": "It is getting square.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era quadrado.",
+      "en": "It used to be square.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será quadrado.",
+      "en": "Tomorrow it will be square.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar quadrado.",
+      "en": "It is going to get square.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve quadrado.",
+      "en": "Yesterday it was square.",
+      "tense": "perfeito"
+    }
+  ],
+  "resistente": [
+    {
+      "target": "Está a ficar resistente.",
+      "en": "It is getting sturdy.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era resistente.",
+      "en": "It used to be sturdy.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será resistente.",
+      "en": "Tomorrow it will be sturdy.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar resistente.",
+      "en": "It is going to get sturdy.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve resistente.",
+      "en": "Yesterday it was sturdy.",
+      "tense": "perfeito"
+    }
+  ],
+  "partido / partida": [
+    {
+      "target": "Está a ficar partido.",
+      "en": "It is getting broken.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era partido.",
+      "en": "It used to be broken.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será partido.",
+      "en": "Tomorrow it will be broken.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar partido.",
+      "en": "It is going to get broken.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve partido.",
+      "en": "Yesterday it was broken.",
+      "tense": "perfeito"
+    }
+  ],
+  "cheio de gente": [
+    {
+      "target": "Está a ficar cheio de gente.",
+      "en": "It is getting crowded.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era cheio de gente.",
+      "en": "It used to be crowded.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será cheio de gente.",
+      "en": "Tomorrow it will be crowded.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar cheio de gente.",
+      "en": "It is going to get crowded.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve cheio de gente.",
+      "en": "Yesterday it was crowded.",
+      "tense": "perfeito"
+    }
+  ],
+  "cansativo / cansativa": [
+    {
+      "target": "Está a ficar cansativo.",
+      "en": "It is getting tiring.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era cansativo.",
+      "en": "It used to be tiring.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será cansativo.",
+      "en": "Tomorrow it will be tiring.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar cansativo.",
+      "en": "It is going to get tiring.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve cansativo.",
+      "en": "Yesterday it was tiring.",
+      "tense": "perfeito"
+    }
+  ],
+  "disponível": [
+    {
+      "target": "Está a ficar disponível.",
+      "en": "It is getting available.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era disponível.",
+      "en": "It used to be available.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será disponível.",
+      "en": "Tomorrow it will be available.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar disponível.",
+      "en": "It is going to get available.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve disponível.",
+      "en": "Yesterday it was available.",
+      "tense": "perfeito"
+    }
+  ],
+  "adequado / adequada": [
+    {
+      "target": "Está a ficar adequado.",
+      "en": "It is getting suitable.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era adequado.",
+      "en": "It used to be suitable.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será adequado.",
+      "en": "Tomorrow it will be suitable.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar adequado.",
+      "en": "It is going to get suitable.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve adequado.",
+      "en": "Yesterday it was suitable.",
+      "tense": "perfeito"
+    }
+  ],
+  "verdadeiro / verdadeira": [
+    {
+      "target": "Está a ficar verdadeiro.",
+      "en": "It is getting real.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era verdadeiro.",
+      "en": "It used to be real.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será verdadeiro.",
+      "en": "Tomorrow it will be real.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar verdadeiro.",
+      "en": "It is going to get real.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve verdadeiro.",
+      "en": "Yesterday it was real.",
+      "tense": "perfeito"
+    }
+  ],
+  "parecido / parecida": [
+    {
+      "target": "Está a ficar parecido.",
+      "en": "It is getting similar.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era parecido.",
+      "en": "It used to be similar.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será parecido.",
+      "en": "Tomorrow it will be similar.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar parecido.",
+      "en": "It is going to get similar.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve parecido.",
+      "en": "Yesterday it was similar.",
+      "tense": "perfeito"
+    }
+  ],
+  "maravilhoso / maravilhosa": [
+    {
+      "target": "Está a ficar maravilhoso.",
+      "en": "It is getting wonderful.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era maravilhoso.",
+      "en": "It used to be wonderful.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será maravilhoso.",
+      "en": "Tomorrow it will be wonderful.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar maravilhoso.",
+      "en": "It is going to get wonderful.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve maravilhoso.",
+      "en": "Yesterday it was wonderful.",
+      "tense": "perfeito"
+    }
+  ],
+  "terrível": [
+    {
+      "target": "Está a ficar terrível.",
+      "en": "It is getting terrible.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era terrível.",
+      "en": "It used to be terrible.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será terrível.",
+      "en": "Tomorrow it will be terrible.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar terrível.",
+      "en": "It is going to get terrible.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve terrível.",
+      "en": "Yesterday it was terrible.",
+      "tense": "perfeito"
+    }
+  ],
+  "ácido / ácida": [
+    {
+      "target": "Está a ficar ácido.",
+      "en": "It is getting sour.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era ácido.",
+      "en": "It used to be sour.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será ácido.",
+      "en": "Tomorrow it will be sour.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar ácido.",
+      "en": "It is going to get sour.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve ácido.",
+      "en": "Yesterday it was sour.",
+      "tense": "perfeito"
+    }
+  ],
+  "saboroso / saborosa": [
+    {
+      "target": "Está a ficar saboroso.",
+      "en": "It is getting rich in flavour.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Antigamente era saboroso.",
+      "en": "It used to be rich in flavour.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã será saboroso.",
+      "en": "Tomorrow it will be rich in flavour.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vai ficar saboroso.",
+      "en": "It is going to get rich in flavour.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Ontem esteve saboroso.",
+      "en": "Yesterday it was rich in flavour.",
+      "tense": "perfeito"
     }
   ]
 }

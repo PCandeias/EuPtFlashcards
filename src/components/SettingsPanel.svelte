@@ -63,7 +63,7 @@
 
 
     <section>
-      <h3>Audio</h3>
+      <h3 lang="en">Audio</h3>
       <label class="toggle">
         <input
           id="speechToggle"
@@ -82,7 +82,7 @@
     </section>
 
     <section>
-      <h3>Tenses</h3>
+      <h3 lang="en">Tenses</h3>
       <TenseSettings
         tenses={language.tenses}
         selected={settings.tenses}
@@ -91,12 +91,12 @@
     </section>
 
     <section>
-      <h3>Reported cards</h3>
+      <h3 lang="en">Reported cards</h3>
       <ReportedList {reports} onrestore={onrestorereport} onexport={onexportreports} />
     </section>
 
     <section>
-      <h3>Progress</h3>
+      <h3 lang="en">Progress</h3>
       <p class="note">
         iOS clears stored data after a week without use, and deleting the installed
         app takes its data with it. A backup is the only way back.

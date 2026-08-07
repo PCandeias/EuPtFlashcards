@@ -12,7 +12,7 @@ const VOCAB = new Set<string>(TAGS)
 
 describe('card corpus', () => {
   it('holds the whole corpus', () => {
-    expect(CARDS.length).toBe(3368)
+    expect(CARDS.length).toBe(3370)
   })
 
   it('covers every deck', () => {
@@ -52,19 +52,23 @@ describe('card corpus', () => {
     const counts: Record<string, number> = {}
     for (const c of CARDS) for (const t of c.tags ?? []) counts[t] = (counts[t] ?? 0) + 1
     expect(counts).toEqual({
-      informal: 133, formal: 28, plural: 80, 'masc-mixed': 9,
-      fem: 37, masc: 25, contraction: 2, object: 6,
+      informal: 133, formal: 29, plural: 81, 'masc-mixed': 9,
+      fem: 37, masc: 25, contraction: 2, object: 10,
     })
   })
 
-  it('marks exactly the eight ambiguous bare Portuguese words with targetTags', () => {
+  // The object pronouns and the two contractions: the words that are ambiguous
+  // in Portuguese as well as in English, and so carry a badge on both faces.
+  it('marks exactly the ambiguous bare Portuguese words with targetTags', () => {
     const withPt = CARDS.filter(c => c.targetTags?.length).map(c => c.target).sort()
-    expect(withPt).toEqual(['a', 'as', 'na', 'no', 'o', 'os', 'te', 'vos'])
+    expect(withPt).toEqual(
+      ['a', 'as', 'lhe', 'lhes', 'me', 'na', 'no', 'nos', 'o', 'os', 'te', 'vos'],
+    )
   })
 
   it('keeps sense hints for meaning-level disambiguation', () => {
     const senses = CARDS.filter(c => c.sense).length
-    expect(senses).toBe(76)
+    expect(senses).toBe(78)
   })
 })
 
@@ -94,7 +98,7 @@ describe('tense tagging', () => {
   // Vocabulary must never be filterable, or unticking a tense would take the
   // nouns and adjectives with it.
   it('leaves nouns, adjectives and phrases untagged', () => {
-    expect(CARDS.filter(c => !c.tense).length).toBe(2645)
+    expect(CARDS.filter(c => !c.tense).length).toBe(2647)
     expect(CARDS.find(c => c.target === 'a casa')?.tense).toBeUndefined()
     expect(CARDS.find(c => c.en === 'beautiful / nice')?.tense).toBeUndefined()
   })
@@ -145,7 +149,7 @@ describe('level labelling', () => {
   it('leaves most of the corpus at A1', () => {
     const counts: Record<string, number> = {}
     for (const c of CARDS) counts[c.level!] = (counts[c.level!] ?? 0) + 1
-    expect(counts).toEqual({ a1: 2055, a2: 1158, b1: 155 })
+    expect(counts).toEqual({ a1: 2057, a2: 1158, b1: 155 })
     expect(counts.a1! / CARDS.length).toBeGreaterThan(0.6)
   })
 

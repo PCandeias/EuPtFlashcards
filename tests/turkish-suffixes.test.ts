@@ -178,16 +178,18 @@ describe('suffixTable', () => {
     expect(table).toHaveLength(TR_SUFFIXES.length)
     expect(table.map(r => r.form)).toEqual([
       'evler', 'evi', 'eve', 'evde', 'evden', 'evin', 'evim', 'evi', 'evle',
-      'evsiz', 'evlerde',
+      'evli', 'evsiz', 'evlerde',
     ])
     expect(table[3]!.label).toBe('bulunma hâli')
+    expect(table[3]!.spellings).toBe('-de / -da / -te / -ta')
+    expect(table[0]!.spellings).toBe('-ler / -lar')
     expect(table[3]!.gloss).toContain('in')
   })
 
   it('works the same on a word that softens', () => {
     expect(suffixTable('kitap')!.map(r => r.form)).toEqual([
       'kitaplar', 'kitabı', 'kitaba', 'kitapta', 'kitaptan', 'kitabın',
-      'kitabım', 'kitabı', 'kitapla', 'kitapsız', 'kitaplarda',
+      'kitabım', 'kitabı', 'kitapla', 'kitaplı', 'kitapsız', 'kitaplarda',
     ])
   })
 })

@@ -2191,12 +2191,18 @@
       "level": "a1"
     },
     {
-      "en": "me",
+      "en": "me / to me",
       "target": "me",
-      "level": "a1"
+      "level": "a1",
+      "tags": [
+        "object"
+      ],
+      "targetTags": [
+        "object"
+      ]
     },
     {
-      "en": "you",
+      "en": "you / to you",
       "target": "te",
       "tags": [
         "informal",
@@ -2232,12 +2238,18 @@
       "level": "a1"
     },
     {
-      "en": "us",
+      "en": "us / to us",
       "target": "nos",
-      "level": "a1"
+      "level": "a1",
+      "tags": [
+        "object"
+      ],
+      "targetTags": [
+        "object"
+      ]
     },
     {
-      "en": "you",
+      "en": "you / to you",
       "target": "vos",
       "tags": [
         "plural",
@@ -4015,6 +4027,32 @@
       "target": "ele não vê a verdade",
       "tense": "presente",
       "level": "a2"
+    },
+    {
+      "en": "to him / to her / to you",
+      "target": "lhe",
+      "level": "a1",
+      "tags": [
+        "formal",
+        "object"
+      ],
+      "targetTags": [
+        "object"
+      ],
+      "sense": "the indirect object, where o and a are the direct one"
+    },
+    {
+      "en": "to them / to you",
+      "target": "lhes",
+      "level": "a1",
+      "tags": [
+        "plural",
+        "object"
+      ],
+      "targetTags": [
+        "object"
+      ],
+      "sense": "the indirect object, where os and as are the direct one"
     }
   ]
 }

@@ -44,7 +44,7 @@ test('the back button returns to the deck', async ({ page }) => {
 
 test('shows each language its own grammar and nothing of the other', async ({ page }) => {
   await page.goto('./#/tr/reference')
-  await expect(page.locator('h2')).toContainText(['Noun endings'])
+  await expect(page.locator('h2')).toContainText(['Endings: one or many'])
   await expect(page.getByRole('heading', { name: 'Vowel harmony' })).toBeVisible()
   await expect(page.getByRole('heading', { name: 'Contractions' })).toHaveCount(0)
 
@@ -124,12 +124,12 @@ test('a jump link opens the section it lands on', async ({ page }) => {
 test('holds the longer explanation behind a second fold', async ({ page }) => {
   await page.goto('./#/tr/reference')
 
-  const more = page.locator('#noun-endings .detail')
+  const more = page.locator('#endings-the-cases .detail')
   await expect(more).not.toHaveAttribute('open')
   await expect(more.locator('li').first()).toBeHidden()
 
   await more.locator('summary').click()
-  await expect(more.locator('li').first()).toContainText('placeholders')
+  await expect(more.locator('li').first()).toContainText('accusative')
 })
 
 test('gives both languages more to read on every section', async ({ page }) => {
@@ -213,7 +213,7 @@ test('nothing scrolls sideways on a phone', async ({ page }) => {
   expect(overflow, 'the page itself must not scroll sideways').toBeLessThanOrEqual(1)
 
   // A wide table scrolls inside its own box instead.
-  const scroller = page.locator('#noun-endings .scroller')
+  const scroller = page.locator('#endings-the-cases .scroller')
   const scrolls = await scroller.evaluate(el => el.scrollWidth > el.clientWidth)
   const box = await scroller.boundingBox()
   expect(box!.width).toBeLessThanOrEqual(390)

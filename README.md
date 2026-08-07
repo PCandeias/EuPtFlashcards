@@ -4,7 +4,7 @@ Two languages, as one installable offline web app with spaced repetition:
 
 | | | |
 |---|---|---|
-| **Português** | 3368 cards · 37 decks | European Portuguese — `autocarro`, not `ônibus` |
+| **Português** | 3370 cards · 37 decks | European Portuguese — `autocarro`, not `ônibus` |
 | **Türkçe** | 2446 cards · 38 decks | Beginner Turkish — vowel harmony, suffixes, no gender |
 
 **Live:** https://pcandeias.github.io/EuPtFlashcards/
@@ -162,6 +162,12 @@ tests asserting no overflow from 320×568 up to 1280×900, in both study modes.
 
 Motion is kept under 200ms and honours `prefers-reduced-motion`.
 
+**English chrome is marked `lang="en"`.** The page is in the language being
+learnt, and `text-transform: uppercase` follows the element's language — so the
+word *English* on the front of every Turkish card was rendering as **ENGLİSH**,
+with the dotted capital I. Every uppercased English label now says which language
+it is in.
+
 ## Study modes
 
 **Flip** reveals the answer. **Typing** asks you to write it, which tests recall
@@ -177,7 +183,17 @@ accept any of them.
 
 ## The suffix reference
 
-Turkish grammar *is* its endings. Where Portuguese puts a preposition in front of
+Turkish grammar *is* its endings, and they are not one thing. Marking a plural,
+marking a case, saying whose something is and building a new word out of an old
+one are four different jobs, so the reference is four tables rather than one
+list: **one or many**, **the cases**, **whose it is**, **making new words**, and
+a fifth showing how they stack.
+
+Each row gives the ending twice. `-lAr` is a convention, not a spelling — what
+you write is `-ler` or `-lar`, and a learner who has only ever seen the
+convention has been told half of it. So every row carries a *how it is spelled*
+column: `-de / -da / -te / -ta`, `-i / -ı / -u / -ü`, `-imiz / -ımız / -umuz /
+-ümüz`. Where Portuguese puts a preposition in front of
 a noun, Turkish puts an ending on it — and the ending changes shape to match the
 word it lands on. So beside the `?` that conjugates a verb there is a `+` that
 shows a noun with every ending on it:
@@ -217,14 +233,17 @@ itself is offered only on dictionary forms: putting it on `evde` would suggest
 ## Example sentences
 
 The `"` beside a word shows it in whole sentences, filtered by the same tense
-selection as the deck: **18,843 sentences** across the two languages, reaching
-52% of the Portuguese cards and 66% of the Turkish ones.
+selection as the deck: **19,077 sentences** across the two languages, reaching
+61% of the Portuguese cards and 66% of the Turkish ones.
 
 They come from three places, and where they overlap the more careful source wins:
 
 1. **Hand-written**, for the words that deserve it — every Portuguese verb the
-   original deck taught, and the thirty Turkish verbs a beginner meets first.
-   `Her sabah kahve içerim`, not just `içerim`.
+   original deck taught, the thirty Turkish verbs a beginner meets first, and the
+   grammar words a frame can say nothing useful about. `me` on its own tells you
+   nothing; `Ele deu-me o livro` tells you all of it, and the pronouns,
+   prepositions, demonstratives, days, nationalities and question words are
+   written out one at a time for that reason.
 2. **Built from the conjugation engine**, for every other verb. The forms are the
    ones the `?` panel shows, so an example cannot disagree with the table beside
    it.

@@ -34,11 +34,21 @@ export const TR_SUFFIX_IDS = [
   'possessive1',
   'possessive3',
   'with',
+  'having',
   'without',
   'pluralLocative',
 ] as const
 
 export type TrSuffixId = (typeof TR_SUFFIX_IDS)[number]
+
+/**
+ * What an ending is for.
+ *
+ * Turkish endings are not one thing. Marking a plural, marking a case and saying
+ * whose something is are three different jobs, and a table that runs them
+ * together reads as a list of noises.
+ */
+export type SuffixGroup = 'number' | 'case' | 'possessive' | 'derivation' | 'stacking'
 
 export interface SuffixDef {
   id: TrSuffixId
@@ -46,26 +56,77 @@ export interface SuffixDef {
   label: string
   /** The shape, written the way courses write it: capital letters vary. */
   shape: string
+  /**
+   * Every spelling the shape actually takes.
+   *
+   * `-lAr` is a convention, not a word: what you write is `-ler` or `-lar`, and
+   * a learner who has only ever seen the convention has been told half of it.
+   */
+  spellings: string
   /** What it does, in English. */
   gloss: string
+  group: SuffixGroup
 }
 
 export const TR_SUFFIXES: readonly SuffixDef[] = [
-  { id: 'plural', label: 'çoğul', shape: '-lAr', gloss: 'more than one' },
-  { id: 'accusative', label: 'belirtme hâli', shape: '-(y)I', gloss: 'the — a definite object' },
-  { id: 'dative', label: 'yönelme hâli', shape: '-(y)A', gloss: 'to, towards' },
-  { id: 'locative', label: 'bulunma hâli', shape: '-DA', gloss: 'in, at, on' },
-  { id: 'ablative', label: 'ayrılma hâli', shape: '-DAn', gloss: 'from, out of' },
-  { id: 'genitive', label: 'tamlayan hâli', shape: '-(n)In', gloss: 'of, belonging to' },
-  { id: 'possessive1', label: 'iyelik, 1. tekil', shape: '-(I)m', gloss: 'my' },
-  { id: 'possessive3', label: 'iyelik, 3. tekil', shape: '-(s)I', gloss: 'his, her, its' },
-  { id: 'with', label: 'vasıta hâli', shape: '-(y)lA', gloss: 'with, by' },
-  { id: 'without', label: 'yokluk', shape: '-sIz', gloss: 'without' },
   {
-    id: 'pluralLocative',
-    label: 'çoğul + bulunma',
-    shape: '-lAr + -DA',
-    gloss: 'in the — suffixes stack, in this order',
+    id: 'plural', label: 'çoğul', shape: '-lAr', spellings: '-ler / -lar',
+    gloss: 'more than one', group: 'number',
+  },
+  {
+    id: 'accusative', label: 'belirtme hâli', shape: '-(y)I',
+    spellings: '-i / -ı / -u / -ü, with y after a vowel',
+    gloss: 'the — a definite object', group: 'case',
+  },
+  {
+    id: 'dative', label: 'yönelme hâli', shape: '-(y)A',
+    spellings: '-e / -a, with y after a vowel',
+    gloss: 'to, towards', group: 'case',
+  },
+  {
+    id: 'locative', label: 'bulunma hâli', shape: '-DA',
+    spellings: '-de / -da / -te / -ta',
+    gloss: 'in, at, on', group: 'case',
+  },
+  {
+    id: 'ablative', label: 'ayrılma hâli', shape: '-DAn',
+    spellings: '-den / -dan / -ten / -tan',
+    gloss: 'from, out of', group: 'case',
+  },
+  {
+    id: 'genitive', label: 'tamlayan hâli', shape: '-(n)In',
+    spellings: '-in / -ın / -un / -ün, with n after a vowel',
+    gloss: 'of, belonging to', group: 'case',
+  },
+  {
+    id: 'possessive1', label: 'iyelik, 1. tekil', shape: '-(I)m',
+    spellings: '-im / -ım / -um / -üm, just -m after a vowel',
+    gloss: 'my', group: 'possessive',
+  },
+  {
+    id: 'possessive3', label: 'iyelik, 3. tekil', shape: '-(s)I',
+    spellings: '-i / -ı / -u / -ü, with s after a vowel',
+    gloss: 'his, her, its', group: 'possessive',
+  },
+  {
+    id: 'with', label: 'vasıta hâli', shape: '-(y)lA',
+    spellings: '-le / -la, with y after a vowel',
+    gloss: 'with, by', group: 'derivation',
+  },
+  {
+    id: 'having', label: 'varlık', shape: '-lI',
+    spellings: '-li / -lı / -lu / -lü',
+    gloss: 'having, with — sütlü, with milk', group: 'derivation',
+  },
+  {
+    id: 'without', label: 'yokluk', shape: '-sIz',
+    spellings: '-siz / -sız / -suz / -süz',
+    gloss: 'without — sütsüz, without milk', group: 'derivation',
+  },
+  {
+    id: 'pluralLocative', label: 'çoğul + bulunma', shape: '-lAr + -DA',
+    spellings: '-lerde / -larda',
+    gloss: 'in the — endings stack, in this order', group: 'stacking',
   },
 ]
 
@@ -245,6 +306,8 @@ export function attach(word: string, id: TrSuffixId): string | null {
       return endsInVowel ? `${w}s${i}` : `${softened}${i}`
     case 'with':
       return endsInVowel ? `${w}yl${a}` : `${w}l${a}`
+    case 'having':
+      return `${w}l${i}`
     case 'without':
       return `${w}s${i}z`
     case 'pluralLocative': {

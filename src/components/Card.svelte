@@ -109,7 +109,10 @@
         {/if}
         {#key key}
           <div class="content">
-            <div class="label">{f.label}</div>
+            <!-- The label is English — "English", "Turkish" — and the page is
+                 in the language being learnt, so CSS would uppercase it by
+                 that language's rules. Turkish would give ENGLİSH. -->
+            <div class="label" lang="en">{f.label}</div>
             <div class="word">
               {card[f.side]}
               {#if badgesFor(card, f.side, language.badgeHints).length}

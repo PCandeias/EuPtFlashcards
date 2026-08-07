@@ -100,11 +100,32 @@ for (const language of LANGUAGES) {
 
     // Whatever tense you narrow to, a subject that has examples should still
     // have one — otherwise the marker appears and disappears with the settings.
-    it('covers every tense for most subjects', () => {
+    /**
+     * A card that is itself in a tense disappears when you switch that tense off,
+     * so its examples never have to cover the others: "eu sou" cannot be shown in
+     * the past, and does not need to be. Everything else has to survive any
+     * setting, or the marker would appear and disappear with the settings.
+     */
+    const tensedCards = new Set(
+      language.cards.filter(c => c.tense).map(c => c.target),
+    )
+    const filterable = all.filter(([subject]) => !tensedCards.has(subject))
+
+    it('covers every tense for most subjects that are not in one themselves', () => {
       for (const tense of language.tenses) {
-        const withThis = all.filter(([, ex]) => ex.some(e => e.tense === tense || !e.tense))
-        expect(withThis.length / all.length, tense).toBeGreaterThan(0.9)
+        const withThis = filterable.filter(([, ex]) => ex.some(e => e.tense === tense || !e.tense))
+        expect(withThis.length / filterable.length, tense).toBeGreaterThan(0.9)
       }
+    })
+
+    it('gives a tense-bearing card an example in its own tense', () => {
+      const wrong: string[] = []
+      for (const [subject, examples] of all) {
+        if (!tensedCards.has(subject)) continue
+        const card = language.cards.find(c => c.target === subject && c.tense)!
+        if (!examples.some(e => e.tense === card.tense || !e.tense)) wrong.push(subject)
+      }
+      expect(wrong).toEqual([])
     })
 
     it('reaches most of the deck', () => {

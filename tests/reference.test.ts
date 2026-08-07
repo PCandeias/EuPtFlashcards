@@ -104,8 +104,35 @@ describe('the reference tables', () => {
   })
 
   it('teaches Turkish its endings and Portuguese its contractions', () => {
-    expect(referenceTables(turkish).map(t => t.title)).toContain('Noun endings')
+    const trTitles = referenceTables(turkish).map(t => t.title)
+    expect(trTitles).toContain('Endings: the cases')
     expect(referenceTables(portuguese).map(t => t.title)).toContain('Contractions')
+  })
+
+  /**
+   * The endings are four jobs, not one list. Marking a plural, marking a case,
+   * saying whose something is and building a new word have nothing to do with
+   * each other, and a table that runs them together reads as a list of noises.
+   */
+  it('keeps the Turkish endings in groups, each spelled out both ways', () => {
+    const tables = referenceTables(turkish).filter(t => t.title.startsWith('Endings'))
+    expect(tables.map(t => t.title)).toEqual([
+      'Endings: one or many',
+      'Endings: the cases',
+      'Endings: whose it is',
+      'Endings: making new words',
+      'Endings stack',
+    ])
+
+    // Every ending shows the spellings it actually takes, not just the shape.
+    const plural = tables[0]!
+    expect(plural.rows[0]).toContain('-ler / -lar')
+    for (const table of tables.slice(0, 4)) {
+      for (const row of table.rows) {
+        const spelled = row.find(cell => cell.includes('-') && cell.includes('/'))
+        expect(spelled, `${table.title}: ${row[0]}`).toBeTruthy()
+      }
+    }
   })
 
   it('drops the model verb when a language has none rather than showing a gap', () => {

@@ -18,7 +18,7 @@ import { createExamplesKind, type Example } from '../../annotations/examples.js'
 import { createSuffixKind } from '../../annotations/suffixes.js'
 import { TR_PERSONS, TR_TENSES, TR_TENSE_IDS } from './tenses.js'
 import { conjugatePhrase } from './conjugate.js'
-import { attach, canSuffix, suffixTable, TR_SUFFIXES } from './suffixes.js'
+import { attach, canSuffix, suffixTable, TR_SUFFIXES, type SuffixGroup } from './suffixes.js'
 import { BACK, lastVowel } from './harmony.js'
 import { verbOf } from './detect.js'
 import Flag from './Flag.svelte'
@@ -91,32 +91,141 @@ export const suffixKind = createSuffixKind({
 })
 
 /**
- * The endings, worked on two words at once.
+ * The endings, in groups, worked on two words at once.
  *
  * `ev` has a front vowel and `okul` a back one, so every row shows the same
- * suffix in both of its shapes. That side-by-side is the whole of vowel harmony.
+ * ending in both of its shapes. That side-by-side is the whole of vowel harmony.
+ *
+ * They are four tables rather than one because they are four different jobs.
+ * Marking a plural, marking a case, saying whose something is and building a new
+ * word out of an old one have nothing to do with each other, and a single list
+ * of eleven endings reads as a list of noises.
  */
-const suffixReference: ReferenceTable = {
-  title: 'Noun endings',
-  blurb: 'Turkish puts on an ending where English puts a word in front. The '
-    + 'ending changes shape to match the word: ev takes e and i, okul takes a '
-    + 'and ı. Every noun card carries a + with its own full set.',
-  columns: ['Ending', 'Meaning', 'ev — front', 'okul — back'],
-  rows: TR_SUFFIXES.map(s => [
-    s.shape, s.gloss, attach('ev', s.id) ?? '—', attach('okul', s.id) ?? '—',
-  ]),
+function endingsOf(group: SuffixGroup): string[][] {
+  return TR_SUFFIXES
+    .filter(s => s.group === group)
+    .map(s => [s.shape, s.spellings, s.gloss, attach('ev', s.id) ?? '—', attach('okul', s.id) ?? '—'])
+}
+
+const ENDING_COLUMNS = ['Ending', 'How it is spelled', 'What it does', 'ev — front', 'okul — back']
+
+const pluralReference: ReferenceTable = {
+  title: 'Endings: one or many',
+  blurb: 'The first ending anyone meets, and the one that shows what the capital '
+    + 'letters mean: -lAr is not a spelling, it is a pair of them. You write -ler '
+    + 'after a front vowel and -lar after a back one, and never anything else.',
+  columns: ENDING_COLUMNS,
+  rows: endingsOf('number'),
   details: [
-    'The capital letters in the shapes are placeholders, not spellings. A stands '
-      + 'for a or e, I for ı, i, u or ü, and D for d or t — which one you get is '
-      + 'what the next two sections are about.',
-    'They stack, and always in this order: plural, then possessive, then case. '
-      + 'ev + ler + im + de is evlerimde, "in my houses". Turkish will keep going '
-      + 'far past anything English would attempt.',
+    'A number already says how many, so the plural ending goes away: it is iki ev, '
+      + '"two houses", never iki evler. Turkish marks it once or not at all.',
+    'A bare noun is not singular, it is unmarked. Kitap okuyorum can be one book '
+      + 'or several; the ending is for when the plural is the point.',
+    'The same -lAr on a verb means the subject is plural — geliyorlar, "they are '
+      + 'coming" — and on a noun it can also mean politeness or a whole family: '
+      + 'Ahmetler is "Ahmet and his lot".',
+  ],
+}
+
+const caseReference: ReferenceTable = {
+  title: 'Endings: the cases',
+  blurb: 'Five endings that between them do the work of most English '
+    + 'prepositions. There is a sixth case, the bare form, which has no ending at '
+    + 'all — that is what a dictionary gives you.',
+  columns: ENDING_COLUMNS,
+  rows: endingsOf('case'),
+  details: [
     'The accusative marks a definite object and nothing else. Kitap okuyorum is '
       + '"I am reading a book"; kitabı okuyorum is "I am reading the book". There '
-      + 'is no word for "the" — this ending is it.',
-    'The dative and locative do the work of half the English prepositions: eve '
-      + 'gidiyorum is "I am going home", evde is "at home", evden is "from home".',
+      + 'is no word for "the" in Turkish — this ending is it, and it appears only '
+      + 'when the thing is definite.',
+    'The dative, locative and ablative are a set: eve is "to the house", evde "at '
+      + 'the house", evden "from the house". Learn them together and half the '
+      + 'English prepositions are covered.',
+    'The locative and ablative are where hardening shows: after a voiceless '
+      + 'consonant the d is written t. It is evde but kitapta, evden but kitaptan.',
+    'The genitive comes with a partner. "The door of the house" is evin kapısı — '
+      + 'the owner takes -in and the thing owned takes -si. Both halves are '
+      + 'marked, which is the opposite of English.',
+  ],
+}
+
+/**
+ * The possessives, as a paradigm rather than as two rows.
+ *
+ * The panel offers `my` and `his` because those are the two a card most often
+ * needs; the reference owes a learner the whole set, and the whole set is what
+ * makes the pattern visible.
+ */
+const possessiveReference: ReferenceTable = {
+  title: 'Endings: whose it is',
+  blurb: 'Turkish has no possessive adjectives — no separate word for my. The '
+    + 'ending on the thing owned is what says it, and the pronoun in front is '
+    + 'optional once the ending is there: benim evim and evim both mean my house.',
+  columns: ['', 'Ending', 'How it is spelled', 'ev — front', 'okul — back'],
+  emphasiseFirst: false,
+  rows: [
+    ['my', '-(I)m', '-im / -ım / -um / -üm', 'evim', 'okulum'],
+    ['your', '-(I)n', '-in / -ın / -un / -ün', 'evin', 'okulun'],
+    ['his, her, its', '-(s)I', '-i / -ı / -u / -ü', 'evi', 'okulu'],
+    ['our', '-(I)mIz', '-imiz / -ımız / -umuz / -ümüz', 'evimiz', 'okulumuz'],
+    ['your — plural or polite', '-(I)nIz', '-iniz / -ınız / -unuz / -ünüz', 'eviniz', 'okulunuz'],
+    ['their', '-lArI', '-leri / -ları', 'evleri', 'okulları'],
+  ],
+  details: [
+    'The second person and the genitive are spelled the same, and only the '
+      + 'sentence tells them apart: evin is both "your house" and "of the house". '
+      + 'Turkish lives with the ambiguity and so will you.',
+    'The third person ending is the one that turns two nouns into a compound. '
+      + 'Otobüs durağı is "bus stop", literally "bus its-stop", and that -ı is '
+      + 'this ending doing a different job.',
+    'A possessive and a case can both be on: evimde is ev + im + de, "in my '
+      + 'house". The possessive goes first.',
+  ],
+}
+
+const derivationReference: ReferenceTable = {
+  title: 'Endings: making new words',
+  blurb: 'These do not mark grammar, they build a new word out of an old one. '
+    + 'Sütlü and sütsüz are a pair worth learning on your first day in a café.',
+  columns: ENDING_COLUMNS,
+  rows: endingsOf('derivation'),
+  details: [
+    '-lI and -sIz are opposites and take the same vowel: sütlü and sütsüz, '
+      + 'şekerli and şekersiz, tuzlu and tuzsuz. A café will ask you in exactly '
+      + 'those words.',
+    '-lI also makes a word for where someone is from: İstanbullu is "from '
+      + 'Istanbul", Portekizli "Portuguese". The deck teaches Portekizliyim, '
+      + '"I am Portuguese", which is that ending plus a person.',
+    'The instrumental -(y)lA is written both ways — arabayla and araba ile mean '
+      + 'the same, and the joined one is what you will hear.',
+  ],
+}
+
+const stackingReference: ReferenceTable = {
+  title: 'Endings stack',
+  blurb: 'More than one ending goes on at once, always in this order: plural, '
+    + 'then possessive, then case. Each one harmonises with what is now in front '
+    + 'of it rather than with the original word.',
+  columns: ['Built from', 'Turkish', 'English'],
+  emphasiseFirst: false,
+  rows: [
+    ['ev', 'ev', 'house'],
+    ['ev + ler', 'evler', 'houses'],
+    ['ev + de', 'evde', 'in the house'],
+    ['ev + ler + de', 'evlerde', 'in the houses'],
+    ['ev + im', 'evim', 'my house'],
+    ['ev + im + de', 'evimde', 'in my house'],
+    ['ev + ler + im', 'evlerim', 'my houses'],
+    ['ev + ler + im + de', 'evlerimde', 'in my houses'],
+  ],
+  details: [
+    'The last row is four endings on one word, and Turkish will keep going far '
+      + 'past anything English would attempt. Reading one is a matter of peeling '
+      + 'the endings off from the right.',
+    'Harmony runs left to right, one ending at a time. In evlerimde the -de is '
+      + 'front because -im is front, not because ev is.',
+    'The order never changes. There is no evdeler, and no evdeim.',
   ],
 }
 
@@ -274,7 +383,11 @@ export const turkish: LanguageDef = {
   voice,
   modelVerb: 'gelmek',
   reference: [
-    suffixReference,
+    pluralReference,
+    caseReference,
+    possessiveReference,
+    derivationReference,
+    stackingReference,
     harmonyReference,
     consonantReference,
     copulaReference,

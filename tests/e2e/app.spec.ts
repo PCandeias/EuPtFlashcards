@@ -72,11 +72,31 @@ test.afterEach(async ({ page }) => {
   expect((page as TrackedPage).__errors).toEqual([])
 })
 
+/**
+ * `text-transform: uppercase` follows the element's language, and the page is in
+ * the language being learnt. Under Turkish, an unmarked "English" comes out as
+ * ENGLİSH — a dotted capital I, on the front of every card.
+ */
+test('uppercases the English chrome by English rules', async ({ page }) => {
+  await page.goto('./#/tr')
+  await expect(page.locator('html')).toHaveAttribute('lang', 'tr-TR')
+
+  const label = page.locator('.face.front .label').first()
+  await expect(label).toHaveText(/English|Turkish/)
+  expect(await label.evaluate(el => el.matches(':lang(en)'))).toBe(true)
+  expect(await label.evaluate(el => getComputedStyle(el).textTransform)).toBe('uppercase')
+
+  // The reference page is English prose from top to bottom.
+  await page.goto('./#/tr/reference')
+  const heading = page.locator('#endings-the-cases thead th').first()
+  expect(await heading.evaluate(el => el.matches(':lang(en)'))).toBe(true)
+})
+
 test('loads the full corpus', async ({ page }) => {
   await page.goto('./#/pt')
   await expect(page.locator('.card')).toBeVisible()
   await expect(page.locator('h1')).toContainText('European Portuguese')
-  await expect(page.locator('#totalCount')).toHaveText('3368')
+  await expect(page.locator('#totalCount')).toHaveText('3370')
 })
 
 test('renders a plural badge on the English face and none on the Portuguese', async ({ page }) => {
@@ -862,7 +882,7 @@ test.describe('studying by tense', () => {
     await page.goto('./#/pt')
     await page.evaluate(() => localStorage.clear())
     await page.reload()
-    await expect(page.locator('#totalCount')).toHaveText('3368')
+    await expect(page.locator('#totalCount')).toHaveText('3370')
   })
 
   test('hides cards in a tense that is switched off', async ({ page }) => {
@@ -870,7 +890,7 @@ test.describe('studying by tense', () => {
     await setTenses(page, ['presente', 'perfeito', 'imperfeito', 'futuro', 'futuroProximo'])
     await page.reload()
     // The 140 continuous cards drop out; nothing else does.
-    await expect(page.locator('#totalCount')).toHaveText(String(3368 - 140))
+    await expect(page.locator('#totalCount')).toHaveText(String(3370 - 140))
   })
 
   test('keeps vocabulary and infinitives whatever is selected', async ({ page }) => {
@@ -878,7 +898,7 @@ test.describe('studying by tense', () => {
     await setTenses(page, [])
     await page.reload()
     // Only the 723 tense-bearing cards go.
-    await expect(page.locator('#totalCount')).toHaveText(String(3368 - 723))
+    await expect(page.locator('#totalCount')).toHaveText(String(3370 - 723))
 
     // A noun and an infinitive are both still reachable.
     await page.selectOption('#deckSelect', 'Common Verbs')
@@ -961,7 +981,7 @@ test.describe('studying by tense', () => {
       }))
     })
     await page.reload()
-    await expect(page.locator('#totalCount')).toHaveText('3368')
+    await expect(page.locator('#totalCount')).toHaveText('3370')
   })
 })
 

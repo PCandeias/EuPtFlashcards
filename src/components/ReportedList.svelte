@@ -29,7 +29,7 @@
         <div class="text">
           <span class="en">{report.en}</span>
           <span class="target">{report.target}</span>
-          <span class="deck">{report.deck}</span>
+          <span class="deck" lang="en">{report.deck}</span>
         </div>
         <button
           class="restore"

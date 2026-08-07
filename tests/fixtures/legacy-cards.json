@@ -3488,12 +3488,18 @@
   },
   {
     "deck": "Class",
-    "en": "me",
-    "target": "me"
+    "en": "me / to me",
+    "target": "me",
+    "tags": [
+      "object"
+    ],
+    "targetTags": [
+      "object"
+    ]
   },
   {
     "deck": "Class",
-    "en": "you",
+    "en": "you / to you",
     "target": "te",
     "tags": [
       "informal",
@@ -3529,12 +3535,18 @@
   },
   {
     "deck": "Class",
-    "en": "us",
-    "target": "nos"
+    "en": "us / to us",
+    "target": "nos",
+    "tags": [
+      "object"
+    ],
+    "targetTags": [
+      "object"
+    ]
   },
   {
     "deck": "Class",
-    "en": "you",
+    "en": "you / to you",
     "target": "vos",
     "tags": [
       "plural",
