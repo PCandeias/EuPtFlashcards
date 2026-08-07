@@ -226,6 +226,47 @@
       "en": "it was a pleasure",
       "target": "memnun oldum efendim",
       "level": "a1"
+    },
+    {
+      "en": "good morning, how are you?",
+      "target": "günaydın, nasılsın?",
+      "level": "a1"
+    },
+    {
+      "en": "I am fine, and you?",
+      "target": "iyiyim, ya sen?",
+      "level": "a1"
+    },
+    {
+      "en": "very well, thank you",
+      "target": "çok iyiyim, teşekkürler",
+      "level": "a1"
+    },
+    {
+      "en": "my name is Pedro",
+      "target": "benim adım Pedro",
+      "level": "a1"
+    },
+    {
+      "en": "nice to meet you",
+      "target": "tanıştığımıza memnun oldum",
+      "level": "a2"
+    },
+    {
+      "en": "I am from Portugal",
+      "target": "Portekizliyim",
+      "level": "a1"
+    },
+    {
+      "en": "do you speak English?",
+      "target": "İngilizce biliyor musun?",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "take care",
+      "target": "kendine iyi bak",
+      "level": "a1"
     }
   ]
 }

@@ -310,6 +310,26 @@
       "target": "sadece bakıyorum",
       "tense": "simdiki",
       "level": "a1"
+    },
+    {
+      "en": "it is ten lira",
+      "target": "on lira",
+      "level": "a1"
+    },
+    {
+      "en": "that is expensive",
+      "target": "çok pahalı",
+      "level": "a1"
+    },
+    {
+      "en": "do you have change?",
+      "target": "bozuk paranız var mı?",
+      "level": "a2"
+    },
+    {
+      "en": "a bag, please",
+      "target": "bir poşet lütfen",
+      "level": "a1"
     }
   ]
 }

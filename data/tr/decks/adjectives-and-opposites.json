@@ -359,6 +359,21 @@
       "en": "useful",
       "target": "faydalı",
       "level": "a2"
+    },
+    {
+      "en": "salty",
+      "target": "tuzlu",
+      "level": "a1"
+    },
+    {
+      "en": "spicy",
+      "target": "acılı",
+      "level": "a1"
+    },
+    {
+      "en": "delicious",
+      "target": "nefis",
+      "level": "a1"
     }
   ]
 }

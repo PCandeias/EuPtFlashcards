@@ -1,0 +1,218 @@
+{
+  "deck": "Suffixes & Vowel Harmony",
+  "cards": [
+    {
+      "en": "the house",
+      "target": "evi",
+      "level": "a1",
+      "sense": "as an object"
+    },
+    {
+      "en": "to the house",
+      "target": "eve",
+      "level": "a1"
+    },
+    {
+      "en": "in the house",
+      "target": "evde",
+      "level": "a1"
+    },
+    {
+      "en": "from the house",
+      "target": "evden",
+      "level": "a1"
+    },
+    {
+      "en": "of the house",
+      "target": "evin",
+      "level": "a2"
+    },
+    {
+      "en": "my house",
+      "target": "evim",
+      "level": "a1"
+    },
+    {
+      "en": "houses",
+      "target": "evler",
+      "level": "a1"
+    },
+    {
+      "en": "in the houses",
+      "target": "evlerde",
+      "level": "a2"
+    },
+    {
+      "en": "the school",
+      "target": "okulu",
+      "level": "a1",
+      "sense": "as an object"
+    },
+    {
+      "en": "to school",
+      "target": "okula",
+      "level": "a1"
+    },
+    {
+      "en": "at school",
+      "target": "okulda",
+      "level": "a1"
+    },
+    {
+      "en": "from school",
+      "target": "okuldan",
+      "level": "a1"
+    },
+    {
+      "en": "schools",
+      "target": "okullar",
+      "level": "a1"
+    },
+    {
+      "en": "in the book",
+      "target": "kitapta",
+      "level": "a1"
+    },
+    {
+      "en": "from the book",
+      "target": "kitaptan",
+      "level": "a1"
+    },
+    {
+      "en": "the book",
+      "target": "kitabı",
+      "level": "a1",
+      "sense": "as an object"
+    },
+    {
+      "en": "my book",
+      "target": "kitabım",
+      "level": "a1"
+    },
+    {
+      "en": "books",
+      "target": "kitaplar",
+      "level": "a1"
+    },
+    {
+      "en": "at work",
+      "target": "işte",
+      "level": "a1"
+    },
+    {
+      "en": "in Turkey",
+      "target": "Türkiye'de",
+      "level": "a1"
+    },
+    {
+      "en": "in Istanbul",
+      "target": "İstanbul'da",
+      "level": "a1"
+    },
+    {
+      "en": "to Istanbul",
+      "target": "İstanbul'a",
+      "level": "a1"
+    },
+    {
+      "en": "in the city",
+      "target": "şehirde",
+      "level": "a1"
+    },
+    {
+      "en": "on the table",
+      "target": "masada",
+      "level": "a1"
+    },
+    {
+      "en": "in the car",
+      "target": "arabada",
+      "level": "a1"
+    },
+    {
+      "en": "in the kitchen",
+      "target": "mutfakta",
+      "level": "a1"
+    },
+    {
+      "en": "in the garden",
+      "target": "bahçede",
+      "level": "a1"
+    },
+    {
+      "en": "with my friend",
+      "target": "arkadaşımla",
+      "level": "a2"
+    },
+    {
+      "en": "with milk",
+      "target": "sütlü",
+      "level": "a1"
+    },
+    {
+      "en": "without milk",
+      "target": "sütsüz",
+      "level": "a1"
+    },
+    {
+      "en": "without sugar",
+      "target": "şekersiz",
+      "level": "a1"
+    },
+    {
+      "en": "with sugar",
+      "target": "şekerli",
+      "level": "a1"
+    },
+    {
+      "en": "I am a student",
+      "target": "öğrenciyim",
+      "level": "a1"
+    },
+    {
+      "en": "you are a student",
+      "target": "öğrencisin",
+      "level": "a1"
+    },
+    {
+      "en": "we are students",
+      "target": "öğrenciyiz",
+      "level": "a1"
+    },
+    {
+      "en": "I am at home",
+      "target": "evdeyim",
+      "level": "a1"
+    },
+    {
+      "en": "I am Turkish",
+      "target": "Türküm",
+      "level": "a1"
+    },
+    {
+      "en": "I am hungry",
+      "target": "açım",
+      "level": "a1"
+    },
+    {
+      "en": "I am tired",
+      "target": "yorgunum",
+      "level": "a1"
+    },
+    {
+      "en": "is it good?",
+      "target": "iyi mi?",
+      "level": "a1"
+    },
+    {
+      "en": "are you a student?",
+      "target": "öğrenci misin?",
+      "level": "a1"
+    },
+    {
+      "en": "is there bread?",
+      "target": "ekmek var mı?",
+      "level": "a1"
+    }
+  ]
+}

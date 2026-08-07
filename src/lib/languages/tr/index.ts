@@ -15,8 +15,11 @@
 import { loadCorpus, type DeckModules } from '../../cards/load.js'
 import { createConjugationKind } from '../../annotations/conjugation.js'
 import { createExamplesKind, type Example } from '../../annotations/examples.js'
+import { createSuffixKind } from '../../annotations/suffixes.js'
 import { TR_PERSONS, TR_TENSES, TR_TENSE_IDS } from './tenses.js'
 import { conjugatePhrase } from './conjugate.js'
+import { canSuffix, suffixTable } from './suffixes.js'
+import { BACK, lastVowel } from './harmony.js'
 import { verbOf } from './detect.js'
 import Flag from './Flag.svelte'
 import verbData from '../../../../data/tr/verb-examples.json'
@@ -49,6 +52,43 @@ export const examplesKind = createExamplesKind({
   // conjugates at all already has its own entry under its whole form.
 })
 
+/**
+ * The deck that teaches the endings themselves — `evde`, `okula`, `kitabım`.
+ * Its cards are already inflected, so the reference has nothing to add to them:
+ * it would offer `evdeler` and `evdede`, which are not words.
+ */
+const ENDINGS_DECK = 'Suffixes & Vowel Harmony'
+
+/**
+ * A card whose English begins like this is already carrying the ending the
+ * panel would add: `my mother` is `annem`, not `anne`.
+ */
+const ALREADY_INFLECTED = /^(in|at|to|from|of|my|your|his|her|with|without)\b/i
+
+/**
+ * The endings a noun takes.
+ *
+ * Offered on the dictionary form of a word — `ev`, `okul`, `kitap` — and not on
+ * a phrase, a sentence, a verb, or a form that already has an ending on it.
+ */
+export const suffixKind = createSuffixKind({
+  table: word => suffixTable(word),
+  wordOf: card => {
+    if (/^to\s/i.test(card.en.trim())) return null
+    if (card.deck === ENDINGS_DECK) return null
+    if (ALREADY_INFLECTED.test(card.en.trim())) return null
+    const word = card.target.trim()
+    return canSuffix(word) ? word : null
+  },
+  describeHarmony: word => {
+    const v = lastVowel(word)
+    const back = v !== null && BACK.includes(v)
+    return back
+      ? `The last vowel is ${v}, a back vowel, so the endings take a, ı or u.`
+      : `The last vowel is ${v}, a front vowel, so the endings take e, i or ü.`
+  },
+})
+
 export const turkish: LanguageDef = {
   id: 'tr',
   name: 'Turkish',
@@ -70,6 +110,7 @@ export const turkish: LanguageDef = {
       verbOf,
     }) as AnnotationKind,
     examplesKind as AnnotationKind,
+    suffixKind as AnnotationKind,
   ],
   conjugate: conjugatePhrase,
   verbOf,

@@ -188,9 +188,45 @@
       "level": "a2"
     },
     {
-      "en": "when — as a conjunction",
+      "en": "when",
       "target": "zaman",
-      "level": "a2"
+      "level": "a2",
+      "sense": "as a conjunction"
+    },
+    {
+      "en": "who is that?",
+      "target": "o kim?",
+      "level": "a1"
+    },
+    {
+      "en": "where to?",
+      "target": "nereye?",
+      "level": "a1"
+    },
+    {
+      "en": "where from?",
+      "target": "nereden?",
+      "level": "a1"
+    },
+    {
+      "en": "how many?",
+      "target": "kaç tane?",
+      "level": "a1"
+    },
+    {
+      "en": "why not?",
+      "target": "neden olmasın?",
+      "level": "a1"
+    },
+    {
+      "en": "which one?",
+      "target": "hangisi?",
+      "level": "a1"
+    },
+    {
+      "en": "is that so?",
+      "target": "öyle mi?",
+      "level": "a1"
     }
   ]
 }

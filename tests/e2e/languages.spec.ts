@@ -140,6 +140,67 @@ test('speech follows the language of the deck', async ({ page }) => {
     .toHaveAttribute('aria-label', /Portuguese/)
 })
 
+/**
+ * The suffix reference. Turkish grammar is its endings, and the same ending is
+ * spelled four ways depending on the word — which is why the panel exists and
+ * why this checks two words rather than one.
+ */
+test('shows the endings a Turkish noun takes', async ({ page }) => {
+  await page.goto('./#/tr')
+  await page.bringToFront()
+  await page.selectOption('#deckSelect', 'Home & Household Objects')
+
+  const reach = (want: string) => page.evaluate(async (target) => {
+    for (let i = 0; i < 500; i++) {
+      const back = document.querySelector('.face.back .word')
+      if (back?.childNodes[0]?.textContent?.trim() === target) return true
+      ;(document.getElementById('nextBtn') as HTMLButtonElement).click()
+      await new Promise(r => requestAnimationFrame(r))
+    }
+    return false
+  }, want)
+
+  // The dictionary form is where the reference lives.
+  expect(await reach('ev'), 'should reach ev').toBe(true)
+  await page.click('#flipBtn')
+  await page.click('.face.back [data-annotation="suffixes"]')
+  await expect(page.locator('#suffixPanel')).toBeVisible()
+  // A front-vowel word takes the front-vowel endings.
+  await expect(page.locator('#suffixPanel')).toContainText('evler')
+  await expect(page.locator('#suffixPanel')).toContainText('evden')
+  await expect(page.locator('#suffixPanel')).toContainText('front vowel')
+})
+
+test('spells the same ending differently on a back-vowel word', async ({ page }) => {
+  await page.goto('./#/tr')
+  await page.bringToFront()
+  await page.selectOption('#deckSelect', 'Places, City & Buildings')
+
+  const found = await page.evaluate(async () => {
+    for (let i = 0; i < 500; i++) {
+      const back = document.querySelector('.face.back .word')
+      if (back?.childNodes[0]?.textContent?.trim() === 'okul') return true
+      ;(document.getElementById('nextBtn') as HTMLButtonElement).click()
+      await new Promise(r => requestAnimationFrame(r))
+    }
+    return false
+  })
+  expect(found, 'should reach okul').toBe(true)
+
+  await page.click('#flipBtn')
+  await page.click('.face.back [data-annotation="suffixes"]')
+  await expect(page.locator('#suffixPanel')).toContainText('okullar')
+  await expect(page.locator('#suffixPanel')).toContainText('okuldan')
+  await expect(page.locator('#suffixPanel')).toContainText('back vowel')
+})
+
+// Portuguese has no such table, so it never offers the marker.
+test('offers no suffix panel in Portuguese', async ({ page }) => {
+  await page.goto('./#/pt')
+  await expect(page.locator('.card')).toBeVisible()
+  await expect(page.locator('[data-annotation="suffixes"]')).toHaveCount(0)
+})
+
 test('conjugates a Turkish verb, with vowel harmony', async ({ page }) => {
   await page.goto('./#/tr')
   await page.bringToFront()

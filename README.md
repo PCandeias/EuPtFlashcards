@@ -5,7 +5,7 @@ Two languages, as one installable offline web app with spaced repetition:
 | | | |
 |---|---|---|
 | **Português** | 2512 cards · 31 decks | European Portuguese — `autocarro`, not `ônibus` |
-| **Türkçe** | 1277 cards · 24 decks | Beginner Turkish — vowel harmony, suffixes, no gender |
+| **Türkçe** | 1430 cards · 25 decks | Beginner Turkish — vowel harmony, suffixes, no gender |
 
 **Live:** https://pcandeias.github.io/EuPtFlashcards/
 
@@ -172,6 +172,45 @@ correct spelling shown, because typing accents on a phone is awkward enough that
 outright rejection teaches nothing either. Same for a missing article, which is
 what carries a noun's gender. Cards offering alternatives (`obrigado / obrigada`)
 accept any of them.
+
+## The suffix reference
+
+Turkish grammar *is* its endings. Where Portuguese puts a preposition in front of
+a noun, Turkish puts an ending on it — and the ending changes shape to match the
+word it lands on. So beside the `?` that conjugates a verb there is a `+` that
+shows a noun with every ending on it:
+
+```
+ev    →  evler   evi    eve    evde    evden   evin   evim   evle   evsiz   evlerde
+okul  →  okullar okulu  okula  okulda  okuldan okulun okulum okulla okulsuz okullarda
+```
+
+Same suffixes, different vowels. Seeing the two side by side teaches vowel
+harmony faster than the rule does, which is why the panel names which way the
+vowels went for the word you are looking at.
+
+Three things happen when an ending goes on, and only two of them are rules:
+
+- **Harmony** — the suffix vowel copies the last vowel of the word.
+- **Hardening** — a suffix starting with `d` becomes `t` after a voiceless
+  consonant: `evde`, but `kitapta`.
+- **Softening** — a final `p ç t k` voices before a vowel: `kitap` → `kitabı`.
+  **This one is not a rule.** `kitap` softens and `sepet` does not; `çocuk`
+  softens and `Türk` does not. It is a fact about each word, so the module keeps
+  an explicit list and *refuses to answer* for a word it has not been told about.
+  A missing panel costs one card its reference; a guessed one teaches a word that
+  does not exist.
+
+The same policy covers the other irregularities: `saat` takes front-vowel endings
+despite its back vowel (`saati`, never `saatı`), and `su` takes a `y` where the
+rules want an `n` or an `s` (`suyun`, not `sunun`). Both are listed, both are
+tested.
+
+The **Suffixes & Vowel Harmony** deck teaches the endings as cards — `evde`,
+`okula`, `kitabım` — and a test asserts every one of them is a form the engine
+also produces, so the deck and the reference cannot drift apart. The reference
+itself is offered only on dictionary forms: putting it on `evde` would suggest
+`evdeler`, which is not a word.
 
 ## Example sentences
 

@@ -328,6 +328,56 @@
       "en": "of course not",
       "target": "tabii ki hayır",
       "level": "a1"
+    },
+    {
+      "en": "this apple",
+      "target": "bu elma",
+      "level": "a1"
+    },
+    {
+      "en": "that house",
+      "target": "o ev",
+      "level": "a1"
+    },
+    {
+      "en": "these books",
+      "target": "bu kitaplar",
+      "level": "a1"
+    },
+    {
+      "en": "a little",
+      "target": "biraz",
+      "level": "a1"
+    },
+    {
+      "en": "again",
+      "target": "tekrar",
+      "level": "a1"
+    },
+    {
+      "en": "always",
+      "target": "her zaman",
+      "level": "a1"
+    },
+    {
+      "en": "never",
+      "target": "asla",
+      "level": "a1"
+    },
+    {
+      "en": "yes, there is",
+      "target": "evet, var",
+      "level": "a1"
+    },
+    {
+      "en": "no, there is not",
+      "target": "hayır, yok",
+      "level": "a1"
+    },
+    {
+      "en": "too much",
+      "target": "fazla",
+      "level": "a1"
     }
   ]
 }

@@ -2,7 +2,7 @@
   {
     "deck": "Adjectives & Opposites",
     "file": "adjectives-and-opposites",
-    "count": 71
+    "count": 74
   },
   {
     "deck": "Body & Health",
@@ -22,7 +22,7 @@
   {
     "deck": "Common Verbs",
     "file": "common-verbs",
-    "count": 95
+    "count": 102
   },
   {
     "deck": "Countries & Languages",
@@ -42,17 +42,17 @@
   {
     "deck": "Family & People",
     "file": "family-and-people",
-    "count": 43
+    "count": 53
   },
   {
     "deck": "Food & Drink",
     "file": "food-and-drink",
-    "count": 85
+    "count": 113
   },
   {
     "deck": "Greetings & Polite Expressions",
     "file": "greetings-and-polite-expressions",
-    "count": 42
+    "count": 50
   },
   {
     "deck": "Home & Household Objects",
@@ -62,22 +62,22 @@
   {
     "deck": "Numbers",
     "file": "numbers",
-    "count": 106
+    "count": 113
   },
   {
     "deck": "Places, City & Buildings",
     "file": "places-city-and-buildings",
-    "count": 65
+    "count": 71
   },
   {
     "deck": "Pronouns & Basic Words",
     "file": "pronouns-and-basic-words",
-    "count": 59
+    "count": 69
   },
   {
     "deck": "Question Words & Connectors",
     "file": "question-words-and-connectors",
-    "count": 34
+    "count": 41
   },
   {
     "deck": "Restaurant & Ordering",
@@ -87,7 +87,12 @@
   {
     "deck": "Shopping & Money",
     "file": "shopping-and-money",
-    "count": 60
+    "count": 64
+  },
+  {
+    "deck": "Suffixes & Vowel Harmony",
+    "file": "suffixes-and-vowel-harmony",
+    "count": 42
   },
   {
     "deck": "Technology & Phone",
@@ -97,7 +102,7 @@
   {
     "deck": "Time, Days & Calendar",
     "file": "time-days-and-calendar",
-    "count": 54
+    "count": 64
   },
   {
     "deck": "Transport & Directions",
@@ -107,7 +112,7 @@
   {
     "deck": "Useful Verb Phrases",
     "file": "useful-verb-phrases",
-    "count": 20
+    "count": 31
   },
   {
     "deck": "Weather, Nature & Animals",

@@ -5,16 +5,17 @@ import { cardId } from '../src/lib/cards/schema.js'
 import { LEVEL_IDS } from '../src/lib/cards/levels.js'
 import { TR_TENSE_IDS } from '../src/lib/languages/tr/tenses.js'
 import { conjugatePhrase } from '../src/lib/languages/tr/conjugate.js'
+import { attach, canSuffix, mutationOf } from '../src/lib/languages/tr/suffixes.js'
 
 const CARDS = turkish.cards
 
 describe('the Turkish corpus', () => {
   it('holds the whole corpus', () => {
-    expect(CARDS.length).toBe(1277)
+    expect(CARDS.length).toBe(1430)
   })
 
   it('covers every deck', () => {
-    expect(turkish.decks.length).toBe(24)
+    expect(turkish.decks.length).toBe(25)
   })
 
   it('has no card id collisions', () => {
@@ -88,7 +89,7 @@ describe('Turkish tense tagging', () => {
   it('tags only what it is sure of', () => {
     const counts: Record<string, number> = {}
     for (const c of tensed) counts[c.tense!] = (counts[c.tense!] ?? 0) + 1
-    expect(counts).toEqual({ simdiki: 74, genis: 9, gecmis: 6, gelecek: 3 })
+    expect(counts).toEqual({ simdiki: 87, genis: 13, gecmis: 6, gelecek: 3 })
   })
 
   it('never uses another language’s tense', () => {
@@ -138,6 +139,53 @@ describe('Turkish level labelling', () => {
     expect(level('su')).toBe('a1')
     expect(level('anne')).toBe('a1')
     expect(level('Merhaba')).toBe('a1')
+  })
+})
+
+describe('the suffix reference', () => {
+  const single = CARDS.filter(c => !/^to\s/i.test(c.en) && !c.target.includes(' '))
+
+  it('offers endings for most of the single-word cards', () => {
+    const offered = single.filter(c => canSuffix(c.target))
+    expect(offered.length / single.length).toBeGreaterThan(0.8)
+  })
+
+  /**
+   * Softening is lexical, so a word the table has not been told about gets no
+   * panel. What must not happen is a *wrong* panel, so every word the deck
+   * teaches that ends in p, ç, t or k has to be a decision rather than an
+   * accident.
+   */
+  it('has decided about every word that could soften', () => {
+    const undecided = [...new Set(single
+      .map(c => c.target)
+      .filter(t => /[pçtk]$/.test(t) && t === t.toLocaleLowerCase('tr'))
+      .filter(t => mutationOf(t) === null))]
+    // `ancak` is a conjunction; it takes no case ending and needs no decision.
+    expect(undecided).toEqual(['ancak'])
+  })
+
+  it('agrees with the cards that teach the endings', () => {
+    const taught = new Map(
+      CARDS.filter(c => c.deck === 'Suffixes & Vowel Harmony').map(c => [c.en, c.target]),
+    )
+    // Every one of these is a card in the deck and a form the engine produces.
+    expect(attach('ev', 'locative')).toBe(taught.get('in the house'))
+    expect(attach('ev', 'dative')).toBe(taught.get('to the house'))
+    expect(attach('ev', 'plural')).toBe(taught.get('houses'))
+    expect(attach('okul', 'locative')).toBe(taught.get('at school'))
+    expect(attach('okul', 'plural')).toBe(taught.get('schools'))
+    expect(attach('kitap', 'locative')).toBe(taught.get('in the book'))
+    expect(attach('kitap', 'accusative')).toBe(taught.get('the book'))
+    expect(attach('kitap', 'possessive1')).toBe(taught.get('my book'))
+    expect(attach('ev', 'pluralLocative')).toBe(taught.get('in the houses'))
+  })
+
+  it('shows harmony working both ways on the same suffix', () => {
+    // The one thing the deck is trying to teach.
+    expect(attach('ev', 'locative')).toBe('evde')
+    expect(attach('okul', 'locative')).toBe('okulda')
+    expect(attach('mutfak', 'locative')).toBe('mutfakta')
   })
 })
 

@@ -326,6 +326,36 @@
       "en": "countryside",
       "target": "kırsal",
       "level": "a2"
+    },
+    {
+      "en": "the bus stop",
+      "target": "otobüs durağı",
+      "level": "a1"
+    },
+    {
+      "en": "the ferry pier",
+      "target": "iskele",
+      "level": "a2"
+    },
+    {
+      "en": "the corner",
+      "target": "köşe",
+      "level": "a1"
+    },
+    {
+      "en": "on the right",
+      "target": "sağda",
+      "level": "a1"
+    },
+    {
+      "en": "on the left",
+      "target": "solda",
+      "level": "a1"
+    },
+    {
+      "en": "near here",
+      "target": "buraya yakın",
+      "level": "a1"
     }
   ]
 }

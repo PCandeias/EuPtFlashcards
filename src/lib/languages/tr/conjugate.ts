@@ -20,42 +20,11 @@
  * explicitly below; nothing else is guessed at.
  */
 import { TR_PERSON_IDS, TR_TENSE_IDS, type TrPersonId, type TrTenseId } from './tenses.js'
+import { VOICELESS, fourWay, isVowel, lastVowel, syllables, twoWay } from './harmony.js'
 import type { Conjugation as GenericConjugation, Forms as GenericForms } from '../../grammar/types.js'
 
 type Forms = GenericForms<TrPersonId>
 type Conjugation = GenericConjugation<TrTenseId, TrPersonId>
-
-const BACK = 'aıou'
-const FRONT = 'eiöü'
-const VOWELS = BACK + FRONT
-/** fıstıkçı şahap — the mnemonic every Turkish course teaches. */
-const VOICELESS = 'çfhkpsşt'
-
-const isVowel = (ch: string) => VOWELS.includes(ch)
-
-function lastVowel(word: string): string | null {
-  for (let i = word.length - 1; i >= 0; i--) {
-    if (isVowel(word[i]!)) return word[i]!
-  }
-  return null
-}
-
-/** The a/e choice: back vowels take a, front vowels take e. */
-function twoWay(word: string): 'a' | 'e' {
-  const v = lastVowel(word)
-  return v && BACK.includes(v) ? 'a' : 'e'
-}
-
-/** The ı/i/u/ü choice, which also tracks rounding. */
-function fourWay(word: string): 'ı' | 'i' | 'u' | 'ü' {
-  const v = lastVowel(word)
-  switch (v) {
-    case 'a': case 'ı': return 'ı'
-    case 'o': case 'u': return 'u'
-    case 'ö': case 'ü': return 'ü'
-    default: return 'i'
-  }
-}
 
 /**
  * Stems that voice their final consonant before a vowel.
@@ -83,12 +52,6 @@ const RESHAPES: Record<string, string> = { ye: 'yi', de: 'di' }
 const AORIST_IRREGULAR = new Set([
   'al', 'bil', 'bul', 'dur', 'gel', 'gör', 'kal', 'ol', 'öl', 'san', 'var', 'ver', 'vur',
 ])
-
-function syllables(stem: string): number {
-  let n = 0
-  for (const ch of stem) if (isVowel(ch)) n++
-  return n
-}
 
 export interface Verb {
   infinitive: string

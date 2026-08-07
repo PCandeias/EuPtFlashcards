@@ -22306,5 +22306,1985 @@
    "en": "I will see the break tomorrow.",
    "tense": "gelecek"
   }
+ ],
+ "evi": [
+  {
+   "target": "Bu bir evi.",
+   "en": "This is the house."
+  },
+  {
+   "target": "Evi nerede?",
+   "en": "Where is the house?"
+  },
+  {
+   "target": "Evi istiyorum.",
+   "en": "I want the house.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün evi görürüm.",
+   "en": "I see the house every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün evi aldım.",
+   "en": "I bought the house yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın evi alacağım.",
+   "en": "I will buy the house tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "evde": [
+  {
+   "target": "Bu bir evde.",
+   "en": "This is the in the house."
+  },
+  {
+   "target": "Evde nerede?",
+   "en": "Where is the in the house?"
+  },
+  {
+   "target": "Evde istiyorum.",
+   "en": "I want the in the house.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün evde görürüm.",
+   "en": "I see the in the house every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün evde aldım.",
+   "en": "I bought the in the house yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın evde alacağım.",
+   "en": "I will buy the in the house tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "evden": [
+  {
+   "target": "Bu bir evden.",
+   "en": "This is the from the house."
+  },
+  {
+   "target": "Evden nerede?",
+   "en": "Where is the from the house?"
+  },
+  {
+   "target": "Evden istiyorum.",
+   "en": "I want the from the house.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün evden görürüm.",
+   "en": "I see the from the house every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün evden aldım.",
+   "en": "I bought the from the house yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın evden alacağım.",
+   "en": "I will buy the from the house tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "evin": [
+  {
+   "target": "Bu bir evin.",
+   "en": "This is the of the house."
+  },
+  {
+   "target": "Evin nerede?",
+   "en": "Where is the of the house?"
+  },
+  {
+   "target": "Evin istiyorum.",
+   "en": "I want the of the house.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün evin görürüm.",
+   "en": "I see the of the house every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün evin aldım.",
+   "en": "I bought the of the house yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın evin alacağım.",
+   "en": "I will buy the of the house tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "evim": [
+  {
+   "target": "Bu bir evim.",
+   "en": "This is the my house."
+  },
+  {
+   "target": "Evim nerede?",
+   "en": "Where is the my house?"
+  },
+  {
+   "target": "Evim istiyorum.",
+   "en": "I want the my house.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün evim görürüm.",
+   "en": "I see the my house every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün evim aldım.",
+   "en": "I bought the my house yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın evim alacağım.",
+   "en": "I will buy the my house tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "evler": [
+  {
+   "target": "Bu bir evler.",
+   "en": "This is the houses."
+  },
+  {
+   "target": "Evler nerede?",
+   "en": "Where is the houses?"
+  },
+  {
+   "target": "Evler istiyorum.",
+   "en": "I want the houses.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün evler görürüm.",
+   "en": "I see the houses every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün evler aldım.",
+   "en": "I bought the houses yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın evler alacağım.",
+   "en": "I will buy the houses tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "evlerde": [
+  {
+   "target": "Bu bir evlerde.",
+   "en": "This is the in the houses."
+  },
+  {
+   "target": "Evlerde nerede?",
+   "en": "Where is the in the houses?"
+  },
+  {
+   "target": "Evlerde istiyorum.",
+   "en": "I want the in the houses.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün evlerde görürüm.",
+   "en": "I see the in the houses every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün evlerde aldım.",
+   "en": "I bought the in the houses yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın evlerde alacağım.",
+   "en": "I will buy the in the houses tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "okulu": [
+  {
+   "target": "Bu bir okulu.",
+   "en": "This is the school."
+  },
+  {
+   "target": "Okulu nerede?",
+   "en": "Where is the school?"
+  },
+  {
+   "target": "Okulu istiyorum.",
+   "en": "I want the school.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün okulu görürüm.",
+   "en": "I see the school every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün okulu aldım.",
+   "en": "I bought the school yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın okulu alacağım.",
+   "en": "I will buy the school tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "okulda": [
+  {
+   "target": "Bu bir okulda.",
+   "en": "This is the at school."
+  },
+  {
+   "target": "Okulda nerede?",
+   "en": "Where is the at school?"
+  },
+  {
+   "target": "Okulda istiyorum.",
+   "en": "I want the at school.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün okulda görürüm.",
+   "en": "I see the at school every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün okulda aldım.",
+   "en": "I bought the at school yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın okulda alacağım.",
+   "en": "I will buy the at school tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "okuldan": [
+  {
+   "target": "Bu bir okuldan.",
+   "en": "This is the from school."
+  },
+  {
+   "target": "Okuldan nerede?",
+   "en": "Where is the from school?"
+  },
+  {
+   "target": "Okuldan istiyorum.",
+   "en": "I want the from school.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün okuldan görürüm.",
+   "en": "I see the from school every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün okuldan aldım.",
+   "en": "I bought the from school yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın okuldan alacağım.",
+   "en": "I will buy the from school tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "okullar": [
+  {
+   "target": "Bu bir okullar.",
+   "en": "This is the schools."
+  },
+  {
+   "target": "Okullar nerede?",
+   "en": "Where is the schools?"
+  },
+  {
+   "target": "Okullar istiyorum.",
+   "en": "I want the schools.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün okullar görürüm.",
+   "en": "I see the schools every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün okullar aldım.",
+   "en": "I bought the schools yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın okullar alacağım.",
+   "en": "I will buy the schools tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "kitapta": [
+  {
+   "target": "Bu bir kitapta.",
+   "en": "This is the in the book."
+  },
+  {
+   "target": "Kitapta nerede?",
+   "en": "Where is the in the book?"
+  },
+  {
+   "target": "Kitapta istiyorum.",
+   "en": "I want the in the book.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün kitapta görürüm.",
+   "en": "I see the in the book every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün kitapta aldım.",
+   "en": "I bought the in the book yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın kitapta alacağım.",
+   "en": "I will buy the in the book tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "kitaptan": [
+  {
+   "target": "Bu bir kitaptan.",
+   "en": "This is the from the book."
+  },
+  {
+   "target": "Kitaptan nerede?",
+   "en": "Where is the from the book?"
+  },
+  {
+   "target": "Kitaptan istiyorum.",
+   "en": "I want the from the book.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün kitaptan görürüm.",
+   "en": "I see the from the book every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün kitaptan aldım.",
+   "en": "I bought the from the book yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın kitaptan alacağım.",
+   "en": "I will buy the from the book tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "kitabı": [
+  {
+   "target": "Bu bir kitabı.",
+   "en": "This is the book."
+  },
+  {
+   "target": "Kitabı nerede?",
+   "en": "Where is the book?"
+  },
+  {
+   "target": "Kitabı istiyorum.",
+   "en": "I want the book.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün kitabı görürüm.",
+   "en": "I see the book every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün kitabı aldım.",
+   "en": "I bought the book yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın kitabı alacağım.",
+   "en": "I will buy the book tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "kitabım": [
+  {
+   "target": "Bu bir kitabım.",
+   "en": "This is the my book."
+  },
+  {
+   "target": "Kitabım nerede?",
+   "en": "Where is the my book?"
+  },
+  {
+   "target": "Kitabım istiyorum.",
+   "en": "I want the my book.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün kitabım görürüm.",
+   "en": "I see the my book every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün kitabım aldım.",
+   "en": "I bought the my book yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın kitabım alacağım.",
+   "en": "I will buy the my book tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "kitaplar": [
+  {
+   "target": "Bu bir kitaplar.",
+   "en": "This is the books."
+  },
+  {
+   "target": "Kitaplar nerede?",
+   "en": "Where is the books?"
+  },
+  {
+   "target": "Kitaplar istiyorum.",
+   "en": "I want the books.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün kitaplar görürüm.",
+   "en": "I see the books every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün kitaplar aldım.",
+   "en": "I bought the books yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın kitaplar alacağım.",
+   "en": "I will buy the books tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "işte": [
+  {
+   "target": "Bu bir işte.",
+   "en": "This is the at work."
+  },
+  {
+   "target": "İşte nerede?",
+   "en": "Where is the at work?"
+  },
+  {
+   "target": "İşte istiyorum.",
+   "en": "I want the at work.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün işte görürüm.",
+   "en": "I see the at work every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün işte aldım.",
+   "en": "I bought the at work yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın işte alacağım.",
+   "en": "I will buy the at work tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "şehirde": [
+  {
+   "target": "Bu bir şehirde.",
+   "en": "This is the in the city."
+  },
+  {
+   "target": "Şehirde nerede?",
+   "en": "Where is the in the city?"
+  },
+  {
+   "target": "Şehirde istiyorum.",
+   "en": "I want the in the city.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün şehirde görürüm.",
+   "en": "I see the in the city every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün şehirde aldım.",
+   "en": "I bought the in the city yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın şehirde alacağım.",
+   "en": "I will buy the in the city tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "masada": [
+  {
+   "target": "Bu bir masada.",
+   "en": "This is the on the table."
+  },
+  {
+   "target": "Masada nerede?",
+   "en": "Where is the on the table?"
+  },
+  {
+   "target": "Masada istiyorum.",
+   "en": "I want the on the table.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün masada görürüm.",
+   "en": "I see the on the table every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün masada aldım.",
+   "en": "I bought the on the table yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın masada alacağım.",
+   "en": "I will buy the on the table tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "arabada": [
+  {
+   "target": "Bu bir arabada.",
+   "en": "This is the in the car."
+  },
+  {
+   "target": "Arabada nerede?",
+   "en": "Where is the in the car?"
+  },
+  {
+   "target": "Arabada istiyorum.",
+   "en": "I want the in the car.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün arabada görürüm.",
+   "en": "I see the in the car every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün arabada aldım.",
+   "en": "I bought the in the car yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın arabada alacağım.",
+   "en": "I will buy the in the car tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "mutfakta": [
+  {
+   "target": "Bu bir mutfakta.",
+   "en": "This is the in the kitchen."
+  },
+  {
+   "target": "Mutfakta nerede?",
+   "en": "Where is the in the kitchen?"
+  },
+  {
+   "target": "Mutfakta istiyorum.",
+   "en": "I want the in the kitchen.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün mutfakta görürüm.",
+   "en": "I see the in the kitchen every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün mutfakta aldım.",
+   "en": "I bought the in the kitchen yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın mutfakta alacağım.",
+   "en": "I will buy the in the kitchen tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "bahçede": [
+  {
+   "target": "Bu bir bahçede.",
+   "en": "This is the in the garden."
+  },
+  {
+   "target": "Bahçede nerede?",
+   "en": "Where is the in the garden?"
+  },
+  {
+   "target": "Bahçede istiyorum.",
+   "en": "I want the in the garden.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün bahçede görürüm.",
+   "en": "I see the in the garden every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün bahçede aldım.",
+   "en": "I bought the in the garden yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın bahçede alacağım.",
+   "en": "I will buy the in the garden tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "arkadaşımla": [
+  {
+   "target": "Bu bir arkadaşımla.",
+   "en": "This is the with my friend."
+  },
+  {
+   "target": "Arkadaşımla nerede?",
+   "en": "Where is the with my friend?"
+  },
+  {
+   "target": "Arkadaşımla istiyorum.",
+   "en": "I want the with my friend.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün arkadaşımla görürüm.",
+   "en": "I see the with my friend every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün arkadaşımla aldım.",
+   "en": "I bought the with my friend yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın arkadaşımla alacağım.",
+   "en": "I will buy the with my friend tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "sütlü": [
+  {
+   "target": "Bu bir sütlü.",
+   "en": "This is the with milk."
+  },
+  {
+   "target": "Sütlü nerede?",
+   "en": "Where is the with milk?"
+  },
+  {
+   "target": "Sütlü istiyorum.",
+   "en": "I want the with milk.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün sütlü görürüm.",
+   "en": "I see the with milk every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün sütlü aldım.",
+   "en": "I bought the with milk yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın sütlü alacağım.",
+   "en": "I will buy the with milk tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "sütsüz": [
+  {
+   "target": "Bu bir sütsüz.",
+   "en": "This is the without milk."
+  },
+  {
+   "target": "Sütsüz nerede?",
+   "en": "Where is the without milk?"
+  },
+  {
+   "target": "Sütsüz istiyorum.",
+   "en": "I want the without milk.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün sütsüz görürüm.",
+   "en": "I see the without milk every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün sütsüz aldım.",
+   "en": "I bought the without milk yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın sütsüz alacağım.",
+   "en": "I will buy the without milk tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "şekersiz": [
+  {
+   "target": "Bu bir şekersiz.",
+   "en": "This is the without sugar."
+  },
+  {
+   "target": "Şekersiz nerede?",
+   "en": "Where is the without sugar?"
+  },
+  {
+   "target": "Şekersiz istiyorum.",
+   "en": "I want the without sugar.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün şekersiz görürüm.",
+   "en": "I see the without sugar every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün şekersiz aldım.",
+   "en": "I bought the without sugar yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın şekersiz alacağım.",
+   "en": "I will buy the without sugar tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "şekerli": [
+  {
+   "target": "Bu bir şekerli.",
+   "en": "This is the with sugar."
+  },
+  {
+   "target": "Şekerli nerede?",
+   "en": "Where is the with sugar?"
+  },
+  {
+   "target": "Şekerli istiyorum.",
+   "en": "I want the with sugar.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün şekerli görürüm.",
+   "en": "I see the with sugar every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün şekerli aldım.",
+   "en": "I bought the with sugar yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın şekerli alacağım.",
+   "en": "I will buy the with sugar tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "öğrenciyim": [
+  {
+   "target": "Bu bir öğrenciyim.",
+   "en": "This is I am a student."
+  },
+  {
+   "target": "Öğrenciyim nerede?",
+   "en": "Where is the I am a student?"
+  },
+  {
+   "target": "Öğrenciyim istiyorum.",
+   "en": "I want I am a student.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün öğrenciyim görürüm.",
+   "en": "I see I am a student every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün öğrenciyim aldım.",
+   "en": "I bought I am a student yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın öğrenciyim alacağım.",
+   "en": "I will buy I am a student tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "öğrencisin": [
+  {
+   "target": "Bu bir öğrencisin.",
+   "en": "This is the you are a student."
+  },
+  {
+   "target": "Öğrencisin nerede?",
+   "en": "Where is the you are a student?"
+  },
+  {
+   "target": "Öğrencisin istiyorum.",
+   "en": "I want the you are a student.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün öğrencisin görürüm.",
+   "en": "I see the you are a student every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün öğrencisin aldım.",
+   "en": "I bought the you are a student yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın öğrencisin alacağım.",
+   "en": "I will buy the you are a student tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "öğrenciyiz": [
+  {
+   "target": "Bu bir öğrenciyiz.",
+   "en": "This is the we are students."
+  },
+  {
+   "target": "Öğrenciyiz nerede?",
+   "en": "Where is the we are students?"
+  },
+  {
+   "target": "Öğrenciyiz istiyorum.",
+   "en": "I want the we are students.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün öğrenciyiz görürüm.",
+   "en": "I see the we are students every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün öğrenciyiz aldım.",
+   "en": "I bought the we are students yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın öğrenciyiz alacağım.",
+   "en": "I will buy the we are students tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "evdeyim": [
+  {
+   "target": "Bu bir evdeyim.",
+   "en": "This is I am at home."
+  },
+  {
+   "target": "Evdeyim nerede?",
+   "en": "Where is the I am at home?"
+  },
+  {
+   "target": "Evdeyim istiyorum.",
+   "en": "I want I am at home.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün evdeyim görürüm.",
+   "en": "I see I am at home every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün evdeyim aldım.",
+   "en": "I bought I am at home yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın evdeyim alacağım.",
+   "en": "I will buy I am at home tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "açım": [
+  {
+   "target": "Bu bir açım.",
+   "en": "This is I am hungry."
+  },
+  {
+   "target": "Açım nerede?",
+   "en": "Where is the I am hungry?"
+  },
+  {
+   "target": "Açım istiyorum.",
+   "en": "I want I am hungry.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün açım görürüm.",
+   "en": "I see I am hungry every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün açım aldım.",
+   "en": "I bought I am hungry yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın açım alacağım.",
+   "en": "I will buy I am hungry tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "yorgunum": [
+  {
+   "target": "Bu bir yorgunum.",
+   "en": "This is I am tired."
+  },
+  {
+   "target": "Yorgunum nerede?",
+   "en": "Where is the I am tired?"
+  },
+  {
+   "target": "Yorgunum istiyorum.",
+   "en": "I want I am tired.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün yorgunum görürüm.",
+   "en": "I see I am tired every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün yorgunum aldım.",
+   "en": "I bought I am tired yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın yorgunum alacağım.",
+   "en": "I will buy I am tired tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "menemen": [
+  {
+   "target": "Bu bir menemen.",
+   "en": "This is the menemen."
+  },
+  {
+   "target": "Menemen nerede?",
+   "en": "Where is the menemen?"
+  },
+  {
+   "target": "Menemen istiyorum.",
+   "en": "I want the menemen.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün menemen görürüm.",
+   "en": "I see the menemen every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün menemen aldım.",
+   "en": "I bought the menemen yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın menemen alacağım.",
+   "en": "I will buy the menemen tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "salata": [
+  {
+   "target": "Bu bir salata.",
+   "en": "This is the salad."
+  },
+  {
+   "target": "Salata nerede?",
+   "en": "Where is the salad?"
+  },
+  {
+   "target": "Salata istiyorum.",
+   "en": "I want the salad.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün salata görürüm.",
+   "en": "I see the salad every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün salata aldım.",
+   "en": "I bought the salad yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın salata alacağım.",
+   "en": "I will buy the salad tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "köfte": [
+  {
+   "target": "Bu bir köfte.",
+   "en": "This is the grilled meatballs."
+  },
+  {
+   "target": "Köfte nerede?",
+   "en": "Where is the grilled meatballs?"
+  },
+  {
+   "target": "Köfte istiyorum.",
+   "en": "I want the grilled meatballs.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün köfte görürüm.",
+   "en": "I see the grilled meatballs every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün köfte aldım.",
+   "en": "I bought the grilled meatballs yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın köfte alacağım.",
+   "en": "I will buy the grilled meatballs tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "tost": [
+  {
+   "target": "Bu bir tost.",
+   "en": "This is the toast."
+  },
+  {
+   "target": "Tost nerede?",
+   "en": "Where is the toast?"
+  },
+  {
+   "target": "Tost istiyorum.",
+   "en": "I want the toast.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün tost görürüm.",
+   "en": "I see the toast every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün tost aldım.",
+   "en": "I bought the toast yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın tost alacağım.",
+   "en": "I will buy the toast tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "ceviz": [
+  {
+   "target": "Bu bir ceviz.",
+   "en": "This is the walnut."
+  },
+  {
+   "target": "Ceviz nerede?",
+   "en": "Where is the walnut?"
+  },
+  {
+   "target": "Ceviz istiyorum.",
+   "en": "I want the walnut.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün ceviz görürüm.",
+   "en": "I see the walnut every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün ceviz aldım.",
+   "en": "I bought the walnut yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın ceviz alacağım.",
+   "en": "I will buy the walnut tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "fındık": [
+  {
+   "target": "Bu bir fındık.",
+   "en": "This is the hazelnut."
+  },
+  {
+   "target": "Fındık nerede?",
+   "en": "Where is the hazelnut?"
+  },
+  {
+   "target": "Fındık istiyorum.",
+   "en": "I want the hazelnut.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün fındık görürüm.",
+   "en": "I see the hazelnut every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün fındık aldım.",
+   "en": "I bought the hazelnut yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın fındık alacağım.",
+   "en": "I will buy the hazelnut tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "kayısı": [
+  {
+   "target": "Bu bir kayısı.",
+   "en": "This is the apricot."
+  },
+  {
+   "target": "Kayısı nerede?",
+   "en": "Where is the apricot?"
+  },
+  {
+   "target": "Kayısı istiyorum.",
+   "en": "I want the apricot.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün kayısı görürüm.",
+   "en": "I see the apricot every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün kayısı aldım.",
+   "en": "I bought the apricot yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın kayısı alacağım.",
+   "en": "I will buy the apricot tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "incir": [
+  {
+   "target": "Bu bir incir.",
+   "en": "This is the fig."
+  },
+  {
+   "target": "İncir nerede?",
+   "en": "Where is the fig?"
+  },
+  {
+   "target": "İncir istiyorum.",
+   "en": "I want the fig.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün incir görürüm.",
+   "en": "I see the fig every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün incir aldım.",
+   "en": "I bought the fig yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın incir alacağım.",
+   "en": "I will buy the fig tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "doymuş": [
+  {
+   "target": "Bu bir doymuş.",
+   "en": "This is the full."
+  },
+  {
+   "target": "Doymuş nerede?",
+   "en": "Where is the full?"
+  },
+  {
+   "target": "Doymuş istiyorum.",
+   "en": "I want the full.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün doymuş görürüm.",
+   "en": "I see the full every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün doymuş aldım.",
+   "en": "I bought the full yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın doymuş alacağım.",
+   "en": "I will buy the full tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "biraz": [
+  {
+   "target": "Bu bir biraz.",
+   "en": "This is the a little."
+  },
+  {
+   "target": "Biraz nerede?",
+   "en": "Where is the a little?"
+  },
+  {
+   "target": "Biraz istiyorum.",
+   "en": "I want the a little.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün biraz görürüm.",
+   "en": "I see the a little every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün biraz aldım.",
+   "en": "I bought the a little yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın biraz alacağım.",
+   "en": "I will buy the a little tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "tekrar": [
+  {
+   "target": "Bu bir tekrar.",
+   "en": "This is the again."
+  },
+  {
+   "target": "Tekrar nerede?",
+   "en": "Where is the again?"
+  },
+  {
+   "target": "Tekrar istiyorum.",
+   "en": "I want the again.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün tekrar görürüm.",
+   "en": "I see the again every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün tekrar aldım.",
+   "en": "I bought the again yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın tekrar alacağım.",
+   "en": "I will buy the again tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "asla": [
+  {
+   "target": "Bu bir asla.",
+   "en": "This is the never."
+  },
+  {
+   "target": "Asla nerede?",
+   "en": "Where is the never?"
+  },
+  {
+   "target": "Asla istiyorum.",
+   "en": "I want the never.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün asla görürüm.",
+   "en": "I see the never every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün asla aldım.",
+   "en": "I bought the never yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın asla alacağım.",
+   "en": "I will buy the never tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "fazla": [
+  {
+   "target": "Bu bir fazla.",
+   "en": "This is the too much."
+  },
+  {
+   "target": "Fazla nerede?",
+   "en": "Where is the too much?"
+  },
+  {
+   "target": "Fazla istiyorum.",
+   "en": "I want the too much.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün fazla görürüm.",
+   "en": "I see the too much every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün fazla aldım.",
+   "en": "I bought the too much yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın fazla alacağım.",
+   "en": "I will buy the too much tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "annem": [
+  {
+   "target": "Bu bir annem.",
+   "en": "This is the my mother."
+  },
+  {
+   "target": "Annem nerede?",
+   "en": "Where is the my mother?"
+  },
+  {
+   "target": "Annem istiyorum.",
+   "en": "I want the my mother.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün annem görürüm.",
+   "en": "I see the my mother every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün annem aldım.",
+   "en": "I bought the my mother yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın annem alacağım.",
+   "en": "I will buy the my mother tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "babam": [
+  {
+   "target": "Bu bir babam.",
+   "en": "This is the my father."
+  },
+  {
+   "target": "Babam nerede?",
+   "en": "Where is the my father?"
+  },
+  {
+   "target": "Babam istiyorum.",
+   "en": "I want the my father.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün babam görürüm.",
+   "en": "I see the my father every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün babam aldım.",
+   "en": "I bought the my father yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın babam alacağım.",
+   "en": "I will buy the my father tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "kardeşim": [
+  {
+   "target": "Bu bir kardeşim.",
+   "en": "This is the my brother."
+  },
+  {
+   "target": "Kardeşim nerede?",
+   "en": "Where is the my brother?"
+  },
+  {
+   "target": "Kardeşim istiyorum.",
+   "en": "I want the my brother.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün kardeşim görürüm.",
+   "en": "I see the my brother every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün kardeşim aldım.",
+   "en": "I bought the my brother yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın kardeşim alacağım.",
+   "en": "I will buy the my brother tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "arkadaşım": [
+  {
+   "target": "Bu bir arkadaşım.",
+   "en": "This is the my friend."
+  },
+  {
+   "target": "Arkadaşım nerede?",
+   "en": "Where is the my friend?"
+  },
+  {
+   "target": "Arkadaşım istiyorum.",
+   "en": "I want the my friend.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün arkadaşım görürüm.",
+   "en": "I see the my friend every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün arkadaşım aldım.",
+   "en": "I bought the my friend yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın arkadaşım alacağım.",
+   "en": "I will buy the my friend tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "karım": [
+  {
+   "target": "Bu bir karım.",
+   "en": "This is the my wife."
+  },
+  {
+   "target": "Karım nerede?",
+   "en": "Where is the my wife?"
+  },
+  {
+   "target": "Karım istiyorum.",
+   "en": "I want the my wife.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün karım görürüm.",
+   "en": "I see the my wife every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün karım aldım.",
+   "en": "I bought the my wife yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın karım alacağım.",
+   "en": "I will buy the my wife tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "kocam": [
+  {
+   "target": "Bu bir kocam.",
+   "en": "This is the my husband."
+  },
+  {
+   "target": "Kocam nerede?",
+   "en": "Where is the my husband?"
+  },
+  {
+   "target": "Kocam istiyorum.",
+   "en": "I want the my husband.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün kocam görürüm.",
+   "en": "I see the my husband every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün kocam aldım.",
+   "en": "I bought the my husband yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın kocam alacağım.",
+   "en": "I will buy the my husband tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "oğlum": [
+  {
+   "target": "Bu bir oğlum.",
+   "en": "This is the my son."
+  },
+  {
+   "target": "Oğlum nerede?",
+   "en": "Where is the my son?"
+  },
+  {
+   "target": "Oğlum istiyorum.",
+   "en": "I want the my son.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün oğlum görürüm.",
+   "en": "I see the my son every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün oğlum aldım.",
+   "en": "I bought the my son yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın oğlum alacağım.",
+   "en": "I will buy the my son tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "kızım": [
+  {
+   "target": "Bu bir kızım.",
+   "en": "This is the my daughter."
+  },
+  {
+   "target": "Kızım nerede?",
+   "en": "Where is the my daughter?"
+  },
+  {
+   "target": "Kızım istiyorum.",
+   "en": "I want the my daughter.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün kızım görürüm.",
+   "en": "I see the my daughter every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün kızım aldım.",
+   "en": "I bought the my daughter yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın kızım alacağım.",
+   "en": "I will buy the my daughter tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "esnaf": [
+  {
+   "target": "Bu bir esnaf.",
+   "en": "This is the shopkeeper."
+  },
+  {
+   "target": "Esnaf nerede?",
+   "en": "Where is the shopkeeper?"
+  },
+  {
+   "target": "Esnaf istiyorum.",
+   "en": "I want the shopkeeper.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün esnaf görürüm.",
+   "en": "I see the shopkeeper every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün esnaf aldım.",
+   "en": "I bought the shopkeeper yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın esnaf alacağım.",
+   "en": "I will buy the shopkeeper tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "tuzlu": [
+  {
+   "target": "Bu bir tuzlu.",
+   "en": "This is the salty."
+  },
+  {
+   "target": "Tuzlu nerede?",
+   "en": "Where is the salty?"
+  },
+  {
+   "target": "Tuzlu istiyorum.",
+   "en": "I want the salty.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün tuzlu görürüm.",
+   "en": "I see the salty every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün tuzlu aldım.",
+   "en": "I bought the salty yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın tuzlu alacağım.",
+   "en": "I will buy the salty tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "acılı": [
+  {
+   "target": "Bu bir acılı.",
+   "en": "This is the spicy."
+  },
+  {
+   "target": "Acılı nerede?",
+   "en": "Where is the spicy?"
+  },
+  {
+   "target": "Acılı istiyorum.",
+   "en": "I want the spicy.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün acılı görürüm.",
+   "en": "I see the spicy every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün acılı aldım.",
+   "en": "I bought the spicy yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın acılı alacağım.",
+   "en": "I will buy the spicy tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "nefis": [
+  {
+   "target": "Bu bir nefis.",
+   "en": "This is the delicious."
+  },
+  {
+   "target": "Nefis nerede?",
+   "en": "Where is the delicious?"
+  },
+  {
+   "target": "Nefis istiyorum.",
+   "en": "I want the delicious.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün nefis görürüm.",
+   "en": "I see the delicious every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün nefis aldım.",
+   "en": "I bought the delicious yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın nefis alacağım.",
+   "en": "I will buy the delicious tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "öğlen": [
+  {
+   "target": "Bu bir öğlen.",
+   "en": "This is the at noon."
+  },
+  {
+   "target": "Öğlen nerede?",
+   "en": "Where is the at noon?"
+  },
+  {
+   "target": "Öğlen istiyorum.",
+   "en": "I want the at noon.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün öğlen görürüm.",
+   "en": "I see the at noon every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün öğlen aldım.",
+   "en": "I bought the at noon yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın öğlen alacağım.",
+   "en": "I will buy the at noon tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "birinci": [
+  {
+   "target": "Bu bir birinci.",
+   "en": "This is the first."
+  },
+  {
+   "target": "Birinci nerede?",
+   "en": "Where is the first?"
+  },
+  {
+   "target": "Birinci istiyorum.",
+   "en": "I want the first.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün birinci görürüm.",
+   "en": "I see the first every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün birinci aldım.",
+   "en": "I bought the first yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın birinci alacağım.",
+   "en": "I will buy the first tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "ikinci": [
+  {
+   "target": "Bu bir ikinci.",
+   "en": "This is the second."
+  },
+  {
+   "target": "İkinci nerede?",
+   "en": "Where is the second?"
+  },
+  {
+   "target": "İkinci istiyorum.",
+   "en": "I want the second.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün ikinci görürüm.",
+   "en": "I see the second every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün ikinci aldım.",
+   "en": "I bought the second yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın ikinci alacağım.",
+   "en": "I will buy the second tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "üçüncü": [
+  {
+   "target": "Bu bir üçüncü.",
+   "en": "This is the third."
+  },
+  {
+   "target": "Üçüncü nerede?",
+   "en": "Where is the third?"
+  },
+  {
+   "target": "Üçüncü istiyorum.",
+   "en": "I want the third.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün üçüncü görürüm.",
+   "en": "I see the third every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün üçüncü aldım.",
+   "en": "I bought the third yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın üçüncü alacağım.",
+   "en": "I will buy the third tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "iskele": [
+  {
+   "target": "Bu bir iskele.",
+   "en": "This is the ferry pier."
+  },
+  {
+   "target": "İskele nerede?",
+   "en": "Where is the ferry pier?"
+  },
+  {
+   "target": "İskele istiyorum.",
+   "en": "I want the ferry pier.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün iskele görürüm.",
+   "en": "I see the ferry pier every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün iskele aldım.",
+   "en": "I bought the ferry pier yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın iskele alacağım.",
+   "en": "I will buy the ferry pier tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "köşe": [
+  {
+   "target": "Bu bir köşe.",
+   "en": "This is the corner."
+  },
+  {
+   "target": "Köşe nerede?",
+   "en": "Where is the corner?"
+  },
+  {
+   "target": "Köşe istiyorum.",
+   "en": "I want the corner.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün köşe görürüm.",
+   "en": "I see the corner every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün köşe aldım.",
+   "en": "I bought the corner yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın köşe alacağım.",
+   "en": "I will buy the corner tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "sağda": [
+  {
+   "target": "Bu bir sağda.",
+   "en": "This is the on the right."
+  },
+  {
+   "target": "Sağda nerede?",
+   "en": "Where is the on the right?"
+  },
+  {
+   "target": "Sağda istiyorum.",
+   "en": "I want the on the right.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün sağda görürüm.",
+   "en": "I see the on the right every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün sağda aldım.",
+   "en": "I bought the on the right yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın sağda alacağım.",
+   "en": "I will buy the on the right tomorrow.",
+   "tense": "gelecek"
+  }
+ ],
+ "solda": [
+  {
+   "target": "Bu bir solda.",
+   "en": "This is the on the left."
+  },
+  {
+   "target": "Solda nerede?",
+   "en": "Where is the on the left?"
+  },
+  {
+   "target": "Solda istiyorum.",
+   "en": "I want the on the left.",
+   "tense": "simdiki"
+  },
+  {
+   "target": "Her gün solda görürüm.",
+   "en": "I see the on the left every day.",
+   "tense": "genis"
+  },
+  {
+   "target": "Dün solda aldım.",
+   "en": "I bought the on the left yesterday.",
+   "tense": "gecmis"
+  },
+  {
+   "target": "Yarın solda alacağım.",
+   "en": "I will buy the on the left tomorrow.",
+   "tense": "gelecek"
+  }
  ]
 }

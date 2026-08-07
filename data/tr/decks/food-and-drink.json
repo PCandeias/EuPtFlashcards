@@ -426,6 +426,153 @@
       "en": "to fry",
       "target": "kızartmak",
       "level": "a2"
+    },
+    {
+      "en": "bread and cheese",
+      "target": "ekmek ve peynir",
+      "level": "a1"
+    },
+    {
+      "en": "breakfast plate",
+      "target": "kahvaltı tabağı",
+      "level": "a1"
+    },
+    {
+      "en": "menemen",
+      "target": "menemen",
+      "level": "a2",
+      "sense": "eggs with tomato"
+    },
+    {
+      "en": "lentil soup",
+      "target": "mercimek çorbası",
+      "level": "a1"
+    },
+    {
+      "en": "rice with chicken",
+      "target": "tavuklu pilav",
+      "level": "a1"
+    },
+    {
+      "en": "salad",
+      "target": "salata",
+      "level": "a1"
+    },
+    {
+      "en": "grilled meatballs",
+      "target": "köfte",
+      "level": "a2"
+    },
+    {
+      "en": "toast",
+      "target": "tost",
+      "level": "a1"
+    },
+    {
+      "en": "walnut",
+      "target": "ceviz",
+      "level": "a2"
+    },
+    {
+      "en": "hazelnut",
+      "target": "fındık",
+      "level": "a2"
+    },
+    {
+      "en": "apricot",
+      "target": "kayısı",
+      "level": "a2"
+    },
+    {
+      "en": "fig",
+      "target": "incir",
+      "level": "a2"
+    },
+    {
+      "en": "watermelon slice",
+      "target": "karpuz dilimi",
+      "level": "a1"
+    },
+    {
+      "en": "black tea",
+      "target": "siyah çay",
+      "level": "a1"
+    },
+    {
+      "en": "tea glass",
+      "target": "çay bardağı",
+      "level": "a1"
+    },
+    {
+      "en": "milk with honey",
+      "target": "ballı süt",
+      "level": "a1"
+    },
+    {
+      "en": "fizzy water",
+      "target": "maden suyu",
+      "level": "a2"
+    },
+    {
+      "en": "a glass of water",
+      "target": "bir bardak su",
+      "level": "a1"
+    },
+    {
+      "en": "a cup of coffee",
+      "target": "bir fincan kahve",
+      "level": "a1"
+    },
+    {
+      "en": "salt and pepper",
+      "target": "tuz ve biber",
+      "level": "a1"
+    },
+    {
+      "en": "full",
+      "target": "doymuş",
+      "level": "a1",
+      "sense": "after eating"
+    },
+    {
+      "en": "I am eating an apple",
+      "target": "elma yiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I am drinking tea",
+      "target": "çay içiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I like tea",
+      "target": "çayı severim",
+      "tense": "genis",
+      "level": "a2"
+    },
+    {
+      "en": "I do not eat meat",
+      "target": "et yemiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I would like tea, please",
+      "target": "bir çay lütfen",
+      "level": "a1"
+    },
+    {
+      "en": "what would you like?",
+      "target": "ne alırsınız?",
+      "tense": "genis",
+      "level": "a2"
+    },
+    {
+      "en": "it is very tasty",
+      "target": "çok lezzetli",
+      "level": "a1"
     }
   ]
 }

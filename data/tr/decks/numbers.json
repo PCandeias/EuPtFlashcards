@@ -531,6 +531,41 @@
       "en": "half",
       "target": "yarım",
       "level": "a1"
+    },
+    {
+      "en": "one apple",
+      "target": "bir elma",
+      "level": "a1"
+    },
+    {
+      "en": "two teas",
+      "target": "iki çay",
+      "level": "a1"
+    },
+    {
+      "en": "three lira",
+      "target": "üç lira",
+      "level": "a1"
+    },
+    {
+      "en": "the first",
+      "target": "birinci",
+      "level": "a2"
+    },
+    {
+      "en": "the second",
+      "target": "ikinci",
+      "level": "a2"
+    },
+    {
+      "en": "the third",
+      "target": "üçüncü",
+      "level": "a2"
+    },
+    {
+      "en": "how many lira?",
+      "target": "kaç lira?",
+      "level": "a1"
     }
   ]
 }

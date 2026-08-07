@@ -120,6 +120,72 @@
       "target": "Para ödüyorum",
       "tense": "simdiki",
       "level": "a1"
+    },
+    {
+      "en": "I want water",
+      "target": "su istiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I am going home",
+      "target": "eve gidiyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I am coming from work",
+      "target": "işten geliyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I am waiting for the bus",
+      "target": "otobüsü bekliyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I am looking for the station",
+      "target": "istasyonu arıyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I live in Istanbul",
+      "target": "İstanbul'da yaşıyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I work at home",
+      "target": "evde çalışıyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I am learning",
+      "target": "öğreniyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I understand a little",
+      "target": "biraz anlıyorum",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "can you help me?",
+      "target": "bana yardım eder misin?",
+      "tense": "genis",
+      "level": "a2"
+    },
+    {
+      "en": "how do you say it in Turkish?",
+      "target": "Türkçe'de nasıl denir?",
+      "tense": "genis",
+      "level": "a2"
     }
   ]
 }

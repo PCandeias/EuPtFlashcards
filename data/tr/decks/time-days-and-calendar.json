@@ -271,6 +271,56 @@
       "en": "it is late",
       "target": "geç",
       "level": "a1"
+    },
+    {
+      "en": "at noon",
+      "target": "öğlen",
+      "level": "a1"
+    },
+    {
+      "en": "tonight",
+      "target": "bu akşam",
+      "level": "a1"
+    },
+    {
+      "en": "tomorrow morning",
+      "target": "yarın sabah",
+      "level": "a1"
+    },
+    {
+      "en": "every morning",
+      "target": "her sabah",
+      "level": "a1"
+    },
+    {
+      "en": "on Monday",
+      "target": "pazartesi günü",
+      "level": "a1"
+    },
+    {
+      "en": "at the weekend",
+      "target": "hafta sonunda",
+      "level": "a1"
+    },
+    {
+      "en": "it is three o’clock",
+      "target": "saat üç",
+      "level": "a1"
+    },
+    {
+      "en": "at three o’clock",
+      "target": "saat üçte",
+      "level": "a1"
+    },
+    {
+      "en": "half an hour",
+      "target": "yarım saat",
+      "level": "a1"
+    },
+    {
+      "en": "five minutes",
+      "target": "beş dakika",
+      "level": "a1"
     }
   ]
 }

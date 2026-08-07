@@ -231,6 +231,56 @@
       "en": "to get married",
       "target": "evlenmek",
       "level": "a2"
+    },
+    {
+      "en": "my mother",
+      "target": "annem",
+      "level": "a1"
+    },
+    {
+      "en": "my father",
+      "target": "babam",
+      "level": "a1"
+    },
+    {
+      "en": "my brother",
+      "target": "kardeşim",
+      "level": "a1"
+    },
+    {
+      "en": "my friend",
+      "target": "arkadaşım",
+      "level": "a1"
+    },
+    {
+      "en": "my wife",
+      "target": "karım",
+      "level": "a1"
+    },
+    {
+      "en": "my husband",
+      "target": "kocam",
+      "level": "a1"
+    },
+    {
+      "en": "my son",
+      "target": "oğlum",
+      "level": "a1"
+    },
+    {
+      "en": "my daughter",
+      "target": "kızım",
+      "level": "a1"
+    },
+    {
+      "en": "the shopkeeper",
+      "target": "esnaf",
+      "level": "a2"
+    },
+    {
+      "en": "a man and a woman",
+      "target": "bir adam ve bir kadın",
+      "level": "a1"
     }
   ]
 }

@@ -477,6 +477,41 @@
       "en": "to hold / to cost",
       "target": "tutmak",
       "level": "a2"
+    },
+    {
+      "en": "to need",
+      "target": "ihtiyacı olmak",
+      "level": "a2"
+    },
+    {
+      "en": "to study",
+      "target": "ders çalışmak",
+      "level": "a1"
+    },
+    {
+      "en": "to cook",
+      "target": "yemek pişirmek",
+      "level": "a1"
+    },
+    {
+      "en": "to order",
+      "target": "sipariş vermek",
+      "level": "a2"
+    },
+    {
+      "en": "to meet",
+      "target": "buluşmak",
+      "level": "a2"
+    },
+    {
+      "en": "to answer",
+      "target": "cevap vermek",
+      "level": "a2"
+    },
+    {
+      "en": "to stand up",
+      "target": "ayağa kalkmak",
+      "level": "a1"
     }
   ]
 }
