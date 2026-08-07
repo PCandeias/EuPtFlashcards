@@ -7,6 +7,7 @@
   import { tenseById } from '../lib/grammar/tenses.js'
   import { levelById } from '../lib/cards/levels.js'
   import type { LanguageDef } from '../lib/languages/types.js'
+  import { store } from '../lib/storage/safe.js'
   import type { Theme } from '../lib/storage/progress.js'
 
   let {
@@ -29,6 +30,52 @@
   let hits = $derived(search(language.cards, query, LIMIT))
   let searching = $derived(query.trim().length > 0)
 
+  /**
+   * Which sections you have folded away, remembered per language.
+   *
+   * Everything starts open, so the page reads the same as a page of prose until
+   * you decide otherwise; what is stored is the folding you did, not the reading.
+   */
+  let closedKey = $derived(`${language.storagePrefix}:reference-closed`)
+  // Read through a counter rather than held in state, so the very first render
+  // already knows what you folded away: held in state it would draw everything
+  // open and then shut it again.
+  let saved = $state(0)
+  let closed = $derived.by(() => {
+    saved
+    return new Set(readClosed(closedKey))
+  })
+
+  function readClosed(key: string): string[] {
+    try {
+      const raw = store.getItem(key)
+      const parsed = raw ? JSON.parse(raw) as unknown : null
+      return Array.isArray(parsed) ? parsed.filter(x => typeof x === 'string') : []
+    } catch {
+      // A corrupt list is worth nothing and costs nothing: open everything.
+      return []
+    }
+  }
+
+  function remember(next: Set<string>) {
+    store.setItem(closedKey, JSON.stringify([...next]))
+    saved += 1
+  }
+
+  function setOpen(id: string, open: boolean) {
+    if (open === !closed.has(id)) return
+    const next = new Set(closed)
+    if (open) next.delete(id)
+    else next.add(id)
+    remember(next)
+  }
+
+  let allOpen = $derived(tables.every(t => !closed.has(slug(t.title))))
+
+  function foldAll(open: boolean) {
+    remember(open ? new Set<string>() : new Set(tables.map(t => slug(t.title))))
+  }
+
   let input = $state<HTMLInputElement | undefined>()
   $effect(() => { input?.focus() })
 
@@ -36,6 +83,12 @@
     const section = document.getElementById(id)
     if (!section) return
     event.preventDefault()
+    // A jump to a folded section unfolds it; landing on a closed heading would
+    // look like the link had failed.
+    if (section instanceof HTMLDetailsElement && !section.open) {
+      section.open = true
+      setOpen(id, true)
+    }
     const still = matchMedia('(prefers-reduced-motion: reduce)').matches
     section.scrollIntoView({ behavior: still ? 'auto' : 'smooth', block: 'start' })
   }
@@ -136,37 +189,65 @@
       {#each tables as table (table.title)}
         <a href="#{slug(table.title)}" onclick={e => jump(e, slug(table.title))}>{table.title}</a>
       {/each}
+      <button id="foldAllBtn" class="fold" onclick={() => foldAll(!allOpen)}>
+        {allOpen ? 'Collapse all' : 'Expand all'}
+      </button>
     </nav>
 
     {#each tables as table (table.title)}
-      <section class="table" id={slug(table.title)} class:plain={table.emphasiseFirst === false}>
-        <h2>{table.title}</h2>
-        {#if table.blurb}<p class="blurb">{table.blurb}</p>{/if}
-        <div class="scroller">
-          <table>
-            <thead>
-              <tr>
-                {#each table.columns as column, i (i)}
-                  <th scope="col">{column}</th>
-                {/each}
-              </tr>
-            </thead>
-            <tbody>
-              {#each table.rows as row, r (r)}
+      {@const id = slug(table.title)}
+      <details
+        class="table"
+        {id}
+        class:plain={table.emphasiseFirst === false}
+        open={!closed.has(id)}
+        ontoggle={e => setOpen(id, e.currentTarget.open)}
+      >
+        <summary>
+          <span class="chev" aria-hidden="true"></span>
+          <h2>{table.title}</h2>
+          <span class="count">{table.rows.length}</span>
+        </summary>
+
+        <div class="body">
+          {#if table.blurb}<p class="blurb">{table.blurb}</p>{/if}
+          <div class="scroller">
+            <table>
+              <thead>
                 <tr>
-                  {#each row as cell, c (c)}
-                    {#if c === 0}
-                      <th scope="row">{cell}</th>
-                    {:else}
-                      <td>{cell}</td>
-                    {/if}
+                  {#each table.columns as column, i (i)}
+                    <th scope="col">{column}</th>
                   {/each}
                 </tr>
-              {/each}
-            </tbody>
-          </table>
+              </thead>
+              <tbody>
+                {#each table.rows as row, r (r)}
+                  <tr>
+                    {#each row as cell, c (c)}
+                      {#if c === 0}
+                        <th scope="row">{cell}</th>
+                      {:else}
+                        <td>{cell}</td>
+                      {/if}
+                    {/each}
+                  </tr>
+                {/each}
+              </tbody>
+            </table>
+          </div>
+
+          {#if table.details?.length}
+            <details class="detail">
+              <summary><span class="chev" aria-hidden="true"></span>More detail</summary>
+              <ul>
+                {#each table.details as point, i (i)}
+                  <li>{point}</li>
+                {/each}
+              </ul>
+            </details>
+          {/if}
         </div>
-      </section>
+      </details>
     {/each}
   {/if}
 </div>
@@ -256,14 +337,94 @@
     font-size: 13px;
   }
   .jump a:hover { color: inherit; border-color: var(--accent-line); }
+  .fold {
+    padding: 6px 11px;
+    min-height: 0;
+    border-radius: 999px;
+    font-size: 13px;
+    color: var(--muted);
+    margin-left: auto;
+  }
 
+  /*
+   * Each section is a card with a rule down its left edge, so the eye can see
+   * where one explanation ends and the next begins even at a glance down the
+   * page. Folded, the summary rows read as an index.
+   */
   .table {
     background: var(--panel);
     border: 1px solid var(--line);
+    border-left: 3px solid var(--accent-line);
     border-radius: 18px;
-    padding: 16px;
     scroll-margin-top: 12px;
+    overflow: hidden;
   }
+  .table + .table { margin-top: 2px; }
+
+  summary {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 13px 16px;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary:hover { background: var(--surface-strong, rgba(148, 163, 184, 0.06)); }
+  summary:focus-visible { outline: 2px solid var(--accent-line); outline-offset: -2px; }
+
+  /* A triangle drawn in CSS rather than the browser's marker, which cannot be
+     positioned or animated consistently across engines. */
+  .chev {
+    flex: 0 0 auto;
+    width: 0; height: 0;
+    border-left: 5px solid currentColor;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    color: var(--muted);
+    transition: transform var(--t-base, 160ms) var(--ease, ease);
+  }
+  details[open] > summary .chev { transform: rotate(90deg); }
+  @media (prefers-reduced-motion: reduce) {
+    .chev { transition: none; }
+  }
+
+  .count {
+    margin-left: auto;
+    flex: 0 0 auto;
+    padding: 1px 8px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 11px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .body { padding: 0 16px 16px; }
+
+  /* The second fold: what a learner asks next, out of the way until asked for. */
+  .detail {
+    margin-top: 14px;
+    border-top: 1px solid var(--line);
+    padding-top: 10px;
+  }
+  .detail > summary {
+    padding: 2px 0;
+    gap: 8px;
+    font-size: 12px;
+    color: var(--muted);
+    letter-spacing: 0.02em;
+  }
+  .detail > summary:hover { background: none; color: inherit; }
+  .detail ul {
+    margin: 8px 0 0;
+    padding: 0 0 0 18px;
+    display: grid;
+    gap: 8px;
+    max-width: 78ch;
+  }
+  .detail li { color: var(--muted); font-size: 13px; line-height: 1.55; }
   /* Wide tables scroll inside their own box rather than the page. */
   .scroller { overflow-x: auto; }
   /* Full width on a phone, where a cell wrapping beats a row hiding off the edge;
@@ -320,7 +481,10 @@
     .reference { padding: 10px; gap: 12px; }
     header { gap: 10px; }
     .sub { font-size: 12px; }
-    .table { padding: 12px; border-radius: 14px; }
+    .table { border-radius: 14px; }
+    summary { padding: 11px 12px; }
+    .body { padding: 0 12px 12px; }
+    .detail li { font-size: 12px; }
     .blurb { font-size: 12px; }
     /* Narrower columns rather than a sideways scroll: on a phone a cell that
        wraps is easier to read than a row that runs off the edge. */

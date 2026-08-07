@@ -105,6 +105,19 @@ const suffixReference: ReferenceTable = {
   rows: TR_SUFFIXES.map(s => [
     s.shape, s.gloss, attach('ev', s.id) ?? '—', attach('okul', s.id) ?? '—',
   ]),
+  details: [
+    'The capital letters in the shapes are placeholders, not spellings. A stands '
+      + 'for a or e, I for ı, i, u or ü, and D for d or t — which one you get is '
+      + 'what the next two sections are about.',
+    'They stack, and always in this order: plural, then possessive, then case. '
+      + 'ev + ler + im + de is evlerimde, "in my houses". Turkish will keep going '
+      + 'far past anything English would attempt.',
+    'The accusative marks a definite object and nothing else. Kitap okuyorum is '
+      + '"I am reading a book"; kitabı okuyorum is "I am reading the book". There '
+      + 'is no word for "the" — this ending is it.',
+    'The dative and locative do the work of half the English prepositions: eve '
+      + 'gidiyorum is "I am going home", evde is "at home", evden is "from home".',
+  ],
 }
 
 const harmonyReference: ReferenceTable = {
@@ -118,6 +131,19 @@ const harmonyReference: ReferenceTable = {
     ['e, i', 'e', 'i', 'ev → evde, evi'],
     ['o, u', 'a', 'u', 'okul → okulda, okulu'],
     ['ö, ü', 'e', 'ü', 'göz → gözde, gözü'],
+  ],
+  details: [
+    'The rule is about the mouth rather than the alphabet. a, ı, o and u are made '
+      + 'at the back; e, i, ö and ü at the front. A suffix follows the last vowel '
+      + 'to wherever it was made, so a word is pronounced in one position '
+      + 'throughout.',
+    'Four-way endings copy rounding as well as position. That is why o and u both '
+      + 'give u, and ö and ü both give ü: the lips were already rounded.',
+    'o and ö never appear in a suffix, only in a root. A four-way ending after '
+      + 'okul is u, never o.',
+    'Borrowed words are where it breaks. saat is spelled with a back vowel and '
+      + 'takes front endings — saati, not saatı — and there is nothing in the '
+      + 'spelling to warn you. Those are listed by hand rather than derived.',
   ],
 }
 
@@ -141,6 +167,18 @@ const copulaReference: ReferenceTable = {
     ['siz', 'öğrencisiniz', 'doktorsunuz', 'öğrenci değilsiniz'],
     ['onlar', 'öğrenciler', 'doktorlar', 'öğrenci değiller'],
   ],
+  details: [
+    'The endings are the same ones the tenses use — geliyorum, öğrenciyim — which '
+      + 'is why they are worth learning once. Only the -di past takes a different '
+      + 'set.',
+    'The third person needs no ending at all. O öğrenci is a whole sentence. There '
+      + 'is a formal -dir (öğrencidir) but it belongs to signs and announcements '
+      + 'rather than to speech.',
+    'The past is -ydi and it goes in the same place: öğrenciydim, "I was a '
+      + 'student"; yorgundum, "I was tired".',
+    'Turkish puts the verb last, so this ending is the last thing in the sentence '
+      + 'and the thing that finishes it. Ben bugün çok yorgunum.',
+  ],
 }
 
 /**
@@ -160,6 +198,19 @@ const questionReference: ReferenceTable = {
     ['yok', 'there is not — and so, I have not', 'Vaktim yok — I have no time'],
     ['var mı?', 'is there? do you have?', 'Çay var mı? — is there any tea?'],
   ],
+  details: [
+    'mi is written apart from the word it questions but harmonises with it, which '
+      + 'no other suffix does at a distance: Öğrenci mi? Doktor mu? Güzel mi?',
+    'Where mi sits is what the question is about. Yarın sinemaya gidiyor musun? '
+      + 'asks whether you are going; yarın mı sinemaya gidiyorsun? asks whether it '
+      + 'is tomorrow.',
+    'Having something is existing: benim bir arabam var is literally "my one car '
+      + 'exists". The thing owned takes the possessive and var does the rest.',
+    'A question word makes mi unnecessary. Nereye gidiyorsun? already asks; adding '
+      + 'mi to it would not.',
+    'The negative of a verb is not değil but -me-: gitmiyorum, "I am not going". '
+      + 'değil is for everything that is not a verb.',
+  ],
 }
 
 const consonantReference: ReferenceTable = {
@@ -176,6 +227,22 @@ const consonantReference: ReferenceTable = {
     ['k becomes ğ', 'before a vowel', 'ekmek → ekmeği'],
     ['nk becomes ng', 'before a vowel', 'renk → rengi'],
     ['a y appears', 'between two vowels', 'araba → arabayı'],
+  ],
+  details: [
+    'Hardening is a rule and you can trust it: after ç, f, h, k, p, s, ş or t — the '
+      + 'eight voiceless consonants, remembered in Turkey as fıstıkçı şahap — a '
+      + 'suffix starting with d is written with t. It is the same rule in the past '
+      + 'tense: geldi, but yaptı.',
+    'Softening is not a rule and cannot be made into one. kitap softens and sepet '
+      + 'does not; çocuk softens and Türk does not. This app keeps a list and says '
+      + 'nothing at all for a word it has not been told about, because a missing '
+      + 'panel costs one card its reference and a guessed one teaches a word that '
+      + 'does not exist.',
+    'Two shapes of the same idea are worth naming: the buffer letters. y goes '
+      + 'between two vowels (arabayı), n appears before a possessive (evinde), and '
+      + 's marks a third-person possessive on a word ending in a vowel (arabası).',
+    'su is irregular in exactly the places a rule would get wrong: suyu, suyun, '
+      + 'suyum — a y where everything else takes n or s.',
   ],
 }
 

@@ -69,6 +69,78 @@ test('a jump link scrolls to its section', async ({ page }) => {
   await expect(page.locator('#levels')).toBeInViewport()
 })
 
+test('every section folds, and starts open', async ({ page }) => {
+  await page.goto('./#/pt/reference')
+
+  const first = page.locator('details.table').first()
+  await expect(first).toHaveAttribute('open', '')
+  await expect(first.locator('table')).toBeVisible()
+
+  await first.locator('> summary').click()
+  await expect(first).not.toHaveAttribute('open')
+  await expect(first.locator('table')).toBeHidden()
+  // The heading is still there to fold back open.
+  await expect(first.locator('> summary h2')).toBeVisible()
+})
+
+test('remembers what you folded, per language', async ({ page }) => {
+  await page.goto('./#/pt/reference')
+  await page.locator('#contractions > summary').click()
+  await expect(page.locator('#contractions')).not.toHaveAttribute('open')
+
+  await page.reload()
+  await expect(page.locator('#contractions')).not.toHaveAttribute('open')
+  // A different section is untouched, and so is the other language.
+  await expect(page.locator('#tenses')).toHaveAttribute('open', '')
+
+  await page.goto('./#/tr/reference')
+  await expect(page.locator('#tenses')).toHaveAttribute('open', '')
+  await expect(page.locator('details.table:not([open])')).toHaveCount(0)
+})
+
+test('collapses and expands every section at once', async ({ page }) => {
+  await page.goto('./#/tr/reference')
+  const sections = page.locator('details.table')
+  const total = await sections.count()
+
+  await page.click('#foldAllBtn')
+  await expect(page.locator('details.table[open]')).toHaveCount(0)
+  await expect(page.locator('#foldAllBtn')).toHaveText('Expand all')
+
+  await page.click('#foldAllBtn')
+  await expect(page.locator('details.table[open]')).toHaveCount(total)
+})
+
+test('a jump link opens the section it lands on', async ({ page }) => {
+  await page.goto('./#/tr/reference')
+  await page.click('#foldAllBtn')
+  await expect(page.locator('#levels')).not.toHaveAttribute('open')
+
+  await page.click('.jump a:has-text("Levels")')
+  await expect(page.locator('#levels')).toHaveAttribute('open', '')
+  await expect(page.locator('#levels table')).toBeVisible()
+})
+
+test('holds the longer explanation behind a second fold', async ({ page }) => {
+  await page.goto('./#/tr/reference')
+
+  const more = page.locator('#noun-endings .detail')
+  await expect(more).not.toHaveAttribute('open')
+  await expect(more.locator('li').first()).toBeHidden()
+
+  await more.locator('summary').click()
+  await expect(more.locator('li').first()).toContainText('placeholders')
+})
+
+test('gives both languages more to read on every section', async ({ page }) => {
+  for (const id of ['pt', 'tr']) {
+    await page.goto(`./#/${id}/reference`)
+    const sections = await page.locator('details.table').count()
+    // Decks is the one table that speaks for itself; everything else expands.
+    expect(await page.locator('details.table .detail').count()).toBeGreaterThanOrEqual(sections - 1)
+  }
+})
+
 test('searching finds a card by either side', async ({ page }) => {
   await page.goto('./#/tr/reference')
   await page.fill('#referenceSearch', 'ev')

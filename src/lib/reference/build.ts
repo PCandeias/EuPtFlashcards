@@ -21,6 +21,14 @@ export interface ReferenceTable {
   rows: string[][]
   /** Renders the first column in the target language's face. */
   emphasiseFirst?: boolean
+  /**
+   * The rest of the story, behind a second fold.
+   *
+   * What belongs here is what a learner asks *next* — the exception, the reason,
+   * the thing the table implies but cannot show. It is folded away because it is
+   * not needed to read the table.
+   */
+  details?: string[]
 }
 
 /** The tenses this language has, and what each is for. */
@@ -31,6 +39,16 @@ function tenses(language: LanguageDef): ReferenceTable {
       + 'its column from the conjugation panel. Vocabulary is never affected.',
     columns: ['Tense', 'What it is for', 'Example'],
     rows: language.tenses.map(t => [t.label, t.hint, t.example]),
+    details: [
+      `This deck teaches ${language.tenses.length} of them, and every card that is `
+        + 'in one says so. A noun, an adjective or an infinitive is in no tense at '
+        + 'all, and no setting can ever hide it.',
+      'Each tense has a deck of its own, conjugated across every person. Those '
+        + 'cards are generated from the same engine the conjugation panel uses, so '
+        + 'the deck and the panel cannot drift apart.',
+      'Narrowing the tenses narrows the example sentences too: the " beside a word '
+        + 'shows only sentences in a tense you are still studying.',
+    ],
   }
 }
 
@@ -57,6 +75,17 @@ function modelConjugation(language: LanguageDef): ReferenceTable | null {
       person.label,
       ...shown.map(t => table[t.id]?.[person.id] ?? '—'),
     ]),
+    details: [
+      'Every verb card carries the same table behind the ? beside it, filled in '
+        + 'for that verb. It is worth opening on an irregular one: this table is '
+        + 'the pattern, and the irregulars are where the pattern gives way.',
+      'The table is computed rather than stored. A verb the engine cannot place is '
+        + 'given no panel at all, which is the deliberate choice — a missing table '
+        + 'costs one card its reference, and a guessed one teaches a word that '
+        + 'does not exist.',
+      `The persons are the ones this language actually uses: ${language.persons
+        .map(p => p.label).join(', ')}.`,
+    ],
   }
 }
 
@@ -74,6 +103,18 @@ function badges(language: LanguageDef): ReferenceTable | null {
     columns: ['Badge', 'Meaning'],
     rows,
     emphasiseFirst: false,
+    details: [
+      'Badges sit on the English face, because English is the side that cannot '
+        + 'say it. "you come" is both tu vens and vocês vêm; the badge is what '
+        + 'makes the prompt answerable.',
+      'The target-language face normally needs none: vocês is already the plural, '
+        + 'o amigo is already masculine. The exception is a bare function word '
+        + 'that is ambiguous on its own, which carries its own badge.',
+      'The vocabulary is closed and shared across languages, so a typo in the data '
+        + 'fails the build rather than quietly dropping a badge. No language uses '
+        + 'all of it: Turkish has no grammatical gender, so those badges never '
+        + 'appear on a Turkish card.',
+    ],
   }
 }
 
@@ -89,6 +130,15 @@ function levels(language: LanguageDef): ReferenceTable {
       + 'recorded so that it can.',
     columns: ['Level', 'Covers', 'Cards'],
     emphasiseFirst: false,
+    details: [
+      'The band is the whole card, not the word: a card is as hard as its hardest '
+        + 'part, so a tense can push a card past the level of the vocabulary it is '
+        + 'built on.',
+      'One meaning gets one band. The same word in two decks is labelled the same '
+        + 'in both, and a test asserts it.',
+      'Nothing filters on the band yet. It is recorded now so that it can be, '
+        + 'without relabelling the deck later.',
+    ],
     rows: LEVELS
       .filter(level => counts.get(level.id))
       .map(level => [level.label, level.hint, String(counts.get(level.id))]),
@@ -101,8 +151,18 @@ function decks(language: LanguageDef): ReferenceTable {
   for (const card of language.cards) counts.set(card.deck, (counts.get(card.deck) ?? 0) + 1)
   return {
     title: 'Decks',
+    blurb: 'What the deck menu offers, and how much sits behind each name.',
     columns: ['Deck', 'Cards'],
     emphasiseFirst: false,
+    details: [
+      'A deck is a subject, not a level. Choosing one narrows what you study '
+        + 'without touching anything you have already learnt: progress is per '
+        + 'card, so a card you have met keeps its schedule whichever deck you '
+        + 'reach it through.',
+      'The counts here are the whole deck. The deck menu shows what is currently '
+        + 'visible instead, which is smaller when a tense is switched off or a '
+        + 'card has been reported.',
+    ],
     rows: [...counts.entries()]
       .sort((a, b) => a[0].localeCompare(b[0]))
       .map(([deck, n]) => [deck, String(n)]),

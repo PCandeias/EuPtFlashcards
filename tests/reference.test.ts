@@ -74,6 +74,19 @@ describe('the reference tables', () => {
         expect(table!.rows).toHaveLength(language.persons.length)
       })
 
+      it('has more to say behind the second fold on all but one section', () => {
+        const withDetail = tables.filter(t => t.details?.length)
+        // Decks is a list of names and speaks for itself; everything else earns
+        // a paragraph or three.
+        expect(withDetail.length).toBeGreaterThanOrEqual(tables.length - 1)
+        for (const table of withDetail) {
+          for (const point of table.details!) {
+            expect(point.length, `${table.title}: "${point}"`).toBeGreaterThan(40)
+            expect(point.trim()).toBe(point)
+          }
+        }
+      })
+
       it('explains only the badges its own cards actually carry', () => {
         const badges = tables.find(t => t.title === 'Badges')
         if (!badges) return

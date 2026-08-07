@@ -353,6 +353,22 @@ away from what the app teaches:
 | Badges | the tags the language's own cards actually carry |
 | Levels, Decks | counted from the corpus |
 
+Each section is a card you can fold away, with its own rule down the left edge so
+one explanation is visibly not the next. Folded, the headings read as an index;
+**Collapse all** turns the whole page into one, and what you folded is remembered
+per language. Every section also carries a **More detail** fold — the exception,
+the reason, the thing the table implies but cannot show — kept shut because it is
+not needed to read the table:
+
+> The capital letters in the shapes are placeholders, not spellings. A stands for
+> a or e, I for ı, i, u or ü, and D for d or t.
+>
+> Softening is not a rule and cannot be made into one. `kitap` softens and `sepet`
+> does not; `çocuk` softens and `Türk` does not.
+>
+> Where English uses "to be" for hunger, cold and age, Portuguese uses `ter`:
+> `tenho fome`, `tenho frio`, `tenho trinta anos`.
+
 A language adds whatever else is worth saying as `reference` tables of its own:
 Portuguese explains articles, contractions, `ser` against `estar` and the
 European-against-Brazilian words; Turkish explains the endings, vowel harmony,

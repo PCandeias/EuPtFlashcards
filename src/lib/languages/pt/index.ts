@@ -62,6 +62,19 @@ const articleReference: ReferenceTable = {
     ['a, an', 'um carro', 'uma casa'],
     ['some', 'uns carros', 'umas casas'],
   ],
+  details: [
+    'The endings are a good guess and not a rule. -o is usually masculine and -a '
+      + 'usually feminine, but o problema, o mapa and o dia are masculine, and a '
+      + 'mão and a tribo are feminine. The article is the only thing that never '
+      + 'lies, which is why every noun on a card carries one.',
+    'Everything that describes the noun agrees with it: o carro branco but a casa '
+      + 'branca, os carros brancos but as casas brancas. Learn the article and the '
+      + 'adjectives follow.',
+    'Portuguese uses the article where English drops it — o João, a minha casa, '
+      + 'gosto do café. "I like coffee" is gosto do café, not gosto de café.',
+    'A card written without an article is usually not a noun: falar, bonito and '
+      + 'depressa need none.',
+  ],
 }
 
 const contractionReference: ReferenceTable = {
@@ -74,6 +87,17 @@ const contractionReference: ReferenceTable = {
     ['em — in, on', 'no', 'na', 'nos', 'nas'],
     ['a — to', 'ao', 'à', 'aos', 'às'],
     ['por — by, through', 'pelo', 'pela', 'pelos', 'pelas'],
+  ],
+  details: [
+    'They contract with the indefinite article too, though these are optional in '
+      + 'writing and usual in speech: de + um is dum, em + uma is numa.',
+    'And with the demonstratives, where they are not optional at all: de + isto '
+      + 'is disto, de + aquele is daquele, em + este is neste.',
+    'The à in a + a carries a grave accent and nothing else in the language does. '
+      + 'It marks the two vowels that ran together, and it is the difference '
+      + 'between vou a a escola — which is never written — and vou à escola.',
+    'The contraction is also how the deck teaches gender: no jardim tells you '
+      + 'jardim is masculine before you have met the word.',
   ],
 }
 
@@ -97,6 +121,17 @@ const serEstarReference: ReferenceTable = (() => {
       ser?.presente?.[person.id] ?? '—',
       estar?.presente?.[person.id] ?? '—',
     ]),
+    details: [
+      'Both are irregular in the past as well, and there they stop looking alike: '
+        + 'fui, foste, foi for ser — the same forms as ir — against estive, '
+        + 'estiveste, esteve for estar.',
+      'Location is estar, with one exception worth knowing: a thing that cannot '
+        + 'move takes ser or ficar. Lisboa fica em Portugal, not está.',
+      'estar carries the continuous: estou a falar. That is the European form — '
+        + 'Brazil says estou falando, and this deck does not teach it.',
+      'A third verb, ficar, covers what English says with "get" or "become": fico '
+        + 'contente, ficou frio.',
+    ],
   }
 })()
 
@@ -115,6 +150,17 @@ const whichToBeReference: ReferenceTable = {
     ['I am in Lisbon', 'estou em Lisboa', 'where you are — estar'],
     ['I am speaking', 'estou a falar', 'what you are doing — estar'],
     ['the soup is cold', 'a sopa está fria', 'how it is right now — estar'],
+  ],
+  details: [
+    'Some adjectives change meaning rather than tense with the choice. Ele é '
+      + 'aborrecido means he is a boring man; ele está aborrecido means he is bored '
+      + 'today. É bonito is what someone looks like; está bonito is how they look '
+      + 'this evening.',
+    'Time and dates are always ser, even though nothing is more temporary: são '
+      + 'duas horas, é segunda-feira.',
+    'Where English uses "to be" for hunger, cold and age, Portuguese uses ter: '
+      + 'tenho fome, tenho frio, tenho trinta anos. Estou com fome is also said '
+      + 'and means the same.',
   ],
 }
 
@@ -135,6 +181,19 @@ const europeanReference: ReferenceTable = {
     ['o pequeno-almoço', 'o café da manhã', 'breakfast'],
     ['o frigorífico', 'a geladeira', 'the fridge'],
     ['estou a falar', 'estou falando', 'I am speaking'],
+  ],
+  details: [
+    'The grammar differs as much as the words. Portugal keeps tu for the familiar '
+      + 'you and uses você sparingly; Brazil uses você for everyone. The object '
+      + 'pronoun goes after the verb in Portugal — vejo-te — and before it in '
+      + 'Brazil.',
+    'European Portuguese swallows its unstressed vowels, which is why it sounds '
+      + 'nothing like the written word at first and nothing like Brazilian at all. '
+      + 'The audio here asks for a European voice and says so when it cannot get '
+      + 'one.',
+    'Both are Portuguese and neither is wrong. The deck picks one and holds to it, '
+      + 'because a deck that mixes them teaches you to be understood everywhere '
+      + 'and to sound at home nowhere.',
   ],
 }
 
