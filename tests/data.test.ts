@@ -12,11 +12,11 @@ const VOCAB = new Set<string>(TAGS)
 
 describe('card corpus', () => {
   it('holds the whole corpus', () => {
-    expect(CARDS.length).toBe(2512)
+    expect(CARDS.length).toBe(3128)
   })
 
   it('covers every deck', () => {
-    expect(DECKS.length).toBe(31)
+    expect(DECKS.length).toBe(37)
   })
 
   it('uses only tags from the closed vocabulary', () => {
@@ -52,7 +52,7 @@ describe('card corpus', () => {
     const counts: Record<string, number> = {}
     for (const c of CARDS) for (const t of c.tags ?? []) counts[t] = (counts[t] ?? 0) + 1
     expect(counts).toEqual({
-      informal: 89, formal: 18, plural: 35, 'masc-mixed': 9,
+      informal: 122, formal: 22, plural: 78, 'masc-mixed': 9,
       fem: 37, masc: 25, contraction: 2, object: 6,
     })
   })
@@ -64,7 +64,7 @@ describe('card corpus', () => {
 
   it('keeps sense hints for meaning-level disambiguation', () => {
     const senses = CARDS.filter(c => c.sense).length
-    expect(senses).toBe(68)
+    expect(senses).toBe(72)
   })
 })
 
@@ -82,19 +82,19 @@ describe('tense tagging', () => {
     const counts: Record<string, number> = {}
     for (const c of tensed) counts[c.tense!] = (counts[c.tense!] ?? 0) + 1
     expect(counts).toEqual({
-      presente: 124,
-      presenteContinuo: 139,
-      perfeito: 64,
-      imperfeito: 62,
-      futuro: 60,
-      futuroProximo: 57,
+      presente: 195,
+      presenteContinuo: 140,
+      perfeito: 89,
+      imperfeito: 87,
+      futuro: 85,
+      futuroProximo: 82,
     })
   })
 
   // Vocabulary must never be filterable, or unticking a tense would take the
   // nouns and adjectives with it.
   it('leaves nouns, adjectives and phrases untagged', () => {
-    expect(CARDS.filter(c => !c.tense).length).toBe(2006)
+    expect(CARDS.filter(c => !c.tense).length).toBe(2450)
     expect(CARDS.find(c => c.target === 'a casa')?.tense).toBeUndefined()
     expect(CARDS.find(c => c.en === 'beautiful / nice')?.tense).toBeUndefined()
   })
@@ -145,7 +145,7 @@ describe('level labelling', () => {
   it('leaves most of the corpus at A1', () => {
     const counts: Record<string, number> = {}
     for (const c of CARDS) counts[c.level!] = (counts[c.level!] ?? 0) + 1
-    expect(counts).toEqual({ a1: 1540, a2: 869, b1: 103 })
+    expect(counts).toEqual({ a1: 1887, a2: 1104, b1: 137 })
     expect(counts.a1! / CARDS.length).toBeGreaterThan(0.6)
   })
 
@@ -198,6 +198,7 @@ describe('level labelling', () => {
 
 describe('the generated tense decks', () => {
   const decks = [
+    'Present Tense (Presente)',
     'Past Tense (Perfeito)',
     'Past Habits (Imperfeito)',
     'Future Tense (Futuro)',

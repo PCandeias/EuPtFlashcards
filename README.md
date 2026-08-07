@@ -4,8 +4,8 @@ Two languages, as one installable offline web app with spaced repetition:
 
 | | | |
 |---|---|---|
-| **Português** | 2512 cards · 31 decks | European Portuguese — `autocarro`, not `ônibus` |
-| **Türkçe** | 1430 cards · 25 decks | Beginner Turkish — vowel harmony, suffixes, no gender |
+| **Português** | 3128 cards · 37 decks | European Portuguese — `autocarro`, not `ônibus` |
+| **Türkçe** | 2446 cards · 38 decks | Beginner Turkish — vowel harmony, suffixes, no gender |
 
 **Live:** https://pcandeias.github.io/EuPtFlashcards/
 
@@ -217,8 +217,8 @@ itself is offered only on dictionary forms: putting it on `evde` would suggest
 ## Example sentences
 
 The `"` beside a word shows it in whole sentences, filtered by the same tense
-selection as the deck: **11,535 sentences** across the two languages, reaching
-48% of the Portuguese cards and 79% of the Turkish ones.
+selection as the deck: **18,436 sentences** across the two languages, reaching
+52% of the Portuguese cards and 66% of the Turkish ones.
 
 They come from three places, and where they overlap the more careful source wins:
 
@@ -231,6 +231,11 @@ They come from three places, and where they overlap the more careful source wins
 3. **Built from frames**, for nouns, adjectives and the rest. A frame is a
    sentence with one hole in it, grouped by what kind of word goes in the hole —
    food, clothing, a place, a person, weather, a colour, a country.
+
+   The frames added in the last pass talk *about* the noun rather than doing
+   anything to it — `Ontem falei da dor de cabeça`, `Dün öfke hakkında konuştuk`
+   — because a frame cannot know what its noun is. `Vou procurar a dor de cabeça`
+   is grammatical and nobody would say it.
 
 The frames are where the language-specific work is:
 
@@ -307,7 +312,19 @@ stem. Two rules carry it —
 What is left is a short, named list: five stems that soften before a vowel
 (`git-` → `gid-`), two that change shape before `-yor` (`ye-` → `yi-`), and the
 thirteen monosyllables that take the four-way aorist (`gelir`, not `geler`).
-Nothing else is guessed at.
+Nothing else is guessed at — with one rule added since, for the verbs built on
+`etmek`. `hissetmek` softens the same t that `etmek` does (`hissediyorum`, not
+`hissetiyorum`) and takes `etmek`'s two-way aorist (`hisseder`, not `hissedir`).
+The rule is held to compounds by the syllable count, because `yetmek` is a verb of
+its own and keeps its t.
+
+**Both languages have a deck per tense**, and the conjugation cards in them are
+not written by hand: they are generated from the engine, so a card can never
+teach a form the `?` panel would contradict. Portuguese has five — the present,
+both pasts and both futures — and Turkish five: `şimdiki`, `geniş`, `görülen
+geçmiş`, `öğrenilen geçmiş` and `gelecek`. Each deck's cards are checked back
+against the engine by a test, which is what caught `ben gelerim` when it was
+tried as a deliberate mistake.
 
 Both engines are checked against the deck itself: every conjugated card must be a
 form the engine also produces. That check has caught, so far: two arithmetic bugs

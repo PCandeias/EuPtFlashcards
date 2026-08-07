@@ -175,6 +175,41 @@ describe('gelecek zaman', () => {
   })
 })
 
+/**
+ * A verb built on `etmek` written as one word — `hissetmek`, `affetmek` — behaves
+ * like `etmek` and not like its own spelling: the t softens before a vowel, and
+ * the aorist is the two-way one. `yetmek` is not such a compound and must not be
+ * caught by the rule.
+ */
+describe('verbs built on etmek', () => {
+  it('softens the t before a vowel', () => {
+    expect(conjugate('hissetmek')?.simdiki?.ben).toBe('hissediyorum')
+    expect(conjugate('affetmek')?.simdiki?.ben).toBe('affediyorum')
+    expect(conjugate('kaybetmek')?.gelecek?.ben).toBe('kaybedeceğim')
+    expect(conjugate('seyretmek')?.simdiki?.o).toBe('seyrediyor')
+  })
+
+  it('keeps the t before a consonant', () => {
+    expect(conjugate('hissetmek')?.gecmis?.ben).toBe('hissettim')
+    expect(conjugate('hissetmek')?.ogrenilen?.ben).toBe('hissetmişim')
+  })
+
+  it('takes the aorist of etmek rather than its own length', () => {
+    expect(conjugate('hissetmek')?.genis?.o).toBe('hisseder')
+    expect(conjugate('kaybetmek')?.genis?.ben).toBe('kaybederim')
+  })
+
+  it('leaves yetmek alone, which only looks like one', () => {
+    expect(conjugate('yetmek')?.simdiki?.ben).toBe('yetiyorum')
+    expect(conjugate('yetmek')?.genis?.o).toBe('yeter')
+  })
+
+  it('leaves a stem that merely ends in -at alone', () => {
+    expect(conjugate('anlatmak')?.simdiki?.ben).toBe('anlatıyorum')
+    expect(conjugate('anlatmak')?.genis?.ben).toBe('anlatırım')
+  })
+})
+
 describe('conjugatePhrase', () => {
   // Turkish puts the verb last, so the rest of the phrase comes along in front.
   it('conjugates the last word and carries the rest', () => {

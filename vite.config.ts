@@ -31,6 +31,10 @@ export default defineConfig({
       workbox: {
         // The whole app, cards included, is precached — it must work with no network.
         globPatterns: ['**/*.{js,css,html,png,svg,webmanifest}'],
+        // The bundle carries every card and every example sentence, which took it
+        // past Workbox's 2 MiB default. Leaving the default would have quietly
+        // dropped the one file the app is, and offline is the point of the app.
+        maximumFileSizeToCacheInBytes: 8 * 1024 * 1024,
         // Every navigation otherwise falls back to index.html, which would serve
         // this app in place of the standalone backup copy — making the backup
         // unreachable for exactly the people who have the app installed.

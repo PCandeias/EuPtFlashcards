@@ -11,11 +11,11 @@ const CARDS = turkish.cards
 
 describe('the Turkish corpus', () => {
   it('holds the whole corpus', () => {
-    expect(CARDS.length).toBe(1430)
+    expect(CARDS.length).toBe(2446)
   })
 
   it('covers every deck', () => {
-    expect(turkish.decks.length).toBe(25)
+    expect(turkish.decks.length).toBe(38)
   })
 
   it('has no card id collisions', () => {
@@ -89,7 +89,7 @@ describe('Turkish tense tagging', () => {
   it('tags only what it is sure of', () => {
     const counts: Record<string, number> = {}
     for (const c of tensed) counts[c.tense!] = (counts[c.tense!] ?? 0) + 1
-    expect(counts).toEqual({ simdiki: 87, genis: 13, gecmis: 6, gelecek: 3 })
+    expect(counts).toEqual({ simdiki: 155, genis: 78, gecmis: 69, ogrenilen: 58, gelecek: 63 })
   })
 
   it('never uses another language’s tense', () => {
@@ -234,6 +234,49 @@ describe('the corpus against the conjugation engine', () => {
 
     expect(checked.length).toBeGreaterThan(40)
     expect(missing).toEqual([])
+  })
+})
+
+describe('the generated tense decks', () => {
+  const decks = [
+    ['Present Continuous (Şimdiki Zaman)', 'simdiki'],
+    ['Habitual (Geniş Zaman)', 'genis'],
+    ['Past Tense (Görülen Geçmiş)', 'gecmis'],
+    ['Reported Past (Öğrenilen Geçmiş)', 'ogrenilen'],
+    ['Future Tense (Gelecek Zaman)', 'gelecek'],
+  ] as const
+
+  it.each(decks)('%s is entirely in its own tense', (deck, tense) => {
+    const cards = CARDS.filter(c => c.deck === deck)
+    expect(cards.length).toBeGreaterThan(40)
+    expect(new Set(cards.map(c => c.tense))).toEqual(new Set([tense]))
+  })
+
+  /**
+   * The conjugation cards came out of the engine, so they must still agree with
+   * it — the same check the Portuguese decks get, and the one that would catch a
+   * silent change to vowel harmony.
+   */
+  it.each(decks)('%s agrees with the conjugation engine', (deck, tense) => {
+    let checked = 0
+    const wrong: string[] = []
+    for (const card of CARDS.filter(c => c.deck === deck)) {
+      const m = card.target.match(/^(ben|sen|o|biz|siz|onlar)\s+(\S+)$/)
+      if (!m) continue
+      const [, person, form] = m
+      checked++
+      const produced = new Set(
+        turkish.cards
+          .filter(c => /^to\s/i.test(c.en))
+          .map(c => conjugatePhrase(c.target.split('/')[0]!.trim()))
+          .filter(Boolean)
+          .map(table => (table as Record<string, Record<string, string>>)[tense]?.[person!])
+          .filter(Boolean),
+      )
+      if (!produced.has(form!)) wrong.push(card.target)
+    }
+    expect(checked).toBeGreaterThan(40)
+    expect(wrong).toEqual([])
   })
 })
 
