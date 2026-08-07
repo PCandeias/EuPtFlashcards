@@ -224,6 +224,46 @@ describe('examples for words that are not verbs', () => {
   })
 })
 
+/**
+ * The check that would have caught six years of quiet nonsense in one run: an
+ * example that claims a tense must contain a form the engine produces for that
+ * verb in that tense. It found `Eu começar a trabalho todos os dias`, three
+ * sentences ending on a bare preposition, and a whole phrase read as one verb.
+ */
+describe('the examples against the conjugation engine', () => {
+  /** A verb written with its preposition takes an object, and de + isto is disto. */
+  const CONTRACTED: Record<string, string> = {
+    disto: 'de', nisto: 'em', 'a isto': 'a', 'com isto': 'com', 'para isto': 'para',
+  }
+
+  function formsInTense(infinitive: string, tense: TenseId): string[] {
+    const table = conjugatePhrase(infinitive) as Record<string, Record<string, string>> | null
+    const forms = table?.[tense]
+    if (!forms) return []
+    return Object.values(forms).flatMap(form => {
+      const closed = Object.entries(CONTRACTED)
+        .filter(([, preposition]) => form.endsWith(` ${preposition}`))
+        .map(([object, preposition]) => `${form.slice(0, -preposition.length)}${object}`)
+      return [form, ...closed]
+    })
+  }
+
+  it.each(entries)('%s says only what the engine would say', (infinitive, examples) => {
+    const wrong: string[] = []
+    for (const ex of examples) {
+      const forms = formsInTense(infinitive, ex.tense)
+      if (!forms.length) continue
+      const text = ex.target.toLowerCase()
+      if (!forms.some(form => text.includes(form.toLowerCase()))) wrong.push(ex.target)
+    }
+    // A hand-written sentence may put a clitic where the engine does not — "como
+    // te chamas?" against "chamas-te" — so those two are named rather than
+    // guessed at.
+    const allowed = ['chamar-se', 'lembrar-se'].includes(infinitive)
+    expect(allowed ? [] : wrong).toEqual([])
+  })
+})
+
 describe('tense filtering', () => {
   const card = () => CARDS.find(c => c.en === 'to sleep')!
 

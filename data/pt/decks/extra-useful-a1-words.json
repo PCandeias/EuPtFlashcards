@@ -19,7 +19,8 @@
     {
       "en": "box",
       "target": "a caixa",
-      "level": "a1"
+      "level": "a1",
+      "sense": "the container"
     },
     {
       "en": "umbrella",
@@ -119,7 +120,8 @@
     {
       "en": "picture / painting",
       "target": "o quadro",
-      "level": "a1"
+      "level": "a1",
+      "sense": "the painting"
     },
     {
       "en": "radio",
@@ -134,7 +136,7 @@
     {
       "en": "magazine",
       "target": "a revista",
-      "level": "a2"
+      "level": "a1"
     },
     {
       "en": "toy",

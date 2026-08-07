@@ -4146,7 +4146,7 @@
   "as aulas": [
     {
       "target": "As aulas é importante para mim.",
-      "en": "The classes is important to me.",
+      "en": "The classes are important to me.",
       "tense": "presente"
     },
     {
@@ -5041,8 +5041,8 @@
   ],
   "os calções": [
     {
-      "target": "Os calções fica-te muito bons.",
-      "en": "The shorts suits you very well.",
+      "target": "Os calções ficam-te muito bem.",
+      "en": "The shorts suit you very well.",
       "tense": "presente"
     },
     {
@@ -5297,8 +5297,8 @@
   ],
   "as botas": [
     {
-      "target": "As botas fica-te muito boas.",
-      "en": "The boots suits you very well.",
+      "target": "As botas ficam-te muito bem.",
+      "en": "The boots suit you very well.",
       "tense": "presente"
     },
     {
@@ -7634,7 +7634,7 @@
   "a tesoura": [
     {
       "target": "A tesoura é importante para mim.",
-      "en": "The scissors is important to me.",
+      "en": "The scissors are important to me.",
       "tense": "presente"
     },
     {
@@ -9553,8 +9553,8 @@
   ],
   "os avós": [
     {
-      "target": "Os avós trabalha aqui perto.",
-      "en": "The grandparents works near here.",
+      "target": "Os avós trabalham aqui perto.",
+      "en": "The grandparents work near here.",
       "tense": "presente"
     },
     {
@@ -9937,8 +9937,8 @@
   ],
   "os familiares": [
     {
-      "target": "Os familiares trabalha aqui perto.",
-      "en": "The relatives works near here.",
+      "target": "Os familiares trabalham aqui perto.",
+      "en": "The relatives work near here.",
       "tense": "presente"
     },
     {
@@ -10417,8 +10417,8 @@
   ],
   "os gémeos": [
     {
-      "target": "Os gémeos trabalha aqui perto.",
-      "en": "The twins works near here.",
+      "target": "Os gémeos trabalham aqui perto.",
+      "en": "The twins work near here.",
       "tense": "presente"
     },
     {
@@ -11473,8 +11473,8 @@
   ],
   "os legumes": [
     {
-      "target": "Os legumes custa três euros.",
-      "en": "Vegetables costs three euros.",
+      "target": "Os legumes custam três euros.",
+      "en": "Vegetables cost three euros.",
       "tense": "presente"
     },
     {
@@ -12754,7 +12754,7 @@
   "os camarões": [
     {
       "target": "Os camarões está muito bons.",
-      "en": "The prawns is very good.",
+      "en": "The prawns are very good.",
       "tense": "presente"
     },
     {
@@ -13266,7 +13266,7 @@
   "as sobras": [
     {
       "target": "As sobras está muito boas.",
-      "en": "The leftovers is very good.",
+      "en": "The leftovers are very good.",
       "tense": "presente"
     },
     {
@@ -19922,7 +19922,7 @@
   "os saldos": [
     {
       "target": "Os saldos está na loja.",
-      "en": "The sales is in the shop.",
+      "en": "The sales are in the shop.",
       "tense": "presente"
     },
     {
@@ -27122,7 +27122,7 @@
   "o fogo de artifício": [
     {
       "target": "Aqui está o fogo de artifício.",
-      "en": "Here is the fireworks.",
+      "en": "Here are the fireworks.",
       "tense": "presente"
     },
     {
@@ -28370,7 +28370,7 @@
   "as Ciências Políticas": [
     {
       "target": "Aqui estão as Ciências Políticas.",
-      "en": "Here are Political Science.",
+      "en": "Here is Political Science.",
       "tense": "presente"
     },
     {
@@ -30479,6 +30479,38 @@
       "tense": "futuroProximo"
     }
   ],
+  "o ferro de engomar": [
+    {
+      "target": "Aqui está o ferro de engomar.",
+      "en": "Here is the iron.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no ferro de engomar.",
+      "en": "I am thinking about the iron.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do ferro de engomar.",
+      "en": "Yesterday I talked about the iron.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o ferro de engomar era diferente.",
+      "en": "The iron used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do ferro de engomar.",
+      "en": "Tomorrow we will talk about the iron.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do ferro de engomar.",
+      "en": "I am going to talk about the iron.",
+      "tense": "futuroProximo"
+    }
+  ],
   "a mesa de centro": [
     {
       "target": "Aqui está a mesa de centro.",
@@ -31954,7 +31986,7 @@
   "os brócolos": [
     {
       "target": "Aqui estão os brócolos.",
-      "en": "Here are the broccoli.",
+      "en": "Here is the broccoli.",
       "tense": "presente"
     },
     {
@@ -32210,7 +32242,7 @@
   "os coentros": [
     {
       "target": "Aqui estão os coentros.",
-      "en": "Here are the coriander.",
+      "en": "Here is the coriander.",
       "tense": "presente"
     },
     {
@@ -33903,6 +33935,70 @@
       "tense": "futuroProximo"
     }
   ],
+  "o quarto de dormir": [
+    {
+      "target": "Aqui está o quarto de dormir.",
+      "en": "Here is the bedroom.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar no quarto de dormir.",
+      "en": "I am thinking about the bedroom.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei do quarto de dormir.",
+      "en": "Yesterday I talked about the bedroom.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente o quarto de dormir era diferente.",
+      "en": "The bedroom used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos do quarto de dormir.",
+      "en": "Tomorrow we will talk about the bedroom.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar do quarto de dormir.",
+      "en": "I am going to talk about the bedroom.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "a sala de estar": [
+    {
+      "target": "Aqui está a sala de estar.",
+      "en": "Here is the living room.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a pensar na sala de estar.",
+      "en": "I am thinking about the living room.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem falei da sala de estar.",
+      "en": "Yesterday I talked about the living room.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente a sala de estar era diferente.",
+      "en": "The living room used to be different.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã falaremos da sala de estar.",
+      "en": "Tomorrow we will talk about the living room.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Vou falar da sala de estar.",
+      "en": "I am going to talk about the living room.",
+      "tense": "futuroProximo"
+    }
+  ],
   "o escritório de casa": [
     {
       "target": "Aqui está o escritório de casa.",
@@ -34194,7 +34290,7 @@
   "a tesoura de cozinha": [
     {
       "target": "Aqui está a tesoura de cozinha.",
-      "en": "Here is the scissors.",
+      "en": "Here are the scissors.",
       "tense": "presente"
     },
     {
@@ -35244,38 +35340,6 @@
     {
       "target": "Vou falar do adjetivo.",
       "en": "I am going to talk about the adjective.",
-      "tense": "futuroProximo"
-    }
-  ],
-  "o tempo verbal": [
-    {
-      "target": "Aqui está o tempo verbal.",
-      "en": "Here is the tense.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou a pensar no tempo verbal.",
-      "en": "I am thinking about the tense.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Ontem falei do tempo verbal.",
-      "en": "Yesterday I talked about the tense.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente o tempo verbal era diferente.",
-      "en": "The tense used to be different.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Amanhã falaremos do tempo verbal.",
-      "en": "Tomorrow we will talk about the tense.",
-      "tense": "futuro"
-    },
-    {
-      "target": "Vou falar do tempo verbal.",
-      "en": "I am going to talk about the tense.",
       "tense": "futuroProximo"
     }
   ],
@@ -37810,7 +37874,7 @@
   "as redes sociais": [
     {
       "target": "Aqui estão as redes sociais.",
-      "en": "Here are the social media.",
+      "en": "Here is the social media.",
       "tense": "presente"
     },
     {
@@ -38700,38 +38764,6 @@
     {
       "target": "Vou falar do seguro.",
       "en": "I am going to talk about the insurance.",
-      "tense": "futuroProximo"
-    }
-  ],
-  "a pé": [
-    {
-      "target": "Aqui está a pé.",
-      "en": "Here is the on foot.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou a pensar na pé.",
-      "en": "I am thinking about the on foot.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Ontem falei da pé.",
-      "en": "Yesterday I talked about the on foot.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente a pé era diferente.",
-      "en": "The on foot used to be different.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Amanhã falaremos da pé.",
-      "en": "Tomorrow we will talk about the on foot.",
-      "tense": "futuro"
-    },
-    {
-      "target": "Vou falar da pé.",
-      "en": "I am going to talk about the on foot.",
       "tense": "futuroProximo"
     }
   ],
@@ -39826,7 +39858,7 @@
   "o horário de trabalho": [
     {
       "target": "Aqui está o horário de trabalho.",
-      "en": "Here is the working hours.",
+      "en": "Here are the working hours.",
       "tense": "presente"
     },
     {
@@ -40082,7 +40114,7 @@
   "as ciências": [
     {
       "target": "Aqui estão as ciências.",
-      "en": "Here are the science.",
+      "en": "Here is the science.",
       "tense": "presente"
     },
     {

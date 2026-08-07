@@ -204,6 +204,14 @@ describe('verbs built on etmek', () => {
     expect(conjugate('yetmek')?.genis?.o).toBe('yeter')
   })
 
+  // A causative in -et is not a compound, however much it looks like one.
+  it('leaves the causatives alone, which also only look like one', () => {
+    expect(conjugate('öğretmek')?.simdiki?.ben).toBe('öğretiyorum')
+    expect(conjugate('öğretmek')?.genis?.ben).toBe('öğretirim')
+    expect(conjugate('öğretmek')?.gelecek?.ben).toBe('öğreteceğim')
+    expect(conjugate('işletmek')?.simdiki?.o).toBe('işletiyor')
+  })
+
   it('leaves a stem that merely ends in -at alone', () => {
     expect(conjugate('anlatmak')?.simdiki?.ben).toBe('anlatıyorum')
     expect(conjugate('anlatmak')?.genis?.ben).toBe('anlatırım')

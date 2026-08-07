@@ -315,8 +315,10 @@ thirteen monosyllables that take the four-way aorist (`gelir`, not `geler`).
 Nothing else is guessed at — with one rule added since, for the verbs built on
 `etmek`. `hissetmek` softens the same t that `etmek` does (`hissediyorum`, not
 `hissetiyorum`) and takes `etmek`'s two-way aorist (`hisseder`, not `hissedir`).
-The rule is held to compounds by the syllable count, because `yetmek` is a verb of
-its own and keeps its t.
+That started as a rule held to compounds by syllable count, and the rule was
+wrong: `öğretmek` and `işletmek` also end in -et and keep their t, because they
+are causatives rather than compounds, and nothing in the spelling tells the two
+apart. It is a list now, like everything else here that cannot be derived.
 
 **Both languages have a deck per tense**, and the conjugation cards in them are
 not written by hand: they are generated from the engine, so a card can never
@@ -327,7 +329,15 @@ against the engine by a test, which is what caught `ben gelerim` when it was
 tried as a deliberate mistake.
 
 Both engines are checked against the deck itself: every conjugated card must be a
-form the engine also produces. That check has caught, so far: two arithmetic bugs
+form the engine also produces, **and so must every example sentence that claims a
+tense**. That second check was added later and found, in one run: a whole phrase
+read as a single verb (`gostar de aprender` conjugated to `gostar de aprenderei`),
+`Eu começar a trabalho todos os dias`, three sentences that ended on a bare
+preposition (`eu gosto de todos os dias`), and a Turkish rule that had been
+generalised too far — `öğretmek` is a causative, not a compound of `etmek`, and
+keeps its t.
+
+Between them the checks have caught, so far: two arithmetic bugs
 in the Portuguese engine, a missing accent rule (`saía`, not `saia` — the second
 is a skirt), a hand-written sentence that had the same error, `construir` and the
 defective `doer` being run through rules that do not fit them, and four Turkish

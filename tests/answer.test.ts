@@ -14,6 +14,17 @@ describe('exact answers', () => {
     expect(checkAnswer('  bom   dia  ', 'bom dia').verdict).toBe('correct')
   })
 
+  /**
+   * A phone turns a typed apostrophe into a curly one as you go, and the Turkish
+   * deck writes İstanbul'a with the straight one. Losing a card to smart
+   * punctuation would be the app's fault, not the learner's.
+   */
+  it('treats every apostrophe as the same apostrophe', () => {
+    expect(checkAnswer('İstanbul’a', "İstanbul'a").verdict).toBe('correct')
+    expect(checkAnswer("İstanbul'a", 'İstanbul’a').verdict).toBe('correct')
+    expect(checkAnswer('Allah’a ısmarladık', "Allah'a ısmarladık").verdict).toBe('correct')
+  })
+
   it('ignores trailing punctuation', () => {
     expect(checkAnswer('como estás', 'como estás?').verdict).toBe('correct')
     expect(checkAnswer('como estás?', 'como estás?').verdict).toBe('correct')

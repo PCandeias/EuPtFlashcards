@@ -69,24 +69,25 @@ export function parseVerb(infinitive: string): Verb | null {
 }
 
 /**
- * The stem as it appears before a suffix that begins with a vowel.
+ * Verbs written as one word but built on `etmek`.
  *
- * Beyond the named list there is one productive case: a verb built on `etmek` —
- * `hissetmek`, `affetmek`, `kaybetmek` — softens the same t that `etmek` does, so
- * it is `hissediyorum`, not `hissetiyorum`. The rule is held to compounds by the
- * syllable count, because `yetmek` is a verb in its own right and `yetiyor` keeps
- * its t.
+ * They soften the same t that `etmek` does — `hissediyorum`, not
+ * `hissetiyorum` — and take `etmek`'s two-way aorist, `hisseder` rather than
+ * `hissedir`. A list, not a rule: `öğretmek` and `işletmek` also end in -et and
+ * keep their t, because they are causatives rather than compounds, and nothing
+ * in the spelling tells the two apart.
  */
+const ET_COMPOUNDS = new Set([
+  'hisset', 'affet', 'kaybet', 'kaydet', 'seyret', 'zannet', 'reddet',
+  'terket', 'hallet', 'sabret', 'emret', 'fethet', 'keşfet', 'sarfet',
+])
+
+/** The stem as it appears before a suffix that begins with a vowel. */
 function beforeVowel(stem: string): string {
   const named = SOFTENS[stem]
   if (named) return named
-  if (isEtCompound(stem)) return `${stem.slice(0, -1)}d`
+  if (ET_COMPOUNDS.has(stem)) return `${stem.slice(0, -1)}d`
   return stem
-}
-
-/** `hissetmek`, but not `yetmek`, which is a verb in its own right. */
-function isEtCompound(stem: string): boolean {
-  return stem.endsWith('et') && syllables(stem) > 1
 }
 
 /**
@@ -142,7 +143,7 @@ function genis(stem: string): Forms {
     base = `${shaped}r`
   // An et-compound follows `etmek` rather than its own length: it is hisseder,
   // not hissedir, because the aorist is decided by the root the verb is built on.
-  } else if ((syllables(shaped) === 1 || isEtCompound(stem)) && !AORIST_IRREGULAR.has(stem)) {
+  } else if ((syllables(shaped) === 1 || ET_COMPOUNDS.has(stem)) && !AORIST_IRREGULAR.has(stem)) {
     base = `${shaped}${twoWay(shaped)}r`
   } else {
     base = `${shaped}${fourWay(shaped)}r`

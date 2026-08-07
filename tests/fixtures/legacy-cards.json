@@ -5368,7 +5368,8 @@
   {
     "deck": "Extra Useful A1 Words",
     "en": "box",
-    "target": "a caixa"
+    "target": "a caixa",
+    "sense": "the container"
   },
   {
     "deck": "Extra Useful A1 Words",
@@ -5468,7 +5469,8 @@
   {
     "deck": "Extra Useful A1 Words",
     "en": "picture / painting",
-    "target": "o quadro"
+    "target": "o quadro",
+    "sense": "the painting"
   },
   {
     "deck": "Extra Useful A1 Words",
@@ -10100,7 +10102,8 @@
   {
     "deck": "Shopping & Money",
     "en": "cashier",
-    "target": "a caixa"
+    "target": "a caixa",
+    "sense": "the till"
   },
   {
     "deck": "Shopping & Money",
@@ -11630,7 +11633,8 @@
   {
     "deck": "Work, School & Study",
     "en": "board",
-    "target": "o quadro"
+    "target": "o quadro",
+    "sense": "the board on a wall"
   },
   {
     "deck": "Work, School & Study",

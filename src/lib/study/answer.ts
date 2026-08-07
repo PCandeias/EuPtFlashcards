@@ -31,6 +31,9 @@ const ARTICLES = new Set(['o', 'a', 'os', 'as', 'um', 'uma', 'uns', 'umas'])
 function normalise(value: string): string {
   return value
     .toLowerCase()
+    // iOS turns a typed ' into ’ as you go, and the deck writes İstanbul'a with
+    // the straight one. Nobody should lose a card to smart punctuation.
+    .replace(/[\u2018\u2019\u02bc\u02b9]/g, "'")
     .replace(/[¿¡]/g, '')
     .replace(/[?!.,;:]+$/g, '')
     .replace(/\s+/g, ' ')

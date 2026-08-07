@@ -856,33 +856,6 @@
       "tense": "gelecek"
     }
   ],
-  "öğretmek": [
-    {
-      "target": "Şimdi öğretiyorum.",
-      "en": "I am teaching right now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her hafta öğretirim.",
-      "en": "I teach every week.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün öğrettim.",
-      "en": "I taught yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın öğreteceğim.",
-      "en": "I will teach tomorrow.",
-      "tense": "gelecek"
-    },
-    {
-      "target": "Duyduğuma göre öğretmiş.",
-      "en": "I hear that he taught.",
-      "tense": "ogrenilen"
-    }
-  ],
   "başlamak": [
     {
       "target": "Ders başlıyor.",
@@ -1239,33 +1212,6 @@
       "target": "Sonra arayacağım.",
       "en": "I will call later.",
       "tense": "gelecek"
-    }
-  ],
-  "kaybetmek": [
-    {
-      "target": "Şimdi kaybetiyorum.",
-      "en": "I am losing right now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her hafta kaybetirim.",
-      "en": "I lose every week.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün kaybettim.",
-      "en": "I lost yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın kaybeteceğim.",
-      "en": "I will lose tomorrow.",
-      "tense": "gelecek"
-    },
-    {
-      "target": "Duyduğuma göre kaybetmiş.",
-      "en": "I hear that he lost.",
-      "tense": "ogrenilen"
     }
   ],
   "unutmak": [
@@ -3491,33 +3437,6 @@
     {
       "target": "Duyduğuma göre silmiş.",
       "en": "I hear that he deleted.",
-      "tense": "ogrenilen"
-    }
-  ],
-  "kaydetmek": [
-    {
-      "target": "Şimdi kaydetiyorum.",
-      "en": "I am saving right now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her hafta kaydetirim.",
-      "en": "I save every week.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün kaydettim.",
-      "en": "I saved yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın kaydeteceğim.",
-      "en": "I will save tomorrow.",
-      "tense": "gelecek"
-    },
-    {
-      "target": "Duyduğuma göre kaydetmiş.",
-      "en": "I hear that he saved.",
       "tense": "ogrenilen"
     }
   ],
@@ -5948,6 +5867,87 @@
     {
       "target": "Yarın bilet alacağım.",
       "en": "I will buy a ticket tomorrow.",
+      "tense": "gelecek"
+    }
+  ],
+  "öğretmek": [
+    {
+      "target": "Şimdi öğretiyorum.",
+      "en": "I am teaching right now.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Her hafta öğretirim.",
+      "en": "I teach every week.",
+      "tense": "genis"
+    },
+    {
+      "target": "Dün öğrettim.",
+      "en": "I taught yesterday.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Galiba öğretmişim.",
+      "en": "I taught, apparently.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Yarın öğreteceğim.",
+      "en": "I will teach tomorrow.",
+      "tense": "gelecek"
+    }
+  ],
+  "kaybetmek": [
+    {
+      "target": "Şimdi kaybediyorum.",
+      "en": "I am losing right now.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Her hafta kaybederim.",
+      "en": "I lose every week.",
+      "tense": "genis"
+    },
+    {
+      "target": "Dün kaybettim.",
+      "en": "I lost yesterday.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Galiba kaybetmişim.",
+      "en": "I lost, apparently.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Yarın kaybedeceğim.",
+      "en": "I will lose tomorrow.",
+      "tense": "gelecek"
+    }
+  ],
+  "kaydetmek": [
+    {
+      "target": "Şimdi kaydediyorum.",
+      "en": "I am saving right now.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Her hafta kaydederim.",
+      "en": "I save every week.",
+      "tense": "genis"
+    },
+    {
+      "target": "Dün kaydettim.",
+      "en": "I saved yesterday.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Galiba kaydetmişim.",
+      "en": "I saved, apparently.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Yarın kaydedeceğim.",
+      "en": "I will save tomorrow.",
       "tense": "gelecek"
     }
   ]

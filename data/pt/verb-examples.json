@@ -4978,43 +4978,6 @@
       "tense": "futuro"
     }
   ],
-  "gostar de": [
-    {
-      "target": "Gosto de contar.",
-      "en": "I like counting.",
-      "tense": "presente"
-    },
-    {
-      "target": "Eu gosto de todos os dias.",
-      "en": "I like every day.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou a gostar de agora.",
-      "en": "I am liking right now.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Ontem gostei de.",
-      "en": "I liked yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente gostava de muitas vezes.",
-      "en": "I used to like often.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Amanhã vou gostar de.",
-      "en": "I am going to like tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Um dia gostarei de.",
-      "en": "One day I will like.",
-      "tense": "futuro"
-    }
-  ],
   "fazer uma pergunta": [
     {
       "target": "Eu faço uma pergunta todos os dias.",
@@ -5076,38 +5039,6 @@
     {
       "target": "Um dia responderei a uma pergunta.",
       "en": "One day I will answer a question.",
-      "tense": "futuro"
-    }
-  ],
-  "precisar de": [
-    {
-      "target": "Eu preciso de todos os dias.",
-      "en": "I need every day.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou a precisar de agora.",
-      "en": "I am needing right now.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Ontem precisei de.",
-      "en": "I needed yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente precisava de muitas vezes.",
-      "en": "I used to need often.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Amanhã vou precisar de.",
-      "en": "I am going to need tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Um dia precisarei de.",
-      "en": "One day I will need.",
       "tense": "futuro"
     }
   ],
@@ -6647,38 +6578,6 @@
       "tense": "futuro"
     }
   ],
-  "começar a trabalhar": [
-    {
-      "target": "Eu começar a trabalho todos os dias.",
-      "en": "I start work every day.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou a começar a trabalhar agora.",
-      "en": "I am starting work right now.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Ontem começar a trabalhei.",
-      "en": "I started work yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente começar a trabalhava muitas vezes.",
-      "en": "I used to start work often.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Amanhã vou começar a trabalhar.",
-      "en": "I am going to start work tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Um dia começar a trabalharei.",
-      "en": "One day I will start work.",
-      "tense": "futuro"
-    }
-  ],
   "fazer uma pausa": [
     {
       "target": "Eu faço uma pausa todos os dias.",
@@ -7220,70 +7119,6 @@
     {
       "target": "Um dia estarei grávida.",
       "en": "One day I will be pregnant.",
-      "tense": "futuro"
-    }
-  ],
-  "tomar conta de": [
-    {
-      "target": "Eu tomo conta de todos os dias.",
-      "en": "I look after every day.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou a tomar conta de agora.",
-      "en": "I am looking after right now.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Ontem tomei conta de.",
-      "en": "I looked after yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente tomava conta de muitas vezes.",
-      "en": "I used to look after often.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Amanhã vou tomar conta de.",
-      "en": "I am going to look after tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Um dia tomarei conta de.",
-      "en": "One day I will look after.",
-      "tense": "futuro"
-    }
-  ],
-  "parecer-se com": [
-    {
-      "target": "Eu pareço-me com todos os dias.",
-      "en": "I look like every day.",
-      "tense": "presente"
-    },
-    {
-      "target": "Estou a parecer-me com agora.",
-      "en": "I am looking like right now.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Ontem pareci-me com.",
-      "en": "I looked like yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente parecia-me com muitas vezes.",
-      "en": "I used to look like often.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Amanhã vou parecer-me com.",
-      "en": "I am going to look like tomorrow.",
-      "tense": "futuroProximo"
-    },
-    {
-      "target": "Um dia parecerei-me com.",
-      "en": "One day I will look like.",
       "tense": "futuro"
     }
   ],
@@ -7959,38 +7794,6 @@
       "tense": "futuroProximo"
     }
   ],
-  "pensar em": [
-    {
-      "target": "Muitas vezes eu penso em.",
-      "en": "I think about often.",
-      "tense": "presente"
-    },
-    {
-      "target": "Agora eu estou a pensar em.",
-      "en": "I am thinking about right now.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Ontem eu pensei em.",
-      "en": "I thought about yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente eu pensava em.",
-      "en": "I used to think about in those days.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Amanhã eu pensarei em.",
-      "en": "I will think about tomorrow.",
-      "tense": "futuro"
-    },
-    {
-      "target": "Depois eu vou pensar em.",
-      "en": "I am going to think about later.",
-      "tense": "futuroProximo"
-    }
-  ],
   "mostrar": [
     {
       "target": "Muitas vezes eu mostro.",
@@ -8468,38 +8271,6 @@
     {
       "target": "Depois eu vou tornar-me.",
       "en": "I am going to become later.",
-      "tense": "futuroProximo"
-    }
-  ],
-  "deixar entrar": [
-    {
-      "target": "Muitas vezes eu deixar entro.",
-      "en": "I allow often.",
-      "tense": "presente"
-    },
-    {
-      "target": "Agora eu estou a deixar entrar.",
-      "en": "I am allowing right now.",
-      "tense": "presenteContinuo"
-    },
-    {
-      "target": "Ontem eu deixar entrei.",
-      "en": "I allowed yesterday.",
-      "tense": "perfeito"
-    },
-    {
-      "target": "Antigamente eu deixar entrava.",
-      "en": "I used to allow in those days.",
-      "tense": "imperfeito"
-    },
-    {
-      "target": "Amanhã eu deixar entrarei.",
-      "en": "I will allow tomorrow.",
-      "tense": "futuro"
-    },
-    {
-      "target": "Depois eu vou deixar entrar.",
-      "en": "I am going to allow later.",
       "tense": "futuroProximo"
     }
   ],
@@ -10228,6 +9999,230 @@
     {
       "target": "Depois eu vou falar sobre momentos do dia.",
       "en": "I am going to talk about moments of the day later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "gostar de": [
+    {
+      "target": "Muitas vezes eu gosto disto.",
+      "en": "I like this often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a gostar disto.",
+      "en": "I am liking this right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu gostei disto.",
+      "en": "I liked this yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu gostava disto.",
+      "en": "I used to like this in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu gostarei disto.",
+      "en": "I will like this tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou gostar disto.",
+      "en": "I am going to like this later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "precisar de": [
+    {
+      "target": "Muitas vezes eu preciso disto.",
+      "en": "I need this often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a precisar disto.",
+      "en": "I am needing this right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu precisei disto.",
+      "en": "I needed this yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu precisava disto.",
+      "en": "I used to need this in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu precisarei disto.",
+      "en": "I will need this tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou precisar disto.",
+      "en": "I am going to need this later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "pensar em": [
+    {
+      "target": "Muitas vezes eu penso nisto.",
+      "en": "I think about this often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a pensar nisto.",
+      "en": "I am thinking about this right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu pensei nisto.",
+      "en": "I thought about this yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu pensava nisto.",
+      "en": "I used to think about this in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu pensarei nisto.",
+      "en": "I will think about this tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou pensar nisto.",
+      "en": "I am going to think about this later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "deixar entrar": [
+    {
+      "target": "Muitas vezes eu deixo entrar.",
+      "en": "I allow often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a deixar entrar.",
+      "en": "I am allowing right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu deixei entrar.",
+      "en": "I allowed yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu deixava entrar.",
+      "en": "I used to allow in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu deixarei entrar.",
+      "en": "I will allow tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou deixar entrar.",
+      "en": "I am going to allow later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "começar a trabalhar": [
+    {
+      "target": "Muitas vezes eu começo a trabalhar.",
+      "en": "I start work often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a começar a trabalhar.",
+      "en": "I am starting work right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu comecei a trabalhar.",
+      "en": "I started work yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu começava a trabalhar.",
+      "en": "I used to start work in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu começarei a trabalhar.",
+      "en": "I will start work tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou começar a trabalhar.",
+      "en": "I am going to start work later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "tomar conta de": [
+    {
+      "target": "Muitas vezes eu tomo conta disto.",
+      "en": "I look after this often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a tomar conta disto.",
+      "en": "I am looking after this right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu tomei conta disto.",
+      "en": "I looked after this yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu tomava conta disto.",
+      "en": "I used to look after this in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu tomarei conta disto.",
+      "en": "I will look after this tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou tomar conta disto.",
+      "en": "I am going to look after this later.",
+      "tense": "futuroProximo"
+    }
+  ],
+  "parecer-se com": [
+    {
+      "target": "Muitas vezes eu pareço-me com isto.",
+      "en": "I look like this often.",
+      "tense": "presente"
+    },
+    {
+      "target": "Agora eu estou a parecer-me com isto.",
+      "en": "I am looking like this right now.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem eu pareci-me com isto.",
+      "en": "I looked like this yesterday.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente eu parecia-me com isto.",
+      "en": "I used to look like this in those days.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Amanhã eu parecerei-me com isto.",
+      "en": "I will look like this tomorrow.",
+      "tense": "futuro"
+    },
+    {
+      "target": "Depois eu vou parecer-me com isto.",
+      "en": "I am going to look like this later.",
       "tense": "futuroProximo"
     }
   ]

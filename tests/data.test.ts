@@ -64,7 +64,7 @@ describe('card corpus', () => {
 
   it('keeps sense hints for meaning-level disambiguation', () => {
     const senses = CARDS.filter(c => c.sense).length
-    expect(senses).toBe(72)
+    expect(senses).toBe(76)
   })
 })
 
@@ -145,7 +145,7 @@ describe('level labelling', () => {
   it('leaves most of the corpus at A1', () => {
     const counts: Record<string, number> = {}
     for (const c of CARDS) counts[c.level!] = (counts[c.level!] ?? 0) + 1
-    expect(counts).toEqual({ a1: 2049, a2: 1164, b1: 155 })
+    expect(counts).toEqual({ a1: 2055, a2: 1158, b1: 155 })
     expect(counts.a1! / CARDS.length).toBeGreaterThan(0.6)
   })
 
