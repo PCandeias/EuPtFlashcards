@@ -3,34 +3,60 @@ import { test, expect, type Page } from '@playwright/test'
 /**
  * Steps through a deck until the requested card is showing.
  *
- * The order is shuffled, so the card has to be searched for. Each step yields to
- * the browser: Svelte flushes state on a microtask, so a synchronous click loop
- * would spin 4000 times against a DOM that never updates.
+ * The order is shuffled, so the card has to be searched for. Each step yields a
+ * microtask so Svelte can flush the state change without waiting for a painted
+ * frame. WebKit can make hundreds of requestAnimationFrame waits take longer
+ * than the whole test timeout when several searches share one test.
  */
 async function findCard(
   page: Page,
   { deck, front, back }: { deck: string; front: string; back: string },
 ) {
-  // Chromium throttles requestAnimationFrame in an unfocused window, and the walk
-  // below steps on it, so the page has to be frontmost or this starves under
-  // parallel runs.
   await page.bringToFront()
   await page.selectOption('#deckSelect', deck)
+  await expect(page.locator('.deckname')).toHaveText(deck)
   const found = await page.evaluate(
     async ({ front, back }) => {
-      const total = document.querySelectorAll('#nextBtn').length ? 5000 : 0
+      const progress = document.getElementById('progressText')?.textContent ?? ''
+      const total = Number(progress.match(/\/\s*(\d+)/)?.[1] ?? 0)
       for (let i = 0; i < total; i++) {
         const f = document.querySelector('.face.front .word')?.textContent?.trim()
         const b = document.querySelector('.face.back .word')?.textContent?.trim()
         if (f?.startsWith(front) && b?.startsWith(back)) return true
         ;(document.getElementById('nextBtn') as HTMLButtonElement).click()
-        await new Promise(resolve => requestAnimationFrame(resolve))
+        await Promise.resolve()
       }
       return false
     },
     { front, back },
   )
   expect(found, `should reach "${front}" / "${back}" in ${deck}`).toBe(true)
+}
+
+/** Finds one exact target word, bounded by the cards actually in the session. */
+async function findTargetCard(page: Page, deck: string, target: string) {
+  await page.bringToFront()
+  await page.selectOption('#deckSelect', deck)
+  await expect(page.locator('.deckname')).toHaveText(deck)
+  const found = await page.evaluate(async (want) => {
+    const progress = document.getElementById('progressText')?.textContent ?? ''
+    const total = Number(progress.match(/\/\s*(\d+)/)?.[1] ?? 0)
+    for (let i = 0; i < total; i++) {
+      const back = document.querySelector('.face.back .word')
+      if (back?.childNodes[0]?.textContent?.trim() === want) return true
+      ;(document.getElementById('nextBtn') as HTMLButtonElement).click()
+      await Promise.resolve()
+    }
+    return false
+  }, target)
+  expect(found, `should reach ${target}`).toBe(true)
+}
+
+/** Finds a target and reveals the face that carries its annotation controls. */
+async function goToTargetCard(page: Page, deck: string, target: string) {
+  await findTargetCard(page, deck, target)
+  await page.click('#flipBtn')
+  await expect(page.locator('.card')).toHaveClass(/flipped/)
 }
 
 /** Theme, direction, tenses, backup and reset now live behind the settings button. */
@@ -217,7 +243,7 @@ test('the preview reflects the card, not a fixed schedule', async ({ page }) => 
         return true
       }
       ;(document.getElementById('nextBtn') as HTMLButtonElement).click()
-      await new Promise(r => requestAnimationFrame(r))
+      await Promise.resolve()
     }
     return false
   })
@@ -244,7 +270,7 @@ test('again requeues the card into the same session', async ({ page }) => {
     for (let i = 0; i < 20; i++) {
       if (document.querySelector('.face.front .word')?.textContent?.trim() === w) return i
       ;(document.getElementById('nextBtn') as HTMLButtonElement).click()
-      await new Promise(r => requestAnimationFrame(r))
+      await Promise.resolve()
     }
     return -1
   }, word)
@@ -367,7 +393,7 @@ test.describe('typing mode', () => {
         const stripped = back.normalize('NFD').replace(/\p{Diacritic}/gu, '')
         if (stripped !== back && !back.includes('/')) return { back, stripped }
         ;(document.getElementById('nextBtn') as HTMLButtonElement).click()
-        await new Promise(r => requestAnimationFrame(r))
+        await Promise.resolve()
       }
       return null
     })
@@ -641,22 +667,9 @@ test.describe('layout', () => {
 test.describe('verb conjugation', () => {
   /** Walks to a specific card in a deck. */
   async function goToCard(page: import('@playwright/test').Page, deck: string, target: string) {
-    await page.bringToFront()
-    await page.selectOption('#deckSelect', deck)
-    const found = await page.evaluate(async (want) => {
-      for (let i = 0; i < 600; i++) {
-        const back = document.querySelector('.face.back .word')
-        if (back?.childNodes[0]?.textContent?.trim() === want) return true
-        ;(document.getElementById('nextBtn') as HTMLButtonElement).click()
-        await new Promise(r => requestAnimationFrame(r))
-      }
-      return false
-    }, target)
-    expect(found, `should reach ${target}`).toBe(true)
     // Controls on a face are only reachable once that face is showing — the
     // hidden side does not take clicks.
-    await page.click('#flipBtn')
-    await expect(page.locator('.card')).toHaveClass(/flipped/)
+    await goToTargetCard(page, deck, target)
   }
 
   async function enableAllTenses(page: import('@playwright/test').Page) {
@@ -908,7 +921,7 @@ test.describe('studying by tense', () => {
           ?.childNodes[0]?.textContent?.trim()
         if (back === 'dormir') return true
         ;(document.getElementById('nextBtn') as HTMLButtonElement).click()
-        await new Promise(r => requestAnimationFrame(r))
+        await Promise.resolve()
       }
       return false
     })
@@ -987,20 +1000,7 @@ test.describe('studying by tense', () => {
 
 test.describe('usage examples', () => {
   async function goToVerb(page: Page, deck: string, target: string) {
-    await page.bringToFront()
-    await page.selectOption('#deckSelect', deck)
-    const found = await page.evaluate(async (want) => {
-      for (let i = 0; i < 600; i++) {
-        const back = document.querySelector('.face.back .word')
-        if (back?.childNodes[0]?.textContent?.trim() === want) return true
-        ;(document.getElementById('nextBtn') as HTMLButtonElement).click()
-        await new Promise(r => requestAnimationFrame(r))
-      }
-      return false
-    }, target)
-    expect(found, `should reach ${target}`).toBe(true)
-    await page.click('#flipBtn')
-    await expect(page.locator('.card')).toHaveClass(/flipped/)
+    await goToTargetCard(page, deck, target)
   }
 
   test('shows sentences using the verb', async ({ page }) => {
@@ -1181,20 +1181,7 @@ test.describe('usage examples', () => {
 
 test.describe('the speech setting', () => {
   async function goToVerbCard(page: Page, deck: string, target: string) {
-    await page.bringToFront()
-    await page.selectOption('#deckSelect', deck)
-    const found = await page.evaluate(async (want) => {
-      for (let i = 0; i < 600; i++) {
-        const back = document.querySelector('.face.back .word')
-        if (back?.childNodes[0]?.textContent?.trim() === want) return true
-        ;(document.getElementById('nextBtn') as HTMLButtonElement).click()
-        await new Promise(r => requestAnimationFrame(r))
-      }
-      return false
-    }, target)
-    expect(found, `should reach ${target}`).toBe(true)
-    await page.click('#flipBtn')
-    await expect(page.locator('.card')).toHaveClass(/flipped/)
+    await goToTargetCard(page, deck, target)
   }
 
   const setSpeech = (page: Page, on: boolean) => page.evaluate((v) => {
@@ -1325,7 +1312,7 @@ test.describe('reporting a wrong card', () => {
         const w = document.querySelector('.face.front .word')?.childNodes[0]?.textContent?.trim()
         if (w) words.push(w)
         ;(document.getElementById('nextBtn') as HTMLButtonElement).click()
-        await new Promise(r => requestAnimationFrame(r))
+        await Promise.resolve()
       }
       return words
     })
