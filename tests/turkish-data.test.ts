@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { turkish } from '../src/lib/languages/tr/index.js'
+import { examplesKind, turkish } from '../src/lib/languages/tr/index.js'
 import { portuguese } from '../src/lib/languages/pt/index.js'
 import { cardId } from '../src/lib/cards/schema.js'
 import { LEVEL_IDS } from '../src/lib/cards/levels.js'
@@ -11,11 +11,11 @@ const CARDS = turkish.cards
 
 describe('the Turkish corpus', () => {
   it('holds the whole corpus', () => {
-    expect(CARDS.length).toBe(2446)
+    expect(CARDS.length).toBe(2901)
   })
 
   it('covers every deck', () => {
-    expect(turkish.decks.length).toBe(38)
+    expect(turkish.decks.length).toBe(39)
   })
 
   it('has no card id collisions', () => {
@@ -59,15 +59,35 @@ describe('the Turkish corpus', () => {
   // should have left one card per meaning.
   it('carries each word once, except where Turkish means two things by it', () => {
     const byWord = new Map<string, string[]>()
-    for (const c of CARDS) byWord.set(c.target, [...(byWord.get(c.target) ?? []), c.en])
+    // A class deck deliberately repeats words from topic decks so it can mirror
+    // the course as taught. The curated topic corpus itself should remain lean.
+    for (const c of CARDS.filter(c => c.deck !== 'Class')) {
+      byWord.set(c.target, [...(byWord.get(c.target) ?? []), c.en])
+    }
     const repeated = [...byWord.entries()].filter(([, glosses]) => glosses.length > 1)
     expect(repeated.map(([w]) => w).sort()).toEqual(
       ['fare', 'fırın', 'hesap', 'kapı', 'koltuk', 'o', 'onlar', 'saat', 'yemek', 'yüz'],
     )
     // And each of those says which meaning it is.
     for (const [word] of repeated) {
-      const cards = CARDS.filter(c => c.target === word)
+      const cards = CARDS.filter(c => c.deck !== 'Class' && c.target === word)
       expect(cards.every(c => c.sense), word).toBe(true)
+    }
+  })
+
+  it('keeps the imported class list as one complete, deduplicated deck', () => {
+    const cards = CARDS.filter(c => c.deck === 'Class')
+    expect(cards).toHaveLength(455)
+    expect(new Set(cards.map(c => c.target)).size).toBe(cards.length)
+  })
+
+  it('links inflected class verbs to conjugations and examples', () => {
+    const cards = CARDS.filter(c => c.deck === 'Class' && c.verb)
+    expect(cards.length).toBeGreaterThan(30)
+    for (const card of cards) {
+      expect(turkish.verbOf(card), card.target).toBe(card.verb)
+      expect(conjugatePhrase(card.verb!), card.target).toBeTruthy()
+      expect(examplesKind.subjectOf(card), card.target).toBe(card.verb)
     }
   })
 
@@ -89,7 +109,7 @@ describe('Turkish tense tagging', () => {
   it('tags only what it is sure of', () => {
     const counts: Record<string, number> = {}
     for (const c of tensed) counts[c.tense!] = (counts[c.tense!] ?? 0) + 1
-    expect(counts).toEqual({ simdiki: 155, genis: 78, gecmis: 69, ogrenilen: 58, gelecek: 63 })
+    expect(counts).toEqual({ simdiki: 161, genis: 97, gecmis: 71, ogrenilen: 58, gelecek: 63 })
   })
 
   it('never uses another language’s tense', () => {
@@ -143,7 +163,10 @@ describe('Turkish level labelling', () => {
 })
 
 describe('the suffix reference', () => {
-  const single = CARDS.filter(c => !/^to\s/i.test(c.en) && !c.target.includes(' '))
+  const single = CARDS.filter(c =>
+    !turkish.verbOf(c)
+    && !(c.tags ?? []).some(tag => tag === 'object' || tag === 'plural')
+    && !c.target.includes(' '))
 
   it('offers endings for most of the single-word cards', () => {
     const offered = single.filter(c => canSuffix(c.target))

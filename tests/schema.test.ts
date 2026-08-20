@@ -19,6 +19,19 @@ describe('parseCard', () => {
     expect(card.sense).toBe('x')
   })
 
+  it('accepts an explicit dictionary form for an inflected verb card', () => {
+    const card = parseCard(
+      { en: 'I drink', target: 'içerim', verb: 'içmek' },
+      'Class', where,
+    )
+    expect(card.verb).toBe('içmek')
+  })
+
+  it('rejects an empty explicit dictionary form', () => {
+    expect(() => parseCard({ en: 'I drink', target: 'içerim', verb: ' ' }, 'Class', where))
+      .toThrow(/`verb`/)
+  })
+
   it('rejects an unknown tag', () => {
     expect(() => parseCard({ en: 'a', target: 'b', tags: ['neuter'] }, 'D', where))
       .toThrow(/unknown tag/)

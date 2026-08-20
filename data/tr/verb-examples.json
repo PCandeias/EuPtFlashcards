@@ -1,4 +1,85 @@
 {
+  "görüşmek": [
+    {
+      "target": "Şimdi öğretmenimle görüşüyorum.",
+      "en": "I am meeting with my teacher now.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Her hafta öğretmenimle görüşürüm.",
+      "en": "I meet with my teacher every week.",
+      "tense": "genis"
+    },
+    {
+      "target": "Dün doktorla görüştüm.",
+      "en": "I met with the doctor yesterday.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Yarın müdürle görüşeceğim.",
+      "en": "I will meet with the manager tomorrow.",
+      "tense": "gelecek"
+    },
+    {
+      "target": "Duyduğuma göre müdürle görüşmüş.",
+      "en": "I hear that they met with the manager.",
+      "tense": "ogrenilen"
+    }
+  ],
+  "susamak": [
+    {
+      "target": "Şimdi çok susuyorum.",
+      "en": "I am getting very thirsty now.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Yürüyünce susarım.",
+      "en": "I get thirsty when I walk.",
+      "tense": "genis"
+    },
+    {
+      "target": "Koşudan sonra susadım.",
+      "en": "I got thirsty after the run.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Yarın yürüyüşte susayacağım.",
+      "en": "I will get thirsty on tomorrow's walk.",
+      "tense": "gelecek"
+    },
+    {
+      "target": "Duyduğuma göre o da susamış.",
+      "en": "I hear that they got thirsty too.",
+      "tense": "ogrenilen"
+    }
+  ],
+  "rica etmek": [
+    {
+      "target": "Şimdi sizden yardım rica ediyorum.",
+      "en": "I am asking you for help now.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Her zaman sessizlik rica ederim.",
+      "en": "I always request silence.",
+      "tense": "genis"
+    },
+    {
+      "target": "Dün yardım rica ettim.",
+      "en": "I asked for help yesterday.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Yarın destek rica edeceğim.",
+      "en": "I will ask for support tomorrow.",
+      "tense": "gelecek"
+    },
+    {
+      "target": "Duyduğuma göre yardım rica etmiş.",
+      "en": "I hear that they asked for help.",
+      "tense": "ogrenilen"
+    }
+  ],
   "nefes almak": [
     {
       "target": "Şimdi nefes alıyorum.",

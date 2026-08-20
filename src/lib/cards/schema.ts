@@ -33,6 +33,15 @@ export interface Card {
   en: string
   target: string
   /**
+   * Dictionary form for a card that teaches an already-conjugated verb form.
+   *
+   * Infinitive cards do not need this: each language can recognise those from
+   * the displayed words. This link lets cards such as Turkish `içerim` still
+   * use the shared conjugation and example panels without guessing a stem from
+   * an inflected word.
+   */
+  verb?: string
+  /**
    * The tense this card is in, when it is in one.
    *
    * Absent means the card is not tense-bearing — a noun, an adjective, a fixed
@@ -94,6 +103,13 @@ export function parseCard(
   if (typeof raw.target !== 'string' || !raw.target.trim()) fail(where, "`target` must be a non-empty string")
 
   const card: Card = { deck, en: raw.en, target: raw.target }
+
+  if (raw.verb !== undefined) {
+    if (typeof raw.verb !== 'string' || !raw.verb.trim()) {
+      fail(where, '`verb` must be a non-empty string')
+    }
+    card.verb = raw.verb
+  }
 
   if (raw.tags !== undefined) {
     if (!Array.isArray(raw.tags)) fail(where, '`tags` must be an array')

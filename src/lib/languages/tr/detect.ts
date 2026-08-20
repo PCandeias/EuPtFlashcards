@@ -14,6 +14,7 @@ import type { Card } from '../../cards/schema.js'
 import { conjugatePhrase } from './conjugate.js'
 
 export function verbOf(card: Card): string | null {
+  if (card.verb) return conjugatePhrase(card.verb) ? card.verb : null
   if (!/^to\s+\S/i.test(card.en.trim())) return null
 
   // "to work / to study" -> "çalışmak": one Turkish word, several English senses.

@@ -16,6 +16,7 @@ import { conjugatePhrase } from './conjugate.js'
  * itself.
  */
 export function verbOf(card: Card): string | null {
+  if (card.verb) return conjugatePhrase(card.verb) ? card.verb : null
   if (!/^to\s+\S/i.test(card.en.trim())) return null
 
   // "to work / study" -> "trabalhar / estudar": take the first, which pairs with

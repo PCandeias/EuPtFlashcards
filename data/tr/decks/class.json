@@ -1,0 +1,2605 @@
+{
+  "deck": "Class",
+  "cards": [
+    {
+      "en": "man",
+      "target": "adam",
+      "level": "a1"
+    },
+    {
+      "en": "excuse me / sorry / pardon me",
+      "target": "affedersin",
+      "verb": "affetmek",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "evenings",
+      "target": "akşamlar",
+      "level": "a1"
+    },
+    {
+      "en": "lion",
+      "target": "aslan",
+      "level": "a1"
+    },
+    {
+      "en": "bear / the month",
+      "target": "ayı",
+      "level": "a1",
+      "sense": "the animal; also the definite-object or possessed form of ay, 'month'"
+    },
+    {
+      "en": "fish",
+      "target": "balık",
+      "level": "a1"
+    },
+    {
+      "en": "the fish",
+      "target": "balığı",
+      "level": "a1",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "en": "I",
+      "target": "ben",
+      "level": "a1"
+    },
+    {
+      "en": "I know",
+      "target": "biliyorum",
+      "verb": "bilmek",
+      "level": "a1",
+      "tense": "simdiki"
+    },
+    {
+      "en": "a / one",
+      "target": "bir",
+      "level": "a1"
+    },
+    {
+      "en": "beer",
+      "target": "bira",
+      "level": "a1"
+    },
+    {
+      "en": "the beer",
+      "target": "birayı",
+      "level": "a1",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "en": "we",
+      "target": "biz",
+      "level": "a1"
+    },
+    {
+      "en": "this",
+      "target": "bu",
+      "level": "a1"
+    },
+    {
+      "en": "these",
+      "target": "bunlar",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "this",
+      "target": "bunu",
+      "level": "a1",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "en": "big",
+      "target": "büyük",
+      "level": "a1"
+    },
+    {
+      "en": "tomato",
+      "target": "domates",
+      "level": "a1"
+    },
+    {
+      "en": "the tomato",
+      "target": "domatesi",
+      "level": "a1",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "en": "I do",
+      "target": "ederim",
+      "verb": "etmek",
+      "level": "a1",
+      "tense": "genis"
+    },
+    {
+      "en": "bread",
+      "target": "ekmek",
+      "level": "a1"
+    },
+    {
+      "en": "the bread / his or her bread",
+      "target": "ekmeği",
+      "level": "a1",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "en": "apple",
+      "target": "elma",
+      "level": "a1"
+    },
+    {
+      "en": "the apple",
+      "target": "elmayı",
+      "level": "a1",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "en": "man",
+      "target": "erkek",
+      "level": "a1"
+    },
+    {
+      "en": "old / former / ex",
+      "target": "eski",
+      "level": "a1"
+    },
+    {
+      "en": "meat",
+      "target": "et",
+      "level": "a1"
+    },
+    {
+      "en": "the meat / his-her-its meat",
+      "target": "eti",
+      "level": "a1",
+      "sense": "can be accusative or possessive depending on context"
+    },
+    {
+      "en": "yes",
+      "target": "evet",
+      "level": "a1"
+    },
+    {
+      "en": "mouse",
+      "target": "fare",
+      "level": "a1"
+    },
+    {
+      "en": "elephant",
+      "target": "fil",
+      "level": "a1"
+    },
+    {
+      "en": "newspaper",
+      "target": "gazete",
+      "level": "a1"
+    },
+    {
+      "en": "the newspaper",
+      "target": "gazeteyi",
+      "level": "a1",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "en": "nights",
+      "target": "geceler",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "young",
+      "target": "genç",
+      "level": "a1"
+    },
+    {
+      "en": "see you",
+      "target": "görüşürüz",
+      "verb": "görüşmek",
+      "level": "a1"
+    },
+    {
+      "en": "beautiful",
+      "target": "güzel",
+      "level": "a1"
+    },
+    {
+      "en": "no",
+      "target": "hayır",
+      "level": "a1"
+    },
+    {
+      "en": "turkey",
+      "target": "hindi",
+      "level": "a1",
+      "sense": "the bird"
+    },
+    {
+      "en": "welcome",
+      "target": "hoş geldin",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "welcome",
+      "target": "hoş geldiniz",
+      "level": "a1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "goodbye / bye",
+      "target": "hoşça kal",
+      "verb": "kalmak",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "goodbye",
+      "target": "hoşça kalın",
+      "verb": "kalmak",
+      "level": "a1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "English",
+      "target": "İngilizce",
+      "level": "a1"
+    },
+    {
+      "en": "good",
+      "target": "iyi",
+      "level": "a1"
+    },
+    {
+      "en": "I am fine / good / okay",
+      "target": "iyiyim",
+      "level": "a1"
+    },
+    {
+      "en": "drink!",
+      "target": "iç",
+      "verb": "içmek",
+      "level": "a1",
+      "sense": "informal singular imperative"
+    },
+    {
+      "en": "he / she drinks; they drink",
+      "target": "içer",
+      "verb": "içmek",
+      "level": "a1",
+      "tense": "genis"
+    },
+    {
+      "en": "I drink",
+      "target": "içerim",
+      "verb": "içmek",
+      "level": "a1",
+      "tense": "genis"
+    },
+    {
+      "en": "we drink",
+      "target": "içeriz",
+      "verb": "içmek",
+      "level": "a1",
+      "tense": "genis"
+    },
+    {
+      "en": "you drink",
+      "target": "içersin",
+      "verb": "içmek",
+      "level": "a1",
+      "tense": "genis",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "you drink",
+      "target": "içersiniz",
+      "verb": "içmek",
+      "level": "a1",
+      "tense": "genis",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "woman",
+      "target": "kadın",
+      "level": "a1"
+    },
+    {
+      "en": "coffee",
+      "target": "kahve",
+      "level": "a1"
+    },
+    {
+      "en": "the coffee",
+      "target": "kahveyi",
+      "level": "a1",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "en": "turtle / tortoise",
+      "target": "kaplumbağa",
+      "level": "a2"
+    },
+    {
+      "en": "cat",
+      "target": "kedi",
+      "level": "a1"
+    },
+    {
+      "en": "the book / his or her book",
+      "target": "kitabı",
+      "level": "a1",
+      "sense": "the definite-object or third-person possessed form of kitap"
+    },
+    {
+      "en": "book",
+      "target": "kitap",
+      "level": "a1"
+    },
+    {
+      "en": "easy",
+      "target": "kolay",
+      "level": "a1"
+    },
+    {
+      "en": "sheep / put!",
+      "target": "koyun",
+      "level": "a1",
+      "sense": "the noun, or the polite/plural imperative of koymak"
+    },
+    {
+      "en": "frog",
+      "target": "kurbağa",
+      "level": "a2"
+    },
+    {
+      "en": "lamb",
+      "target": "kuzu",
+      "level": "a2"
+    },
+    {
+      "en": "bird",
+      "target": "kuş",
+      "level": "a1"
+    },
+    {
+      "en": "dog",
+      "target": "köpek",
+      "level": "a1"
+    },
+    {
+      "en": "small",
+      "target": "küçük",
+      "level": "a1"
+    },
+    {
+      "en": "girl",
+      "target": "kız",
+      "level": "a1"
+    },
+    {
+      "en": "lemon",
+      "target": "limon",
+      "level": "a1"
+    },
+    {
+      "en": "the lemon",
+      "target": "limonu",
+      "level": "a1",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "en": "please",
+      "target": "lütfen",
+      "level": "a1"
+    },
+    {
+      "en": "pasta",
+      "target": "makarna",
+      "level": "a1"
+    },
+    {
+      "en": "the pasta",
+      "target": "makarnayı",
+      "level": "a1",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "en": "nice to meet you",
+      "target": "memnun oldum",
+      "verb": "olmak",
+      "level": "a1"
+    },
+    {
+      "en": "the menu",
+      "target": "menüyü",
+      "level": "a1",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "en": "hello",
+      "target": "merhaba",
+      "level": "a1"
+    },
+    {
+      "en": "fruit",
+      "target": "meyve",
+      "level": "a1"
+    },
+    {
+      "en": "the fruit",
+      "target": "meyveyi",
+      "level": "a1",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "en": "he / she / it / that",
+      "target": "o",
+      "level": "a1",
+      "sense": "personal pronoun or demonstrative; the exact meaning depends on context"
+    },
+    {
+      "en": "read! / the arrow",
+      "target": "oku",
+      "verb": "okumak",
+      "level": "a1",
+      "sense": "the imperative of okumak, or the definite-object/possessed form of ok"
+    },
+    {
+      "en": "he / she reads; they read",
+      "target": "okur",
+      "verb": "okumak",
+      "level": "a1",
+      "tense": "genis"
+    },
+    {
+      "en": "they read",
+      "target": "okurlar",
+      "verb": "okumak",
+      "level": "a1",
+      "tense": "genis",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "you read",
+      "target": "okursun",
+      "verb": "okumak",
+      "level": "a1",
+      "tense": "genis",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "you read",
+      "target": "okursunuz",
+      "verb": "okumak",
+      "level": "a1",
+      "tense": "genis",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "I read",
+      "target": "okurum",
+      "verb": "okumak",
+      "level": "a1",
+      "tense": "genis"
+    },
+    {
+      "en": "we read",
+      "target": "okuruz",
+      "verb": "okumak",
+      "level": "a1",
+      "tense": "genis"
+    },
+    {
+      "en": "they",
+      "target": "onlar",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "cake",
+      "target": "pasta",
+      "level": "a1"
+    },
+    {
+      "en": "the cake",
+      "target": "pastayı",
+      "level": "a1",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "en": "cheese",
+      "target": "peynir",
+      "level": "a1"
+    },
+    {
+      "en": "the cheese / his-her cheese",
+      "target": "peyniri",
+      "level": "a1",
+      "sense": "can be accusative or possessive depending on context"
+    },
+    {
+      "en": "orange",
+      "target": "portakal",
+      "level": "a1"
+    },
+    {
+      "en": "the orange",
+      "target": "portakalı",
+      "level": "a1",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "en": "requesting",
+      "target": "rica",
+      "level": "a1"
+    },
+    {
+      "en": "sandwich",
+      "target": "sandviç",
+      "level": "a1"
+    },
+    {
+      "en": "hi",
+      "target": "selam",
+      "level": "a1"
+    },
+    {
+      "en": "you",
+      "target": "sen",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "you",
+      "target": "siz",
+      "level": "a1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "cold",
+      "target": "soğuk",
+      "level": "a1"
+    },
+    {
+      "en": "water",
+      "target": "su",
+      "level": "a1"
+    },
+    {
+      "en": "the water / his or her water",
+      "target": "suyu",
+      "level": "a1",
+      "sense": "often accusative of su; can be possessive depending on context"
+    },
+    {
+      "en": "milk",
+      "target": "süt",
+      "level": "a1"
+    },
+    {
+      "en": "the milk / his or her milk",
+      "target": "sütü",
+      "level": "a1",
+      "sense": "often accusative of süt; can be possessive depending on context"
+    },
+    {
+      "en": "hot",
+      "target": "sıcak",
+      "level": "a1"
+    },
+    {
+      "en": "okay",
+      "target": "tamam",
+      "level": "a1"
+    },
+    {
+      "en": "chicken",
+      "target": "tavuk",
+      "level": "a1"
+    },
+    {
+      "en": "the chicken",
+      "target": "tavuğu",
+      "level": "a1",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "en": "congratulations / greeting",
+      "target": "tebrik",
+      "level": "a1"
+    },
+    {
+      "en": "thanks / thank you",
+      "target": "teşekkürler",
+      "level": "a1"
+    },
+    {
+      "en": "salt",
+      "target": "tuz",
+      "level": "a1"
+    },
+    {
+      "en": "the salt / his-her-its salt",
+      "target": "tuzu",
+      "level": "a1",
+      "sense": "can be accusative or possessive depending on context"
+    },
+    {
+      "en": "Turkish",
+      "target": "Türkçe",
+      "level": "a1"
+    },
+    {
+      "en": "and",
+      "target": "ve",
+      "level": "a1"
+    },
+    {
+      "en": "or",
+      "target": "veya",
+      "level": "a1"
+    },
+    {
+      "en": "oil",
+      "target": "yağ",
+      "level": "a1"
+    },
+    {
+      "en": "the oil",
+      "target": "yağı",
+      "level": "a1",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "en": "elderly / old / aged",
+      "target": "yaşlı",
+      "level": "a1"
+    },
+    {
+      "en": "eat!",
+      "target": "ye",
+      "verb": "yemek",
+      "level": "a1",
+      "sense": "informal singular imperative"
+    },
+    {
+      "en": "the food or meal / his or her food or meal",
+      "target": "yemeği",
+      "level": "a1",
+      "sense": "often accusative of yemek; can also be possessive"
+    },
+    {
+      "en": "he / she eats; place / floor",
+      "target": "yer",
+      "level": "a1",
+      "sense": "aorist of yemek or noun 'place/ground' depending on context"
+    },
+    {
+      "en": "I eat",
+      "target": "yerim",
+      "verb": "yemek",
+      "level": "a1",
+      "tense": "genis"
+    },
+    {
+      "en": "we eat",
+      "target": "yeriz",
+      "verb": "yemek",
+      "level": "a1",
+      "tense": "genis"
+    },
+    {
+      "en": "places / the ground / they eat",
+      "target": "yerler",
+      "level": "a1",
+      "sense": "plural noun or 3rd-person plural aorist depending on context"
+    },
+    {
+      "en": "you eat",
+      "target": "yersin",
+      "verb": "yemek",
+      "level": "a1",
+      "tense": "genis",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "you eat",
+      "target": "yersiniz",
+      "verb": "yemek",
+      "level": "a1",
+      "tense": "genis",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "the yogurt / yogurt's",
+      "target": "yoğurdu",
+      "level": "a1",
+      "sense": "can be accusative or possessive depending on context"
+    },
+    {
+      "en": "egg",
+      "target": "yumurta",
+      "level": "a1"
+    },
+    {
+      "en": "the egg",
+      "target": "yumurtayı",
+      "level": "a1",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "en": "difficult",
+      "target": "zor",
+      "level": "a1"
+    },
+    {
+      "en": "tea",
+      "target": "çay",
+      "level": "a1"
+    },
+    {
+      "en": "the tea",
+      "target": "çayı",
+      "level": "a1",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "en": "strawberry",
+      "target": "çilek",
+      "level": "a1"
+    },
+    {
+      "en": "the strawberry",
+      "target": "çileği",
+      "level": "a1",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "en": "child",
+      "target": "çocuk",
+      "level": "a1"
+    },
+    {
+      "en": "very",
+      "target": "çok",
+      "level": "a1"
+    },
+    {
+      "en": "soup",
+      "target": "çorba",
+      "level": "a1"
+    },
+    {
+      "en": "the soup",
+      "target": "çorbayı",
+      "level": "a1",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "en": "spider",
+      "target": "örümcek",
+      "level": "a2"
+    },
+    {
+      "en": "good luck",
+      "target": "iyi şanslar",
+      "level": "a1"
+    },
+    {
+      "en": "the wine / his or her wine",
+      "target": "şarabı",
+      "level": "a1",
+      "sense": "often accusative of şarap; can be possessive depending on context"
+    },
+    {
+      "en": "wine",
+      "target": "şarap",
+      "level": "a1"
+    },
+    {
+      "en": "sugar",
+      "target": "şeker",
+      "level": "a1"
+    },
+    {
+      "en": "the sugar / the candy",
+      "target": "şekeri",
+      "level": "a1",
+      "sense": "can be accusative of şeker or possessive depending on context"
+    },
+    {
+      "en": "that",
+      "target": "şu",
+      "level": "a1"
+    },
+    {
+      "en": "those",
+      "target": "şunlar",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "thank you",
+      "target": "sağ olun",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "how are you?",
+      "target": "nasılsınız?",
+      "level": "a1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "okay / well / then",
+      "target": "peki",
+      "level": "a1"
+    },
+    {
+      "en": "I don't understand",
+      "target": "anlamadım",
+      "verb": "anlamak",
+      "level": "a1",
+      "tense": "gecmis"
+    },
+    {
+      "en": "I don't understand",
+      "target": "anlamıyorum",
+      "verb": "anlamak",
+      "level": "a1",
+      "tense": "simdiki"
+    },
+    {
+      "en": "again",
+      "target": "tekrar",
+      "level": "a1"
+    },
+    {
+      "en": "slowly",
+      "target": "yavaş",
+      "level": "a1"
+    },
+    {
+      "en": "what does it mean?",
+      "target": "ne demek?",
+      "level": "a1"
+    },
+    {
+      "en": "what is it in Turkish?",
+      "target": "Türkçesi ne?",
+      "level": "a1"
+    },
+    {
+      "en": "how much? / how much money?",
+      "target": "kaç para?",
+      "level": "a1"
+    },
+    {
+      "en": "cheap",
+      "target": "ucuz",
+      "level": "a1"
+    },
+    {
+      "en": "expensive",
+      "target": "pahalı",
+      "level": "a1"
+    },
+    {
+      "en": "there is / there are",
+      "target": "var",
+      "level": "a1"
+    },
+    {
+      "en": "there isn't / there aren't",
+      "target": "yok",
+      "level": "a1"
+    },
+    {
+      "en": "stamp",
+      "target": "pul",
+      "level": "a1"
+    },
+    {
+      "en": "telephone",
+      "target": "telefon",
+      "level": "a1"
+    },
+    {
+      "en": "excuse me / waiter!",
+      "target": "bakar mısınız?",
+      "verb": "bakmak",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "price list",
+      "target": "fiyat listesi",
+      "level": "a1"
+    },
+    {
+      "en": "bill / check",
+      "target": "hesap",
+      "level": "a1"
+    },
+    {
+      "en": "lunch",
+      "target": "öğle yemeği",
+      "level": "a1"
+    },
+    {
+      "en": "where?",
+      "target": "nerede?",
+      "level": "a1"
+    },
+    {
+      "en": "left",
+      "target": "sol",
+      "level": "a1"
+    },
+    {
+      "en": "right",
+      "target": "sağ",
+      "level": "a1"
+    },
+    {
+      "en": "straight on",
+      "target": "düz",
+      "level": "a1"
+    },
+    {
+      "en": "how many kilometres?",
+      "target": "kaç kilometre?",
+      "level": "a1"
+    },
+    {
+      "en": "when?",
+      "target": "ne zaman?",
+      "level": "a1"
+    },
+    {
+      "en": "which bus?",
+      "target": "hangi otobüs?",
+      "level": "a1"
+    },
+    {
+      "en": "first",
+      "target": "ilk",
+      "level": "a1"
+    },
+    {
+      "en": "last",
+      "target": "son",
+      "level": "a1"
+    },
+    {
+      "en": "ticket",
+      "target": "bilet",
+      "level": "a1"
+    },
+    {
+      "en": "here",
+      "target": "burada",
+      "level": "a1"
+    },
+    {
+      "en": "someone wants to get off",
+      "target": "inecek var",
+      "verb": "inmek",
+      "level": "a1",
+      "sense": "used on public transport to indicate that someone wants to get off"
+    },
+    {
+      "en": "one person",
+      "target": "bir kişi",
+      "level": "a1"
+    },
+    {
+      "en": "one night",
+      "target": "bir gece",
+      "level": "a1"
+    },
+    {
+      "en": "hot water",
+      "target": "sıcak su",
+      "level": "a1"
+    },
+    {
+      "en": "running water",
+      "target": "devamlı su",
+      "level": "a1"
+    },
+    {
+      "en": "breakfast included",
+      "target": "kahvaltı dahil",
+      "level": "a1"
+    },
+    {
+      "en": "minute",
+      "target": "dakika",
+      "level": "a1"
+    },
+    {
+      "en": "hour",
+      "target": "saat",
+      "level": "a1"
+    },
+    {
+      "en": "day",
+      "target": "gün",
+      "level": "a1"
+    },
+    {
+      "en": "week",
+      "target": "hafta",
+      "level": "a1"
+    },
+    {
+      "en": "before / ago",
+      "target": "önce",
+      "level": "a1"
+    },
+    {
+      "en": "now",
+      "target": "şimdi",
+      "level": "a1"
+    },
+    {
+      "en": "later / after",
+      "target": "sonra",
+      "level": "a1"
+    },
+    {
+      "en": "yesterday",
+      "target": "dün",
+      "level": "a1"
+    },
+    {
+      "en": "today",
+      "target": "bugün",
+      "level": "a1"
+    },
+    {
+      "en": "tomorrow",
+      "target": "yarın",
+      "level": "a1"
+    },
+    {
+      "en": "a little / few",
+      "target": "az",
+      "level": "a1"
+    },
+    {
+      "en": "zero",
+      "target": "sıfır",
+      "level": "a1"
+    },
+    {
+      "en": "two",
+      "target": "iki",
+      "level": "a1"
+    },
+    {
+      "en": "three",
+      "target": "üç",
+      "level": "a1"
+    },
+    {
+      "en": "four",
+      "target": "dört",
+      "level": "a1"
+    },
+    {
+      "en": "five",
+      "target": "beş",
+      "level": "a1"
+    },
+    {
+      "en": "six",
+      "target": "altı",
+      "level": "a1"
+    },
+    {
+      "en": "seven",
+      "target": "yedi",
+      "level": "a1"
+    },
+    {
+      "en": "eight",
+      "target": "sekiz",
+      "level": "a1"
+    },
+    {
+      "en": "nine",
+      "target": "dokuz",
+      "level": "a1"
+    },
+    {
+      "en": "ten",
+      "target": "on",
+      "level": "a1"
+    },
+    {
+      "en": "hundred",
+      "target": "yüz",
+      "level": "a1"
+    },
+    {
+      "en": "thousand",
+      "target": "bin",
+      "level": "a1"
+    },
+    {
+      "en": "million",
+      "target": "milyon",
+      "level": "a1"
+    },
+    {
+      "en": "billion",
+      "target": "milyar",
+      "level": "a1"
+    },
+    {
+      "en": "toilet",
+      "target": "tuvalet",
+      "level": "a2"
+    },
+    {
+      "en": "post office",
+      "target": "postane",
+      "level": "a1"
+    },
+    {
+      "en": "chemist / pharmacy",
+      "target": "eczane",
+      "level": "a1"
+    },
+    {
+      "en": "bus station",
+      "target": "otogar",
+      "level": "a1"
+    },
+    {
+      "en": "jetty / ferry stop",
+      "target": "iskele",
+      "level": "a2"
+    },
+    {
+      "en": "grocer's shop",
+      "target": "bakkal",
+      "level": "a2"
+    },
+    {
+      "en": "help!",
+      "target": "imdat!",
+      "level": "a1"
+    },
+    {
+      "en": "accident",
+      "target": "kaza",
+      "level": "a2"
+    },
+    {
+      "en": "doctor",
+      "target": "doktor",
+      "level": "a1"
+    },
+    {
+      "en": "shame on you!",
+      "target": "çok ayıp!",
+      "level": "a1"
+    },
+    {
+      "en": "salami",
+      "target": "salam",
+      "level": "a1"
+    },
+    {
+      "en": "garlic sausage",
+      "target": "sucuk",
+      "level": "a2"
+    },
+    {
+      "en": "olive",
+      "target": "zeytin",
+      "level": "a1"
+    },
+    {
+      "en": "white",
+      "target": "beyaz",
+      "level": "a1"
+    },
+    {
+      "en": "grey",
+      "target": "gri",
+      "level": "a1"
+    },
+    {
+      "en": "red",
+      "target": "kırmızı",
+      "level": "a1"
+    },
+    {
+      "en": "blue",
+      "target": "mavi",
+      "level": "a1"
+    },
+    {
+      "en": "purple",
+      "target": "mor",
+      "level": "a1"
+    },
+    {
+      "en": "pink",
+      "target": "pembe",
+      "level": "a1"
+    },
+    {
+      "en": "yellow",
+      "target": "sarı",
+      "level": "a1"
+    },
+    {
+      "en": "black",
+      "target": "siyah",
+      "level": "a1"
+    },
+    {
+      "en": "orange",
+      "target": "turuncu",
+      "level": "a1"
+    },
+    {
+      "en": "green",
+      "target": "yeşil",
+      "level": "a1"
+    },
+    {
+      "en": "fresh",
+      "target": "taze",
+      "level": "a1"
+    },
+    {
+      "en": "good morning",
+      "target": "günaydın",
+      "level": "a1"
+    },
+    {
+      "en": "good morning(s)",
+      "target": "günaydınlar",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "hello(s)",
+      "target": "merhabalar",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "hello(s)",
+      "target": "selamlar",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "good day",
+      "target": "iyi günler",
+      "level": "a1"
+    },
+    {
+      "en": "good evening",
+      "target": "iyi akşamlar",
+      "level": "a1"
+    },
+    {
+      "en": "good night",
+      "target": "iyi geceler",
+      "level": "a1"
+    },
+    {
+      "en": "key",
+      "target": "anahtar",
+      "level": "a1"
+    },
+    {
+      "en": "empty / vacant",
+      "target": "boş",
+      "level": "a1"
+    },
+    {
+      "en": "night",
+      "target": "gece",
+      "level": "a1"
+    },
+    {
+      "en": "for",
+      "target": "için",
+      "level": "a1"
+    },
+    {
+      "en": "Turkish lira",
+      "target": "lira",
+      "level": "a1"
+    },
+    {
+      "en": "customer",
+      "target": "müşteri",
+      "level": "a1"
+    },
+    {
+      "en": "number",
+      "target": "numara",
+      "level": "a1"
+    },
+    {
+      "en": "room",
+      "target": "oda",
+      "level": "a1"
+    },
+    {
+      "en": "hotel",
+      "target": "otel",
+      "level": "a1"
+    },
+    {
+      "en": "passport",
+      "target": "pasaport",
+      "level": "a1"
+    },
+    {
+      "en": "receptionist",
+      "target": "resepsiyon memuru",
+      "level": "a1"
+    },
+    {
+      "en": "certainly / of course",
+      "target": "tabii",
+      "level": "a1"
+    },
+    {
+      "en": "here you are / please",
+      "target": "buyurun",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "fig",
+      "target": "incir",
+      "level": "a2"
+    },
+    {
+      "en": "toasted sandwich",
+      "target": "tost",
+      "level": "a1"
+    },
+    {
+      "en": "liqueur",
+      "target": "likör",
+      "level": "a1"
+    },
+    {
+      "en": "evening",
+      "target": "akşam",
+      "level": "a1"
+    },
+    {
+      "en": "gram",
+      "target": "gram",
+      "level": "a1"
+    },
+    {
+      "en": "Irish person",
+      "target": "İrlandalı",
+      "level": "a1"
+    },
+    {
+      "en": "police officer / police",
+      "target": "polis",
+      "level": "a1"
+    },
+    {
+      "en": "Turkish person",
+      "target": "Türk",
+      "level": "a1"
+    },
+    {
+      "en": "television",
+      "target": "televizyon",
+      "level": "a1"
+    },
+    {
+      "en": "problem",
+      "target": "problem",
+      "level": "a1"
+    },
+    {
+      "en": "not / isn't",
+      "target": "değil",
+      "level": "a1"
+    },
+    {
+      "en": "isn't it? / aren't they?",
+      "target": "değil mi?",
+      "level": "a1"
+    },
+    {
+      "en": "enjoy your meal",
+      "target": "afiyet olsun!",
+      "level": "a1"
+    },
+    {
+      "en": "what?",
+      "target": "ne",
+      "level": "a1"
+    },
+    {
+      "en": "is there? / are there?",
+      "target": "var mı?",
+      "level": "a1"
+    },
+    {
+      "en": "health to your hands / thank you for the meal",
+      "target": "elinize sağlık!",
+      "level": "a1",
+      "sense": "said to someone who has prepared a meal"
+    },
+    {
+      "en": "may it come easy / good luck with your work",
+      "target": "kolay gelsin!",
+      "level": "a1",
+      "sense": "said to someone who is working"
+    },
+    {
+      "en": "good evening, sir/madam",
+      "target": "iyi akşamlar efendim",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "sausage",
+      "target": "sosis",
+      "level": "a1"
+    },
+    {
+      "en": "potato",
+      "target": "patates",
+      "level": "a1"
+    },
+    {
+      "en": "crisps / chips",
+      "target": "cips",
+      "level": "a1"
+    },
+    {
+      "en": "hamburger",
+      "target": "hamburger",
+      "level": "a1"
+    },
+    {
+      "en": "Nescafé / instant coffee",
+      "target": "Nescafe",
+      "level": "a1"
+    },
+    {
+      "en": "cola",
+      "target": "kola",
+      "level": "a1"
+    },
+    {
+      "en": "litre",
+      "target": "litre",
+      "level": "a1"
+    },
+    {
+      "en": "hairdresser",
+      "target": "kuaför",
+      "level": "a1"
+    },
+    {
+      "en": "bottle",
+      "target": "şişe",
+      "level": "a1"
+    },
+    {
+      "en": "brown / coffee-coloured",
+      "target": "kahverengi",
+      "level": "a1"
+    },
+    {
+      "en": "olive-coloured",
+      "target": "zeytin rengi",
+      "level": "a1"
+    },
+    {
+      "en": "metal colour",
+      "target": "metal rengi",
+      "level": "a1"
+    },
+    {
+      "en": "wine-coloured",
+      "target": "şarap rengi",
+      "level": "a1"
+    },
+    {
+      "en": "turquoise blue",
+      "target": "turkuaz mavisi",
+      "level": "a1"
+    },
+    {
+      "en": "cream-coloured",
+      "target": "krem rengi",
+      "level": "a1"
+    },
+    {
+      "en": "cherry-coloured",
+      "target": "vişne rengi",
+      "level": "a1"
+    },
+    {
+      "en": "soft drink / beverage",
+      "target": "meşrubat",
+      "level": "a1"
+    },
+    {
+      "en": "whisky",
+      "target": "viski",
+      "level": "a1"
+    },
+    {
+      "en": "food / meal",
+      "target": "yemek",
+      "level": "a1"
+    },
+    {
+      "en": "true / correct",
+      "target": "doğru",
+      "level": "a1"
+    },
+    {
+      "en": "false / wrong",
+      "target": "yanlış",
+      "level": "a1"
+    },
+    {
+      "en": "other / anything else",
+      "target": "başka",
+      "level": "a1"
+    },
+    {
+      "en": "everything / all of it",
+      "target": "hepsi",
+      "level": "a1"
+    },
+    {
+      "en": "box / carton / tin",
+      "target": "kutu",
+      "level": "a1"
+    },
+    {
+      "en": "unfortunately / I'm afraid not",
+      "target": "maalesef",
+      "level": "a1"
+    },
+    {
+      "en": "how much?",
+      "target": "ne kadar?",
+      "level": "a1"
+    },
+    {
+      "en": "long-life",
+      "target": "uzun ömürlü",
+      "level": "a1"
+    },
+    {
+      "en": "half",
+      "target": "yarım",
+      "level": "a1"
+    },
+    {
+      "en": "half a litre of milk, please",
+      "target": "yarım litre süt lütfen",
+      "level": "a1"
+    },
+    {
+      "en": "a small carton of milk",
+      "target": "bir küçük kutu süt",
+      "level": "a1"
+    },
+    {
+      "en": "is this milk fresh or long-life?",
+      "target": "bu süt taze mi, uzun ömürlü mü?",
+      "level": "a1"
+    },
+    {
+      "en": "there isn't any fresh milk",
+      "target": "taze süt yok",
+      "level": "a1"
+    },
+    {
+      "en": "Germany",
+      "target": "Almanya",
+      "level": "a1"
+    },
+    {
+      "en": "German person",
+      "target": "Alman",
+      "level": "a1"
+    },
+    {
+      "en": "America / United States",
+      "target": "Amerika",
+      "level": "a1"
+    },
+    {
+      "en": "American person",
+      "target": "Amerikalı",
+      "level": "a1"
+    },
+    {
+      "en": "Netherlands",
+      "target": "Hollanda",
+      "level": "a1"
+    },
+    {
+      "en": "Dutch person",
+      "target": "Hollandalı",
+      "level": "a1"
+    },
+    {
+      "en": "England",
+      "target": "İngiltere",
+      "level": "a1"
+    },
+    {
+      "en": "English person",
+      "target": "İngiliz",
+      "level": "a1"
+    },
+    {
+      "en": "Turkey",
+      "target": "Türkiye",
+      "level": "a1"
+    },
+    {
+      "en": "German language",
+      "target": "Almanca",
+      "level": "a1"
+    },
+    {
+      "en": "Dutch language",
+      "target": "Hollandaca",
+      "level": "a1"
+    },
+    {
+      "en": "waiter",
+      "target": "garson",
+      "level": "a1"
+    },
+    {
+      "en": "chef",
+      "target": "şef",
+      "level": "a1"
+    },
+    {
+      "en": "secretary",
+      "target": "sekreter",
+      "level": "a1"
+    },
+    {
+      "en": "official / civil servant",
+      "target": "memur",
+      "level": "a2"
+    },
+    {
+      "en": "musician",
+      "target": "müzisyen",
+      "level": "a1"
+    },
+    {
+      "en": "driver",
+      "target": "şoför",
+      "level": "a1"
+    },
+    {
+      "en": "ayran / salted yoghurt drink",
+      "target": "ayran",
+      "level": "a1"
+    },
+    {
+      "en": "gin",
+      "target": "cin",
+      "level": "a1"
+    },
+    {
+      "en": "salep / hot drink made from milk and powdered orchid tubers",
+      "target": "salep",
+      "level": "a1"
+    },
+    {
+      "en": "yoghurt",
+      "target": "yoğurt",
+      "level": "a1"
+    },
+    {
+      "en": "my name",
+      "target": "adım",
+      "level": "a1"
+    },
+    {
+      "en": "what is your name?",
+      "target": "adınız ne?",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "are you German?",
+      "target": "Alman mısınız?",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "the same",
+      "target": "aynı",
+      "level": "a1"
+    },
+    {
+      "en": "I am not",
+      "target": "değilim",
+      "level": "a1"
+    },
+    {
+      "en": "welcome / glad to be here",
+      "target": "hoş bulduk",
+      "verb": "bulmak",
+      "level": "a1"
+    },
+    {
+      "en": "I am English",
+      "target": "İngilizim",
+      "level": "a1"
+    },
+    {
+      "en": "what is your nationality?",
+      "target": "milliyetiniz ne?",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "your passport, please",
+      "target": "pasaportunuz lütfen",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "your Turkish",
+      "target": "Türkçeniz",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "your Turkish is very good",
+      "target": "Türkçeniz çok iyi",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "are you English?",
+      "target": "İngiliz misiniz?",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "yes, I am English",
+      "target": "evet, İngilizim",
+      "level": "a1"
+    },
+    {
+      "en": "no, I am not",
+      "target": "hayır, değilim",
+      "level": "a1"
+    },
+    {
+      "en": "good day, madam/sir official",
+      "target": "iyi günler memur hanım",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "sir",
+      "target": "beyefendi",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "madam",
+      "target": "hanımefendi",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "sir / madam",
+      "target": "efendi",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "Mr / sir",
+      "target": "bey",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "Mrs / Ms / madam",
+      "target": "hanım",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "Mr (before a full name)",
+      "target": "bay",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "Ms / Mrs (before a full name)",
+      "target": "bayan",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "doctor, sir",
+      "target": "doktor bey",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "officer, sir",
+      "target": "memur bey",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "driver, sir",
+      "target": "şoför bey",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "birth",
+      "target": "doğum",
+      "level": "a1"
+    },
+    {
+      "en": "surname",
+      "target": "soyadı",
+      "level": "a1"
+    },
+    {
+      "en": "date",
+      "target": "tarih",
+      "level": "a1"
+    },
+    {
+      "en": "arrival",
+      "target": "geliş",
+      "level": "a1"
+    },
+    {
+      "en": "departure",
+      "target": "gidiş",
+      "level": "a1"
+    },
+    {
+      "en": "I am English",
+      "target": "ben İngilizim",
+      "level": "a1"
+    },
+    {
+      "en": "you are English",
+      "target": "sen İngilizsin",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "he / she is English",
+      "target": "o İngiliz",
+      "level": "a1"
+    },
+    {
+      "en": "we are English",
+      "target": "biz İngiliziz",
+      "level": "a1"
+    },
+    {
+      "en": "you are English",
+      "target": "siz İngilizsiniz",
+      "level": "a1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "they are English",
+      "target": "onlar İngiliz",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "en": "I am German",
+      "target": "ben Almanım",
+      "level": "a1"
+    },
+    {
+      "en": "I am Spanish",
+      "target": "ben İspanyolum",
+      "level": "a1"
+    },
+    {
+      "en": "I am Turkish",
+      "target": "ben Türküm",
+      "level": "a1"
+    },
+    {
+      "en": "see you tomorrow",
+      "target": "yarın görüşürüz",
+      "verb": "görüşmek",
+      "level": "a1"
+    },
+    {
+      "en": "me too / likewise",
+      "target": "ben de",
+      "level": "a1"
+    },
+    {
+      "en": "what is your name?",
+      "target": "adın ne?",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "my name is ...",
+      "target": "benim adım ...",
+      "level": "a1"
+    },
+    {
+      "en": "I am ...",
+      "target": "ben ...",
+      "level": "a1"
+    },
+    {
+      "en": "where are you from?",
+      "target": "nerelisin?",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "where are you from?",
+      "target": "nerelisiniz?",
+      "level": "a1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "I am from Portugal",
+      "target": "Portekizliyim",
+      "level": "a1"
+    },
+    {
+      "en": "I am from Turkey",
+      "target": "Türkiyeliyim",
+      "level": "a1"
+    },
+    {
+      "en": "I live in ...",
+      "target": "... yaşıyorum",
+      "verb": "yaşamak",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "I live in Switzerland",
+      "target": "İsviçre'de yaşıyorum",
+      "verb": "yaşamak",
+      "tense": "simdiki",
+      "level": "a1"
+    },
+    {
+      "en": "age",
+      "target": "yaş",
+      "level": "a1"
+    },
+    {
+      "en": "how old are you?",
+      "target": "kaç yaşındasın?",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "how old are you?",
+      "target": "kaç yaşındasınız?",
+      "level": "a1",
+      "tags": [
+        "formal",
+        "plural"
+      ]
+    },
+    {
+      "en": "I am twenty years old",
+      "target": "yirmi yaşındayım",
+      "level": "a1"
+    },
+    {
+      "en": "I am thirty years old",
+      "target": "otuz yaşındayım",
+      "level": "a1"
+    },
+    {
+      "en": "name",
+      "target": "ad",
+      "level": "a1"
+    },
+    {
+      "en": "surname",
+      "target": "soyad",
+      "level": "a1"
+    },
+    {
+      "en": "what is your surname?",
+      "target": "soyadınız ne?",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "nationality",
+      "target": "milliyet",
+      "level": "a1"
+    },
+    {
+      "en": "address",
+      "target": "adres",
+      "level": "a1"
+    },
+    {
+      "en": "phone number",
+      "target": "telefon numarası",
+      "level": "a1"
+    },
+    {
+      "en": "family",
+      "target": "aile",
+      "level": "a1"
+    },
+    {
+      "en": "mother",
+      "target": "anne",
+      "level": "a1"
+    },
+    {
+      "en": "father",
+      "target": "baba",
+      "level": "a1"
+    },
+    {
+      "en": "parents",
+      "target": "anne baba",
+      "level": "a1"
+    },
+    {
+      "en": "brother",
+      "target": "erkek kardeş",
+      "level": "a1"
+    },
+    {
+      "en": "sister",
+      "target": "kız kardeş",
+      "level": "a1"
+    },
+    {
+      "en": "son",
+      "target": "oğul",
+      "level": "a1"
+    },
+    {
+      "en": "daughter",
+      "target": "kız evlat",
+      "level": "a1"
+    },
+    {
+      "en": "husband",
+      "target": "koca",
+      "level": "a1"
+    },
+    {
+      "en": "wife",
+      "target": "eş",
+      "level": "b1",
+      "sense": "spouse; can refer to husband or wife"
+    },
+    {
+      "en": "friend",
+      "target": "arkadaş",
+      "level": "a1"
+    },
+    {
+      "en": "my friend",
+      "target": "arkadaşım",
+      "level": "a1"
+    },
+    {
+      "en": "my family",
+      "target": "ailem",
+      "level": "a1"
+    },
+    {
+      "en": "breakfast",
+      "target": "kahvaltı",
+      "level": "a1"
+    },
+    {
+      "en": "dinner",
+      "target": "akşam yemeği",
+      "level": "a1"
+    },
+    {
+      "en": "I eat breakfast",
+      "target": "kahvaltı ederim",
+      "verb": "etmek",
+      "level": "a1",
+      "tense": "genis"
+    },
+    {
+      "en": "I eat lunch",
+      "target": "öğle yemeği yerim",
+      "verb": "yemek",
+      "level": "a1",
+      "tense": "genis"
+    },
+    {
+      "en": "I eat dinner",
+      "target": "akşam yemeği yerim",
+      "verb": "yemek",
+      "level": "a1",
+      "tense": "genis"
+    },
+    {
+      "en": "I am hungry",
+      "target": "açım",
+      "level": "a1"
+    },
+    {
+      "en": "I am thirsty",
+      "target": "susadım",
+      "verb": "susamak",
+      "tense": "gecmis",
+      "level": "a1"
+    },
+    {
+      "en": "I am full",
+      "target": "tokum",
+      "level": "a1"
+    },
+    {
+      "en": "delicious",
+      "target": "lezzetli",
+      "level": "a2"
+    },
+    {
+      "en": "very delicious",
+      "target": "çok lezzetli",
+      "level": "a1"
+    },
+    {
+      "en": "sweet",
+      "target": "tatlı",
+      "level": "a2"
+    },
+    {
+      "en": "salty",
+      "target": "tuzlu",
+      "level": "a1"
+    },
+    {
+      "en": "spicy / hot",
+      "target": "acı",
+      "level": "a2",
+      "sense": "also means bitter"
+    },
+    {
+      "en": "rice",
+      "target": "pilav",
+      "level": "a1"
+    },
+    {
+      "en": "salad",
+      "target": "salata",
+      "level": "a1"
+    },
+    {
+      "en": "vegetable",
+      "target": "sebze",
+      "level": "a1"
+    },
+    {
+      "en": "restaurant",
+      "target": "restoran",
+      "level": "a1"
+    },
+    {
+      "en": "café",
+      "target": "kafe",
+      "level": "a1"
+    },
+    {
+      "en": "menu",
+      "target": "menü",
+      "level": "a1"
+    },
+    {
+      "en": "table",
+      "target": "masa",
+      "level": "a1"
+    },
+    {
+      "en": "chair",
+      "target": "sandalye",
+      "level": "a1"
+    },
+    {
+      "en": "the bill, please",
+      "target": "hesap lütfen",
+      "level": "a1"
+    },
+    {
+      "en": "menu, please",
+      "target": "menü lütfen",
+      "level": "a1"
+    },
+    {
+      "en": "one tea, please",
+      "target": "bir çay lütfen",
+      "level": "a1"
+    },
+    {
+      "en": "one coffee, please",
+      "target": "bir kahve lütfen",
+      "level": "a1"
+    },
+    {
+      "en": "I want water",
+      "target": "su istiyorum",
+      "verb": "istemek",
+      "level": "a1",
+      "tense": "simdiki"
+    },
+    {
+      "en": "I want tea",
+      "target": "çay istiyorum",
+      "verb": "istemek",
+      "level": "a1",
+      "tense": "simdiki"
+    },
+    {
+      "en": "what would you like?",
+      "target": "ne istersiniz?",
+      "verb": "istemek",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "do you have soup?",
+      "target": "çorba var mı?",
+      "level": "a1"
+    },
+    {
+      "en": "do you have tea?",
+      "target": "çay var mı?",
+      "level": "a1"
+    },
+    {
+      "en": "there is coffee",
+      "target": "kahve var",
+      "level": "a1"
+    },
+    {
+      "en": "there is no tea",
+      "target": "çay yok",
+      "level": "a1"
+    },
+    {
+      "en": "anything else?",
+      "target": "başka?",
+      "level": "a1"
+    },
+    {
+      "en": "that's all / nothing else",
+      "target": "başka yok",
+      "level": "a1"
+    },
+    {
+      "en": "thank you",
+      "target": "teşekkür ederim",
+      "verb": "teşekkür etmek",
+      "level": "a1"
+    },
+    {
+      "en": "you're welcome",
+      "target": "rica ederim",
+      "verb": "rica etmek",
+      "level": "a1"
+    },
+    {
+      "en": "enjoy your meal",
+      "target": "afiyet olsun",
+      "level": "a1"
+    },
+    {
+      "en": "colour",
+      "target": "renk",
+      "level": "a1"
+    },
+    {
+      "en": "what colour?",
+      "target": "ne renk?",
+      "level": "a1"
+    },
+    {
+      "en": "this is red",
+      "target": "bu kırmızı",
+      "level": "a1"
+    },
+    {
+      "en": "the car is blue",
+      "target": "araba mavi",
+      "level": "a1"
+    },
+    {
+      "en": "the apple is red",
+      "target": "elma kırmızı",
+      "level": "a1"
+    },
+    {
+      "en": "home / house",
+      "target": "ev",
+      "level": "a1"
+    },
+    {
+      "en": "work / job",
+      "target": "iş",
+      "level": "a1"
+    },
+    {
+      "en": "school",
+      "target": "okul",
+      "level": "a1"
+    },
+    {
+      "en": "shop / store",
+      "target": "mağaza",
+      "level": "a1"
+    },
+    {
+      "en": "market",
+      "target": "market",
+      "level": "a1"
+    },
+    {
+      "en": "city",
+      "target": "şehir",
+      "level": "a1"
+    },
+    {
+      "en": "street",
+      "target": "sokak",
+      "level": "a1"
+    },
+    {
+      "en": "car",
+      "target": "araba",
+      "level": "a1"
+    },
+    {
+      "en": "bus",
+      "target": "otobüs",
+      "level": "a1"
+    },
+    {
+      "en": "train",
+      "target": "tren",
+      "level": "a1"
+    },
+    {
+      "en": "morning",
+      "target": "sabah",
+      "level": "a1"
+    },
+    {
+      "en": "afternoon",
+      "target": "öğleden sonra",
+      "level": "a1"
+    },
+    {
+      "en": "every day",
+      "target": "her gün",
+      "level": "a1"
+    },
+    {
+      "en": "sometimes",
+      "target": "bazen",
+      "level": "a1"
+    },
+    {
+      "en": "always",
+      "target": "her zaman",
+      "level": "a1"
+    },
+    {
+      "en": "a little",
+      "target": "biraz",
+      "level": "a1"
+    },
+    {
+      "en": "bad",
+      "target": "kötü",
+      "level": "a1"
+    },
+    {
+      "en": "new",
+      "target": "yeni",
+      "level": "a1"
+    }
+  ]
+}

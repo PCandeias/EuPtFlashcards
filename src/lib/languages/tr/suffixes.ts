@@ -141,7 +141,7 @@ export const TR_SUFFIXES: readonly SuffixDef[] = [
 const SOFTENS = new Set([
   // -p becomes b
   'kitap', 'hesap', 'dolap', 'kebap', 'cevap', 'cep', 'kalp', 'çorap', 'kasap',
-  'sahip',
+  'sahip', 'salep', 'şarap',
   // -ç becomes c
   'ağaç', 'ilaç', 'havuç', 'pirinç', 'genç', 'güç', 'kılıç', 'sütlaç',
   // -t becomes d. Native words, mostly; the borrowed ones are in KEEPS.
@@ -165,7 +165,7 @@ const SOFTENS = new Set([
   'elektrik', 'çeyrek', 'şimşek', 'sıcaklık', 'parlak', 'yuvarlak', 'kırık',
   'sağlık', 'hastalık', 'pamuk', 'kıvırcık', 'cacık', 'kitaplık', 'meslek',
   'örnek', 'sözlük', 'birçok', 'konsolosluk', 'elçilik', 'yolculuk',
-  'bayrak', 'gümrük', 'çekiç', 'tarak', 'yiyecek', 'benzinlik',
+  'bayrak', 'gümrük', 'çekiç', 'tarak', 'yiyecek', 'benzinlik', 'erkek', 'tebrik',
   // -p becomes b here too: garip is garibi.
   'garip',
   // nk becomes ng rather than nğ
@@ -195,7 +195,7 @@ const KEEPS = new Set([
   'at', 'ahtapot', 'aşk', 'nefret', 'rahat', 'turp', 'greyfurt', 'kek', 'kamp',
   'maç', 'sert', 'çift', 'tek', 'taksit', 'müsait', 'berbat', 'diyet', 'kravat',
   'avukat', 'pilot', 'ek', 'kök', 'ilk', 'birkaç', 'işaret', 'kat', 'halat',
-  'turist', 'davet',
+  'turist', 'davet', 'evet', 'sandviç', 'meşrubat', 'milliyet',
 ])
 
 /**

@@ -75,8 +75,9 @@ const ALREADY_INFLECTED = /^(in|at|to|from|of|my|your|his|her|with|without)\b/i
 export const suffixKind = createSuffixKind({
   table: word => suffixTable(word),
   wordOf: card => {
-    if (/^to\s/i.test(card.en.trim())) return null
+    if (verbOf(card)) return null
     if (card.deck === ENDINGS_DECK) return null
+    if (card.tags?.some(tag => tag === 'object' || tag === 'plural')) return null
     if (ALREADY_INFLECTED.test(card.en.trim())) return null
     const word = card.target.trim()
     return canSuffix(word) ? word : null
