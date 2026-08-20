@@ -249,3 +249,26 @@ test('shows relevant examples for an inflected Turkish class word', async ({ pag
   await expect(page.locator('#examplesPanel')).toBeVisible()
   await expect(page.locator('#examplesPanel')).toContainText('ekmek')
 })
+
+test('makes the intended sense clear in Turkish class examples', async ({ page }) => {
+  await page.goto('./#/tr')
+  await page.selectOption('#deckSelect', 'Class')
+
+  const found = await page.evaluate(async () => {
+    for (let i = 0; i < 500; i++) {
+      const back = document.querySelector('.face.back .word')
+      if (back?.childNodes[0]?.textContent?.trim() === 'sağ') return true
+      ;(document.getElementById('nextBtn') as HTMLButtonElement).click()
+      await new Promise(r => requestAnimationFrame(r))
+    }
+    return false
+  })
+  expect(found, 'should reach sağ').toBe(true)
+
+  await page.click('#flipBtn')
+  await page.click('.face.back [data-annotation="examples"]')
+  const panel = page.locator('#examplesPanel')
+  await expect(panel).toContainText('Eczane yolun sağ tarafında.')
+  await expect(panel).toContainText('Turn right at the next street.')
+  await expect(panel).not.toContainText(/correct/i)
+})

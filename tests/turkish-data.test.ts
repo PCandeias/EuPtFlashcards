@@ -8,6 +8,7 @@ import { conjugatePhrase } from '../src/lib/languages/tr/conjugate.js'
 import { attach, canSuffix, mutationOf } from '../src/lib/languages/tr/suffixes.js'
 import { annotationsFor } from '../src/lib/annotations/index.js'
 import { defaultSettings } from '../src/lib/storage/progress.js'
+import wordExamples from '../data/tr/word-examples.json'
 
 const CARDS = turkish.cards
 
@@ -109,6 +110,59 @@ describe('the Turkish corpus', () => {
       expect(examplesKind.examplesFor(card.exampleSubject!), card.target).not.toBeNull()
       expect(examplesKind.subjectOf(card), card.target).toBe(card.exampleSubject)
     }
+  })
+
+  it('uses contextual class examples instead of generated filler', () => {
+    const words = wordExamples as Record<string, { target: string; en: string }[]>
+    const subjects = new Set(
+      CARDS
+        .filter(c => c.deck === 'Class')
+        .map(c => c.exampleSubject ?? (words[c.target] ? c.target : null))
+        .filter((subject): subject is string => subject !== null),
+    )
+    const examples = [...subjects].flatMap(subject => words[subject] ?? [])
+
+    // A few specific examples beat five or eight tense-shaped filler lines.
+    expect(examples.length).toBeLessThan(300)
+    expect([...subjects].filter(subject => (words[subject]?.length ?? 0) > 3)).toEqual([])
+
+    const generatedFrames = [
+      /^Şimdi .+ hakkında konuşuyoruz\.$/,
+      /^Her zaman .+ hakkında konuşuruz\.$/,
+      /^Dün .+ hakkında konuştuk\.$/,
+      /^Yarın .+ hakkında konuşacağız\.$/,
+      /^Sabahları .+ olurum\.$/,
+      /^Dün çok .+ oldum\.$/,
+      /^Yarın daha .+ olacak\.$/,
+    ]
+    expect(examples.filter(example => generatedFrames.some(rx => rx.test(example.target))))
+      .toEqual([])
+
+    expect(words.sağ!.map(example => example.target)).toEqual([
+      'Eczane yolun sağ tarafında.',
+      'Bir sonraki sokaktan sağa dönün.',
+    ])
+    expect(words.sağ!.every(example => /right/i.test(example.en) && !/correct/i.test(example.en)))
+      .toBe(true)
+    expect(words.doğru!.every(example => /correct/i.test(example.en))).toBe(true)
+  })
+
+  it('uses contextual examples throughout the adjectives deck', () => {
+    const words = wordExamples as Record<string, { target: string; en: string }[]>
+    const cards = CARDS.filter(c => c.deck === 'Adjectives & Opposites')
+    expect(cards).toHaveLength(106)
+    expect(cards.filter(card => !words[card.target]).map(card => card.target)).toEqual([])
+    expect(cards.filter(card => words[card.target]!.length > 3).map(card => card.target)).toEqual([])
+
+    const generatedFrames = [
+      /^Hava bugün (küçük|yeni|kolay)\.$/,
+      /^Sabahları .+ olurum\.$/,
+      /^Dün çok .+ oldum\.$/,
+      /^Yarın daha .+ olacak\.$/,
+    ]
+    const examples = cards.flatMap(card => words[card.target]!)
+    expect(examples.filter(example => generatedFrames.some(rx => rx.test(example.target))))
+      .toEqual([])
   })
 
   it('corrects the errors found in the source deck', () => {
