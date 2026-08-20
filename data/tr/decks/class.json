@@ -42,7 +42,8 @@
       "level": "a1",
       "tags": [
         "object"
-      ]
+      ],
+      "exampleSubject": "balık"
     },
     {
       "en": "I",
@@ -72,7 +73,8 @@
       "level": "a1",
       "tags": [
         "object"
-      ]
+      ],
+      "exampleSubject": "bira"
     },
     {
       "en": "we",
@@ -90,7 +92,8 @@
       "level": "a1",
       "tags": [
         "plural"
-      ]
+      ],
+      "exampleSubject": "bu"
     },
     {
       "en": "this",
@@ -98,7 +101,8 @@
       "level": "a1",
       "tags": [
         "object"
-      ]
+      ],
+      "exampleSubject": "bu"
     },
     {
       "en": "big",
@@ -116,7 +120,8 @@
       "level": "a1",
       "tags": [
         "object"
-      ]
+      ],
+      "exampleSubject": "domates"
     },
     {
       "en": "I do",
@@ -136,7 +141,8 @@
       "level": "a1",
       "tags": [
         "object"
-      ]
+      ],
+      "exampleSubject": "ekmek"
     },
     {
       "en": "apple",
@@ -149,7 +155,8 @@
       "level": "a1",
       "tags": [
         "object"
-      ]
+      ],
+      "exampleSubject": "elma"
     },
     {
       "en": "man",
@@ -198,7 +205,8 @@
       "level": "a1",
       "tags": [
         "object"
-      ]
+      ],
+      "exampleSubject": "gazete"
     },
     {
       "en": "nights",
@@ -206,7 +214,8 @@
       "level": "a1",
       "tags": [
         "plural"
-      ]
+      ],
+      "exampleSubject": "gece"
     },
     {
       "en": "young",
@@ -351,7 +360,8 @@
       "level": "a1",
       "tags": [
         "object"
-      ]
+      ],
+      "exampleSubject": "kahve"
     },
     {
       "en": "turtle / tortoise",
@@ -426,7 +436,8 @@
       "level": "a1",
       "tags": [
         "object"
-      ]
+      ],
+      "exampleSubject": "limon"
     },
     {
       "en": "please",
@@ -444,7 +455,8 @@
       "level": "a1",
       "tags": [
         "object"
-      ]
+      ],
+      "exampleSubject": "makarna"
     },
     {
       "en": "nice to meet you",
@@ -458,7 +470,8 @@
       "level": "a1",
       "tags": [
         "object"
-      ]
+      ],
+      "exampleSubject": "menü"
     },
     {
       "en": "hello",
@@ -476,7 +489,8 @@
       "level": "a1",
       "tags": [
         "object"
-      ]
+      ],
+      "exampleSubject": "meyve"
     },
     {
       "en": "he / she / it / that",
@@ -562,7 +576,8 @@
       "level": "a1",
       "tags": [
         "object"
-      ]
+      ],
+      "exampleSubject": "pasta"
     },
     {
       "en": "cheese",
@@ -586,10 +601,11 @@
       "level": "a1",
       "tags": [
         "object"
-      ]
+      ],
+      "exampleSubject": "portakal"
     },
     {
-      "en": "requesting",
+      "en": "request / favour",
       "target": "rica",
       "level": "a1"
     },
@@ -668,10 +684,11 @@
       "level": "a1",
       "tags": [
         "object"
-      ]
+      ],
+      "exampleSubject": "tavuk"
     },
     {
-      "en": "congratulations / greeting",
+      "en": "congratulation / congratulating",
       "target": "tebrik",
       "level": "a1"
     },
@@ -717,7 +734,8 @@
       "level": "a1",
       "tags": [
         "object"
-      ]
+      ],
+      "exampleSubject": "yağ"
     },
     {
       "en": "elderly / old / aged",
@@ -758,7 +776,7 @@
       "tense": "genis"
     },
     {
-      "en": "places / the ground / they eat",
+      "en": "places / they eat",
       "target": "yerler",
       "level": "a1",
       "sense": "plural noun or 3rd-person plural aorist depending on context"
@@ -801,7 +819,8 @@
       "level": "a1",
       "tags": [
         "object"
-      ]
+      ],
+      "exampleSubject": "yumurta"
     },
     {
       "en": "difficult",
@@ -819,7 +838,8 @@
       "level": "a1",
       "tags": [
         "object"
-      ]
+      ],
+      "exampleSubject": "çay"
     },
     {
       "en": "strawberry",
@@ -832,7 +852,8 @@
       "level": "a1",
       "tags": [
         "object"
-      ]
+      ],
+      "exampleSubject": "çilek"
     },
     {
       "en": "child",
@@ -855,7 +876,8 @@
       "level": "a1",
       "tags": [
         "object"
-      ]
+      ],
+      "exampleSubject": "çorba"
     },
     {
       "en": "spider",
@@ -900,7 +922,8 @@
       "level": "a1",
       "tags": [
         "plural"
-      ]
+      ],
+      "exampleSubject": "şu"
     },
     {
       "en": "thank you",
@@ -925,7 +948,7 @@
       "level": "a1"
     },
     {
-      "en": "I don't understand",
+      "en": "I didn't understand / I don't understand",
       "target": "anlamadım",
       "verb": "anlamak",
       "level": "a1",
@@ -944,7 +967,7 @@
       "level": "a1"
     },
     {
-      "en": "slowly",
+      "en": "slow / slowly",
       "target": "yavaş",
       "level": "a1"
     },
@@ -956,12 +979,14 @@
     {
       "en": "what is it in Turkish?",
       "target": "Türkçesi ne?",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "Türkçe"
     },
     {
       "en": "how much? / how much money?",
       "target": "kaç para?",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "para"
     },
     {
       "en": "cheap",
@@ -1005,7 +1030,8 @@
     {
       "en": "price list",
       "target": "fiyat listesi",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "fiyat"
     },
     {
       "en": "bill / check",
@@ -1033,14 +1059,15 @@
       "level": "a1"
     },
     {
-      "en": "straight on",
+      "en": "straight / straight ahead",
       "target": "düz",
       "level": "a1"
     },
     {
       "en": "how many kilometres?",
       "target": "kaç kilometre?",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "kilometre"
     },
     {
       "en": "when?",
@@ -1050,7 +1077,8 @@
     {
       "en": "which bus?",
       "target": "hangi otobüs?",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "otobüs"
     },
     {
       "en": "first",
@@ -1082,27 +1110,32 @@
     {
       "en": "one person",
       "target": "bir kişi",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "kişi"
     },
     {
       "en": "one night",
       "target": "bir gece",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "gece"
     },
     {
       "en": "hot water",
       "target": "sıcak su",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "su"
     },
     {
-      "en": "running water",
+      "en": "running water / water available continuously",
       "target": "devamlı su",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "su"
     },
     {
       "en": "breakfast included",
       "target": "kahvaltı dahil",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "kahvaltı"
     },
     {
       "en": "minute",
@@ -1110,7 +1143,7 @@
       "level": "a1"
     },
     {
-      "en": "hour",
+      "en": "hour / time / clock / watch",
       "target": "saat",
       "level": "a1"
     },
@@ -1355,15 +1388,16 @@
       "level": "a1"
     },
     {
-      "en": "good morning(s)",
+      "en": "good morning",
       "target": "günaydınlar",
       "level": "a1",
+      "sense": "a warm or emphatic form of günaydın",
       "tags": [
         "plural"
       ]
     },
     {
-      "en": "hello(s)",
+      "en": "hello / greetings",
       "target": "merhabalar",
       "level": "a1",
       "tags": [
@@ -1371,7 +1405,7 @@
       ]
     },
     {
-      "en": "hello(s)",
+      "en": "hello / greetings",
       "target": "selamlar",
       "level": "a1",
       "tags": [
@@ -1446,7 +1480,8 @@
     {
       "en": "receptionist",
       "target": "resepsiyon memuru",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "resepsiyon"
     },
     {
       "en": "certainly / of course",
@@ -1454,7 +1489,7 @@
       "level": "a1"
     },
     {
-      "en": "here you are / please",
+      "en": "here you are / come in / yes?",
       "target": "buyurun",
       "level": "a1",
       "tags": [
@@ -1517,14 +1552,15 @@
       "level": "a1"
     },
     {
-      "en": "isn't it? / aren't they?",
+      "en": "isn't it? / aren't you? / right?",
       "target": "değil mi?",
       "level": "a1"
     },
     {
       "en": "enjoy your meal",
       "target": "afiyet olsun!",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "afiyet olsun"
     },
     {
       "en": "what?",
@@ -1532,7 +1568,7 @@
       "level": "a1"
     },
     {
-      "en": "is there? / are there?",
+      "en": "is there? / are there? / do you have?",
       "target": "var mı?",
       "level": "a1"
     },
@@ -1579,7 +1615,8 @@
     {
       "en": "Nescafé / instant coffee",
       "target": "Nescafe",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "kahve"
     },
     {
       "en": "cola",
@@ -1609,35 +1646,41 @@
     {
       "en": "olive-coloured",
       "target": "zeytin rengi",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "zeytin"
     },
     {
       "en": "metal colour",
       "target": "metal rengi",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "renk"
     },
     {
       "en": "wine-coloured",
       "target": "şarap rengi",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "renk"
     },
     {
       "en": "turquoise blue",
       "target": "turkuaz mavisi",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "turkuaz"
     },
     {
       "en": "cream-coloured",
       "target": "krem rengi",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "renk"
     },
     {
       "en": "cherry-coloured",
       "target": "vişne rengi",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "renk"
     },
     {
-      "en": "soft drink / beverage",
+      "en": "soft drink / non-alcoholic beverage",
       "target": "meşrubat",
       "level": "a1"
     },
@@ -1689,7 +1732,8 @@
     {
       "en": "long-life",
       "target": "uzun ömürlü",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "uzun"
     },
     {
       "en": "half",
@@ -1699,22 +1743,26 @@
     {
       "en": "half a litre of milk, please",
       "target": "yarım litre süt lütfen",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "süt"
     },
     {
       "en": "a small carton of milk",
-      "target": "bir küçük kutu süt",
-      "level": "a1"
+      "target": "küçük bir kutu süt",
+      "level": "a1",
+      "exampleSubject": "süt"
     },
     {
       "en": "is this milk fresh or long-life?",
       "target": "bu süt taze mi, uzun ömürlü mü?",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "süt"
     },
     {
       "en": "there isn't any fresh milk",
       "target": "taze süt yok",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "taze"
     },
     {
       "en": "Germany",
@@ -1729,7 +1777,8 @@
     {
       "en": "America / United States",
       "target": "Amerika",
-      "level": "a1"
+      "level": "a1",
+      "sense": "often used colloquially for the United States"
     },
     {
       "en": "American person",
@@ -1809,7 +1858,8 @@
     {
       "en": "gin",
       "target": "cin",
-      "level": "a1"
+      "level": "a1",
+      "sense": "the alcoholic drink; cin can also mean a jinn"
     },
     {
       "en": "salep / hot drink made from milk and powdered orchid tubers",
@@ -1824,7 +1874,8 @@
     {
       "en": "my name",
       "target": "adım",
-      "level": "a1"
+      "level": "a1",
+      "sense": "in introductions; adım can also mean 'my step'"
     },
     {
       "en": "what is your name?",
@@ -1832,7 +1883,8 @@
       "level": "a1",
       "tags": [
         "formal"
-      ]
+      ],
+      "exampleSubject": "adım"
     },
     {
       "en": "are you German?",
@@ -1840,7 +1892,8 @@
       "level": "a1",
       "tags": [
         "formal"
-      ]
+      ],
+      "exampleSubject": "Alman"
     },
     {
       "en": "the same",
@@ -1861,7 +1914,8 @@
     {
       "en": "I am English",
       "target": "İngilizim",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "İngiliz"
     },
     {
       "en": "what is your nationality?",
@@ -1869,7 +1923,8 @@
       "level": "a1",
       "tags": [
         "formal"
-      ]
+      ],
+      "exampleSubject": "milliyet"
     },
     {
       "en": "your passport, please",
@@ -1877,7 +1932,8 @@
       "level": "a1",
       "tags": [
         "formal"
-      ]
+      ],
+      "exampleSubject": "pasaport"
     },
     {
       "en": "your Turkish",
@@ -1885,7 +1941,8 @@
       "level": "a1",
       "tags": [
         "formal"
-      ]
+      ],
+      "exampleSubject": "Türkçe"
     },
     {
       "en": "your Turkish is very good",
@@ -1893,7 +1950,8 @@
       "level": "a1",
       "tags": [
         "formal"
-      ]
+      ],
+      "exampleSubject": "Türkçe"
     },
     {
       "en": "are you English?",
@@ -1901,12 +1959,14 @@
       "level": "a1",
       "tags": [
         "formal"
-      ]
+      ],
+      "exampleSubject": "İngiliz"
     },
     {
       "en": "yes, I am English",
       "target": "evet, İngilizim",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "İngiliz"
     },
     {
       "en": "no, I am not",
@@ -1914,12 +1974,13 @@
       "level": "a1"
     },
     {
-      "en": "good day, madam/sir official",
+      "en": "good day, madam officer",
       "target": "iyi günler memur hanım",
       "level": "a1",
       "tags": [
         "formal"
-      ]
+      ],
+      "exampleSubject": "iyi günler"
     },
     {
       "en": "sir",
@@ -1938,7 +1999,7 @@
       ]
     },
     {
-      "en": "sir / madam",
+      "en": "sir / master",
       "target": "efendi",
       "level": "a1",
       "tags": [
@@ -1983,7 +2044,8 @@
       "level": "a1",
       "tags": [
         "formal"
-      ]
+      ],
+      "exampleSubject": "doktor"
     },
     {
       "en": "officer, sir",
@@ -1991,7 +2053,8 @@
       "level": "a1",
       "tags": [
         "formal"
-      ]
+      ],
+      "exampleSubject": "memur"
     },
     {
       "en": "driver, sir",
@@ -1999,7 +2062,8 @@
       "level": "a1",
       "tags": [
         "formal"
-      ]
+      ],
+      "exampleSubject": "şoför"
     },
     {
       "en": "birth",
@@ -2014,7 +2078,8 @@
     {
       "en": "date",
       "target": "tarih",
-      "level": "a1"
+      "level": "a1",
+      "sense": "also means history"
     },
     {
       "en": "arrival",
@@ -2029,7 +2094,8 @@
     {
       "en": "I am English",
       "target": "ben İngilizim",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "İngiliz"
     },
     {
       "en": "you are English",
@@ -2037,17 +2103,20 @@
       "level": "a1",
       "tags": [
         "informal"
-      ]
+      ],
+      "exampleSubject": "İngiliz"
     },
     {
       "en": "he / she is English",
       "target": "o İngiliz",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "İngiliz"
     },
     {
       "en": "we are English",
       "target": "biz İngiliziz",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "İngiliz"
     },
     {
       "en": "you are English",
@@ -2056,7 +2125,8 @@
       "tags": [
         "formal",
         "plural"
-      ]
+      ],
+      "exampleSubject": "İngiliz"
     },
     {
       "en": "they are English",
@@ -2064,22 +2134,26 @@
       "level": "a1",
       "tags": [
         "plural"
-      ]
+      ],
+      "exampleSubject": "İngiliz"
     },
     {
       "en": "I am German",
       "target": "ben Almanım",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "Alman"
     },
     {
       "en": "I am Spanish",
       "target": "ben İspanyolum",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "İspanyol"
     },
     {
       "en": "I am Turkish",
       "target": "ben Türküm",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "Türk"
     },
     {
       "en": "see you tomorrow",
@@ -2090,7 +2164,8 @@
     {
       "en": "me too / likewise",
       "target": "ben de",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "ben"
     },
     {
       "en": "what is your name?",
@@ -2098,17 +2173,20 @@
       "level": "a1",
       "tags": [
         "informal"
-      ]
+      ],
+      "exampleSubject": "adım"
     },
     {
       "en": "my name is ...",
       "target": "benim adım ...",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "adım"
     },
     {
       "en": "I am ...",
       "target": "ben ...",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "ben"
     },
     {
       "en": "where are you from?",
@@ -2125,21 +2203,24 @@
       "tags": [
         "formal",
         "plural"
-      ]
+      ],
+      "exampleSubject": "ülke"
     },
     {
       "en": "I am from Portugal",
       "target": "Portekizliyim",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "Portekiz"
     },
     {
       "en": "I am from Turkey",
       "target": "Türkiyeliyim",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "Türkiye"
     },
     {
-      "en": "I live in ...",
-      "target": "... yaşıyorum",
+      "en": "I live here",
+      "target": "burada yaşıyorum",
       "verb": "yaşamak",
       "tense": "simdiki",
       "level": "a1"
@@ -2162,7 +2243,8 @@
       "level": "a1",
       "tags": [
         "informal"
-      ]
+      ],
+      "exampleSubject": "yaş"
     },
     {
       "en": "how old are you?",
@@ -2171,17 +2253,20 @@
       "tags": [
         "formal",
         "plural"
-      ]
+      ],
+      "exampleSubject": "yaş"
     },
     {
       "en": "I am twenty years old",
       "target": "yirmi yaşındayım",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "yaş"
     },
     {
       "en": "I am thirty years old",
       "target": "otuz yaşındayım",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "yaş"
     },
     {
       "en": "name",
@@ -2199,7 +2284,8 @@
       "level": "a1",
       "tags": [
         "formal"
-      ]
+      ],
+      "exampleSubject": "soyadı"
     },
     {
       "en": "nationality",
@@ -2214,7 +2300,8 @@
     {
       "en": "phone number",
       "target": "telefon numarası",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "telefon"
     },
     {
       "en": "family",
@@ -2234,7 +2321,8 @@
     {
       "en": "parents",
       "target": "anne baba",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "anne"
     },
     {
       "en": "brother",
@@ -2254,7 +2342,8 @@
     {
       "en": "daughter",
       "target": "kız evlat",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "kız"
     },
     {
       "en": "husband",
@@ -2262,7 +2351,7 @@
       "level": "a1"
     },
     {
-      "en": "wife",
+      "en": "spouse",
       "target": "eş",
       "level": "b1",
       "sense": "spouse; can refer to husband or wife"
@@ -2293,9 +2382,9 @@
       "level": "a1"
     },
     {
-      "en": "I eat breakfast",
-      "target": "kahvaltı ederim",
-      "verb": "etmek",
+      "en": "I have breakfast",
+      "target": "kahvaltı yaparım",
+      "verb": "yapmak",
       "level": "a1",
       "tense": "genis"
     },
@@ -2336,14 +2425,16 @@
       "level": "a2"
     },
     {
-      "en": "very delicious",
+      "en": "very tasty / delicious",
       "target": "çok lezzetli",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "lezzetli"
     },
     {
-      "en": "sweet",
+      "en": "sweet / dessert",
       "target": "tatlı",
-      "level": "a2"
+      "level": "a2",
+      "sense": "an adjective meaning sweet or a noun meaning dessert"
     },
     {
       "en": "salty",
@@ -2351,13 +2442,13 @@
       "level": "a1"
     },
     {
-      "en": "spicy / hot",
+      "en": "bitter / spicy / hot",
       "target": "acı",
       "level": "a2",
-      "sense": "also means bitter"
+      "sense": "the intended taste depends on context"
     },
     {
-      "en": "rice",
+      "en": "rice pilaf / cooked rice",
       "target": "pilav",
       "level": "a1"
     },
@@ -2399,22 +2490,26 @@
     {
       "en": "the bill, please",
       "target": "hesap lütfen",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "hesap"
     },
     {
       "en": "menu, please",
       "target": "menü lütfen",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "menü"
     },
     {
       "en": "one tea, please",
       "target": "bir çay lütfen",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "çay"
     },
     {
       "en": "one coffee, please",
       "target": "bir kahve lütfen",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "kahve"
     },
     {
       "en": "I want water",
@@ -2442,22 +2537,26 @@
     {
       "en": "do you have soup?",
       "target": "çorba var mı?",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "çorba"
     },
     {
       "en": "do you have tea?",
       "target": "çay var mı?",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "çay"
     },
     {
       "en": "there is coffee",
       "target": "kahve var",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "kahve"
     },
     {
       "en": "there is no tea",
       "target": "çay yok",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "çay"
     },
     {
       "en": "anything else?",
@@ -2467,7 +2566,8 @@
     {
       "en": "that's all / nothing else",
       "target": "başka yok",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "yok"
     },
     {
       "en": "thank you",
@@ -2494,22 +2594,26 @@
     {
       "en": "what colour?",
       "target": "ne renk?",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "renk"
     },
     {
       "en": "this is red",
       "target": "bu kırmızı",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "kırmızı"
     },
     {
       "en": "the car is blue",
       "target": "araba mavi",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "araba"
     },
     {
       "en": "the apple is red",
       "target": "elma kırmızı",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "elma"
     },
     {
       "en": "home / house",
@@ -2574,7 +2678,8 @@
     {
       "en": "every day",
       "target": "her gün",
-      "level": "a1"
+      "level": "a1",
+      "exampleSubject": "gün"
     },
     {
       "en": "sometimes",

@@ -6,6 +6,8 @@ import { LEVEL_IDS } from '../src/lib/cards/levels.js'
 import { TR_TENSE_IDS } from '../src/lib/languages/tr/tenses.js'
 import { conjugatePhrase } from '../src/lib/languages/tr/conjugate.js'
 import { attach, canSuffix, mutationOf } from '../src/lib/languages/tr/suffixes.js'
+import { annotationsFor } from '../src/lib/annotations/index.js'
+import { defaultSettings } from '../src/lib/storage/progress.js'
 
 const CARDS = turkish.cards
 
@@ -91,6 +93,24 @@ describe('the Turkish corpus', () => {
     }
   })
 
+  it('gives every class card grammar help or a relevant example', () => {
+    const settings = defaultSettings(turkish)
+    const uncovered = CARDS
+      .filter(c => c.deck === 'Class')
+      .filter(c => !annotationsFor(c, turkish.annotations, { settings }).length)
+      .map(c => c.target)
+    expect(uncovered).toEqual([])
+  })
+
+  it('resolves every explicit example link to real Turkish examples', () => {
+    const linked = CARDS.filter(c => c.deck === 'Class' && c.exampleSubject)
+    expect(linked.length).toBeGreaterThan(90)
+    for (const card of linked) {
+      expect(examplesKind.examplesFor(card.exampleSubject!), card.target).not.toBeNull()
+      expect(examplesKind.subjectOf(card), card.target).toBe(card.exampleSubject)
+    }
+  })
+
   it('corrects the errors found in the source deck', () => {
     // susuz is "waterless"; the word for thirsty is susamış, which is kept.
     expect(CARDS.find(c => c.target === 'susuz')).toBeUndefined()
@@ -100,6 +120,14 @@ describe('the Turkish corpus', () => {
     // The second numbers deck was written in digits.
     expect(CARDS.find(c => c.target === 'on bir')?.en).toBe('eleven')
     expect(CARDS.filter(c => /^\d+$/.test(c.en))).toEqual([])
+    // Keep duplicated class vocabulary aligned with the curated topic decks.
+    expect(CARDS.find(c => c.deck === 'Class' && c.target === 'eş')?.en).toBe('spouse')
+    expect(CARDS.find(c => c.deck === 'Class' && c.target === 'pilav')?.en)
+      .toBe('rice pilaf / cooked rice')
+    expect(CARDS.find(c => c.deck === 'Class' && c.target === 'kahvaltı yaparım')?.verb)
+      .toBe('yapmak')
+    expect(CARDS.find(c => c.deck === 'Class' && c.target === 'küçük bir kutu süt')).toBeTruthy()
+    expect(CARDS.find(c => c.deck === 'Class' && c.target.startsWith('...'))).toBeUndefined()
   })
 })
 

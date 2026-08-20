@@ -213,7 +213,10 @@
     flipped = false
   }
 
-  function flip() { flipped = !flipped }
+  function flip() {
+    flipped = !flipped
+    openAnnotation = null
+  }
 
   function rate(rating: Rating) {
     if (!current) return

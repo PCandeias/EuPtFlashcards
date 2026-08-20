@@ -42,6 +42,11 @@ export interface Card {
    */
   verb?: string
   /**
+   * Existing example entry this card should borrow when it teaches an
+   * inflected form or a longer phrase rather than that entry's head word.
+   */
+  exampleSubject?: string
+  /**
    * The tense this card is in, when it is in one.
    *
    * Absent means the card is not tense-bearing — a noun, an adjective, a fixed
@@ -109,6 +114,13 @@ export function parseCard(
       fail(where, '`verb` must be a non-empty string')
     }
     card.verb = raw.verb
+  }
+
+  if (raw.exampleSubject !== undefined) {
+    if (typeof raw.exampleSubject !== 'string' || !raw.exampleSubject.trim()) {
+      fail(where, '`exampleSubject` must be a non-empty string')
+    }
+    card.exampleSubject = raw.exampleSubject
   }
 
   if (raw.tags !== undefined) {

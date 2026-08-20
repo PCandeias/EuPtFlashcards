@@ -725,6 +725,19 @@ test.describe('verb conjugation', () => {
     await expect(page.locator('.card')).toHaveClass(/flipped/)
   })
 
+  test('closes an open annotation when the card is flipped', async ({ page }) => {
+    await page.goto('./#/pt')
+    await enableAllTenses(page)
+    await goToCard(page, 'Common Verbs', 'dormir')
+    await page.click('.face.back [data-annotation="conjugation"]')
+    await expect(page.locator('#conjugationPanel')).toBeVisible()
+
+    await page.click('#flipBtn')
+
+    await expect(page.locator('.card')).not.toHaveClass(/flipped/)
+    await expect(page.locator('#conjugationPanel')).toHaveCount(0)
+  })
+
   test('closes on Escape, on the close button, and when the card changes', async ({ page }) => {
     await page.goto('./#/pt')
     await enableAllTenses(page)

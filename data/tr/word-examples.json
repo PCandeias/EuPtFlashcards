@@ -39743,5 +39743,131 @@
       "en": "Tomorrow we will talk about the school year.",
       "tense": "gelecek"
     }
+  ],
+  "bira": [
+    { "target": "Bu bira soğuk.", "en": "This beer is cold." }
+  ],
+  "bu": [
+    { "target": "Bu benim kitabım.", "en": "This is my book." }
+  ],
+  "gazete": [
+    { "target": "Gazete masada.", "en": "The newspaper is on the table." }
+  ],
+  "yağ": [
+    { "target": "Bu yemekte çok yağ var.", "en": "There is a lot of oil in this dish." }
+  ],
+  "şu": [
+    { "target": "Şu otobüs bizim.", "en": "That bus is ours." }
+  ],
+  "hoş geldin": [
+    { "target": "Hoş geldin, seni görmek güzel.", "en": "Welcome, it is good to see you." }
+  ],
+  "hoş geldiniz": [
+    { "target": "Hoş geldiniz, sizi görmek güzel.", "en": "Welcome, it is good to see you." }
+  ],
+  "iyi şanslar": [
+    { "target": "Sınavda iyi şanslar!", "en": "Good luck in the exam!" }
+  ],
+  "sağ olun": [
+    { "target": "Yardımınız için sağ olun.", "en": "Thank you for your help." }
+  ],
+  "nasılsınız?": [
+    { "target": "Merhaba, nasılsınız?", "en": "Hello, how are you?" }
+  ],
+  "ne demek?": [
+    { "target": "Bu kelime ne demek?", "en": "What does this word mean?" }
+  ],
+  "kilometre": [
+    { "target": "Bu yol beş kilometre.", "en": "This road is five kilometres long." }
+  ],
+  "ne zaman?": [
+    { "target": "Toplantı ne zaman?", "en": "When is the meeting?" }
+  ],
+  "çok ayıp!": [
+    { "target": "Böyle konuşmak çok ayıp!", "en": "It is shameful to speak like that!" }
+  ],
+  "günaydınlar": [
+    { "target": "Günaydınlar, nasılsınız?", "en": "Good morning, how are you?" }
+  ],
+  "merhabalar": [
+    { "target": "Merhabalar, hoş geldiniz.", "en": "Hello, welcome." }
+  ],
+  "selamlar": [
+    { "target": "İstanbul'dan selamlar!", "en": "Greetings from Istanbul!" }
+  ],
+  "iyi günler": [
+    { "target": "Teşekkürler, iyi günler.", "en": "Thank you, have a good day." }
+  ],
+  "iyi akşamlar": [
+    { "target": "İyi akşamlar, hoş geldiniz.", "en": "Good evening, welcome." }
+  ],
+  "iyi geceler": [
+    { "target": "İyi geceler, yarın görüşürüz.", "en": "Good night, see you tomorrow." }
+  ],
+  "değil mi?": [
+    { "target": "Hava güzel, değil mi?", "en": "The weather is nice, isn't it?" }
+  ],
+  "afiyet olsun": [
+    { "target": "Yemeğiniz hazır, afiyet olsun!", "en": "Your meal is ready; enjoy!" }
+  ],
+  "var mı?": [
+    { "target": "Boş oda var mı?", "en": "Is there a vacant room?" }
+  ],
+  "elinize sağlık!": [
+    { "target": "Yemek çok güzel, elinize sağlık!", "en": "The food is excellent; thank you for making it!" }
+  ],
+  "kolay gelsin!": [
+    { "target": "Kolay gelsin! İyi çalışmalar!", "en": "May your work go easily; have a good shift!" }
+  ],
+  "iyi akşamlar efendim": [
+    { "target": "İyi akşamlar efendim, hoş geldiniz.", "en": "Good evening, sir; welcome." }
+  ],
+  "ne kadar?": [
+    { "target": "Bu ne kadar?", "en": "How much is this?" }
+  ],
+  "İrlandalı": [
+    { "target": "O İrlandalı.", "en": "He or she is Irish." }
+  ],
+  "Alman": [
+    { "target": "Ben Almanım.", "en": "I am German." }
+  ],
+  "Amerikalı": [
+    { "target": "O Amerikalı.", "en": "He or she is American." }
+  ],
+  "Hollandalı": [
+    { "target": "Onlar Hollandalı.", "en": "They are Dutch." }
+  ],
+  "Hollanda": [
+    { "target": "Hollanda küçük bir ülke.", "en": "The Netherlands is a small country." }
+  ],
+  "İngiliz": [
+    { "target": "Ben İngilizim.", "en": "I am English." }
+  ],
+  "Hollandaca": [
+    { "target": "Hollandaca zor mu?", "en": "Is Dutch difficult?" }
+  ],
+  "İspanyol": [
+    { "target": "Ben İspanyolum.", "en": "I am Spanish." }
+  ],
+  "adım": [
+    { "target": "Benim adım Deniz.", "en": "My name is Deniz." }
+  ],
+  "milliyet": [
+    { "target": "Milliyetiniz ne?", "en": "What is your nationality?" }
+  ],
+  "yaş": [
+    { "target": "Kaç yaşındasınız?", "en": "How old are you?" }
+  ],
+  "soyadı": [
+    { "target": "Soyadınız ne?", "en": "What is your surname?" }
+  ],
+  "öğleden sonra": [
+    { "target": "Öğleden sonra müsaitim.", "en": "I am available in the afternoon." }
+  ],
+  "her zaman": [
+    { "target": "Her zaman buradayım.", "en": "I am always here." }
+  ],
+  "hayır, değilim": [
+    { "target": "Hayır, değilim; ben Portekizliyim.", "en": "No, I am not; I am Portuguese." }
   ]
 }

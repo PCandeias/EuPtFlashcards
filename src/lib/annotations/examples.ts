@@ -88,6 +88,7 @@ export function createExamplesKind(source: ExamplesSource): ExamplesKind {
       const head = source.headOf?.(infinitive)
       if (head && verbs[head]) return head
     }
+    if (card.exampleSubject && examplesFor(card.exampleSubject)) return card.exampleSubject
     return words[card.target] ? card.target : null
   }
 

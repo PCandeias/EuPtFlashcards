@@ -32,6 +32,19 @@ describe('parseCard', () => {
       .toThrow(/`verb`/)
   })
 
+  it('accepts an explicit example subject for an inflected word or phrase', () => {
+    const card = parseCard(
+      { en: 'the bread', target: 'ekmeği', exampleSubject: 'ekmek' },
+      'Class', where,
+    )
+    expect(card.exampleSubject).toBe('ekmek')
+  })
+
+  it('rejects an empty explicit example subject', () => {
+    expect(() => parseCard({ en: 'the bread', target: 'ekmeği', exampleSubject: ' ' }, 'Class', where))
+      .toThrow(/`exampleSubject`/)
+  })
+
   it('rejects an unknown tag', () => {
     expect(() => parseCard({ en: 'a', target: 'b', tags: ['neuter'] }, 'D', where))
       .toThrow(/unknown tag/)

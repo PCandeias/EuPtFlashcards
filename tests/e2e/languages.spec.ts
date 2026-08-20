@@ -228,3 +228,24 @@ test('conjugates a Turkish verb, with vowel harmony', async ({ page }) => {
   await expect(page.locator('#conjugationPanel')).toContainText('geleceğim')
   await expect(page.locator('#conjugationPanel')).toContainText('geleceksiniz')
 })
+
+test('shows relevant examples for an inflected Turkish class word', async ({ page }) => {
+  await page.goto('./#/tr')
+  await page.selectOption('#deckSelect', 'Class')
+
+  const found = await page.evaluate(async () => {
+    for (let i = 0; i < 500; i++) {
+      const back = document.querySelector('.face.back .word')
+      if (back?.childNodes[0]?.textContent?.trim() === 'ekmeği') return true
+      ;(document.getElementById('nextBtn') as HTMLButtonElement).click()
+      await new Promise(r => requestAnimationFrame(r))
+    }
+    return false
+  })
+  expect(found, 'should reach ekmeği').toBe(true)
+
+  await page.click('#flipBtn')
+  await page.click('.face.back [data-annotation="examples"]')
+  await expect(page.locator('#examplesPanel')).toBeVisible()
+  await expect(page.locator('#examplesPanel')).toContainText('ekmek')
+})
