@@ -14,7 +14,7 @@ const CARDS = turkish.cards
 
 describe('the Turkish corpus', () => {
   it('holds the whole corpus', () => {
-    expect(CARDS.length).toBe(2901)
+    expect(CARDS.length).toBe(3246)
   })
 
   it('covers every deck', () => {
@@ -80,7 +80,7 @@ describe('the Turkish corpus', () => {
 
   it('keeps the imported class list as one complete, deduplicated deck', () => {
     const cards = CARDS.filter(c => c.deck === 'Class')
-    expect(cards).toHaveLength(455)
+    expect(cards).toHaveLength(800)
     expect(new Set(cards.map(c => c.target)).size).toBe(cards.length)
   })
 
@@ -123,7 +123,7 @@ describe('the Turkish corpus', () => {
     const examples = [...subjects].flatMap(subject => words[subject] ?? [])
 
     // A few specific examples beat five or eight tense-shaped filler lines.
-    expect(examples.length).toBeLessThan(300)
+    expect(examples.length / subjects.size).toBeLessThan(1.5)
     expect([...subjects].filter(subject => (words[subject]?.length ?? 0) > 3)).toEqual([])
 
     const generatedFrames = [
@@ -191,7 +191,7 @@ describe('Turkish tense tagging', () => {
   it('tags only what it is sure of', () => {
     const counts: Record<string, number> = {}
     for (const c of tensed) counts[c.tense!] = (counts[c.tense!] ?? 0) + 1
-    expect(counts).toEqual({ simdiki: 161, genis: 97, gecmis: 71, ogrenilen: 58, gelecek: 63 })
+    expect(counts).toEqual({ simdiki: 164, genis: 97, gecmis: 72, ogrenilen: 58, gelecek: 63 })
   })
 
   it('never uses another language’s tense', () => {
@@ -285,6 +285,17 @@ describe('the suffix reference', () => {
     expect(attach('kitap', 'accusative')).toBe(taught.get('the book'))
     expect(attach('kitap', 'possessive1')).toBe(taught.get('my book'))
     expect(attach('ev', 'pluralLocative')).toBe(taught.get('in the houses'))
+  })
+
+  it('knows the stems that drop a vowel or double a consonant', () => {
+    expect(attach('şehir', 'accusative')).toBe('şehri')
+    expect(attach('şehir', 'locative')).toBe('şehirde')
+    expect(attach('nehir', 'dative')).toBe('nehre')
+    expect(attach('oğul', 'possessive3')).toBe('oğlu')
+    expect(attach('sır', 'possessive1')).toBe('sırrım')
+    expect(attach('sır', 'plural')).toBe('sırlar')
+    expect(attach('mektup', 'accusative')).toBe('mektubu')
+    expect(attach('not', 'accusative')).toBe('notu')
   })
 
   it('shows harmony working both ways on the same suffix', () => {

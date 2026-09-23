@@ -6031,5 +6031,155 @@
       "en": "I will save tomorrow.",
       "tense": "gelecek"
     }
+  ],
+  "rezervasyon yapmak": [
+    {
+      "target": "Yarın akşam için rezervasyon yapmak istiyorum.",
+      "en": "I'd like to book for tomorrow evening.",
+      "tense": "simdiki"
+    }
+  ],
+  "rezerve etmek": [
+    {
+      "target": "Bir masa rezerve etmek istiyorum.",
+      "en": "I'd like to reserve a table.",
+      "tense": "simdiki"
+    }
+  ],
+  "önermek": [
+    {
+      "target": "Ne önerirsiniz?",
+      "en": "What do you recommend?",
+      "tense": "genis"
+    }
+  ],
+  "karıştırmak": [
+    {
+      "target": "Çorbayı karıştır.",
+      "en": "Stir the soup."
+    }
+  ],
+  "kokmak": [
+    {
+      "target": "Çorba çok güzel kokuyor.",
+      "en": "The soup smells really good.",
+      "tense": "simdiki"
+    }
+  ],
+  "koklamak": [
+    {
+      "target": "Şu çiçeği kokla!",
+      "en": "Smell this flower!"
+    }
+  ],
+  "büyü yapmak": [
+    {
+      "target": "Cadı bir büyü yapıyor.",
+      "en": "The witch is casting a spell.",
+      "tense": "simdiki"
+    }
+  ],
+  "kaybolmak": [
+    {
+      "target": "Anahtar yine kayboldu.",
+      "en": "The key has disappeared again.",
+      "tense": "gecmis"
+    }
+  ],
+  "ortaya çıkmak": [
+    {
+      "target": "Birden bir mektup ortaya çıktı.",
+      "en": "Suddenly a letter appeared.",
+      "tense": "gecmis"
+    }
+  ],
+  "saklanmak": [
+    {
+      "target": "Kedi masanın altında saklanıyor.",
+      "en": "The cat is hiding under the table.",
+      "tense": "simdiki"
+    }
+  ],
+  "kaçmak": [
+    {
+      "target": "Fare kaçıyor!",
+      "en": "The mouse is getting away!",
+      "tense": "simdiki"
+    }
+  ],
+  "korumak": [
+    {
+      "target": "Köpek evi koruyor.",
+      "en": "The dog is guarding the house.",
+      "tense": "simdiki"
+    }
+  ],
+  "tekrar etmek": [
+    {
+      "target": "Tekrar eder misiniz?",
+      "en": "Could you say that again?",
+      "tense": "genis"
+    }
+  ],
+  "cevaplamak": [
+    {
+      "target": "Soruyu cevaplıyor.",
+      "en": "She's answering the question.",
+      "tense": "simdiki"
+    }
+  ],
+  "pratik yapmak": [
+    {
+      "target": "Her gün Türkçe pratik yapıyorum.",
+      "en": "I practise Turkish every day.",
+      "tense": "simdiki"
+    }
+  ],
+  "fısıldamak": [
+    {
+      "target": "Kulağıma bir sır fısıldadı.",
+      "en": "She whispered a secret in my ear.",
+      "tense": "gecmis"
+    }
+  ],
+  "bağırmak": [
+    {
+      "target": "Bana bağırma!",
+      "en": "Don't shout at me!"
+    }
+  ],
+  "kilidini açmak": [
+    {
+      "target": "Kapının kilidini açıyor.",
+      "en": "She's unlocking the door.",
+      "tense": "simdiki"
+    }
+  ],
+  "kilitlemek": [
+    {
+      "target": "Çıkarken kapıyı kilitle.",
+      "en": "Lock the door when you leave."
+    }
+  ],
+  "yakalamak": [
+    {
+      "target": "Topu yakaladı!",
+      "en": "He caught the ball!",
+      "tense": "gecmis"
+    }
+  ],
+  "takip etmek": [
+    {
+      "target": "Öğretmeni takip ediyorlar.",
+      "en": "They're following the teacher.",
+      "tense": "simdiki"
+    }
+  ],
+  "fark etmek": [
+    {
+      "target": "Kimse gizli kapıyı fark etmedi.",
+      "en": "Nobody noticed the secret door.",
+      "tense": "gecmis"
+    }
   ]
 }

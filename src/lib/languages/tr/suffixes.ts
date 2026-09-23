@@ -166,6 +166,11 @@ const SOFTENS = new Set([
   'sağlık', 'hastalık', 'pamuk', 'kıvırcık', 'cacık', 'kitaplık', 'meslek',
   'örnek', 'sözlük', 'birçok', 'konsolosluk', 'elçilik', 'yolculuk',
   'bayrak', 'gümrük', 'çekiç', 'tarak', 'yiyecek', 'benzinlik', 'erkek', 'tebrik',
+  'yaratık', 'geyik', 'başlangıç', 'soluk', 'yasak', 'şımarık', 'başlık', 'çığlık',
+  // Circumflex spelling of kağıt, which the class deck uses.
+  'kâğıt',
+  // -p becomes b in mektup too: mektubu.
+  'mektup',
   // -p becomes b here too: garip is garibi.
   'garip',
   // nk becomes ng rather than nğ
@@ -196,6 +201,7 @@ const KEEPS = new Set([
   'maç', 'sert', 'çift', 'tek', 'taksit', 'müsait', 'berbat', 'diyet', 'kravat',
   'avukat', 'pilot', 'ek', 'kök', 'ilk', 'birkaç', 'işaret', 'kat', 'halat',
   'turist', 'davet', 'evet', 'sandviç', 'meşrubat', 'milliyet',
+  'kürk', 'gölet', 'test', 'not', 'hayalet', 'cesaret',
 ])
 
 /**
@@ -232,6 +238,21 @@ function harmonySource(word: string): string {
  */
 const Y_BUFFER = new Set(['su', 'ne'])
 
+/**
+ * Words whose stem changes shape before a vowel in some other way.
+ *
+ * Most drop the vowel of their last syllable — `şehir` is `şehri`, `oğul` is
+ * `oğlu` — and a few double their last consonant: `sır` is `sırrı`. Like
+ * softening, nothing in the spelling predicts it, and the rule-built `şehiri`
+ * is not a word. The consonant-initial endings are untouched: `şehirde`.
+ */
+const STEM_BEFORE_VOWEL: Record<string, string> = {
+  ağız: 'ağz', alın: 'aln', beyin: 'beyn', boyun: 'boyn', burun: 'burn',
+  göğüs: 'göğs', karın: 'karn', nehir: 'nehr', oğul: 'oğl', omuz: 'omz',
+  resim: 'resm', şehir: 'şehr',
+  sır: 'sırr',
+}
+
 type Mutation = 'softens' | 'keeps' | 'none'
 
 /** What this word does to its own last letter before a vowel. */
@@ -247,6 +268,8 @@ const VOICED: Record<string, string> = { p: 'b', 'ç': 'c', t: 'd', k: 'ğ' }
 
 /** The word as it appears before a suffix that starts with a vowel. */
 function beforeVowel(word: string): string | null {
+  const named = STEM_BEFORE_VOWEL[word]
+  if (named) return named
   const mutation = mutationOf(word)
   if (mutation === null) return null
   if (mutation !== 'softens') return word

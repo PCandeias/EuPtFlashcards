@@ -151,7 +151,7 @@ test('shows the endings a Turkish noun takes', async ({ page }) => {
   await page.selectOption('#deckSelect', 'Home & Household Objects')
 
   const reach = (want: string) => page.evaluate(async (target) => {
-    for (let i = 0; i < 500; i++) {
+    for (let i = 0; i < 1000; i++) {
       const back = document.querySelector('.face.back .word')
       if (back?.childNodes[0]?.textContent?.trim() === target) return true
       ;(document.getElementById('nextBtn') as HTMLButtonElement).click()
@@ -177,7 +177,7 @@ test('spells the same ending differently on a back-vowel word', async ({ page })
   await page.selectOption('#deckSelect', 'Places, City & Buildings')
 
   const found = await page.evaluate(async () => {
-    for (let i = 0; i < 500; i++) {
+    for (let i = 0; i < 1000; i++) {
       const back = document.querySelector('.face.back .word')
       if (back?.childNodes[0]?.textContent?.trim() === 'okul') return true
       ;(document.getElementById('nextBtn') as HTMLButtonElement).click()
@@ -234,7 +234,7 @@ test('shows relevant examples for an inflected Turkish class word', async ({ pag
   await page.selectOption('#deckSelect', 'Class')
 
   const found = await page.evaluate(async () => {
-    for (let i = 0; i < 500; i++) {
+    for (let i = 0; i < 1000; i++) {
       const back = document.querySelector('.face.back .word')
       if (back?.childNodes[0]?.textContent?.trim() === 'ekmeği') return true
       ;(document.getElementById('nextBtn') as HTMLButtonElement).click()
@@ -255,7 +255,7 @@ test('makes the intended sense clear in Turkish class examples', async ({ page }
   await page.selectOption('#deckSelect', 'Class')
 
   const found = await page.evaluate(async () => {
-    for (let i = 0; i < 500; i++) {
+    for (let i = 0; i < 1000; i++) {
       const back = document.querySelector('.face.back .word')
       if (back?.childNodes[0]?.textContent?.trim() === 'sağ') return true
       ;(document.getElementById('nextBtn') as HTMLButtonElement).click()

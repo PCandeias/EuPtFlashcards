@@ -99,6 +99,10 @@
     {
       "target": "Pencere açık.",
       "en": "The window is open."
+    },
+    {
+      "target": "Kapı açık.",
+      "en": "The door is open."
     }
   ],
   "kapalı": [
@@ -111,12 +115,20 @@
     {
       "target": "Oda çok temiz.",
       "en": "The room is very clean."
+    },
+    {
+      "target": "Tabak temiz.",
+      "en": "The plate is clean."
     }
   ],
   "kirli": [
     {
       "target": "Bu bardak kirli.",
       "en": "This glass is dirty."
+    },
+    {
+      "target": "Yer çok kirli.",
+      "en": "The floor is very dirty."
     }
   ],
   "doğru": [
@@ -151,6 +163,10 @@
     {
       "target": "Çocuklar aç.",
       "en": "The children are hungry."
+    },
+    {
+      "target": "Çok açım.",
+      "en": "I'm very hungry."
     }
   ],
   "tok": [
@@ -217,6 +233,10 @@
     {
       "target": "Gece burada yürümek tehlikeli.",
       "en": "Walking here at night is dangerous."
+    },
+    {
+      "target": "Orman geceleri tehlikeli.",
+      "en": "The forest is dangerous at night."
     }
   ],
   "güvenli": [
@@ -971,28 +991,9 @@
   ],
   "dil": [
     {
-      "target": "Dil çok güzel bir dil.",
-      "en": "Tongue is a very beautiful language."
-    },
-    {
-      "target": "Dil öğreniyorum.",
-      "en": "I am learning tongue.",
+      "target": "Kaç dil konuşuyorsun?",
+      "en": "How many languages do you speak?",
       "tense": "simdiki"
-    },
-    {
-      "target": "Evde dil konuşurum.",
-      "en": "I speak tongue at home.",
-      "tense": "genis"
-    },
-    {
-      "target": "Okulda dil öğrendim.",
-      "en": "I learned tongue at school.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Dil öğreneceğim.",
-      "en": "I will learn tongue.",
-      "tense": "gelecek"
     }
   ],
   "dudak": [
@@ -1725,28 +1726,8 @@
   ],
   "alerji": [
     {
-      "target": "Bu acil bir alerji.",
-      "en": "This is an urgent allergy."
-    },
-    {
-      "target": "Alerji arıyorum.",
-      "en": "I am looking for the allergy.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Gerekirse alerji alırım.",
-      "en": "If necessary I get the allergy.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün alerji aldım.",
-      "en": "I got the allergy yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın alerji alacağım.",
-      "en": "I will get the allergy tomorrow.",
-      "tense": "gelecek"
+      "target": "Fıstığa alerjim var.",
+      "en": "I'm allergic to peanuts."
     }
   ],
   "aşı": [
@@ -2259,28 +2240,9 @@
   ],
   "şapka": [
     {
-      "target": "Bu bir şapka.",
-      "en": "This is hat."
-    },
-    {
-      "target": "Şapka giyiyorum.",
-      "en": "I am wearing the hat.",
+      "target": "Eski şapka konuşabiliyor.",
+      "en": "The old hat can talk.",
       "tense": "simdiki"
-    },
-    {
-      "target": "Kışın şapka giyerim.",
-      "en": "I wear the hat in winter.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün şapka aldım.",
-      "en": "I bought the hat yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın şapka giyeceğim.",
-      "en": "I will wear the hat tomorrow.",
-      "tense": "gelecek"
     }
   ],
   "saat": [
@@ -2301,28 +2263,8 @@
   ],
   "lacivert": [
     {
-      "target": "Arabam lacivert.",
-      "en": "My car is navy blue."
-    },
-    {
-      "target": "Lacivert bir çanta arıyorum.",
-      "en": "I am looking for a navy blue bag.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Lacivert rengi severim.",
-      "en": "I like the colour navy blue.",
-      "tense": "genis"
-    },
-    {
-      "target": "Lacivert bir elbise aldım.",
-      "en": "I bought a navy blue dress.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Lacivert bir ceket alacağım.",
-      "en": "I will buy a navy blue jacket.",
-      "tense": "gelecek"
+      "target": "Pelerin lacivert.",
+      "en": "The cloak is navy blue."
     }
   ],
   "kot pantolon": [
@@ -2931,28 +2873,8 @@
   ],
   "altın rengi": [
     {
-      "target": "Altın rengi bir gömlek istiyorum.",
-      "en": "I want a golden shirt."
-    },
-    {
-      "target": "Altın rengi bir çanta arıyorum.",
-      "en": "I am looking for a golden bag.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Altın rengi rengi severim.",
-      "en": "I like the colour golden.",
-      "tense": "genis"
-    },
-    {
-      "target": "Altın rengi bir elbise aldım.",
-      "en": "I bought a golden dress.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Altın rengi bir ceket alacağım.",
-      "en": "I will buy a golden jacket.",
-      "tense": "gelecek"
+      "target": "Anahtar altın rengi.",
+      "en": "The key is gold-coloured."
     }
   ],
   "çizgili": [
@@ -4107,80 +4029,22 @@
   ],
   "tereyağı": [
     {
-      "target": "Tereyağı nerede?",
-      "en": "Where is the butter?"
-    },
-    {
-      "target": "Annem tereyağı yapıyor.",
-      "en": "My mother is making butter.",
+      "target": "Ekmeğe tereyağı sürüyorum.",
+      "en": "I'm spreading butter on the bread.",
       "tense": "simdiki"
-    },
-    {
-      "target": "Tereyağı severim.",
-      "en": "I like butter.",
-      "tense": "genis"
-    },
-    {
-      "target": "Markette tereyağı aldım.",
-      "en": "I bought butter at the shop.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın tereyağı alacağım.",
-      "en": "I will buy butter tomorrow.",
-      "tense": "gelecek"
     }
   ],
   "bal": [
     {
-      "target": "Bu bir bal.",
-      "en": "This is honey."
-    },
-    {
-      "target": "Bal yiyorum.",
-      "en": "I am eating honey.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her sabah bal yerim.",
-      "en": "I eat honey every morning.",
+      "target": "Kahvaltıda bal yerim.",
+      "en": "I eat honey at breakfast.",
       "tense": "genis"
-    },
-    {
-      "target": "Dün bal yedim.",
-      "en": "I ate honey yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın bal alacağım.",
-      "en": "I will buy honey tomorrow.",
-      "tense": "gelecek"
     }
   ],
   "reçel": [
     {
-      "target": "Reçel çok lezzetli.",
-      "en": "Jam is very tasty."
-    },
-    {
-      "target": "Reçel istiyorum.",
-      "en": "I want jam.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Reçel severim.",
-      "en": "I like jam.",
-      "tense": "genis"
-    },
-    {
-      "target": "Markette reçel aldım.",
-      "en": "I bought jam at the shop.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın reçel alacağım.",
-      "en": "I will buy jam tomorrow.",
-      "tense": "gelecek"
+      "target": "Vişne reçeli çok lezzetli.",
+      "en": "Sour cherry jam is very tasty."
     }
   ],
   "çorba": [
@@ -4265,28 +4129,8 @@
   ],
   "muz": [
     {
-      "target": "Muz nerede?",
-      "en": "Where is the banana?"
-    },
-    {
-      "target": "Annem muz yapıyor.",
-      "en": "My mother is making banana.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Muz severim.",
-      "en": "I like banana.",
-      "tense": "genis"
-    },
-    {
-      "target": "Markette muz aldım.",
-      "en": "I bought banana at the shop.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın muz alacağım.",
-      "en": "I will buy banana tomorrow.",
-      "tense": "gelecek"
+      "target": "Muzlar henüz yeşil.",
+      "en": "The bananas are still green."
     }
   ],
   "portakal": [
@@ -4309,28 +4153,8 @@
   ],
   "salatalık": [
     {
-      "target": "Salatalık nerede?",
-      "en": "Where is the cucumber?"
-    },
-    {
-      "target": "Annem salatalık yapıyor.",
-      "en": "My mother is making cucumber.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her sabah salatalık yerim.",
-      "en": "I eat cucumber every morning.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün salatalık yedim.",
-      "en": "I ate cucumber yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın salatalık alacağım.",
-      "en": "I will buy cucumber tomorrow.",
-      "tense": "gelecek"
+      "target": "Salatada salatalık ve domates var.",
+      "en": "There's cucumber and tomato in the salad."
     }
   ],
   "patates": [
@@ -4341,54 +4165,14 @@
   ],
   "soğan": [
     {
-      "target": "Soğan çok lezzetli.",
-      "en": "Onion is very tasty."
-    },
-    {
-      "target": "Soğan istiyorum.",
-      "en": "I want onion.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her sabah soğan yerim.",
-      "en": "I eat onion every morning.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün soğan yedim.",
-      "en": "I ate onion yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın soğan alacağım.",
-      "en": "I will buy onion tomorrow.",
-      "tense": "gelecek"
+      "target": "Çorbada soğan var.",
+      "en": "There's onion in the soup."
     }
   ],
   "sarımsak": [
     {
-      "target": "Sarımsak nerede?",
-      "en": "Where is the garlic?"
-    },
-    {
-      "target": "Annem sarımsak yapıyor.",
-      "en": "My mother is making garlic.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Sarımsak severim.",
-      "en": "I like garlic.",
-      "tense": "genis"
-    },
-    {
-      "target": "Markette sarımsak aldım.",
-      "en": "I bought garlic at the shop.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın sarımsak alacağım.",
-      "en": "I will buy garlic tomorrow.",
-      "tense": "gelecek"
+      "target": "Bu yemekte çok sarımsak var.",
+      "en": "There's a lot of garlic in this dish."
     }
   ],
   "tuz": [
@@ -4405,28 +4189,8 @@
   ],
   "biber": [
     {
-      "target": "Biber nerede?",
-      "en": "Where is the pepper?"
-    },
-    {
-      "target": "Annem biber yapıyor.",
-      "en": "My mother is making pepper.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her sabah biber yerim.",
-      "en": "I eat pepper every morning.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün biber yedim.",
-      "en": "I ate pepper yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın biber alacağım.",
-      "en": "I will buy pepper tomorrow.",
-      "tense": "gelecek"
+      "target": "Bu biber çok acı.",
+      "en": "This pepper is very hot."
     }
   ],
   "tatlı": [
@@ -4441,80 +4205,20 @@
   ],
   "pirinç": [
     {
-      "target": "Pirinç çok lezzetli.",
-      "en": "Rice is very tasty."
-    },
-    {
-      "target": "Pirinç istiyorum.",
-      "en": "I want rice.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her sabah pirinç yerim.",
-      "en": "I eat rice every morning.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün pirinç yedim.",
-      "en": "I ate rice yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın pirinç alacağım.",
-      "en": "I will buy rice tomorrow.",
-      "tense": "gelecek"
+      "target": "Bir kilo pirinç lütfen.",
+      "en": "A kilo of rice, please."
     }
   ],
   "un": [
     {
-      "target": "Un nerede?",
-      "en": "Where is the flour?"
-    },
-    {
-      "target": "Annem un yapıyor.",
-      "en": "My mother is making flour.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Un severim.",
-      "en": "I like flour.",
-      "tense": "genis"
-    },
-    {
-      "target": "Markette un aldım.",
-      "en": "I bought flour at the shop.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın un alacağım.",
-      "en": "I will buy flour tomorrow.",
-      "tense": "gelecek"
+      "target": "Ekmek için una ihtiyacımız var.",
+      "en": "We need flour for the bread."
     }
   ],
   "karabiber": [
     {
-      "target": "Bu bir karabiber.",
-      "en": "This is black pepper."
-    },
-    {
-      "target": "Karabiber yiyorum.",
-      "en": "I am eating black pepper.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her sabah karabiber yerim.",
-      "en": "I eat black pepper every morning.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün karabiber yedim.",
-      "en": "I ate black pepper yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın karabiber alacağım.",
-      "en": "I will buy black pepper tomorrow.",
-      "tense": "gelecek"
+      "target": "Tuz ve karabiber lütfen.",
+      "en": "Salt and pepper, please."
     }
   ],
   "baharat": [
@@ -4545,28 +4249,8 @@
   ],
   "zeytinyağı": [
     {
-      "target": "Zeytinyağı nerede?",
-      "en": "Where is the olive oil?"
-    },
-    {
-      "target": "Annem zeytinyağı yapıyor.",
-      "en": "My mother is making olive oil.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her sabah zeytinyağı yerim.",
-      "en": "I eat olive oil every morning.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün zeytinyağı yedim.",
-      "en": "I ate olive oil yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın zeytinyağı alacağım.",
-      "en": "I will buy olive oil tomorrow.",
-      "tense": "gelecek"
+      "target": "Salataya biraz zeytinyağı koy.",
+      "en": "Put a little olive oil on the salad."
     }
   ],
   "yoğurt": [
@@ -4577,184 +4261,46 @@
   ],
   "havuç": [
     {
-      "target": "Havuç çok lezzetli.",
-      "en": "Carrot is very tasty."
-    },
-    {
-      "target": "Havuç istiyorum.",
-      "en": "I want carrot.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her sabah havuç yerim.",
-      "en": "I eat carrot every morning.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün havuç yedim.",
-      "en": "I ate carrot yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın havuç alacağım.",
-      "en": "I will buy carrot tomorrow.",
-      "tense": "gelecek"
+      "target": "Havuç çok sağlıklı.",
+      "en": "Carrots are very healthy."
     }
   ],
   "marul": [
     {
-      "target": "Marul nerede?",
-      "en": "Where is the lettuce?"
-    },
-    {
-      "target": "Annem marul yapıyor.",
-      "en": "My mother is making lettuce.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Marul severim.",
-      "en": "I like lettuce.",
-      "tense": "genis"
-    },
-    {
-      "target": "Markette marul aldım.",
-      "en": "I bought lettuce at the shop.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın marul alacağım.",
-      "en": "I will buy lettuce tomorrow.",
-      "tense": "gelecek"
+      "target": "Marul taze mi?",
+      "en": "Is the lettuce fresh?"
     }
   ],
   "lahana": [
     {
-      "target": "Bu bir lahana.",
-      "en": "This is cabbage."
-    },
-    {
-      "target": "Lahana yiyorum.",
-      "en": "I am eating cabbage.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her sabah lahana yerim.",
-      "en": "I eat cabbage every morning.",
+      "target": "Lahana sarmasını çok severim.",
+      "en": "I love stuffed cabbage leaves.",
       "tense": "genis"
-    },
-    {
-      "target": "Dün lahana yedim.",
-      "en": "I ate cabbage yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın lahana alacağım.",
-      "en": "I will buy cabbage tomorrow.",
-      "tense": "gelecek"
     }
   ],
   "fasulye": [
     {
-      "target": "Fasulye çok lezzetli.",
-      "en": "Beans is very tasty."
-    },
-    {
-      "target": "Fasulye istiyorum.",
-      "en": "I want beans.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Fasulye severim.",
-      "en": "I like beans.",
-      "tense": "genis"
-    },
-    {
-      "target": "Markette fasulye aldım.",
-      "en": "I bought beans at the shop.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın fasulye alacağım.",
-      "en": "I will buy beans tomorrow.",
-      "tense": "gelecek"
+      "target": "Kuru fasulye ve pilav klasik bir yemek.",
+      "en": "Beans and rice is a classic dish."
     }
   ],
   "mercimek": [
     {
-      "target": "Mercimek nerede?",
-      "en": "Where is the lentils?"
-    },
-    {
-      "target": "Annem mercimek yapıyor.",
-      "en": "My mother is making lentils.",
+      "target": "Mercimek çorbası istiyorum.",
+      "en": "I'd like the lentil soup.",
       "tense": "simdiki"
-    },
-    {
-      "target": "Her sabah mercimek yerim.",
-      "en": "I eat lentils every morning.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün mercimek yedim.",
-      "en": "I ate lentils yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın mercimek alacağım.",
-      "en": "I will buy lentils tomorrow.",
-      "tense": "gelecek"
     }
   ],
   "nohut": [
     {
-      "target": "Bu bir nohut.",
-      "en": "This is chickpea."
-    },
-    {
-      "target": "Nohut yiyorum.",
-      "en": "I am eating chickpea.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Nohut severim.",
-      "en": "I like chickpea.",
-      "tense": "genis"
-    },
-    {
-      "target": "Markette nohut aldım.",
-      "en": "I bought chickpea at the shop.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın nohut alacağım.",
-      "en": "I will buy chickpea tomorrow.",
-      "tense": "gelecek"
+      "target": "Bu yemekte nohut var.",
+      "en": "There are chickpeas in this dish."
     }
   ],
   "mantar": [
     {
-      "target": "Mantar çok lezzetli.",
-      "en": "Mushroom is very tasty."
-    },
-    {
-      "target": "Mantar istiyorum.",
-      "en": "I want mushroom.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her sabah mantar yerim.",
-      "en": "I eat mushroom every morning.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün mantar yedim.",
-      "en": "I ate mushroom yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın mantar alacağım.",
-      "en": "I will buy mushroom tomorrow.",
-      "tense": "gelecek"
+      "target": "Pizzada mantar var mı?",
+      "en": "Are there mushrooms on the pizza?"
     }
   ],
   "mandalina": [
@@ -4791,132 +4337,33 @@
   ],
   "üzüm": [
     {
-      "target": "Üzüm çok lezzetli.",
-      "en": "Grape is very tasty."
-    },
-    {
-      "target": "Üzüm istiyorum.",
-      "en": "I want grape.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Üzüm severim.",
-      "en": "I like grape.",
-      "tense": "genis"
-    },
-    {
-      "target": "Markette üzüm aldım.",
-      "en": "I bought grape at the shop.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın üzüm alacağım.",
-      "en": "I will buy grape tomorrow.",
-      "tense": "gelecek"
+      "target": "Bu üzüm çok tatlı.",
+      "en": "These grapes are very sweet."
     }
   ],
   "karpuz": [
     {
-      "target": "Karpuz nerede?",
-      "en": "Where is the watermelon?"
-    },
-    {
-      "target": "Annem karpuz yapıyor.",
-      "en": "My mother is making watermelon.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her sabah karpuz yerim.",
-      "en": "I eat watermelon every morning.",
+      "target": "Yazın soğuk karpuz yeriz.",
+      "en": "In summer we eat cold watermelon.",
       "tense": "genis"
-    },
-    {
-      "target": "Dün karpuz yedim.",
-      "en": "I ate watermelon yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın karpuz alacağım.",
-      "en": "I will buy watermelon tomorrow.",
-      "tense": "gelecek"
     }
   ],
   "kavun": [
     {
-      "target": "Bu bir kavun.",
-      "en": "This is melon."
-    },
-    {
-      "target": "Kavun yiyorum.",
-      "en": "I am eating melon.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Kavun severim.",
-      "en": "I like melon.",
-      "tense": "genis"
-    },
-    {
-      "target": "Markette kavun aldım.",
-      "en": "I bought melon at the shop.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın kavun alacağım.",
-      "en": "I will buy melon tomorrow.",
-      "tense": "gelecek"
+      "target": "Kavun çok tatlı.",
+      "en": "The melon is very sweet."
     }
   ],
   "şeftali": [
     {
-      "target": "Şeftali çok lezzetli.",
-      "en": "Peach is very tasty."
-    },
-    {
-      "target": "Şeftali istiyorum.",
-      "en": "I want peach.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her sabah şeftali yerim.",
-      "en": "I eat peach every morning.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün şeftali yedim.",
-      "en": "I ate peach yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın şeftali alacağım.",
-      "en": "I will buy peach tomorrow.",
-      "tense": "gelecek"
+      "target": "Şeftali çok yumuşak.",
+      "en": "The peach is very soft."
     }
   ],
   "kiraz": [
     {
-      "target": "Kiraz nerede?",
-      "en": "Where is the cherry?"
-    },
-    {
-      "target": "Annem kiraz yapıyor.",
-      "en": "My mother is making cherry.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Kiraz severim.",
-      "en": "I like cherry.",
-      "tense": "genis"
-    },
-    {
-      "target": "Markette kiraz aldım.",
-      "en": "I bought cherry at the shop.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın kiraz alacağım.",
-      "en": "I will buy cherry tomorrow.",
-      "tense": "gelecek"
+      "target": "Pazarda kiraz çok ucuz.",
+      "en": "Cherries are very cheap at the market."
     }
   ],
   "dondurma": [
@@ -4973,54 +4420,16 @@
   ],
   "atıştırmalık": [
     {
-      "target": "Atıştırmalık nerede?",
-      "en": "Where is the snack?"
-    },
-    {
-      "target": "Annem atıştırmalık yapıyor.",
-      "en": "My mother is making snack.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her sabah atıştırmalık yerim.",
-      "en": "I eat snack every morning.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün atıştırmalık yedim.",
-      "en": "I ate snack yesterday.",
+      "target": "Yol için atıştırmalık aldım.",
+      "en": "I bought snacks for the road.",
       "tense": "gecmis"
-    },
-    {
-      "target": "Yarın atıştırmalık alacağım.",
-      "en": "I will buy snack tomorrow.",
-      "tense": "gelecek"
     }
   ],
   "susamış": [
     {
-      "target": "Kardeşim çok susamış.",
-      "en": "My sibling is very thirsty."
-    },
-    {
-      "target": "Gittikçe susamış oluyor.",
-      "en": "It is getting thirsty.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Sabahları susamış olurum.",
-      "en": "I am thirsty in the mornings.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün çok susamış oldum.",
-      "en": "I was very thirsty yesterday.",
+      "target": "Susamış çocuklara su verdi.",
+      "en": "She gave water to the thirsty children.",
       "tense": "gecmis"
-    },
-    {
-      "target": "Yarın daha susamış olacak.",
-      "en": "It will be more thirsty tomorrow.",
-      "tense": "gelecek"
     }
   ],
   "lezzetli": [
@@ -5031,28 +4440,8 @@
   ],
   "bayat": [
     {
-      "target": "Bu çok bayat.",
-      "en": "This is very stale."
-    },
-    {
-      "target": "Gittikçe bayat oluyor.",
-      "en": "It is getting stale.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Sabahları bayat olurum.",
-      "en": "I am stale in the mornings.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün çok bayat oldum.",
-      "en": "I was very stale yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın daha bayat olacak.",
-      "en": "It will be more stale tomorrow.",
-      "tense": "gelecek"
+      "target": "Bu ekmek bayat.",
+      "en": "This bread is stale."
     }
   ],
   "taze": [
@@ -5575,28 +4964,9 @@
   ],
   "mutfak": [
     {
-      "target": "Evde mutfak var.",
-      "en": "There is the kitchen at home."
-    },
-    {
-      "target": "Mutfak temizliyorum.",
-      "en": "I am cleaning the kitchen.",
+      "target": "Mutfakta ne pişiyor?",
+      "en": "What's cooking in the kitchen?",
       "tense": "simdiki"
-    },
-    {
-      "target": "Her hafta mutfak temizlerim.",
-      "en": "I clean the kitchen every week.",
-      "tense": "genis"
-    },
-    {
-      "target": "Geçen hafta mutfak aldık.",
-      "en": "We bought the kitchen last week.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın mutfak tamir edeceğim.",
-      "en": "I will repair the kitchen tomorrow.",
-      "tense": "gelecek"
     }
   ],
   "banyo": [
@@ -5633,28 +5003,8 @@
   ],
   "kapı": [
     {
-      "target": "Evde kapı var.",
-      "en": "There is the door at home."
-    },
-    {
-      "target": "Yeni bir kapı arıyoruz.",
-      "en": "We are looking for a new door.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her hafta kapı temizlerim.",
-      "en": "I clean the door every week.",
-      "tense": "genis"
-    },
-    {
-      "target": "Geçen hafta kapı aldık.",
-      "en": "We bought the door last week.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın kapı tamir edeceğim.",
-      "en": "I will repair the door tomorrow.",
-      "tense": "gelecek"
+      "target": "Kapıyı kapat lütfen.",
+      "en": "Close the door, please."
     }
   ],
   "pencere": [
@@ -5685,28 +5035,8 @@
   ],
   "duvar": [
     {
-      "target": "Bu bir duvar.",
-      "en": "This is wall."
-    },
-    {
-      "target": "Yeni bir duvar arıyoruz.",
-      "en": "We are looking for a new wall.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her hafta duvar temizlerim.",
-      "en": "I clean the wall every week.",
-      "tense": "genis"
-    },
-    {
-      "target": "Geçen hafta duvar aldık.",
-      "en": "We bought the wall last week.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın duvar tamir edeceğim.",
-      "en": "I will repair the wall tomorrow.",
-      "tense": "gelecek"
+      "target": "Duvarda bir resim var.",
+      "en": "There's a picture on the wall."
     }
   ],
   "yer": [
@@ -5784,28 +5114,9 @@
   ],
   "dolap": [
     {
-      "target": "Dolap mutfakta.",
-      "en": "The cupboard is in the kitchen."
-    },
-    {
-      "target": "Dolap temizliyorum.",
-      "en": "I am cleaning the cupboard.",
+      "target": "Çocuk merdivenin altındaki dolapta uyuyor.",
+      "en": "The boy sleeps in the cupboard under the stairs.",
       "tense": "simdiki"
-    },
-    {
-      "target": "Her hafta dolap temizlerim.",
-      "en": "I clean the cupboard every week.",
-      "tense": "genis"
-    },
-    {
-      "target": "Geçen hafta dolap aldık.",
-      "en": "We bought the cupboard last week.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın dolap tamir edeceğim.",
-      "en": "I will repair the cupboard tomorrow.",
-      "tense": "gelecek"
     }
   ],
   "buzdolabı": [
@@ -5958,28 +5269,8 @@
   ],
   "kalem": [
     {
-      "target": "Kalem mutfakta.",
-      "en": "The pen is in the kitchen."
-    },
-    {
-      "target": "Yeni bir kalem arıyoruz.",
-      "en": "We are looking for a new pen.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her hafta kalem temizlerim.",
-      "en": "I clean the pen every week.",
-      "tense": "genis"
-    },
-    {
-      "target": "Geçen hafta kalem aldık.",
-      "en": "We bought the pen last week.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın kalem tamir edeceğim.",
-      "en": "I will repair the pen tomorrow.",
-      "tense": "gelecek"
+      "target": "Kalemin var mı?",
+      "en": "Do you have a pen?"
     }
   ],
   "kağıt": [
@@ -6010,86 +5301,30 @@
   ],
   "çanta": [
     {
-      "target": "Evde çanta var.",
-      "en": "There is the bag at home."
-    },
-    {
-      "target": "Yeni bir çanta arıyoruz.",
-      "en": "We are looking for a new bag.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her hafta çanta temizlerim.",
-      "en": "I clean the bag every week.",
-      "tense": "genis"
-    },
-    {
-      "target": "Geçen hafta çanta aldık.",
-      "en": "We bought the bag last week.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın çanta tamir edeceğim.",
-      "en": "I will repair the bag tomorrow.",
-      "tense": "gelecek"
+      "target": "Çantam nerede?",
+      "en": "Where's my bag?"
     }
   ],
   "para": [
     {
       "target": "Yanımda yeterli para yok.",
       "en": "I do not have enough money with me."
+    },
+    {
+      "target": "Hiç param yok.",
+      "en": "I have no money at all."
     }
   ],
   "zemin": [
     {
-      "target": "Bu bir zemin.",
-      "en": "This is floor."
-    },
-    {
-      "target": "Yeni bir zemin arıyoruz.",
-      "en": "We are looking for a new floor.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her hafta zemin temizlerim.",
-      "en": "I clean the floor every week.",
-      "tense": "genis"
-    },
-    {
-      "target": "Geçen hafta zemin aldık.",
-      "en": "We bought the floor last week.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın zemin tamir edeceğim.",
-      "en": "I will repair the floor tomorrow.",
-      "tense": "gelecek"
+      "target": "Zemin çok soğuk.",
+      "en": "The floor is very cold."
     }
   ],
   "tavan": [
     {
-      "target": "Evde tavan var.",
-      "en": "There is the ceiling at home."
-    },
-    {
-      "target": "Tavan temizliyorum.",
-      "en": "I am cleaning the ceiling.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her hafta tavan temizlerim.",
-      "en": "I clean the ceiling every week.",
-      "tense": "genis"
-    },
-    {
-      "target": "Geçen hafta tavan aldık.",
-      "en": "We bought the ceiling last week.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın tavan tamir edeceğim.",
-      "en": "I will repair the ceiling tomorrow.",
-      "tense": "gelecek"
+      "target": "Tavan çok yüksek.",
+      "en": "The ceiling is very high."
     }
   ],
   "kilit": [
@@ -6328,28 +5563,8 @@
   ],
   "ayna": [
     {
-      "target": "Ayna mutfakta.",
-      "en": "The mirror is in the kitchen."
-    },
-    {
-      "target": "Ayna temizliyorum.",
-      "en": "I am cleaning the mirror.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her hafta ayna temizlerim.",
-      "en": "I clean the mirror every week.",
-      "tense": "genis"
-    },
-    {
-      "target": "Geçen hafta ayna aldık.",
-      "en": "We bought the mirror last week.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın ayna tamir edeceğim.",
-      "en": "I will repair the mirror tomorrow.",
-      "tense": "gelecek"
+      "target": "Aynaya bak.",
+      "en": "Look in the mirror."
     }
   ],
   "ışık": [
@@ -6666,28 +5881,9 @@
   ],
   "süpürge": [
     {
-      "target": "Süpürge mutfakta.",
-      "en": "The broom is in the kitchen."
-    },
-    {
-      "target": "Süpürge temizliyorum.",
-      "en": "I am cleaning the broom.",
+      "target": "Süpürge çok hızlı uçuyor.",
+      "en": "The broomstick is flying very fast.",
       "tense": "simdiki"
-    },
-    {
-      "target": "Her hafta süpürge temizlerim.",
-      "en": "I clean the broom every week.",
-      "tense": "genis"
-    },
-    {
-      "target": "Geçen hafta süpürge aldık.",
-      "en": "We bought the broom last week.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın süpürge tamir edeceğim.",
-      "en": "I will repair the broom tomorrow.",
-      "tense": "gelecek"
     }
   ],
   "perde": [
@@ -6874,54 +6070,15 @@
   ],
   "merdiven": [
     {
-      "target": "Evde merdiven var.",
-      "en": "There is the staircase at home."
-    },
-    {
-      "target": "Merdiven temizliyorum.",
-      "en": "I am cleaning the staircase.",
+      "target": "Merdivenler hareket ediyor!",
+      "en": "The stairs are moving!",
       "tense": "simdiki"
-    },
-    {
-      "target": "Her hafta merdiven temizlerim.",
-      "en": "I clean the staircase every week.",
-      "tense": "genis"
-    },
-    {
-      "target": "Geçen hafta merdiven aldık.",
-      "en": "We bought the staircase last week.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın merdiven tamir edeceğim.",
-      "en": "I will repair the staircase tomorrow.",
-      "tense": "gelecek"
     }
   ],
   "koridor": [
     {
-      "target": "Koridor mutfakta.",
-      "en": "The corridor is in the kitchen."
-    },
-    {
-      "target": "Yeni bir koridor arıyoruz.",
-      "en": "We are looking for a new corridor.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her hafta koridor temizlerim.",
-      "en": "I clean the corridor every week.",
-      "tense": "genis"
-    },
-    {
-      "target": "Geçen hafta koridor aldık.",
-      "en": "We bought the corridor last week.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın koridor tamir edeceğim.",
-      "en": "I will repair the corridor tomorrow.",
-      "tense": "gelecek"
+      "target": "Koridor çok karanlık.",
+      "en": "The corridor is very dark."
     }
   ],
   "kapı zili": [
@@ -10028,28 +9185,8 @@
   ],
   "banka": [
     {
-      "target": "Banka nerede?",
-      "en": "Where is the bank?"
-    },
-    {
-      "target": "Banka arıyorum.",
-      "en": "I am looking for the bank.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her hafta banka görürüm.",
-      "en": "I see the bank every week.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün banka gördük.",
-      "en": "We saw the bank yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın banka göreceğiz.",
-      "en": "We will see the bank tomorrow.",
-      "tense": "gelecek"
+      "target": "Banka yerin altında.",
+      "en": "The bank is underground."
     }
   ],
   "postane": [
@@ -10222,28 +9359,8 @@
   ],
   "harita": [
     {
-      "target": "Harita çok yakın.",
-      "en": "The map is very near."
-    },
-    {
-      "target": "Harita arıyorum.",
-      "en": "I am looking for the map.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her hafta harita görürüm.",
-      "en": "I see the map every week.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün harita gördük.",
-      "en": "We saw the map yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın harita göreceğiz.",
-      "en": "We will see the map tomorrow.",
-      "tense": "gelecek"
+      "target": "Harita duvarda.",
+      "en": "The map is on the wall."
     }
   ],
   "mahalle": [
@@ -10274,28 +9391,8 @@
   ],
   "bina": [
     {
-      "target": "Bina çok yakın.",
-      "en": "The building is very near."
-    },
-    {
-      "target": "Bina arıyorum.",
-      "en": "I am looking for the building.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her hafta bina görürüm.",
-      "en": "I see the building every week.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün bina gördük.",
-      "en": "We saw the building yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın bina göreceğiz.",
-      "en": "We will see the building tomorrow.",
-      "tense": "gelecek"
+      "target": "Okulun dört binası var.",
+      "en": "The school has four houses."
     }
   ],
   "pansiyon": [
@@ -10436,28 +9533,9 @@
   ],
   "kütüphane": [
     {
-      "target": "Kütüphane nerede?",
-      "en": "Where is the library?"
-    },
-    {
-      "target": "Kütüphane arıyorum.",
-      "en": "I am looking for the library.",
+      "target": "Kütüphanede ders çalışıyorum.",
+      "en": "I'm studying in the library.",
       "tense": "simdiki"
-    },
-    {
-      "target": "Her hafta kütüphane görürüm.",
-      "en": "I see the library every week.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün kütüphane gördük.",
-      "en": "We saw the library yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın kütüphane göreceğiz.",
-      "en": "We will see the library tomorrow.",
-      "tense": "gelecek"
     }
   ],
   "sinema": [
@@ -10546,28 +9624,8 @@
   ],
   "tren istasyonu": [
     {
-      "target": "Tren istasyonu çok yakın.",
-      "en": "The train station is very near."
-    },
-    {
-      "target": "Tren istasyonu arıyorum.",
-      "en": "I am looking for the train station.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her hafta tren istasyonu görürüm.",
-      "en": "I see the train station every week.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün tren istasyonu gördük.",
-      "en": "We saw the train station yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın tren istasyonu göreceğiz.",
-      "en": "We will see the train station tomorrow.",
-      "tense": "gelecek"
+      "target": "Tren istasyonu çok kalabalık.",
+      "en": "The train station is very crowded."
     }
   ],
   "metro istasyonu": [
@@ -10832,54 +9890,14 @@
   ],
   "kale": [
     {
-      "target": "Kale nerede?",
-      "en": "Where is the castle?"
-    },
-    {
-      "target": "Kale arıyorum.",
-      "en": "I am looking for the castle.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her hafta kale görürüm.",
-      "en": "I see the castle every week.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün kale gördük.",
-      "en": "We saw the castle yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın kale göreceğiz.",
-      "en": "We will see the castle tomorrow.",
-      "tense": "gelecek"
+      "target": "Kale gölün yanında.",
+      "en": "The castle is by the lake."
     }
   ],
   "kule": [
     {
-      "target": "Kule çok yakın.",
-      "en": "The tower is very near."
-    },
-    {
-      "target": "Kule arıyorum.",
-      "en": "I am looking for the tower.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her hafta kule görürüm.",
-      "en": "I see the tower every week.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün kule gördük.",
-      "en": "We saw the tower yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın kule göreceğiz.",
-      "en": "We will see the tower tomorrow.",
-      "tense": "gelecek"
+      "target": "Kule çok yüksek.",
+      "en": "The tower is very tall."
     }
   ],
   "çarşı": [
@@ -11246,28 +10264,8 @@
   ],
   "rezervasyon": [
     {
-      "target": "Bende rezervasyon var.",
-      "en": "I have the reservation."
-    },
-    {
-      "target": "Rezervasyon arıyorum.",
-      "en": "I am looking for the reservation.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman rezervasyon taşırım.",
-      "en": "I always carry the reservation.",
-      "tense": "genis"
-    },
-    {
-      "target": "Rezervasyon kaybettim.",
-      "en": "I lost the reservation.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın rezervasyon alacağım.",
-      "en": "I will buy the reservation tomorrow.",
-      "tense": "gelecek"
+      "target": "Rezervasyonum var.",
+      "en": "I have a reservation."
     }
   ],
   "kahvaltı": [
@@ -11290,210 +10288,52 @@
   ],
   "içecek": [
     {
-      "target": "İçecek soğuk.",
-      "en": "Drink is cold."
-    },
-    {
-      "target": "İçecek istiyorum.",
-      "en": "I would like drink.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her gün içecek içerim.",
-      "en": "I drink drink every day.",
+      "target": "İçecek olarak ne alırsınız?",
+      "en": "What would you like to drink?",
       "tense": "genis"
-    },
-    {
-      "target": "Sabah içecek içtim.",
-      "en": "I drank drink in the morning.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Sonra içecek içeceğim.",
-      "en": "I will drink drink later.",
-      "tense": "gelecek"
     }
   ],
   "çatal": [
     {
-      "target": "Bu bir çatal.",
-      "en": "This is fork."
-    },
-    {
-      "target": "Çatal arıyorum.",
-      "en": "I am looking for the fork.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman çatal taşırım.",
-      "en": "I always carry the fork.",
-      "tense": "genis"
-    },
-    {
-      "target": "Çatal kaybettim.",
-      "en": "I lost the fork.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın çatal alacağım.",
-      "en": "I will buy the fork tomorrow.",
-      "tense": "gelecek"
+      "target": "Bir çatal alabilir miyim?",
+      "en": "Could I have a fork?"
     }
   ],
   "bıçak": [
     {
-      "target": "Bıçak nerede?",
-      "en": "Where is the knife?"
-    },
-    {
-      "target": "Bıçak arıyorum.",
-      "en": "I am looking for the knife.",
+      "target": "Bu bıçak kesmiyor.",
+      "en": "This knife doesn't cut.",
       "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman bıçak taşırım.",
-      "en": "I always carry the knife.",
-      "tense": "genis"
-    },
-    {
-      "target": "Bıçak kaybettim.",
-      "en": "I lost the knife.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın bıçak alacağım.",
-      "en": "I will buy the knife tomorrow.",
-      "tense": "gelecek"
     }
   ],
   "kaşık": [
     {
-      "target": "Bende kaşık var.",
-      "en": "I have the spoon."
-    },
-    {
-      "target": "Kaşık arıyorum.",
-      "en": "I am looking for the spoon.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman kaşık taşırım.",
-      "en": "I always carry the spoon.",
-      "tense": "genis"
-    },
-    {
-      "target": "Kaşık kaybettim.",
-      "en": "I lost the spoon.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın kaşık alacağım.",
-      "en": "I will buy the spoon tomorrow.",
-      "tense": "gelecek"
+      "target": "Kaşık masanın üstünde.",
+      "en": "The spoon is on the table."
     }
   ],
   "bardak": [
     {
-      "target": "Bu bir bardak.",
-      "en": "This is glass."
-    },
-    {
-      "target": "Bardak arıyorum.",
-      "en": "I am looking for the glass.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman bardak taşırım.",
-      "en": "I always carry the glass.",
-      "tense": "genis"
-    },
-    {
-      "target": "Bardak kaybettim.",
-      "en": "I lost the glass.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın bardak alacağım.",
-      "en": "I will buy the glass tomorrow.",
-      "tense": "gelecek"
+      "target": "Bir bardak su lütfen.",
+      "en": "A glass of water, please."
     }
   ],
   "tabak": [
     {
-      "target": "Tabak nerede?",
-      "en": "Where is the plate?"
-    },
-    {
-      "target": "Tabak arıyorum.",
-      "en": "I am looking for the plate.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman tabak taşırım.",
-      "en": "I always carry the plate.",
-      "tense": "genis"
-    },
-    {
-      "target": "Tabak kaybettim.",
-      "en": "I lost the plate.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın tabak alacağım.",
-      "en": "I will buy the plate tomorrow.",
-      "tense": "gelecek"
+      "target": "Tabak boş.",
+      "en": "The plate is empty."
     }
   ],
   "peçete": [
     {
-      "target": "Bende peçete var.",
-      "en": "I have the napkin."
-    },
-    {
-      "target": "Peçete arıyorum.",
-      "en": "I am looking for the napkin.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman peçete taşırım.",
-      "en": "I always carry the napkin.",
-      "tense": "genis"
-    },
-    {
-      "target": "Peçete kaybettim.",
-      "en": "I lost the napkin.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın peçete alacağım.",
-      "en": "I will buy the napkin tomorrow.",
-      "tense": "gelecek"
+      "target": "Bir peçete alabilir miyim?",
+      "en": "Could I have a napkin?"
     }
   ],
   "vejetaryen": [
     {
-      "target": "Bu bir vejetaryen.",
-      "en": "This is vegetarian."
-    },
-    {
-      "target": "Vejetaryen arıyorum.",
-      "en": "I am looking for the vegetarian.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman vejetaryen taşırım.",
-      "en": "I always carry the vegetarian.",
-      "tense": "genis"
-    },
-    {
-      "target": "Vejetaryen kaybettim.",
-      "en": "I lost the vegetarian.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın vejetaryen alacağım.",
-      "en": "I will buy the vegetarian tomorrow.",
-      "tense": "gelecek"
+      "target": "Arkadaşım vejetaryen.",
+      "en": "My friend is vegetarian."
     }
   ],
   "Paket olsun": [
@@ -11576,54 +10416,14 @@
   ],
   "meze": [
     {
-      "target": "Meze nerede?",
-      "en": "Where is the starter?"
-    },
-    {
-      "target": "Meze arıyorum.",
-      "en": "I am looking for the starter.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman meze taşırım.",
-      "en": "I always carry the starter.",
-      "tense": "genis"
-    },
-    {
-      "target": "Meze kaybettim.",
-      "en": "I lost the starter.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın meze alacağım.",
-      "en": "I will buy the starter tomorrow.",
-      "tense": "gelecek"
+      "target": "Önce birkaç meze alalım.",
+      "en": "Let's get a few mezes first."
     }
   ],
   "ana yemek": [
     {
-      "target": "Bende ana yemek var.",
-      "en": "I have the main course."
-    },
-    {
-      "target": "Ana yemek arıyorum.",
-      "en": "I am looking for the main course.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman ana yemek taşırım.",
-      "en": "I always carry the main course.",
-      "tense": "genis"
-    },
-    {
-      "target": "Ana yemek kaybettim.",
-      "en": "I lost the main course.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın ana yemek alacağım.",
-      "en": "I will buy the main course tomorrow.",
-      "tense": "gelecek"
+      "target": "Ana yemek hazır.",
+      "en": "The main course is ready."
     }
   ],
   "garnitür": [
@@ -11654,28 +10454,8 @@
   ],
   "günün yemeği": [
     {
-      "target": "Günün yemeği nerede?",
-      "en": "Where is the daily special?"
-    },
-    {
-      "target": "Günün yemeği arıyorum.",
-      "en": "I am looking for the daily special.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman günün yemeği taşırım.",
-      "en": "I always carry the daily special.",
-      "tense": "genis"
-    },
-    {
-      "target": "Günün yemeği kaybettim.",
-      "en": "I lost the daily special.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın günün yemeği alacağım.",
-      "en": "I will buy the daily special tomorrow.",
-      "tense": "gelecek"
+      "target": "Günün yemeği ne?",
+      "en": "What's the dish of the day?"
     }
   ],
   "içki listesi": [
@@ -11842,28 +10622,9 @@
   ],
   "nakit": [
     {
-      "target": "Nakit lazım.",
-      "en": "I need the cash."
-    },
-    {
-      "target": "Nakit arıyorum.",
-      "en": "I am looking for the cash.",
+      "target": "Nakit ödüyorum.",
+      "en": "I'm paying cash.",
       "tense": "simdiki"
-    },
-    {
-      "target": "Alışverişte nakit kullanırım.",
-      "en": "I use the cash when shopping.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün nakit aldım.",
-      "en": "I bought the cash yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın nakit alacağım.",
-      "en": "I will buy the cash tomorrow.",
-      "tense": "gelecek"
     }
   ],
   "fiyat": [
@@ -11996,28 +10757,8 @@
   ],
   "fiş": [
     {
-      "target": "Mağazada fiş var.",
-      "en": "There is the receipt in the shop."
-    },
-    {
-      "target": "Fiş arıyorum.",
-      "en": "I am looking for the receipt.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Alışverişte fiş kullanırım.",
-      "en": "I use the receipt when shopping.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün fiş aldım.",
-      "en": "I bought the receipt yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın fiş alacağım.",
-      "en": "I will buy the receipt tomorrow.",
-      "tense": "gelecek"
+      "target": "Fiş alabilir miyim?",
+      "en": "Could I have the receipt?"
     }
   ],
   "poşet": [
@@ -12216,28 +10957,8 @@
   ],
   "kart": [
     {
-      "target": "Kart lazım.",
-      "en": "I need the card."
-    },
-    {
-      "target": "Kart arıyorum.",
-      "en": "I am looking for the card.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Alışverişte kart kullanırım.",
-      "en": "I use the card when shopping.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün kart aldım.",
-      "en": "I bought the card yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın kart alacağım.",
-      "en": "I will buy the card tomorrow.",
-      "tense": "gelecek"
+      "target": "Kartla ödeyebilir miyim?",
+      "en": "Can I pay by card?"
     }
   ],
   "banka kartı": [
@@ -12788,28 +11509,8 @@
   ],
   "paket": [
     {
-      "target": "Paket lazım.",
-      "en": "I need the parcel."
-    },
-    {
-      "target": "Paket arıyorum.",
-      "en": "I am looking for the parcel.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Alışverişte paket kullanırım.",
-      "en": "I use the parcel when shopping.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün paket aldım.",
-      "en": "I bought the parcel yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın paket alacağım.",
-      "en": "I will buy the parcel tomorrow.",
-      "tense": "gelecek"
+      "target": "Paket yapar mısınız?",
+      "en": "Could you make it to take away?"
     }
   ],
   "vitrin": [
@@ -13594,54 +12295,15 @@
   ],
   "ses": [
     {
-      "target": "Bu bir ses.",
-      "en": "This is sound."
-    },
-    {
-      "target": "Ses kullanıyorum.",
-      "en": "I am using the sound.",
+      "target": "Sesini duyamıyorum.",
+      "en": "I can't hear your voice.",
       "tense": "simdiki"
-    },
-    {
-      "target": "İşte ses kullanırım.",
-      "en": "I use the sound at work.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün ses aldım.",
-      "en": "I bought the sound yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yeni bir ses alacağım.",
-      "en": "I will buy a new sound.",
-      "tense": "gelecek"
     }
   ],
   "bozuk": [
     {
-      "target": "Hava bugün bozuk.",
-      "en": "The weather is broken today."
-    },
-    {
-      "target": "Gittikçe bozuk oluyor.",
-      "en": "It is getting broken.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Sabahları bozuk olurum.",
-      "en": "I am broken in the mornings.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün çok bozuk oldum.",
-      "en": "I was very broken yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın daha bozuk olacak.",
-      "en": "It will be more broken tomorrow.",
-      "tense": "gelecek"
+      "target": "Asansör bozuk.",
+      "en": "The lift is out of order."
     }
   ],
   "çekim gücü": [
@@ -15230,28 +13892,9 @@
   ],
   "valiz": [
     {
-      "target": "Bu bir valiz.",
-      "en": "This is suitcase."
-    },
-    {
-      "target": "Valiz bekliyorum.",
-      "en": "I am waiting for the suitcase.",
+      "target": "Valizimi hazırlıyorum.",
+      "en": "I'm packing my suitcase.",
       "tense": "simdiki"
-    },
-    {
-      "target": "Her gün valiz kullanırım.",
-      "en": "I use the suitcase every day.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün valiz kaçırdım.",
-      "en": "I missed the suitcase yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın valiz alacağım.",
-      "en": "I will take the suitcase tomorrow.",
-      "tense": "gelecek"
     }
   ],
   "çıkış": [
@@ -15672,28 +14315,9 @@
   ],
   "peron": [
     {
-      "target": "Bu bir peron.",
-      "en": "This is platform."
-    },
-    {
-      "target": "Peron bekliyorum.",
-      "en": "I am waiting for the platform.",
+      "target": "Tren dokuzuncu perondan kalkıyor.",
+      "en": "The train leaves from platform nine.",
       "tense": "simdiki"
-    },
-    {
-      "target": "Her gün peron kullanırım.",
-      "en": "I use the platform every day.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün peron kaçırdım.",
-      "en": "I missed the platform yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın peron alacağım.",
-      "en": "I will take the platform tomorrow.",
-      "tense": "gelecek"
     }
   ],
   "bagaj": [
@@ -16530,54 +15154,15 @@
   ],
   "dağ": [
     {
-      "target": "Dağ çok güzel.",
-      "en": "The mountain is very beautiful."
-    },
-    {
-      "target": "Dağ izliyorum.",
-      "en": "I am watching the mountain.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Yazın dağ çok olur.",
-      "en": "In summer there is a lot of the mountain.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün dağ gördük.",
-      "en": "We saw the mountain yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın dağ göreceğiz.",
-      "en": "We will see the mountain tomorrow.",
-      "tense": "gelecek"
+      "target": "Dağ çok yüksek.",
+      "en": "The mountain is very high."
     }
   ],
   "orman": [
     {
-      "target": "Burada orman var.",
-      "en": "There is the forest here."
-    },
-    {
-      "target": "Orman izliyorum.",
-      "en": "I am watching the forest.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Yazın orman çok olur.",
-      "en": "In summer there is a lot of the forest.",
+      "target": "Hayvanlar ormanda yaşar.",
+      "en": "Animals live in the forest.",
       "tense": "genis"
-    },
-    {
-      "target": "Dün orman gördük.",
-      "en": "We saw the forest yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın orman göreceğiz.",
-      "en": "We will see the forest tomorrow.",
-      "tense": "gelecek"
     }
   ],
   "ağaç": [
@@ -16634,28 +15219,8 @@
   ],
   "hayvan": [
     {
-      "target": "Hayvan bahçede.",
-      "en": "The animal is in the garden."
-    },
-    {
-      "target": "Hayvan besliyorum.",
-      "en": "I am feeding the animal.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Köyde hayvan beslerim.",
-      "en": "I keep the animal in the village.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün hayvan gördüm.",
-      "en": "I saw the animal yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın hayvan göreceğiz.",
-      "en": "We will see the animal tomorrow.",
-      "tense": "gelecek"
+      "target": "Bu hayvan çok küçük.",
+      "en": "This animal is very small."
     }
   ],
   "kedi": [
@@ -16756,28 +15321,9 @@
   ],
   "gölge": [
     {
-      "target": "Gölge çok güzel.",
-      "en": "The shade is very beautiful."
-    },
-    {
-      "target": "Gölge izliyorum.",
-      "en": "I am watching the shade.",
+      "target": "Duvarda bir gölge hareket ediyor.",
+      "en": "A shadow is moving on the wall.",
       "tense": "simdiki"
-    },
-    {
-      "target": "Yazın gölge çok olur.",
-      "en": "In summer there is a lot of the shade.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün gölge gördük.",
-      "en": "We saw the shade yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın gölge göreceğiz.",
-      "en": "We will see the shade tomorrow.",
-      "tense": "gelecek"
     }
   ],
   "sıcak dalgası": [
@@ -17042,54 +15588,15 @@
   ],
   "karınca": [
     {
-      "target": "Bu bir karınca.",
-      "en": "This is ant."
-    },
-    {
-      "target": "Karınca besliyorum.",
-      "en": "I am feeding the ant.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Köyde karınca beslerim.",
-      "en": "I keep the ant in the village.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün karınca gördüm.",
-      "en": "I saw the ant yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın karınca göreceğiz.",
-      "en": "We will see the ant tomorrow.",
-      "tense": "gelecek"
+      "target": "Karıncalar çok çalışkan.",
+      "en": "Ants are very hard-working."
     }
   ],
   "sivrisinek": [
     {
-      "target": "Sivrisinek bahçede.",
-      "en": "The mosquito is in the garden."
-    },
-    {
-      "target": "Sivrisinek besliyorum.",
-      "en": "I am feeding the mosquito.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Köyde sivrisinek beslerim.",
-      "en": "I keep the mosquito in the village.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün sivrisinek gördüm.",
-      "en": "I saw the mosquito yesterday.",
+      "target": "Sivrisinek beni ısırdı.",
+      "en": "A mosquito bit me.",
       "tense": "gecmis"
-    },
-    {
-      "target": "Yarın sivrisinek göreceğiz.",
-      "en": "We will see the mosquito tomorrow.",
-      "tense": "gelecek"
     }
   ],
   "örümcek": [
@@ -17210,28 +15717,9 @@
   ],
   "müdür": [
     {
-      "target": "Müdür çok kibar.",
-      "en": "The manager is very kind."
-    },
-    {
-      "target": "Müdür bekliyorum.",
-      "en": "I am waiting for the manager.",
+      "target": "Müdür seni çağırıyor.",
+      "en": "The head teacher wants to see you.",
       "tense": "simdiki"
-    },
-    {
-      "target": "Her hafta müdür görürüm.",
-      "en": "I see the manager every week.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün müdür gördüm.",
-      "en": "I saw the manager yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın müdür göreceğim.",
-      "en": "I will see the manager tomorrow.",
-      "tense": "gelecek"
     }
   ],
   "çalışan": [
@@ -17288,184 +15776,48 @@
   ],
   "öğretmen": [
     {
-      "target": "Bu bir öğretmen.",
-      "en": "This is teacher."
-    },
-    {
-      "target": "Öğretmen bekliyorum.",
-      "en": "I am waiting for the teacher.",
+      "target": "Öğretmen şimdi konuşuyor.",
+      "en": "The teacher is speaking now.",
       "tense": "simdiki"
-    },
-    {
-      "target": "Her hafta öğretmen görürüm.",
-      "en": "I see the teacher every week.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün öğretmen gördüm.",
-      "en": "I saw the teacher yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın öğretmen göreceğim.",
-      "en": "I will see the teacher tomorrow.",
-      "tense": "gelecek"
     }
   ],
   "öğrenci": [
     {
-      "target": "Öğrenci çok kibar.",
-      "en": "The student is very kind."
-    },
-    {
-      "target": "Öğrenci bekliyorum.",
-      "en": "I am waiting for the student.",
+      "target": "Öğrenci kitap okuyor.",
+      "en": "The student is reading a book.",
       "tense": "simdiki"
-    },
-    {
-      "target": "Her hafta öğrenci görürüm.",
-      "en": "I see the student every week.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün öğrenci gördüm.",
-      "en": "I saw the student yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın öğrenci göreceğim.",
-      "en": "I will see the student tomorrow.",
-      "tense": "gelecek"
     }
   ],
   "üniversite": [
     {
-      "target": "İşte üniversite var.",
-      "en": "There is the university at work."
-    },
-    {
-      "target": "Üniversite hakkında konuşuyoruz.",
-      "en": "We are talking about the university.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her hafta üniversite görürüm.",
-      "en": "I see the university every week.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün üniversite gördüm.",
-      "en": "I saw the university yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın üniversite göreceğim.",
-      "en": "I will see the university tomorrow.",
-      "tense": "gelecek"
+      "target": "Üniversite evimden uzak.",
+      "en": "The university is far from my house."
     }
   ],
   "ders": [
     {
-      "target": "Ders çok önemli.",
-      "en": "The lesson is very important."
-    },
-    {
-      "target": "Ders hakkında konuşuyoruz.",
-      "en": "We are talking about the lesson.",
+      "target": "Ders saat dokuzda başlıyor.",
+      "en": "The lesson starts at nine o'clock.",
       "tense": "simdiki"
-    },
-    {
-      "target": "Her hafta ders görürüm.",
-      "en": "I see the lesson every week.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün ders gördüm.",
-      "en": "I saw the lesson yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın ders göreceğim.",
-      "en": "I will see the lesson tomorrow.",
-      "tense": "gelecek"
     }
   ],
   "sınav": [
     {
-      "target": "İşte sınav var.",
-      "en": "There is the exam at work."
-    },
-    {
-      "target": "Sınav hakkında konuşuyoruz.",
-      "en": "We are talking about the exam.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her hafta sınav görürüm.",
-      "en": "I see the exam every week.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün sınav gördüm.",
-      "en": "I saw the exam yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın sınav göreceğim.",
-      "en": "I will see the exam tomorrow.",
-      "tense": "gelecek"
+      "target": "Yarın matematik sınavım var.",
+      "en": "I have a maths exam tomorrow."
     }
   ],
   "ödev": [
     {
-      "target": "Ödev çok önemli.",
-      "en": "The homework is very important."
-    },
-    {
-      "target": "Ödev hakkında konuşuyoruz.",
-      "en": "We are talking about the homework.",
+      "target": "Akşam ödevimi yapıyorum.",
+      "en": "I'm doing my homework this evening.",
       "tense": "simdiki"
-    },
-    {
-      "target": "Her hafta ödev görürüm.",
-      "en": "I see the homework every week.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün ödev gördüm.",
-      "en": "I saw the homework yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın ödev göreceğim.",
-      "en": "I will see the homework tomorrow.",
-      "tense": "gelecek"
     }
   ],
   "defter": [
     {
-      "target": "İşte defter var.",
-      "en": "There is the notebook at work."
-    },
-    {
-      "target": "Defter hakkında konuşuyoruz.",
-      "en": "We are talking about the notebook.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her hafta defter görürüm.",
-      "en": "I see the notebook every week.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün defter gördüm.",
-      "en": "I saw the notebook yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın defter göreceğim.",
-      "en": "I will see the notebook tomorrow.",
-      "tense": "gelecek"
+      "target": "Defterim masanın üstünde.",
+      "en": "My notebook is on the table."
     }
   ],
   "toplantı": [
@@ -17840,28 +16192,9 @@
   ],
   "teneffüs": [
     {
-      "target": "Teneffüs çok önemli.",
-      "en": "The break is very important."
-    },
-    {
-      "target": "Teneffüs hakkında konuşuyoruz.",
-      "en": "We are talking about the break.",
+      "target": "Teneffüste bahçede oynuyoruz.",
+      "en": "We play outside at break.",
       "tense": "simdiki"
-    },
-    {
-      "target": "Her hafta teneffüs görürüm.",
-      "en": "I see the break every week.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün teneffüs gördüm.",
-      "en": "I saw the break yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın teneffüs göreceğim.",
-      "en": "I will see the break tomorrow.",
-      "tense": "gelecek"
     }
   ],
   "evi": [
@@ -18592,62 +16925,14 @@
   ],
   "şekersiz": [
     {
-      "target": "Bu bir şekersiz.",
-      "en": "This is the without sugar."
-    },
-    {
-      "target": "Şekersiz nerede?",
-      "en": "Where is the without sugar?"
-    },
-    {
-      "target": "Şekersiz istiyorum.",
-      "en": "I want the without sugar.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her gün şekersiz görürüm.",
-      "en": "I see the without sugar every day.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün şekersiz aldım.",
-      "en": "I bought the without sugar yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın şekersiz alacağım.",
-      "en": "I will buy the without sugar tomorrow.",
-      "tense": "gelecek"
+      "target": "Şekersiz olsun lütfen.",
+      "en": "Without sugar, please."
     }
   ],
   "şekerli": [
     {
-      "target": "Bu bir şekerli.",
-      "en": "This is the with sugar."
-    },
-    {
-      "target": "Şekerli nerede?",
-      "en": "Where is the with sugar?"
-    },
-    {
-      "target": "Şekerli istiyorum.",
-      "en": "I want the with sugar.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her gün şekerli görürüm.",
-      "en": "I see the with sugar every day.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün şekerli aldım.",
-      "en": "I bought the with sugar yesterday.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yarın şekerli alacağım.",
-      "en": "I will buy the with sugar tomorrow.",
-      "tense": "gelecek"
+      "target": "Kahveniz şekerli mi olsun?",
+      "en": "Would you like your coffee with sugar?"
     }
   ],
   "öğrenciyim": [
@@ -19332,6 +17617,10 @@
     {
       "target": "Acılı kebap istiyorum.",
       "en": "I would like spicy kebab."
+    },
+    {
+      "target": "Adana kebabı acılıdır.",
+      "en": "Adana kebab is spicy."
     }
   ],
   "nefis": [
@@ -19558,80 +17847,16 @@
   ],
   "at": [
     {
-      "target": "At burada.",
-      "en": "The horse is here."
-    },
-    {
-      "target": "At nerede?",
-      "en": "Where is the horse?"
-    },
-    {
-      "target": "At çok önemli.",
-      "en": "The horse is very important."
-    },
-    {
-      "target": "Şimdi at hakkında konuşuyoruz.",
-      "en": "We are talking about the horse now.",
+      "target": "At çok hızlı koşuyor.",
+      "en": "The horse is running very fast.",
       "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman at hakkında konuşuruz.",
-      "en": "We always talk about the horse.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün at hakkında konuştuk.",
-      "en": "Yesterday we talked about the horse.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "At önemliymiş.",
-      "en": "The horse is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın at hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the horse.",
-      "tense": "gelecek"
     }
   ],
   "inek": [
     {
-      "target": "İnek burada.",
-      "en": "The cow is here."
-    },
-    {
-      "target": "İnek nerede?",
-      "en": "Where is the cow?"
-    },
-    {
-      "target": "İnek çok önemli.",
-      "en": "The cow is very important."
-    },
-    {
-      "target": "Şimdi inek hakkında konuşuyoruz.",
-      "en": "We are talking about the cow now.",
+      "target": "İnek tarlada otluyor.",
+      "en": "The cow is grazing in the field.",
       "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman inek hakkında konuşuruz.",
-      "en": "We always talk about the cow.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün inek hakkında konuştuk.",
-      "en": "Yesterday we talked about the cow.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "İnek önemliymiş.",
-      "en": "The cow is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın inek hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the cow.",
-      "tense": "gelecek"
     }
   ],
   "koyun": [
@@ -19646,41 +17871,9 @@
   ],
   "keçi": [
     {
-      "target": "Keçi burada.",
-      "en": "The goat is here."
-    },
-    {
-      "target": "Keçi nerede?",
-      "en": "Where is the goat?"
-    },
-    {
-      "target": "Keçi çok önemli.",
-      "en": "The goat is very important."
-    },
-    {
-      "target": "Şimdi keçi hakkında konuşuyoruz.",
-      "en": "We are talking about the goat now.",
+      "target": "Keçi ot yiyor.",
+      "en": "The goat is eating grass.",
       "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman keçi hakkında konuşuruz.",
-      "en": "We always talk about the goat.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün keçi hakkında konuştuk.",
-      "en": "Yesterday we talked about the goat.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Keçi önemliymiş.",
-      "en": "The goat is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın keçi hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the goat.",
-      "tense": "gelecek"
     }
   ],
   "kuzu": [
@@ -19691,41 +17884,9 @@
   ],
   "tavşan": [
     {
-      "target": "Tavşan burada.",
-      "en": "The rabbit is here."
-    },
-    {
-      "target": "Tavşan nerede?",
-      "en": "Where is the rabbit?"
-    },
-    {
-      "target": "Tavşan çok önemli.",
-      "en": "The rabbit is very important."
-    },
-    {
-      "target": "Şimdi tavşan hakkında konuşuyoruz.",
-      "en": "We are talking about the rabbit now.",
+      "target": "Tavşan havuç yiyor.",
+      "en": "The rabbit is eating a carrot.",
       "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman tavşan hakkında konuşuruz.",
-      "en": "We always talk about the rabbit.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün tavşan hakkında konuştuk.",
-      "en": "Yesterday we talked about the rabbit.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Tavşan önemliymiş.",
-      "en": "The rabbit is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın tavşan hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the rabbit.",
-      "tense": "gelecek"
     }
   ],
   "fare": [
@@ -19742,41 +17903,8 @@
   ],
   "kaplan": [
     {
-      "target": "Kaplan burada.",
-      "en": "The tiger is here."
-    },
-    {
-      "target": "Kaplan nerede?",
-      "en": "Where is the tiger?"
-    },
-    {
-      "target": "Kaplan çok önemli.",
-      "en": "The tiger is very important."
-    },
-    {
-      "target": "Şimdi kaplan hakkında konuşuyoruz.",
-      "en": "We are talking about the tiger now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman kaplan hakkında konuşuruz.",
-      "en": "We always talk about the tiger.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün kaplan hakkında konuştuk.",
-      "en": "Yesterday we talked about the tiger.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Kaplan önemliymiş.",
-      "en": "The tiger is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın kaplan hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the tiger.",
-      "tense": "gelecek"
+      "target": "Kaplan çok hızlı.",
+      "en": "The tiger is very fast."
     }
   ],
   "ayı": [
@@ -19791,80 +17919,15 @@
   ],
   "kurt": [
     {
-      "target": "Kurt burada.",
-      "en": "The wolf is here."
-    },
-    {
-      "target": "Kurt nerede?",
-      "en": "Where is the wolf?"
-    },
-    {
-      "target": "Kurt çok önemli.",
-      "en": "The wolf is very important."
-    },
-    {
-      "target": "Şimdi kurt hakkında konuşuyoruz.",
-      "en": "We are talking about the wolf now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman kurt hakkında konuşuruz.",
-      "en": "We always talk about the wolf.",
+      "target": "Kurtlar geceleri ulur.",
+      "en": "Wolves howl at night.",
       "tense": "genis"
-    },
-    {
-      "target": "Dün kurt hakkında konuştuk.",
-      "en": "Yesterday we talked about the wolf.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Kurt önemliymiş.",
-      "en": "The wolf is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın kurt hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the wolf.",
-      "tense": "gelecek"
     }
   ],
   "tilki": [
     {
-      "target": "Tilki burada.",
-      "en": "The fox is here."
-    },
-    {
-      "target": "Tilki nerede?",
-      "en": "Where is the fox?"
-    },
-    {
-      "target": "Tilki çok önemli.",
-      "en": "The fox is very important."
-    },
-    {
-      "target": "Şimdi tilki hakkında konuşuyoruz.",
-      "en": "We are talking about the fox now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman tilki hakkında konuşuruz.",
-      "en": "We always talk about the fox.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün tilki hakkında konuştuk.",
-      "en": "Yesterday we talked about the fox.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Tilki önemliymiş.",
-      "en": "The fox is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın tilki hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the fox.",
-      "tense": "gelecek"
+      "target": "Tilki çok kurnaz.",
+      "en": "The fox is very cunning."
     }
   ],
   "fil": [
@@ -19992,41 +18055,8 @@
   ],
   "yılan": [
     {
-      "target": "Yılan burada.",
-      "en": "The snake is here."
-    },
-    {
-      "target": "Yılan nerede?",
-      "en": "Where is the snake?"
-    },
-    {
-      "target": "Yılan çok önemli.",
-      "en": "The snake is very important."
-    },
-    {
-      "target": "Şimdi yılan hakkında konuşuyoruz.",
-      "en": "We are talking about the snake now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman yılan hakkında konuşuruz.",
-      "en": "We always talk about the snake.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün yılan hakkında konuştuk.",
-      "en": "Yesterday we talked about the snake.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yılan önemliymiş.",
-      "en": "The snake is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın yılan hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the snake.",
-      "tense": "gelecek"
+      "target": "Bu yılan tehlikeli.",
+      "en": "This snake is dangerous."
     }
   ],
   "kaplumbağa": [
@@ -20043,236 +18073,40 @@
   ],
   "kelebek": [
     {
-      "target": "Kelebek burada.",
-      "en": "The butterfly is here."
-    },
-    {
-      "target": "Kelebek nerede?",
-      "en": "Where is the butterfly?"
-    },
-    {
-      "target": "Kelebek çok önemli.",
-      "en": "The butterfly is very important."
-    },
-    {
-      "target": "Şimdi kelebek hakkında konuşuyoruz.",
-      "en": "We are talking about the butterfly now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman kelebek hakkında konuşuruz.",
-      "en": "We always talk about the butterfly.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün kelebek hakkında konuştuk.",
-      "en": "Yesterday we talked about the butterfly.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Kelebek önemliymiş.",
-      "en": "The butterfly is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın kelebek hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the butterfly.",
-      "tense": "gelecek"
+      "target": "Bahçede güzel bir kelebek var.",
+      "en": "There's a beautiful butterfly in the garden."
     }
   ],
   "arı": [
     {
-      "target": "Arı burada.",
-      "en": "The bee is here."
-    },
-    {
-      "target": "Arı nerede?",
-      "en": "Where is the bee?"
-    },
-    {
-      "target": "Arı çok önemli.",
-      "en": "The bee is very important."
-    },
-    {
-      "target": "Şimdi arı hakkında konuşuyoruz.",
-      "en": "We are talking about the bee now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman arı hakkında konuşuruz.",
-      "en": "We always talk about the bee.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün arı hakkında konuştuk.",
-      "en": "Yesterday we talked about the bee.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Arı önemliymiş.",
-      "en": "The bee is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın arı hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the bee.",
-      "tense": "gelecek"
+      "target": "Arı çiçeğin üstünde.",
+      "en": "The bee is on the flower."
     }
   ],
   "sinek": [
     {
-      "target": "Sinek burada.",
-      "en": "The fly is here."
-    },
-    {
-      "target": "Sinek nerede?",
-      "en": "Where is the fly?"
-    },
-    {
-      "target": "Sinek çok önemli.",
-      "en": "The fly is very important."
-    },
-    {
-      "target": "Şimdi sinek hakkında konuşuyoruz.",
-      "en": "We are talking about the fly now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman sinek hakkında konuşuruz.",
-      "en": "We always talk about the fly.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün sinek hakkında konuştuk.",
-      "en": "Yesterday we talked about the fly.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Sinek önemliymiş.",
-      "en": "The fly is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın sinek hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the fly.",
-      "tense": "gelecek"
+      "target": "Odada bir sinek var.",
+      "en": "There's a fly in the room."
     }
   ],
   "horoz": [
     {
-      "target": "Horoz burada.",
-      "en": "The rooster is here."
-    },
-    {
-      "target": "Horoz nerede?",
-      "en": "Where is the rooster?"
-    },
-    {
-      "target": "Horoz çok önemli.",
-      "en": "The rooster is very important."
-    },
-    {
-      "target": "Şimdi horoz hakkında konuşuyoruz.",
-      "en": "We are talking about the rooster now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman horoz hakkında konuşuruz.",
-      "en": "We always talk about the rooster.",
+      "target": "Horoz her sabah öter.",
+      "en": "The rooster crows every morning.",
       "tense": "genis"
-    },
-    {
-      "target": "Dün horoz hakkında konuştuk.",
-      "en": "Yesterday we talked about the rooster.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Horoz önemliymiş.",
-      "en": "The rooster is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın horoz hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the rooster.",
-      "tense": "gelecek"
     }
   ],
   "ördek": [
     {
-      "target": "Ördek burada.",
-      "en": "The duck is here."
-    },
-    {
-      "target": "Ördek nerede?",
-      "en": "Where is the duck?"
-    },
-    {
-      "target": "Ördek çok önemli.",
-      "en": "The duck is very important."
-    },
-    {
-      "target": "Şimdi ördek hakkında konuşuyoruz.",
-      "en": "We are talking about the duck now.",
+      "target": "Ördek gölette yüzüyor.",
+      "en": "The duck is swimming in the pond.",
       "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman ördek hakkında konuşuruz.",
-      "en": "We always talk about the duck.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün ördek hakkında konuştuk.",
-      "en": "Yesterday we talked about the duck.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Ördek önemliymiş.",
-      "en": "The duck is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın ördek hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the duck.",
-      "tense": "gelecek"
     }
   ],
   "kaz": [
     {
-      "target": "Kaz burada.",
-      "en": "The goose is here."
-    },
-    {
-      "target": "Kaz nerede?",
-      "en": "Where is the goose?"
-    },
-    {
-      "target": "Kaz çok önemli.",
-      "en": "The goose is very important."
-    },
-    {
-      "target": "Şimdi kaz hakkında konuşuyoruz.",
-      "en": "We are talking about the goose now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman kaz hakkında konuşuruz.",
-      "en": "We always talk about the goose.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün kaz hakkında konuştuk.",
-      "en": "Yesterday we talked about the goose.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Kaz önemliymiş.",
-      "en": "The goose is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın kaz hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the goose.",
-      "tense": "gelecek"
+      "target": "Kazlar çok gürültülü.",
+      "en": "The geese are very noisy."
     }
   ],
   "güvercin": [
@@ -20316,80 +18150,16 @@
   ],
   "baykuş": [
     {
-      "target": "Baykuş burada.",
-      "en": "The owl is here."
-    },
-    {
-      "target": "Baykuş nerede?",
-      "en": "Where is the owl?"
-    },
-    {
-      "target": "Baykuş çok önemli.",
-      "en": "The owl is very important."
-    },
-    {
-      "target": "Şimdi baykuş hakkında konuşuyoruz.",
-      "en": "We are talking about the owl now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman baykuş hakkında konuşuruz.",
-      "en": "We always talk about the owl.",
+      "target": "Baykuşlar geceleri uçar.",
+      "en": "Owls fly at night.",
       "tense": "genis"
-    },
-    {
-      "target": "Dün baykuş hakkında konuştuk.",
-      "en": "Yesterday we talked about the owl.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Baykuş önemliymiş.",
-      "en": "The owl is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın baykuş hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the owl.",
-      "tense": "gelecek"
     }
   ],
   "kartal": [
     {
-      "target": "Kartal burada.",
-      "en": "The eagle is here."
-    },
-    {
-      "target": "Kartal nerede?",
-      "en": "Where is the eagle?"
-    },
-    {
-      "target": "Kartal çok önemli.",
-      "en": "The eagle is very important."
-    },
-    {
-      "target": "Şimdi kartal hakkında konuşuyoruz.",
-      "en": "We are talking about the eagle now.",
+      "target": "Kartal yüksekte uçuyor.",
+      "en": "The eagle is flying high.",
       "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman kartal hakkında konuşuruz.",
-      "en": "We always talk about the eagle.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün kartal hakkında konuştuk.",
-      "en": "Yesterday we talked about the eagle.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Kartal önemliymiş.",
-      "en": "The eagle is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın kartal hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the eagle.",
-      "tense": "gelecek"
     }
   ],
   "papağan": [
@@ -20433,41 +18203,8 @@
   ],
   "yunus": [
     {
-      "target": "Yunus burada.",
-      "en": "The dolphin is here."
-    },
-    {
-      "target": "Yunus nerede?",
-      "en": "Where is the dolphin?"
-    },
-    {
-      "target": "Yunus çok önemli.",
-      "en": "The dolphin is very important."
-    },
-    {
-      "target": "Şimdi yunus hakkında konuşuyoruz.",
-      "en": "We are talking about the dolphin now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman yunus hakkında konuşuruz.",
-      "en": "We always talk about the dolphin.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün yunus hakkında konuştuk.",
-      "en": "Yesterday we talked about the dolphin.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yunus önemliymiş.",
-      "en": "The dolphin is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın yunus hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the dolphin.",
-      "tense": "gelecek"
+      "target": "Yunuslar çok zeki.",
+      "en": "Dolphins are very clever."
     }
   ],
   "köpekbalığı": [
@@ -20667,41 +18404,8 @@
   ],
   "evcil hayvan": [
     {
-      "target": "Evcil hayvan burada.",
-      "en": "The pet is here."
-    },
-    {
-      "target": "Evcil hayvan nerede?",
-      "en": "Where is the pet?"
-    },
-    {
-      "target": "Evcil hayvan çok önemli.",
-      "en": "The pet is very important."
-    },
-    {
-      "target": "Şimdi evcil hayvan hakkında konuşuyoruz.",
-      "en": "We are talking about the pet now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman evcil hayvan hakkında konuşuruz.",
-      "en": "We always talk about the pet.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün evcil hayvan hakkında konuştuk.",
-      "en": "Yesterday we talked about the pet.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Evcil hayvan önemliymiş.",
-      "en": "The pet is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın evcil hayvan hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the pet.",
-      "tense": "gelecek"
+      "target": "Evcil hayvanın var mı?",
+      "en": "Do you have a pet?"
     }
   ],
   "hayvanat bahçesi": [
@@ -20823,80 +18527,15 @@
   ],
   "kuyruk": [
     {
-      "target": "Kuyruk burada.",
-      "en": "The tail is here."
-    },
-    {
-      "target": "Kuyruk nerede?",
-      "en": "Where is the tail?"
-    },
-    {
-      "target": "Kuyruk çok önemli.",
-      "en": "The tail is very important."
-    },
-    {
-      "target": "Şimdi kuyruk hakkında konuşuyoruz.",
-      "en": "We are talking about the tail now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman kuyruk hakkında konuşuruz.",
-      "en": "We always talk about the tail.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün kuyruk hakkında konuştuk.",
-      "en": "Yesterday we talked about the tail.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Kuyruk önemliymiş.",
-      "en": "The tail is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın kuyruk hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the tail.",
-      "tense": "gelecek"
+      "target": "Postanede uzun bir kuyruk var.",
+      "en": "There's a long queue at the post office."
     }
   ],
   "kanat": [
     {
-      "target": "Kanat burada.",
-      "en": "The wing is here."
-    },
-    {
-      "target": "Kanat nerede?",
-      "en": "Where is the wing?"
-    },
-    {
-      "target": "Kanat çok önemli.",
-      "en": "The wing is very important."
-    },
-    {
-      "target": "Şimdi kanat hakkında konuşuyoruz.",
-      "en": "We are talking about the wing now.",
+      "target": "Kuş kanatlarını açıyor.",
+      "en": "The bird is spreading its wings.",
       "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman kanat hakkında konuşuruz.",
-      "en": "We always talk about the wing.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün kanat hakkında konuştuk.",
-      "en": "Yesterday we talked about the wing.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Kanat önemliymiş.",
-      "en": "The wing is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın kanat hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the wing.",
-      "tense": "gelecek"
     }
   ],
   "pati": [
@@ -22851,197 +20490,34 @@
   ],
   "kuzen": [
     {
-      "target": "Kuzen burada.",
-      "en": "The cousin is here."
-    },
-    {
-      "target": "Kuzen nerede?",
-      "en": "Where is the cousin?"
-    },
-    {
-      "target": "Kuzen çok önemli.",
-      "en": "The cousin is very important."
-    },
-    {
-      "target": "Şimdi kuzen hakkında konuşuyoruz.",
-      "en": "We are talking about the cousin now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman kuzen hakkında konuşuruz.",
-      "en": "We always talk about the cousin.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün kuzen hakkında konuştuk.",
-      "en": "Yesterday we talked about the cousin.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Kuzen önemliymiş.",
-      "en": "The cousin is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın kuzen hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the cousin.",
-      "tense": "gelecek"
+      "target": "Kuzeni çok şımarık.",
+      "en": "His cousin is very spoiled."
     }
   ],
   "teyze": [
     {
-      "target": "Teyze burada.",
-      "en": "The aunt is here."
-    },
-    {
-      "target": "Teyze nerede?",
-      "en": "Where is the aunt?"
-    },
-    {
-      "target": "Teyze çok önemli.",
-      "en": "The aunt is very important."
-    },
-    {
-      "target": "Şimdi teyze hakkında konuşuyoruz.",
-      "en": "We are talking about the aunt now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman teyze hakkında konuşuruz.",
-      "en": "We always talk about the aunt.",
+      "target": "Teyzem her hafta bizi arar.",
+      "en": "My aunt calls us every week.",
       "tense": "genis"
-    },
-    {
-      "target": "Dün teyze hakkında konuştuk.",
-      "en": "Yesterday we talked about the aunt.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Teyze önemliymiş.",
-      "en": "The aunt is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın teyze hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the aunt.",
-      "tense": "gelecek"
     }
   ],
   "hala": [
     {
-      "target": "Hala burada.",
-      "en": "The aunt is here."
-    },
-    {
-      "target": "Hala nerede?",
-      "en": "Where is the aunt?"
-    },
-    {
-      "target": "Hala çok önemli.",
-      "en": "The aunt is very important."
-    },
-    {
-      "target": "Şimdi hala hakkında konuşuyoruz.",
-      "en": "We are talking about the aunt now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman hala hakkında konuşuruz.",
-      "en": "We always talk about the aunt.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün hala hakkında konuştuk.",
-      "en": "Yesterday we talked about the aunt.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Hala önemliymiş.",
-      "en": "The aunt is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın hala hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the aunt.",
-      "tense": "gelecek"
+      "target": "Halası çok sert.",
+      "en": "His aunt is very strict."
     }
   ],
   "amca": [
     {
-      "target": "Amca burada.",
-      "en": "The uncle is here."
-    },
-    {
-      "target": "Amca nerede?",
-      "en": "Where is the uncle?"
-    },
-    {
-      "target": "Amca çok önemli.",
-      "en": "The uncle is very important."
-    },
-    {
-      "target": "Şimdi amca hakkında konuşuyoruz.",
-      "en": "We are talking about the uncle now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman amca hakkında konuşuruz.",
-      "en": "We always talk about the uncle.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün amca hakkında konuştuk.",
-      "en": "Yesterday we talked about the uncle.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Amca önemliymiş.",
-      "en": "The uncle is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın amca hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the uncle.",
-      "tense": "gelecek"
+      "target": "Amcası çok kızgın.",
+      "en": "His uncle is very angry."
     }
   ],
   "dayı": [
     {
-      "target": "Dayı burada.",
-      "en": "The uncle is here."
-    },
-    {
-      "target": "Dayı nerede?",
-      "en": "Where is the uncle?"
-    },
-    {
-      "target": "Dayı çok önemli.",
-      "en": "The uncle is very important."
-    },
-    {
-      "target": "Şimdi dayı hakkında konuşuyoruz.",
-      "en": "We are talking about the uncle now.",
+      "target": "Dayım İzmir'de yaşıyor.",
+      "en": "My uncle lives in İzmir.",
       "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman dayı hakkında konuşuruz.",
-      "en": "We always talk about the uncle.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün dayı hakkında konuştuk.",
-      "en": "Yesterday we talked about the uncle.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Dayı önemliymiş.",
-      "en": "The uncle is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın dayı hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the uncle.",
-      "tense": "gelecek"
     }
   ],
   "akraba": [
@@ -23442,41 +20918,8 @@
   ],
   "korku": [
     {
-      "target": "Korku burada.",
-      "en": "The fear is here."
-    },
-    {
-      "target": "Korku nerede?",
-      "en": "Where is the fear?"
-    },
-    {
-      "target": "Korku çok önemli.",
-      "en": "The fear is very important."
-    },
-    {
-      "target": "Şimdi korku hakkında konuşuyoruz.",
-      "en": "We are talking about the fear now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman korku hakkında konuşuruz.",
-      "en": "We always talk about the fear.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün korku hakkında konuştuk.",
-      "en": "Yesterday we talked about the fear.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Korku önemliymiş.",
-      "en": "The fear is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın korku hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the fear.",
-      "tense": "gelecek"
+      "target": "Gözlerinde korku var.",
+      "en": "There's fear in his eyes."
     }
   ],
   "öfke": [
@@ -24105,41 +21548,8 @@
   ],
   "maden suyu": [
     {
-      "target": "Maden suyu burada.",
-      "en": "The fizzy water is here."
-    },
-    {
-      "target": "Maden suyu nerede?",
-      "en": "Where is the fizzy water?"
-    },
-    {
-      "target": "Maden suyu çok önemli.",
-      "en": "The fizzy water is very important."
-    },
-    {
-      "target": "Şimdi maden suyu hakkında konuşuyoruz.",
-      "en": "We are talking about the fizzy water now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman maden suyu hakkında konuşuruz.",
-      "en": "We always talk about the fizzy water.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün maden suyu hakkında konuştuk.",
-      "en": "Yesterday we talked about the fizzy water.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Maden suyu önemliymiş.",
-      "en": "The fizzy water is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın maden suyu hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the fizzy water.",
-      "tense": "gelecek"
+      "target": "Bir maden suyu lütfen.",
+      "en": "A sparkling water, please."
     }
   ],
   "brokoli": [
@@ -25398,41 +22808,8 @@
   ],
   "porsiyon": [
     {
-      "target": "Porsiyon burada.",
-      "en": "The portion is here."
-    },
-    {
-      "target": "Porsiyon nerede?",
-      "en": "Where is the portion?"
-    },
-    {
-      "target": "Porsiyon çok önemli.",
-      "en": "The portion is very important."
-    },
-    {
-      "target": "Şimdi porsiyon hakkında konuşuyoruz.",
-      "en": "We are talking about the portion now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman porsiyon hakkında konuşuruz.",
-      "en": "We always talk about the portion.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün porsiyon hakkında konuştuk.",
-      "en": "Yesterday we talked about the portion.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Porsiyon önemliymiş.",
-      "en": "The portion is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın porsiyon hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the portion.",
-      "tense": "gelecek"
+      "target": "Porsiyonlar çok büyük.",
+      "en": "The portions are very big."
     }
   ],
   "kahvaltı sofrası": [
@@ -26256,41 +23633,9 @@
   ],
   "satranç": [
     {
-      "target": "Satranç burada.",
-      "en": "The chess is here."
-    },
-    {
-      "target": "Satranç nerede?",
-      "en": "Where is the chess?"
-    },
-    {
-      "target": "Satranç çok önemli.",
-      "en": "The chess is very important."
-    },
-    {
-      "target": "Şimdi satranç hakkında konuşuyoruz.",
-      "en": "We are talking about the chess now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman satranç hakkında konuşuruz.",
-      "en": "We always talk about the chess.",
+      "target": "Akşamları satranç oynarlar.",
+      "en": "They play chess in the evenings.",
       "tense": "genis"
-    },
-    {
-      "target": "Dün satranç hakkında konuştuk.",
-      "en": "Yesterday we talked about the chess.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Satranç önemliymiş.",
-      "en": "The chess is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın satranç hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the chess.",
-      "tense": "gelecek"
     }
   ],
   "kart oyunu": [
@@ -27231,41 +24576,9 @@
   ],
   "mum": [
     {
-      "target": "Mum burada.",
-      "en": "The candle is here."
-    },
-    {
-      "target": "Mum nerede?",
-      "en": "Where is the candle?"
-    },
-    {
-      "target": "Mum çok önemli.",
-      "en": "The candle is very important."
-    },
-    {
-      "target": "Şimdi mum hakkında konuşuyoruz.",
-      "en": "We are talking about the candle now.",
+      "target": "Masada mumlar yanıyor.",
+      "en": "Candles are burning on the table.",
       "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman mum hakkında konuşuruz.",
-      "en": "We always talk about the candle.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün mum hakkında konuştuk.",
-      "en": "Yesterday we talked about the candle.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Mum önemliymiş.",
-      "en": "The candle is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın mum hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the candle.",
-      "tense": "gelecek"
     }
   ],
   "komodin": [
@@ -27543,41 +24856,8 @@
   ],
   "makas": [
     {
-      "target": "Makas burada.",
-      "en": "The scissors are here."
-    },
-    {
-      "target": "Makas nerede?",
-      "en": "Where are the scissors?"
-    },
-    {
-      "target": "Makas çok önemli.",
-      "en": "The scissors are very important."
-    },
-    {
-      "target": "Şimdi makas hakkında konuşuyoruz.",
-      "en": "We are talking about the scissors now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman makas hakkında konuşuruz.",
-      "en": "We always talk about the scissors.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün makas hakkında konuştuk.",
-      "en": "Yesterday we talked about the scissors.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Makas önemliymiş.",
-      "en": "The scissors are important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın makas hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the scissors.",
-      "tense": "gelecek"
+      "target": "Makas masanın üstünde.",
+      "en": "The scissors are on the table."
     }
   ],
   "tarak": [
@@ -27660,41 +24940,8 @@
   ],
   "zarf": [
     {
-      "target": "Zarf burada.",
-      "en": "The envelope is here."
-    },
-    {
-      "target": "Zarf nerede?",
-      "en": "Where is the envelope?"
-    },
-    {
-      "target": "Zarf çok önemli.",
-      "en": "The envelope is very important."
-    },
-    {
-      "target": "Şimdi zarf hakkında konuşuyoruz.",
-      "en": "We are talking about the envelope now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman zarf hakkında konuşuruz.",
-      "en": "We always talk about the envelope.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün zarf hakkında konuştuk.",
-      "en": "Yesterday we talked about the envelope.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Zarf önemliymiş.",
-      "en": "The envelope is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın zarf hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the envelope.",
-      "tense": "gelecek"
+      "target": "Zarf çok eski.",
+      "en": "The envelope is very old."
     }
   ],
   "pul": [
@@ -27750,41 +24997,8 @@
   ],
   "yapıştırıcı": [
     {
-      "target": "Yapıştırıcı burada.",
-      "en": "The glue is here."
-    },
-    {
-      "target": "Yapıştırıcı nerede?",
-      "en": "Where is the glue?"
-    },
-    {
-      "target": "Yapıştırıcı çok önemli.",
-      "en": "The glue is very important."
-    },
-    {
-      "target": "Şimdi yapıştırıcı hakkında konuşuyoruz.",
-      "en": "We are talking about the glue now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman yapıştırıcı hakkında konuşuruz.",
-      "en": "We always talk about the glue.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün yapıştırıcı hakkında konuştuk.",
-      "en": "Yesterday we talked about the glue.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Yapıştırıcı önemliymiş.",
-      "en": "The glue is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın yapıştırıcı hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the glue.",
-      "tense": "gelecek"
+      "target": "Yapıştırıcın var mı?",
+      "en": "Do you have any glue?"
     }
   ],
   "kalemtıraş": [
@@ -29886,119 +27100,22 @@
   ],
   "kelime": [
     {
-      "target": "Kelime burada.",
-      "en": "The word is here."
-    },
-    {
-      "target": "Kelime nerede?",
-      "en": "Where is the word?"
-    },
-    {
-      "target": "Kelime çok önemli.",
-      "en": "The word is very important."
-    },
-    {
-      "target": "Şimdi kelime hakkında konuşuyoruz.",
-      "en": "We are talking about the word now.",
+      "target": "Bu kelimeyi bilmiyorum.",
+      "en": "I don't know this word.",
       "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman kelime hakkında konuşuruz.",
-      "en": "We always talk about the word.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün kelime hakkında konuştuk.",
-      "en": "Yesterday we talked about the word.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Kelime önemliymiş.",
-      "en": "The word is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın kelime hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the word.",
-      "tense": "gelecek"
     }
   ],
   "cümle": [
     {
-      "target": "Cümle burada.",
-      "en": "The sentence is here."
-    },
-    {
-      "target": "Cümle nerede?",
-      "en": "Where is the sentence?"
-    },
-    {
-      "target": "Cümle çok önemli.",
-      "en": "The sentence is very important."
-    },
-    {
-      "target": "Şimdi cümle hakkında konuşuyoruz.",
-      "en": "We are talking about the sentence now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman cümle hakkında konuşuruz.",
-      "en": "We always talk about the sentence.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün cümle hakkında konuştuk.",
-      "en": "Yesterday we talked about the sentence.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Cümle önemliymiş.",
-      "en": "The sentence is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın cümle hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the sentence.",
-      "tense": "gelecek"
+      "target": "Bir cümle yaz.",
+      "en": "Write a sentence."
     }
   ],
   "harf": [
     {
-      "target": "Harf burada.",
-      "en": "The letter is here."
-    },
-    {
-      "target": "Harf nerede?",
-      "en": "Where is the letter?"
-    },
-    {
-      "target": "Harf çok önemli.",
-      "en": "The letter is very important."
-    },
-    {
-      "target": "Şimdi harf hakkında konuşuyoruz.",
-      "en": "We are talking about the letter now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman harf hakkında konuşuruz.",
-      "en": "We always talk about the letter.",
+      "target": "Bu harf nasıl okunur?",
+      "en": "How do you pronounce this letter?",
       "tense": "genis"
-    },
-    {
-      "target": "Dün harf hakkında konuştuk.",
-      "en": "Yesterday we talked about the letter.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Harf önemliymiş.",
-      "en": "The letter is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın harf hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the letter.",
-      "tense": "gelecek"
     }
   ],
   "sayı": [
@@ -30042,80 +27159,14 @@
   ],
   "soru": [
     {
-      "target": "Soru burada.",
-      "en": "The question is here."
-    },
-    {
-      "target": "Soru nerede?",
-      "en": "Where is the question?"
-    },
-    {
-      "target": "Soru çok önemli.",
-      "en": "The question is very important."
-    },
-    {
-      "target": "Şimdi soru hakkında konuşuyoruz.",
-      "en": "We are talking about the question now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman soru hakkında konuşuruz.",
-      "en": "We always talk about the question.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün soru hakkında konuştuk.",
-      "en": "Yesterday we talked about the question.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Soru önemliymiş.",
-      "en": "The question is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın soru hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the question.",
-      "tense": "gelecek"
+      "target": "Bir sorum var.",
+      "en": "I have a question."
     }
   ],
   "cevap": [
     {
-      "target": "Cevap burada.",
-      "en": "The answer is here."
-    },
-    {
-      "target": "Cevap nerede?",
-      "en": "Where is the answer?"
-    },
-    {
-      "target": "Cevap çok önemli.",
-      "en": "The answer is very important."
-    },
-    {
-      "target": "Şimdi cevap hakkında konuşuyoruz.",
-      "en": "We are talking about the answer now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman cevap hakkında konuşuruz.",
-      "en": "We always talk about the answer.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün cevap hakkında konuştuk.",
-      "en": "Yesterday we talked about the answer.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Cevap önemliymiş.",
-      "en": "The answer is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın cevap hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the answer.",
-      "tense": "gelecek"
+      "target": "Cevap doğru.",
+      "en": "The answer is correct."
     }
   ],
   "örnek": [
@@ -30159,80 +27210,14 @@
   ],
   "alıştırma": [
     {
-      "target": "Alıştırma burada.",
-      "en": "The exercise is here."
-    },
-    {
-      "target": "Alıştırma nerede?",
-      "en": "Where is the exercise?"
-    },
-    {
-      "target": "Alıştırma çok önemli.",
-      "en": "The exercise is very important."
-    },
-    {
-      "target": "Şimdi alıştırma hakkında konuşuyoruz.",
-      "en": "We are talking about the exercise now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman alıştırma hakkında konuşuruz.",
-      "en": "We always talk about the exercise.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün alıştırma hakkında konuştuk.",
-      "en": "Yesterday we talked about the exercise.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Alıştırma önemliymiş.",
-      "en": "The exercise is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın alıştırma hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the exercise.",
-      "tense": "gelecek"
+      "target": "Bu alıştırma kolay.",
+      "en": "This exercise is easy."
     }
   ],
   "sözlük": [
     {
-      "target": "Sözlük burada.",
-      "en": "The dictionary is here."
-    },
-    {
-      "target": "Sözlük nerede?",
-      "en": "Where is the dictionary?"
-    },
-    {
-      "target": "Sözlük çok önemli.",
-      "en": "The dictionary is very important."
-    },
-    {
-      "target": "Şimdi sözlük hakkında konuşuyoruz.",
-      "en": "We are talking about the dictionary now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman sözlük hakkında konuşuruz.",
-      "en": "We always talk about the dictionary.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün sözlük hakkında konuştuk.",
-      "en": "Yesterday we talked about the dictionary.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Sözlük önemliymiş.",
-      "en": "The dictionary is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın sözlük hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the dictionary.",
-      "tense": "gelecek"
+      "target": "Bu kelimeye sözlükte bak.",
+      "en": "Look this word up in the dictionary."
     }
   ],
   "çeviri": [
@@ -30510,41 +27495,8 @@
   ],
   "anlam": [
     {
-      "target": "Anlam burada.",
-      "en": "The meaning is here."
-    },
-    {
-      "target": "Anlam nerede?",
-      "en": "Where is the meaning?"
-    },
-    {
-      "target": "Anlam çok önemli.",
-      "en": "The meaning is very important."
-    },
-    {
-      "target": "Şimdi anlam hakkında konuşuyoruz.",
-      "en": "We are talking about the meaning now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman anlam hakkında konuşuruz.",
-      "en": "We always talk about the meaning.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün anlam hakkında konuştuk.",
-      "en": "Yesterday we talked about the meaning.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Anlam önemliymiş.",
-      "en": "The meaning is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın anlam hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the meaning.",
-      "tense": "gelecek"
+      "target": "Bu kelimenin anlamı ne?",
+      "en": "What's the meaning of this word?"
     }
   ],
   "otobüs durağı": [
@@ -30906,41 +27858,8 @@
   ],
   "bodrum": [
     {
-      "target": "Bodrum burada.",
-      "en": "The basement is here."
-    },
-    {
-      "target": "Bodrum nerede?",
-      "en": "Where is the basement?"
-    },
-    {
-      "target": "Bodrum çok önemli.",
-      "en": "The basement is very important."
-    },
-    {
-      "target": "Şimdi bodrum hakkında konuşuyoruz.",
-      "en": "We are talking about the basement now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman bodrum hakkında konuşuruz.",
-      "en": "We always talk about the basement.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün bodrum hakkında konuştuk.",
-      "en": "Yesterday we talked about the basement.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Bodrum önemliymiş.",
-      "en": "The basement is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın bodrum hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the basement.",
-      "tense": "gelecek"
+      "target": "Sıçan bodrumda.",
+      "en": "The rat is in the cellar."
     }
   ],
   "turizm ofisi": [
@@ -31458,41 +28377,8 @@
   ],
   "sipariş": [
     {
-      "target": "Sipariş burada.",
-      "en": "The order is here."
-    },
-    {
-      "target": "Sipariş nerede?",
-      "en": "Where is the order?"
-    },
-    {
-      "target": "Sipariş çok önemli.",
-      "en": "The order is very important."
-    },
-    {
-      "target": "Şimdi sipariş hakkında konuşuyoruz.",
-      "en": "We are talking about the order now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman sipariş hakkında konuşuruz.",
-      "en": "We always talk about the order.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün sipariş hakkında konuştuk.",
-      "en": "Yesterday we talked about the order.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Sipariş önemliymiş.",
-      "en": "The order is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın sipariş hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the order.",
-      "tense": "gelecek"
+      "target": "Siparişiniz hazır.",
+      "en": "Your order is ready."
     }
   ],
   "servis": [
@@ -31536,41 +28422,9 @@
   ],
   "aşçı": [
     {
-      "target": "Aşçı burada.",
-      "en": "The cook is here."
-    },
-    {
-      "target": "Aşçı nerede?",
-      "en": "Where is the cook?"
-    },
-    {
-      "target": "Aşçı çok önemli.",
-      "en": "The cook is very important."
-    },
-    {
-      "target": "Şimdi aşçı hakkında konuşuyoruz.",
-      "en": "We are talking about the cook now.",
+      "target": "Aşçı mutfakta çorba pişiriyor.",
+      "en": "The cook is making soup in the kitchen.",
       "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman aşçı hakkında konuşuruz.",
-      "en": "We always talk about the cook.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün aşçı hakkında konuştuk.",
-      "en": "Yesterday we talked about the cook.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Aşçı önemliymiş.",
-      "en": "The cook is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın aşçı hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the cook.",
-      "tense": "gelecek"
     }
   ],
   "bahşiş": [
@@ -32880,80 +29734,14 @@
   ],
   "göl": [
     {
-      "target": "Göl burada.",
-      "en": "The lake is here."
-    },
-    {
-      "target": "Göl nerede?",
-      "en": "Where is the lake?"
-    },
-    {
-      "target": "Göl çok önemli.",
-      "en": "The lake is very important."
-    },
-    {
-      "target": "Şimdi göl hakkında konuşuyoruz.",
-      "en": "We are talking about the lake now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman göl hakkında konuşuruz.",
-      "en": "We always talk about the lake.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün göl hakkında konuştuk.",
-      "en": "Yesterday we talked about the lake.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Göl önemliymiş.",
-      "en": "The lake is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın göl hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the lake.",
-      "tense": "gelecek"
+      "target": "Göl çok derin.",
+      "en": "The lake is very deep."
     }
   ],
   "nehir": [
     {
-      "target": "Nehir burada.",
-      "en": "The river is here."
-    },
-    {
-      "target": "Nehir nerede?",
-      "en": "Where is the river?"
-    },
-    {
-      "target": "Nehir çok önemli.",
-      "en": "The river is very important."
-    },
-    {
-      "target": "Şimdi nehir hakkında konuşuyoruz.",
-      "en": "We are talking about the river now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman nehir hakkında konuşuruz.",
-      "en": "We always talk about the river.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün nehir hakkında konuştuk.",
-      "en": "Yesterday we talked about the river.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Nehir önemliymiş.",
-      "en": "The river is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın nehir hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the river.",
-      "tense": "gelecek"
+      "target": "Nehir çok soğuk.",
+      "en": "The river is very cold."
     }
   ],
   "ada": [
@@ -33348,41 +30136,8 @@
   ],
   "taş": [
     {
-      "target": "Taş burada.",
-      "en": "The stone is here."
-    },
-    {
-      "target": "Taş nerede?",
-      "en": "Where is the stone?"
-    },
-    {
-      "target": "Taş çok önemli.",
-      "en": "The stone is very important."
-    },
-    {
-      "target": "Şimdi taş hakkında konuşuyoruz.",
-      "en": "We are talking about the stone now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman taş hakkında konuşuruz.",
-      "en": "We always talk about the stone.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün taş hakkında konuştuk.",
-      "en": "Yesterday we talked about the stone.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Taş önemliymiş.",
-      "en": "The stone is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın taş hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the stone.",
-      "tense": "gelecek"
+      "target": "Bu taş çok eski.",
+      "en": "This stone is very old."
     }
   ],
   "toprak": [
@@ -33816,197 +30571,33 @@
   ],
   "sınıf": [
     {
-      "target": "Sınıf burada.",
-      "en": "The classroom is here."
-    },
-    {
-      "target": "Sınıf nerede?",
-      "en": "Where is the classroom?"
-    },
-    {
-      "target": "Sınıf çok önemli.",
-      "en": "The classroom is very important."
-    },
-    {
-      "target": "Şimdi sınıf hakkında konuşuyoruz.",
-      "en": "We are talking about the classroom now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman sınıf hakkında konuşuruz.",
-      "en": "We always talk about the classroom.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün sınıf hakkında konuştuk.",
-      "en": "Yesterday we talked about the classroom.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Sınıf önemliymiş.",
-      "en": "The classroom is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın sınıf hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the classroom.",
-      "tense": "gelecek"
+      "target": "Sınıf çok sessiz.",
+      "en": "The classroom is very quiet."
     }
   ],
   "silgi": [
     {
-      "target": "Silgi burada.",
-      "en": "The eraser is here."
-    },
-    {
       "target": "Silgi nerede?",
       "en": "Where is the eraser?"
-    },
-    {
-      "target": "Silgi çok önemli.",
-      "en": "The eraser is very important."
-    },
-    {
-      "target": "Şimdi silgi hakkında konuşuyoruz.",
-      "en": "We are talking about the eraser now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman silgi hakkında konuşuruz.",
-      "en": "We always talk about the eraser.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün silgi hakkında konuştuk.",
-      "en": "Yesterday we talked about the eraser.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Silgi önemliymiş.",
-      "en": "The eraser is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın silgi hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the eraser.",
-      "tense": "gelecek"
     }
   ],
   "cetvel": [
     {
-      "target": "Cetvel burada.",
-      "en": "The ruler is here."
-    },
-    {
-      "target": "Cetvel nerede?",
-      "en": "Where is the ruler?"
-    },
-    {
-      "target": "Cetvel çok önemli.",
-      "en": "The ruler is very important."
-    },
-    {
-      "target": "Şimdi cetvel hakkında konuşuyoruz.",
-      "en": "We are talking about the ruler now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman cetvel hakkında konuşuruz.",
-      "en": "We always talk about the ruler.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün cetvel hakkında konuştuk.",
-      "en": "Yesterday we talked about the ruler.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Cetvel önemliymiş.",
-      "en": "The ruler is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın cetvel hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the ruler.",
-      "tense": "gelecek"
+      "target": "Cetvel çantada.",
+      "en": "The ruler is in the bag."
     }
   ],
   "matematik": [
     {
-      "target": "Matematik burada.",
-      "en": "The maths is here."
-    },
-    {
-      "target": "Matematik nerede?",
-      "en": "Where is the maths?"
-    },
-    {
-      "target": "Matematik çok önemli.",
-      "en": "The maths is very important."
-    },
-    {
-      "target": "Şimdi matematik hakkında konuşuyoruz.",
-      "en": "We are talking about the maths now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman matematik hakkında konuşuruz.",
-      "en": "We always talk about the maths.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün matematik hakkında konuştuk.",
-      "en": "Yesterday we talked about the maths.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Matematik önemliymiş.",
-      "en": "The maths is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın matematik hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the maths.",
-      "tense": "gelecek"
+      "target": "Matematik bugün çok zor.",
+      "en": "Maths is very hard today."
     }
   ],
   "coğrafya": [
     {
-      "target": "Coğrafya burada.",
-      "en": "The geography is here."
-    },
-    {
-      "target": "Coğrafya nerede?",
-      "en": "Where is the geography?"
-    },
-    {
-      "target": "Coğrafya çok önemli.",
-      "en": "The geography is very important."
-    },
-    {
-      "target": "Şimdi coğrafya hakkında konuşuyoruz.",
-      "en": "We are talking about the geography now.",
+      "target": "Coğrafya dersinde haritaya bakıyoruz.",
+      "en": "We're looking at a map in geography.",
       "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman coğrafya hakkında konuşuruz.",
-      "en": "We always talk about the geography.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün coğrafya hakkında konuştuk.",
-      "en": "Yesterday we talked about the geography.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Coğrafya önemliymiş.",
-      "en": "The geography is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın coğrafya hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the geography.",
-      "tense": "gelecek"
     }
   ],
   "çalışma masası": [
@@ -34050,41 +30641,8 @@
   ],
   "okul çantası": [
     {
-      "target": "Okul çantası burada.",
-      "en": "The school bag is here."
-    },
-    {
-      "target": "Okul çantası nerede?",
-      "en": "Where is the school bag?"
-    },
-    {
-      "target": "Okul çantası çok önemli.",
-      "en": "The school bag is very important."
-    },
-    {
-      "target": "Şimdi okul çantası hakkında konuşuyoruz.",
-      "en": "We are talking about the school bag now.",
-      "tense": "simdiki"
-    },
-    {
-      "target": "Her zaman okul çantası hakkında konuşuruz.",
-      "en": "We always talk about the school bag.",
-      "tense": "genis"
-    },
-    {
-      "target": "Dün okul çantası hakkında konuştuk.",
-      "en": "Yesterday we talked about the school bag.",
-      "tense": "gecmis"
-    },
-    {
-      "target": "Okul çantası önemliymiş.",
-      "en": "The school bag is important, apparently.",
-      "tense": "ogrenilen"
-    },
-    {
-      "target": "Yarın okul çantası hakkında konuşacağız.",
-      "en": "Tomorrow we will talk about the school bag.",
-      "tense": "gelecek"
+      "target": "Bu okul çantası çok ağır.",
+      "en": "This school bag is very heavy."
     }
   ],
   "okul zili": [
@@ -34595,6 +31153,10 @@
     {
       "target": "Bu yatak çok sert.",
       "en": "This bed is very hard."
+    },
+    {
+      "target": "Bu taş çok sert.",
+      "en": "This stone is very hard."
     }
   ],
   "ekşi": [
@@ -34643,6 +31205,11 @@
     {
       "target": "Bu ses çok garip.",
       "en": "This sound is very strange."
+    },
+    {
+      "target": "Garip bir ses geliyor.",
+      "en": "There's a strange sound coming.",
+      "tense": "simdiki"
     }
   ],
   "gerçek": [
@@ -34667,18 +31234,30 @@
     {
       "target": "Güneş bugün çok parlak.",
       "en": "The sun is very bright today."
+    },
+    {
+      "target": "Madeni para çok parlak.",
+      "en": "The coin is very shiny."
     }
   ],
   "renkli": [
     {
       "target": "Bu mahalle çok renkli.",
       "en": "This neighbourhood is very colourful."
+    },
+    {
+      "target": "Oda çok renkli.",
+      "en": "The room is very colourful."
     }
   ],
   "sade": [
     {
       "target": "Kahvemi sade istiyorum.",
       "en": "I would like my coffee black."
+    },
+    {
+      "target": "Bir sade Türk kahvesi lütfen.",
+      "en": "One plain Turkish coffee, please."
     }
   ],
   "yuvarlak": [
@@ -34715,6 +31294,10 @@
     {
       "target": "Bu sandalye kırık.",
       "en": "This chair is broken."
+    },
+    {
+      "target": "Ayna kırık.",
+      "en": "The mirror is broken."
     }
   ],
   "boş yer": [
@@ -34763,6 +31346,746 @@
     {
       "target": "Bu iyi bir fikir.",
       "en": "This is a good idea."
+    }
+  ],
+  "kurşun kalem": [
+    {
+      "target": "Kurşun kalemim çok kısa.",
+      "en": "My pencil is very short."
+    }
+  ],
+  "tükenmez kalem": [
+    {
+      "target": "Formu tükenmez kalemle doldurun.",
+      "en": "Fill in the form with a ballpoint pen."
+    }
+  ],
+  "tahta": [
+    {
+      "target": "Öğretmen tahtaya yazıyor.",
+      "en": "The teacher is writing on the board.",
+      "tense": "simdiki"
+    }
+  ],
+  "hata": [
+    {
+      "target": "Bu küçük bir hata.",
+      "en": "This is a small mistake."
+    }
+  ],
+  "sayfa": [
+    {
+      "target": "Kitabın onuncu sayfasını açın.",
+      "en": "Open the book at page ten."
+    }
+  ],
+  "sıçan": [
+    {
+      "target": "Bodrumda bir sıçan var.",
+      "en": "There's a rat in the cellar."
+    }
+  ],
+  "ejderha": [
+    {
+      "target": "Ejderha çok yaşlı.",
+      "en": "The dragon is very old."
+    }
+  ],
+  "canavar": [
+    {
+      "target": "Canavar kapının arkasında.",
+      "en": "The monster is behind the door."
+    }
+  ],
+  "yaratık": [
+    {
+      "target": "Garip bir yaratık ortaya çıktı.",
+      "en": "A strange creature appeared.",
+      "tense": "gecmis"
+    }
+  ],
+  "kurnaz": [
+    {
+      "target": "O çok kurnaz bir adam.",
+      "en": "He's a very sly man."
+    }
+  ],
+  "geyik": [
+    {
+      "target": "Gölün yanında bir geyik var.",
+      "en": "There's a deer by the lake."
+    }
+  ],
+  "solucan": [
+    {
+      "target": "Solucan toprağın içinde.",
+      "en": "The worm is in the soil."
+    }
+  ],
+  "köpek balığı": [
+    {
+      "target": "Köpek balığı tehlikelidir.",
+      "en": "Sharks are dangerous."
+    }
+  ],
+  "balina": [
+    {
+      "target": "Balina çok büyük bir hayvan.",
+      "en": "The whale is a very big animal."
+    }
+  ],
+  "karga": [
+    {
+      "target": "Ağaçta siyah bir karga var.",
+      "en": "There's a black crow in the tree."
+    }
+  ],
+  "tüy": [
+    {
+      "target": "Yastığın içinde tüy var.",
+      "en": "There are feathers inside the pillow."
+    }
+  ],
+  "kürk": [
+    {
+      "target": "Ayının kalın bir kürkü var.",
+      "en": "The bear has thick fur."
+    }
+  ],
+  "pençe": [
+    {
+      "target": "Canavarın keskin pençeleri var.",
+      "en": "The monster has sharp claws."
+    }
+  ],
+  "boynuz": [
+    {
+      "target": "Keçinin iki boynuzu var.",
+      "en": "The goat has two horns."
+    }
+  ],
+  "gaga": [
+    {
+      "target": "Kuşun küçük bir gagası var.",
+      "en": "The bird has a small beak."
+    }
+  ],
+  "kafes": [
+    {
+      "target": "Baykuş kafeste değil.",
+      "en": "The owl isn't in a cage."
+    }
+  ],
+  "tarla": [
+    {
+      "target": "At tarlada koşuyor.",
+      "en": "The horse is running in the field.",
+      "tense": "simdiki"
+    }
+  ],
+  "gölet": [
+    {
+      "target": "Kurbağa gölette.",
+      "en": "The frog is in the pond."
+    }
+  ],
+  "acısız": [
+    {
+      "target": "Acısız olsun lütfen.",
+      "en": "Not spicy, please."
+    }
+  ],
+  "başlangıç": [
+    {
+      "target": "Başlangıç olarak çorba istiyoruz.",
+      "en": "We'd like soup as a starter.",
+      "tense": "simdiki"
+    }
+  ],
+  "tatlı menüsü": [
+    {
+      "target": "Tatlı menüsünü görebilir miyim?",
+      "en": "Could I see the dessert menu?"
+    }
+  ],
+  "içecek menüsü": [
+    {
+      "target": "İçecek menüsü lütfen.",
+      "en": "The drinks menu, please."
+    }
+  ],
+  "yarım porsiyon": [
+    {
+      "target": "Yarım porsiyon pilav lütfen.",
+      "en": "A half portion of rice, please."
+    }
+  ],
+  "küçük porsiyon": [
+    {
+      "target": "Küçük porsiyon istiyorum.",
+      "en": "I'd like a small portion.",
+      "tense": "simdiki"
+    }
+  ],
+  "büyük porsiyon": [
+    {
+      "target": "Büyük porsiyon alabilir miyim?",
+      "en": "Could I have a large portion?"
+    }
+  ],
+  "fincan": [
+    {
+      "target": "Bir fincan Türk kahvesi lütfen.",
+      "en": "A cup of Turkish coffee, please."
+    }
+  ],
+  "sıcak içecek": [
+    {
+      "target": "Sıcak içecek olarak ne var?",
+      "en": "What hot drinks do you have?"
+    }
+  ],
+  "soğuk içecek": [
+    {
+      "target": "Soğuk içecek var mı?",
+      "en": "Do you have any cold drinks?"
+    }
+  ],
+  "normal su": [
+    {
+      "target": "Maden suyu değil, normal su lütfen.",
+      "en": "Still water please, not sparkling."
+    }
+  ],
+  "az pişmiş": [
+    {
+      "target": "Et az pişmiş olsun.",
+      "en": "I'd like the meat rare."
+    }
+  ],
+  "orta pişmiş": [
+    {
+      "target": "Bifteğim orta pişmiş olsun.",
+      "en": "I'd like my steak medium."
+    }
+  ],
+  "iyi pişmiş": [
+    {
+      "target": "Et iyi pişmiş olsun lütfen.",
+      "en": "I'd like the meat well done, please."
+    }
+  ],
+  "soğansız": [
+    {
+      "target": "Soğansız olsun lütfen.",
+      "en": "Without onion, please."
+    }
+  ],
+  "soslu": [
+    {
+      "target": "Tavuk soslu mu?",
+      "en": "Does the chicken come with sauce?"
+    }
+  ],
+  "sossuz": [
+    {
+      "target": "Sossuz olabilir mi?",
+      "en": "Can I have it without sauce?"
+    }
+  ],
+  "vişne": [
+    {
+      "target": "Vişne suyu ister misin?",
+      "en": "Would you like some sour cherry juice?"
+    }
+  ],
+  "koyu": [
+    {
+      "target": "Koyu renkleri severim.",
+      "en": "I like dark colours.",
+      "tense": "genis"
+    }
+  ],
+  "açık renkli": [
+    {
+      "target": "Duvarlar açık renkli.",
+      "en": "The walls are light-coloured."
+    }
+  ],
+  "renksiz": [
+    {
+      "target": "İksir renksiz.",
+      "en": "The potion is colourless."
+    }
+  ],
+  "altın": [
+    {
+      "target": "Altın çok pahalı.",
+      "en": "Gold is very expensive."
+    }
+  ],
+  "gümüş": [
+    {
+      "target": "Bu yüzük gümüş.",
+      "en": "This ring is silver."
+    }
+  ],
+  "gümüş rengi": [
+    {
+      "target": "Ayna gümüş rengi.",
+      "en": "The mirror is silver-coloured."
+    }
+  ],
+  "açık mavi": [
+    {
+      "target": "Gökyüzü açık mavi.",
+      "en": "The sky is light blue."
+    }
+  ],
+  "koyu yeşil": [
+    {
+      "target": "Orman koyu yeşil.",
+      "en": "The forest is dark green."
+    }
+  ],
+  "açık yeşil": [
+    {
+      "target": "Kurbağa açık yeşil.",
+      "en": "The frog is light green."
+    }
+  ],
+  "şeffaf": [
+    {
+      "target": "Bardak şeffaf.",
+      "en": "The glass is transparent."
+    }
+  ],
+  "soluk": [
+    {
+      "target": "Yüzü çok soluk.",
+      "en": "His face is very pale."
+    }
+  ],
+  "keskin": [
+    {
+      "target": "Kartalın gözleri çok keskin.",
+      "en": "An eagle's eyes are very sharp."
+    }
+  ],
+  "hikâye": [
+    {
+      "target": "Bu hikâye çok ilginç.",
+      "en": "This story is very interesting."
+    }
+  ],
+  "bölüm": [
+    {
+      "target": "İlk bölüm kısa.",
+      "en": "The first chapter is short."
+    }
+  ],
+  "mektup": [
+    {
+      "target": "Çocuk bir mektup alıyor.",
+      "en": "The boy is getting a letter.",
+      "tense": "simdiki"
+    }
+  ],
+  "sır": [
+    {
+      "target": "Bu bir sır.",
+      "en": "This is a secret."
+    }
+  ],
+  "gizem": [
+    {
+      "target": "Okulda bir gizem var.",
+      "en": "There's a mystery at the school."
+    }
+  ],
+  "gizli": [
+    {
+      "target": "Gizli bir oda var.",
+      "en": "There's a secret room."
+    }
+  ],
+  "büyü": [
+    {
+      "target": "Burada büyü yasak.",
+      "en": "Magic is forbidden here."
+    }
+  ],
+  "büyülü": [
+    {
+      "target": "Bu ayna büyülü.",
+      "en": "This mirror is enchanted."
+    }
+  ],
+  "büyücü": [
+    {
+      "target": "Büyücü siyah bir pelerin giyiyor.",
+      "en": "The wizard is wearing a black cloak.",
+      "tense": "simdiki"
+    }
+  ],
+  "cadı": [
+    {
+      "target": "Cadı çok zeki.",
+      "en": "The witch is very clever."
+    }
+  ],
+  "asa": [
+    {
+      "target": "Asası elinde.",
+      "en": "He has his wand in his hand."
+    }
+  ],
+  "iksir": [
+    {
+      "target": "İksir garip kokuyor.",
+      "en": "The potion smells strange.",
+      "tense": "simdiki"
+    }
+  ],
+  "pelerin": [
+    {
+      "target": "Pelerin uzun ve siyah.",
+      "en": "The cloak is long and black."
+    }
+  ],
+  "kilitli": [
+    {
+      "target": "Kapı kilitli.",
+      "en": "The door is locked."
+    }
+  ],
+  "yasak": [
+    {
+      "target": "Burada sigara içmek yasak.",
+      "en": "Smoking is forbidden here."
+    }
+  ],
+  "cesur": [
+    {
+      "target": "Çocuk çok cesur.",
+      "en": "The child is very brave."
+    }
+  ],
+  "zeki": [
+    {
+      "target": "Kız çok zeki.",
+      "en": "The girl is very clever."
+    }
+  ],
+  "görünmez": [
+    {
+      "target": "Pelerini giyince görünmez oluyor.",
+      "en": "When he puts on the cloak, he becomes invisible.",
+      "tense": "simdiki"
+    }
+  ],
+  "rüya": [
+    {
+      "target": "Dün gece garip bir rüya gördüm.",
+      "en": "I had a strange dream last night.",
+      "tense": "gecmis"
+    }
+  ],
+  "yara izi": [
+    {
+      "target": "Alnında bir yara izi var.",
+      "en": "He has a scar on his forehead."
+    }
+  ],
+  "düşman": [
+    {
+      "target": "Düşman çok yakın.",
+      "en": "The enemy is very close."
+    }
+  ],
+  "alfabe": [
+    {
+      "target": "Türk alfabesinde yirmi dokuz harf var.",
+      "en": "The Turkish alphabet has twenty-nine letters."
+    }
+  ],
+  "dil bilgisi": [
+    {
+      "target": "Türkçe dil bilgisi çok mantıklı.",
+      "en": "Turkish grammar is very logical."
+    }
+  ],
+  "test": [
+    {
+      "target": "Test şimdi başlıyor.",
+      "en": "The test is starting now.",
+      "tense": "simdiki"
+    }
+  ],
+  "not": [
+    {
+      "target": "Sınavdan iyi not aldım.",
+      "en": "I got a good mark in the exam.",
+      "tense": "gecmis"
+    }
+  ],
+  "konu": [
+    {
+      "target": "Bugünün konusu ne?",
+      "en": "What's today's topic?"
+    }
+  ],
+  "fen bilgisi": [
+    {
+      "target": "Fen bilgisi en sevdiğim ders.",
+      "en": "Science is my favourite subject."
+    }
+  ],
+  "yabancı dil": [
+    {
+      "target": "Yabancı dil öğrenmek çok zevkli.",
+      "en": "Learning a foreign language is great fun."
+    }
+  ],
+  "yabancı": [
+    {
+      "target": "Buranın yabancısıyım.",
+      "en": "I'm a stranger here."
+    }
+  ],
+  "öğretmenler odası": [
+    {
+      "target": "Öğretmen, öğretmenler odasında.",
+      "en": "The teacher is in the staff room."
+    }
+  ],
+  "kâğıt": [
+    {
+      "target": "Bir kâğıt verir misin?",
+      "en": "Could you give me a sheet of paper?"
+    }
+  ],
+  "zil": [
+    {
+      "target": "Zil çaldı!",
+      "en": "The bell has rung!",
+      "tense": "gecmis"
+    }
+  ],
+  "kahraman": [
+    {
+      "target": "Kahraman çok cesur.",
+      "en": "The hero is very brave."
+    }
+  ],
+  "kötü karakter": [
+    {
+      "target": "Kötü karakter çok tehlikeli.",
+      "en": "The villain is very dangerous."
+    }
+  ],
+  "yetim": [
+    {
+      "target": "Çocuk yetim.",
+      "en": "The boy is an orphan."
+    }
+  ],
+  "enişte": [
+    {
+      "target": "Eniştem çok komik.",
+      "en": "My uncle is very funny."
+    }
+  ],
+  "şımarık": [
+    {
+      "target": "Bu çocuk çok şımarık.",
+      "en": "This child is very spoiled."
+    }
+  ],
+  "dev": [
+    {
+      "target": "Dev çok arkadaş canlısı.",
+      "en": "The giant is very friendly."
+    }
+  ],
+  "hayalet": [
+    {
+      "target": "Kalede bir hayalet var.",
+      "en": "There's a ghost in the castle."
+    }
+  ],
+  "portre": [
+    {
+      "target": "Duvardaki portre hareket ediyor!",
+      "en": "The portrait on the wall is moving!",
+      "tense": "simdiki"
+    }
+  ],
+  "başlık": [
+    {
+      "target": "Gazetedeki başlık çok garip.",
+      "en": "The headline in the newspaper is very strange."
+    }
+  ],
+  "peron numarası": [
+    {
+      "target": "Peron numarası dokuz üç çeyrek.",
+      "en": "The platform number is nine and three-quarters."
+    }
+  ],
+  "buhar": [
+    {
+      "target": "Trenden buhar çıkıyor.",
+      "en": "Steam is coming out of the train.",
+      "tense": "simdiki"
+    }
+  ],
+  "posta kutusu": [
+    {
+      "target": "Posta kutusunda bir mektup var.",
+      "en": "There's a letter in the letterbox."
+    }
+  ],
+  "kazan": [
+    {
+      "target": "Kazan siyah ve çok büyük.",
+      "en": "The cauldron is black and very big."
+    }
+  ],
+  "alev": [
+    {
+      "target": "Alev mavi.",
+      "en": "The flame is blue."
+    }
+  ],
+  "fısıltı": [
+    {
+      "target": "Karanlıkta bir fısıltı duyuyorum.",
+      "en": "I can hear a whisper in the dark.",
+      "tense": "simdiki"
+    }
+  ],
+  "gürültü": [
+    {
+      "target": "Dışarıda çok gürültü var.",
+      "en": "There's a lot of noise outside."
+    }
+  ],
+  "çığlık": [
+    {
+      "target": "Odadan bir çığlık geldi.",
+      "en": "A scream came from the room.",
+      "tense": "gecmis"
+    }
+  ],
+  "cesaret": [
+    {
+      "target": "Bunun için cesaret lazım.",
+      "en": "That takes courage."
+    }
+  ],
+  "kural": [
+    {
+      "target": "Okulun kuralları çok katı.",
+      "en": "The school rules are very strict."
+    }
+  ],
+  "ceza": [
+    {
+      "target": "Bu ceza hiç adil değil.",
+      "en": "This punishment isn't fair at all."
+    }
+  ],
+  "ödül": [
+    {
+      "target": "Kazanan takım ödül alıyor.",
+      "en": "The winning team gets a prize.",
+      "tense": "simdiki"
+    }
+  ],
+  "yatakhane": [
+    {
+      "target": "Yatakhane çok sessiz.",
+      "en": "The dormitory is very quiet."
+    }
+  ],
+  "ortak salon": [
+    {
+      "target": "Öğrenciler ortak salonda oturuyor.",
+      "en": "The students are sitting in the common room.",
+      "tense": "simdiki"
+    }
+  ],
+  "zindan": [
+    {
+      "target": "Zindan karanlık ve soğuk.",
+      "en": "The dungeon is dark and cold."
+    }
+  ],
+  "gizli kapak": [
+    {
+      "target": "Gizli kapak halının altında.",
+      "en": "The trapdoor is under the rug."
+    }
+  ],
+  "bilmece": [
+    {
+      "target": "Bu bilmece çok zor.",
+      "en": "This riddle is very hard."
+    }
+  ],
+  "görünmezlik pelerini": [
+    {
+      "target": "Görünmezlik pelerini dolapta saklı.",
+      "en": "The invisibility cloak is hidden in the wardrobe."
+    }
+  ],
+  "felsefe taşı": [
+    {
+      "target": "Felsefe taşı nerede saklı?",
+      "en": "Where is the philosopher's stone hidden?"
+    }
+  ],
+  "büyü kitabı": [
+    {
+      "target": "Büyü kitabı çok eski.",
+      "en": "The spellbook is very old."
+    }
+  ],
+  "iksir dersi": [
+    {
+      "target": "İksir dersi çok zor.",
+      "en": "Potions class is very hard."
+    }
+  ],
+  "büyü okulu": [
+    {
+      "target": "Büyü okulu bir kalede.",
+      "en": "The school of magic is in a castle."
+    }
+  ],
+  "asa dükkânı": [
+    {
+      "target": "Asa dükkânı küçük ve karanlık.",
+      "en": "The wand shop is small and dark."
+    }
+  ],
+  "madeni para": [
+    {
+      "target": "Cebimde madeni para var.",
+      "en": "I've got some coins in my pocket."
+    }
+  ],
+  "altın para": [
+    {
+      "target": "Altın para çok ağır.",
+      "en": "The gold coin is very heavy."
+    }
+  ],
+  "gümüş para": [
+    {
+      "target": "Gümüş para küçük.",
+      "en": "The silver coin is small."
     }
   ]
 }
