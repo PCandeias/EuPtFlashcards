@@ -402,7 +402,7 @@
       "en": "uncle by marriage / brother-in-law",
       "target": "enişte",
       "level": "a2",
-      "sense": "your aunt's husband or your sister's husband"
+      "note": "your aunt's husband or your sister's husband"
     },
     {
       "en": "orphan",
@@ -428,37 +428,39 @@
       "en": "large family",
       "target": "kalabalık aile",
       "level": "a2",
-      "sense": "kalabalık, \"crowded\", is how Turkish says a big family"
+      "note": "kalabalık, \"crowded\", is how Turkish says a big family"
     },
     {
       "en": "grandfather",
       "target": "büyükbaba",
       "level": "a1",
-      "sense": "dede is more common in speech"
+      "note": "dede is more common in speech"
     },
     {
       "en": "grandmother",
       "target": "büyükanne",
       "level": "a1",
-      "sense": "the general word; anneanne and babaanne say which side"
+      "sense": "either side",
+      "note": "the general word; anneanne and babaanne say which side"
     },
     {
       "en": "parent",
       "target": "ebeveyn",
       "level": "b1",
-      "sense": "formal; in speech say anne baba"
+      "sense": "formal",
+      "note": "formal; in speech say anne baba"
     },
     {
       "en": "single / unmarried",
       "target": "bekâr",
       "level": "a1",
-      "sense": "also written bekar"
+      "note": "also written bekar"
     },
     {
       "en": "to separate / to leave",
       "target": "ayrılmak",
       "level": "a2",
-      "sense": "what you leave takes the ablative: evden ayrılmak"
+      "note": "what you leave takes the ablative: evden ayrılmak"
     },
     {
       "en": "to divorce",
@@ -474,7 +476,7 @@
       "en": "people",
       "target": "insanlar",
       "level": "a1",
-      "sense": "the singular is insan, a person; kişi is used when counting"
+      "note": "the singular is insan, a person; kişi is used when counting"
     }
   ]
 }

@@ -425,7 +425,7 @@
       "en": "scar",
       "target": "yara izi",
       "level": "b1",
-      "sense": "literally \"wound trace\""
+      "note": "literally \"wound trace\""
     },
     {
       "en": "physical activity",
@@ -436,13 +436,13 @@
       "en": "I'm sleepy",
       "target": "uykum var",
       "level": "a1",
-      "sense": "literally \"I have my sleep\""
+      "note": "literally \"I have my sleep\""
     },
     {
       "en": "tiredness",
       "target": "yorgunluk",
       "level": "b1",
-      "sense": "literally \"I can't sleep from tiredness\""
+      "note": "literally \"I can't sleep from tiredness\""
     }
   ]
 }

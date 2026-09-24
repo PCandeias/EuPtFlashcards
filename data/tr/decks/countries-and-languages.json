@@ -255,19 +255,21 @@
       "en": "United States",
       "target": "Amerika Birleşik Devletleri",
       "level": "a1",
-      "sense": "usually shortened to ABD"
+      "note": "usually shortened to ABD"
     },
     {
       "en": "Italian",
       "target": "İtalyan",
       "level": "a1",
-      "sense": "the person, and also the language as İtalyanca"
+      "sense": "the person",
+      "note": "the person, and also the language as İtalyanca"
     },
     {
       "en": "Japanese",
       "target": "Japon",
       "level": "a1",
-      "sense": "the language is Japonca"
+      "sense": "the person",
+      "note": "the language is Japonca"
     },
     {
       "en": "Canadian",
@@ -278,13 +280,15 @@
       "en": "Spanish",
       "target": "İspanyol",
       "level": "a1",
-      "sense": "the language is İspanyolca"
+      "sense": "the person",
+      "note": "the language is İspanyolca"
     },
     {
       "en": "French",
       "target": "Fransız",
       "level": "a1",
-      "sense": "the language is Fransızca"
+      "sense": "the person",
+      "note": "the language is Fransızca"
     },
     {
       "en": "Hungarian",
@@ -325,13 +329,14 @@
       "en": "Portuguese",
       "target": "Portekizli",
       "level": "a1",
-      "sense": "the language is Portekizce"
+      "sense": "the person",
+      "note": "the language is Portekizce"
     },
     {
       "en": "Egypt / corn",
       "target": "Mısır",
       "level": "a1",
-      "sense": "written lowercase, mısır is sweetcorn"
+      "note": "written lowercase, mısır is sweetcorn"
     },
     {
       "en": "Cuba",

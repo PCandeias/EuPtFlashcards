@@ -68,7 +68,7 @@ describe('card corpus', () => {
 
   it('keeps sense hints for meaning-level disambiguation', () => {
     const senses = CARDS.filter(c => c.sense).length
-    expect(senses).toBe(253)
+    expect(senses).toBe(124)
   })
 })
 

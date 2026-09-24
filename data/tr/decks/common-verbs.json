@@ -682,13 +682,14 @@
       "en": "to hide",
       "target": "saklanmak",
       "level": "a2",
-      "sense": "to hide yourself; to hide something is saklamak"
+      "sense": "yourself",
+      "note": "to hide yourself; to hide something is saklamak"
     },
     {
       "en": "to escape / to run away",
       "target": "kaçmak",
       "level": "a2",
-      "sense": "what you escape from takes the ablative: evden kaçmak"
+      "note": "what you escape from takes the ablative: evden kaçmak"
     },
     {
       "en": "to protect / to guard",
@@ -699,7 +700,7 @@
       "en": "to shout / to yell",
       "target": "bağırmak",
       "level": "a2",
-      "sense": "who you shout at takes the dative: bana bağırma"
+      "note": "who you shout at takes the dative: bana bağırma"
     },
     {
       "en": "to whisper",
@@ -720,13 +721,13 @@
       "en": "to follow",
       "target": "takip etmek",
       "level": "a2",
-      "sense": "also to keep up with or keep track of"
+      "note": "also to keep up with or keep track of"
     },
     {
       "en": "to notice",
       "target": "fark etmek",
       "level": "a2",
-      "sense": "fark etmez, \"it makes no difference\""
+      "note": "fark etmez, \"it makes no difference\""
     },
     {
       "en": "to accept",
@@ -742,19 +743,20 @@
       "en": "to rent / to hire",
       "target": "kiralamak",
       "level": "a1",
-      "sense": "used by both the tenant and the landlord; kiraya vermek is to let out"
+      "note": "used by both the tenant and the landlord; kiraya vermek is to let out"
     },
     {
       "en": "to call / to summon",
       "target": "çağırmak",
       "level": "a2",
-      "sense": "to call someone over; to phone is aramak"
+      "sense": "to call over",
+      "note": "to call someone over; to phone is aramak"
     },
     {
       "en": "to have / to own",
       "target": "sahip olmak",
       "level": "a2",
-      "sense": "everyday \"I have\" is var: bir arabam var"
+      "note": "everyday \"I have\" is var: bir arabam var"
     },
     {
       "en": "to give back / to return",
@@ -765,7 +767,7 @@
       "en": "to light / to burn",
       "target": "yakmak",
       "level": "a2",
-      "sense": "ışığı yakmak, to switch on the light"
+      "note": "ışığı yakmak, to switch on the light"
     },
     {
       "en": "to put out / to switch off",
@@ -786,19 +788,19 @@
       "en": "to get used to",
       "target": "alışmak",
       "level": "a2",
-      "sense": "takes the dative: bu havaya alışmak"
+      "note": "takes the dative: bu havaya alışmak"
     },
     {
       "en": "to prefer",
       "target": "tercih etmek",
       "level": "a2",
-      "sense": "the thing you prefer something over takes the dative"
+      "note": "the thing you prefer something over takes the dative"
     },
     {
       "en": "to continue / to attend",
       "target": "devam etmek",
       "level": "a2",
-      "sense": "takes the dative: kursa devam etmek, to attend a course"
+      "note": "takes the dative: kursa devam etmek, to attend a course"
     },
     {
       "en": "to apologise",

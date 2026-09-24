@@ -70,8 +70,19 @@ export interface Card {
    * the distinction out itself. Always a subset of `tags`.
    */
   targetTags?: Tag[]
-  /** Meaning-level disambiguation that cannot compress to a letter (ser vs estar). */
+  /**
+   * Meaning-level disambiguation that cannot compress to a letter (ser vs estar).
+   *
+   * Shown on the English face, before the answer, so it must stay short and in
+   * English: just enough to tell two cards apart, never a word of the answer.
+   */
   sense?: string
+  /**
+   * Usage notes for after the flip: related forms, what case a verb takes, a
+   * false friend. Shown on the target-language face, where giving the language
+   * away no longer matters.
+   */
+  note?: string
 }
 
 const TAG_SET = new Set<string>(TAGS)
@@ -154,6 +165,11 @@ export function parseCard(
   if (raw.sense !== undefined) {
     if (typeof raw.sense !== 'string' || !raw.sense.trim()) fail(where, '`sense` must be a non-empty string')
     card.sense = raw.sense
+  }
+
+  if (raw.note !== undefined) {
+    if (typeof raw.note !== 'string' || !raw.note.trim()) fail(where, '`note` must be a non-empty string')
+    card.note = raw.note
   }
 
   return card

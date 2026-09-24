@@ -275,13 +275,14 @@
       "en": "pencil",
       "target": "kurşun kalem",
       "level": "a1",
-      "sense": "literally \"lead pen\""
+      "sense": "the graphite kind",
+      "note": "literally \"lead pen\""
     },
     {
       "en": "ballpoint pen",
       "target": "tükenmez kalem",
       "level": "a2",
-      "sense": "literally \"the pen that never runs out\""
+      "note": "literally \"the pen that never runs out\""
     },
     {
       "en": "board / blackboard / wood",
@@ -302,13 +303,14 @@
       "en": "grade / mark / note",
       "target": "not",
       "level": "a1",
-      "sense": "also a written note: not almak, to take notes"
+      "note": "also a written note: not almak, to take notes"
     },
     {
       "en": "topic / subject",
       "target": "konu",
       "level": "a1",
-      "sense": "the subject of a conversation or lesson; a school subject is ders"
+      "sense": "of a conversation or lesson",
+      "note": "the subject of a conversation or lesson; a school subject is ders"
     },
     {
       "en": "science",
@@ -325,13 +327,13 @@
       "en": "paper / sheet of paper",
       "target": "kâğıt",
       "level": "a1",
-      "sense": "also written kağıt"
+      "note": "also written kağıt"
     },
     {
       "en": "bell",
       "target": "zil",
       "level": "a1",
-      "sense": "a school bell or a doorbell"
+      "note": "a school bell or a doorbell"
     },
     {
       "en": "rule",
@@ -342,7 +344,7 @@
       "en": "punishment / fine / penalty",
       "target": "ceza",
       "level": "a2",
-      "sense": "also a fine you pay, or a penalty in football"
+      "note": "also a fine you pay, or a penalty in football"
     },
     {
       "en": "reward / prize / award",
@@ -353,7 +355,7 @@
       "en": "economics",
       "target": "iktisat",
       "level": "b1",
-      "sense": "also ekonomi"
+      "note": "also ekonomi"
     },
     {
       "en": "law",
@@ -364,7 +366,8 @@
       "en": "medicine",
       "target": "tıp",
       "level": "a2",
-      "sense": "the discipline; a medicine you take is ilaç"
+      "sense": "the subject",
+      "note": "the discipline; a medicine you take is ilaç"
     },
     {
       "en": "literature",

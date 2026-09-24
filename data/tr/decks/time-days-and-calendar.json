@@ -436,7 +436,7 @@
       "en": "daily",
       "target": "günlük",
       "level": "a2",
-      "sense": "also a diary"
+      "note": "also a diary"
     },
     {
       "en": "often / frequently",
@@ -457,13 +457,13 @@
       "en": "almost never",
       "target": "neredeyse hiç",
       "level": "a2",
-      "sense": "with a negative verb"
+      "note": "with a negative verb"
     },
     {
       "en": "once",
       "target": "bir kere",
       "level": "a1",
-      "sense": "also bir kez"
+      "note": "also bir kez"
     },
     {
       "en": "twice",
@@ -509,7 +509,7 @@
       "en": "it's quarter past four",
       "target": "dördü çeyrek geçiyor",
       "level": "a1",
-      "sense": "\"geçiyor\" for past the hour; at quarter past four is dördü çeyrek geçe"
+      "note": "\"geçiyor\" for past the hour; at quarter past four is dördü çeyrek geçe"
     },
     {
       "en": "half past four",
@@ -520,7 +520,7 @@
       "en": "it's quarter to five",
       "target": "beşe çeyrek var",
       "level": "a1",
-      "sense": "\"var\" for to the hour; at quarter to five is beşe çeyrek kala"
+      "note": "\"var\" for to the hour; at quarter to five is beşe çeyrek kala"
     },
     {
       "en": "every night",
@@ -546,7 +546,7 @@
       "en": "still",
       "target": "hâlâ",
       "level": "a1",
-      "sense": "also written hala, which also means aunt"
+      "note": "also written hala, which also means aunt"
     }
   ]
 }

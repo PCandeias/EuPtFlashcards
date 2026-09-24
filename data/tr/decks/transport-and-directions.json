@@ -448,7 +448,7 @@
       "en": "to go by car",
       "target": "arabayla gitmek",
       "level": "a1",
-      "sense": "-(y)la after the vehicle: otobüsle, trenle, uçakla"
+      "note": "-(y)la after the vehicle: otobüsle, trenle, uçakla"
     },
     {
       "en": "by metro",
@@ -464,7 +464,7 @@
       "en": "by ferry",
       "target": "vapurla",
       "level": "a1",
-      "sense": "the Bosphorus commuter ferry is the vapur"
+      "note": "the Bosphorus commuter ferry is the vapur"
     }
   ]
 }

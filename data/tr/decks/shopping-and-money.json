@@ -405,25 +405,26 @@
       "en": "coin",
       "target": "madeni para",
       "level": "a2",
-      "sense": "literally \"metal money\"; small change is bozuk para"
+      "note": "literally \"metal money\"; small change is bozuk para"
     },
     {
       "en": "shop assistant",
       "target": "satış görevlisi",
       "level": "a2",
-      "sense": "tezgâhtar is also used"
+      "note": "tezgâhtar is also used"
     },
     {
       "en": "shop",
       "target": "dükkân",
       "level": "a1",
-      "sense": "a small shop; a bigger store is mağaza. Also written dükkan"
+      "sense": "a small one",
+      "note": "a small shop; a bigger store is mağaza. Also written dükkan"
     },
     {
       "en": "online shop",
       "target": "online mağaza",
       "level": "a1",
-      "sense": "the official word for online is çevrim içi"
+      "note": "the official word for online is çevrim içi"
     },
     {
       "en": "clothes shop",
@@ -454,7 +455,7 @@
       "en": "cash machine / ATM",
       "target": "bankamatik",
       "level": "a1",
-      "sense": "ATM is also said"
+      "note": "ATM is also said"
     },
     {
       "en": "on sale",
@@ -480,7 +481,8 @@
       "en": "to receive / to collect",
       "target": "teslim almak",
       "level": "a2",
-      "sense": "to take delivery; teslim etmek is to deliver"
+      "sense": "a delivery",
+      "note": "to take delivery; teslim etmek is to deliver"
     },
     {
       "en": "to ask for a discount",

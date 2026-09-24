@@ -53,7 +53,12 @@ export function badgesFor(
     .map(tag => ({ tag, ...BADGES[tag], full: hints?.[tag] ?? BADGES[tag].full }))
 }
 
-/** Meaning-level disambiguation, shown only where the meaning is ambiguous. */
+/**
+ * The line under the word: the sense before the flip, the note after it.
+ *
+ * The English face is the question, so it only gets what tells two cards
+ * apart. Anything that would name the answer waits for the target face.
+ */
 export function hintFor(card: Card, side: Side): string | undefined {
-  return side === 'en' ? card.sense : undefined
+  return side === 'en' ? card.sense : card.note
 }

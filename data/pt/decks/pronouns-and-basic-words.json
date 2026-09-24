@@ -545,8 +545,9 @@
       "en": "what is that?",
       "target": "o que é isso?",
       "level": "a1",
-      "sense": "near the person you're talking to",
-      "tense": "presente"
+      "tense": "presente",
+      "sense": "near you",
+      "note": "near the person you're talking to"
     },
     {
       "en": "what is that over there?",
@@ -564,14 +565,14 @@
       "en": "these are old books",
       "target": "isto são livros antigos",
       "level": "a2",
-      "sense": "isto stays singular even when the things are plural",
-      "tense": "presente"
+      "tense": "presente",
+      "note": "isto stays singular even when the things are plural"
     },
     {
       "en": "there is / there are",
       "target": "há",
       "level": "a1",
-      "sense": "from haver; it never changes for plural: há duas camas"
+      "note": "from haver; it never changes for plural: há duas camas"
     },
     {
       "en": "there isn't / there aren't",

@@ -43,7 +43,8 @@
       "en": "glad to be here",
       "target": "Hoş bulduk",
       "level": "a1",
-      "sense": "the reply to hoş geldiniz"
+      "sense": "the reply to a welcome",
+      "note": "the reply to hoş geldiniz"
     },
     {
       "en": "how are you?",
@@ -376,7 +377,8 @@
       "en": "good afternoon",
       "target": "tünaydın",
       "level": "a2",
-      "sense": "formal and rather old-fashioned; iyi günler covers most of the day"
+      "sense": "formal",
+      "note": "formal and rather old-fashioned; iyi günler covers most of the day"
     },
     {
       "en": "thank you very much",
@@ -394,7 +396,8 @@
       "en": "don't mention it / not at all",
       "target": "ne demek",
       "level": "a1",
-      "sense": "also \"what does it mean?\"; the tone tells you which"
+      "sense": "a reply to thanks",
+      "note": "also \"what does it mean?\"; the tone tells you which"
     },
     {
       "en": "I'm sorry / I apologise",
@@ -407,22 +410,23 @@
       "en": "I'm very sorry",
       "target": "çok üzgünüm",
       "level": "a1",
-      "sense": "sympathy rather than an apology"
+      "sense": "sympathy",
+      "note": "sympathy rather than an apology"
     },
     {
       "en": "get well soon",
       "target": "geçmiş olsun",
       "level": "a1",
-      "sense": "literally \"may it be past\"; said after any illness or mishap"
+      "note": "literally \"may it be past\"; said after any illness or mishap"
     },
     {
       "en": "my condolences",
       "target": "başın sağ olsun",
       "level": "a2",
-      "sense": "said when someone has lost a relative",
       "tags": [
         "informal"
-      ]
+      ],
+      "note": "said when someone has lost a relative"
     },
     {
       "en": "see you soon",
@@ -447,9 +451,10 @@
       "en": "kisses / lots of love",
       "target": "öpüyorum",
       "level": "a2",
-      "sense": "literally \"I'm kissing\"; a warm sign-off to friends and family",
       "verb": "öpmek",
-      "tense": "simdiki"
+      "tense": "simdiki",
+      "sense": "a sign-off",
+      "note": "literally \"I'm kissing\"; a warm sign-off to friends and family"
     },
     {
       "en": "to shake hands",

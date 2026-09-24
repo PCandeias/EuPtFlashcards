@@ -414,7 +414,7 @@
       "en": "uncle / aunt",
       "target": "o tio / a tia",
       "level": "a1",
-      "sense": "os tios, uncle and aunt together"
+      "note": "os tios, uncle and aunt together"
     },
     {
       "en": "boyfriend / girlfriend",
@@ -425,13 +425,13 @@
       "en": "children",
       "target": "os filhos",
       "level": "a1",
-      "sense": "sons and daughters together; children in general are as crianças"
+      "note": "sons and daughters together; children in general are as crianças"
     },
     {
       "en": "siblings / brothers",
       "target": "os irmãos",
       "level": "a1",
-      "sense": "brothers and sisters together"
+      "note": "brothers and sisters together"
     },
     {
       "en": "my mother",
@@ -478,7 +478,7 @@
       "en": "his mother",
       "target": "a mãe dele",
       "level": "a2",
-      "sense": "a sua mãe also works, but can mean \"your mother\" too"
+      "note": "a sua mãe also works, but can mean \"your mother\" too"
     },
     {
       "en": "her mother",
@@ -534,8 +534,8 @@
       "en": "grandma is ninety",
       "target": "a avó tem noventa anos",
       "level": "a1",
-      "sense": "age uses ter",
-      "tense": "presente"
+      "tense": "presente",
+      "note": "age uses ter"
     }
   ]
 }

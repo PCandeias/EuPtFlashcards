@@ -212,8 +212,9 @@
       "en": "I'm a nurse",
       "target": "sou enfermeiro",
       "level": "a1",
-      "sense": "said by a man; no article before a job: sou enfermeiro, not sou um enfermeiro",
-      "tense": "presente"
+      "tense": "presente",
+      "sense": "said by a man",
+      "note": "said by a man; no article before a job: sou enfermeiro, not sou um enfermeiro"
     },
     {
       "en": "I'm a nurse",

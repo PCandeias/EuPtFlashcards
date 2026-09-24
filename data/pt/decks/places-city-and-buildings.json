@@ -382,7 +382,7 @@
       "en": "priority mail",
       "target": "o correio azul",
       "level": "b1",
-      "sense": "the CTT's express service, sold with blue stamps"
+      "note": "the CTT's express service, sold with blue stamps"
     },
     {
       "en": "destination country",
@@ -403,7 +403,7 @@
       "en": "shipping costs / postage",
       "target": "os portes de envio",
       "level": "b1",
-      "sense": "also just os portes"
+      "note": "also just os portes"
     },
     {
       "en": "postcode",
@@ -414,7 +414,7 @@
       "en": "small town",
       "target": "a vila",
       "level": "a1",
-      "sense": "a false friend: bigger than a village, smaller than a cidade"
+      "note": "a false friend: bigger than a village, smaller than a cidade"
     },
     {
       "en": "inhabitant / resident",
@@ -430,7 +430,7 @@
       "en": "faculty / university",
       "target": "a faculdade",
       "level": "a1",
-      "sense": "the part of a university you study at; people say \"na faculdade\" as \"at uni\""
+      "note": "the part of a university you study at; people say \"na faculdade\" as \"at uni\""
     },
     {
       "en": "in the city centre",
@@ -441,7 +441,7 @@
       "en": "near / close to",
       "target": "perto de",
       "level": "a1",
-      "sense": "contracts with the article: perto do, perto da"
+      "note": "contracts with the article: perto do, perto da"
     },
     {
       "en": "far from",

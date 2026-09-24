@@ -497,7 +497,7 @@
       "en": "mountains / mountain range",
       "target": "a serra",
       "level": "a2",
-      "sense": "the usual Portuguese word for a range: a Serra da Estrela"
+      "note": "the usual Portuguese word for a range: a Serra da Estrela"
     },
     {
       "en": "by the sea",
@@ -508,7 +508,7 @@
       "en": "inland / interior",
       "target": "o interior",
       "level": "b1",
-      "sense": "o interior do país, the Portuguese inland away from the coast"
+      "note": "o interior do país, the Portuguese inland away from the coast"
     }
   ]
 }

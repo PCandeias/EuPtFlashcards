@@ -1,3 +1,5 @@
+import { portuguese } from '../src/lib/languages/pt/index.js'
+import { turkish } from '../src/lib/languages/tr/index.js'
 import { describe, it, expect } from 'vitest'
 import { badgesFor, hintFor, BADGES } from '../src/lib/render/tags.js'
 import type { Card } from '../src/lib/cards/schema.js'
@@ -60,7 +62,39 @@ describe('hintFor', () => {
     expect(hintFor(sense, 'target')).toBeUndefined()
   })
 
+  it('keeps the usage note for after the flip', () => {
+    const noted: Card = { ...sense, note: 'ser for what something is' }
+    expect(hintFor(noted, 'target')).toBe('ser for what something is')
+    expect(hintFor(noted, 'en')).toBe('permanent / identity')
+  })
+
   it('is undefined when the card has no sense', () => {
     expect(hintFor(plural, 'en')).toBeUndefined()
+  })
+})
+
+/**
+ * The sense sits on the question side, so it must not hand over the answer.
+ * Anything that names the target word belongs in the note, shown after the flip.
+ */
+describe('the sense on the English face', () => {
+  const words = (target: string, locale: string) =>
+    target.toLocaleLowerCase(locale)
+      .split(/[\s/,.!?'’]+/)
+      .map(w => w.replace(/^-+|-+$/g, ''))
+      .filter(w => w.length >= 3 && !['the', 'uma', 'umas', 'uns', 'dos', 'das'].includes(w))
+
+  it.each([
+    ['Portuguese', portuguese.cards, 'pt'],
+    ['Turkish', turkish.cards, 'tr'],
+  ] as const)('never names the %s answer', (_, cards, locale) => {
+    const leaks = cards
+      .filter(c => c.sense)
+      .filter(c => {
+        const sense = c.sense!.toLocaleLowerCase(locale)
+        return words(c.target, locale).some(w => new RegExp(`(^|[^\\p{L}])${w}([^\\p{L}]|$)`, 'u').test(sense))
+      })
+      .map(c => `${c.target}: ${c.sense}`)
+    expect([...new Set(leaks)]).toEqual([])
   })
 })

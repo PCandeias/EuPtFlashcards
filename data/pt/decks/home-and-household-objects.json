@@ -515,13 +515,14 @@
       "en": "dishes / crockery",
       "target": "a loiça",
       "level": "a2",
-      "sense": "also spelled louça; lavar a loiça, to do the washing-up"
+      "note": "also spelled louça; lavar a loiça, to do the washing-up"
     },
     {
       "en": "television set",
       "target": "o televisor",
       "level": "a2",
-      "sense": "the set itself; the medium is a televisão"
+      "sense": "the set",
+      "note": "the set itself; the medium is a televisão"
     },
     {
       "en": "block of flats / building",
@@ -567,7 +568,7 @@
       "en": "double room",
       "target": "o quarto de casal",
       "level": "a1",
-      "sense": "casal, a couple"
+      "note": "casal, a couple"
     },
     {
       "en": "dining room",
@@ -598,7 +599,7 @@
       "en": "wardrobe",
       "target": "o roupeiro",
       "level": "a2",
-      "sense": "European Portuguese; o guarda-roupa is also said"
+      "note": "European Portuguese; o guarda-roupa is also said"
     },
     {
       "en": "double bed",
@@ -614,19 +615,20 @@
       "en": "armchair",
       "target": "o cadeirão",
       "level": "a2",
-      "sense": "a poltrona is also said"
+      "note": "a poltrona is also said"
     },
     {
       "en": "desk / secretary",
       "target": "a secretária",
       "level": "a1",
-      "sense": "the piece of furniture, and also a female secretary"
+      "note": "the piece of furniture, and also a female secretary"
     },
     {
       "en": "washbasin",
       "target": "o lavatório",
       "level": "a2",
-      "sense": "the basin in the bathroom; the kitchen sink is o lava-loiça"
+      "sense": "in the bathroom",
+      "note": "the basin in the bathroom; the kitchen sink is o lava-loiça"
     },
     {
       "en": "dining table",
@@ -647,7 +649,7 @@
       "en": "expenses / bills",
       "target": "as despesas",
       "level": "a2",
-      "sense": "despesas fixas, fixed costs"
+      "note": "despesas fixas, fixed costs"
     },
     {
       "en": "monthly costs",
@@ -658,7 +660,7 @@
       "en": "floor / storey / flat",
       "target": "o andar",
       "level": "a1",
-      "sense": "also a flat: um andar para arrendar, a flat to let"
+      "note": "also a flat: um andar para arrendar, a flat to let"
     },
     {
       "en": "first floor",
@@ -674,19 +676,19 @@
       "en": "studio flat",
       "target": "o T0",
       "level": "a2",
-      "sense": "read tê zero; T counts the bedrooms"
+      "note": "read tê zero; T counts the bedrooms"
     },
     {
       "en": "one-bedroom flat",
       "target": "o T1",
       "level": "a2",
-      "sense": "read tê um"
+      "note": "read tê um"
     },
     {
       "en": "two-bedroom flat",
       "target": "o T2",
       "level": "a2",
-      "sense": "read tê dois"
+      "note": "read tê dois"
     },
     {
       "en": "three-bedroom flat",
@@ -712,27 +714,29 @@
       "en": "to let",
       "target": "arrenda-se",
       "level": "a2",
-      "sense": "the sign on a flat for rent"
+      "sense": "a sign",
+      "note": "the sign on a flat for rent"
     },
     {
       "en": "for sale",
       "target": "vende-se",
       "level": "a2",
-      "sense": "the sign on something for sale"
+      "sense": "a sign",
+      "note": "the sign on something for sale"
     },
     {
       "en": "where is the flat?",
       "target": "onde fica o apartamento?",
       "level": "a1",
-      "sense": "ficar, not estar, for where a building is",
-      "tense": "presente"
+      "tense": "presente",
+      "note": "ficar, not estar, for where a building is"
     },
     {
       "en": "the flat is renovated",
       "target": "o apartamento está renovado",
       "level": "a2",
-      "sense": "estar: it is in that state now",
-      "tense": "presente"
+      "tense": "presente",
+      "note": "estar: it is in that state now"
     },
     {
       "en": "the flat is spacious",

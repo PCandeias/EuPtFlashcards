@@ -808,13 +808,14 @@
       "en": "to mix / to stir",
       "target": "karıştırmak",
       "level": "a2",
-      "sense": "also to mix up or confuse two things"
+      "note": "also to mix up or confuse two things"
     },
     {
       "en": "to smell",
       "target": "kokmak",
       "level": "a1",
-      "sense": "to give off a smell; to sniff something is koklamak"
+      "sense": "to give off a smell",
+      "note": "to give off a smell; to sniff something is koklamak"
     },
     {
       "en": "to sniff / to smell something",
@@ -885,7 +886,7 @@
       "en": "mussel",
       "target": "midye",
       "level": "a2",
-      "sense": "midye dolma, mussels stuffed with spiced rice, is a street food"
+      "note": "midye dolma, mussels stuffed with spiced rice, is a street food"
     },
     {
       "en": "prawn / shrimp",
@@ -911,7 +912,8 @@
       "en": "to boil",
       "target": "haşlamak",
       "level": "a2",
-      "sense": "to cook food in boiling water; to bring water to the boil is kaynatmak"
+      "sense": "food, in water",
+      "note": "to cook food in boiling water; to bring water to the boil is kaynatmak"
     },
     {
       "en": "to grill / to barbecue",

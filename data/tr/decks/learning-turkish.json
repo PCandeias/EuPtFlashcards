@@ -120,7 +120,7 @@
       "en": "grammar",
       "target": "dil bilgisi",
       "level": "a2",
-      "sense": "also written dilbilgisi"
+      "note": "also written dilbilgisi"
     },
     {
       "en": "foreign language",
@@ -136,7 +136,8 @@
       "en": "to answer",
       "target": "cevaplamak",
       "level": "a2",
-      "sense": "takes a direct object, where cevap vermek takes the dative"
+      "sense": "a single verb",
+      "note": "takes a direct object, where cevap vermek takes the dative"
     },
     {
       "en": "to practise",
@@ -166,7 +167,7 @@
       "en": "also / too",
       "target": "de / da",
       "level": "a1",
-      "sense": "written separately and follows harmony: ben de, sen de, o da"
+      "note": "written separately and follows harmony: ben de, sen de, o da"
     }
   ]
 }

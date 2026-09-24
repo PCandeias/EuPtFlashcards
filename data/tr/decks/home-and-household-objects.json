@@ -538,7 +538,7 @@
       "en": "things / belongings / furniture",
       "target": "eşya",
       "level": "a2",
-      "sense": "a person's belongings or a home's furniture"
+      "note": "a person's belongings or a home's furniture"
     },
     {
       "en": "jug / carafe",
@@ -554,13 +554,14 @@
       "en": "dishes / crockery",
       "target": "tabak çanak",
       "level": "b1",
-      "sense": "a pair phrase: tabak (plate) plus a rhyming partner"
+      "note": "a pair phrase: tabak (plate) plus a rhyming partner"
     },
     {
       "en": "flat / apartment",
       "target": "daire",
       "level": "a1",
-      "sense": "also a circle, or a government office"
+      "sense": "inside a building",
+      "note": "also a circle, or a government office"
     },
     {
       "en": "farmhouse",
@@ -576,7 +577,7 @@
       "en": "summer house",
       "target": "yazlık",
       "level": "a2",
-      "sense": "many Turkish families have one by the sea"
+      "note": "many Turkish families have one by the sea"
     },
     {
       "en": "single-storey house / bungalow",
@@ -607,7 +608,7 @@
       "en": "hallway / entrance hall",
       "target": "hol",
       "level": "a2",
-      "sense": "antre is also used"
+      "note": "antre is also used"
     },
     {
       "en": "laundry room",
@@ -618,7 +619,7 @@
       "en": "swimming pool",
       "target": "yüzme havuzu",
       "level": "a1",
-      "sense": "a site is a gated housing complex"
+      "note": "a site is a gated housing complex"
     },
     {
       "en": "wardrobe",
@@ -639,7 +640,7 @@
       "en": "microwave",
       "target": "mikrodalga fırın",
       "level": "a1",
-      "sense": "usually just mikrodalga"
+      "note": "usually just mikrodalga"
     },
     {
       "en": "bathtub",
@@ -655,7 +656,7 @@
       "en": "building fee / service charge",
       "target": "aidat",
       "level": "b1",
-      "sense": "the monthly fee a block of flats charges for upkeep"
+      "note": "the monthly fee a block of flats charges for upkeep"
     },
     {
       "en": "expense / cost",
@@ -676,13 +677,13 @@
       "en": "two-bedroom flat",
       "target": "2+1",
       "level": "a2",
-      "sense": "read iki artı bir: two bedrooms plus one living room, like Portugal's T2"
+      "note": "read iki artı bir: two bedrooms plus one living room, like Portugal's T2"
     },
     {
       "en": "storeroom / warehouse / tank",
       "target": "depo",
       "level": "b1",
-      "sense": "also a fuel tank: depoyu doldurmak, to fill up"
+      "note": "also a fuel tank: depoyu doldurmak, to fill up"
     }
   ]
 }

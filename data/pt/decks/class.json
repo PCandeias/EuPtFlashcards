@@ -4039,7 +4039,8 @@
       "targetTags": [
         "object"
       ],
-      "sense": "the indirect object, where o and a are the direct one"
+      "sense": "the indirect object",
+      "note": "the indirect object, where o and a are the direct one"
     },
     {
       "en": "to them / to you",
@@ -4052,7 +4053,8 @@
       "targetTags": [
         "object"
       ],
-      "sense": "the indirect object, where os and as are the direct one"
+      "sense": "the indirect object",
+      "note": "the indirect object, where os and as are the direct one"
     },
     {
       "en": "buyer",
@@ -4088,25 +4090,25 @@
       "en": "pharmacy / chemist's",
       "target": "a farmácia",
       "level": "a1",
-      "sense": "the green cross; for medicine on a Sunday, look for the farmácia de serviço"
+      "note": "the green cross; for medicine on a Sunday, look for the farmácia de serviço"
     },
     {
       "en": "bookshop",
       "target": "a livraria",
       "level": "a1",
-      "sense": "a false friend: a library is a biblioteca"
+      "note": "a false friend: a library is a biblioteca"
     },
     {
       "en": "bank / bench",
       "target": "o banco",
       "level": "a1",
-      "sense": "also a bench or a stool"
+      "note": "also a bench or a stool"
     },
     {
       "en": "post office",
       "target": "os correios",
       "level": "a1",
-      "sense": "always plural; in Portugal the service is the CTT"
+      "note": "always plural; in Portugal the service is the CTT"
     },
     {
       "en": "electronics shop",
@@ -4117,13 +4119,15 @@
       "en": "market",
       "target": "o mercado",
       "level": "a1",
-      "sense": "a covered market hall; an open-air one is a feira"
+      "sense": "covered",
+      "note": "a covered market hall; an open-air one is a feira"
     },
     {
       "en": "street market / fair",
       "target": "a feira",
       "level": "a1",
-      "sense": "also a trade fair; and the -feira in segunda-feira"
+      "sense": "open-air",
+      "note": "also a trade fair; and the -feira in segunda-feira"
     },
     {
       "en": "shopping centre",
@@ -4144,7 +4148,7 @@
       "en": "old / antique / former",
       "target": "antigo / antiga",
       "level": "a1",
-      "sense": "before a noun it means former: o antigo presidente"
+      "note": "before a noun it means former: o antigo presidente"
     },
     {
       "en": "antique / antiquity",
@@ -4170,31 +4174,31 @@
       "en": "vase / jug",
       "target": "a jarra",
       "level": "a2",
-      "sense": "usually a vase for flowers; a jug for water is o jarro"
+      "note": "usually a vase for flowers; a jug for water is o jarro"
     },
     {
       "en": "lamp",
       "target": "o candeeiro",
       "level": "a2",
-      "sense": "European Portuguese; Brazil says a luminária"
+      "note": "European Portuguese; Brazil says a luminária"
     },
     {
       "en": "light / electricity",
       "target": "a luz",
       "level": "a1",
-      "sense": "a conta da luz, the electricity bill"
+      "note": "a conta da luz, the electricity bill"
     },
     {
       "en": "cash machine / debit card network",
       "target": "o multibanco",
       "level": "a1",
-      "sense": "the Portuguese ATM network; aceita multibanco? means \"do you take debit cards?\""
+      "note": "the Portuguese ATM network; aceita multibanco? means \"do you take debit cards?\""
     },
     {
       "en": "box / checkout",
       "target": "a caixa",
       "level": "a1",
-      "sense": "a box, or the checkout: pague na caixa, pay at the till"
+      "note": "a box, or the checkout: pague na caixa, pay at the till"
     },
     {
       "en": "discount",
@@ -4205,7 +4209,7 @@
       "en": "special offer / sale",
       "target": "a promoção",
       "level": "a1",
-      "sense": "em promoção, on offer"
+      "note": "em promoção, on offer"
     },
     {
       "en": "in stock",
@@ -4216,7 +4220,7 @@
       "en": "sold out / out of stock",
       "target": "esgotado / esgotada",
       "level": "a2",
-      "sense": "also exhausted, of a person"
+      "note": "also exhausted, of a person"
     },
     {
       "en": "receipt",
@@ -4227,7 +4231,8 @@
       "en": "receipt / slip",
       "target": "o talão",
       "level": "a2",
-      "sense": "the till receipt a cashier offers; also a ticket or voucher"
+      "sense": "from the till",
+      "note": "the till receipt a cashier offers; also a ticket or voucher"
     },
     {
       "en": "order / parcel",
@@ -4253,25 +4258,25 @@
       "en": "to try / to try on",
       "target": "experimentar",
       "level": "a1",
-      "sense": "to try something new, or to try on clothes"
+      "note": "to try something new, or to try on clothes"
     },
     {
       "en": "to taste / to try on",
       "target": "provar",
       "level": "a1",
-      "sense": "to taste food, and in Portugal also to try on clothes"
+      "note": "to taste food, and in Portugal also to try on clothes"
     },
     {
       "en": "to touch / to play",
       "target": "tocar",
       "level": "a1",
-      "sense": "also to play an instrument, or to ring: o telefone tocou"
+      "note": "also to play an instrument, or to ring: o telefone tocou"
     },
     {
       "en": "to order",
       "target": "encomendar",
       "level": "a2",
-      "sense": "encomendar online, to order online"
+      "note": "encomendar online, to order online"
     },
     {
       "en": "to ask for a discount",
@@ -4282,7 +4287,7 @@
       "en": "to withdraw money",
       "target": "levantar dinheiro",
       "level": "a1",
-      "sense": "from a cash machine; levantar alone is to lift or raise"
+      "note": "from a cash machine; levantar alone is to lift or raise"
     },
     {
       "en": "money / cash",
@@ -4314,15 +4319,17 @@
       "en": "I'll take it",
       "target": "vou levar",
       "level": "a1",
-      "sense": "what you say in a shop once you have decided",
-      "tense": "futuroProximo"
+      "tense": "futuroProximo",
+      "sense": "in a shop",
+      "note": "what you say in a shop once you have decided"
     },
     {
       "en": "how much is it?",
       "target": "quanto é?",
       "level": "a1",
-      "sense": "asking for the total",
-      "tense": "presente"
+      "tense": "presente",
+      "sense": "the total",
+      "note": "asking for the total"
     },
     {
       "en": "can I have a closer look?",
@@ -4412,21 +4419,23 @@
       "en": "can I help you?",
       "target": "posso ajudá-lo?",
       "level": "a2",
-      "sense": "said to a man",
       "tags": [
         "formal"
       ],
-      "tense": "presente"
+      "tense": "presente",
+      "sense": "to a man",
+      "note": "said to a man"
     },
     {
       "en": "can I help you?",
       "target": "posso ajudá-la?",
       "level": "a2",
-      "sense": "said to a woman",
       "tags": [
         "formal"
       ],
-      "tense": "presente"
+      "tense": "presente",
+      "sense": "to a woman",
+      "note": "said to a woman"
     },
     {
       "en": "please / go ahead",
@@ -4485,11 +4494,11 @@
       "en": "do you have these shoes in a size 40?",
       "target": "tem estes sapatos no número 40?",
       "level": "a2",
-      "sense": "shoe sizes are números",
       "tags": [
         "formal"
       ],
-      "tense": "presente"
+      "tense": "presente",
+      "note": "shoe sizes are números"
     },
     {
       "en": "second-hand",
@@ -4500,13 +4509,13 @@
       "en": "fresh cheese",
       "target": "o queijo fresco",
       "level": "a1",
-      "sense": "a soft, unripened white cheese"
+      "note": "a soft, unripened white cheese"
     },
     {
       "en": "dishes / crockery",
       "target": "a loiça",
       "level": "a2",
-      "sense": "also spelled louça; lavar a loiça, to do the washing-up"
+      "note": "also spelled louça; lavar a loiça, to do the washing-up"
     },
     {
       "en": "vinyl record",
@@ -4517,7 +4526,8 @@
       "en": "television set",
       "target": "o televisor",
       "level": "a2",
-      "sense": "the set itself; the medium is a televisão"
+      "sense": "the set",
+      "note": "the set itself; the medium is a televisão"
     },
     {
       "en": "vitamin",
@@ -4528,7 +4538,7 @@
       "en": "sunscreen",
       "target": "o protetor solar",
       "level": "a1",
-      "sense": "creme solar is also said"
+      "note": "creme solar is also said"
     },
     {
       "en": "syrup / cough syrup",
@@ -4559,7 +4569,7 @@
       "en": "trainers / sneakers",
       "target": "as sapatilhas",
       "level": "a1",
-      "sense": "ténis is also said"
+      "note": "ténis is also said"
     },
     {
       "en": "sandals",
@@ -4575,7 +4585,7 @@
       "en": "laptop",
       "target": "o portátil",
       "level": "a2",
-      "sense": "short for o computador portátil"
+      "note": "short for o computador portátil"
     },
     {
       "en": "standard post",
@@ -4586,7 +4596,7 @@
       "en": "priority mail",
       "target": "o correio azul",
       "level": "b1",
-      "sense": "the CTT's express service, sold with blue stamps"
+      "note": "the CTT's express service, sold with blue stamps"
     },
     {
       "en": "weight",
@@ -4612,7 +4622,7 @@
       "en": "height",
       "target": "a altura",
       "level": "a1",
-      "sense": "also a moment in time: nessa altura, at that time"
+      "note": "also a moment in time: nessa altura, at that time"
     },
     {
       "en": "destination country",
@@ -4633,31 +4643,34 @@
       "en": "address",
       "target": "a morada",
       "level": "a1",
-      "sense": "European Portuguese; o endereço is mostly for e-mail and web addresses"
+      "note": "European Portuguese; o endereço is mostly for e-mail and web addresses"
     },
     {
       "en": "shipping costs / postage",
       "target": "os portes de envio",
       "level": "b1",
-      "sense": "also just os portes"
+      "note": "also just os portes"
     },
     {
       "en": "this",
       "target": "isto",
       "level": "a1",
-      "sense": "this thing here; it never goes with a noun"
+      "sense": "near me",
+      "note": "this thing here; it never goes with a noun"
     },
     {
       "en": "that",
       "target": "isso",
       "level": "a1",
-      "sense": "that thing near you"
+      "sense": "near you",
+      "note": "that thing near you"
     },
     {
       "en": "that",
       "target": "aquilo",
       "level": "a1",
-      "sense": "that thing over there, away from both of us"
+      "sense": "over there",
+      "note": "that thing over there, away from both of us"
     },
     {
       "en": "what is this?",
@@ -4669,8 +4682,9 @@
       "en": "what is that?",
       "target": "o que é isso?",
       "level": "a1",
-      "sense": "near the person you're talking to",
-      "tense": "presente"
+      "tense": "presente",
+      "sense": "near you",
+      "note": "near the person you're talking to"
     },
     {
       "en": "what is that over there?",
@@ -4688,8 +4702,8 @@
       "en": "these are old books",
       "target": "isto são livros antigos",
       "level": "a2",
-      "sense": "isto stays singular even when the things are plural",
-      "tense": "presente"
+      "tense": "presente",
+      "note": "isto stays singular even when the things are plural"
     },
     {
       "en": "flat / apartment",
@@ -4715,7 +4729,7 @@
       "en": "farm / country estate",
       "target": "a quinta",
       "level": "a2",
-      "sense": "also the fifth, feminine: a quinta vez"
+      "note": "also the fifth, feminine: a quinta vez"
     },
     {
       "en": "semi-detached house",
@@ -4746,7 +4760,7 @@
       "en": "bedroom / room / quarter",
       "target": "o quarto",
       "level": "a1",
-      "sense": "also a quarter, and the fourth: quatro e um quarto, o quarto andar"
+      "note": "also a quarter, and the fourth: quatro e um quarto, o quarto andar"
     },
     {
       "en": "single room",
@@ -4757,7 +4771,7 @@
       "en": "double room",
       "target": "o quarto de casal",
       "level": "a1",
-      "sense": "casal, a couple"
+      "note": "casal, a couple"
     },
     {
       "en": "living room",
@@ -4778,7 +4792,7 @@
       "en": "bathroom / toilet",
       "target": "a casa de banho",
       "level": "a1",
-      "sense": "European Portuguese; Brazil says o banheiro"
+      "note": "European Portuguese; Brazil says o banheiro"
     },
     {
       "en": "entrance hall",
@@ -4839,7 +4853,7 @@
       "en": "wardrobe",
       "target": "o roupeiro",
       "level": "a2",
-      "sense": "European Portuguese; o guarda-roupa is also said"
+      "note": "European Portuguese; o guarda-roupa is also said"
     },
     {
       "en": "bed",
@@ -4865,13 +4879,13 @@
       "en": "armchair",
       "target": "o cadeirão",
       "level": "a2",
-      "sense": "a poltrona is also said"
+      "note": "a poltrona is also said"
     },
     {
       "en": "desk / secretary",
       "target": "a secretária",
       "level": "a1",
-      "sense": "the piece of furniture, and also a female secretary"
+      "note": "the piece of furniture, and also a female secretary"
     },
     {
       "en": "chair",
@@ -4887,7 +4901,7 @@
       "en": "cooker / stove",
       "target": "o fogão",
       "level": "a1",
-      "sense": "the hob and oven unit; o forno is the oven itself"
+      "note": "the hob and oven unit; o forno is the oven itself"
     },
     {
       "en": "oven",
@@ -4908,7 +4922,7 @@
       "en": "washing machine",
       "target": "a máquina de lavar roupa",
       "level": "a1",
-      "sense": "in Portugal it often lives in the kitchen"
+      "note": "in Portugal it often lives in the kitchen"
     },
     {
       "en": "bathtub",
@@ -4919,7 +4933,8 @@
       "en": "washbasin",
       "target": "o lavatório",
       "level": "a2",
-      "sense": "the basin in the bathroom; the kitchen sink is o lava-loiça"
+      "sense": "in the bathroom",
+      "note": "the basin in the bathroom; the kitchen sink is o lava-loiça"
     },
     {
       "en": "mirror",
@@ -4945,7 +4960,7 @@
       "en": "there is / there are",
       "target": "há",
       "level": "a1",
-      "sense": "from haver; it never changes for plural: há duas camas"
+      "note": "from haver; it never changes for plural: há duas camas"
     },
     {
       "en": "there isn't / there aren't",
@@ -4956,37 +4971,39 @@
       "en": "to rent / to let",
       "target": "arrendar",
       "level": "a1",
-      "sense": "a long-term rental, used by both tenant and landlord"
+      "sense": "long-term",
+      "note": "a long-term rental, used by both tenant and landlord"
     },
     {
       "en": "to rent / to hire",
       "target": "alugar",
       "level": "a1",
-      "sense": "a short let or a hire: alugar um carro"
+      "sense": "short-term, or a hire",
+      "note": "a short let or a hire: alugar um carro"
     },
     {
       "en": "to share",
       "target": "partilhar",
       "level": "a2",
-      "sense": "European Portuguese; Brazil says compartilhar"
+      "note": "European Portuguese; Brazil says compartilhar"
     },
     {
       "en": "to divide / to split",
       "target": "dividir",
       "level": "a2",
-      "sense": "dividir a conta, to split the bill"
+      "note": "dividir a conta, to split the bill"
     },
     {
       "en": "rent",
       "target": "a renda",
       "level": "a1",
-      "sense": "a false friend: not income, which is o rendimento"
+      "note": "a false friend: not income, which is o rendimento"
     },
     {
       "en": "expenses / bills",
       "target": "as despesas",
       "level": "a2",
-      "sense": "despesas fixas, fixed costs"
+      "note": "despesas fixas, fixed costs"
     },
     {
       "en": "monthly costs",
@@ -4997,7 +5014,7 @@
       "en": "near / close to",
       "target": "perto de",
       "level": "a1",
-      "sense": "contracts with the article: perto do, perto da"
+      "note": "contracts with the article: perto do, perto da"
     },
     {
       "en": "far from",
@@ -5008,7 +5025,7 @@
       "en": "faculty / university",
       "target": "a faculdade",
       "level": "a1",
-      "sense": "the part of a university you study at; people say \"na faculdade\" as \"at uni\""
+      "note": "the part of a university you study at; people say \"na faculdade\" as \"at uni\""
     },
     {
       "en": "train station",
@@ -5029,13 +5046,13 @@
       "en": "countryside / field",
       "target": "o campo",
       "level": "a1",
-      "sense": "also a field or pitch: o campo de futebol"
+      "note": "also a field or pitch: o campo de futebol"
     },
     {
       "en": "mountains / mountain range",
       "target": "a serra",
       "level": "a2",
-      "sense": "the usual Portuguese word for a range: a Serra da Estrela"
+      "note": "the usual Portuguese word for a range: a Serra da Estrela"
     },
     {
       "en": "by the sea",
@@ -5046,7 +5063,7 @@
       "en": "inland / interior",
       "target": "o interior",
       "level": "b1",
-      "sense": "o interior do país, the Portuguese inland away from the coast"
+      "note": "o interior do país, the Portuguese inland away from the coast"
     },
     {
       "en": "area / zone",
@@ -5057,7 +5074,7 @@
       "en": "floor / storey / flat",
       "target": "o andar",
       "level": "a1",
-      "sense": "also a flat: um andar para arrendar, a flat to let"
+      "note": "also a flat: um andar para arrendar, a flat to let"
     },
     {
       "en": "first floor",
@@ -5078,19 +5095,19 @@
       "en": "studio flat",
       "target": "o T0",
       "level": "a2",
-      "sense": "read tê zero; T counts the bedrooms"
+      "note": "read tê zero; T counts the bedrooms"
     },
     {
       "en": "one-bedroom flat",
       "target": "o T1",
       "level": "a2",
-      "sense": "read tê um"
+      "note": "read tê um"
     },
     {
       "en": "two-bedroom flat",
       "target": "o T2",
       "level": "a2",
-      "sense": "read tê dois"
+      "note": "read tê dois"
     },
     {
       "en": "three-bedroom flat",
@@ -5121,20 +5138,22 @@
       "en": "to let",
       "target": "arrenda-se",
       "level": "a2",
-      "sense": "the sign on a flat for rent"
+      "sense": "a sign",
+      "note": "the sign on a flat for rent"
     },
     {
       "en": "for sale",
       "target": "vende-se",
       "level": "a2",
-      "sense": "the sign on something for sale"
+      "sense": "a sign",
+      "note": "the sign on something for sale"
     },
     {
       "en": "where is the flat?",
       "target": "onde fica o apartamento?",
       "level": "a1",
-      "sense": "ficar, not estar, for where a building is",
-      "tense": "presente"
+      "tense": "presente",
+      "note": "ficar, not estar, for where a building is"
     },
     {
       "en": "the flat is near the university",
@@ -5158,8 +5177,8 @@
       "en": "the flat is renovated",
       "target": "o apartamento está renovado",
       "level": "a2",
-      "sense": "estar: it is in that state now",
-      "tense": "presente"
+      "tense": "presente",
+      "note": "estar: it is in that state now"
     },
     {
       "en": "the flat is spacious",
@@ -5196,7 +5215,7 @@
       "en": "in person",
       "target": "presencial",
       "level": "b1",
-      "sense": "the opposite of online or à distância"
+      "note": "the opposite of online or à distância"
     },
     {
       "en": "neighbourhood",
@@ -5207,7 +5226,7 @@
       "en": "small town",
       "target": "a vila",
       "level": "a1",
-      "sense": "a false friend: bigger than a village, smaller than a cidade"
+      "note": "a false friend: bigger than a village, smaller than a cidade"
     },
     {
       "en": "village",
@@ -5253,7 +5272,7 @@
       "en": "starter / entrance",
       "target": "a entrada",
       "level": "a1",
-      "sense": "also the way in; and at a table the bread and olives are often called entradas"
+      "note": "also the way in; and at a table the bread and olives are often called entradas"
     },
     {
       "en": "main course",
@@ -5279,7 +5298,7 @@
       "en": "menu",
       "target": "a ementa",
       "level": "a1",
-      "sense": "European Portuguese; o menu is also said, and often means a set meal"
+      "note": "European Portuguese; o menu is also said, and often means a set meal"
     },
     {
       "en": "restaurant",
@@ -5310,7 +5329,7 @@
       "en": "fish dish",
       "target": "o prato de peixe",
       "level": "a1",
-      "sense": "prato is both the plate and the dish"
+      "note": "prato is both the plate and the dish"
     },
     {
       "en": "meat dish",
@@ -5391,7 +5410,7 @@
       "en": "boiled",
       "target": "cozido / cozida",
       "level": "a1",
-      "sense": "also o cozido, the Portuguese boiled-meat stew"
+      "note": "also o cozido, the Portuguese boiled-meat stew"
     },
     {
       "en": "roast / roasted",
@@ -5402,7 +5421,7 @@
       "en": "chips / crisps",
       "target": "as batatas fritas",
       "level": "a1",
-      "sense": "both chips with a meal and crisps in a bag"
+      "note": "both chips with a meal and crisps in a bag"
     },
     {
       "en": "tomato",
@@ -5428,25 +5447,27 @@
       "en": "pepper",
       "target": "a pimenta",
       "level": "a1",
-      "sense": "black pepper; the vegetable is o pimento"
+      "sense": "black",
+      "note": "black pepper; the vegetable is o pimento"
     },
     {
       "en": "parsley",
       "target": "a salsa",
       "level": "a1",
-      "sense": "a false friend: not sauce, which is o molho"
+      "sense": "the herb",
+      "note": "a false friend: not sauce, which is o molho"
     },
     {
       "en": "coriander",
       "target": "os coentros",
       "level": "a1",
-      "sense": "always plural; very common in Portuguese cooking"
+      "note": "always plural; very common in Portuguese cooking"
     },
     {
       "en": "olive oil",
       "target": "o azeite",
       "level": "a2",
-      "sense": "cooking oil in general is o óleo"
+      "note": "cooking oil in general is o óleo"
     },
     {
       "en": "breakfast",
@@ -5457,13 +5478,13 @@
       "en": "afternoon snack",
       "target": "o lanche",
       "level": "a1",
-      "sense": "the mid-afternoon snack, often with coffee"
+      "note": "the mid-afternoon snack, often with coffee"
     },
     {
       "en": "soup",
       "target": "a sopa",
       "level": "a1",
-      "sense": "most Portuguese meals start with one"
+      "note": "most Portuguese meals start with one"
     },
     {
       "en": "vegetable soup",
@@ -5474,7 +5495,8 @@
       "en": "caldo verde",
       "target": "o caldo verde",
       "level": "a1",
-      "sense": "a potato and kale soup, served with a slice of chouriço"
+      "sense": "a soup",
+      "note": "a potato and kale soup, served with a slice of chouriço"
     },
     {
       "en": "chocolate mousse",
@@ -5510,7 +5532,7 @@
       "en": "cream",
       "target": "as natas",
       "level": "a2",
-      "sense": "cooking cream; whipped cream is chantilly"
+      "note": "cooking cream; whipped cream is chantilly"
     },
     {
       "en": "cinnamon",
@@ -5531,19 +5553,20 @@
       "en": "cod fritter",
       "target": "o pastel de bacalhau",
       "level": "a1",
-      "sense": "called bolinho de bacalhau in the north"
+      "note": "called bolinho de bacalhau in the north"
     },
     {
       "en": "francesinha",
       "target": "a francesinha",
       "level": "a2",
-      "sense": "a meat-filled toasted sandwich covered in cheese and a beer sauce"
+      "sense": "a Porto sandwich",
+      "note": "a meat-filled toasted sandwich covered in cheese and a beer sauce"
     },
     {
       "en": "sardine",
       "target": "a sardinha",
       "level": "a1",
-      "sense": "the dish of the June street festivals, the Santos Populares"
+      "note": "the dish of the June street festivals, the Santos Populares"
     },
     {
       "en": "fish stew",
@@ -5564,7 +5587,7 @@
       "en": "goat stew",
       "target": "a chanfana",
       "level": "b1",
-      "sense": "goat slow-cooked in red wine, from the Coimbra region"
+      "note": "goat slow-cooked in red wine, from the Coimbra region"
     },
     {
       "en": "Portuguese boiled dinner",
@@ -5575,25 +5598,27 @@
       "en": "stew",
       "target": "o ensopado",
       "level": "b1",
-      "sense": "a stew poured over slices of bread"
+      "note": "a stew poured over slices of bread"
     },
     {
       "en": "migas",
       "target": "as migas",
       "level": "b1",
-      "sense": "fried bread crumbs with garlic and olive oil, from the Alentejo"
+      "sense": "a bread dish",
+      "note": "fried bread crumbs with garlic and olive oil, from the Alentejo"
     },
     {
       "en": "sericaia",
       "target": "a sericaia",
       "level": "b1",
-      "sense": "an egg custard cake served with plums"
+      "sense": "a dessert",
+      "note": "an egg custard cake served with plums"
     },
     {
       "en": "skewers",
       "target": "as espetadas",
       "level": "a2",
-      "sense": "meat on a bay-wood skewer"
+      "note": "meat on a bay-wood skewer"
     },
     {
       "en": "clams",
@@ -5629,7 +5654,7 @@
       "en": "to usually do",
       "target": "costumar",
       "level": "a2",
-      "sense": "costumo almoçar cedo, I usually have lunch early"
+      "note": "costumo almoçar cedo, I usually have lunch early"
     },
     {
       "en": "I usually have lunch in a canteen",
@@ -5675,7 +5700,7 @@
       "en": "uncle / aunt",
       "target": "o tio / a tia",
       "level": "a1",
-      "sense": "os tios, uncle and aunt together"
+      "note": "os tios, uncle and aunt together"
     },
     {
       "en": "boyfriend / girlfriend",
@@ -5691,19 +5716,19 @@
       "en": "children",
       "target": "os filhos",
       "level": "a1",
-      "sense": "sons and daughters together; children in general are as crianças"
+      "note": "sons and daughters together; children in general are as crianças"
     },
     {
       "en": "parents",
       "target": "os pais",
       "level": "a1",
-      "sense": "a false friend: not \"fathers\", but mother and father together"
+      "note": "a false friend: not \"fathers\", but mother and father together"
     },
     {
       "en": "siblings / brothers",
       "target": "os irmãos",
       "level": "a1",
-      "sense": "brothers and sisters together"
+      "note": "brothers and sisters together"
     },
     {
       "en": "my mother",
@@ -5750,7 +5775,7 @@
       "en": "his mother",
       "target": "a mãe dele",
       "level": "a2",
-      "sense": "a sua mãe also works, but can mean \"your mother\" too"
+      "note": "a sua mãe also works, but can mean \"your mother\" too"
     },
     {
       "en": "her mother",
@@ -5791,7 +5816,7 @@
       "en": "dark-haired / dark",
       "target": "moreno / morena",
       "level": "a1",
-      "sense": "dark hair, or a tanned or darker skin"
+      "note": "dark hair, or a tanned or darker skin"
     },
     {
       "en": "red-haired",
@@ -5837,7 +5862,7 @@
       "en": "blue eyes",
       "target": "os olhos azuis",
       "level": "a1",
-      "sense": "Portuguese uses the article: tem os olhos azuis"
+      "note": "Portuguese uses the article: tem os olhos azuis"
     },
     {
       "en": "green eyes",
@@ -5858,7 +5883,7 @@
       "en": "light / clear",
       "target": "claro / clara",
       "level": "a1",
-      "sense": "also \"of course!\": claro!"
+      "note": "also \"of course!\": claro!"
     },
     {
       "en": "dark",
@@ -5894,19 +5919,19 @@
       "en": "character / personality",
       "target": "o caráter",
       "level": "a2",
-      "sense": "also spelled carácter"
+      "note": "also spelled carácter"
     },
     {
       "en": "similar / alike",
       "target": "parecido / parecida",
       "level": "a2",
-      "sense": "takes com: parecido com"
+      "note": "takes com: parecido com"
     },
     {
       "en": "to look like / to resemble",
       "target": "parecer-se com",
       "level": "a2",
-      "sense": "reflexive: ela parece-se com a mãe"
+      "note": "reflexive: ela parece-se com a mãe"
     },
     {
       "en": "to live with",
@@ -5927,7 +5952,8 @@
       "en": "to play",
       "target": "brincar",
       "level": "a1",
-      "sense": "children's play; games and sport are jogar, instruments tocar. Also to joke: estou a brincar"
+      "sense": "like children do",
+      "note": "children's play; games and sport are jogar, instruments tocar. Also to joke: estou a brincar"
     },
     {
       "en": "she has blue eyes",
@@ -5954,15 +5980,15 @@
       "en": "my uncle and aunt live in Porto",
       "target": "os tios moram no Porto",
       "level": "a2",
-      "sense": "os tios can be uncles, or uncle and aunt",
-      "tense": "presente"
+      "tense": "presente",
+      "note": "os tios can be uncles, or uncle and aunt"
     },
     {
       "en": "grandma is ninety",
       "target": "a avó tem noventa anos",
       "level": "a1",
-      "sense": "age uses ter",
-      "tense": "presente"
+      "tense": "presente",
+      "note": "age uses ter"
     },
     {
       "en": "activity",
@@ -6011,8 +6037,9 @@
       "en": "I'm a nurse",
       "target": "sou enfermeiro",
       "level": "a1",
-      "sense": "said by a man; no article before a job: sou enfermeiro, not sou um enfermeiro",
-      "tense": "presente"
+      "tense": "presente",
+      "sense": "said by a man",
+      "note": "said by a man; no article before a job: sou enfermeiro, not sou um enfermeiro"
     },
     {
       "en": "I'm a nurse",
@@ -6057,7 +6084,7 @@
       "en": "second",
       "target": "segundo / segunda",
       "level": "a1",
-      "sense": "segundo is also \"according to\", and a second of time"
+      "note": "segundo is also \"according to\", and a second of time"
     },
     {
       "en": "third",

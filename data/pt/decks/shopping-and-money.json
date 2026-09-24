@@ -409,7 +409,7 @@
       "en": "bookshop",
       "target": "a livraria",
       "level": "a1",
-      "sense": "a false friend: a library is a biblioteca"
+      "note": "a false friend: a library is a biblioteca"
     },
     {
       "en": "electronics shop",
@@ -420,7 +420,8 @@
       "en": "street market / fair",
       "target": "a feira",
       "level": "a1",
-      "sense": "also a trade fair; and the -feira in segunda-feira"
+      "sense": "open-air",
+      "note": "also a trade fair; and the -feira in segunda-feira"
     },
     {
       "en": "hypermarket",
@@ -441,13 +442,14 @@
       "en": "sold out / out of stock",
       "target": "esgotado / esgotada",
       "level": "a2",
-      "sense": "also exhausted, of a person"
+      "note": "also exhausted, of a person"
     },
     {
       "en": "receipt / slip",
       "target": "o talão",
       "level": "a2",
-      "sense": "the till receipt a cashier offers; also a ticket or voucher"
+      "sense": "from the till",
+      "note": "the till receipt a cashier offers; also a ticket or voucher"
     },
     {
       "en": "to ask for a discount",
@@ -458,7 +460,7 @@
       "en": "to withdraw money",
       "target": "levantar dinheiro",
       "level": "a1",
-      "sense": "from a cash machine; levantar alone is to lift or raise"
+      "note": "from a cash machine; levantar alone is to lift or raise"
     },
     {
       "en": "by card",
@@ -474,15 +476,17 @@
       "en": "I'll take it",
       "target": "vou levar",
       "level": "a1",
-      "sense": "what you say in a shop once you have decided",
-      "tense": "futuroProximo"
+      "tense": "futuroProximo",
+      "sense": "in a shop",
+      "note": "what you say in a shop once you have decided"
     },
     {
       "en": "how much is it?",
       "target": "quanto é?",
       "level": "a1",
-      "sense": "asking for the total",
-      "tense": "presente"
+      "tense": "presente",
+      "sense": "the total",
+      "note": "asking for the total"
     },
     {
       "en": "can I have a closer look?",
@@ -554,21 +558,23 @@
       "en": "can I help you?",
       "target": "posso ajudá-lo?",
       "level": "a2",
-      "sense": "said to a man",
       "tags": [
         "formal"
       ],
-      "tense": "presente"
+      "tense": "presente",
+      "sense": "to a man",
+      "note": "said to a man"
     },
     {
       "en": "can I help you?",
       "target": "posso ajudá-la?",
       "level": "a2",
-      "sense": "said to a woman",
       "tags": [
         "formal"
       ],
-      "tense": "presente"
+      "tense": "presente",
+      "sense": "to a woman",
+      "note": "said to a woman"
     },
     {
       "en": "can I see?",
@@ -604,11 +610,11 @@
       "en": "do you have these shoes in a size 40?",
       "target": "tem estes sapatos no número 40?",
       "level": "a2",
-      "sense": "shoe sizes are números",
       "tags": [
         "formal"
       ],
-      "tense": "presente"
+      "tense": "presente",
+      "note": "shoe sizes are números"
     },
     {
       "en": "vinyl record",
@@ -619,7 +625,7 @@
       "en": "sunscreen",
       "target": "o protetor solar",
       "level": "a1",
-      "sense": "creme solar is also said"
+      "note": "creme solar is also said"
     },
     {
       "en": "syrup / cough syrup",

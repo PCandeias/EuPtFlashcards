@@ -736,7 +736,7 @@
       "en": "boiled",
       "target": "cozido / cozida",
       "level": "a1",
-      "sense": "also o cozido, the Portuguese boiled-meat stew"
+      "note": "also o cozido, the Portuguese boiled-meat stew"
     },
     {
       "en": "roast / roasted",
@@ -747,13 +747,14 @@
       "en": "chips / crisps",
       "target": "as batatas fritas",
       "level": "a1",
-      "sense": "both chips with a meal and crisps in a bag"
+      "note": "both chips with a meal and crisps in a bag"
     },
     {
       "en": "caldo verde",
       "target": "o caldo verde",
       "level": "a1",
-      "sense": "a potato and kale soup, served with a slice of chouriço"
+      "sense": "a soup",
+      "note": "a potato and kale soup, served with a slice of chouriço"
     },
     {
       "en": "chocolate mousse",
@@ -789,13 +790,14 @@
       "en": "francesinha",
       "target": "a francesinha",
       "level": "a2",
-      "sense": "a meat-filled toasted sandwich covered in cheese and a beer sauce"
+      "sense": "a Porto sandwich",
+      "note": "a meat-filled toasted sandwich covered in cheese and a beer sauce"
     },
     {
       "en": "sardine",
       "target": "a sardinha",
       "level": "a1",
-      "sense": "the dish of the June street festivals, the Santos Populares"
+      "note": "the dish of the June street festivals, the Santos Populares"
     },
     {
       "en": "fish stew",
@@ -816,7 +818,7 @@
       "en": "goat stew",
       "target": "a chanfana",
       "level": "b1",
-      "sense": "goat slow-cooked in red wine, from the Coimbra region"
+      "note": "goat slow-cooked in red wine, from the Coimbra region"
     },
     {
       "en": "Portuguese boiled dinner",
@@ -827,25 +829,27 @@
       "en": "stew",
       "target": "o ensopado",
       "level": "b1",
-      "sense": "a stew poured over slices of bread"
+      "note": "a stew poured over slices of bread"
     },
     {
       "en": "migas",
       "target": "as migas",
       "level": "b1",
-      "sense": "fried bread crumbs with garlic and olive oil, from the Alentejo"
+      "sense": "a bread dish",
+      "note": "fried bread crumbs with garlic and olive oil, from the Alentejo"
     },
     {
       "en": "sericaia",
       "target": "a sericaia",
       "level": "b1",
-      "sense": "an egg custard cake served with plums"
+      "sense": "a dessert",
+      "note": "an egg custard cake served with plums"
     },
     {
       "en": "skewers",
       "target": "as espetadas",
       "level": "a2",
-      "sense": "meat on a bay-wood skewer"
+      "note": "meat on a bay-wood skewer"
     },
     {
       "en": "clams",

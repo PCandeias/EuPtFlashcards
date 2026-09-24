@@ -226,7 +226,8 @@
       "en": "to reserve",
       "target": "rezerve etmek",
       "level": "a2",
-      "sense": "rezervasyon yapmak is more common in speech"
+      "sense": "the formal word",
+      "note": "rezervasyon yapmak is more common in speech"
     },
     {
       "en": "not spicy / mild",
@@ -267,7 +268,8 @@
       "en": "cup",
       "target": "fincan",
       "level": "a1",
-      "sense": "a coffee cup; tea is served in a bardak"
+      "sense": "for coffee",
+      "note": "a coffee cup; tea is served in a bardak"
     },
     {
       "en": "hot drink",
@@ -288,7 +290,8 @@
       "en": "rare",
       "target": "az pişmiş",
       "level": "a2",
-      "sense": "of meat; literally \"little cooked\""
+      "sense": "of meat",
+      "note": "of meat; literally \"little cooked\""
     },
     {
       "en": "medium",
@@ -341,7 +344,7 @@
       "en": "to order",
       "target": "sipariş etmek",
       "level": "a2",
-      "sense": "sipariş vermek means the same"
+      "note": "sipariş vermek means the same"
     },
     {
       "en": "what would you like to eat?",
