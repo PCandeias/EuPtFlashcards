@@ -216,6 +216,111 @@
       "en": "tip",
       "target": "bahşiş",
       "level": "a2"
+    },
+    {
+      "en": "to make a reservation / to book",
+      "target": "rezervasyon yapmak",
+      "level": "a1"
+    },
+    {
+      "en": "to reserve",
+      "target": "rezerve etmek",
+      "level": "a2",
+      "sense": "rezervasyon yapmak is more common in speech"
+    },
+    {
+      "en": "not spicy / mild",
+      "target": "acısız",
+      "level": "a1"
+    },
+    {
+      "en": "starter / beginning",
+      "target": "başlangıç",
+      "level": "a2"
+    },
+    {
+      "en": "dessert menu",
+      "target": "tatlı menüsü",
+      "level": "a1"
+    },
+    {
+      "en": "drinks menu",
+      "target": "içecek menüsü",
+      "level": "a1"
+    },
+    {
+      "en": "half portion",
+      "target": "yarım porsiyon",
+      "level": "a1"
+    },
+    {
+      "en": "small portion",
+      "target": "küçük porsiyon",
+      "level": "a1"
+    },
+    {
+      "en": "large portion",
+      "target": "büyük porsiyon",
+      "level": "a1"
+    },
+    {
+      "en": "cup",
+      "target": "fincan",
+      "level": "a1",
+      "sense": "a coffee cup; tea is served in a bardak"
+    },
+    {
+      "en": "hot drink",
+      "target": "sıcak içecek",
+      "level": "a1"
+    },
+    {
+      "en": "cold drink",
+      "target": "soğuk içecek",
+      "level": "a1"
+    },
+    {
+      "en": "still water",
+      "target": "normal su",
+      "level": "a1"
+    },
+    {
+      "en": "rare",
+      "target": "az pişmiş",
+      "level": "a2",
+      "sense": "of meat; literally \"little cooked\""
+    },
+    {
+      "en": "medium",
+      "target": "orta pişmiş",
+      "level": "a2",
+      "sense": "of meat"
+    },
+    {
+      "en": "well done",
+      "target": "iyi pişmiş",
+      "level": "a2",
+      "sense": "of meat"
+    },
+    {
+      "en": "without onion",
+      "target": "soğansız",
+      "level": "a1"
+    },
+    {
+      "en": "with sauce",
+      "target": "soslu",
+      "level": "a1"
+    },
+    {
+      "en": "without sauce",
+      "target": "sossuz",
+      "level": "a1"
+    },
+    {
+      "en": "to recommend / to suggest",
+      "target": "önermek",
+      "level": "a1"
     }
   ]
 }

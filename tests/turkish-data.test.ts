@@ -14,7 +14,7 @@ const CARDS = turkish.cards
 
 describe('the Turkish corpus', () => {
   it('holds the whole corpus', () => {
-    expect(CARDS.length).toBe(3246)
+    expect(CARDS.length).toBe(3352)
   })
 
   it('covers every deck', () => {
@@ -150,7 +150,7 @@ describe('the Turkish corpus', () => {
   it('uses contextual examples throughout the adjectives deck', () => {
     const words = wordExamples as Record<string, { target: string; en: string }[]>
     const cards = CARDS.filter(c => c.deck === 'Adjectives & Opposites')
-    expect(cards).toHaveLength(106)
+    expect(cards).toHaveLength(111)
     expect(cards.filter(card => !words[card.target]).map(card => card.target)).toEqual([])
     expect(cards.filter(card => words[card.target]!.length > 3).map(card => card.target)).toEqual([])
 

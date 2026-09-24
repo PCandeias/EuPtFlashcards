@@ -471,6 +471,22 @@
       "en": "bridge over the river",
       "target": "nehir köprüsü",
       "level": "a2"
+    },
+    {
+      "en": "letter",
+      "target": "mektup",
+      "level": "a1",
+      "sense": "a letter you post; a letter of the alphabet is harf"
+    },
+    {
+      "en": "letterbox / mailbox",
+      "target": "posta kutusu",
+      "level": "a1"
+    },
+    {
+      "en": "noise",
+      "target": "gürültü",
+      "level": "a2"
     }
   ]
 }

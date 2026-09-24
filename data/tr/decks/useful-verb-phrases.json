@@ -186,6 +186,18 @@
       "target": "Türkçe'de nasıl denir?",
       "tense": "genis",
       "level": "a2"
+    },
+    {
+      "en": "to appear / to come out",
+      "target": "ortaya çıkmak",
+      "level": "b1",
+      "sense": "literally \"to come out into the middle\""
+    },
+    {
+      "en": "to unlock",
+      "target": "kilidini açmak",
+      "level": "b1",
+      "sense": "literally \"to open its lock\": kapının kilidini açmak"
     }
   ]
 }

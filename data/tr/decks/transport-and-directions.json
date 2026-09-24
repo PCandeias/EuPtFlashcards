@@ -433,6 +433,11 @@
       "en": "from the station",
       "target": "istasyondan",
       "level": "a1"
+    },
+    {
+      "en": "platform number",
+      "target": "peron numarası",
+      "level": "a2"
     }
   ]
 }

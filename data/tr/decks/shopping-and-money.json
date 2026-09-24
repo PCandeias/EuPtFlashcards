@@ -400,6 +400,12 @@
       "en": "too expensive",
       "target": "fazla pahalı",
       "level": "a1"
+    },
+    {
+      "en": "coin",
+      "target": "madeni para",
+      "level": "a2",
+      "sense": "literally \"metal money\"; small change is bozuk para"
     }
   ]
 }

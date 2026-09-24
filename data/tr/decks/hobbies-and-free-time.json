@@ -251,6 +251,22 @@
       "target": "Film izliyoruz",
       "tense": "simdiki",
       "level": "a1"
+    },
+    {
+      "en": "story",
+      "target": "hikâye",
+      "level": "a1",
+      "sense": "also written hikaye"
+    },
+    {
+      "en": "chapter / episode / department",
+      "target": "bölüm",
+      "level": "a1"
+    },
+    {
+      "en": "riddle",
+      "target": "bilmece",
+      "level": "b1"
     }
   ]
 }

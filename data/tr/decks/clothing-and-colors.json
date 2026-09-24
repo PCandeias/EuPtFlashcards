@@ -312,6 +312,52 @@
       "en": "leather",
       "target": "deri",
       "level": "a1"
+    },
+    {
+      "en": "dark",
+      "target": "koyu",
+      "level": "a1",
+      "sense": "of a colour or a drink: koyu mavi, dark blue; koyu çay, strong tea"
+    },
+    {
+      "en": "light-coloured",
+      "target": "açık renkli",
+      "level": "a1"
+    },
+    {
+      "en": "colourless",
+      "target": "renksiz",
+      "level": "a2"
+    },
+    {
+      "en": "gold",
+      "target": "altın",
+      "level": "a1"
+    },
+    {
+      "en": "silver",
+      "target": "gümüş",
+      "level": "a1"
+    },
+    {
+      "en": "silver-coloured",
+      "target": "gümüş rengi",
+      "level": "a1"
+    },
+    {
+      "en": "light blue",
+      "target": "açık mavi",
+      "level": "a1"
+    },
+    {
+      "en": "dark green",
+      "target": "koyu yeşil",
+      "level": "a1"
+    },
+    {
+      "en": "light green",
+      "target": "açık yeşil",
+      "level": "a1"
     }
   ]
 }

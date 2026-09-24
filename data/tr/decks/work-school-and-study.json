@@ -270,6 +270,84 @@
       "en": "school year",
       "target": "ders yılı",
       "level": "a2"
+    },
+    {
+      "en": "pencil",
+      "target": "kurşun kalem",
+      "level": "a1",
+      "sense": "literally \"lead pen\""
+    },
+    {
+      "en": "ballpoint pen",
+      "target": "tükenmez kalem",
+      "level": "a2",
+      "sense": "literally \"the pen that never runs out\""
+    },
+    {
+      "en": "board / blackboard / wood",
+      "target": "tahta",
+      "level": "a1"
+    },
+    {
+      "en": "page",
+      "target": "sayfa",
+      "level": "a1"
+    },
+    {
+      "en": "test / quiz",
+      "target": "test",
+      "level": "a1"
+    },
+    {
+      "en": "grade / mark / note",
+      "target": "not",
+      "level": "a1",
+      "sense": "also a written note: not almak, to take notes"
+    },
+    {
+      "en": "topic / subject",
+      "target": "konu",
+      "level": "a1",
+      "sense": "the subject of a conversation or lesson; a school subject is ders"
+    },
+    {
+      "en": "science",
+      "target": "fen bilgisi",
+      "level": "a1",
+      "sense": "the school subject"
+    },
+    {
+      "en": "staff room",
+      "target": "öğretmenler odası",
+      "level": "a2"
+    },
+    {
+      "en": "paper / sheet of paper",
+      "target": "kâğıt",
+      "level": "a1",
+      "sense": "also written kağıt"
+    },
+    {
+      "en": "bell",
+      "target": "zil",
+      "level": "a1",
+      "sense": "a school bell or a doorbell"
+    },
+    {
+      "en": "rule",
+      "target": "kural",
+      "level": "a2"
+    },
+    {
+      "en": "punishment / fine / penalty",
+      "target": "ceza",
+      "level": "a2",
+      "sense": "also a fine you pay, or a penalty in football"
+    },
+    {
+      "en": "reward / prize / award",
+      "target": "ödül",
+      "level": "a2"
     }
   ]
 }

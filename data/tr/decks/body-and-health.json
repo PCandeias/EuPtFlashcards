@@ -420,6 +420,12 @@
       "en": "breath",
       "target": "nefes",
       "level": "a2"
+    },
+    {
+      "en": "scar",
+      "target": "yara izi",
+      "level": "b1",
+      "sense": "literally \"wound trace\""
     }
   ]
 }

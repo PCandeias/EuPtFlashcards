@@ -534,6 +534,31 @@
       "en": "a good idea",
       "target": "iyi bir fikir",
       "level": "a1"
+    },
+    {
+      "en": "transparent / see-through",
+      "target": "şeffaf",
+      "level": "b1"
+    },
+    {
+      "en": "sharp",
+      "target": "keskin",
+      "level": "a2"
+    },
+    {
+      "en": "secret / hidden",
+      "target": "gizli",
+      "level": "a2"
+    },
+    {
+      "en": "locked",
+      "target": "kilitli",
+      "level": "a2"
+    },
+    {
+      "en": "forbidden / ban",
+      "target": "yasak",
+      "level": "a2"
     }
   ]
 }

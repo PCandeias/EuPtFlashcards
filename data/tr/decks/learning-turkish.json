@@ -105,6 +105,43 @@
       "en": "how is it written?",
       "target": "Nasıl yazılır?",
       "level": "a2"
+    },
+    {
+      "en": "mistake / error",
+      "target": "hata",
+      "level": "a1"
+    },
+    {
+      "en": "alphabet",
+      "target": "alfabe",
+      "level": "a1"
+    },
+    {
+      "en": "grammar",
+      "target": "dil bilgisi",
+      "level": "a2",
+      "sense": "also written dilbilgisi"
+    },
+    {
+      "en": "foreign language",
+      "target": "yabancı dil",
+      "level": "a1"
+    },
+    {
+      "en": "to repeat",
+      "target": "tekrar etmek",
+      "level": "a1"
+    },
+    {
+      "en": "to answer",
+      "target": "cevaplamak",
+      "level": "a2",
+      "sense": "takes a direct object, where cevap vermek takes the dative"
+    },
+    {
+      "en": "to practise",
+      "target": "pratik yapmak",
+      "level": "a1"
     }
   ]
 }

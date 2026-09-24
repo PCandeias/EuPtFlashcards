@@ -105,6 +105,32 @@
       "en": "what is he like?",
       "target": "Nasıl biri?",
       "level": "a2"
+    },
+    {
+      "en": "cunning / sly",
+      "target": "kurnaz",
+      "level": "a2"
+    },
+    {
+      "en": "pale / faded",
+      "target": "soluk",
+      "level": "b1",
+      "sense": "also \"breath\" as a noun"
+    },
+    {
+      "en": "brave",
+      "target": "cesur",
+      "level": "a2"
+    },
+    {
+      "en": "clever / intelligent",
+      "target": "zeki",
+      "level": "a1"
+    },
+    {
+      "en": "spoiled",
+      "target": "şımarık",
+      "level": "b1"
     }
   ]
 }

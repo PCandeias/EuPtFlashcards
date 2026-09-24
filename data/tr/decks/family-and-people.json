@@ -397,6 +397,32 @@
       "en": "old woman",
       "target": "yaşlı kadın",
       "level": "a1"
+    },
+    {
+      "en": "uncle by marriage / brother-in-law",
+      "target": "enişte",
+      "level": "a2",
+      "sense": "your aunt's husband or your sister's husband"
+    },
+    {
+      "en": "orphan",
+      "target": "yetim",
+      "level": "b1"
+    },
+    {
+      "en": "enemy",
+      "target": "düşman",
+      "level": "a2"
+    },
+    {
+      "en": "hero / heroine",
+      "target": "kahraman",
+      "level": "a2"
+    },
+    {
+      "en": "foreign / foreigner / stranger",
+      "target": "yabancı",
+      "level": "a1"
     }
   ]
 }

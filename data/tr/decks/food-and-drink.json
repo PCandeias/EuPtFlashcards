@@ -798,6 +798,28 @@
       "en": "half a kilo",
       "target": "yarım kilo",
       "level": "a1"
+    },
+    {
+      "en": "sour cherry",
+      "target": "vişne",
+      "level": "a1"
+    },
+    {
+      "en": "to mix / to stir",
+      "target": "karıştırmak",
+      "level": "a2",
+      "sense": "also to mix up or confuse two things"
+    },
+    {
+      "en": "to smell",
+      "target": "kokmak",
+      "level": "a1",
+      "sense": "to give off a smell; to sniff something is koklamak"
+    },
+    {
+      "en": "to sniff / to smell something",
+      "target": "koklamak",
+      "level": "a2"
     }
   ]
 }

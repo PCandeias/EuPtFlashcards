@@ -256,6 +256,69 @@
       "en": "there is a bird in the tree",
       "target": "Ağaçta bir kuş var",
       "level": "a1"
+    },
+    {
+      "en": "rat",
+      "target": "sıçan",
+      "level": "a2",
+      "sense": "fare is also used for rats in everyday speech"
+    },
+    {
+      "en": "deer",
+      "target": "geyik",
+      "level": "a2"
+    },
+    {
+      "en": "worm",
+      "target": "solucan",
+      "level": "a2"
+    },
+    {
+      "en": "shark",
+      "target": "köpek balığı",
+      "level": "a2",
+      "sense": "literally \"dog fish\"; also written köpekbalığı"
+    },
+    {
+      "en": "whale",
+      "target": "balina",
+      "level": "a2"
+    },
+    {
+      "en": "crow",
+      "target": "karga",
+      "level": "a2"
+    },
+    {
+      "en": "feather / hair / fur",
+      "target": "tüy",
+      "level": "a2",
+      "sense": "also body hair and an animal's coat"
+    },
+    {
+      "en": "fur / fur coat",
+      "target": "kürk",
+      "level": "b1"
+    },
+    {
+      "en": "claw / paw",
+      "target": "pençe",
+      "level": "b1"
+    },
+    {
+      "en": "horn",
+      "target": "boynuz",
+      "level": "a2"
+    },
+    {
+      "en": "beak",
+      "target": "gaga",
+      "level": "a2"
+    },
+    {
+      "en": "cage",
+      "target": "kafes",
+      "level": "a2"
     }
   ]
 }

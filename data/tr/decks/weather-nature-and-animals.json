@@ -323,6 +323,17 @@
       "en": "a windy day",
       "target": "rüzgârlı bir gün",
       "level": "a1"
+    },
+    {
+      "en": "field",
+      "target": "tarla",
+      "level": "a2",
+      "sense": "a farmed field; a sports pitch is saha"
+    },
+    {
+      "en": "pond",
+      "target": "gölet",
+      "level": "b1"
     }
   ]
 }

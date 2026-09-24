@@ -672,6 +672,61 @@
       "en": "to point",
       "target": "işaret etmek",
       "level": "a2"
+    },
+    {
+      "en": "to disappear / to get lost",
+      "target": "kaybolmak",
+      "level": "a2"
+    },
+    {
+      "en": "to hide",
+      "target": "saklanmak",
+      "level": "a2",
+      "sense": "to hide yourself; to hide something is saklamak"
+    },
+    {
+      "en": "to escape / to run away",
+      "target": "kaçmak",
+      "level": "a2",
+      "sense": "what you escape from takes the ablative: evden kaçmak"
+    },
+    {
+      "en": "to protect / to guard",
+      "target": "korumak",
+      "level": "a2"
+    },
+    {
+      "en": "to shout / to yell",
+      "target": "bağırmak",
+      "level": "a2",
+      "sense": "who you shout at takes the dative: bana bağırma"
+    },
+    {
+      "en": "to whisper",
+      "target": "fısıldamak",
+      "level": "b1"
+    },
+    {
+      "en": "to lock",
+      "target": "kilitlemek",
+      "level": "a2"
+    },
+    {
+      "en": "to catch",
+      "target": "yakalamak",
+      "level": "a2"
+    },
+    {
+      "en": "to follow",
+      "target": "takip etmek",
+      "level": "a2",
+      "sense": "also to keep up with or keep track of"
+    },
+    {
+      "en": "to notice",
+      "target": "fark etmek",
+      "level": "a2",
+      "sense": "fark etmez, \"it makes no difference\""
     }
   ]
 }
