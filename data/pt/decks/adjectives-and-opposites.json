@@ -466,6 +466,22 @@
       "en": "rich in flavour",
       "target": "saboroso / saborosa",
       "level": "a2"
+    },
+    {
+      "en": "old / antique / former",
+      "target": "antigo / antiga",
+      "level": "a1",
+      "sense": "before a noun it means former: o antigo presidente"
+    },
+    {
+      "en": "rural",
+      "target": "rural",
+      "level": "a2"
+    },
+    {
+      "en": "isolated / remote",
+      "target": "isolado / isolada",
+      "level": "b1"
     }
   ]
 }

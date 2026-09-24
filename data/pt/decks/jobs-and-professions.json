@@ -184,6 +184,52 @@
       "target": "sou professor / sou professora",
       "tense": "presente",
       "level": "a1"
+    },
+    {
+      "en": "police officer",
+      "target": "o agente da polícia",
+      "level": "a2"
+    },
+    {
+      "en": "what do you do for a living?",
+      "target": "qual é a tua profissão?",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presente"
+    },
+    {
+      "en": "what do you do for a living?",
+      "target": "qual é a sua profissão?",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ],
+      "tense": "presente"
+    },
+    {
+      "en": "I'm a nurse",
+      "target": "sou enfermeiro",
+      "level": "a1",
+      "sense": "said by a man; no article before a job: sou enfermeiro, not sou um enfermeiro",
+      "tense": "presente"
+    },
+    {
+      "en": "I'm a nurse",
+      "target": "sou enfermeira",
+      "level": "a1",
+      "sense": "said by a woman",
+      "tense": "presente"
+    },
+    {
+      "en": "how do you spell your name?",
+      "target": "como se escreve o seu nome?",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ],
+      "tense": "presente"
     }
   ]
 }

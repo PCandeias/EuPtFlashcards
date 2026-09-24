@@ -316,6 +316,64 @@
       "en": "the set menu",
       "target": "o menu do dia",
       "level": "a1"
+    },
+    {
+      "en": "meal",
+      "target": "a refeição",
+      "level": "a2"
+    },
+    {
+      "en": "waiter / waitress",
+      "target": "o empregado de mesa / a empregada de mesa",
+      "level": "a1"
+    },
+    {
+      "en": "fish dish",
+      "target": "o prato de peixe",
+      "level": "a1",
+      "sense": "prato is both the plate and the dish"
+    },
+    {
+      "en": "meat dish",
+      "target": "o prato de carne",
+      "level": "a1"
+    },
+    {
+      "en": "vegetarian dish",
+      "target": "o prato vegetariano",
+      "level": "a1"
+    },
+    {
+      "en": "children's menu",
+      "target": "o menu infantil",
+      "level": "a1"
+    },
+    {
+      "en": "canteen",
+      "target": "a cantina",
+      "level": "a2"
+    },
+    {
+      "en": "traditional restaurant",
+      "target": "o restaurante tradicional",
+      "level": "a2"
+    },
+    {
+      "en": "buffet",
+      "target": "o buffet",
+      "level": "a2"
+    },
+    {
+      "en": "lunch is always good at this restaurant",
+      "target": "os almoços são sempre bons neste restaurante",
+      "level": "a2",
+      "tense": "presente"
+    },
+    {
+      "en": "the desserts are on the menu",
+      "target": "as sobremesas estão no menu",
+      "level": "a1",
+      "tense": "presente"
     }
   ]
 }

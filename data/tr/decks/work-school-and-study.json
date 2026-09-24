@@ -348,6 +348,38 @@
       "en": "reward / prize / award",
       "target": "ödül",
       "level": "a2"
+    },
+    {
+      "en": "economics",
+      "target": "iktisat",
+      "level": "b1",
+      "sense": "also ekonomi"
+    },
+    {
+      "en": "law",
+      "target": "hukuk",
+      "level": "a2"
+    },
+    {
+      "en": "medicine",
+      "target": "tıp",
+      "level": "a2",
+      "sense": "the discipline; a medicine you take is ilaç"
+    },
+    {
+      "en": "literature",
+      "target": "edebiyat",
+      "level": "a2"
+    },
+    {
+      "en": "international relations",
+      "target": "uluslararası ilişkiler",
+      "level": "b1"
+    },
+    {
+      "en": "business administration / management",
+      "target": "işletme",
+      "level": "b1"
     }
   ]
 }

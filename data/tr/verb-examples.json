@@ -6034,29 +6034,110 @@
   ],
   "rezervasyon yapmak": [
     {
-      "target": "Yarın akşam için rezervasyon yapmak istiyorum.",
-      "en": "I'd like to book for tomorrow evening.",
+      "target": "Şu an restorana telefonla rezervasyon yapıyorum.",
+      "en": "I'm booking the restaurant by phone right now.",
       "tense": "simdiki"
+    },
+    {
+      "target": "Yaz tatili için her zaman erkenden rezervasyon yaparım.",
+      "en": "I always book early for the summer holiday.",
+      "tense": "genis"
+    },
+    {
+      "target": "Dün restoranda dört kişilik rezervasyon yaptım.",
+      "en": "Yesterday I booked a table for four at the restaurant.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Annem otelde bizim için rezervasyon yapmış.",
+      "en": "It turns out Mum booked the hotel for us.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Yarın tren için rezervasyon yapacağız.",
+      "en": "Tomorrow we'll book the train.",
+      "tense": "gelecek"
     }
   ],
   "rezerve etmek": [
     {
-      "target": "Bir masa rezerve etmek istiyorum.",
-      "en": "I'd like to reserve a table.",
+      "target": "Otel için iki oda rezerve ediyorum.",
+      "en": "I'm reserving two rooms at the hotel.",
       "tense": "simdiki"
+    },
+    {
+      "target": "Otel bu odaları genelde gruplara rezerve eder.",
+      "en": "The hotel usually reserves these rooms for groups.",
+      "tense": "genis"
+    },
+    {
+      "target": "Tiyatroda iki koltuk rezerve ettim.",
+      "en": "I reserved two seats at the theatre.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Şirket bütün katı bizim için rezerve etmiş.",
+      "en": "Apparently the company reserved the whole floor for us.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Toplantı için büyük salonu rezerve edeceğim.",
+      "en": "I'll reserve the big hall for the meeting.",
+      "tense": "gelecek"
     }
   ],
   "önermek": [
     {
+      "target": "Doktor bana daha çok yürümeyi öneriyor.",
+      "en": "The doctor is suggesting I walk more.",
+      "tense": "simdiki"
+    },
+    {
       "target": "Ne önerirsiniz?",
       "en": "What do you recommend?",
       "tense": "genis"
+    },
+    {
+      "target": "Garson bize balık önerdi.",
+      "en": "The waiter recommended the fish to us.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Duyduğuma göre Ayşe bu kitabı herkese önermiş.",
+      "en": "I hear Ayşe has recommended this book to everyone.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Müdüre yeni bir plan önereceğim.",
+      "en": "I'll suggest a new plan to the manager.",
+      "tense": "gelecek"
     }
   ],
   "karıştırmak": [
     {
-      "target": "Çorbayı karıştır.",
-      "en": "Stir the soup."
+      "target": "Annem mutfakta çorbayı karıştırıyor.",
+      "en": "Mum is stirring the soup in the kitchen.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Kek hamurunu hep tahta kaşıkla karıştırırım.",
+      "en": "I always mix the cake batter with a wooden spoon.",
+      "tense": "genis"
+    },
+    {
+      "target": "Çayına şeker koyup karıştırdı.",
+      "en": "He put sugar in his tea and stirred it.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Kardeşim boyaları karıştırmış, duvar gri olmuş.",
+      "en": "Looks like my brother mixed the paints; the wall has turned grey.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Sosu beş dakika sonra karıştıracağım.",
+      "en": "I'll stir the sauce in five minutes.",
+      "tense": "gelecek"
     }
   ],
   "kokmak": [
@@ -6064,12 +6145,53 @@
       "target": "Çorba çok güzel kokuyor.",
       "en": "The soup smells really good.",
       "tense": "simdiki"
+    },
+    {
+      "target": "Bu çiçekler akşamları çok güzel kokar.",
+      "en": "These flowers smell lovely in the evenings.",
+      "tense": "genis"
+    },
+    {
+      "target": "Dün akşam bütün ev balık koktu.",
+      "en": "Last night the whole house smelled of fish.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Duyduğuma göre bütün apartman gaz kokmuş.",
+      "en": "I hear the whole building smelled of gas.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Pasta pişince bütün ev vanilya kokacak.",
+      "en": "When the cake bakes, the whole house will smell of vanilla.",
+      "tense": "gelecek"
     }
   ],
   "koklamak": [
     {
-      "target": "Şu çiçeği kokla!",
-      "en": "Smell this flower!"
+      "target": "Köpek yerdeki izleri kokluyor.",
+      "en": "The dog is sniffing the tracks on the ground.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Kavun almadan önce hep koklarım.",
+      "en": "I always smell a melon before I buy it.",
+      "tense": "genis"
+    },
+    {
+      "target": "Kız gülü kokladı ve gülümsedi.",
+      "en": "The girl smelled the rose and smiled.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Kedi yemeği koklamış ama yememiş.",
+      "en": "Apparently the cat sniffed the food but didn't eat it.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Mağazada birkaç parfüm koklayacağım.",
+      "en": "I'll smell a few perfumes at the shop.",
+      "tense": "gelecek"
     }
   ],
   "büyü yapmak": [
@@ -6077,20 +6199,80 @@
       "target": "Cadı bir büyü yapıyor.",
       "en": "The witch is casting a spell.",
       "tense": "simdiki"
+    },
+    {
+      "target": "Masallarda cadılar gece yarısı büyü yapar.",
+      "en": "In fairy tales, witches cast spells at midnight.",
+      "tense": "genis"
+    },
+    {
+      "target": "Filmde büyücü prensese büyü yaptı.",
+      "en": "In the film, the wizard cast a spell on the princess.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Hikâyeye göre kötü kraliçe prensese büyü yapmış.",
+      "en": "According to the story, the wicked queen put a spell on the princess.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Bu akşamki gösteride sihirbaz büyü yapacak.",
+      "en": "The magician will do magic at tonight's show.",
+      "tense": "gelecek"
     }
   ],
   "kaybolmak": [
     {
+      "target": "Güneş bulutların arkasında kayboluyor.",
+      "en": "The sun is disappearing behind the clouds.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Bu çoraplar çamaşır makinesinde hep kaybolur.",
+      "en": "These socks always go missing in the washing machine.",
+      "tense": "genis"
+    },
+    {
       "target": "Anahtar yine kayboldu.",
       "en": "The key has disappeared again.",
       "tense": "gecmis"
+    },
+    {
+      "target": "Bir turist ormanda kaybolmuş, polis arıyor.",
+      "en": "Apparently a tourist got lost in the forest; the police are searching.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Bu sokaklarda haritasız kaybolacaksın.",
+      "en": "You'll get lost in these streets without a map.",
+      "tense": "gelecek"
     }
   ],
   "ortaya çıkmak": [
     {
+      "target": "Yağmurdan sonra güneş yeniden ortaya çıkıyor.",
+      "en": "After the rain, the sun is coming out again.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Gerçek er ya da geç ortaya çıkar.",
+      "en": "The truth comes out sooner or later.",
+      "tense": "genis"
+    },
+    {
       "target": "Birden bir mektup ortaya çıktı.",
       "en": "Suddenly a letter appeared.",
       "tense": "gecmis"
+    },
+    {
+      "target": "Sonunda hırsızın komşu olduğu ortaya çıkmış.",
+      "en": "In the end it turned out the thief was the neighbour.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Bu sır bir gün mutlaka ortaya çıkacak.",
+      "en": "This secret will surely come out one day.",
+      "tense": "gelecek"
     }
   ],
   "saklanmak": [
@@ -6098,6 +6280,26 @@
       "target": "Kedi masanın altında saklanıyor.",
       "en": "The cat is hiding under the table.",
       "tense": "simdiki"
+    },
+    {
+      "target": "Çocuklar saklambaçta hep dolaba saklanır.",
+      "en": "The kids always hide in the wardrobe when playing hide-and-seek.",
+      "tense": "genis"
+    },
+    {
+      "target": "Kardeşim utanıp yatağın altına saklandı.",
+      "en": "My brother got shy and hid under the bed.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Hırsız bütün gece çatıda saklanmış.",
+      "en": "Apparently the thief hid on the roof all night.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Sürpriz için perdenin arkasına saklanacağım.",
+      "en": "I'll hide behind the curtain for the surprise.",
+      "tense": "gelecek"
     }
   ],
   "kaçmak": [
@@ -6105,6 +6307,26 @@
       "target": "Fare kaçıyor!",
       "en": "The mouse is getting away!",
       "tense": "simdiki"
+    },
+    {
+      "target": "Bu kedi yabancıları görünce hemen kaçar.",
+      "en": "This cat runs away as soon as it sees strangers.",
+      "tense": "genis"
+    },
+    {
+      "target": "Köpek bahçe kapısından kaçtı.",
+      "en": "The dog escaped through the garden gate.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Hayvanat bahçesinden bir maymun kaçmış!",
+      "en": "Apparently a monkey has escaped from the zoo!",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Bu hafta sonu şehirden kaçacağız.",
+      "en": "This weekend we'll escape from the city.",
+      "tense": "gelecek"
     }
   ],
   "korumak": [
@@ -6112,13 +6334,53 @@
       "target": "Köpek evi koruyor.",
       "en": "The dog is guarding the house.",
       "tense": "simdiki"
+    },
+    {
+      "target": "Güneş kremi cildi güneşten korur.",
+      "en": "Sunscreen protects the skin from the sun.",
+      "tense": "genis"
+    },
+    {
+      "target": "Abim beni okulda hep korudu.",
+      "en": "My big brother always protected me at school.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Anlatılanlara göre bu kale şehri yüzyıllarca korumuş.",
+      "en": "They say this castle protected the city for centuries.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Bu mont seni soğuktan koruyacak.",
+      "en": "This coat will protect you from the cold.",
+      "tense": "gelecek"
     }
   ],
   "tekrar etmek": [
     {
+      "target": "Öğrenciler yeni kelimeleri yüksek sesle tekrar ediyor.",
+      "en": "The students are repeating the new words aloud.",
+      "tense": "simdiki"
+    },
+    {
       "target": "Tekrar eder misiniz?",
       "en": "Could you say that again?",
       "tense": "genis"
+    },
+    {
+      "target": "Öğretmen soruyu iki kez tekrar etti.",
+      "en": "The teacher repeated the question twice.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Duyduğuma göre Can aynı hatayı yine tekrar etmiş.",
+      "en": "I hear Can made the same mistake yet again.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Sınavdan önce bütün konuları tekrar edeceğim.",
+      "en": "I'll go over all the topics again before the exam.",
+      "tense": "gelecek"
     }
   ],
   "cevaplamak": [
@@ -6126,6 +6388,26 @@
       "target": "Soruyu cevaplıyor.",
       "en": "She's answering the question.",
       "tense": "simdiki"
+    },
+    {
+      "target": "Annem e-postaları hep hemen cevaplar.",
+      "en": "Mum always answers emails right away.",
+      "tense": "genis"
+    },
+    {
+      "target": "Bütün soruları yarım saatte cevapladım.",
+      "en": "I answered all the questions in half an hour.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Ahmet mesajımı sonunda cevaplamış.",
+      "en": "It turns out Ahmet finally answered my message.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Sorularınızı toplantıdan sonra cevaplayacağım.",
+      "en": "I'll answer your questions after the meeting.",
+      "tense": "gelecek"
     }
   ],
   "pratik yapmak": [
@@ -6133,19 +6415,80 @@
       "target": "Her gün Türkçe pratik yapıyorum.",
       "en": "I practise Turkish every day.",
       "tense": "simdiki"
+    },
+    {
+      "target": "Hafta sonları arkadaşlarla İngilizce pratik yaparız.",
+      "en": "At weekends we practise English with friends.",
+      "tense": "genis"
+    },
+    {
+      "target": "Dün turistlerle Türkçe pratik yaptım.",
+      "en": "Yesterday I practised Turkish with some tourists.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Maria Türkiye'de bir yıl pratik yapmış, çok iyi konuşuyor.",
+      "en": "Apparently Maria practised for a year in Turkey; she speaks really well.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Yarın öğleden sonra seninle pratik yapacağım.",
+      "en": "I'll practise with you tomorrow afternoon.",
+      "tense": "gelecek"
     }
   ],
   "fısıldamak": [
     {
+      "target": "Kütüphanede herkes fısıldıyor.",
+      "en": "Everyone is whispering in the library.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Sinemada hep arkadaşıma fısıldarım.",
+      "en": "I always whisper to my friend at the cinema.",
+      "tense": "genis"
+    },
+    {
       "target": "Kulağıma bir sır fısıldadı.",
       "en": "She whispered a secret in my ear.",
       "tense": "gecmis"
+    },
+    {
+      "target": "Anlaşılan birisi ona cevabı fısıldamış.",
+      "en": "Apparently someone whispered the answer to him.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Bebek uyuyor, o yüzden fısıldayacağım.",
+      "en": "The baby is asleep, so I'll whisper.",
+      "tense": "gelecek"
     }
   ],
   "bağırmak": [
     {
-      "target": "Bana bağırma!",
-      "en": "Don't shout at me!"
+      "target": "Komşular yine birbirine bağırıyor.",
+      "en": "The neighbours are shouting at each other again.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Babam maç izlerken televizyona bağırır.",
+      "en": "Dad shouts at the TV when he watches football.",
+      "tense": "genis"
+    },
+    {
+      "target": "Öğretmen bugün ilk kez bize bağırdı.",
+      "en": "Today the teacher shouted at us for the first time.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Duyduğuma göre müdür herkese bağırmış.",
+      "en": "I hear the manager shouted at everyone.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Annem bunu görünce çok bağıracak.",
+      "en": "Mum is going to shout a lot when she sees this.",
+      "tense": "gelecek"
     }
   ],
   "kilidini açmak": [
@@ -6153,19 +6496,80 @@
       "target": "Kapının kilidini açıyor.",
       "en": "She's unlocking the door.",
       "tense": "simdiki"
+    },
+    {
+      "target": "Telefonumun kilidini parmak izimle açarım.",
+      "en": "I unlock my phone with my fingerprint.",
+      "tense": "genis"
+    },
+    {
+      "target": "Arabanın kilidini uzaktan açtım.",
+      "en": "I unlocked the car remotely.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Çilingir kapının kilidini iki dakikada açmış.",
+      "en": "Apparently the locksmith unlocked the door in two minutes.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Sabah dükkânın kilidini ben açacağım.",
+      "en": "I'll unlock the shop in the morning.",
+      "tense": "gelecek"
     }
   ],
   "kilitlemek": [
     {
-      "target": "Çıkarken kapıyı kilitle.",
-      "en": "Lock the door when you leave."
+      "target": "Şimdi bisikletimi direğe kilitliyorum.",
+      "en": "I'm locking my bike to the post now.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Yatmadan önce her zaman kapıyı kilitlerim.",
+      "en": "I always lock the door before going to bed.",
+      "tense": "genis"
+    },
+    {
+      "target": "Evden çıkarken pencereleri kilitledim.",
+      "en": "I locked the windows when I left the house.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Kapıyı kilitlemiş, anahtarı da yanında götürmüş.",
+      "en": "It turns out she locked the door and took the key with her.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Bu akşam ofisi ben kilitleyeceğim.",
+      "en": "I'll lock up the office tonight.",
+      "tense": "gelecek"
     }
   ],
   "yakalamak": [
     {
+      "target": "Kedi bahçede bir kuş yakalıyor.",
+      "en": "The cat is catching a bird in the garden.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Bu kaleci her topu yakalar.",
+      "en": "This goalkeeper catches every ball.",
+      "tense": "genis"
+    },
+    {
       "target": "Topu yakaladı!",
       "en": "He caught the ball!",
       "tense": "gecmis"
+    },
+    {
+      "target": "Polis hırsızı havaalanında yakalamış.",
+      "en": "Apparently the police caught the thief at the airport.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Koşarsak son treni yakalayacağız.",
+      "en": "If we run, we'll catch the last train.",
+      "tense": "gelecek"
     }
   ],
   "takip etmek": [
@@ -6173,13 +6577,998 @@
       "target": "Öğretmeni takip ediyorlar.",
       "en": "They're following the teacher.",
       "tense": "simdiki"
+    },
+    {
+      "target": "Haberleri her sabah internetten takip ederim.",
+      "en": "I follow the news online every morning.",
+      "tense": "genis"
+    },
+    {
+      "target": "Rehberi takip ettik ve müzeye vardık.",
+      "en": "We followed the guide and reached the museum.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Bir adam onu eve kadar takip etmiş.",
+      "en": "Apparently a man followed her all the way home.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Maçı akşam televizyondan takip edeceğiz.",
+      "en": "We'll follow the match on TV this evening.",
+      "tense": "gelecek"
     }
   ],
   "fark etmek": [
     {
+      "target": "Bazen hatalarımı çok geç fark ediyorum.",
+      "en": "Sometimes I notice my mistakes far too late.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Annem saçımı kestirdiğimi hemen fark eder.",
+      "en": "Mum notices straight away when I've had my hair cut.",
+      "tense": "genis"
+    },
+    {
       "target": "Kimse gizli kapıyı fark etmedi.",
       "en": "Nobody noticed the secret door.",
       "tense": "gecmis"
+    },
+    {
+      "target": "Müşteri faturadaki hatayı fark etmiş.",
+      "en": "It seems the customer noticed the mistake on the bill.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Öğretmen değişikliği hemen fark edecek.",
+      "en": "The teacher will notice the change immediately.",
+      "tense": "gelecek"
+    }
+  ],
+  "internetten sipariş vermek": [
+    {
+      "target": "Şu an internetten pizza sipariş veriyorum.",
+      "en": "I'm ordering a pizza online right now.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Kitapları internetten sipariş veririm.",
+      "en": "I order books online.",
+      "tense": "genis"
+    },
+    {
+      "target": "Geçen hafta internetten yeni ayakkabı sipariş verdim.",
+      "en": "Last week I ordered new shoes online.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Kız kardeşim internetten yirmi kitap sipariş vermiş!",
+      "en": "It turns out my sister ordered twenty books online!",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Doğum günü hediyesini internetten sipariş vereceğim.",
+      "en": "I'll order the birthday present online.",
+      "tense": "gelecek"
+    }
+  ],
+  "kabul etmek": [
+    {
+      "target": "Satıcı fiyatı kabul ediyor.",
+      "en": "The seller accepts the price.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Bu restoran kredi kartı kabul eder.",
+      "en": "This restaurant accepts credit cards.",
+      "tense": "genis"
+    },
+    {
+      "target": "Yeni iş teklifini kabul ettim.",
+      "en": "I accepted the new job offer.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Duyduğuma göre Elif evlilik teklifini kabul etmiş.",
+      "en": "I hear Elif accepted the marriage proposal.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Hatamı kabul edeceğim ve özür dileyeceğim.",
+      "en": "I'll admit my mistake and apologise.",
+      "tense": "gelecek"
+    }
+  ],
+  "reddetmek": [
+    {
+      "target": "Teklifi reddediyorum.",
+      "en": "I'm turning down the offer.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Bu banka böyle başvuruları genelde reddeder.",
+      "en": "This bank usually rejects applications like this.",
+      "tense": "genis"
+    },
+    {
+      "target": "Davetimi kibarca reddetti.",
+      "en": "She politely turned down my invitation.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Anlaşılan patron zam isteğimizi reddetmiş.",
+      "en": "It turns out the boss rejected our request for a raise.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Bu şartlarla teklifi reddedeceğim.",
+      "en": "On these terms, I'll turn down the offer.",
+      "tense": "gelecek"
+    }
+  ],
+  "teslim almak": [
+    {
+      "target": "Paketi bugün teslim alıyorum.",
+      "en": "I'm collecting the parcel today.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Kargoları genelde kapıcı teslim alır.",
+      "en": "The doorman usually takes in the deliveries.",
+      "tense": "genis"
+    },
+    {
+      "target": "Yeni arabamızı dün teslim aldık.",
+      "en": "We picked up our new car yesterday.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Komşu kargoyu benim yerime teslim almış.",
+      "en": "It turns out the neighbour took in the delivery for me.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Anahtarları cuma günü ev sahibinden teslim alacağım.",
+      "en": "I'll collect the keys from the landlord on Friday.",
+      "tense": "gelecek"
+    }
+  ],
+  "indirim istemek": [
+    {
+      "target": "Satıcıdan indirim istiyorum.",
+      "en": "I'm asking the seller for a discount.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Pazarda her zaman indirim isterim.",
+      "en": "I always ask for a discount at the market.",
+      "tense": "genis"
+    },
+    {
+      "target": "Üç tane aldığım için indirim istedim.",
+      "en": "I asked for a discount because I bought three.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Babam galericiden indirim istemiş ve almış.",
+      "en": "Apparently Dad asked the car dealer for a discount and got it.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Toplu alım yapacağımız için indirim isteyeceğiz.",
+      "en": "We'll ask for a discount since we're buying in bulk.",
+      "tense": "gelecek"
+    }
+  ],
+  "bulunmak": [
+    {
+      "target": "Daire şehir merkezinde bulunuyor.",
+      "en": "The flat is in the city centre.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Bu kuş sadece bu adada bulunur.",
+      "en": "This bird is found only on this island.",
+      "tense": "genis"
+    },
+    {
+      "target": "Kayıp çocuk akşam parkta bulundu.",
+      "en": "The missing child was found in the park in the evening.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Kayıp kolye sonunda halının altında bulunmuş.",
+      "en": "Apparently the lost necklace was finally found under the rug.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Yeni hastane şehrin girişinde bulunacak.",
+      "en": "The new hospital will be located at the entrance to the city.",
+      "tense": "gelecek"
+    }
+  ],
+  "kiralamak": [
+    {
+      "target": "Yaz için deniz kenarında bir ev kiralıyoruz.",
+      "en": "We're renting a house by the sea for the summer.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Tatilde genelde bisiklet kiralarız.",
+      "en": "On holiday we usually hire bikes.",
+      "tense": "genis"
+    },
+    {
+      "target": "Geçen yaz deniz kenarında bir ev kiraladık.",
+      "en": "Last summer we rented a house by the sea.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Duyduğuma göre düğün için bütün oteli kiralamışlar.",
+      "en": "I hear they rented the whole hotel for the wedding.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Havaalanında bir araba kiralayacağız.",
+      "en": "We'll hire a car at the airport.",
+      "tense": "gelecek"
+    }
+  ],
+  "haşlamak": [
+    {
+      "target": "Patatesleri haşlıyorum.",
+      "en": "I'm boiling the potatoes.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Kahvaltıda yumurtayı hep beş dakika haşlarım.",
+      "en": "At breakfast I always boil the eggs for five minutes.",
+      "tense": "genis"
+    },
+    {
+      "target": "Salata için mısırları haşladım.",
+      "en": "I boiled the corn for the salad.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Annem makarnayı fazla haşlamış, lapa olmuş.",
+      "en": "Looks like Mum overcooked the pasta; it's gone mushy.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Akşam yemeği için sebzeleri haşlayacağım.",
+      "en": "I'll boil the vegetables for dinner.",
+      "tense": "gelecek"
+    }
+  ],
+  "ızgara yapmak": [
+    {
+      "target": "Bahçede balık ızgara yapıyoruz.",
+      "en": "We're grilling fish in the garden.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Pazar günleri babam balkonda köfte ızgara yapar.",
+      "en": "On Sundays Dad grills meatballs on the balcony.",
+      "tense": "genis"
+    },
+    {
+      "target": "Dün akşam sahilde tavuk ızgara yaptık.",
+      "en": "Last night we grilled chicken on the beach.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Komşular bahçede bütün gün et ızgara yapmış.",
+      "en": "Apparently the neighbours were grilling meat in the garden all day.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Hafta sonu piknikte sucuk ızgara yapacağız.",
+      "en": "We'll grill sausage at the picnic this weekend.",
+      "tense": "gelecek"
+    }
+  ],
+  "sipariş etmek": [
+    {
+      "target": "Yemek sipariş ediyoruz.",
+      "en": "We're ordering food.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Bu restoranda hep mantı sipariş ederim.",
+      "en": "I always order mantı at this restaurant.",
+      "tense": "genis"
+    },
+    {
+      "target": "Garsondan iki çay sipariş ettik.",
+      "en": "We ordered two teas from the waiter.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Ofis için yeni sandalyeler sipariş etmişler.",
+      "en": "Apparently they've ordered new chairs for the office.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Toplantı için öğle yemeği sipariş edeceğim.",
+      "en": "I'll order lunch for the meeting.",
+      "tense": "gelecek"
+    }
+  ],
+  "birlikte yaşamak": [
+    {
+      "target": "Ailemle birlikte yaşıyorum.",
+      "en": "I live with my family.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Bu köyde büyük aileler hep birlikte yaşar.",
+      "en": "In this village, big families always live together.",
+      "tense": "genis"
+    },
+    {
+      "target": "Üniversitede iki yıl birlikte yaşadık.",
+      "en": "We lived together for two years at university.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Anlaşılan bu kedi ve köpek yıllarca birlikte yaşamış.",
+      "en": "Apparently this cat and dog lived together for years.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Evlendikten sonra birlikte yaşayacağız.",
+      "en": "We'll live together after we get married.",
+      "tense": "gelecek"
+    }
+  ],
+  "ayrılmak": [
+    {
+      "target": "Ayrılıyorlar.",
+      "en": "They're splitting up.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Tren her saat başı istasyondan ayrılır.",
+      "en": "The train leaves the station every hour on the hour.",
+      "tense": "genis"
+    },
+    {
+      "target": "Partiden erken ayrıldım.",
+      "en": "I left the party early.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Duyduğuma göre Selin ile Emre ayrılmış.",
+      "en": "I hear Selin and Emre have split up.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Yarın sabah otelden ayrılacağız.",
+      "en": "We'll leave the hotel tomorrow morning.",
+      "tense": "gelecek"
+    }
+  ],
+  "boşanmak": [
+    {
+      "target": "Komşularımız maalesef boşanıyor.",
+      "en": "Sadly, our neighbours are getting divorced.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Bu ülkede birçok çift genç yaşta boşanır.",
+      "en": "In this country many couples divorce young.",
+      "tense": "genis"
+    },
+    {
+      "target": "Geçen yıl boşandılar.",
+      "en": "They got divorced last year.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Duyduğuma göre ünlü şarkıcı eşinden boşanmış.",
+      "en": "I hear the famous singer has divorced her husband.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Sonunda gelecek ay boşanacaklar.",
+      "en": "They're finally getting divorced next month.",
+      "tense": "gelecek"
+    }
+  ],
+  "hecelemek": [
+    {
+      "target": "Çocuk yeni kelimeyi yavaş yavaş heceliyor.",
+      "en": "The child is slowly spelling out the new word.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Telefonda soyadımı hep harf harf hecelerim.",
+      "en": "On the phone I always spell out my surname letter by letter.",
+      "tense": "genis"
+    },
+    {
+      "target": "Resepsiyonist adımı yanlış heceledi.",
+      "en": "The receptionist spelled my name wrong.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Ali yarışmada en zor kelimeyi doğru hecelemiş.",
+      "en": "Apparently Ali spelled the hardest word correctly in the competition.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Şimdi e-posta adresimi size heceleyeceğim.",
+      "en": "I'll spell my email address for you now.",
+      "tense": "gelecek"
+    }
+  ],
+  "özür dilemek": [
+    {
+      "target": "Geç kaldığım için özür diliyorum.",
+      "en": "I apologise for being late.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Hata yapınca hemen özür dilerim.",
+      "en": "When I make a mistake, I apologise straight away.",
+      "tense": "genis"
+    },
+    {
+      "target": "Ondan özür diledim.",
+      "en": "I apologised to him.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Duyduğuma göre Mert sonunda ondan özür dilemiş.",
+      "en": "I hear Mert finally apologised to her.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Yarın arkadaşımdan özür dileyeceğim.",
+      "en": "Tomorrow I'll apologise to my friend.",
+      "tense": "gelecek"
+    }
+  ],
+  "öpmek": [
+    {
+      "target": "Anne bebeği öpüyor.",
+      "en": "The mother is kissing the baby.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Bayramda büyüklerimizin elini öperiz.",
+      "en": "At Bayram we kiss our elders' hands.",
+      "tense": "genis"
+    },
+    {
+      "target": "Kapıda annemi yanağından öptüm.",
+      "en": "I kissed my mum on the cheek at the door.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Masala göre prens uyuyan prensesi öpmüş.",
+      "en": "In the fairy tale, the prince kissed the sleeping princess.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Eve gelince çocukları öpeceğim.",
+      "en": "When I get home, I'll kiss the kids.",
+      "tense": "gelecek"
+    }
+  ],
+  "çağırmak": [
+    {
+      "target": "Hemen bir ambulans çağırıyorum!",
+      "en": "I'm calling an ambulance right now!",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Annem bizi yemeğe hep yedide çağırır.",
+      "en": "Mum always calls us to dinner at seven.",
+      "tense": "genis"
+    },
+    {
+      "target": "Yağmur başlayınca taksi çağırdık.",
+      "en": "When the rain started, we called a taxi.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Komşular gürültü yüzünden polisi çağırmış.",
+      "en": "Apparently the neighbours called the police because of the noise.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Doğum günüme bütün sınıfı çağıracağım.",
+      "en": "I'll invite the whole class to my birthday.",
+      "tense": "gelecek"
+    }
+  ],
+  "tokalaşmak": [
+    {
+      "target": "İki başkan kameraların önünde tokalaşıyor.",
+      "en": "The two presidents are shaking hands in front of the cameras.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Türkiye'de erkekler tanışınca genelde tokalaşır.",
+      "en": "In Turkey men usually shake hands when they meet.",
+      "tense": "genis"
+    },
+    {
+      "target": "Toplantıdan sonra tokalaştık.",
+      "en": "We shook hands after the meeting.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Maçtan sonra iki takımın kaptanları tokalaşmış.",
+      "en": "Apparently the two captains shook hands after the match.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Anlaşmayı imzalayınca tokalaşacağız.",
+      "en": "We'll shake hands once we sign the agreement.",
+      "tense": "gelecek"
+    }
+  ],
+  "sahip olmak": [
+    {
+      "target": "Şirketimiz bu yıl ilk kez kendi binasına sahip oluyor.",
+      "en": "This year our company is getting its own building for the first time.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Çok az kişi böyle bir eve sahip olur.",
+      "en": "Few people get to own a house like this.",
+      "tense": "genis"
+    },
+    {
+      "target": "Babam yirmi yaşında ilk arabasına sahip oldu.",
+      "en": "My dad got his first car at twenty.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Adam piyangoyu kazanıp bir yata sahip olmuş.",
+      "en": "Apparently the man won the lottery and ended up owning a yacht.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Birkaç yıl içinde kendi evimize sahip olacağız.",
+      "en": "In a few years we'll have our own home.",
+      "tense": "gelecek"
+    }
+  ],
+  "geri vermek": [
+    {
+      "target": "Kitapları bugün kütüphaneye geri veriyorum.",
+      "en": "I'm returning the books to the library today.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Kitabı yarın geri veririm.",
+      "en": "I'll give the book back tomorrow.",
+      "tense": "genis"
+    },
+    {
+      "target": "Arkadaşım ödünç aldığı parayı dün geri verdi.",
+      "en": "My friend paid back the money he borrowed yesterday.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Mağaza sonunda parasını geri vermiş.",
+      "en": "Apparently the shop finally gave her money back.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Şemsiyeni gelecek hafta geri vereceğim.",
+      "en": "I'll give your umbrella back next week.",
+      "tense": "gelecek"
+    }
+  ],
+  "yakmak": [
+    {
+      "target": "Mumları yakıyoruz.",
+      "en": "We're lighting the candles.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Kışın her akşam şömineyi yakarız.",
+      "en": "In winter we light the fire every evening.",
+      "tense": "genis"
+    },
+    {
+      "target": "Kamp ateşini ben yaktım.",
+      "en": "I lit the campfire.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Aşçı yemeği yine yakmış, mutfak duman içinde.",
+      "en": "Looks like the cook burnt the food again; the kitchen is full of smoke.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Hava kararınca bahçedeki lambaları yakacağım.",
+      "en": "When it gets dark, I'll switch on the garden lights.",
+      "tense": "gelecek"
+    }
+  ],
+  "söndürmek": [
+    {
+      "target": "İtfaiyeciler yangını söndürüyor.",
+      "en": "The firefighters are putting out the fire.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Yatmadan önce bütün ışıkları söndürürüm.",
+      "en": "I turn off all the lights before going to bed.",
+      "tense": "genis"
+    },
+    {
+      "target": "Çocuk mumları tek nefeste söndürdü.",
+      "en": "The child blew out the candles in one breath.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Duyduğuma göre yangını komşular söndürmüş.",
+      "en": "I hear the neighbours put out the fire.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Gitmeden önce kamp ateşini söndüreceğiz.",
+      "en": "We'll put out the campfire before we leave.",
+      "tense": "gelecek"
+    }
+  ],
+  "vurmak": [
+    {
+      "target": "Yağmur cama hafif hafif vuruyor.",
+      "en": "The rain is tapping gently on the window.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Bu futbolcu topa çok sert vurur.",
+      "en": "This footballer strikes the ball really hard.",
+      "tense": "genis"
+    },
+    {
+      "target": "Top cama vurdu.",
+      "en": "The ball hit the window.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Duyduğuma göre Ali kafasını kapıya vurmuş.",
+      "en": "I hear Ali banged his head on the door.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Hazır olunca kapıya üç kez vuracağım.",
+      "en": "When I'm ready, I'll knock on the door three times.",
+      "tense": "gelecek"
+    }
+  ],
+  "söz vermek": [
+    {
+      "target": "Sana söz veriyorum, bir daha geç kalmayacağım.",
+      "en": "I promise you I won't be late again.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Babam her zaman söz verir ama unutur.",
+      "en": "Dad always promises but then forgets.",
+      "tense": "genis"
+    },
+    {
+      "target": "Söz verdim, geleceğim.",
+      "en": "I promised; I'll come.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Belediye başkanı yeni bir park için söz vermiş.",
+      "en": "Apparently the mayor has promised a new park.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Düğünde herkesin önünde birbirlerine söz verecekler.",
+      "en": "At the wedding they'll make promises to each other in front of everyone.",
+      "tense": "gelecek"
+    }
+  ],
+  "alışmak": [
+    {
+      "target": "İstanbul'a alışıyorum.",
+      "en": "I'm getting used to Istanbul.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "İnsan zamanla her şeye alışır.",
+      "en": "You get used to anything in time.",
+      "tense": "genis"
+    },
+    {
+      "target": "Yeni işime çabuk alıştım.",
+      "en": "I got used to my new job quickly.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Kedi yeni evine hemen alışmış.",
+      "en": "Apparently the cat got used to its new home right away.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Merak etme, soğuk havaya alışacaksın.",
+      "en": "Don't worry, you'll get used to the cold weather.",
+      "tense": "gelecek"
+    }
+  ],
+  "rol yapmak": [
+    {
+      "target": "Uyuyormuş gibi rol yapıyor.",
+      "en": "He's pretending to be asleep.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Kardeşim ödev olunca hep hastaymış gibi rol yapar.",
+      "en": "Whenever there's homework, my brother pretends to be ill.",
+      "tense": "genis"
+    },
+    {
+      "target": "Toplantıda her şeyi biliyormuş gibi rol yaptım.",
+      "en": "In the meeting I pretended to know everything.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Anlaşılan adam polismiş gibi rol yapmış ve herkesi kandırmış.",
+      "en": "It turns out the man pretended to be a policeman and fooled everyone.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Sürprizi bilmiyormuş gibi rol yapacağım.",
+      "en": "I'll pretend I don't know about the surprise.",
+      "tense": "gelecek"
+    }
+  ],
+  "tercih etmek": [
+    {
+      "target": "Bugünlerde otobüs yerine bisikleti tercih ediyorum.",
+      "en": "These days I'm choosing the bike over the bus.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Çayı kahveye tercih ederim.",
+      "en": "I prefer tea to coffee.",
+      "tense": "genis"
+    },
+    {
+      "target": "Tatil için deniz yerine dağı tercih ettik.",
+      "en": "For our holiday we chose the mountains over the sea.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Duyduğuma göre Zeynep İstanbul yerine Ankara'yı tercih etmiş.",
+      "en": "I hear Zeynep chose Ankara over Istanbul.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Bu sefer treni tercih edeceğim.",
+      "en": "This time I'll go for the train.",
+      "tense": "gelecek"
+    }
+  ],
+  "yıkanmak": [
+    {
+      "target": "Çocuk banyoda yıkanıyor.",
+      "en": "The child is having a wash in the bathroom.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Sporcular antrenmandan sonra duşta yıkanır.",
+      "en": "Athletes wash in the shower after training.",
+      "tense": "genis"
+    },
+    {
+      "target": "Maçtan sonra eve gelip yıkandım.",
+      "en": "After the match I came home and had a wash.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Çocuklar denizden sonra duşta yıkanmış, şimdi tertemizler.",
+      "en": "Apparently the kids showered after the beach; they're spotless now.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Yemekten önce yıkanacağım.",
+      "en": "I'll have a wash before dinner.",
+      "tense": "gelecek"
+    }
+  ],
+  "evden çıkmak": [
+    {
+      "target": "Şimdi evden çıkıyorum, on dakikaya oradayım.",
+      "en": "I'm leaving the house now; I'll be there in ten minutes.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Sabah sekizde evden çıkarım.",
+      "en": "I leave the house at eight in the morning.",
+      "tense": "genis"
+    },
+    {
+      "target": "Bu sabah şemsiyesiz evden çıktım.",
+      "en": "This morning I left the house without an umbrella.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Annem aradı; babam erkenden evden çıkmış.",
+      "en": "Mum called: apparently Dad left the house early.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Yarın altıda evden çıkacağız.",
+      "en": "Tomorrow we'll leave the house at six.",
+      "tense": "gelecek"
+    }
+  ],
+  "telefonda konuşmak": [
+    {
+      "target": "Babam telefonda konuşuyor.",
+      "en": "Dad is on the phone.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Ablamla her pazar telefonda konuşurum.",
+      "en": "I talk to my sister on the phone every Sunday.",
+      "tense": "genis"
+    },
+    {
+      "target": "Dün gece annemle saatlerce telefonda konuştum.",
+      "en": "Last night I talked to my mum on the phone for hours.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Şoför yolda telefonda konuşmuş, ceza yemiş.",
+      "en": "Apparently the driver was talking on the phone on the road and got fined.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Akşam müdürle telefonda konuşacağım.",
+      "en": "I'll talk to the manager on the phone this evening.",
+      "tense": "gelecek"
+    }
+  ],
+  "devam etmek": [
+    {
+      "target": "Kursa devam ediyorum.",
+      "en": "I'm attending the course.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Yağmur yağsa da maç devam eder.",
+      "en": "Even if it rains, the match goes on.",
+      "tense": "genis"
+    },
+    {
+      "target": "Toplantı gece yarısına kadar devam etti.",
+      "en": "The meeting went on until midnight.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Duyduğuma göre Ahmet hasta olmasına rağmen işe devam etmiş.",
+      "en": "I hear Ahmet kept on working even though he was ill.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Yarın derse kaldığımız yerden devam edeceğiz.",
+      "en": "Tomorrow we'll continue the lesson from where we left off.",
+      "tense": "gelecek"
+    }
+  ],
+  "yeni bir dil öğrenmek": [
+    {
+      "target": "Bu yıl yeni bir dil öğreniyorum: Japonca.",
+      "en": "This year I'm learning a new language: Japanese.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Çocuklar yeni bir dil öğrenir ve çabuk konuşur.",
+      "en": "Children learn a new language and quickly start speaking it.",
+      "tense": "genis"
+    },
+    {
+      "target": "Babam emekli olunca yeni bir dil öğrendi.",
+      "en": "When my dad retired, he learned a new language.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Komşumuz seksen yaşında yeni bir dil öğrenmiş!",
+      "en": "Apparently our neighbour learned a new language at eighty!",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Gelecek yıl yeni bir dil öğreneceğim.",
+      "en": "Next year I'm going to learn a new language.",
+      "tense": "gelecek"
+    }
+  ],
+  "başkalarına yardım etmek": [
+    {
+      "target": "Bu dernek her gün başkalarına yardım ediyor.",
+      "en": "This charity helps others every day.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Annem her zaman başkalarına yardım eder.",
+      "en": "My mother always helps others.",
+      "tense": "genis"
+    },
+    {
+      "target": "Deprem sırasında herkes başkalarına yardım etti.",
+      "en": "During the earthquake everyone helped others.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Anlatılana göre dedem hayatı boyunca başkalarına yardım etmiş.",
+      "en": "They say my grandfather helped others all his life.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Büyüyünce doktor olup başkalarına yardım edeceğim.",
+      "en": "When I grow up I'll become a doctor and help others.",
+      "tense": "gelecek"
+    }
+  ],
+  "arabayla gitmek": [
+    {
+      "target": "Bu yaz tatile arabayla gidiyoruz.",
+      "en": "This summer we're going on holiday by car.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "İşe arabayla giderim.",
+      "en": "I go to work by car.",
+      "tense": "genis"
+    },
+    {
+      "target": "Geçen hafta Ankara'ya arabayla gittik.",
+      "en": "Last week we went to Ankara by car.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Düğüne uçakla değil, arabayla gitmişler.",
+      "en": "Apparently they went to the wedding by car, not by plane.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Yarın havaalanına arabayla gideceğim.",
+      "en": "Tomorrow I'll drive to the airport.",
+      "tense": "gelecek"
+    }
+  ],
+  "tatilde olmak": [
+    {
+      "target": "Bu yıl ilk kez aynı anda tatilde oluyoruz.",
+      "en": "This year, for the first time, we're on holiday at the same time.",
+      "tense": "simdiki"
+    },
+    {
+      "target": "Her ağustos iki hafta tatilde oluruz.",
+      "en": "Every August we're on holiday for two weeks.",
+      "tense": "genis"
+    },
+    {
+      "target": "Geçen ay iki hafta tatilde oldum.",
+      "en": "Last month I was on holiday for two weeks.",
+      "tense": "gecmis"
+    },
+    {
+      "target": "Duyduğuma göre müdür bütün ay tatilde olmuş.",
+      "en": "I hear the manager was on holiday all month.",
+      "tense": "ogrenilen"
+    },
+    {
+      "target": "Ağustosta tatilde olacağım.",
+      "en": "I'll be on holiday in August.",
+      "tense": "gelecek"
     }
   ]
 }

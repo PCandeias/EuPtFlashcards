@@ -185,6 +185,188 @@
       "en": "Australia",
       "target": "Avustralya",
       "level": "a1"
+    },
+    {
+      "en": "Lisbon",
+      "target": "Lizbon",
+      "level": "a1"
+    },
+    {
+      "en": "London",
+      "target": "Londra",
+      "level": "a1"
+    },
+    {
+      "en": "Venice",
+      "target": "Venedik",
+      "level": "a1"
+    },
+    {
+      "en": "Cologne",
+      "target": "Köln",
+      "level": "a2"
+    },
+    {
+      "en": "Rome",
+      "target": "Roma",
+      "level": "a1"
+    },
+    {
+      "en": "Barcelona",
+      "target": "Barselona",
+      "level": "a1"
+    },
+    {
+      "en": "Paris",
+      "target": "Paris",
+      "level": "a1"
+    },
+    {
+      "en": "Moscow",
+      "target": "Moskova",
+      "level": "a1"
+    },
+    {
+      "en": "Berlin",
+      "target": "Berlin",
+      "level": "a1"
+    },
+    {
+      "en": "Beijing",
+      "target": "Pekin",
+      "level": "a1"
+    },
+    {
+      "en": "Africa",
+      "target": "Afrika",
+      "level": "a1"
+    },
+    {
+      "en": "Asia",
+      "target": "Asya",
+      "level": "a1"
+    },
+    {
+      "en": "Europe",
+      "target": "Avrupa",
+      "level": "a1"
+    },
+    {
+      "en": "United States",
+      "target": "Amerika Birleşik Devletleri",
+      "level": "a1",
+      "sense": "usually shortened to ABD"
+    },
+    {
+      "en": "Italian",
+      "target": "İtalyan",
+      "level": "a1",
+      "sense": "the person, and also the language as İtalyanca"
+    },
+    {
+      "en": "Japanese",
+      "target": "Japon",
+      "level": "a1",
+      "sense": "the language is Japonca"
+    },
+    {
+      "en": "Canadian",
+      "target": "Kanadalı",
+      "level": "a1"
+    },
+    {
+      "en": "Spanish",
+      "target": "İspanyol",
+      "level": "a1",
+      "sense": "the language is İspanyolca"
+    },
+    {
+      "en": "French",
+      "target": "Fransız",
+      "level": "a1",
+      "sense": "the language is Fransızca"
+    },
+    {
+      "en": "Hungarian",
+      "target": "Macar",
+      "level": "a2"
+    },
+    {
+      "en": "Chinese",
+      "target": "Çinli",
+      "level": "a1"
+    },
+    {
+      "en": "Mexican",
+      "target": "Meksikalı",
+      "level": "a1"
+    },
+    {
+      "en": "Belgian",
+      "target": "Belçikalı",
+      "level": "a2"
+    },
+    {
+      "en": "Swedish",
+      "target": "İsveçli",
+      "level": "a2"
+    },
+    {
+      "en": "Romanian",
+      "target": "Rumen",
+      "level": "a2"
+    },
+    {
+      "en": "Russian",
+      "target": "Rus",
+      "level": "a1"
+    },
+    {
+      "en": "Portuguese",
+      "target": "Portekizli",
+      "level": "a1",
+      "sense": "the language is Portekizce"
+    },
+    {
+      "en": "Egypt / corn",
+      "target": "Mısır",
+      "level": "a1",
+      "sense": "written lowercase, mısır is sweetcorn"
+    },
+    {
+      "en": "Cuba",
+      "target": "Küba",
+      "level": "a2"
+    },
+    {
+      "en": "Israel",
+      "target": "İsrail",
+      "level": "a2"
+    },
+    {
+      "en": "Hungary",
+      "target": "Macaristan",
+      "level": "a2"
+    },
+    {
+      "en": "India",
+      "target": "Hindistan",
+      "level": "a1"
+    },
+    {
+      "en": "Mexico",
+      "target": "Meksika",
+      "level": "a1"
+    },
+    {
+      "en": "Ireland",
+      "target": "İrlanda",
+      "level": "a1"
+    },
+    {
+      "en": "Mozambique",
+      "target": "Mozambik",
+      "level": "a2"
     }
   ]
 }

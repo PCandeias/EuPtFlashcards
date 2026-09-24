@@ -142,6 +142,31 @@
       "en": "to practise",
       "target": "pratik yapmak",
       "level": "a1"
+    },
+    {
+      "en": "to spell",
+      "target": "hecelemek",
+      "level": "b1"
+    },
+    {
+      "en": "could you spell your name?",
+      "target": "adınızı heceler misiniz?",
+      "level": "a2",
+      "verb": "hecelemek",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "to learn a new language",
+      "target": "yeni bir dil öğrenmek",
+      "level": "a1"
+    },
+    {
+      "en": "also / too",
+      "target": "de / da",
+      "level": "a1",
+      "sense": "written separately and follows harmony: ben de, sen de, o da"
     }
   ]
 }

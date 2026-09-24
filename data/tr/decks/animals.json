@@ -319,6 +319,11 @@
       "en": "cage",
       "target": "kafes",
       "level": "a2"
+    },
+    {
+      "en": "snail",
+      "target": "salyangoz",
+      "level": "b1"
     }
   ]
 }

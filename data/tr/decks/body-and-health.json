@@ -426,6 +426,23 @@
       "target": "yara izi",
       "level": "b1",
       "sense": "literally \"wound trace\""
+    },
+    {
+      "en": "physical activity",
+      "target": "fiziksel aktivite",
+      "level": "b1"
+    },
+    {
+      "en": "I'm sleepy",
+      "target": "uykum var",
+      "level": "a1",
+      "sense": "literally \"I have my sleep\""
+    },
+    {
+      "en": "tiredness",
+      "target": "yorgunluk",
+      "level": "b1",
+      "sense": "literally \"I can't sleep from tiredness\""
     }
   ]
 }

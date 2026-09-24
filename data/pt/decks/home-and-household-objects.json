@@ -510,6 +510,245 @@
       "en": "the rope",
       "target": "a corda",
       "level": "a2"
+    },
+    {
+      "en": "dishes / crockery",
+      "target": "a loiça",
+      "level": "a2",
+      "sense": "also spelled louça; lavar a loiça, to do the washing-up"
+    },
+    {
+      "en": "television set",
+      "target": "o televisor",
+      "level": "a2",
+      "sense": "the set itself; the medium is a televisão"
+    },
+    {
+      "en": "block of flats / building",
+      "target": "o prédio",
+      "level": "a1"
+    },
+    {
+      "en": "detached house",
+      "target": "a moradia",
+      "level": "a2"
+    },
+    {
+      "en": "villa / detached house",
+      "target": "a vivenda",
+      "level": "a2"
+    },
+    {
+      "en": "semi-detached house",
+      "target": "a casa geminada",
+      "level": "b1"
+    },
+    {
+      "en": "single-storey house",
+      "target": "a casa térrea",
+      "level": "b1"
+    },
+    {
+      "en": "stone house",
+      "target": "a casa de pedra",
+      "level": "a2"
+    },
+    {
+      "en": "wooden house",
+      "target": "a casa de madeira",
+      "level": "a2"
+    },
+    {
+      "en": "holiday home",
+      "target": "a casa de férias",
+      "level": "a2"
+    },
+    {
+      "en": "double room",
+      "target": "o quarto de casal",
+      "level": "a1",
+      "sense": "casal, a couple"
+    },
+    {
+      "en": "dining room",
+      "target": "a sala de jantar",
+      "level": "a1"
+    },
+    {
+      "en": "entrance hall",
+      "target": "o hall de entrada",
+      "level": "a2"
+    },
+    {
+      "en": "laundry room / launderette",
+      "target": "a lavandaria",
+      "level": "a2"
+    },
+    {
+      "en": "terrace / roof terrace",
+      "target": "o terraço",
+      "level": "a1"
+    },
+    {
+      "en": "parking space",
+      "target": "o lugar de estacionamento",
+      "level": "a2"
+    },
+    {
+      "en": "wardrobe",
+      "target": "o roupeiro",
+      "level": "a2",
+      "sense": "European Portuguese; o guarda-roupa is also said"
+    },
+    {
+      "en": "double bed",
+      "target": "a cama de casal",
+      "level": "a1"
+    },
+    {
+      "en": "sofa bed",
+      "target": "o sofá-cama",
+      "level": "a2"
+    },
+    {
+      "en": "armchair",
+      "target": "o cadeirão",
+      "level": "a2",
+      "sense": "a poltrona is also said"
+    },
+    {
+      "en": "desk / secretary",
+      "target": "a secretária",
+      "level": "a1",
+      "sense": "the piece of furniture, and also a female secretary"
+    },
+    {
+      "en": "washbasin",
+      "target": "o lavatório",
+      "level": "a2",
+      "sense": "the basin in the bathroom; the kitchen sink is o lava-loiça"
+    },
+    {
+      "en": "dining table",
+      "target": "a mesa de jantar",
+      "level": "a1"
+    },
+    {
+      "en": "ironing board",
+      "target": "a tábua de passar a ferro",
+      "level": "a2"
+    },
+    {
+      "en": "to iron",
+      "target": "passar a ferro",
+      "level": "a2"
+    },
+    {
+      "en": "expenses / bills",
+      "target": "as despesas",
+      "level": "a2",
+      "sense": "despesas fixas, fixed costs"
+    },
+    {
+      "en": "monthly costs",
+      "target": "os custos mensais",
+      "level": "b1"
+    },
+    {
+      "en": "floor / storey / flat",
+      "target": "o andar",
+      "level": "a1",
+      "sense": "also a flat: um andar para arrendar, a flat to let"
+    },
+    {
+      "en": "first floor",
+      "target": "o primeiro andar",
+      "level": "a1"
+    },
+    {
+      "en": "ground floor",
+      "target": "o rés-do-chão",
+      "level": "a1"
+    },
+    {
+      "en": "studio flat",
+      "target": "o T0",
+      "level": "a2",
+      "sense": "read tê zero; T counts the bedrooms"
+    },
+    {
+      "en": "one-bedroom flat",
+      "target": "o T1",
+      "level": "a2",
+      "sense": "read tê um"
+    },
+    {
+      "en": "two-bedroom flat",
+      "target": "o T2",
+      "level": "a2",
+      "sense": "read tê dois"
+    },
+    {
+      "en": "three-bedroom flat",
+      "target": "o T3",
+      "level": "a2"
+    },
+    {
+      "en": "area / floor space",
+      "target": "a área",
+      "level": "a2"
+    },
+    {
+      "en": "property",
+      "target": "o imóvel",
+      "level": "b1"
+    },
+    {
+      "en": "purchase / acquisition",
+      "target": "a aquisição",
+      "level": "b1"
+    },
+    {
+      "en": "to let",
+      "target": "arrenda-se",
+      "level": "a2",
+      "sense": "the sign on a flat for rent"
+    },
+    {
+      "en": "for sale",
+      "target": "vende-se",
+      "level": "a2",
+      "sense": "the sign on something for sale"
+    },
+    {
+      "en": "where is the flat?",
+      "target": "onde fica o apartamento?",
+      "level": "a1",
+      "sense": "ficar, not estar, for where a building is",
+      "tense": "presente"
+    },
+    {
+      "en": "the flat is renovated",
+      "target": "o apartamento está renovado",
+      "level": "a2",
+      "sense": "estar: it is in that state now",
+      "tense": "presente"
+    },
+    {
+      "en": "the flat is spacious",
+      "target": "o apartamento é espaçoso",
+      "level": "a2",
+      "tense": "presente"
+    },
+    {
+      "en": "renovated",
+      "target": "renovado / renovada",
+      "level": "a2"
+    },
+    {
+      "en": "spacious / roomy",
+      "target": "espaçoso / espaçosa",
+      "level": "a2"
     }
   ]
 }

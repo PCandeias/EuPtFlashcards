@@ -727,6 +727,93 @@
       "target": "fark etmek",
       "level": "a2",
       "sense": "fark etmez, \"it makes no difference\""
+    },
+    {
+      "en": "to accept",
+      "target": "kabul etmek",
+      "level": "a2"
+    },
+    {
+      "en": "to refuse / to reject",
+      "target": "reddetmek",
+      "level": "b1"
+    },
+    {
+      "en": "to rent / to hire",
+      "target": "kiralamak",
+      "level": "a1",
+      "sense": "used by both the tenant and the landlord; kiraya vermek is to let out"
+    },
+    {
+      "en": "to call / to summon",
+      "target": "çağırmak",
+      "level": "a2",
+      "sense": "to call someone over; to phone is aramak"
+    },
+    {
+      "en": "to have / to own",
+      "target": "sahip olmak",
+      "level": "a2",
+      "sense": "everyday \"I have\" is var: bir arabam var"
+    },
+    {
+      "en": "to give back / to return",
+      "target": "geri vermek",
+      "level": "a2"
+    },
+    {
+      "en": "to light / to burn",
+      "target": "yakmak",
+      "level": "a2",
+      "sense": "ışığı yakmak, to switch on the light"
+    },
+    {
+      "en": "to put out / to switch off",
+      "target": "söndürmek",
+      "level": "b1"
+    },
+    {
+      "en": "to hit",
+      "target": "vurmak",
+      "level": "a2"
+    },
+    {
+      "en": "to promise",
+      "target": "söz vermek",
+      "level": "a2"
+    },
+    {
+      "en": "to get used to",
+      "target": "alışmak",
+      "level": "a2",
+      "sense": "takes the dative: bu havaya alışmak"
+    },
+    {
+      "en": "to prefer",
+      "target": "tercih etmek",
+      "level": "a2",
+      "sense": "the thing you prefer something over takes the dative"
+    },
+    {
+      "en": "to continue / to attend",
+      "target": "devam etmek",
+      "level": "a2",
+      "sense": "takes the dative: kursa devam etmek, to attend a course"
+    },
+    {
+      "en": "to apologise",
+      "target": "özür dilemek",
+      "level": "a2"
+    },
+    {
+      "en": "to kiss",
+      "target": "öpmek",
+      "level": "a2"
+    },
+    {
+      "en": "to pretend / to act",
+      "target": "rol yapmak",
+      "level": "b1"
     }
   ]
 }

@@ -406,6 +406,138 @@
       "target": "madeni para",
       "level": "a2",
       "sense": "literally \"metal money\"; small change is bozuk para"
+    },
+    {
+      "en": "shop assistant",
+      "target": "satış görevlisi",
+      "level": "a2",
+      "sense": "tezgâhtar is also used"
+    },
+    {
+      "en": "shop",
+      "target": "dükkân",
+      "level": "a1",
+      "sense": "a small shop; a bigger store is mağaza. Also written dükkan"
+    },
+    {
+      "en": "online shop",
+      "target": "online mağaza",
+      "level": "a1",
+      "sense": "the official word for online is çevrim içi"
+    },
+    {
+      "en": "clothes shop",
+      "target": "giyim mağazası",
+      "level": "a1"
+    },
+    {
+      "en": "shoe shop",
+      "target": "ayakkabı mağazası",
+      "level": "a1"
+    },
+    {
+      "en": "bookshop / bookseller",
+      "target": "kitapçı",
+      "level": "a1"
+    },
+    {
+      "en": "electronics shop",
+      "target": "elektronik mağazası",
+      "level": "a1"
+    },
+    {
+      "en": "antique",
+      "target": "antika",
+      "level": "a2"
+    },
+    {
+      "en": "cash machine / ATM",
+      "target": "bankamatik",
+      "level": "a1",
+      "sense": "ATM is also said"
+    },
+    {
+      "en": "on sale",
+      "target": "indirimde",
+      "level": "a1"
+    },
+    {
+      "en": "in stock",
+      "target": "stokta",
+      "level": "a2"
+    },
+    {
+      "en": "out of stock",
+      "target": "stokta yok",
+      "level": "a2"
+    },
+    {
+      "en": "to order online",
+      "target": "internetten sipariş vermek",
+      "level": "a1"
+    },
+    {
+      "en": "to receive / to collect",
+      "target": "teslim almak",
+      "level": "a2",
+      "sense": "to take delivery; teslim etmek is to deliver"
+    },
+    {
+      "en": "to ask for a discount",
+      "target": "indirim istemek",
+      "level": "a2"
+    },
+    {
+      "en": "by card",
+      "target": "kartla",
+      "level": "a1"
+    },
+    {
+      "en": "in cash",
+      "target": "nakit olarak",
+      "level": "a1"
+    },
+    {
+      "en": "how much does it cost?",
+      "target": "fiyatı ne kadar?",
+      "level": "a1"
+    },
+    {
+      "en": "how much is this?",
+      "target": "bu ne kadar?",
+      "level": "a1"
+    },
+    {
+      "en": "can I have a closer look?",
+      "target": "daha yakından bakabilir miyim?",
+      "level": "a1"
+    },
+    {
+      "en": "can I pay by card?",
+      "target": "kartla ödeyebilir miyim?",
+      "level": "a1"
+    },
+    {
+      "en": "can I pay in cash?",
+      "target": "nakit ödeyebilir miyim?",
+      "level": "a1"
+    },
+    {
+      "en": "I'll take this one",
+      "target": "bunu alacağım",
+      "level": "a1",
+      "verb": "almak",
+      "tense": "gelecek"
+    },
+    {
+      "en": "toy",
+      "target": "oyuncak",
+      "level": "a1"
+    },
+    {
+      "en": "vinyl record",
+      "target": "plak",
+      "level": "b1"
     }
   ]
 }

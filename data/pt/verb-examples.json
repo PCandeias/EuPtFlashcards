@@ -10225,5 +10225,219 @@
       "en": "I am going to look like this later.",
       "tense": "futuroProximo"
     }
+  ],
+  "aceitar": [
+    {
+      "target": "A loja aceita cartão.",
+      "en": "The shop takes cards.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estou a aceitar a proposta.",
+      "en": "I am accepting the offer.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem aceitei o novo trabalho.",
+      "en": "Yesterday I accepted the new job.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Antigamente, o café só aceitava dinheiro.",
+      "en": "The café used to take only cash.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Vou aceitar o convite.",
+      "en": "I am going to accept the invitation.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Aceitaremos o preço se incluir a entrega.",
+      "en": "We will accept the price if it includes delivery.",
+      "tense": "futuro"
+    }
+  ],
+  "recusar": [
+    {
+      "target": "Recuso a proposta, obrigado.",
+      "en": "I turn down the offer, thank you.",
+      "tense": "presente"
+    },
+    {
+      "target": "Ele está a recusar ajuda.",
+      "en": "He is refusing help.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ela recusou o convite para jantar.",
+      "en": "She turned down the dinner invitation.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "O meu filho recusava sempre a sopa.",
+      "en": "My son always used to refuse soup.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Vou recusar essa oferta.",
+      "en": "I am going to turn down that offer.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "O banco recusará o pedido.",
+      "en": "The bank will refuse the request.",
+      "tense": "futuro"
+    }
+  ],
+  "arrendar": [
+    {
+      "target": "Arrendo um quarto perto da faculdade.",
+      "en": "I rent a room near the university.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estamos a arrendar um T2 no centro.",
+      "en": "We are renting a two-bedroom flat in the centre.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Arrendámos a casa por um ano.",
+      "en": "We rented the house for a year.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Os meus pais arrendavam uma casa na praia.",
+      "en": "My parents used to rent a house at the beach.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Vou arrendar o apartamento a estudantes.",
+      "en": "I am going to let the flat to students.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Arrendaremos uma casa maior no próximo ano.",
+      "en": "We will rent a bigger house next year.",
+      "tense": "futuro"
+    }
+  ],
+  "alugar": [
+    {
+      "target": "Alugo um carro no aeroporto.",
+      "en": "I hire a car at the airport.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estamos a alugar bicicletas.",
+      "en": "We are hiring bikes.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Alugámos uma casa no Algarve em agosto.",
+      "en": "We rented a house in the Algarve in August.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Alugávamos sempre o mesmo apartamento.",
+      "en": "We always used to rent the same flat.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Vou alugar um barco amanhã.",
+      "en": "I am going to hire a boat tomorrow.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Alugaremos um carro para a viagem.",
+      "en": "We will hire a car for the trip.",
+      "tense": "futuro"
+    }
+  ],
+  "dividir": [
+    {
+      "target": "Divido o apartamento com dois amigos.",
+      "en": "I share the flat with two friends.",
+      "tense": "presente"
+    },
+    {
+      "target": "Estamos a dividir a conta.",
+      "en": "We are splitting the bill.",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Dividimos o bolo em oito fatias.",
+      "en": "We cut the cake into eight slices.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Dividíamos sempre as despesas.",
+      "en": "We always used to split the costs.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Vamos dividir o trabalho.",
+      "en": "We are going to split the work.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Dividiremos a renda a meias.",
+      "en": "We will split the rent half and half.",
+      "tense": "futuro"
+    }
+  ],
+  "brincar": [
+    {
+      "target": "As crianças brincam no jardim.",
+      "en": "The children play in the garden.",
+      "tense": "presente"
+    },
+    {
+      "target": "Não fiques zangado, estou a brincar!",
+      "en": "Don't be cross, I'm joking!",
+      "tense": "presenteContinuo"
+    },
+    {
+      "target": "Ontem brinquei com o meu sobrinho.",
+      "en": "Yesterday I played with my nephew.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Em criança, brincava na rua com os vizinhos.",
+      "en": "As a child I used to play in the street with the neighbours.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Vou brincar com os meus filhos à tarde.",
+      "en": "I am going to play with my children this afternoon.",
+      "tense": "futuroProximo"
+    },
+    {
+      "target": "Os miúdos brincarão na praia.",
+      "en": "The kids will play on the beach.",
+      "tense": "futuro"
+    }
+  ],
+  "costumar": [
+    {
+      "target": "Costumo almoçar numa cantina.",
+      "en": "I usually have lunch in a canteen.",
+      "tense": "presente"
+    },
+    {
+      "target": "Durante anos, costumámos jantar fora ao sábado.",
+      "en": "For years we used to eat out on Saturdays.",
+      "tense": "perfeito"
+    },
+    {
+      "target": "Em criança, costumava ir à praia com os meus avós.",
+      "en": "As a child I used to go to the beach with my grandparents.",
+      "tense": "imperfeito"
+    },
+    {
+      "target": "Na reforma, costumarei passear todas as manhãs.",
+      "en": "In retirement I will usually go for a walk every morning.",
+      "tense": "futuro"
+    }
   ]
 }

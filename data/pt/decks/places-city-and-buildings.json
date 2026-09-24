@@ -367,6 +367,91 @@
       "en": "the petrol station",
       "target": "a estação de serviço",
       "level": "a1"
+    },
+    {
+      "en": "statue",
+      "target": "a estátua",
+      "level": "a2"
+    },
+    {
+      "en": "standard post",
+      "target": "o correio normal",
+      "level": "a2"
+    },
+    {
+      "en": "priority mail",
+      "target": "o correio azul",
+      "level": "b1",
+      "sense": "the CTT's express service, sold with blue stamps"
+    },
+    {
+      "en": "destination country",
+      "target": "o país de destino",
+      "level": "a2"
+    },
+    {
+      "en": "sender",
+      "target": "o remetente",
+      "level": "b1"
+    },
+    {
+      "en": "recipient",
+      "target": "o destinatário",
+      "level": "b1"
+    },
+    {
+      "en": "shipping costs / postage",
+      "target": "os portes de envio",
+      "level": "b1",
+      "sense": "also just os portes"
+    },
+    {
+      "en": "postcode",
+      "target": "o código postal",
+      "level": "a1"
+    },
+    {
+      "en": "small town",
+      "target": "a vila",
+      "level": "a1",
+      "sense": "a false friend: bigger than a village, smaller than a cidade"
+    },
+    {
+      "en": "inhabitant / resident",
+      "target": "o habitante / a habitante",
+      "level": "b1"
+    },
+    {
+      "en": "neighbour",
+      "target": "o vizinho / a vizinha",
+      "level": "a1"
+    },
+    {
+      "en": "faculty / university",
+      "target": "a faculdade",
+      "level": "a1",
+      "sense": "the part of a university you study at; people say \"na faculdade\" as \"at uni\""
+    },
+    {
+      "en": "in the city centre",
+      "target": "no centro da cidade",
+      "level": "a1"
+    },
+    {
+      "en": "near / close to",
+      "target": "perto de",
+      "level": "a1",
+      "sense": "contracts with the article: perto do, perto da"
+    },
+    {
+      "en": "far from",
+      "target": "longe de",
+      "level": "a1"
+    },
+    {
+      "en": "area / zone",
+      "target": "a zona",
+      "level": "a1"
     }
   ]
 }

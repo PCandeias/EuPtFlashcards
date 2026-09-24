@@ -399,6 +399,143 @@
       "en": "the great-grandmother",
       "target": "a bisavó",
       "level": "a2"
+    },
+    {
+      "en": "single-parent family",
+      "target": "a família monoparental",
+      "level": "b1"
+    },
+    {
+      "en": "extended family",
+      "target": "a família alargada",
+      "level": "b1"
+    },
+    {
+      "en": "uncle / aunt",
+      "target": "o tio / a tia",
+      "level": "a1",
+      "sense": "os tios, uncle and aunt together"
+    },
+    {
+      "en": "boyfriend / girlfriend",
+      "target": "o namorado / a namorada",
+      "level": "a1"
+    },
+    {
+      "en": "children",
+      "target": "os filhos",
+      "level": "a1",
+      "sense": "sons and daughters together; children in general are as crianças"
+    },
+    {
+      "en": "siblings / brothers",
+      "target": "os irmãos",
+      "level": "a1",
+      "sense": "brothers and sisters together"
+    },
+    {
+      "en": "my mother",
+      "target": "a minha mãe",
+      "level": "a1"
+    },
+    {
+      "en": "my father",
+      "target": "o meu pai",
+      "level": "a1"
+    },
+    {
+      "en": "my sister",
+      "target": "a minha irmã",
+      "level": "a1"
+    },
+    {
+      "en": "my brother",
+      "target": "o meu irmão",
+      "level": "a1"
+    },
+    {
+      "en": "my parents",
+      "target": "os meus pais",
+      "level": "a1"
+    },
+    {
+      "en": "your mother",
+      "target": "a tua mãe",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "your father",
+      "target": "o teu pai",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "his mother",
+      "target": "a mãe dele",
+      "level": "a2",
+      "sense": "a sua mãe also works, but can mean \"your mother\" too"
+    },
+    {
+      "en": "her mother",
+      "target": "a mãe dela",
+      "level": "a2"
+    },
+    {
+      "en": "his father",
+      "target": "o pai dele",
+      "level": "a2"
+    },
+    {
+      "en": "her father",
+      "target": "o pai dela",
+      "level": "a2"
+    },
+    {
+      "en": "our grandmother",
+      "target": "a nossa avó",
+      "level": "a1"
+    },
+    {
+      "en": "our uncle",
+      "target": "o nosso tio",
+      "level": "a1"
+    },
+    {
+      "en": "their grandparents",
+      "target": "os avós deles",
+      "level": "a2"
+    },
+    {
+      "en": "to live with",
+      "target": "viver com",
+      "level": "a1"
+    },
+    {
+      "en": "married",
+      "target": "casado / casada",
+      "level": "a1"
+    },
+    {
+      "en": "to separate from",
+      "target": "separar-se de",
+      "level": "b1"
+    },
+    {
+      "en": "to divorce",
+      "target": "divorciar-se de",
+      "level": "b1"
+    },
+    {
+      "en": "grandma is ninety",
+      "target": "a avó tem noventa anos",
+      "level": "a1",
+      "sense": "age uses ter",
+      "tense": "presente"
     }
   ]
 }

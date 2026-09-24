@@ -2,7 +2,7 @@
   {
     "deck": "Adjectives & Opposites",
     "file": "adjectives-and-opposites",
-    "count": 93
+    "count": 96
   },
   {
     "deck": "Basic Present Tense Phrases",
@@ -22,7 +22,7 @@
   {
     "deck": "Class",
     "file": "class",
-    "count": 708
+    "count": 1077
   },
   {
     "deck": "Clothing & Colors",
@@ -32,7 +32,7 @@
   {
     "deck": "Common Verbs",
     "file": "common-verbs",
-    "count": 120
+    "count": 128
   },
   {
     "deck": "Countries & Languages",
@@ -47,7 +47,7 @@
   {
     "deck": "Describing People",
     "file": "describing-people",
-    "count": 24
+    "count": 36
   },
   {
     "deck": "Emotions & Daily State",
@@ -62,17 +62,17 @@
   {
     "deck": "Extra Useful A1 Words",
     "file": "extra-useful-a1-words",
-    "count": 98
+    "count": 102
   },
   {
     "deck": "Family & Relationships",
     "file": "family-and-relationships",
-    "count": 75
+    "count": 100
   },
   {
     "deck": "Food & Drink",
     "file": "food-and-drink",
-    "count": 139
+    "count": 168
   },
   {
     "deck": "Future Tense (Futuro)",
@@ -92,12 +92,12 @@
   {
     "deck": "Home & Household Objects",
     "file": "home-and-household-objects",
-    "count": 102
+    "count": 146
   },
   {
     "deck": "Jobs & Professions",
     "file": "jobs-and-professions",
-    "count": 36
+    "count": 42
   },
   {
     "deck": "Learning Portuguese",
@@ -112,7 +112,7 @@
   {
     "deck": "Numbers",
     "file": "numbers",
-    "count": 71
+    "count": 83
   },
   {
     "deck": "Past Habits (Imperfeito)",
@@ -127,7 +127,7 @@
   {
     "deck": "Places, City & Buildings",
     "file": "places-city-and-buildings",
-    "count": 73
+    "count": 89
   },
   {
     "deck": "Present Tense (Presente)",
@@ -137,7 +137,7 @@
   {
     "deck": "Pronouns & Basic Words",
     "file": "pronouns-and-basic-words",
-    "count": 88
+    "count": 96
   },
   {
     "deck": "Question Words & Connectors",
@@ -147,12 +147,12 @@
   {
     "deck": "Restaurant & Ordering",
     "file": "restaurant-and-ordering",
-    "count": 63
+    "count": 74
   },
   {
     "deck": "Shopping & Money",
     "file": "shopping-and-money",
-    "count": 74
+    "count": 114
   },
   {
     "deck": "Technology & Phone",
@@ -167,7 +167,7 @@
   {
     "deck": "Transport & Directions",
     "file": "transport-and-directions",
-    "count": 76
+    "count": 77
   },
   {
     "deck": "Useful Verb Phrases",
@@ -177,11 +177,11 @@
   {
     "deck": "Weather, Nature & Animals",
     "file": "weather-nature-and-animals",
-    "count": 97
+    "count": 100
   },
   {
     "deck": "Work, School & Study",
     "file": "work-school-and-study",
-    "count": 79
+    "count": 81
   }
 ]

@@ -529,6 +529,54 @@
       "en": "at least",
       "target": "pelo menos",
       "level": "a1"
+    },
+    {
+      "en": "item / article",
+      "target": "o objeto",
+      "level": "a2"
+    },
+    {
+      "en": "what is this?",
+      "target": "o que é isto?",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "what is that?",
+      "target": "o que é isso?",
+      "level": "a1",
+      "sense": "near the person you're talking to",
+      "tense": "presente"
+    },
+    {
+      "en": "what is that over there?",
+      "target": "o que é aquilo?",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "what is that called?",
+      "target": "como se chama isso?",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "these are old books",
+      "target": "isto são livros antigos",
+      "level": "a2",
+      "sense": "isto stays singular even when the things are plural",
+      "tense": "presente"
+    },
+    {
+      "en": "there is / there are",
+      "target": "há",
+      "level": "a1",
+      "sense": "from haver; it never changes for plural: há duas camas"
+    },
+    {
+      "en": "there isn't / there aren't",
+      "target": "não há",
+      "level": "a1"
     }
   ]
 }

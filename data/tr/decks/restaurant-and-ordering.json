@@ -321,6 +321,64 @@
       "en": "to recommend / to suggest",
       "target": "önermek",
       "level": "a1"
+    },
+    {
+      "en": "set menu",
+      "target": "fiks menü",
+      "level": "a2"
+    },
+    {
+      "en": "vegetarian food",
+      "target": "vejetaryen yemek",
+      "level": "a1"
+    },
+    {
+      "en": "meat dish",
+      "target": "et yemeği",
+      "level": "a1"
+    },
+    {
+      "en": "to order",
+      "target": "sipariş etmek",
+      "level": "a2",
+      "sense": "sipariş vermek means the same"
+    },
+    {
+      "en": "what would you like to eat?",
+      "target": "ne yemek istersiniz?",
+      "level": "a1",
+      "verb": "istemek",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "we'd like some water",
+      "target": "su istiyoruz",
+      "level": "a1",
+      "verb": "istemek",
+      "tense": "simdiki"
+    },
+    {
+      "en": "could you bring some bread?",
+      "target": "ekmek getirebilir misiniz?",
+      "level": "a1",
+      "verb": "getirmek",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "what is there for the main course?",
+      "target": "ana yemek olarak ne var?",
+      "level": "a1"
+    },
+    {
+      "en": "I'd like grilled fish",
+      "target": "ızgara balık istiyorum",
+      "level": "a1",
+      "verb": "istemek",
+      "tense": "simdiki"
     }
   ]
 }

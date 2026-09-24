@@ -438,6 +438,33 @@
       "en": "platform number",
       "target": "peron numarası",
       "level": "a2"
+    },
+    {
+      "en": "public transport",
+      "target": "toplu taşıma",
+      "level": "a2"
+    },
+    {
+      "en": "to go by car",
+      "target": "arabayla gitmek",
+      "level": "a1",
+      "sense": "-(y)la after the vehicle: otobüsle, trenle, uçakla"
+    },
+    {
+      "en": "by metro",
+      "target": "metroyla",
+      "level": "a1"
+    },
+    {
+      "en": "by train",
+      "target": "trenle",
+      "level": "a1"
+    },
+    {
+      "en": "by ferry",
+      "target": "vapurla",
+      "level": "a1",
+      "sense": "the Bosphorus commuter ferry is the vapur"
     }
   ]
 }

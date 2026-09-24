@@ -820,6 +820,113 @@
       "en": "to sniff / to smell something",
       "target": "koklamak",
       "level": "a2"
+    },
+    {
+      "en": "seasonal fruit",
+      "target": "mevsim meyvesi",
+      "level": "a2"
+    },
+    {
+      "en": "with cheese",
+      "target": "peynirli",
+      "level": "a1"
+    },
+    {
+      "en": "grill / grilled",
+      "target": "ızgara",
+      "level": "a1"
+    },
+    {
+      "en": "seafood",
+      "target": "deniz ürünleri",
+      "level": "a2"
+    },
+    {
+      "en": "spaghetti",
+      "target": "spagetti",
+      "level": "a1"
+    },
+    {
+      "en": "chips / fries",
+      "target": "patates kızartması",
+      "level": "a1"
+    },
+    {
+      "en": "coriander",
+      "target": "kişniş",
+      "level": "a2"
+    },
+    {
+      "en": "vegetable soup",
+      "target": "sebze çorbası",
+      "level": "a1"
+    },
+    {
+      "en": "with chocolate / chocolate",
+      "target": "çikolatalı",
+      "level": "a1"
+    },
+    {
+      "en": "fruit salad",
+      "target": "meyve salatası",
+      "level": "a1"
+    },
+    {
+      "en": "cod",
+      "target": "morina balığı",
+      "level": "b1"
+    },
+    {
+      "en": "sardine",
+      "target": "sardalya",
+      "level": "a2"
+    },
+    {
+      "en": "mussel",
+      "target": "midye",
+      "level": "a2",
+      "sense": "midye dolma, mussels stuffed with spiced rice, is a street food"
+    },
+    {
+      "en": "prawn / shrimp",
+      "target": "karides",
+      "level": "a2"
+    },
+    {
+      "en": "with garlic",
+      "target": "sarımsaklı",
+      "level": "a1"
+    },
+    {
+      "en": "with mushrooms",
+      "target": "mantarlı",
+      "level": "a1"
+    },
+    {
+      "en": "meatless / without meat",
+      "target": "etsiz",
+      "level": "a1"
+    },
+    {
+      "en": "to boil",
+      "target": "haşlamak",
+      "level": "a2",
+      "sense": "to cook food in boiling water; to bring water to the boil is kaynatmak"
+    },
+    {
+      "en": "to grill / to barbecue",
+      "target": "ızgara yapmak",
+      "level": "a2"
+    },
+    {
+      "en": "healthy eating / healthy diet",
+      "target": "sağlıklı beslenme",
+      "level": "a2"
+    },
+    {
+      "en": "Mediterranean cuisine",
+      "target": "Akdeniz mutfağı",
+      "level": "b1"
     }
   ]
 }

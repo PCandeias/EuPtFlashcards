@@ -492,6 +492,26 @@
       "en": "the shape",
       "target": "a forma",
       "level": "a2"
+    },
+    {
+      "en": "life",
+      "target": "a vida",
+      "level": "a1"
+    },
+    {
+      "en": "length",
+      "target": "o comprimento",
+      "level": "a2"
+    },
+    {
+      "en": "width",
+      "target": "a largura",
+      "level": "a2"
+    },
+    {
+      "en": "dimensions",
+      "target": "as dimensões",
+      "level": "b1"
     }
   ]
 }

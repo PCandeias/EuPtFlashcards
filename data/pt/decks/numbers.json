@@ -355,6 +355,75 @@
       "en": "the last one",
       "target": "o último",
       "level": "a1"
+    },
+    {
+      "en": "first",
+      "target": "primeiro / primeira",
+      "level": "a1"
+    },
+    {
+      "en": "second",
+      "target": "segundo / segunda",
+      "level": "a1",
+      "sense": "segundo is also \"according to\", and a second of time"
+    },
+    {
+      "en": "third",
+      "target": "terceiro / terceira",
+      "level": "a1"
+    },
+    {
+      "en": "fourth",
+      "target": "quarto / quarta",
+      "level": "a1"
+    },
+    {
+      "en": "fifth",
+      "target": "quinto / quinta",
+      "level": "a1"
+    },
+    {
+      "en": "sixth",
+      "target": "sexto / sexta",
+      "level": "a1"
+    },
+    {
+      "en": "seventh",
+      "target": "sétimo / sétima",
+      "level": "a1"
+    },
+    {
+      "en": "eighth",
+      "target": "oitavo / oitava",
+      "level": "a1"
+    },
+    {
+      "en": "ninth",
+      "target": "nono / nona",
+      "level": "a1"
+    },
+    {
+      "en": "tenth",
+      "target": "décimo / décima",
+      "level": "a1"
+    },
+    {
+      "en": "which floor do you live on?",
+      "target": "em que andar moras?",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presente"
+    },
+    {
+      "en": "which floor do you live on?",
+      "target": "em que andar mora?",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ],
+      "tense": "presente"
     }
   ]
 }

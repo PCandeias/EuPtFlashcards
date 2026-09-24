@@ -431,6 +431,122 @@
       "en": "for two hours",
       "target": "iki saat",
       "level": "a1"
+    },
+    {
+      "en": "daily",
+      "target": "günlük",
+      "level": "a2",
+      "sense": "also a diary"
+    },
+    {
+      "en": "often / frequently",
+      "target": "sık sık",
+      "level": "a1"
+    },
+    {
+      "en": "usually / generally",
+      "target": "genelde",
+      "level": "a1"
+    },
+    {
+      "en": "rarely",
+      "target": "nadiren",
+      "level": "a2"
+    },
+    {
+      "en": "almost never",
+      "target": "neredeyse hiç",
+      "level": "a2",
+      "sense": "with a negative verb"
+    },
+    {
+      "en": "once",
+      "target": "bir kere",
+      "level": "a1",
+      "sense": "also bir kez"
+    },
+    {
+      "en": "twice",
+      "target": "iki kere",
+      "level": "a1"
+    },
+    {
+      "en": "many times",
+      "target": "çok kez",
+      "level": "a2"
+    },
+    {
+      "en": "during the week / on weekdays",
+      "target": "hafta içi",
+      "level": "a1"
+    },
+    {
+      "en": "around ten o'clock",
+      "target": "saat on gibi",
+      "level": "a1"
+    },
+    {
+      "en": "at what time?",
+      "target": "saat kaçta?",
+      "level": "a1"
+    },
+    {
+      "en": "at one o'clock",
+      "target": "saat birde",
+      "level": "a1"
+    },
+    {
+      "en": "at two o'clock",
+      "target": "saat ikide",
+      "level": "a1"
+    },
+    {
+      "en": "at ten in the morning",
+      "target": "sabah onda",
+      "level": "a1"
+    },
+    {
+      "en": "it's quarter past four",
+      "target": "dördü çeyrek geçiyor",
+      "level": "a1",
+      "sense": "\"geçiyor\" for past the hour; at quarter past four is dördü çeyrek geçe"
+    },
+    {
+      "en": "half past four",
+      "target": "dört buçuk",
+      "level": "a1"
+    },
+    {
+      "en": "it's quarter to five",
+      "target": "beşe çeyrek var",
+      "level": "a1",
+      "sense": "\"var\" for to the hour; at quarter to five is beşe çeyrek kala"
+    },
+    {
+      "en": "every night",
+      "target": "her gece",
+      "level": "a1"
+    },
+    {
+      "en": "three times a week",
+      "target": "haftada üç kez",
+      "level": "a1"
+    },
+    {
+      "en": "normally",
+      "target": "normalde",
+      "level": "a1"
+    },
+    {
+      "en": "currently / at the moment",
+      "target": "şu anda",
+      "level": "a1"
+    },
+    {
+      "en": "still",
+      "target": "hâlâ",
+      "level": "a1",
+      "sense": "also written hala, which also means aunt"
     }
   ]
 }

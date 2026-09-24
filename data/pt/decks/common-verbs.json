@@ -602,6 +602,51 @@
       "en": "to allow",
       "target": "deixar entrar",
       "level": "a2"
+    },
+    {
+      "en": "to accept",
+      "target": "aceitar",
+      "level": "a1"
+    },
+    {
+      "en": "to refuse / to turn down",
+      "target": "recusar",
+      "level": "a2"
+    },
+    {
+      "en": "to return / to come back",
+      "target": "voltar",
+      "level": "a1"
+    },
+    {
+      "en": "to rent / to let",
+      "target": "arrendar",
+      "level": "a1",
+      "sense": "a long-term rental, used by both tenant and landlord"
+    },
+    {
+      "en": "to rent / to hire",
+      "target": "alugar",
+      "level": "a1",
+      "sense": "a short let or a hire: alugar um carro"
+    },
+    {
+      "en": "to divide / to split",
+      "target": "dividir",
+      "level": "a2",
+      "sense": "dividir a conta, to split the bill"
+    },
+    {
+      "en": "to play",
+      "target": "brincar",
+      "level": "a1",
+      "sense": "children's play; games and sport are jogar, instruments tocar. Also to joke: estou a brincar"
+    },
+    {
+      "en": "to usually do",
+      "target": "costumar",
+      "level": "a2",
+      "sense": "costumo almoçar cedo, I usually have lunch early"
     }
   ]
 }

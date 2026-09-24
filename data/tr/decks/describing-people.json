@@ -131,6 +131,73 @@
       "en": "spoiled",
       "target": "şımarık",
       "level": "b1"
+    },
+    {
+      "en": "red-haired",
+      "target": "kızıl saçlı",
+      "level": "a2"
+    },
+    {
+      "en": "white-haired",
+      "target": "beyaz saçlı",
+      "level": "a2"
+    },
+    {
+      "en": "short hair",
+      "target": "kısa saç",
+      "level": "a1",
+      "sense": "as a description: kısa saçlı, short-haired"
+    },
+    {
+      "en": "long hair",
+      "target": "uzun saç",
+      "level": "a1"
+    },
+    {
+      "en": "curly hair",
+      "target": "kıvırcık saç",
+      "level": "a1"
+    },
+    {
+      "en": "brown hair",
+      "target": "kahverengi saç",
+      "level": "a1"
+    },
+    {
+      "en": "moustache",
+      "target": "bıyık",
+      "level": "a2"
+    },
+    {
+      "en": "blue-eyed",
+      "target": "mavi gözlü",
+      "level": "a1"
+    },
+    {
+      "en": "green-eyed",
+      "target": "yeşil gözlü",
+      "level": "a1"
+    },
+    {
+      "en": "brown-eyed",
+      "target": "kahverengi gözlü",
+      "level": "a1",
+      "sense": "ela, hazel, is also common"
+    },
+    {
+      "en": "nice / likeable",
+      "target": "sempatik",
+      "level": "a2"
+    },
+    {
+      "en": "unpleasant / unlikeable",
+      "target": "antipatik",
+      "level": "b1"
+    },
+    {
+      "en": "character / personality",
+      "target": "karakter",
+      "level": "a2"
     }
   ]
 }

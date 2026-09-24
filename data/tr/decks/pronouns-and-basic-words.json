@@ -478,6 +478,41 @@
       "en": "sometimes",
       "target": "bazen",
       "level": "a1"
+    },
+    {
+      "en": "who?",
+      "target": "kim?",
+      "level": "a1"
+    },
+    {
+      "en": "all / whole",
+      "target": "bütün",
+      "level": "a1"
+    },
+    {
+      "en": "some",
+      "target": "bazı",
+      "level": "a1"
+    },
+    {
+      "en": "better",
+      "target": "daha iyi",
+      "level": "a1"
+    },
+    {
+      "en": "worse",
+      "target": "daha kötü",
+      "level": "a1"
+    },
+    {
+      "en": "less",
+      "target": "daha az",
+      "level": "a1"
+    },
+    {
+      "en": "between / among",
+      "target": "arasında",
+      "level": "a2"
     }
   ]
 }

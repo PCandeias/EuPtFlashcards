@@ -361,6 +361,100 @@
       "en": "I am pleased to hear it",
       "target": "Buna sevindim",
       "level": "a2"
+    },
+    {
+      "en": "no problem",
+      "target": "sorun değil",
+      "level": "a1"
+    },
+    {
+      "en": "of course / certainly",
+      "target": "elbette",
+      "level": "a1"
+    },
+    {
+      "en": "good afternoon",
+      "target": "tünaydın",
+      "level": "a2",
+      "sense": "formal and rather old-fashioned; iyi günler covers most of the day"
+    },
+    {
+      "en": "thank you very much",
+      "target": "çok teşekkür ederim",
+      "level": "a1",
+      "verb": "teşekkür etmek",
+      "tense": "genis"
+    },
+    {
+      "en": "you're welcome / it's nothing",
+      "target": "bir şey değil",
+      "level": "a1"
+    },
+    {
+      "en": "don't mention it / not at all",
+      "target": "ne demek",
+      "level": "a1",
+      "sense": "also \"what does it mean?\"; the tone tells you which"
+    },
+    {
+      "en": "I'm sorry / I apologise",
+      "target": "özür dilerim",
+      "level": "a1",
+      "verb": "özür dilemek",
+      "tense": "genis"
+    },
+    {
+      "en": "I'm very sorry",
+      "target": "çok üzgünüm",
+      "level": "a1",
+      "sense": "sympathy rather than an apology"
+    },
+    {
+      "en": "get well soon",
+      "target": "geçmiş olsun",
+      "level": "a1",
+      "sense": "literally \"may it be past\"; said after any illness or mishap"
+    },
+    {
+      "en": "my condolences",
+      "target": "başın sağ olsun",
+      "level": "a2",
+      "sense": "said when someone has lost a relative",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "see you soon",
+      "target": "görüşmek üzere",
+      "level": "a1"
+    },
+    {
+      "en": "see you later",
+      "target": "sonra görüşürüz",
+      "level": "a1",
+      "verb": "görüşmek",
+      "tense": "genis"
+    },
+    {
+      "en": "see you next week",
+      "target": "haftaya görüşürüz",
+      "level": "a1",
+      "verb": "görüşmek",
+      "tense": "genis"
+    },
+    {
+      "en": "kisses / lots of love",
+      "target": "öpüyorum",
+      "level": "a2",
+      "sense": "literally \"I'm kissing\"; a warm sign-off to friends and family",
+      "verb": "öpmek",
+      "tense": "simdiki"
+    },
+    {
+      "en": "to shake hands",
+      "target": "tokalaşmak",
+      "level": "b1"
     }
   ]
 }

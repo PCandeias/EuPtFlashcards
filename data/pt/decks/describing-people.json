@@ -129,6 +129,73 @@
       "target": "ele tem trinta anos",
       "tense": "presente",
       "level": "a1"
+    },
+    {
+      "en": "blond",
+      "target": "louro / loura",
+      "level": "a1"
+    },
+    {
+      "en": "white hair",
+      "target": "o cabelo branco",
+      "level": "a1"
+    },
+    {
+      "en": "wavy",
+      "target": "ondulado / ondulada",
+      "level": "a2"
+    },
+    {
+      "en": "moustache",
+      "target": "o bigode",
+      "level": "a1"
+    },
+    {
+      "en": "green eyes",
+      "target": "os olhos verdes",
+      "level": "a1"
+    },
+    {
+      "en": "grey eyes",
+      "target": "os olhos cinzentos",
+      "level": "a1"
+    },
+    {
+      "en": "fun / funny",
+      "target": "divertido / divertida",
+      "level": "a1"
+    },
+    {
+      "en": "unpleasant / unfriendly",
+      "target": "antipático / antipática",
+      "level": "a2"
+    },
+    {
+      "en": "character / personality",
+      "target": "o caráter",
+      "level": "a2",
+      "sense": "also spelled carácter"
+    },
+    {
+      "en": "she has blue eyes",
+      "target": "ela tem os olhos azuis",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "he has curly hair",
+      "target": "ele tem o cabelo encaracolado",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "they have long hair",
+      "target": "eles têm o cabelo comprido",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ],
+      "tense": "presente"
     }
   ]
 }

@@ -423,6 +423,58 @@
       "en": "foreign / foreigner / stranger",
       "target": "yabancı",
       "level": "a1"
+    },
+    {
+      "en": "large family",
+      "target": "kalabalık aile",
+      "level": "a2",
+      "sense": "kalabalık, \"crowded\", is how Turkish says a big family"
+    },
+    {
+      "en": "grandfather",
+      "target": "büyükbaba",
+      "level": "a1",
+      "sense": "dede is more common in speech"
+    },
+    {
+      "en": "grandmother",
+      "target": "büyükanne",
+      "level": "a1",
+      "sense": "the general word; anneanne and babaanne say which side"
+    },
+    {
+      "en": "parent",
+      "target": "ebeveyn",
+      "level": "b1",
+      "sense": "formal; in speech say anne baba"
+    },
+    {
+      "en": "single / unmarried",
+      "target": "bekâr",
+      "level": "a1",
+      "sense": "also written bekar"
+    },
+    {
+      "en": "to separate / to leave",
+      "target": "ayrılmak",
+      "level": "a2",
+      "sense": "what you leave takes the ablative: evden ayrılmak"
+    },
+    {
+      "en": "to divorce",
+      "target": "boşanmak",
+      "level": "b1"
+    },
+    {
+      "en": "to live together",
+      "target": "birlikte yaşamak",
+      "level": "a2"
+    },
+    {
+      "en": "people",
+      "target": "insanlar",
+      "level": "a1",
+      "sense": "the singular is insan, a person; kişi is used when counting"
     }
   ]
 }

@@ -12,7 +12,8 @@
  *                      voiceless consonant: evde, but kitapta.
  */
 
-export const BACK = 'aıou'
+// â is a back vowel that marks a palatal consonant before it: dükkânı, bekârım.
+export const BACK = 'aıouâ'
 export const FRONT = 'eiöü'
 export const VOWELS = BACK + FRONT
 /** fıstıkçı şahap — the mnemonic every Turkish course teaches. */
@@ -37,7 +38,7 @@ export function twoWay(word: string): 'a' | 'e' {
 export function fourWay(word: string): 'ı' | 'i' | 'u' | 'ü' {
   const v = lastVowel(word)
   switch (v) {
-    case 'a': case 'ı': return 'ı'
+    case 'a': case 'â': case 'ı': return 'ı'
     case 'o': case 'u': return 'u'
     case 'ö': case 'ü': return 'ü'
     default: return 'i'

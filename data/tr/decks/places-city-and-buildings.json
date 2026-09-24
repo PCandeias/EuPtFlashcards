@@ -487,6 +487,26 @@
       "en": "noise",
       "target": "gürültü",
       "level": "a2"
+    },
+    {
+      "en": "parking space",
+      "target": "park yeri",
+      "level": "a1"
+    },
+    {
+      "en": "district / area",
+      "target": "semt",
+      "level": "a2"
+    },
+    {
+      "en": "statue / sculpture",
+      "target": "heykel",
+      "level": "a2"
+    },
+    {
+      "en": "postcode",
+      "target": "posta kodu",
+      "level": "a1"
     }
   ]
 }

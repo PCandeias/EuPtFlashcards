@@ -284,6 +284,11 @@
       "target": "fare",
       "level": "a1",
       "sense": "the one on a desk"
+    },
+    {
+      "en": "to talk on the phone",
+      "target": "telefonda konuşmak",
+      "level": "a1"
     }
   ]
 }

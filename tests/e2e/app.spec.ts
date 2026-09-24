@@ -122,7 +122,7 @@ test('loads the full corpus', async ({ page }) => {
   await page.goto('./#/pt')
   await expect(page.locator('.card')).toBeVisible()
   await expect(page.locator('h1')).toContainText('European Portuguese')
-  await expect(page.locator('#totalCount')).toHaveText('3370')
+  await expect(page.locator('#totalCount')).toHaveText('3961')
 })
 
 test('renders a plural badge on the English face and none on the Portuguese', async ({ page }) => {
@@ -908,7 +908,7 @@ test.describe('studying by tense', () => {
     await page.goto('./#/pt')
     await page.evaluate(() => localStorage.clear())
     await page.reload()
-    await expect(page.locator('#totalCount')).toHaveText('3370')
+    await expect(page.locator('#totalCount')).toHaveText('3961')
   })
 
   test('hides cards in a tense that is switched off', async ({ page }) => {
@@ -916,15 +916,15 @@ test.describe('studying by tense', () => {
     await setTenses(page, ['presente', 'perfeito', 'imperfeito', 'futuro', 'futuroProximo'])
     await page.reload()
     // The 140 continuous cards drop out; nothing else does.
-    await expect(page.locator('#totalCount')).toHaveText(String(3370 - 140))
+    await expect(page.locator('#totalCount')).toHaveText(String(3961 - 140))
   })
 
   test('keeps vocabulary and infinitives whatever is selected', async ({ page }) => {
     await page.goto('./#/pt')
     await setTenses(page, [])
     await page.reload()
-    // Only the 723 tense-bearing cards go.
-    await expect(page.locator('#totalCount')).toHaveText(String(3370 - 723))
+    // Only the 817 tense-bearing cards go.
+    await expect(page.locator('#totalCount')).toHaveText(String(3961 - 817))
 
     // A noun and an infinitive are both still reachable.
     await page.selectOption('#deckSelect', 'Common Verbs')
@@ -967,11 +967,11 @@ test.describe('studying by tense', () => {
     await page.goto('./#/pt')
     await page.selectOption('#deckSelect', 'Numbers')
     const before = await page.locator('#progressText').textContent()
-    expect(before).toContain('Card 1 / 71')
+    expect(before).toContain('Card 1 / 83')
 
     // Grading advances within the same queue rather than starting a new one.
     await page.click('#goodBtn')
-    await expect(page.locator('#progressText')).toContainText('Card 1 / 70')
+    await expect(page.locator('#progressText')).toContainText('Card 1 / 82')
   })
 
   test('the deck menu counts what will actually be shown', async ({ page }) => {
@@ -1007,7 +1007,7 @@ test.describe('studying by tense', () => {
       }))
     })
     await page.reload()
-    await expect(page.locator('#totalCount')).toHaveText('3370')
+    await expect(page.locator('#totalCount')).toHaveText('3961')
   })
 })
 

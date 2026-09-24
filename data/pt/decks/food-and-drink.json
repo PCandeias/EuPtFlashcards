@@ -701,6 +701,162 @@
       "en": "gluten-free",
       "target": "sem glúten",
       "level": "b1"
+    },
+    {
+      "en": "food",
+      "target": "a comida",
+      "level": "a1"
+    },
+    {
+      "en": "vegetarian",
+      "target": "vegetariano / vegetariana",
+      "level": "a1"
+    },
+    {
+      "en": "gilthead bream",
+      "target": "a dourada",
+      "level": "a2"
+    },
+    {
+      "en": "grilled",
+      "target": "grelhado / grelhada",
+      "level": "a1"
+    },
+    {
+      "en": "seafood / shellfish",
+      "target": "o marisco",
+      "level": "a1"
+    },
+    {
+      "en": "spaghetti",
+      "target": "o esparguete",
+      "level": "a1"
+    },
+    {
+      "en": "boiled",
+      "target": "cozido / cozida",
+      "level": "a1",
+      "sense": "also o cozido, the Portuguese boiled-meat stew"
+    },
+    {
+      "en": "roast / roasted",
+      "target": "assado / assada",
+      "level": "a1"
+    },
+    {
+      "en": "chips / crisps",
+      "target": "as batatas fritas",
+      "level": "a1",
+      "sense": "both chips with a meal and crisps in a bag"
+    },
+    {
+      "en": "caldo verde",
+      "target": "o caldo verde",
+      "level": "a1",
+      "sense": "a potato and kale soup, served with a slice of chouriço"
+    },
+    {
+      "en": "chocolate mousse",
+      "target": "a mousse de chocolate",
+      "level": "a1"
+    },
+    {
+      "en": "fruit salad",
+      "target": "a salada de fruta",
+      "level": "a1"
+    },
+    {
+      "en": "rice pudding",
+      "target": "o arroz-doce",
+      "level": "a1"
+    },
+    {
+      "en": "tart",
+      "target": "a tarte",
+      "level": "a2"
+    },
+    {
+      "en": "pudding / crème caramel",
+      "target": "o pudim",
+      "level": "a2"
+    },
+    {
+      "en": "cod with cream",
+      "target": "o bacalhau com natas",
+      "level": "a2"
+    },
+    {
+      "en": "francesinha",
+      "target": "a francesinha",
+      "level": "a2",
+      "sense": "a meat-filled toasted sandwich covered in cheese and a beer sauce"
+    },
+    {
+      "en": "sardine",
+      "target": "a sardinha",
+      "level": "a1",
+      "sense": "the dish of the June street festivals, the Santos Populares"
+    },
+    {
+      "en": "fish stew",
+      "target": "a caldeirada",
+      "level": "a2"
+    },
+    {
+      "en": "fried cuttlefish",
+      "target": "o choco frito",
+      "level": "a2"
+    },
+    {
+      "en": "suckling pig",
+      "target": "o leitão",
+      "level": "a2"
+    },
+    {
+      "en": "goat stew",
+      "target": "a chanfana",
+      "level": "b1",
+      "sense": "goat slow-cooked in red wine, from the Coimbra region"
+    },
+    {
+      "en": "Portuguese boiled dinner",
+      "target": "o cozido à portuguesa",
+      "level": "a2"
+    },
+    {
+      "en": "stew",
+      "target": "o ensopado",
+      "level": "b1",
+      "sense": "a stew poured over slices of bread"
+    },
+    {
+      "en": "migas",
+      "target": "as migas",
+      "level": "b1",
+      "sense": "fried bread crumbs with garlic and olive oil, from the Alentejo"
+    },
+    {
+      "en": "sericaia",
+      "target": "a sericaia",
+      "level": "b1",
+      "sense": "an egg custard cake served with plums"
+    },
+    {
+      "en": "skewers",
+      "target": "as espetadas",
+      "level": "a2",
+      "sense": "meat on a bay-wood skewer"
+    },
+    {
+      "en": "clams",
+      "target": "as amêijoas",
+      "level": "a2"
+    },
+    {
+      "en": "the food is typically Portuguese",
+      "target": "a comida é tipicamente portuguesa",
+      "level": "a2",
+      "tense": "presente"
     }
   ]
 }

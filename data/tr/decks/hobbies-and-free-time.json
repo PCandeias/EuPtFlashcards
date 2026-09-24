@@ -267,6 +267,16 @@
       "en": "riddle",
       "target": "bilmece",
       "level": "b1"
+    },
+    {
+      "en": "magazine",
+      "target": "dergi",
+      "level": "a1"
+    },
+    {
+      "en": "stroll / outing",
+      "target": "gezinti",
+      "level": "b1"
     }
   ]
 }

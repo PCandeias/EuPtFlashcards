@@ -171,6 +171,10 @@ const SOFTENS = new Set([
   'kâğıt',
   // -p becomes b in mektup too: mektubu.
   'mektup',
+  'plak', 'oyuncak', 'şurup', 'yazlık', 'günlük', 'bıyık', 'sempatik', 'antipatik',
+  'bankamatik', 'gardırop', 'yorgunluk', 'iktisat',
+  // tıp also doubles: tıbbı. See STEM_BEFORE_VOWEL.
+  'tıp',
   // -p becomes b here too: garip is garibi.
   'garip',
   // nk becomes ng rather than nğ
@@ -202,6 +206,7 @@ const KEEPS = new Set([
   'avukat', 'pilot', 'ek', 'kök', 'ilk', 'birkaç', 'işaret', 'kat', 'halat',
   'turist', 'davet', 'evet', 'sandviç', 'meşrubat', 'milliyet',
   'kürk', 'gölet', 'test', 'not', 'hayalet', 'cesaret',
+  'çekyat', 'küvet', 'aidat', 'semt', 'diplomat', 'hukuk', 'edebiyat',
 ])
 
 /**
@@ -250,7 +255,7 @@ const STEM_BEFORE_VOWEL: Record<string, string> = {
   ağız: 'ağz', alın: 'aln', beyin: 'beyn', boyun: 'boyn', burun: 'burn',
   göğüs: 'göğs', karın: 'karn', nehir: 'nehr', oğul: 'oğl', omuz: 'omz',
   resim: 'resm', şehir: 'şehr',
-  sır: 'sırr',
+  sır: 'sırr', tıp: 'tıbb',
 }
 
 type Mutation = 'softens' | 'keeps' | 'none'

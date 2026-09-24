@@ -101,7 +101,7 @@ test('keeps progress, settings and reports apart', async ({ page }) => {
   await expect(page.locator('#reportedList li')).toHaveCount(0)
   await page.click('#settingsCloseBtn')
   // The Portuguese deck is whole; the Turkish report took a Turkish card.
-  await expect(page.locator('#deckSelect option').first()).toContainText('All (3370)')
+  await expect(page.locator('#deckSelect option').first()).toContainText('All (3961)')
 
   await page.goto('./#/tr')
   await page.click('#settingsBtn')
@@ -151,7 +151,7 @@ test('shows the endings a Turkish noun takes', async ({ page }) => {
   await page.selectOption('#deckSelect', 'Home & Household Objects')
 
   const reach = (want: string) => page.evaluate(async (target) => {
-    for (let i = 0; i < 1000; i++) {
+    for (let i = 0; i < 1500; i++) {
       const back = document.querySelector('.face.back .word')
       if (back?.childNodes[0]?.textContent?.trim() === target) return true
       ;(document.getElementById('nextBtn') as HTMLButtonElement).click()
@@ -177,7 +177,7 @@ test('spells the same ending differently on a back-vowel word', async ({ page })
   await page.selectOption('#deckSelect', 'Places, City & Buildings')
 
   const found = await page.evaluate(async () => {
-    for (let i = 0; i < 1000; i++) {
+    for (let i = 0; i < 1500; i++) {
       const back = document.querySelector('.face.back .word')
       if (back?.childNodes[0]?.textContent?.trim() === 'okul') return true
       ;(document.getElementById('nextBtn') as HTMLButtonElement).click()
@@ -234,7 +234,7 @@ test('shows relevant examples for an inflected Turkish class word', async ({ pag
   await page.selectOption('#deckSelect', 'Class')
 
   const found = await page.evaluate(async () => {
-    for (let i = 0; i < 1000; i++) {
+    for (let i = 0; i < 1500; i++) {
       const back = document.querySelector('.face.back .word')
       if (back?.childNodes[0]?.textContent?.trim() === 'ekmeği') return true
       ;(document.getElementById('nextBtn') as HTMLButtonElement).click()
@@ -255,7 +255,7 @@ test('makes the intended sense clear in Turkish class examples', async ({ page }
   await page.selectOption('#deckSelect', 'Class')
 
   const found = await page.evaluate(async () => {
-    for (let i = 0; i < 1000; i++) {
+    for (let i = 0; i < 1500; i++) {
       const back = document.querySelector('.face.back .word')
       if (back?.childNodes[0]?.textContent?.trim() === 'sağ') return true
       ;(document.getElementById('nextBtn') as HTMLButtonElement).click()

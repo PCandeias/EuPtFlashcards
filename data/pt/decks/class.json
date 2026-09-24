@@ -4053,6 +4053,2056 @@
         "object"
       ],
       "sense": "the indirect object, where os and as are the direct one"
+    },
+    {
+      "en": "buyer",
+      "target": "o comprador / a compradora",
+      "level": "a2"
+    },
+    {
+      "en": "employee / shop assistant",
+      "target": "o funcionário / a funcionária",
+      "level": "a1"
+    },
+    {
+      "en": "customer / client",
+      "target": "o cliente / a cliente",
+      "level": "a1"
+    },
+    {
+      "en": "online shop",
+      "target": "a loja online",
+      "level": "a1"
+    },
+    {
+      "en": "clothes shop",
+      "target": "a loja de roupa",
+      "level": "a1"
+    },
+    {
+      "en": "shoe shop",
+      "target": "a sapataria",
+      "level": "a1"
+    },
+    {
+      "en": "pharmacy / chemist's",
+      "target": "a farmácia",
+      "level": "a1",
+      "sense": "the green cross; for medicine on a Sunday, look for the farmácia de serviço"
+    },
+    {
+      "en": "bookshop",
+      "target": "a livraria",
+      "level": "a1",
+      "sense": "a false friend: a library is a biblioteca"
+    },
+    {
+      "en": "bank / bench",
+      "target": "o banco",
+      "level": "a1",
+      "sense": "also a bench or a stool"
+    },
+    {
+      "en": "post office",
+      "target": "os correios",
+      "level": "a1",
+      "sense": "always plural; in Portugal the service is the CTT"
+    },
+    {
+      "en": "electronics shop",
+      "target": "a loja de eletrónica",
+      "level": "a1"
+    },
+    {
+      "en": "market",
+      "target": "o mercado",
+      "level": "a1",
+      "sense": "a covered market hall; an open-air one is a feira"
+    },
+    {
+      "en": "street market / fair",
+      "target": "a feira",
+      "level": "a1",
+      "sense": "also a trade fair; and the -feira in segunda-feira"
+    },
+    {
+      "en": "shopping centre",
+      "target": "o centro comercial",
+      "level": "a1"
+    },
+    {
+      "en": "supermarket",
+      "target": "o supermercado",
+      "level": "a1"
+    },
+    {
+      "en": "hypermarket",
+      "target": "o hipermercado",
+      "level": "a2"
+    },
+    {
+      "en": "old / antique / former",
+      "target": "antigo / antiga",
+      "level": "a1",
+      "sense": "before a noun it means former: o antigo presidente"
+    },
+    {
+      "en": "antique / antiquity",
+      "target": "a antiguidade",
+      "level": "b1"
+    },
+    {
+      "en": "item / article",
+      "target": "o objeto",
+      "level": "a2"
+    },
+    {
+      "en": "thing",
+      "target": "a coisa",
+      "level": "a1"
+    },
+    {
+      "en": "statue",
+      "target": "a estátua",
+      "level": "a2"
+    },
+    {
+      "en": "vase / jug",
+      "target": "a jarra",
+      "level": "a2",
+      "sense": "usually a vase for flowers; a jug for water is o jarro"
+    },
+    {
+      "en": "lamp",
+      "target": "o candeeiro",
+      "level": "a2",
+      "sense": "European Portuguese; Brazil says a luminária"
+    },
+    {
+      "en": "light / electricity",
+      "target": "a luz",
+      "level": "a1",
+      "sense": "a conta da luz, the electricity bill"
+    },
+    {
+      "en": "cash machine / debit card network",
+      "target": "o multibanco",
+      "level": "a1",
+      "sense": "the Portuguese ATM network; aceita multibanco? means \"do you take debit cards?\""
+    },
+    {
+      "en": "box / checkout",
+      "target": "a caixa",
+      "level": "a1",
+      "sense": "a box, or the checkout: pague na caixa, pay at the till"
+    },
+    {
+      "en": "discount",
+      "target": "o desconto",
+      "level": "a1"
+    },
+    {
+      "en": "special offer / sale",
+      "target": "a promoção",
+      "level": "a1",
+      "sense": "em promoção, on offer"
+    },
+    {
+      "en": "in stock",
+      "target": "em stock",
+      "level": "a2"
+    },
+    {
+      "en": "sold out / out of stock",
+      "target": "esgotado / esgotada",
+      "level": "a2",
+      "sense": "also exhausted, of a person"
+    },
+    {
+      "en": "receipt",
+      "target": "o recibo",
+      "level": "a2"
+    },
+    {
+      "en": "receipt / slip",
+      "target": "o talão",
+      "level": "a2",
+      "sense": "the till receipt a cashier offers; also a ticket or voucher"
+    },
+    {
+      "en": "order / parcel",
+      "target": "a encomenda",
+      "level": "a1"
+    },
+    {
+      "en": "to accept",
+      "target": "aceitar",
+      "level": "a1"
+    },
+    {
+      "en": "to refuse / to turn down",
+      "target": "recusar",
+      "level": "a2"
+    },
+    {
+      "en": "to send",
+      "target": "enviar",
+      "level": "a2"
+    },
+    {
+      "en": "to try / to try on",
+      "target": "experimentar",
+      "level": "a1",
+      "sense": "to try something new, or to try on clothes"
+    },
+    {
+      "en": "to taste / to try on",
+      "target": "provar",
+      "level": "a1",
+      "sense": "to taste food, and in Portugal also to try on clothes"
+    },
+    {
+      "en": "to touch / to play",
+      "target": "tocar",
+      "level": "a1",
+      "sense": "also to play an instrument, or to ring: o telefone tocou"
+    },
+    {
+      "en": "to order",
+      "target": "encomendar",
+      "level": "a2",
+      "sense": "encomendar online, to order online"
+    },
+    {
+      "en": "to ask for a discount",
+      "target": "pedir um desconto",
+      "level": "a2"
+    },
+    {
+      "en": "to withdraw money",
+      "target": "levantar dinheiro",
+      "level": "a1",
+      "sense": "from a cash machine; levantar alone is to lift or raise"
+    },
+    {
+      "en": "money / cash",
+      "target": "o dinheiro",
+      "level": "a1"
+    },
+    {
+      "en": "card",
+      "target": "o cartão",
+      "level": "a1"
+    },
+    {
+      "en": "by card",
+      "target": "com cartão",
+      "level": "a1"
+    },
+    {
+      "en": "in cash",
+      "target": "em dinheiro",
+      "level": "a1"
+    },
+    {
+      "en": "I want to buy this",
+      "target": "quero comprar isto",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "I'll take it",
+      "target": "vou levar",
+      "level": "a1",
+      "sense": "what you say in a shop once you have decided",
+      "tense": "futuroProximo"
+    },
+    {
+      "en": "how much is it?",
+      "target": "quanto é?",
+      "level": "a1",
+      "sense": "asking for the total",
+      "tense": "presente"
+    },
+    {
+      "en": "can I have a closer look?",
+      "target": "posso ver melhor?",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "can I touch it?",
+      "target": "posso tocar?",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "can I pay by card?",
+      "target": "posso pagar com cartão?",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "can I pay in cash?",
+      "target": "posso pagar em dinheiro?",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "do you take debit cards?",
+      "target": "aceita multibanco?",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ],
+      "tense": "presente"
+    },
+    {
+      "en": "can you give me a discount?",
+      "target": "pode fazer um desconto?",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ],
+      "tense": "presente"
+    },
+    {
+      "en": "I don't have much money on me",
+      "target": "tenho pouco dinheiro aqui",
+      "level": "a2",
+      "tense": "presente"
+    },
+    {
+      "en": "I don't have enough money",
+      "target": "não tenho dinheiro suficiente",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "no problem",
+      "target": "não há problema",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "I'll accept forty euros",
+      "target": "aceito quarenta euros",
+      "level": "a2",
+      "tense": "presente"
+    },
+    {
+      "en": "here is the money",
+      "target": "aqui está o dinheiro",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "I don't need anything for now",
+      "target": "por agora, não preciso de nada",
+      "level": "a2",
+      "tense": "presente"
+    },
+    {
+      "en": "can I help?",
+      "target": "posso ajudar?",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "can I help you?",
+      "target": "posso ajudá-lo?",
+      "level": "a2",
+      "sense": "said to a man",
+      "tags": [
+        "formal"
+      ],
+      "tense": "presente"
+    },
+    {
+      "en": "can I help you?",
+      "target": "posso ajudá-la?",
+      "level": "a2",
+      "sense": "said to a woman",
+      "tags": [
+        "formal"
+      ],
+      "tense": "presente"
+    },
+    {
+      "en": "please / go ahead",
+      "target": "faça o favor",
+      "level": "a2",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "en": "can I see?",
+      "target": "posso ver?",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "can I try it on?",
+      "target": "posso experimentar?",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "can I try it on? / can I taste it?",
+      "target": "posso provar?",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "excuse me, do you have this book?",
+      "target": "desculpe, tem este livro?",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ],
+      "tense": "presente"
+    },
+    {
+      "en": "excuse me, can you help me?",
+      "target": "desculpe, pode ajudar-me?",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ],
+      "tense": "presente"
+    },
+    {
+      "en": "do you have these laptops in stock?",
+      "target": "tem estes portáteis em stock?",
+      "level": "a2",
+      "tags": [
+        "formal"
+      ],
+      "tense": "presente"
+    },
+    {
+      "en": "do you have these shoes in a size 40?",
+      "target": "tem estes sapatos no número 40?",
+      "level": "a2",
+      "sense": "shoe sizes are números",
+      "tags": [
+        "formal"
+      ],
+      "tense": "presente"
+    },
+    {
+      "en": "second-hand",
+      "target": "em segunda mão",
+      "level": "b1"
+    },
+    {
+      "en": "fresh cheese",
+      "target": "o queijo fresco",
+      "level": "a1",
+      "sense": "a soft, unripened white cheese"
+    },
+    {
+      "en": "dishes / crockery",
+      "target": "a loiça",
+      "level": "a2",
+      "sense": "also spelled louça; lavar a loiça, to do the washing-up"
+    },
+    {
+      "en": "vinyl record",
+      "target": "o disco de vinil",
+      "level": "b1"
+    },
+    {
+      "en": "television set",
+      "target": "o televisor",
+      "level": "a2",
+      "sense": "the set itself; the medium is a televisão"
+    },
+    {
+      "en": "vitamin",
+      "target": "a vitamina",
+      "level": "a2"
+    },
+    {
+      "en": "sunscreen",
+      "target": "o protetor solar",
+      "level": "a1",
+      "sense": "creme solar is also said"
+    },
+    {
+      "en": "syrup / cough syrup",
+      "target": "o xarope",
+      "level": "a2"
+    },
+    {
+      "en": "envelope",
+      "target": "o envelope",
+      "level": "a1"
+    },
+    {
+      "en": "stamp",
+      "target": "o selo",
+      "level": "a1"
+    },
+    {
+      "en": "postcard",
+      "target": "o postal",
+      "level": "a1"
+    },
+    {
+      "en": "T-shirt",
+      "target": "a t-shirt",
+      "level": "a1"
+    },
+    {
+      "en": "trainers / sneakers",
+      "target": "as sapatilhas",
+      "level": "a1",
+      "sense": "ténis is also said"
+    },
+    {
+      "en": "sandals",
+      "target": "as sandálias",
+      "level": "a1"
+    },
+    {
+      "en": "boots",
+      "target": "as botas",
+      "level": "a1"
+    },
+    {
+      "en": "laptop",
+      "target": "o portátil",
+      "level": "a2",
+      "sense": "short for o computador portátil"
+    },
+    {
+      "en": "standard post",
+      "target": "o correio normal",
+      "level": "a2"
+    },
+    {
+      "en": "priority mail",
+      "target": "o correio azul",
+      "level": "b1",
+      "sense": "the CTT's express service, sold with blue stamps"
+    },
+    {
+      "en": "weight",
+      "target": "o peso",
+      "level": "a2"
+    },
+    {
+      "en": "dimensions",
+      "target": "as dimensões",
+      "level": "b1"
+    },
+    {
+      "en": "length",
+      "target": "o comprimento",
+      "level": "a2"
+    },
+    {
+      "en": "width",
+      "target": "a largura",
+      "level": "a2"
+    },
+    {
+      "en": "height",
+      "target": "a altura",
+      "level": "a1",
+      "sense": "also a moment in time: nessa altura, at that time"
+    },
+    {
+      "en": "destination country",
+      "target": "o país de destino",
+      "level": "a2"
+    },
+    {
+      "en": "sender",
+      "target": "o remetente",
+      "level": "b1"
+    },
+    {
+      "en": "recipient",
+      "target": "o destinatário",
+      "level": "b1"
+    },
+    {
+      "en": "address",
+      "target": "a morada",
+      "level": "a1",
+      "sense": "European Portuguese; o endereço is mostly for e-mail and web addresses"
+    },
+    {
+      "en": "shipping costs / postage",
+      "target": "os portes de envio",
+      "level": "b1",
+      "sense": "also just os portes"
+    },
+    {
+      "en": "this",
+      "target": "isto",
+      "level": "a1",
+      "sense": "this thing here; it never goes with a noun"
+    },
+    {
+      "en": "that",
+      "target": "isso",
+      "level": "a1",
+      "sense": "that thing near you"
+    },
+    {
+      "en": "that",
+      "target": "aquilo",
+      "level": "a1",
+      "sense": "that thing over there, away from both of us"
+    },
+    {
+      "en": "what is this?",
+      "target": "o que é isto?",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "what is that?",
+      "target": "o que é isso?",
+      "level": "a1",
+      "sense": "near the person you're talking to",
+      "tense": "presente"
+    },
+    {
+      "en": "what is that over there?",
+      "target": "o que é aquilo?",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "what is that called?",
+      "target": "como se chama isso?",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "these are old books",
+      "target": "isto são livros antigos",
+      "level": "a2",
+      "sense": "isto stays singular even when the things are plural",
+      "tense": "presente"
+    },
+    {
+      "en": "flat / apartment",
+      "target": "o apartamento",
+      "level": "a1"
+    },
+    {
+      "en": "block of flats / building",
+      "target": "o prédio",
+      "level": "a1"
+    },
+    {
+      "en": "detached house",
+      "target": "a moradia",
+      "level": "a2"
+    },
+    {
+      "en": "villa / detached house",
+      "target": "a vivenda",
+      "level": "a2"
+    },
+    {
+      "en": "farm / country estate",
+      "target": "a quinta",
+      "level": "a2",
+      "sense": "also the fifth, feminine: a quinta vez"
+    },
+    {
+      "en": "semi-detached house",
+      "target": "a casa geminada",
+      "level": "b1"
+    },
+    {
+      "en": "single-storey house",
+      "target": "a casa térrea",
+      "level": "b1"
+    },
+    {
+      "en": "stone house",
+      "target": "a casa de pedra",
+      "level": "a2"
+    },
+    {
+      "en": "wooden house",
+      "target": "a casa de madeira",
+      "level": "a2"
+    },
+    {
+      "en": "holiday home",
+      "target": "a casa de férias",
+      "level": "a2"
+    },
+    {
+      "en": "bedroom / room / quarter",
+      "target": "o quarto",
+      "level": "a1",
+      "sense": "also a quarter, and the fourth: quatro e um quarto, o quarto andar"
+    },
+    {
+      "en": "single room",
+      "target": "o quarto individual",
+      "level": "a2"
+    },
+    {
+      "en": "double room",
+      "target": "o quarto de casal",
+      "level": "a1",
+      "sense": "casal, a couple"
+    },
+    {
+      "en": "living room",
+      "target": "a sala de estar",
+      "level": "a1"
+    },
+    {
+      "en": "dining room",
+      "target": "a sala de jantar",
+      "level": "a1"
+    },
+    {
+      "en": "kitchen",
+      "target": "a cozinha",
+      "level": "a1"
+    },
+    {
+      "en": "bathroom / toilet",
+      "target": "a casa de banho",
+      "level": "a1",
+      "sense": "European Portuguese; Brazil says o banheiro"
+    },
+    {
+      "en": "entrance hall",
+      "target": "o hall de entrada",
+      "level": "a2"
+    },
+    {
+      "en": "laundry room / launderette",
+      "target": "a lavandaria",
+      "level": "a2"
+    },
+    {
+      "en": "balcony",
+      "target": "a varanda",
+      "level": "a2"
+    },
+    {
+      "en": "terrace / roof terrace",
+      "target": "o terraço",
+      "level": "a1"
+    },
+    {
+      "en": "garden",
+      "target": "o jardim",
+      "level": "a1"
+    },
+    {
+      "en": "garage",
+      "target": "a garagem",
+      "level": "a2"
+    },
+    {
+      "en": "parking space",
+      "target": "o lugar de estacionamento",
+      "level": "a2"
+    },
+    {
+      "en": "car park",
+      "target": "o parque de estacionamento",
+      "level": "a1"
+    },
+    {
+      "en": "swimming pool",
+      "target": "a piscina",
+      "level": "a1"
+    },
+    {
+      "en": "lift / elevator",
+      "target": "o elevador",
+      "level": "a2"
+    },
+    {
+      "en": "stairs",
+      "target": "as escadas",
+      "level": "a2"
+    },
+    {
+      "en": "wardrobe",
+      "target": "o roupeiro",
+      "level": "a2",
+      "sense": "European Portuguese; o guarda-roupa is also said"
+    },
+    {
+      "en": "bed",
+      "target": "a cama",
+      "level": "a1"
+    },
+    {
+      "en": "double bed",
+      "target": "a cama de casal",
+      "level": "a1"
+    },
+    {
+      "en": "sofa",
+      "target": "o sofá",
+      "level": "a1"
+    },
+    {
+      "en": "sofa bed",
+      "target": "o sofá-cama",
+      "level": "a2"
+    },
+    {
+      "en": "armchair",
+      "target": "o cadeirão",
+      "level": "a2",
+      "sense": "a poltrona is also said"
+    },
+    {
+      "en": "desk / secretary",
+      "target": "a secretária",
+      "level": "a1",
+      "sense": "the piece of furniture, and also a female secretary"
+    },
+    {
+      "en": "chair",
+      "target": "a cadeira",
+      "level": "a1"
+    },
+    {
+      "en": "computer",
+      "target": "o computador",
+      "level": "a1"
+    },
+    {
+      "en": "cooker / stove",
+      "target": "o fogão",
+      "level": "a1",
+      "sense": "the hob and oven unit; o forno is the oven itself"
+    },
+    {
+      "en": "oven",
+      "target": "o forno",
+      "level": "a1"
+    },
+    {
+      "en": "microwave",
+      "target": "o micro-ondas",
+      "level": "a2"
+    },
+    {
+      "en": "dishwasher",
+      "target": "a máquina de lavar loiça",
+      "level": "a2"
+    },
+    {
+      "en": "washing machine",
+      "target": "a máquina de lavar roupa",
+      "level": "a1",
+      "sense": "in Portugal it often lives in the kitchen"
+    },
+    {
+      "en": "bathtub",
+      "target": "a banheira",
+      "level": "a2"
+    },
+    {
+      "en": "washbasin",
+      "target": "o lavatório",
+      "level": "a2",
+      "sense": "the basin in the bathroom; the kitchen sink is o lava-loiça"
+    },
+    {
+      "en": "mirror",
+      "target": "o espelho",
+      "level": "a2"
+    },
+    {
+      "en": "dining table",
+      "target": "a mesa de jantar",
+      "level": "a1"
+    },
+    {
+      "en": "ironing board",
+      "target": "a tábua de passar a ferro",
+      "level": "a2"
+    },
+    {
+      "en": "to iron",
+      "target": "passar a ferro",
+      "level": "a2"
+    },
+    {
+      "en": "there is / there are",
+      "target": "há",
+      "level": "a1",
+      "sense": "from haver; it never changes for plural: há duas camas"
+    },
+    {
+      "en": "there isn't / there aren't",
+      "target": "não há",
+      "level": "a1"
+    },
+    {
+      "en": "to rent / to let",
+      "target": "arrendar",
+      "level": "a1",
+      "sense": "a long-term rental, used by both tenant and landlord"
+    },
+    {
+      "en": "to rent / to hire",
+      "target": "alugar",
+      "level": "a1",
+      "sense": "a short let or a hire: alugar um carro"
+    },
+    {
+      "en": "to share",
+      "target": "partilhar",
+      "level": "a2",
+      "sense": "European Portuguese; Brazil says compartilhar"
+    },
+    {
+      "en": "to divide / to split",
+      "target": "dividir",
+      "level": "a2",
+      "sense": "dividir a conta, to split the bill"
+    },
+    {
+      "en": "rent",
+      "target": "a renda",
+      "level": "a1",
+      "sense": "a false friend: not income, which is o rendimento"
+    },
+    {
+      "en": "expenses / bills",
+      "target": "as despesas",
+      "level": "a2",
+      "sense": "despesas fixas, fixed costs"
+    },
+    {
+      "en": "monthly costs",
+      "target": "os custos mensais",
+      "level": "b1"
+    },
+    {
+      "en": "near / close to",
+      "target": "perto de",
+      "level": "a1",
+      "sense": "contracts with the article: perto do, perto da"
+    },
+    {
+      "en": "far from",
+      "target": "longe de",
+      "level": "a1"
+    },
+    {
+      "en": "faculty / university",
+      "target": "a faculdade",
+      "level": "a1",
+      "sense": "the part of a university you study at; people say \"na faculdade\" as \"at uni\""
+    },
+    {
+      "en": "train station",
+      "target": "a estação de comboios",
+      "level": "a1"
+    },
+    {
+      "en": "public transport",
+      "target": "os transportes públicos",
+      "level": "a1"
+    },
+    {
+      "en": "in the city centre",
+      "target": "no centro da cidade",
+      "level": "a1"
+    },
+    {
+      "en": "countryside / field",
+      "target": "o campo",
+      "level": "a1",
+      "sense": "also a field or pitch: o campo de futebol"
+    },
+    {
+      "en": "mountains / mountain range",
+      "target": "a serra",
+      "level": "a2",
+      "sense": "the usual Portuguese word for a range: a Serra da Estrela"
+    },
+    {
+      "en": "by the sea",
+      "target": "junto ao mar",
+      "level": "a2"
+    },
+    {
+      "en": "inland / interior",
+      "target": "o interior",
+      "level": "b1",
+      "sense": "o interior do país, the Portuguese inland away from the coast"
+    },
+    {
+      "en": "area / zone",
+      "target": "a zona",
+      "level": "a1"
+    },
+    {
+      "en": "floor / storey / flat",
+      "target": "o andar",
+      "level": "a1",
+      "sense": "also a flat: um andar para arrendar, a flat to let"
+    },
+    {
+      "en": "first floor",
+      "target": "o primeiro andar",
+      "level": "a1"
+    },
+    {
+      "en": "ground floor",
+      "target": "o rés-do-chão",
+      "level": "a1"
+    },
+    {
+      "en": "basement / cellar",
+      "target": "a cave",
+      "level": "a2"
+    },
+    {
+      "en": "studio flat",
+      "target": "o T0",
+      "level": "a2",
+      "sense": "read tê zero; T counts the bedrooms"
+    },
+    {
+      "en": "one-bedroom flat",
+      "target": "o T1",
+      "level": "a2",
+      "sense": "read tê um"
+    },
+    {
+      "en": "two-bedroom flat",
+      "target": "o T2",
+      "level": "a2",
+      "sense": "read tê dois"
+    },
+    {
+      "en": "three-bedroom flat",
+      "target": "o T3",
+      "level": "a2"
+    },
+    {
+      "en": "area / floor space",
+      "target": "a área",
+      "level": "a2"
+    },
+    {
+      "en": "price",
+      "target": "o preço",
+      "level": "a1"
+    },
+    {
+      "en": "property",
+      "target": "o imóvel",
+      "level": "b1"
+    },
+    {
+      "en": "purchase / acquisition",
+      "target": "a aquisição",
+      "level": "b1"
+    },
+    {
+      "en": "to let",
+      "target": "arrenda-se",
+      "level": "a2",
+      "sense": "the sign on a flat for rent"
+    },
+    {
+      "en": "for sale",
+      "target": "vende-se",
+      "level": "a2",
+      "sense": "the sign on something for sale"
+    },
+    {
+      "en": "where is the flat?",
+      "target": "onde fica o apartamento?",
+      "level": "a1",
+      "sense": "ficar, not estar, for where a building is",
+      "tense": "presente"
+    },
+    {
+      "en": "the flat is near the university",
+      "target": "o apartamento fica perto da faculdade",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "the kitchen and living room are open-plan",
+      "target": "a cozinha e a sala ficam no mesmo espaço",
+      "level": "a2",
+      "tense": "presente"
+    },
+    {
+      "en": "this house has a garage",
+      "target": "nesta casa há uma garagem",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "the flat is renovated",
+      "target": "o apartamento está renovado",
+      "level": "a2",
+      "sense": "estar: it is in that state now",
+      "tense": "presente"
+    },
+    {
+      "en": "the flat is spacious",
+      "target": "o apartamento é espaçoso",
+      "level": "a2",
+      "tense": "presente"
+    },
+    {
+      "en": "renovated",
+      "target": "renovado / renovada",
+      "level": "a2"
+    },
+    {
+      "en": "spacious / roomy",
+      "target": "espaçoso / espaçosa",
+      "level": "a2"
+    },
+    {
+      "en": "rural",
+      "target": "rural",
+      "level": "a2"
+    },
+    {
+      "en": "dirty",
+      "target": "sujo / suja",
+      "level": "a1"
+    },
+    {
+      "en": "clean",
+      "target": "limpo / limpa",
+      "level": "a1"
+    },
+    {
+      "en": "in person",
+      "target": "presencial",
+      "level": "b1",
+      "sense": "the opposite of online or à distância"
+    },
+    {
+      "en": "neighbourhood",
+      "target": "o bairro",
+      "level": "a1"
+    },
+    {
+      "en": "small town",
+      "target": "a vila",
+      "level": "a1",
+      "sense": "a false friend: bigger than a village, smaller than a cidade"
+    },
+    {
+      "en": "village",
+      "target": "a aldeia",
+      "level": "a2"
+    },
+    {
+      "en": "inhabitant / resident",
+      "target": "o habitante / a habitante",
+      "level": "b1"
+    },
+    {
+      "en": "neighbour",
+      "target": "o vizinho / a vizinha",
+      "level": "a1"
+    },
+    {
+      "en": "isolated / remote",
+      "target": "isolado / isolada",
+      "level": "b1"
+    },
+    {
+      "en": "quiet / peaceful / calm",
+      "target": "tranquilo / tranquila",
+      "level": "a2"
+    },
+    {
+      "en": "life",
+      "target": "a vida",
+      "level": "a1"
+    },
+    {
+      "en": "food",
+      "target": "a comida",
+      "level": "a1"
+    },
+    {
+      "en": "meal",
+      "target": "a refeição",
+      "level": "a2"
+    },
+    {
+      "en": "starter / entrance",
+      "target": "a entrada",
+      "level": "a1",
+      "sense": "also the way in; and at a table the bread and olives are often called entradas"
+    },
+    {
+      "en": "main course",
+      "target": "o prato principal",
+      "level": "a1"
+    },
+    {
+      "en": "dish of the day",
+      "target": "o prato do dia",
+      "level": "a1"
+    },
+    {
+      "en": "dessert",
+      "target": "a sobremesa",
+      "level": "a2"
+    },
+    {
+      "en": "drink",
+      "target": "a bebida",
+      "level": "a1"
+    },
+    {
+      "en": "menu",
+      "target": "a ementa",
+      "level": "a1",
+      "sense": "European Portuguese; o menu is also said, and often means a set meal"
+    },
+    {
+      "en": "restaurant",
+      "target": "o restaurante",
+      "level": "a1"
+    },
+    {
+      "en": "waiter / waitress",
+      "target": "o empregado de mesa / a empregada de mesa",
+      "level": "a1"
+    },
+    {
+      "en": "vegetarian",
+      "target": "vegetariano / vegetariana",
+      "level": "a1"
+    },
+    {
+      "en": "gilthead bream",
+      "target": "a dourada",
+      "level": "a2"
+    },
+    {
+      "en": "grilled",
+      "target": "grelhado / grelhada",
+      "level": "a1"
+    },
+    {
+      "en": "fish dish",
+      "target": "o prato de peixe",
+      "level": "a1",
+      "sense": "prato is both the plate and the dish"
+    },
+    {
+      "en": "meat dish",
+      "target": "o prato de carne",
+      "level": "a1"
+    },
+    {
+      "en": "seafood / shellfish",
+      "target": "o marisco",
+      "level": "a1"
+    },
+    {
+      "en": "meat",
+      "target": "a carne",
+      "level": "a1"
+    },
+    {
+      "en": "fish",
+      "target": "o peixe",
+      "level": "a1"
+    },
+    {
+      "en": "vegetables",
+      "target": "os legumes",
+      "level": "a1"
+    },
+    {
+      "en": "fruit",
+      "target": "a fruta",
+      "level": "a1"
+    },
+    {
+      "en": "bread",
+      "target": "o pão",
+      "level": "a1"
+    },
+    {
+      "en": "butter",
+      "target": "a manteiga",
+      "level": "a1"
+    },
+    {
+      "en": "cheese",
+      "target": "o queijo",
+      "level": "a1"
+    },
+    {
+      "en": "egg",
+      "target": "o ovo",
+      "level": "a1"
+    },
+    {
+      "en": "rice",
+      "target": "o arroz",
+      "level": "a1"
+    },
+    {
+      "en": "pasta / dough",
+      "target": "a massa",
+      "level": "a1"
+    },
+    {
+      "en": "spaghetti",
+      "target": "o esparguete",
+      "level": "a1"
+    },
+    {
+      "en": "salad",
+      "target": "a salada",
+      "level": "a1"
+    },
+    {
+      "en": "potato",
+      "target": "a batata",
+      "level": "a1"
+    },
+    {
+      "en": "boiled",
+      "target": "cozido / cozida",
+      "level": "a1",
+      "sense": "also o cozido, the Portuguese boiled-meat stew"
+    },
+    {
+      "en": "roast / roasted",
+      "target": "assado / assada",
+      "level": "a1"
+    },
+    {
+      "en": "chips / crisps",
+      "target": "as batatas fritas",
+      "level": "a1",
+      "sense": "both chips with a meal and crisps in a bag"
+    },
+    {
+      "en": "tomato",
+      "target": "o tomate",
+      "level": "a1"
+    },
+    {
+      "en": "onion",
+      "target": "a cebola",
+      "level": "a1"
+    },
+    {
+      "en": "garlic",
+      "target": "o alho",
+      "level": "a1"
+    },
+    {
+      "en": "salt",
+      "target": "o sal",
+      "level": "a1"
+    },
+    {
+      "en": "pepper",
+      "target": "a pimenta",
+      "level": "a1",
+      "sense": "black pepper; the vegetable is o pimento"
+    },
+    {
+      "en": "parsley",
+      "target": "a salsa",
+      "level": "a1",
+      "sense": "a false friend: not sauce, which is o molho"
+    },
+    {
+      "en": "coriander",
+      "target": "os coentros",
+      "level": "a1",
+      "sense": "always plural; very common in Portuguese cooking"
+    },
+    {
+      "en": "olive oil",
+      "target": "o azeite",
+      "level": "a2",
+      "sense": "cooking oil in general is o óleo"
+    },
+    {
+      "en": "breakfast",
+      "target": "o pequeno-almoço",
+      "level": "a1"
+    },
+    {
+      "en": "afternoon snack",
+      "target": "o lanche",
+      "level": "a1",
+      "sense": "the mid-afternoon snack, often with coffee"
+    },
+    {
+      "en": "soup",
+      "target": "a sopa",
+      "level": "a1",
+      "sense": "most Portuguese meals start with one"
+    },
+    {
+      "en": "vegetable soup",
+      "target": "a sopa de legumes",
+      "level": "a1"
+    },
+    {
+      "en": "caldo verde",
+      "target": "o caldo verde",
+      "level": "a1",
+      "sense": "a potato and kale soup, served with a slice of chouriço"
+    },
+    {
+      "en": "chocolate mousse",
+      "target": "a mousse de chocolate",
+      "level": "a1"
+    },
+    {
+      "en": "fruit salad",
+      "target": "a salada de fruta",
+      "level": "a1"
+    },
+    {
+      "en": "rice pudding",
+      "target": "o arroz-doce",
+      "level": "a1"
+    },
+    {
+      "en": "tart",
+      "target": "a tarte",
+      "level": "a2"
+    },
+    {
+      "en": "pudding / crème caramel",
+      "target": "o pudim",
+      "level": "a2"
+    },
+    {
+      "en": "cake",
+      "target": "o bolo",
+      "level": "a1"
+    },
+    {
+      "en": "cream",
+      "target": "as natas",
+      "level": "a2",
+      "sense": "cooking cream; whipped cream is chantilly"
+    },
+    {
+      "en": "cinnamon",
+      "target": "a canela",
+      "level": "a2"
+    },
+    {
+      "en": "salt cod",
+      "target": "o bacalhau",
+      "level": "a1"
+    },
+    {
+      "en": "cod with cream",
+      "target": "o bacalhau com natas",
+      "level": "a2"
+    },
+    {
+      "en": "cod fritter",
+      "target": "o pastel de bacalhau",
+      "level": "a1",
+      "sense": "called bolinho de bacalhau in the north"
+    },
+    {
+      "en": "francesinha",
+      "target": "a francesinha",
+      "level": "a2",
+      "sense": "a meat-filled toasted sandwich covered in cheese and a beer sauce"
+    },
+    {
+      "en": "sardine",
+      "target": "a sardinha",
+      "level": "a1",
+      "sense": "the dish of the June street festivals, the Santos Populares"
+    },
+    {
+      "en": "fish stew",
+      "target": "a caldeirada",
+      "level": "a2"
+    },
+    {
+      "en": "fried cuttlefish",
+      "target": "o choco frito",
+      "level": "a2"
+    },
+    {
+      "en": "suckling pig",
+      "target": "o leitão",
+      "level": "a2"
+    },
+    {
+      "en": "goat stew",
+      "target": "a chanfana",
+      "level": "b1",
+      "sense": "goat slow-cooked in red wine, from the Coimbra region"
+    },
+    {
+      "en": "Portuguese boiled dinner",
+      "target": "o cozido à portuguesa",
+      "level": "a2"
+    },
+    {
+      "en": "stew",
+      "target": "o ensopado",
+      "level": "b1",
+      "sense": "a stew poured over slices of bread"
+    },
+    {
+      "en": "migas",
+      "target": "as migas",
+      "level": "b1",
+      "sense": "fried bread crumbs with garlic and olive oil, from the Alentejo"
+    },
+    {
+      "en": "sericaia",
+      "target": "a sericaia",
+      "level": "b1",
+      "sense": "an egg custard cake served with plums"
+    },
+    {
+      "en": "skewers",
+      "target": "as espetadas",
+      "level": "a2",
+      "sense": "meat on a bay-wood skewer"
+    },
+    {
+      "en": "clams",
+      "target": "as amêijoas",
+      "level": "a2"
+    },
+    {
+      "en": "vegetarian dish",
+      "target": "o prato vegetariano",
+      "level": "a1"
+    },
+    {
+      "en": "children's menu",
+      "target": "o menu infantil",
+      "level": "a1"
+    },
+    {
+      "en": "canteen",
+      "target": "a cantina",
+      "level": "a2"
+    },
+    {
+      "en": "traditional restaurant",
+      "target": "o restaurante tradicional",
+      "level": "a2"
+    },
+    {
+      "en": "buffet",
+      "target": "o buffet",
+      "level": "a2"
+    },
+    {
+      "en": "to usually do",
+      "target": "costumar",
+      "level": "a2",
+      "sense": "costumo almoçar cedo, I usually have lunch early"
+    },
+    {
+      "en": "I usually have lunch in a canteen",
+      "target": "costumo almoçar numa cantina",
+      "level": "a2",
+      "tense": "presente"
+    },
+    {
+      "en": "the food is typically Portuguese",
+      "target": "a comida é tipicamente portuguesa",
+      "level": "a2",
+      "tense": "presente"
+    },
+    {
+      "en": "the desserts are on the menu",
+      "target": "as sobremesas estão no menu",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "there are usually vegetables at every dinner",
+      "target": "normalmente, há legumes em todos os jantares",
+      "level": "a2",
+      "tense": "presente"
+    },
+    {
+      "en": "lunch is always good at this restaurant",
+      "target": "os almoços são sempre bons neste restaurante",
+      "level": "a2",
+      "tense": "presente"
+    },
+    {
+      "en": "single-parent family",
+      "target": "a família monoparental",
+      "level": "b1"
+    },
+    {
+      "en": "extended family",
+      "target": "a família alargada",
+      "level": "b1"
+    },
+    {
+      "en": "uncle / aunt",
+      "target": "o tio / a tia",
+      "level": "a1",
+      "sense": "os tios, uncle and aunt together"
+    },
+    {
+      "en": "boyfriend / girlfriend",
+      "target": "o namorado / a namorada",
+      "level": "a1"
+    },
+    {
+      "en": "partner",
+      "target": "o companheiro / a companheira",
+      "level": "a2"
+    },
+    {
+      "en": "children",
+      "target": "os filhos",
+      "level": "a1",
+      "sense": "sons and daughters together; children in general are as crianças"
+    },
+    {
+      "en": "parents",
+      "target": "os pais",
+      "level": "a1",
+      "sense": "a false friend: not \"fathers\", but mother and father together"
+    },
+    {
+      "en": "siblings / brothers",
+      "target": "os irmãos",
+      "level": "a1",
+      "sense": "brothers and sisters together"
+    },
+    {
+      "en": "my mother",
+      "target": "a minha mãe",
+      "level": "a1"
+    },
+    {
+      "en": "my father",
+      "target": "o meu pai",
+      "level": "a1"
+    },
+    {
+      "en": "my sister",
+      "target": "a minha irmã",
+      "level": "a1"
+    },
+    {
+      "en": "my brother",
+      "target": "o meu irmão",
+      "level": "a1"
+    },
+    {
+      "en": "my parents",
+      "target": "os meus pais",
+      "level": "a1"
+    },
+    {
+      "en": "your mother",
+      "target": "a tua mãe",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "your father",
+      "target": "o teu pai",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "en": "his mother",
+      "target": "a mãe dele",
+      "level": "a2",
+      "sense": "a sua mãe also works, but can mean \"your mother\" too"
+    },
+    {
+      "en": "her mother",
+      "target": "a mãe dela",
+      "level": "a2"
+    },
+    {
+      "en": "his father",
+      "target": "o pai dele",
+      "level": "a2"
+    },
+    {
+      "en": "her father",
+      "target": "o pai dela",
+      "level": "a2"
+    },
+    {
+      "en": "our grandmother",
+      "target": "a nossa avó",
+      "level": "a1"
+    },
+    {
+      "en": "our uncle",
+      "target": "o nosso tio",
+      "level": "a1"
+    },
+    {
+      "en": "their grandparents",
+      "target": "os avós deles",
+      "level": "a2"
+    },
+    {
+      "en": "blond",
+      "target": "louro / loura",
+      "level": "a1"
+    },
+    {
+      "en": "dark-haired / dark",
+      "target": "moreno / morena",
+      "level": "a1",
+      "sense": "dark hair, or a tanned or darker skin"
+    },
+    {
+      "en": "red-haired",
+      "target": "ruivo / ruiva",
+      "level": "a2"
+    },
+    {
+      "en": "white hair",
+      "target": "o cabelo branco",
+      "level": "a1"
+    },
+    {
+      "en": "bald",
+      "target": "careca",
+      "level": "a2"
+    },
+    {
+      "en": "straight hair",
+      "target": "o cabelo liso",
+      "level": "a1"
+    },
+    {
+      "en": "curly hair",
+      "target": "o cabelo encaracolado",
+      "level": "a2"
+    },
+    {
+      "en": "wavy",
+      "target": "ondulado / ondulada",
+      "level": "a2"
+    },
+    {
+      "en": "beard",
+      "target": "a barba",
+      "level": "a1"
+    },
+    {
+      "en": "moustache",
+      "target": "o bigode",
+      "level": "a1"
+    },
+    {
+      "en": "blue eyes",
+      "target": "os olhos azuis",
+      "level": "a1",
+      "sense": "Portuguese uses the article: tem os olhos azuis"
+    },
+    {
+      "en": "green eyes",
+      "target": "os olhos verdes",
+      "level": "a1"
+    },
+    {
+      "en": "brown eyes",
+      "target": "os olhos castanhos",
+      "level": "a1"
+    },
+    {
+      "en": "grey eyes",
+      "target": "os olhos cinzentos",
+      "level": "a1"
+    },
+    {
+      "en": "light / clear",
+      "target": "claro / clara",
+      "level": "a1",
+      "sense": "also \"of course!\": claro!"
+    },
+    {
+      "en": "dark",
+      "target": "escuro / escura",
+      "level": "a1"
+    },
+    {
+      "en": "tall / high / loud",
+      "target": "alto / alta",
+      "level": "a1"
+    },
+    {
+      "en": "short / low / quiet",
+      "target": "baixo / baixa",
+      "level": "a1"
+    },
+    {
+      "en": "shy",
+      "target": "tímido / tímida",
+      "level": "a2"
+    },
+    {
+      "en": "fun / funny",
+      "target": "divertido / divertida",
+      "level": "a1"
+    },
+    {
+      "en": "unpleasant / unfriendly",
+      "target": "antipático / antipática",
+      "level": "a2"
+    },
+    {
+      "en": "character / personality",
+      "target": "o caráter",
+      "level": "a2",
+      "sense": "also spelled carácter"
+    },
+    {
+      "en": "similar / alike",
+      "target": "parecido / parecida",
+      "level": "a2",
+      "sense": "takes com: parecido com"
+    },
+    {
+      "en": "to look like / to resemble",
+      "target": "parecer-se com",
+      "level": "a2",
+      "sense": "reflexive: ela parece-se com a mãe"
+    },
+    {
+      "en": "to live with",
+      "target": "viver com",
+      "level": "a1"
+    },
+    {
+      "en": "to separate from",
+      "target": "separar-se de",
+      "level": "b1"
+    },
+    {
+      "en": "to divorce",
+      "target": "divorciar-se de",
+      "level": "b1"
+    },
+    {
+      "en": "to play",
+      "target": "brincar",
+      "level": "a1",
+      "sense": "children's play; games and sport are jogar, instruments tocar. Also to joke: estou a brincar"
+    },
+    {
+      "en": "she has blue eyes",
+      "target": "ela tem os olhos azuis",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "he has curly hair",
+      "target": "ele tem o cabelo encaracolado",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "they have long hair",
+      "target": "eles têm o cabelo comprido",
+      "level": "a1",
+      "tags": [
+        "plural"
+      ],
+      "tense": "presente"
+    },
+    {
+      "en": "my uncle and aunt live in Porto",
+      "target": "os tios moram no Porto",
+      "level": "a2",
+      "sense": "os tios can be uncles, or uncle and aunt",
+      "tense": "presente"
+    },
+    {
+      "en": "grandma is ninety",
+      "target": "a avó tem noventa anos",
+      "level": "a1",
+      "sense": "age uses ter",
+      "tense": "presente"
+    },
+    {
+      "en": "activity",
+      "target": "a atividade",
+      "level": "a2"
+    },
+    {
+      "en": "secretary",
+      "target": "o secretário / a secretária",
+      "level": "a1"
+    },
+    {
+      "en": "journalist",
+      "target": "o jornalista / a jornalista",
+      "level": "a1"
+    },
+    {
+      "en": "singer",
+      "target": "o cantor / a cantora",
+      "level": "a1"
+    },
+    {
+      "en": "police officer",
+      "target": "o agente da polícia",
+      "level": "a2"
+    },
+    {
+      "en": "what do you do for a living?",
+      "target": "qual é a tua profissão?",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presente"
+    },
+    {
+      "en": "what do you do for a living?",
+      "target": "qual é a sua profissão?",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ],
+      "tense": "presente"
+    },
+    {
+      "en": "I'm a nurse",
+      "target": "sou enfermeiro",
+      "level": "a1",
+      "sense": "said by a man; no article before a job: sou enfermeiro, not sou um enfermeiro",
+      "tense": "presente"
+    },
+    {
+      "en": "I'm a nurse",
+      "target": "sou enfermeira",
+      "level": "a1",
+      "sense": "said by a woman",
+      "tense": "presente"
+    },
+    {
+      "en": "how do you spell your name?",
+      "target": "como se escreve o seu nome?",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ],
+      "tense": "presente"
+    },
+    {
+      "en": "which floor do you live on?",
+      "target": "em que andar moras?",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ],
+      "tense": "presente"
+    },
+    {
+      "en": "which floor do you live on?",
+      "target": "em que andar mora?",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ],
+      "tense": "presente"
+    },
+    {
+      "en": "first",
+      "target": "primeiro / primeira",
+      "level": "a1"
+    },
+    {
+      "en": "second",
+      "target": "segundo / segunda",
+      "level": "a1",
+      "sense": "segundo is also \"according to\", and a second of time"
+    },
+    {
+      "en": "third",
+      "target": "terceiro / terceira",
+      "level": "a1"
+    },
+    {
+      "en": "fourth",
+      "target": "quarto / quarta",
+      "level": "a1"
+    },
+    {
+      "en": "fifth",
+      "target": "quinto / quinta",
+      "level": "a1"
+    },
+    {
+      "en": "sixth",
+      "target": "sexto / sexta",
+      "level": "a1"
+    },
+    {
+      "en": "seventh",
+      "target": "sétimo / sétima",
+      "level": "a1"
+    },
+    {
+      "en": "eighth",
+      "target": "oitavo / oitava",
+      "level": "a1"
+    },
+    {
+      "en": "ninth",
+      "target": "nono / nona",
+      "level": "a1"
+    },
+    {
+      "en": "tenth",
+      "target": "décimo / décima",
+      "level": "a1"
+    },
+    {
+      "en": "postcode",
+      "target": "o código postal",
+      "level": "a1"
     }
   ]
 }

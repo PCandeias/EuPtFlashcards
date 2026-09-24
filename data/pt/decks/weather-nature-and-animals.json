@@ -492,6 +492,23 @@
       "en": "the farm",
       "target": "a quinta",
       "level": "a1"
+    },
+    {
+      "en": "mountains / mountain range",
+      "target": "a serra",
+      "level": "a2",
+      "sense": "the usual Portuguese word for a range: a Serra da Estrela"
+    },
+    {
+      "en": "by the sea",
+      "target": "junto ao mar",
+      "level": "a2"
+    },
+    {
+      "en": "inland / interior",
+      "target": "o interior",
+      "level": "b1",
+      "sense": "o interior do país, the Portuguese inland away from the coast"
     }
   ]
 }

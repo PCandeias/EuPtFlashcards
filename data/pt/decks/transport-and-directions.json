@@ -380,6 +380,11 @@
       "en": "the road sign",
       "target": "o sinal de trânsito",
       "level": "a2"
+    },
+    {
+      "en": "public transport",
+      "target": "os transportes públicos",
+      "level": "a1"
     }
   ]
 }

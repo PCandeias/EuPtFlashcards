@@ -169,6 +169,51 @@
       "en": "he is a doctor",
       "target": "O bir doktor",
       "level": "a1"
+    },
+    {
+      "en": "police officer",
+      "target": "polis memuru",
+      "level": "a1"
+    },
+    {
+      "en": "what do you do for a living?",
+      "target": "mesleğin ne?",
+      "level": "a1",
+      "tags": [
+        "informal"
+      ],
+      "exampleSubject": "meslek"
+    },
+    {
+      "en": "what do you do for a living?",
+      "target": "mesleğiniz ne?",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ],
+      "exampleSubject": "meslek"
+    },
+    {
+      "en": "I'm a nurse",
+      "target": "hemşireyim",
+      "level": "a1",
+      "exampleSubject": "hemşire"
+    },
+    {
+      "en": "diplomat",
+      "target": "diplomat",
+      "level": "b1"
+    },
+    {
+      "en": "translator / interpreter",
+      "target": "çevirmen",
+      "level": "a2",
+      "sense": "tercüman is also used"
+    },
+    {
+      "en": "computer engineer",
+      "target": "bilgisayar mühendisi",
+      "level": "a2"
     }
   ]
 }

@@ -14,7 +14,7 @@ const CARDS = turkish.cards
 
 describe('the Turkish corpus', () => {
   it('holds the whole corpus', () => {
-    expect(CARDS.length).toBe(3352)
+    expect(CARDS.length).toBe(4083)
   })
 
   it('covers every deck', () => {
@@ -80,7 +80,7 @@ describe('the Turkish corpus', () => {
 
   it('keeps the imported class list as one complete, deduplicated deck', () => {
     const cards = CARDS.filter(c => c.deck === 'Class')
-    expect(cards).toHaveLength(800)
+    expect(cards).toHaveLength(1296)
     expect(new Set(cards.map(c => c.target)).size).toBe(cards.length)
   })
 
@@ -191,7 +191,7 @@ describe('Turkish tense tagging', () => {
   it('tags only what it is sure of', () => {
     const counts: Record<string, number> = {}
     for (const c of tensed) counts[c.tense!] = (counts[c.tense!] ?? 0) + 1
-    expect(counts).toEqual({ simdiki: 164, genis: 97, gecmis: 72, ogrenilen: 58, gelecek: 63 })
+    expect(counts).toEqual({ simdiki: 174, genis: 106, gecmis: 72, ogrenilen: 59, gelecek: 65 })
   })
 
   it('never uses another language’s tense', () => {
@@ -268,7 +268,7 @@ describe('the suffix reference', () => {
       .filter(t => mutationOf(t) === null))]
     // `ancak` is a conjunction and `yürüyerek` a converb — "by walking". Neither
     // takes a case ending, so neither needs a decision.
-    expect(undecided).toEqual(['ancak', 'yürüyerek'])
+    expect(undecided.sort()).toEqual(['ancak', 'yürüyerek'])
   })
 
   it('agrees with the cards that teach the endings', () => {
@@ -296,6 +296,9 @@ describe('the suffix reference', () => {
     expect(attach('sır', 'plural')).toBe('sırlar')
     expect(attach('mektup', 'accusative')).toBe('mektubu')
     expect(attach('not', 'accusative')).toBe('notu')
+    // â is a back vowel, whatever the vowel before it.
+    expect(attach('dükkân', 'dative')).toBe('dükkâna')
+    expect(attach('bekâr', 'possessive1')).toBe('bekârım')
   })
 
   it('shows harmony working both ways on the same suffix', () => {

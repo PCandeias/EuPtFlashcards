@@ -374,6 +374,257 @@
       "en": "too expensive",
       "target": "demasiado caro",
       "level": "a1"
+    },
+    {
+      "en": "buyer",
+      "target": "o comprador / a compradora",
+      "level": "a2"
+    },
+    {
+      "en": "employee / shop assistant",
+      "target": "o funcionário / a funcionária",
+      "level": "a1"
+    },
+    {
+      "en": "customer / client",
+      "target": "o cliente / a cliente",
+      "level": "a1"
+    },
+    {
+      "en": "online shop",
+      "target": "a loja online",
+      "level": "a1"
+    },
+    {
+      "en": "clothes shop",
+      "target": "a loja de roupa",
+      "level": "a1"
+    },
+    {
+      "en": "shoe shop",
+      "target": "a sapataria",
+      "level": "a1"
+    },
+    {
+      "en": "bookshop",
+      "target": "a livraria",
+      "level": "a1",
+      "sense": "a false friend: a library is a biblioteca"
+    },
+    {
+      "en": "electronics shop",
+      "target": "a loja de eletrónica",
+      "level": "a1"
+    },
+    {
+      "en": "street market / fair",
+      "target": "a feira",
+      "level": "a1",
+      "sense": "also a trade fair; and the -feira in segunda-feira"
+    },
+    {
+      "en": "hypermarket",
+      "target": "o hipermercado",
+      "level": "a2"
+    },
+    {
+      "en": "antique / antiquity",
+      "target": "a antiguidade",
+      "level": "b1"
+    },
+    {
+      "en": "in stock",
+      "target": "em stock",
+      "level": "a2"
+    },
+    {
+      "en": "sold out / out of stock",
+      "target": "esgotado / esgotada",
+      "level": "a2",
+      "sense": "also exhausted, of a person"
+    },
+    {
+      "en": "receipt / slip",
+      "target": "o talão",
+      "level": "a2",
+      "sense": "the till receipt a cashier offers; also a ticket or voucher"
+    },
+    {
+      "en": "to ask for a discount",
+      "target": "pedir um desconto",
+      "level": "a2"
+    },
+    {
+      "en": "to withdraw money",
+      "target": "levantar dinheiro",
+      "level": "a1",
+      "sense": "from a cash machine; levantar alone is to lift or raise"
+    },
+    {
+      "en": "by card",
+      "target": "com cartão",
+      "level": "a1"
+    },
+    {
+      "en": "in cash",
+      "target": "em dinheiro",
+      "level": "a1"
+    },
+    {
+      "en": "I'll take it",
+      "target": "vou levar",
+      "level": "a1",
+      "sense": "what you say in a shop once you have decided",
+      "tense": "futuroProximo"
+    },
+    {
+      "en": "how much is it?",
+      "target": "quanto é?",
+      "level": "a1",
+      "sense": "asking for the total",
+      "tense": "presente"
+    },
+    {
+      "en": "can I have a closer look?",
+      "target": "posso ver melhor?",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "can I touch it?",
+      "target": "posso tocar?",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "do you take debit cards?",
+      "target": "aceita multibanco?",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ],
+      "tense": "presente"
+    },
+    {
+      "en": "can you give me a discount?",
+      "target": "pode fazer um desconto?",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ],
+      "tense": "presente"
+    },
+    {
+      "en": "I don't have much money on me",
+      "target": "tenho pouco dinheiro aqui",
+      "level": "a2",
+      "tense": "presente"
+    },
+    {
+      "en": "I don't have enough money",
+      "target": "não tenho dinheiro suficiente",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "I'll accept forty euros",
+      "target": "aceito quarenta euros",
+      "level": "a2",
+      "tense": "presente"
+    },
+    {
+      "en": "here is the money",
+      "target": "aqui está o dinheiro",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "I don't need anything for now",
+      "target": "por agora, não preciso de nada",
+      "level": "a2",
+      "tense": "presente"
+    },
+    {
+      "en": "can I help?",
+      "target": "posso ajudar?",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "can I help you?",
+      "target": "posso ajudá-lo?",
+      "level": "a2",
+      "sense": "said to a man",
+      "tags": [
+        "formal"
+      ],
+      "tense": "presente"
+    },
+    {
+      "en": "can I help you?",
+      "target": "posso ajudá-la?",
+      "level": "a2",
+      "sense": "said to a woman",
+      "tags": [
+        "formal"
+      ],
+      "tense": "presente"
+    },
+    {
+      "en": "can I see?",
+      "target": "posso ver?",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "can I try it on? / can I taste it?",
+      "target": "posso provar?",
+      "level": "a1",
+      "tense": "presente"
+    },
+    {
+      "en": "excuse me, do you have this book?",
+      "target": "desculpe, tem este livro?",
+      "level": "a1",
+      "tags": [
+        "formal"
+      ],
+      "tense": "presente"
+    },
+    {
+      "en": "do you have these laptops in stock?",
+      "target": "tem estes portáteis em stock?",
+      "level": "a2",
+      "tags": [
+        "formal"
+      ],
+      "tense": "presente"
+    },
+    {
+      "en": "do you have these shoes in a size 40?",
+      "target": "tem estes sapatos no número 40?",
+      "level": "a2",
+      "sense": "shoe sizes are números",
+      "tags": [
+        "formal"
+      ],
+      "tense": "presente"
+    },
+    {
+      "en": "vinyl record",
+      "target": "o disco de vinil",
+      "level": "b1"
+    },
+    {
+      "en": "sunscreen",
+      "target": "o protetor solar",
+      "level": "a1",
+      "sense": "creme solar is also said"
+    },
+    {
+      "en": "syrup / cough syrup",
+      "target": "o xarope",
+      "level": "a2"
     }
   ]
 }

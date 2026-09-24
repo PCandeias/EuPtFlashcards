@@ -12,7 +12,7 @@ const VOCAB = new Set<string>(TAGS)
 
 describe('card corpus', () => {
   it('holds the whole corpus', () => {
-    expect(CARDS.length).toBe(3370)
+    expect(CARDS.length).toBe(3961)
   })
 
   it('covers every deck', () => {
@@ -52,7 +52,7 @@ describe('card corpus', () => {
     const counts: Record<string, number> = {}
     for (const c of CARDS) for (const t of c.tags ?? []) counts[t] = (counts[t] ?? 0) + 1
     expect(counts).toEqual({
-      informal: 133, formal: 29, plural: 81, 'masc-mixed': 9,
+      informal: 141, formal: 51, plural: 83, 'masc-mixed': 9,
       fem: 37, masc: 25, contraction: 2, object: 10,
     })
   })
@@ -68,7 +68,7 @@ describe('card corpus', () => {
 
   it('keeps sense hints for meaning-level disambiguation', () => {
     const senses = CARDS.filter(c => c.sense).length
-    expect(senses).toBe(78)
+    expect(senses).toBe(253)
   })
 })
 
@@ -86,19 +86,19 @@ describe('tense tagging', () => {
     const counts: Record<string, number> = {}
     for (const c of tensed) counts[c.tense!] = (counts[c.tense!] ?? 0) + 1
     expect(counts).toEqual({
-      presente: 239,
+      presente: 331,
       presenteContinuo: 140,
       perfeito: 90,
       imperfeito: 87,
       futuro: 85,
-      futuroProximo: 82,
+      futuroProximo: 84,
     })
   })
 
   // Vocabulary must never be filterable, or unticking a tense would take the
   // nouns and adjectives with it.
   it('leaves nouns, adjectives and phrases untagged', () => {
-    expect(CARDS.filter(c => !c.tense).length).toBe(2647)
+    expect(CARDS.filter(c => !c.tense).length).toBe(3144)
     expect(CARDS.find(c => c.target === 'a casa')?.tense).toBeUndefined()
     expect(CARDS.find(c => c.en === 'beautiful / nice')?.tense).toBeUndefined()
   })
@@ -149,7 +149,7 @@ describe('level labelling', () => {
   it('leaves most of the corpus at A1', () => {
     const counts: Record<string, number> = {}
     for (const c of CARDS) counts[c.level!] = (counts[c.level!] ?? 0) + 1
-    expect(counts).toEqual({ a1: 2057, a2: 1158, b1: 155 })
+    expect(counts).toEqual({ a1: 2397, a2: 1360, b1: 204 })
     expect(counts.a1! / CARDS.length).toBeGreaterThan(0.6)
   })
 

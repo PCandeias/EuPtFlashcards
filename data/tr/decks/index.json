@@ -7,12 +7,12 @@
   {
     "deck": "Animals",
     "file": "animals",
-    "count": 62
+    "count": 63
   },
   {
     "deck": "Body & Health",
     "file": "body-and-health",
-    "count": 84
+    "count": 87
   },
   {
     "deck": "Celebrations & Holidays",
@@ -22,7 +22,7 @@
   {
     "deck": "Class",
     "file": "class",
-    "count": 800
+    "count": 1296
   },
   {
     "deck": "Clothing & Colors",
@@ -37,22 +37,22 @@
   {
     "deck": "Common Verbs",
     "file": "common-verbs",
-    "count": 143
+    "count": 159
   },
   {
     "deck": "Countries & Languages",
     "file": "countries-and-languages",
-    "count": 36
+    "count": 71
   },
   {
     "deck": "Daily Routine",
     "file": "daily-routine",
-    "count": 51
+    "count": 53
   },
   {
     "deck": "Describing People",
     "file": "describing-people",
-    "count": 26
+    "count": 39
   },
   {
     "deck": "Essential Survival Phrases",
@@ -62,7 +62,7 @@
   {
     "deck": "Family & People",
     "file": "family-and-people",
-    "count": 80
+    "count": 89
   },
   {
     "deck": "Feelings & Emotions",
@@ -72,7 +72,7 @@
   {
     "deck": "Food & Drink",
     "file": "food-and-drink",
-    "count": 162
+    "count": 183
   },
   {
     "deck": "Future Tense (Gelecek Zaman)",
@@ -82,7 +82,7 @@
   {
     "deck": "Greetings & Polite Expressions",
     "file": "greetings-and-polite-expressions",
-    "count": 66
+    "count": 81
   },
   {
     "deck": "Habitual (Geniş Zaman)",
@@ -92,12 +92,12 @@
   {
     "deck": "Hobbies & Free Time",
     "file": "hobbies-and-free-time",
-    "count": 51
+    "count": 53
   },
   {
     "deck": "Home & Household Objects",
     "file": "home-and-household-objects",
-    "count": 106
+    "count": 134
   },
   {
     "deck": "Hotel & Travel",
@@ -107,12 +107,12 @@
   {
     "deck": "Jobs & Professions",
     "file": "jobs-and-professions",
-    "count": 33
+    "count": 40
   },
   {
     "deck": "Learning Turkish",
     "file": "learning-turkish",
-    "count": 28
+    "count": 32
   },
   {
     "deck": "Numbers",
@@ -127,7 +127,7 @@
   {
     "deck": "Places, City & Buildings",
     "file": "places-city-and-buildings",
-    "count": 97
+    "count": 101
   },
   {
     "deck": "Present Continuous (Şimdiki Zaman)",
@@ -137,7 +137,7 @@
   {
     "deck": "Pronouns & Basic Words",
     "file": "pronouns-and-basic-words",
-    "count": 89
+    "count": 96
   },
   {
     "deck": "Question Words & Connectors",
@@ -152,12 +152,12 @@
   {
     "deck": "Restaurant & Ordering",
     "file": "restaurant-and-ordering",
-    "count": 61
+    "count": 70
   },
   {
     "deck": "Shopping & Money",
     "file": "shopping-and-money",
-    "count": 79
+    "count": 104
   },
   {
     "deck": "Suffixes & Vowel Harmony",
@@ -167,17 +167,17 @@
   {
     "deck": "Technology & Phone",
     "file": "technology-and-phone",
-    "count": 56
+    "count": 57
   },
   {
     "deck": "Time, Days & Calendar",
     "file": "time-days-and-calendar",
-    "count": 86
+    "count": 108
   },
   {
     "deck": "Transport & Directions",
     "file": "transport-and-directions",
-    "count": 87
+    "count": 92
   },
   {
     "deck": "Useful Verb Phrases",
@@ -192,6 +192,6 @@
   {
     "deck": "Work, School & Study",
     "file": "work-school-and-study",
-    "count": 68
+    "count": 74
   }
 ]

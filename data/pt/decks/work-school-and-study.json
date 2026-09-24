@@ -399,6 +399,17 @@
       "en": "the final exam",
       "target": "o exame final",
       "level": "a2"
+    },
+    {
+      "en": "in person",
+      "target": "presencial",
+      "level": "b1",
+      "sense": "the opposite of online or à distância"
+    },
+    {
+      "en": "activity",
+      "target": "a atividade",
+      "level": "a2"
     }
   ]
 }
