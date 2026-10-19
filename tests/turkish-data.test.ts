@@ -11,14 +11,17 @@ import { defaultSettings } from '../src/lib/storage/progress.js'
 import wordExamples from '../data/tr/word-examples.json'
 
 const CARDS = turkish.cards
+// The course decks mirror a source as taught, so they repeat topic-deck words.
+const BOOK = "Harry Potter & the Philosopher's Stone"
+const COURSE = new Set(['Class', BOOK])
 
 describe('the Turkish corpus', () => {
   it('holds the whole corpus', () => {
-    expect(CARDS.length).toBe(4083)
+    expect(CARDS.length).toBe(3726)
   })
 
   it('covers every deck', () => {
-    expect(turkish.decks.length).toBe(39)
+    expect(turkish.decks.length).toBe(40)
   })
 
   it('has no card id collisions', () => {
@@ -62,9 +65,9 @@ describe('the Turkish corpus', () => {
   // should have left one card per meaning.
   it('carries each word once, except where Turkish means two things by it', () => {
     const byWord = new Map<string, string[]>()
-    // A class deck deliberately repeats words from topic decks so it can mirror
-    // the course as taught. The curated topic corpus itself should remain lean.
-    for (const c of CARDS.filter(c => c.deck !== 'Class')) {
+    // The course decks deliberately repeat words from topic decks so they can
+    // mirror the source as taught. The curated topic corpus itself should remain lean.
+    for (const c of CARDS.filter(c => !COURSE.has(c.deck))) {
       byWord.set(c.target, [...(byWord.get(c.target) ?? []), c.en])
     }
     const repeated = [...byWord.entries()].filter(([, glosses]) => glosses.length > 1)
@@ -73,19 +76,27 @@ describe('the Turkish corpus', () => {
     )
     // And each of those says which meaning it is.
     for (const [word] of repeated) {
-      const cards = CARDS.filter(c => c.deck !== 'Class' && c.target === word)
+      const cards = CARDS.filter(c => !COURSE.has(c.deck) && c.target === word)
       expect(cards.every(c => c.sense), word).toBe(true)
     }
   })
 
   it('keeps the imported class list as one complete, deduplicated deck', () => {
     const cards = CARDS.filter(c => c.deck === 'Class')
-    expect(cards).toHaveLength(1296)
+    expect(cards).toHaveLength(814)
     expect(new Set(cards.map(c => c.target)).size).toBe(cards.length)
   })
 
-  it('links inflected class verbs to conjugations and examples', () => {
-    const cards = CARDS.filter(c => c.deck === 'Class' && c.verb)
+  it('keeps the book vocabulary in its own deduplicated deck, out of Class', () => {
+    const cards = CARDS.filter(c => c.deck === BOOK)
+    expect(cards).toHaveLength(125)
+    expect(new Set(cards.map(c => c.target)).size).toBe(cards.length)
+    const book = ['büyücü', 'asa', 'iksir', 'felsefe taşı', 'görünmezlik pelerini']
+    expect(CARDS.filter(c => c.deck === 'Class' && book.includes(c.target))).toEqual([])
+  })
+
+  it('links inflected course verbs to conjugations and examples', () => {
+    const cards = CARDS.filter(c => COURSE.has(c.deck) && c.verb)
     expect(cards.length).toBeGreaterThan(30)
     for (const card of cards) {
       expect(turkish.verbOf(card), card.target).toBe(card.verb)
@@ -94,17 +105,17 @@ describe('the Turkish corpus', () => {
     }
   })
 
-  it('gives every class card grammar help or a relevant example', () => {
+  it('gives every course card grammar help or a relevant example', () => {
     const settings = defaultSettings(turkish)
     const uncovered = CARDS
-      .filter(c => c.deck === 'Class')
+      .filter(c => COURSE.has(c.deck))
       .filter(c => !annotationsFor(c, turkish.annotations, { settings }).length)
       .map(c => c.target)
     expect(uncovered).toEqual([])
   })
 
   it('resolves every explicit example link to real Turkish examples', () => {
-    const linked = CARDS.filter(c => c.deck === 'Class' && c.exampleSubject)
+    const linked = CARDS.filter(c => COURSE.has(c.deck) && c.exampleSubject)
     expect(linked.length).toBeGreaterThan(90)
     for (const card of linked) {
       expect(examplesKind.examplesFor(card.exampleSubject!), card.target).not.toBeNull()
@@ -112,11 +123,11 @@ describe('the Turkish corpus', () => {
     }
   })
 
-  it('uses contextual class examples instead of generated filler', () => {
+  it('uses contextual course examples instead of generated filler', () => {
     const words = wordExamples as Record<string, { target: string; en: string }[]>
     const subjects = new Set(
       CARDS
-        .filter(c => c.deck === 'Class')
+        .filter(c => COURSE.has(c.deck))
         .map(c => c.exampleSubject ?? (words[c.target] ? c.target : null))
         .filter((subject): subject is string => subject !== null),
     )
@@ -191,7 +202,7 @@ describe('Turkish tense tagging', () => {
   it('tags only what it is sure of', () => {
     const counts: Record<string, number> = {}
     for (const c of tensed) counts[c.tense!] = (counts[c.tense!] ?? 0) + 1
-    expect(counts).toEqual({ simdiki: 174, genis: 106, gecmis: 72, ogrenilen: 59, gelecek: 65 })
+    expect(counts).toEqual({ simdiki: 170, genis: 104, gecmis: 72, ogrenilen: 58, gelecek: 65 })
   })
 
   it('never uses another language’s tense', () => {

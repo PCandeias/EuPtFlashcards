@@ -2780,19 +2780,8 @@
       "note": "literally \"lead pen\""
     },
     {
-      "en": "ballpoint pen",
-      "target": "tükenmez kalem",
-      "level": "a2",
-      "note": "literally \"the pen that never runs out\""
-    },
-    {
       "en": "eraser / rubber",
       "target": "silgi",
-      "level": "a1"
-    },
-    {
-      "en": "board / blackboard / wood",
-      "target": "tahta",
       "level": "a1"
     },
     {
@@ -2860,42 +2849,11 @@
       "level": "a1"
     },
     {
-      "en": "owl",
-      "target": "baykuş",
-      "level": "a2"
-    },
-    {
-      "en": "rat",
-      "target": "sıçan",
-      "level": "a2",
-      "note": "fare is also used for rats in everyday speech"
-    },
-    {
       "en": "horse",
       "target": "at",
       "level": "a1",
       "sense": "the animal",
       "note": "also \"throw!\", the imperative of atmak"
-    },
-    {
-      "en": "snake",
-      "target": "yılan",
-      "level": "a1"
-    },
-    {
-      "en": "dragon",
-      "target": "ejderha",
-      "level": "a2"
-    },
-    {
-      "en": "monster / beast",
-      "target": "canavar",
-      "level": "a2"
-    },
-    {
-      "en": "creature",
-      "target": "yaratık",
-      "level": "b1"
     },
     {
       "en": "pet",
@@ -2904,158 +2862,9 @@
       "note": "literally \"tame animal\""
     },
     {
-      "en": "wing",
-      "target": "kanat",
-      "level": "a2"
-    },
-    {
-      "en": "tail / queue",
-      "target": "kuyruk",
-      "level": "a2",
-      "note": "also a queue: kuyrukta beklemek, to wait in a queue"
-    },
-    {
-      "en": "tiger",
-      "target": "kaplan",
-      "level": "a1"
-    },
-    {
-      "en": "wolf",
-      "target": "kurt",
-      "level": "a2"
-    },
-    {
-      "en": "fox",
-      "target": "tilki",
-      "level": "a2"
-    },
-    {
-      "en": "cunning / sly",
-      "target": "kurnaz",
-      "level": "a2"
-    },
-    {
-      "en": "rabbit / hare",
-      "target": "tavşan",
-      "level": "a1"
-    },
-    {
-      "en": "deer",
-      "target": "geyik",
-      "level": "a2"
-    },
-    {
       "en": "cow",
       "target": "inek",
       "level": "a1"
-    },
-    {
-      "en": "goat",
-      "target": "keçi",
-      "level": "a1"
-    },
-    {
-      "en": "rooster / cockerel",
-      "target": "horoz",
-      "level": "a2"
-    },
-    {
-      "en": "duck",
-      "target": "ördek",
-      "level": "a1"
-    },
-    {
-      "en": "goose",
-      "target": "kaz",
-      "level": "a2"
-    },
-    {
-      "en": "bee",
-      "target": "arı",
-      "level": "a1"
-    },
-    {
-      "en": "butterfly",
-      "target": "kelebek",
-      "level": "a1"
-    },
-    {
-      "en": "ant",
-      "target": "karınca",
-      "level": "a1"
-    },
-    {
-      "en": "fly",
-      "target": "sinek",
-      "level": "a1"
-    },
-    {
-      "en": "mosquito",
-      "target": "sivrisinek",
-      "level": "a2",
-      "note": "literally \"pointed fly\""
-    },
-    {
-      "en": "worm",
-      "target": "solucan",
-      "level": "a2"
-    },
-    {
-      "en": "shark",
-      "target": "köpek balığı",
-      "level": "a2",
-      "note": "literally \"dog fish\"; also written köpekbalığı"
-    },
-    {
-      "en": "whale",
-      "target": "balina",
-      "level": "a2"
-    },
-    {
-      "en": "dolphin",
-      "target": "yunus",
-      "level": "a2"
-    },
-    {
-      "en": "eagle",
-      "target": "kartal",
-      "level": "a2"
-    },
-    {
-      "en": "crow",
-      "target": "karga",
-      "level": "a2"
-    },
-    {
-      "en": "feather / hair / fur",
-      "target": "tüy",
-      "level": "a2",
-      "note": "also body hair and an animal's coat"
-    },
-    {
-      "en": "fur / fur coat",
-      "target": "kürk",
-      "level": "b1"
-    },
-    {
-      "en": "claw / paw",
-      "target": "pençe",
-      "level": "b1"
-    },
-    {
-      "en": "horn",
-      "target": "boynuz",
-      "level": "a2"
-    },
-    {
-      "en": "beak",
-      "target": "gaga",
-      "level": "a2"
-    },
-    {
-      "en": "cage",
-      "target": "kafes",
-      "level": "a2"
     },
     {
       "en": "forest",
@@ -3063,22 +2872,10 @@
       "level": "a1"
     },
     {
-      "en": "field",
-      "target": "tarla",
-      "level": "a2",
-      "sense": "farmland",
-      "note": "a farmed field; a sports pitch is saha"
-    },
-    {
       "en": "river",
       "target": "nehir",
       "level": "a1",
       "note": "loses its second vowel before an ending: nehri, nehre"
-    },
-    {
-      "en": "pond",
-      "target": "gölet",
-      "level": "b1"
     },
     {
       "en": "mountain",
@@ -3099,13 +2896,6 @@
       "en": "to make a reservation / to book",
       "target": "rezervasyon yapmak",
       "level": "a1"
-    },
-    {
-      "en": "to reserve",
-      "target": "rezerve etmek",
-      "level": "a2",
-      "sense": "the formal word",
-      "note": "rezervasyon yapmak is more common in speech"
     },
     {
       "en": "order",
@@ -3173,40 +2963,8 @@
       "level": "a1"
     },
     {
-      "en": "package / takeaway",
-      "target": "paket",
-      "level": "a1",
-      "note": "paket servis, takeaway or delivery service"
-    },
-    {
-      "en": "dish of the day / daily special",
-      "target": "günün yemeği",
-      "level": "a1"
-    },
-    {
-      "en": "starter / beginning",
-      "target": "başlangıç",
-      "level": "a2"
-    },
-    {
-      "en": "meze / small cold starter",
-      "target": "meze",
-      "level": "a1",
-      "note": "small shared dishes served before the main course or with rakı"
-    },
-    {
       "en": "main course",
       "target": "ana yemek",
-      "level": "a1"
-    },
-    {
-      "en": "dessert menu",
-      "target": "tatlı menüsü",
-      "level": "a1"
-    },
-    {
-      "en": "drinks menu",
-      "target": "içecek menüsü",
       "level": "a1"
     },
     {
@@ -3225,16 +2983,6 @@
       "level": "a1"
     },
     {
-      "en": "small portion",
-      "target": "küçük porsiyon",
-      "level": "a1"
-    },
-    {
-      "en": "large portion",
-      "target": "büyük porsiyon",
-      "level": "a1"
-    },
-    {
       "en": "pepper",
       "target": "biber",
       "level": "a1",
@@ -3242,88 +2990,11 @@
       "note": "the vegetable; ground black pepper is karabiber"
     },
     {
-      "en": "black pepper",
-      "target": "karabiber",
-      "level": "a1"
-    },
-    {
-      "en": "napkin",
-      "target": "peçete",
-      "level": "a1"
-    },
-    {
-      "en": "cup",
-      "target": "fincan",
-      "level": "a1",
-      "sense": "for coffee",
-      "note": "a coffee cup; tea is served in a bardak"
-    },
-    {
-      "en": "hot drink",
-      "target": "sıcak içecek",
-      "level": "a1"
-    },
-    {
-      "en": "cold drink",
-      "target": "soğuk içecek",
-      "level": "a1"
-    },
-    {
-      "en": "still water",
-      "target": "normal su",
-      "level": "a1"
-    },
-    {
       "en": "sparkling mineral water",
       "target": "maden suyu",
       "level": "a1",
       "sense": "fizzy",
       "note": "literally \"mineral water\"; also called soda"
-    },
-    {
-      "en": "rare",
-      "target": "az pişmiş",
-      "level": "a2",
-      "sense": "of meat",
-      "note": "of meat; literally \"little cooked\""
-    },
-    {
-      "en": "medium",
-      "target": "orta pişmiş",
-      "level": "a2",
-      "sense": "of meat"
-    },
-    {
-      "en": "well done",
-      "target": "iyi pişmiş",
-      "level": "a2",
-      "sense": "of meat"
-    },
-    {
-      "en": "without onion",
-      "target": "soğansız",
-      "level": "a1"
-    },
-    {
-      "en": "with sauce",
-      "target": "soslu",
-      "level": "a1"
-    },
-    {
-      "en": "without sauce",
-      "target": "sossuz",
-      "level": "a1"
-    },
-    {
-      "en": "allergy",
-      "target": "alerji",
-      "level": "a1",
-      "note": "what you are allergic to takes the dative: fıstığa"
-    },
-    {
-      "en": "vegetarian",
-      "target": "vejetaryen",
-      "level": "a1"
     },
     {
       "en": "cook / chef",
@@ -3334,11 +3005,6 @@
     {
       "en": "kitchen / cuisine",
       "target": "mutfak",
-      "level": "a1"
-    },
-    {
-      "en": "to recommend / to suggest",
-      "target": "önermek",
       "level": "a1"
     },
     {
@@ -3358,13 +3024,6 @@
       "note": "kredi kartı, credit card"
     },
     {
-      "en": "receipt",
-      "target": "fiş",
-      "level": "a1",
-      "sense": "from a shop",
-      "note": "a formal invoice is fatura"
-    },
-    {
       "en": "rice",
       "target": "pirinç",
       "level": "a1",
@@ -3374,11 +3033,6 @@
     {
       "en": "onion",
       "target": "soğan",
-      "level": "a1"
-    },
-    {
-      "en": "garlic",
-      "target": "sarımsak",
       "level": "a1"
     },
     {
@@ -3399,11 +3053,6 @@
       "note": "to say you are thirsty, use susadım, literally \"I have got thirsty\""
     },
     {
-      "en": "snack",
-      "target": "atıştırmalık",
-      "level": "a2"
-    },
-    {
       "en": "butter",
       "target": "tereyağı",
       "level": "a1"
@@ -3419,38 +3068,6 @@
       "level": "a1"
     },
     {
-      "en": "olive oil",
-      "target": "zeytinyağı",
-      "level": "a1"
-    },
-    {
-      "en": "flour",
-      "target": "un",
-      "level": "a1"
-    },
-    {
-      "en": "lentils",
-      "target": "mercimek",
-      "level": "a1",
-      "note": "mercimek çorbası, lentil soup, is on almost every menu"
-    },
-    {
-      "en": "beans",
-      "target": "fasulye",
-      "level": "a1",
-      "note": "kuru fasulye, stewed dried beans; taze fasulye, green beans"
-    },
-    {
-      "en": "chickpeas",
-      "target": "nohut",
-      "level": "a1"
-    },
-    {
-      "en": "mushroom",
-      "target": "mantar",
-      "level": "a1"
-    },
-    {
       "en": "carrot",
       "target": "havuç",
       "level": "a1"
@@ -3461,46 +3078,14 @@
       "level": "a1"
     },
     {
-      "en": "lettuce",
-      "target": "marul",
-      "level": "a1"
-    },
-    {
-      "en": "cabbage",
-      "target": "lahana",
-      "level": "a1"
-    },
-    {
       "en": "grapes",
       "target": "üzüm",
       "level": "a1",
       "note": "used like a mass noun, so \"grapes\" is usually just üzüm"
     },
     {
-      "en": "cherry",
-      "target": "kiraz",
-      "level": "a1",
-      "sense": "the sweet kind",
-      "note": "the sweet cherry; the sour cherry is vişne"
-    },
-    {
-      "en": "sour cherry",
-      "target": "vişne",
-      "level": "a1"
-    },
-    {
       "en": "watermelon",
       "target": "karpuz",
-      "level": "a1"
-    },
-    {
-      "en": "melon",
-      "target": "kavun",
-      "level": "a1"
-    },
-    {
-      "en": "peach",
-      "target": "şeftali",
       "level": "a1"
     },
     {
@@ -3510,50 +3095,9 @@
       "note": "the food itself pişer, \"cooks\""
     },
     {
-      "en": "to boil",
-      "target": "kaynatmak",
-      "level": "a2",
-      "sense": "to bring to the boil",
-      "note": "the water itself kaynar, \"boils\""
-    },
-    {
       "en": "to cut",
       "target": "kesmek",
       "level": "a1"
-    },
-    {
-      "en": "to mix / to stir",
-      "target": "karıştırmak",
-      "level": "a2",
-      "note": "also to mix up or confuse two things"
-    },
-    {
-      "en": "to taste",
-      "target": "tatmak",
-      "level": "a2",
-      "note": "tadına bakmak, \"to look at its taste\", is the everyday way to try food"
-    },
-    {
-      "en": "to smell",
-      "target": "kokmak",
-      "level": "a1",
-      "sense": "to give off a smell",
-      "note": "to give off a smell; to sniff something is koklamak"
-    },
-    {
-      "en": "to sniff / to smell something",
-      "target": "koklamak",
-      "level": "a2"
-    },
-    {
-      "en": "sour",
-      "target": "ekşi",
-      "level": "a1"
-    },
-    {
-      "en": "stale",
-      "target": "bayat",
-      "level": "a2"
     },
     {
       "en": "dark",
@@ -3563,88 +3107,15 @@
       "note": "of a colour or a drink: koyu mavi, dark blue; koyu çay, strong tea"
     },
     {
-      "en": "dark / darkness",
-      "target": "karanlık",
-      "level": "a1",
-      "sense": "no light",
-      "note": "dark because there is no light"
-    },
-    {
       "en": "open / light",
       "target": "açık",
       "level": "a1",
       "note": "of a colour it means light: açık mavi, light blue"
     },
     {
-      "en": "light-coloured",
-      "target": "açık renkli",
-      "level": "a1"
-    },
-    {
-      "en": "colourful / in colour",
-      "target": "renkli",
-      "level": "a1"
-    },
-    {
-      "en": "colourless",
-      "target": "renksiz",
-      "level": "a2"
-    },
-    {
-      "en": "gold",
-      "target": "altın",
-      "level": "a1"
-    },
-    {
-      "en": "gold-coloured / golden",
-      "target": "altın rengi",
-      "level": "a1"
-    },
-    {
-      "en": "silver",
-      "target": "gümüş",
-      "level": "a1"
-    },
-    {
-      "en": "silver-coloured",
-      "target": "gümüş rengi",
-      "level": "a1"
-    },
-    {
-      "en": "navy blue / dark blue",
-      "target": "lacivert",
-      "level": "a1"
-    },
-    {
       "en": "light blue",
       "target": "açık mavi",
       "level": "a1"
-    },
-    {
-      "en": "dark green",
-      "target": "koyu yeşil",
-      "level": "a1"
-    },
-    {
-      "en": "light green",
-      "target": "açık yeşil",
-      "level": "a1"
-    },
-    {
-      "en": "transparent / see-through",
-      "target": "şeffaf",
-      "level": "b1"
-    },
-    {
-      "en": "bright / shiny",
-      "target": "parlak",
-      "level": "a2"
-    },
-    {
-      "en": "pale / faded",
-      "target": "soluk",
-      "level": "b1",
-      "note": "also \"breath\" as a noun"
     },
     {
       "en": "dirty",
@@ -3669,29 +3140,6 @@
       "note": "a light colour is açık"
     },
     {
-      "en": "soft",
-      "target": "yumuşak",
-      "level": "a1"
-    },
-    {
-      "en": "hard / strict",
-      "target": "sert",
-      "level": "a2",
-      "note": "of a person: strict or harsh"
-    },
-    {
-      "en": "sharp",
-      "target": "keskin",
-      "level": "a2"
-    },
-    {
-      "en": "broken",
-      "target": "kırık",
-      "level": "a1",
-      "sense": "cracked or snapped",
-      "note": "cracked or snapped; a machine that doesn't work is bozuk"
-    },
-    {
       "en": "broken / out of order",
       "target": "bozuk",
       "level": "a1",
@@ -3699,182 +3147,11 @@
       "note": "also bozuk para, small change"
     },
     {
-      "en": "story",
-      "target": "hikâye",
-      "level": "a1",
-      "note": "also written hikaye"
-    },
-    {
-      "en": "chapter / episode / department",
-      "target": "bölüm",
-      "level": "a1"
-    },
-    {
       "en": "letter",
       "target": "mektup",
       "level": "a1",
       "sense": "that you post",
       "note": "a letter you post; a letter of the alphabet is harf"
-    },
-    {
-      "en": "envelope",
-      "target": "zarf",
-      "level": "a1"
-    },
-    {
-      "en": "secret",
-      "target": "sır",
-      "level": "a2",
-      "note": "the r doubles before an ending: sırrı, sırrım"
-    },
-    {
-      "en": "mystery",
-      "target": "gizem",
-      "level": "b1"
-    },
-    {
-      "en": "secret / hidden",
-      "target": "gizli",
-      "level": "a2"
-    },
-    {
-      "en": "magic / spell",
-      "target": "büyü",
-      "level": "a2",
-      "note": "both magic in general and a single spell"
-    },
-    {
-      "en": "to cast a spell / to do magic",
-      "target": "büyü yapmak",
-      "level": "a2"
-    },
-    {
-      "en": "magic / enchanted",
-      "target": "büyülü",
-      "level": "a2"
-    },
-    {
-      "en": "wizard / sorcerer",
-      "target": "büyücü",
-      "level": "a2"
-    },
-    {
-      "en": "witch",
-      "target": "cadı",
-      "level": "a2"
-    },
-    {
-      "en": "wand / staff",
-      "target": "asa",
-      "level": "b1",
-      "note": "a staff or sceptre; the Turkish Harry Potter uses it for a wand"
-    },
-    {
-      "en": "potion",
-      "target": "iksir",
-      "level": "b1"
-    },
-    {
-      "en": "cloak / cape",
-      "target": "pelerin",
-      "level": "b1"
-    },
-    {
-      "en": "hat",
-      "target": "şapka",
-      "level": "a1"
-    },
-    {
-      "en": "castle / fortress / goal",
-      "target": "kale",
-      "level": "a2",
-      "note": "in football it is the goal: kaleci, goalkeeper"
-    },
-    {
-      "en": "corridor",
-      "target": "koridor",
-      "level": "a1"
-    },
-    {
-      "en": "stairs / ladder",
-      "target": "merdiven",
-      "level": "a1"
-    },
-    {
-      "en": "door / gate",
-      "target": "kapı",
-      "level": "a1"
-    },
-    {
-      "en": "locked",
-      "target": "kilitli",
-      "level": "a2"
-    },
-    {
-      "en": "forbidden / ban",
-      "target": "yasak",
-      "level": "a2"
-    },
-    {
-      "en": "dangerous",
-      "target": "tehlikeli",
-      "level": "a1"
-    },
-    {
-      "en": "brave",
-      "target": "cesur",
-      "level": "a2"
-    },
-    {
-      "en": "clever / intelligent",
-      "target": "zeki",
-      "level": "a1"
-    },
-    {
-      "en": "strange / odd",
-      "target": "garip",
-      "level": "a2"
-    },
-    {
-      "en": "invisible",
-      "target": "görünmez",
-      "level": "b1"
-    },
-    {
-      "en": "to disappear / to get lost",
-      "target": "kaybolmak",
-      "level": "a2"
-    },
-    {
-      "en": "to appear / to come out",
-      "target": "ortaya çıkmak",
-      "level": "b1",
-      "note": "literally \"to come out into the middle\""
-    },
-    {
-      "en": "to find",
-      "target": "bulmak",
-      "level": "a1"
-    },
-    {
-      "en": "to hide",
-      "target": "saklanmak",
-      "level": "a2",
-      "sense": "yourself",
-      "note": "to hide yourself; to hide something is saklamak"
-    },
-    {
-      "en": "to hide / to keep",
-      "target": "saklamak",
-      "level": "a2",
-      "sense": "something",
-      "note": "to hide something; also to keep or store it"
-    },
-    {
-      "en": "to escape / to run away",
-      "target": "kaçmak",
-      "level": "a2",
-      "note": "what you escape from takes the ablative: evden kaçmak"
     },
     {
       "en": "to open / to turn on",
@@ -3887,56 +3164,6 @@
       "target": "kapatmak",
       "level": "a1",
       "note": "also to switch off: ışığı kapatmak"
-    },
-    {
-      "en": "to protect / to guard",
-      "target": "korumak",
-      "level": "a2"
-    },
-    {
-      "en": "to believe",
-      "target": "inanmak",
-      "level": "a2",
-      "note": "what you believe takes the dative: hikâyeye inanmak"
-    },
-    {
-      "en": "dream",
-      "target": "rüya",
-      "level": "a1",
-      "sense": "while asleep",
-      "note": "the dream you have asleep, and you \"see\" it: rüya görmek. A hope or ambition is hayal"
-    },
-    {
-      "en": "mirror",
-      "target": "ayna",
-      "level": "a1"
-    },
-    {
-      "en": "stone / piece",
-      "target": "taş",
-      "level": "a1",
-      "note": "also a playing piece in chess or backgammon"
-    },
-    {
-      "en": "platform",
-      "target": "peron",
-      "level": "a2"
-    },
-    {
-      "en": "suitcase",
-      "target": "valiz",
-      "level": "a1"
-    },
-    {
-      "en": "scar",
-      "target": "yara izi",
-      "level": "b1",
-      "note": "literally \"wound trace\""
-    },
-    {
-      "en": "enemy",
-      "target": "düşman",
-      "level": "a2"
     },
     {
       "en": "alphabet",
@@ -3961,12 +3188,6 @@
       "level": "a1"
     },
     {
-      "en": "grammar",
-      "target": "dil bilgisi",
-      "level": "a2",
-      "note": "also written dilbilgisi"
-    },
-    {
       "en": "meaning",
       "target": "anlam",
       "level": "a1"
@@ -3982,11 +3203,6 @@
       "level": "a1",
       "sense": "practice",
       "note": "a practice exercise; physical exercise is egzersiz or spor"
-    },
-    {
-      "en": "test / quiz",
-      "target": "test",
-      "level": "a1"
     },
     {
       "en": "grade / mark / note",
@@ -4013,11 +3229,6 @@
       "sense": "the school subject"
     },
     {
-      "en": "geography",
-      "target": "coğrafya",
-      "level": "a1"
-    },
-    {
       "en": "language / tongue",
       "target": "dil",
       "level": "a1"
@@ -4038,40 +3249,9 @@
       "level": "a1"
     },
     {
-      "en": "staff room",
-      "target": "öğretmenler odası",
-      "level": "a2"
-    },
-    {
-      "en": "head teacher / principal / manager",
-      "target": "müdür",
-      "level": "a1"
-    },
-    {
-      "en": "school bag",
-      "target": "okul çantası",
-      "level": "a1"
-    },
-    {
       "en": "bag",
       "target": "çanta",
       "level": "a1"
-    },
-    {
-      "en": "ruler",
-      "target": "cetvel",
-      "level": "a1"
-    },
-    {
-      "en": "scissors",
-      "target": "makas",
-      "level": "a1",
-      "note": "singular in Turkish: bir makas, a pair of scissors"
-    },
-    {
-      "en": "glue",
-      "target": "yapıştırıcı",
-      "level": "a2"
     },
     {
       "en": "paper / sheet of paper",
@@ -4085,27 +3265,9 @@
       "level": "a1"
     },
     {
-      "en": "bell",
-      "target": "zil",
-      "level": "a1",
-      "note": "a school bell or a doorbell"
-    },
-    {
-      "en": "break / recess",
-      "target": "teneffüs",
-      "level": "a2",
-      "sense": "at school",
-      "note": "the break between lessons; a break at work is mola"
-    },
-    {
       "en": "to repeat",
       "target": "tekrar etmek",
       "level": "a1"
-    },
-    {
-      "en": "to explain",
-      "target": "açıklamak",
-      "level": "a2"
     },
     {
       "en": "to remember",
@@ -4131,32 +3293,9 @@
       "note": "what you answer takes the dative: soruya cevap vermek"
     },
     {
-      "en": "to answer",
-      "target": "cevaplamak",
-      "level": "a2",
-      "sense": "a single verb",
-      "note": "takes a direct object, where cevap vermek takes the dative"
-    },
-    {
       "en": "to practise",
       "target": "pratik yapmak",
       "level": "a1"
-    },
-    {
-      "en": "hero / heroine",
-      "target": "kahraman",
-      "level": "a2"
-    },
-    {
-      "en": "villain",
-      "target": "kötü karakter",
-      "level": "b1",
-      "note": "literally \"bad character\""
-    },
-    {
-      "en": "orphan",
-      "target": "yetim",
-      "level": "b1"
     },
     {
       "en": "uncle",
@@ -4184,41 +3323,9 @@
       "note": "also a friendly way to address an older woman"
     },
     {
-      "en": "uncle by marriage / brother-in-law",
-      "target": "enişte",
-      "level": "a2",
-      "note": "your aunt's husband or your sister's husband"
-    },
-    {
       "en": "cousin",
       "target": "kuzen",
       "level": "a1"
-    },
-    {
-      "en": "spoiled",
-      "target": "şımarık",
-      "level": "b1"
-    },
-    {
-      "en": "giant / huge",
-      "target": "dev",
-      "level": "a2",
-      "note": "also an adjective: dev bir ağaç, a huge tree"
-    },
-    {
-      "en": "ghost",
-      "target": "hayalet",
-      "level": "a2"
-    },
-    {
-      "en": "portrait",
-      "target": "portre",
-      "level": "b1"
-    },
-    {
-      "en": "headline / title / heading",
-      "target": "başlık",
-      "level": "b1"
     },
     {
       "en": "train station",
@@ -4226,191 +3333,9 @@
       "level": "a1"
     },
     {
-      "en": "platform number",
-      "target": "peron numarası",
-      "level": "a2"
-    },
-    {
-      "en": "steam",
-      "target": "buhar",
-      "level": "b1"
-    },
-    {
-      "en": "letterbox / mailbox",
-      "target": "posta kutusu",
-      "level": "a1"
-    },
-    {
       "en": "cupboard / wardrobe",
       "target": "dolap",
       "level": "a1"
-    },
-    {
-      "en": "broom / broomstick",
-      "target": "süpürge",
-      "level": "a2",
-      "note": "a flying broom is just süpürge (süpürge sapı is only its handle); also short for a vacuum cleaner"
-    },
-    {
-      "en": "cauldron / boiler",
-      "target": "kazan",
-      "level": "b1",
-      "note": "kazanmak, a different word, means to win"
-    },
-    {
-      "en": "flame",
-      "target": "alev",
-      "level": "b1"
-    },
-    {
-      "en": "candle",
-      "target": "mum",
-      "level": "a1"
-    },
-    {
-      "en": "shadow / shade",
-      "target": "gölge",
-      "level": "a2"
-    },
-    {
-      "en": "whisper",
-      "target": "fısıltı",
-      "level": "b1"
-    },
-    {
-      "en": "noise",
-      "target": "gürültü",
-      "level": "a2"
-    },
-    {
-      "en": "sound / voice",
-      "target": "ses",
-      "level": "a1"
-    },
-    {
-      "en": "scream / shriek",
-      "target": "çığlık",
-      "level": "b1"
-    },
-    {
-      "en": "fear",
-      "target": "korku",
-      "level": "a2"
-    },
-    {
-      "en": "courage",
-      "target": "cesaret",
-      "level": "a2"
-    },
-    {
-      "en": "rule",
-      "target": "kural",
-      "level": "a2"
-    },
-    {
-      "en": "punishment / fine / penalty",
-      "target": "ceza",
-      "level": "a2",
-      "note": "also a fine you pay, or a penalty in football"
-    },
-    {
-      "en": "reward / prize / award",
-      "target": "ödül",
-      "level": "a2"
-    },
-    {
-      "en": "building / house",
-      "target": "bina",
-      "level": "a1",
-      "note": "usually just a building; the Turkish Harry Potter uses it for the four school houses"
-    },
-    {
-      "en": "dormitory",
-      "target": "yatakhane",
-      "level": "b1"
-    },
-    {
-      "en": "common room",
-      "target": "ortak salon",
-      "level": "b1"
-    },
-    {
-      "en": "ceiling",
-      "target": "tavan",
-      "level": "a2"
-    },
-    {
-      "en": "floor / ground",
-      "target": "zemin",
-      "level": "a2",
-      "note": "zemin kat, the ground floor"
-    },
-    {
-      "en": "wall",
-      "target": "duvar",
-      "level": "a1"
-    },
-    {
-      "en": "tower",
-      "target": "kule",
-      "level": "a2"
-    },
-    {
-      "en": "dungeon",
-      "target": "zindan",
-      "level": "b1"
-    },
-    {
-      "en": "cellar / basement",
-      "target": "bodrum",
-      "level": "a2",
-      "note": "bodrum kat, the basement floor"
-    },
-    {
-      "en": "trapdoor",
-      "target": "gizli kapak",
-      "level": "b1",
-      "note": "literally \"hidden lid\""
-    },
-    {
-      "en": "riddle",
-      "target": "bilmece",
-      "level": "b1"
-    },
-    {
-      "en": "chess",
-      "target": "satranç",
-      "level": "a2"
-    },
-    {
-      "en": "invisibility cloak",
-      "target": "görünmezlik pelerini",
-      "level": "b1"
-    },
-    {
-      "en": "philosopher's stone",
-      "target": "felsefe taşı",
-      "level": "b1"
-    },
-    {
-      "en": "spellbook",
-      "target": "büyü kitabı",
-      "level": "b1"
-    },
-    {
-      "en": "potions class",
-      "target": "iksir dersi",
-      "level": "b1"
-    },
-    {
-      "en": "school of magic",
-      "target": "büyü okulu",
-      "level": "b1"
-    },
-    {
-      "en": "wand shop",
-      "target": "asa dükkânı",
-      "level": "b1"
     },
     {
       "en": "bank",
@@ -4423,81 +3348,9 @@
       "level": "a1"
     },
     {
-      "en": "coin",
-      "target": "madeni para",
-      "level": "a2",
-      "note": "literally \"metal money\"; small change is bozuk para"
-    },
-    {
-      "en": "gold coin",
-      "target": "altın para",
-      "level": "b1"
-    },
-    {
-      "en": "silver coin",
-      "target": "gümüş para",
-      "level": "b1"
-    },
-    {
-      "en": "to whisper",
-      "target": "fısıldamak",
-      "level": "b1"
-    },
-    {
-      "en": "to shout / to yell",
-      "target": "bağırmak",
-      "level": "a2",
-      "note": "who you shout at takes the dative: bana bağırma"
-    },
-    {
-      "en": "to knock on the door",
-      "target": "kapıyı çalmak",
-      "level": "a1",
-      "note": "çalmak also means to ring, to play an instrument and to steal"
-    },
-    {
-      "en": "to unlock",
-      "target": "kilidini açmak",
-      "level": "b1",
-      "note": "literally \"to open its lock\": kapının kilidini açmak"
-    },
-    {
-      "en": "to lock",
-      "target": "kilitlemek",
-      "level": "a2"
-    },
-    {
-      "en": "to fly",
-      "target": "uçmak",
-      "level": "a1"
-    },
-    {
-      "en": "to fall",
-      "target": "düşmek",
-      "level": "a1",
-      "note": "what you fall from takes the ablative: süpürgeden"
-    },
-    {
-      "en": "to catch",
-      "target": "yakalamak",
-      "level": "a2"
-    },
-    {
-      "en": "to throw",
-      "target": "atmak",
-      "level": "a1",
-      "note": "also to throw away: çöpe atmak"
-    },
-    {
       "en": "to choose",
       "target": "seçmek",
       "level": "a1"
-    },
-    {
-      "en": "to follow",
-      "target": "takip etmek",
-      "level": "a2",
-      "note": "also to keep up with or keep track of"
     },
     {
       "en": "to enter / to go in",
@@ -4512,12 +3365,6 @@
       "note": "where you leave takes the ablative: kaleden; also to go up: merdiven çıkmak"
     },
     {
-      "en": "to look for / to call",
-      "target": "aramak",
-      "level": "a1",
-      "note": "also to phone someone: seni ararım, I'll call you"
-    },
-    {
       "en": "to wait / to expect",
       "target": "beklemek",
       "level": "a1"
@@ -4527,39 +3374,6 @@
       "target": "anlamak",
       "level": "a1",
       "note": "\"I understand\" is usually said in the past: anladım"
-    },
-    {
-      "en": "to know",
-      "target": "bilmek",
-      "level": "a1"
-    },
-    {
-      "en": "to notice",
-      "target": "fark etmek",
-      "level": "a2",
-      "note": "fark etmez, \"it makes no difference\""
-    },
-    {
-      "en": "to be afraid / to get scared",
-      "target": "korkmak",
-      "level": "a1",
-      "note": "what you fear takes the ablative: karanlıktan"
-    },
-    {
-      "en": "to smile",
-      "target": "gülümsemek",
-      "level": "a2"
-    },
-    {
-      "en": "to laugh",
-      "target": "gülmek",
-      "level": "a1",
-      "note": "who you laugh at takes the dative: bana gülme"
-    },
-    {
-      "en": "to cry",
-      "target": "ağlamak",
-      "level": "a1"
     },
     {
       "en": "I am learning Turkish",
@@ -4611,23 +3425,6 @@
       "exampleSubject": "Türkçe"
     },
     {
-      "en": "seller / vendor",
-      "target": "satıcı",
-      "level": "a1"
-    },
-    {
-      "en": "shop assistant",
-      "target": "satış görevlisi",
-      "level": "a2",
-      "note": "tezgâhtar is also used"
-    },
-    {
-      "en": "employee / worker",
-      "target": "çalışan",
-      "level": "a2",
-      "note": "also an adjective, \"hard-working\""
-    },
-    {
       "en": "shop",
       "target": "dükkân",
       "level": "a1",
@@ -4635,29 +3432,8 @@
       "note": "a small shop; a bigger store is mağaza. Also written dükkan"
     },
     {
-      "en": "online shop",
-      "target": "online mağaza",
-      "level": "a1",
-      "note": "the official word for online is çevrim içi"
-    },
-    {
-      "en": "clothes shop",
-      "target": "giyim mağazası",
-      "level": "a1"
-    },
-    {
-      "en": "shoe shop",
-      "target": "ayakkabı mağazası",
-      "level": "a1"
-    },
-    {
       "en": "bookshop / bookseller",
       "target": "kitapçı",
-      "level": "a1"
-    },
-    {
-      "en": "electronics shop",
-      "target": "elektronik mağazası",
       "level": "a1"
     },
     {
@@ -4684,83 +3460,13 @@
       "level": "a1"
     },
     {
-      "en": "antique",
-      "target": "antika",
-      "level": "a2"
-    },
-    {
-      "en": "things / belongings / furniture",
-      "target": "eşya",
-      "level": "a2",
-      "note": "a person's belongings or a home's furniture"
-    },
-    {
       "en": "thing",
       "target": "şey",
       "level": "a1"
     },
     {
-      "en": "statue / sculpture",
-      "target": "heykel",
-      "level": "a2"
-    },
-    {
-      "en": "jug / carafe",
-      "target": "sürahi",
-      "level": "a2"
-    },
-    {
-      "en": "jar",
-      "target": "kavanoz",
-      "level": "a2"
-    },
-    {
       "en": "lamp",
       "target": "lamba",
-      "level": "a1"
-    },
-    {
-      "en": "cash machine / ATM",
-      "target": "bankamatik",
-      "level": "a1",
-      "note": "ATM is also said"
-    },
-    {
-      "en": "checkout / till / safe",
-      "target": "kasa",
-      "level": "a1",
-      "note": "also a safe, or a crate of fruit"
-    },
-    {
-      "en": "discount / sale",
-      "target": "indirim",
-      "level": "a1",
-      "note": "indirim yapmak, to give a discount"
-    },
-    {
-      "en": "on sale",
-      "target": "indirimde",
-      "level": "a1"
-    },
-    {
-      "en": "promotion / special offer",
-      "target": "kampanya",
-      "level": "a2",
-      "note": "also a campaign"
-    },
-    {
-      "en": "in stock",
-      "target": "stokta",
-      "level": "a2"
-    },
-    {
-      "en": "out of stock",
-      "target": "stokta yok",
-      "level": "a2"
-    },
-    {
-      "en": "to order online",
-      "target": "internetten sipariş vermek",
       "level": "a1"
     },
     {
@@ -4779,28 +3485,6 @@
       "en": "to sell",
       "target": "satmak",
       "level": "a1"
-    },
-    {
-      "en": "to accept",
-      "target": "kabul etmek",
-      "level": "a2"
-    },
-    {
-      "en": "to refuse / to reject",
-      "target": "reddetmek",
-      "level": "b1"
-    },
-    {
-      "en": "to send",
-      "target": "göndermek",
-      "level": "a1"
-    },
-    {
-      "en": "to receive / to collect",
-      "target": "teslim almak",
-      "level": "a2",
-      "sense": "a delivery",
-      "note": "to take delivery; teslim etmek is to deliver"
     },
     {
       "en": "to help",
@@ -4825,27 +3509,6 @@
       "note": "what you look at takes the dative: vitrine bakmak"
     },
     {
-      "en": "to touch",
-      "target": "dokunmak",
-      "level": "a2",
-      "note": "what you touch takes the dative: ona dokunmak"
-    },
-    {
-      "en": "to ask for a discount",
-      "target": "indirim istemek",
-      "level": "a2"
-    },
-    {
-      "en": "by card",
-      "target": "kartla",
-      "level": "a1"
-    },
-    {
-      "en": "in cash",
-      "target": "nakit olarak",
-      "level": "a1"
-    },
-    {
       "en": "how much does it cost?",
       "target": "fiyatı ne kadar?",
       "level": "a1"
@@ -4853,11 +3516,6 @@
     {
       "en": "how much is this?",
       "target": "bu ne kadar?",
-      "level": "a1"
-    },
-    {
-      "en": "can I have a closer look?",
-      "target": "daha yakından bakabilir miyim?",
       "level": "a1"
     },
     {
@@ -4888,31 +3546,9 @@
       "level": "a1"
     },
     {
-      "en": "second-hand / used",
-      "target": "ikinci el",
-      "level": "a2"
-    },
-    {
-      "en": "dishes / crockery",
-      "target": "tabak çanak",
-      "level": "b1",
-      "note": "a pair phrase: tabak (plate) plus a rhyming partner"
-    },
-    {
-      "en": "vinyl record",
-      "target": "plak",
-      "level": "b1"
-    },
-    {
       "en": "computer",
       "target": "bilgisayar",
       "level": "a1"
-    },
-    {
-      "en": "laptop",
-      "target": "dizüstü bilgisayar",
-      "level": "a1",
-      "note": "literally \"on-the-knee computer\"; laptop is also said"
     },
     {
       "en": "mobile phone",
@@ -4929,43 +3565,6 @@
       "en": "shoe / shoes",
       "target": "ayakkabı",
       "level": "a1"
-    },
-    {
-      "en": "seasonal fruit",
-      "target": "mevsim meyvesi",
-      "level": "a2"
-    },
-    {
-      "en": "toy",
-      "target": "oyuncak",
-      "level": "a1"
-    },
-    {
-      "en": "vitamin",
-      "target": "vitamin",
-      "level": "a2"
-    },
-    {
-      "en": "sunscreen / sun cream",
-      "target": "güneş kremi",
-      "level": "a1"
-    },
-    {
-      "en": "syrup",
-      "target": "şurup",
-      "level": "a2",
-      "note": "usually cough syrup: öksürük şurubu"
-    },
-    {
-      "en": "postcard",
-      "target": "kartpostal",
-      "level": "a1"
-    },
-    {
-      "en": "backpack / rucksack",
-      "target": "sırt çantası",
-      "level": "a1",
-      "note": "literally \"back bag\""
     },
     {
       "en": "T-shirt",
@@ -4990,23 +3589,6 @@
       "note": "singular in Turkish: bir pantolon, a pair of trousers"
     },
     {
-      "en": "trainers / sneakers",
-      "target": "spor ayakkabı",
-      "level": "a1"
-    },
-    {
-      "en": "sandals",
-      "target": "sandalet",
-      "level": "a1"
-    },
-    {
-      "en": "boot",
-      "target": "çizme",
-      "level": "a1",
-      "sense": "knee-high",
-      "note": "a tall boot; an ankle boot is bot"
-    },
-    {
       "en": "flat / apartment",
       "target": "daire",
       "level": "a1",
@@ -5021,52 +3603,6 @@
       "note": "a false friend: the whole building, not the flat inside it"
     },
     {
-      "en": "farmhouse",
-      "target": "çiftlik evi",
-      "level": "a2"
-    },
-    {
-      "en": "country house / cottage",
-      "target": "kır evi",
-      "level": "a2"
-    },
-    {
-      "en": "summer house",
-      "target": "yazlık",
-      "level": "a2",
-      "note": "many Turkish families have one by the sea"
-    },
-    {
-      "en": "single-storey house / bungalow",
-      "target": "tek katlı ev",
-      "level": "a2"
-    },
-    {
-      "en": "stone house",
-      "target": "taş ev",
-      "level": "a2"
-    },
-    {
-      "en": "wooden house",
-      "target": "ahşap ev",
-      "level": "a2"
-    },
-    {
-      "en": "holiday home",
-      "target": "tatil evi",
-      "level": "a2"
-    },
-    {
-      "en": "single room",
-      "target": "tek kişilik oda",
-      "level": "a1"
-    },
-    {
-      "en": "double room",
-      "target": "çift kişilik oda",
-      "level": "a1"
-    },
-    {
       "en": "living room",
       "target": "oturma odası",
       "level": "a1"
@@ -5078,35 +3614,14 @@
       "note": "the main living room; also a hall for events"
     },
     {
-      "en": "dining room",
-      "target": "yemek odası",
-      "level": "a1"
-    },
-    {
       "en": "bathroom / bath",
       "target": "banyo",
       "level": "a1",
       "note": "also a bath: banyo yapmak, to have a bath"
     },
     {
-      "en": "hallway / entrance hall",
-      "target": "hol",
-      "level": "a2",
-      "note": "antre is also used"
-    },
-    {
-      "en": "laundry room",
-      "target": "çamaşır odası",
-      "level": "a2"
-    },
-    {
       "en": "balcony",
       "target": "balkon",
-      "level": "a1"
-    },
-    {
-      "en": "terrace",
-      "target": "teras",
       "level": "a1"
     },
     {
@@ -5115,35 +3630,9 @@
       "level": "a1"
     },
     {
-      "en": "garage",
-      "target": "garaj",
-      "level": "a1"
-    },
-    {
-      "en": "parking space",
-      "target": "park yeri",
-      "level": "a1"
-    },
-    {
-      "en": "car park",
-      "target": "otopark",
-      "level": "a1"
-    },
-    {
-      "en": "swimming pool",
-      "target": "yüzme havuzu",
-      "level": "a1",
-      "note": "a site is a gated housing complex"
-    },
-    {
       "en": "lift / elevator",
       "target": "asansör",
       "level": "a1"
-    },
-    {
-      "en": "wardrobe",
-      "target": "gardırop",
-      "level": "a2"
     },
     {
       "en": "bed",
@@ -5156,77 +3645,16 @@
       "level": "a1"
     },
     {
-      "en": "sofa bed",
-      "target": "çekyat",
-      "level": "a2"
-    },
-    {
       "en": "armchair / seat",
       "target": "koltuk",
       "level": "a1",
       "note": "also a seat on a bus or plane"
     },
     {
-      "en": "desk",
-      "target": "çalışma masası",
-      "level": "a1"
-    },
-    {
       "en": "oven / bakery",
       "target": "fırın",
       "level": "a1",
       "note": "also a bakery: fırından ekmek almak"
-    },
-    {
-      "en": "hob / stove / January",
-      "target": "ocak",
-      "level": "a1",
-      "note": "also the month January"
-    },
-    {
-      "en": "microwave",
-      "target": "mikrodalga fırın",
-      "level": "a1",
-      "note": "usually just mikrodalga"
-    },
-    {
-      "en": "dishwasher",
-      "target": "bulaşık makinesi",
-      "level": "a1",
-      "note": "bulaşık, dirty dishes; bulaşık yıkamak, to do the washing-up"
-    },
-    {
-      "en": "washing machine",
-      "target": "çamaşır makinesi",
-      "level": "a1"
-    },
-    {
-      "en": "bathtub",
-      "target": "küvet",
-      "level": "a2"
-    },
-    {
-      "en": "washbasin / sink",
-      "target": "lavabo",
-      "level": "a1"
-    },
-    {
-      "en": "iron",
-      "target": "ütü",
-      "level": "a2",
-      "note": "ütü yapmak, to do the ironing"
-    },
-    {
-      "en": "ironing board",
-      "target": "ütü masası",
-      "level": "a2"
-    },
-    {
-      "en": "to be located / to be found",
-      "target": "bulunmak",
-      "level": "b1",
-      "sense": "formal",
-      "note": "formal; in speech just use the locative: Daire merkezde"
     },
     {
       "en": "to sit / to live",
@@ -5240,86 +3668,14 @@
       "level": "a1"
     },
     {
-      "en": "to rent / to hire",
-      "target": "kiralamak",
-      "level": "a1",
-      "note": "used by both the tenant and the landlord; kiraya vermek is to let out"
-    },
-    {
-      "en": "to share",
-      "target": "paylaşmak",
-      "level": "a2"
-    },
-    {
-      "en": "rent",
-      "target": "kira",
-      "level": "a1",
-      "note": "kirada oturmak, to live in rented housing"
-    },
-    {
-      "en": "building fee / service charge",
-      "target": "aidat",
-      "level": "b1",
-      "note": "the monthly fee a block of flats charges for upkeep"
-    },
-    {
-      "en": "bill / invoice",
-      "target": "fatura",
-      "level": "a2"
-    },
-    {
-      "en": "expense / cost",
-      "target": "masraf",
-      "level": "b1"
-    },
-    {
-      "en": "public transport",
-      "target": "toplu taşıma",
-      "level": "a2"
-    },
-    {
       "en": "city centre",
       "target": "şehir merkezi",
       "level": "a1"
     },
     {
-      "en": "rural / the countryside",
-      "target": "kırsal",
-      "level": "b1",
-      "note": "kırsalda, in the countryside"
-    },
-    {
-      "en": "near the sea",
-      "target": "denize yakın",
-      "level": "a1",
-      "note": "yakın takes the dative: denize, okula"
-    },
-    {
       "en": "floor / storey",
       "target": "kat",
       "level": "a1"
-    },
-    {
-      "en": "ground floor",
-      "target": "zemin kat",
-      "level": "a1"
-    },
-    {
-      "en": "square metre",
-      "target": "metrekare",
-      "level": "a2"
-    },
-    {
-      "en": "two-bedroom flat",
-      "target": "2+1",
-      "level": "a2",
-      "note": "read iki artı bir: two bedrooms plus one living room, like Portugal's T2"
-    },
-    {
-      "en": "the flat has been renovated",
-      "target": "daire yenilenmiş",
-      "level": "b1",
-      "tense": "ogrenilen"
     },
     {
       "en": "spacious / wide",
@@ -5332,20 +3688,9 @@
       "level": "a1"
     },
     {
-      "en": "district / area",
-      "target": "semt",
-      "level": "a2"
-    },
-    {
       "en": "village",
       "target": "köy",
       "level": "a1"
-    },
-    {
-      "en": "calm / quiet / resident",
-      "target": "sakin",
-      "level": "a2",
-      "note": "also a noun: mahallenin sakinleri, the residents of the neighbourhood"
     },
     {
       "en": "neighbour",
@@ -5353,73 +3698,8 @@
       "level": "a1"
     },
     {
-      "en": "set menu",
-      "target": "fiks menü",
-      "level": "a2"
-    },
-    {
-      "en": "vegetarian food",
-      "target": "vejetaryen yemek",
-      "level": "a1"
-    },
-    {
-      "en": "with cheese",
-      "target": "peynirli",
-      "level": "a1"
-    },
-    {
-      "en": "grill / grilled",
-      "target": "ızgara",
-      "level": "a1"
-    },
-    {
-      "en": "meat dish",
-      "target": "et yemeği",
-      "level": "a1"
-    },
-    {
-      "en": "seafood",
-      "target": "deniz ürünleri",
-      "level": "a2"
-    },
-    {
-      "en": "spaghetti",
-      "target": "spagetti",
-      "level": "a1"
-    },
-    {
       "en": "chips / fries",
       "target": "patates kızartması",
-      "level": "a1"
-    },
-    {
-      "en": "parsley",
-      "target": "maydanoz",
-      "level": "a1"
-    },
-    {
-      "en": "coriander",
-      "target": "kişniş",
-      "level": "a2"
-    },
-    {
-      "en": "vegetable soup",
-      "target": "sebze çorbası",
-      "level": "a1"
-    },
-    {
-      "en": "with chocolate / chocolate",
-      "target": "çikolatalı",
-      "level": "a1"
-    },
-    {
-      "en": "fruit salad",
-      "target": "meyve salatası",
-      "level": "a1"
-    },
-    {
-      "en": "rice pudding",
-      "target": "sütlaç",
       "level": "a1"
     },
     {
@@ -5430,83 +3710,14 @@
       "note": "a plain cake; a decorated cream cake is pasta"
     },
     {
-      "en": "cream",
-      "target": "krema",
-      "level": "a2"
-    },
-    {
-      "en": "cinnamon",
-      "target": "tarçın",
-      "level": "a2"
-    },
-    {
-      "en": "cod",
-      "target": "morina balığı",
-      "level": "b1"
-    },
-    {
-      "en": "sardine",
-      "target": "sardalya",
-      "level": "a2"
-    },
-    {
-      "en": "mussel",
-      "target": "midye",
-      "level": "a2",
-      "note": "midye dolma, mussels stuffed with spiced rice, is a street food"
-    },
-    {
-      "en": "prawn / shrimp",
-      "target": "karides",
-      "level": "a2"
-    },
-    {
-      "en": "with garlic",
-      "target": "sarımsaklı",
-      "level": "a1"
-    },
-    {
-      "en": "with mushrooms",
-      "target": "mantarlı",
-      "level": "a1"
-    },
-    {
-      "en": "meatless / without meat",
-      "target": "etsiz",
-      "level": "a1"
-    },
-    {
       "en": "to cook / to make a meal",
       "target": "yemek yapmak",
       "level": "a1"
     },
     {
-      "en": "to boil",
-      "target": "haşlamak",
-      "level": "a2",
-      "sense": "food, in water",
-      "note": "to cook food in boiling water; to bring water to the boil is kaynatmak"
-    },
-    {
-      "en": "to grill / to barbecue",
-      "target": "ızgara yapmak",
-      "level": "a2"
-    },
-    {
-      "en": "to fry",
-      "target": "kızartmak",
-      "level": "a2"
-    },
-    {
       "en": "to bring",
       "target": "getirmek",
       "level": "a1"
-    },
-    {
-      "en": "to order",
-      "target": "sipariş etmek",
-      "level": "a2",
-      "note": "sipariş vermek means the same"
     },
     {
       "en": "to have lunch",
@@ -5557,41 +3768,6 @@
       ]
     },
     {
-      "en": "what is there for the main course?",
-      "target": "ana yemek olarak ne var?",
-      "level": "a1"
-    },
-    {
-      "en": "I'd like grilled fish",
-      "target": "ızgara balık istiyorum",
-      "level": "a1",
-      "verb": "istemek",
-      "tense": "simdiki"
-    },
-    {
-      "en": "what do you usually eat for breakfast?",
-      "target": "kahvaltıda genelde ne yersiniz?",
-      "level": "a1",
-      "verb": "yemek",
-      "tags": [
-        "formal"
-      ],
-      "tense": "genis"
-    },
-    {
-      "en": "meal",
-      "target": "öğün",
-      "level": "a2",
-      "sense": "an eating occasion",
-      "note": "a meal as a time of eating; the food itself is yemek"
-    },
-    {
-      "en": "daily",
-      "target": "günlük",
-      "level": "a2",
-      "note": "also a diary"
-    },
-    {
       "en": "often / frequently",
       "target": "sık sık",
       "level": "a1"
@@ -5600,17 +3776,6 @@
       "en": "usually / generally",
       "target": "genelde",
       "level": "a1"
-    },
-    {
-      "en": "rarely",
-      "target": "nadiren",
-      "level": "a2"
-    },
-    {
-      "en": "almost never",
-      "target": "neredeyse hiç",
-      "level": "a2",
-      "note": "with a negative verb"
     },
     {
       "en": "never",
@@ -5625,47 +3790,14 @@
       "note": "\"ever\" in a question, \"never\" or \"not at all\" with a negative verb"
     },
     {
-      "en": "healthy eating / healthy diet",
-      "target": "sağlıklı beslenme",
-      "level": "a2"
-    },
-    {
-      "en": "Mediterranean cuisine",
-      "target": "Akdeniz mutfağı",
-      "level": "b1"
-    },
-    {
-      "en": "diet",
-      "target": "diyet",
-      "level": "a2",
-      "note": "diyet yapmak, to be on a diet"
-    },
-    {
-      "en": "physical activity",
-      "target": "fiziksel aktivite",
-      "level": "b1"
-    },
-    {
       "en": "to rest",
       "target": "dinlenmek",
       "level": "a1"
     },
     {
-      "en": "large family",
-      "target": "kalabalık aile",
-      "level": "a2",
-      "note": "kalabalık, \"crowded\", is how Turkish says a big family"
-    },
-    {
       "en": "grandfather",
       "target": "dede",
       "level": "a1"
-    },
-    {
-      "en": "grandfather",
-      "target": "büyükbaba",
-      "level": "a1",
-      "note": "dede is more common in speech"
     },
     {
       "en": "grandmother",
@@ -5678,25 +3810,6 @@
       "target": "babaanne",
       "level": "a1",
       "sense": "your father's mother"
-    },
-    {
-      "en": "grandmother",
-      "target": "büyükanne",
-      "level": "a1",
-      "sense": "either side",
-      "note": "the general word; anneanne and babaanne say which side"
-    },
-    {
-      "en": "grandchild",
-      "target": "torun",
-      "level": "a1"
-    },
-    {
-      "en": "parent",
-      "target": "ebeveyn",
-      "level": "b1",
-      "sense": "formal",
-      "note": "formal; in speech say anne baba"
     },
     {
       "en": "my mother",
@@ -5723,11 +3836,6 @@
       "exampleSubject": "erkek kardeş"
     },
     {
-      "en": "my parents",
-      "target": "annem ve babam",
-      "level": "a1"
-    },
-    {
       "en": "your mother",
       "target": "annen",
       "level": "a1",
@@ -5746,18 +3854,6 @@
       "exampleSubject": "baba"
     },
     {
-      "en": "his / her mother",
-      "target": "annesi",
-      "level": "a1",
-      "exampleSubject": "anne"
-    },
-    {
-      "en": "his / her father",
-      "target": "babası",
-      "level": "a1",
-      "exampleSubject": "baba"
-    },
-    {
       "en": "blond",
       "target": "sarışın",
       "level": "a1"
@@ -5768,21 +3864,6 @@
       "level": "a1"
     },
     {
-      "en": "red-haired",
-      "target": "kızıl saçlı",
-      "level": "a2"
-    },
-    {
-      "en": "white-haired",
-      "target": "beyaz saçlı",
-      "level": "a2"
-    },
-    {
-      "en": "bald",
-      "target": "kel",
-      "level": "a2"
-    },
-    {
       "en": "hair",
       "target": "saç",
       "level": "a1",
@@ -5790,56 +3871,9 @@
       "note": "the hair on your head; body hair is tüy"
     },
     {
-      "en": "short hair",
-      "target": "kısa saç",
-      "level": "a1",
-      "note": "as a description: kısa saçlı, short-haired"
-    },
-    {
-      "en": "long hair",
-      "target": "uzun saç",
-      "level": "a1"
-    },
-    {
-      "en": "straight hair",
-      "target": "düz saç",
-      "level": "a1"
-    },
-    {
-      "en": "curly hair",
-      "target": "kıvırcık saç",
-      "level": "a1"
-    },
-    {
-      "en": "beard",
-      "target": "sakal",
-      "level": "a1"
-    },
-    {
-      "en": "moustache",
-      "target": "bıyık",
-      "level": "a2"
-    },
-    {
       "en": "eye",
       "target": "göz",
       "level": "a1"
-    },
-    {
-      "en": "blue-eyed",
-      "target": "mavi gözlü",
-      "level": "a1"
-    },
-    {
-      "en": "green-eyed",
-      "target": "yeşil gözlü",
-      "level": "a1"
-    },
-    {
-      "en": "brown-eyed",
-      "target": "kahverengi gözlü",
-      "level": "a1",
-      "note": "ela, hazel, is also common"
     },
     {
       "en": "tall / long",
@@ -5852,11 +3886,6 @@
       "target": "kısa",
       "level": "a1",
       "note": "kısa boylu for people"
-    },
-    {
-      "en": "nice / likeable",
-      "target": "sempatik",
-      "level": "a2"
     },
     {
       "en": "kind / polite",
@@ -5876,32 +3905,6 @@
       "level": "a1"
     },
     {
-      "en": "unpleasant / unlikeable",
-      "target": "antipatik",
-      "level": "b1"
-    },
-    {
-      "en": "character / personality",
-      "target": "karakter",
-      "level": "a2"
-    },
-    {
-      "en": "similar",
-      "target": "benzer",
-      "level": "a2"
-    },
-    {
-      "en": "to look like / to resemble",
-      "target": "benzemek",
-      "level": "a2",
-      "note": "who you resemble takes the dative: annesine benziyor"
-    },
-    {
-      "en": "to live together",
-      "target": "birlikte yaşamak",
-      "level": "a2"
-    },
-    {
       "en": "married",
       "target": "evli",
       "level": "a1"
@@ -5911,23 +3914,6 @@
       "target": "bekâr",
       "level": "a1",
       "note": "also written bekar"
-    },
-    {
-      "en": "to get married",
-      "target": "evlenmek",
-      "level": "a2",
-      "note": "who you marry takes -le: onunla evlenmek"
-    },
-    {
-      "en": "to separate / to leave",
-      "target": "ayrılmak",
-      "level": "a2",
-      "note": "what you leave takes the ablative: evden ayrılmak"
-    },
-    {
-      "en": "to divorce",
-      "target": "boşanmak",
-      "level": "b1"
     },
     {
       "en": "profession / occupation",
@@ -5954,11 +3940,6 @@
       "target": "oyuncu",
       "level": "a1",
       "note": "also a player in a game or sport"
-    },
-    {
-      "en": "journalist",
-      "target": "gazeteci",
-      "level": "a1"
     },
     {
       "en": "singer",
@@ -5995,20 +3976,6 @@
       "exampleSubject": "hemşire"
     },
     {
-      "en": "to spell",
-      "target": "hecelemek",
-      "level": "b1"
-    },
-    {
-      "en": "could you spell your name?",
-      "target": "adınızı heceler misiniz?",
-      "level": "a2",
-      "verb": "hecelemek",
-      "tags": [
-        "formal"
-      ]
-    },
-    {
       "en": "first",
       "target": "birinci",
       "level": "a1",
@@ -6036,21 +4003,6 @@
       "level": "a1"
     },
     {
-      "en": "which floor do you live on?",
-      "target": "kaçıncı katta oturuyorsun?",
-      "level": "a1",
-      "verb": "oturmak",
-      "tags": [
-        "informal"
-      ],
-      "tense": "simdiki"
-    },
-    {
-      "en": "postcode",
-      "target": "posta kodu",
-      "level": "a1"
-    },
-    {
       "en": "country",
       "target": "ülke",
       "level": "a1"
@@ -6072,61 +4024,6 @@
     {
       "en": "Lisbon",
       "target": "Lizbon",
-      "level": "a1"
-    },
-    {
-      "en": "London",
-      "target": "Londra",
-      "level": "a1"
-    },
-    {
-      "en": "Venice",
-      "target": "Venedik",
-      "level": "a1"
-    },
-    {
-      "en": "Cologne",
-      "target": "Köln",
-      "level": "a2"
-    },
-    {
-      "en": "Rome",
-      "target": "Roma",
-      "level": "a1"
-    },
-    {
-      "en": "Barcelona",
-      "target": "Barselona",
-      "level": "a1"
-    },
-    {
-      "en": "Paris",
-      "target": "Paris",
-      "level": "a1"
-    },
-    {
-      "en": "Moscow",
-      "target": "Moskova",
-      "level": "a1"
-    },
-    {
-      "en": "Berlin",
-      "target": "Berlin",
-      "level": "a1"
-    },
-    {
-      "en": "Beijing",
-      "target": "Pekin",
-      "level": "a1"
-    },
-    {
-      "en": "Africa",
-      "target": "Afrika",
-      "level": "a1"
-    },
-    {
-      "en": "Asia",
-      "target": "Asya",
       "level": "a1"
     },
     {
@@ -6228,13 +4125,6 @@
       "level": "a1"
     },
     {
-      "en": "good afternoon",
-      "target": "tünaydın",
-      "level": "a2",
-      "sense": "formal",
-      "note": "formal and rather old-fashioned; iyi günler covers most of the day"
-    },
-    {
       "en": "thank you very much",
       "target": "çok teşekkür ederim",
       "level": "a1",
@@ -6261,11 +4151,6 @@
       "tense": "genis"
     },
     {
-      "en": "to apologise",
-      "target": "özür dilemek",
-      "level": "a2"
-    },
-    {
       "en": "I'm very sorry",
       "target": "çok üzgünüm",
       "level": "a1",
@@ -6277,15 +4162,6 @@
       "target": "geçmiş olsun",
       "level": "a1",
       "note": "literally \"may it be past\"; said after any illness or mishap"
-    },
-    {
-      "en": "my condolences",
-      "target": "başın sağ olsun",
-      "level": "a2",
-      "tags": [
-        "informal"
-      ],
-      "note": "said when someone has lost a relative"
     },
     {
       "en": "see you soon",
@@ -6300,13 +4176,6 @@
       "tense": "genis"
     },
     {
-      "en": "see you next week",
-      "target": "haftaya görüşürüz",
-      "level": "a1",
-      "verb": "görüşmek",
-      "tense": "genis"
-    },
-    {
       "en": "take care",
       "target": "kendine iyi bak",
       "level": "a1",
@@ -6316,29 +4185,10 @@
       "verb": "bakmak"
     },
     {
-      "en": "to kiss",
-      "target": "öpmek",
-      "level": "a2"
-    },
-    {
-      "en": "kisses / lots of love",
-      "target": "öpüyorum",
-      "level": "a2",
-      "verb": "öpmek",
-      "tense": "simdiki",
-      "sense": "a sign-off",
-      "note": "literally \"I'm kissing\"; a warm sign-off to friends and family"
-    },
-    {
       "en": "to be / to become",
       "target": "olmak",
       "level": "a1",
       "note": "the infinitive of \"to be\"; in the present Turkish uses endings instead: öğretmenim, I am a teacher"
-    },
-    {
-      "en": "to travel",
-      "target": "seyahat etmek",
-      "level": "a2"
     },
     {
       "en": "to know / to recognise",
@@ -6358,12 +4208,6 @@
       "en": "to walk",
       "target": "yürümek",
       "level": "a1"
-    },
-    {
-      "en": "to arrive / to reach",
-      "target": "varmak",
-      "level": "a2",
-      "note": "takes the dative: otele varmak"
     },
     {
       "en": "to come / to arrive",
@@ -6386,20 +4230,6 @@
       "level": "a1"
     },
     {
-      "en": "to call / to summon",
-      "target": "çağırmak",
-      "level": "a2",
-      "sense": "to call over",
-      "note": "to call someone over; to phone is aramak"
-    },
-    {
-      "en": "to be called",
-      "target": "adı olmak",
-      "level": "a1",
-      "exampleSubject": "adım",
-      "note": "Turkish says \"my name is\", adım ...; there is no verb like chamar-se"
-    },
-    {
       "en": "to wander around / to go out",
       "target": "gezmek",
       "level": "a1",
@@ -6409,11 +4239,6 @@
       "en": "full / busy / booked",
       "target": "dolu",
       "level": "a1"
-    },
-    {
-      "en": "busy / occupied",
-      "target": "meşgul",
-      "level": "a2"
     },
     {
       "en": "ugly",
@@ -6430,12 +4255,6 @@
       "target": "kapalı",
       "level": "a1",
       "note": "also switched off, or overcast weather"
-    },
-    {
-      "en": "the computer is on",
-      "target": "bilgisayar açık",
-      "level": "a1",
-      "exampleSubject": "açık"
     },
     {
       "en": "rich",
@@ -6465,42 +4284,9 @@
       "note": "literally \"I have my sleep\""
     },
     {
-      "en": "sleep",
-      "target": "uyku",
-      "level": "a2"
-    },
-    {
-      "en": "to shake hands",
-      "target": "tokalaşmak",
-      "level": "b1"
-    },
-    {
-      "en": "tiredness",
-      "target": "yorgunluk",
-      "level": "b1",
-      "note": "literally \"I can't sleep from tiredness\""
-    },
-    {
       "en": "tired",
       "target": "yorgun",
       "level": "a1"
-    },
-    {
-      "en": "while",
-      "target": "iken",
-      "level": "b1",
-      "note": "usually attached as -ken: yaparken, while doing"
-    },
-    {
-      "en": "to have / to own",
-      "target": "sahip olmak",
-      "level": "a2",
-      "note": "everyday \"I have\" is var: bir arabam var"
-    },
-    {
-      "en": "to give back / to return",
-      "target": "geri vermek",
-      "level": "a2"
     },
     {
       "en": "to think",
@@ -6508,27 +4294,9 @@
       "level": "a1"
     },
     {
-      "en": "to decide / to make a decision",
-      "target": "karar vermek",
-      "level": "a2",
-      "note": "what you decide on takes the dative"
-    },
-    {
       "en": "to take a shower",
       "target": "duş almak",
       "level": "a1"
-    },
-    {
-      "en": "my son is ill",
-      "target": "oğlum hasta",
-      "level": "a1",
-      "exampleSubject": "hasta"
-    },
-    {
-      "en": "today he is better",
-      "target": "bugün daha iyi",
-      "level": "a1",
-      "exampleSubject": "iyi"
     },
     {
       "en": "to wash",
@@ -6547,37 +4315,6 @@
       "level": "a1"
     },
     {
-      "en": "to lose",
-      "target": "kaybetmek",
-      "level": "a2"
-    },
-    {
-      "en": "to light / to burn",
-      "target": "yakmak",
-      "level": "a2",
-      "note": "ışığı yakmak, to switch on the light"
-    },
-    {
-      "en": "to put out / to switch off",
-      "target": "söndürmek",
-      "level": "b1"
-    },
-    {
-      "en": "to wipe / to erase",
-      "target": "silmek",
-      "level": "a2"
-    },
-    {
-      "en": "to hit",
-      "target": "vurmak",
-      "level": "a2"
-    },
-    {
-      "en": "to promise",
-      "target": "söz vermek",
-      "level": "a2"
-    },
-    {
       "en": "once",
       "target": "bir kere",
       "level": "a1",
@@ -6587,16 +4324,6 @@
       "en": "twice",
       "target": "iki kere",
       "level": "a1"
-    },
-    {
-      "en": "many times",
-      "target": "çok kez",
-      "level": "a2"
-    },
-    {
-      "en": "none of them",
-      "target": "hiçbiri",
-      "level": "a2"
     },
     {
       "en": "better",
@@ -6620,12 +4347,6 @@
       "level": "a1"
     },
     {
-      "en": "more than five kilos",
-      "target": "beş kilodan fazla",
-      "level": "a2",
-      "note": "\"more than\" takes the ablative: beş kilodan"
-    },
-    {
       "en": "everyone",
       "target": "herkes",
       "level": "a1"
@@ -6640,11 +4361,6 @@
       "target": "de / da",
       "level": "a1",
       "note": "written separately and follows harmony: ben de, sen de, o da"
-    },
-    {
-      "en": "neither tea nor coffee",
-      "target": "ne çay ne kahve",
-      "level": "a2"
     },
     {
       "en": "to wake up",
@@ -6663,43 +4379,15 @@
       "level": "a1"
     },
     {
-      "en": "to get used to",
-      "target": "alışmak",
-      "level": "a2",
-      "note": "takes the dative: bu havaya alışmak"
-    },
-    {
-      "en": "to pretend / to act",
-      "target": "rol yapmak",
-      "level": "b1"
-    },
-    {
-      "en": "to go home by train",
-      "target": "trenle eve dönmek",
-      "level": "a1",
-      "exampleSubject": "tren"
-    },
-    {
       "en": "to return / to turn",
       "target": "dönmek",
       "level": "a1",
       "note": "also to turn: sağa dönmek"
     },
     {
-      "en": "around ten o'clock",
-      "target": "saat on gibi",
-      "level": "a1"
-    },
-    {
       "en": "during the week / on weekdays",
       "target": "hafta içi",
       "level": "a1"
-    },
-    {
-      "en": "to prefer",
-      "target": "tercih etmek",
-      "level": "a2",
-      "note": "the thing you prefer something over takes the dative"
     },
     {
       "en": "to want / to ask for",
@@ -6711,21 +4399,6 @@
       "target": "kalkmak",
       "level": "a1",
       "note": "also used for a bus or train leaving: tren saat beşte kalkıyor"
-    },
-    {
-      "en": "to wash oneself",
-      "target": "yıkanmak",
-      "level": "a2"
-    },
-    {
-      "en": "to leave the house",
-      "target": "evden çıkmak",
-      "level": "a1"
-    },
-    {
-      "en": "to comb one's hair",
-      "target": "saçını taramak",
-      "level": "a2"
     },
     {
       "en": "to get dressed",
@@ -6745,40 +4418,6 @@
       "note": "not a separate verb: -ebil- or -abil- goes inside the verb: gelebilirim, I can come"
     },
     {
-      "en": "storeroom / warehouse / tank",
-      "target": "depo",
-      "level": "b1",
-      "note": "also a fuel tank: depoyu doldurmak, to fill up"
-    },
-    {
-      "en": "worried / anxious",
-      "target": "endişeli",
-      "level": "a2"
-    },
-    {
-      "en": "to talk on the phone",
-      "target": "telefonda konuşmak",
-      "level": "a1"
-    },
-    {
-      "en": "few people speak Portuguese",
-      "target": "az kişi Portekizce konuşuyor",
-      "level": "a2",
-      "tense": "simdiki",
-      "verb": "konuşmak"
-    },
-    {
-      "en": "to continue / to attend",
-      "target": "devam etmek",
-      "level": "a2",
-      "note": "takes the dative: kursa devam etmek, to attend a course"
-    },
-    {
-      "en": "stroll / outing",
-      "target": "gezinti",
-      "level": "b1"
-    },
-    {
       "en": "Italian",
       "target": "İtalyan",
       "level": "a1",
@@ -6793,21 +4432,11 @@
       "note": "the language is Japonca"
     },
     {
-      "en": "Canadian",
-      "target": "Kanadalı",
-      "level": "a1"
-    },
-    {
       "en": "Spanish",
       "target": "İspanyol",
       "level": "a1",
       "sense": "the person",
       "note": "the language is İspanyolca"
-    },
-    {
-      "en": "Swiss",
-      "target": "İsviçreli",
-      "level": "a1"
     },
     {
       "en": "French",
@@ -6817,34 +4446,9 @@
       "note": "the language is Fransızca"
     },
     {
-      "en": "Hungarian",
-      "target": "Macar",
-      "level": "a2"
-    },
-    {
       "en": "Chinese",
       "target": "Çinli",
       "level": "a1"
-    },
-    {
-      "en": "Mexican",
-      "target": "Meksikalı",
-      "level": "a1"
-    },
-    {
-      "en": "Belgian",
-      "target": "Belçikalı",
-      "level": "a2"
-    },
-    {
-      "en": "Swedish",
-      "target": "İsveçli",
-      "level": "a2"
-    },
-    {
-      "en": "Romanian",
-      "target": "Rumen",
-      "level": "a2"
     },
     {
       "en": "Russian",
@@ -6907,60 +4511,9 @@
       "sense": "the language"
     },
     {
-      "en": "Switzerland",
-      "target": "İsviçre",
-      "level": "a1"
-    },
-    {
-      "en": "Egypt / corn",
-      "target": "Mısır",
-      "level": "a1",
-      "note": "written lowercase, mısır is sweetcorn"
-    },
-    {
-      "en": "Canada",
-      "target": "Kanada",
-      "level": "a1"
-    },
-    {
-      "en": "Cuba",
-      "target": "Küba",
-      "level": "a2"
-    },
-    {
-      "en": "Israel",
-      "target": "İsrail",
-      "level": "a2"
-    },
-    {
       "en": "Russia",
       "target": "Rusya",
       "level": "a1"
-    },
-    {
-      "en": "Hungary",
-      "target": "Macaristan",
-      "level": "a2"
-    },
-    {
-      "en": "India",
-      "target": "Hindistan",
-      "level": "a1"
-    },
-    {
-      "en": "Mexico",
-      "target": "Meksika",
-      "level": "a1"
-    },
-    {
-      "en": "Ireland",
-      "target": "İrlanda",
-      "level": "a1"
-    },
-    {
-      "en": "Mozambique",
-      "target": "Mozambik",
-      "level": "a2"
     },
     {
       "en": "in Portugal",
@@ -6983,101 +4536,15 @@
       "tense": "simdiki"
     },
     {
-      "en": "vet",
-      "target": "veteriner",
-      "level": "a1"
-    },
-    {
       "en": "dentist",
       "target": "diş hekimi",
       "level": "a1",
       "note": "also dişçi"
     },
     {
-      "en": "accountant",
-      "target": "muhasebeci",
-      "level": "a2"
-    },
-    {
-      "en": "painter / artist",
-      "target": "ressam",
-      "level": "a2",
-      "sense": "an artist",
-      "note": "an artist who paints; a house painter is boyacı"
-    },
-    {
-      "en": "barber",
-      "target": "berber",
-      "level": "a1"
-    },
-    {
-      "en": "diplomat",
-      "target": "diplomat",
-      "level": "b1"
-    },
-    {
-      "en": "translator / interpreter",
-      "target": "çevirmen",
-      "level": "a2",
-      "note": "tercüman is also used"
-    },
-    {
-      "en": "computer engineer",
-      "target": "bilgisayar mühendisi",
-      "level": "a2"
-    },
-    {
-      "en": "economics",
-      "target": "iktisat",
-      "level": "b1",
-      "note": "also ekonomi"
-    },
-    {
-      "en": "law",
-      "target": "hukuk",
-      "level": "a2"
-    },
-    {
-      "en": "medicine",
-      "target": "tıp",
-      "level": "a2",
-      "sense": "the subject",
-      "note": "the discipline; a medicine you take is ilaç"
-    },
-    {
-      "en": "literature",
-      "target": "edebiyat",
-      "level": "a2"
-    },
-    {
       "en": "theatre",
       "target": "tiyatro",
       "level": "a1"
-    },
-    {
-      "en": "international relations",
-      "target": "uluslararası ilişkiler",
-      "level": "b1"
-    },
-    {
-      "en": "business administration / management",
-      "target": "işletme",
-      "level": "b1"
-    },
-    {
-      "en": "translation",
-      "target": "çeviri",
-      "level": "a2"
-    },
-    {
-      "en": "to learn a new language",
-      "target": "yeni bir dil öğrenmek",
-      "level": "a1"
-    },
-    {
-      "en": "to help others",
-      "target": "başkalarına yardım etmek",
-      "level": "a2"
     },
     {
       "en": "people",
@@ -7088,11 +4555,6 @@
     {
       "en": "person",
       "target": "kişi",
-      "level": "a1"
-    },
-    {
-      "en": "magazine",
-      "target": "dergi",
       "level": "a1"
     },
     {
@@ -7120,12 +4582,6 @@
       "en": "by plane",
       "target": "uçakla",
       "level": "a1"
-    },
-    {
-      "en": "by ferry",
-      "target": "vapurla",
-      "level": "a1",
-      "note": "the Bosphorus commuter ferry is the vapur"
     },
     {
       "en": "on foot",
@@ -7175,44 +4631,6 @@
       "level": "a1"
     },
     {
-      "en": "her ex-husband",
-      "target": "eski kocası",
-      "level": "a2",
-      "exampleSubject": "eski",
-      "note": "eski, \"old\", also means ex-"
-    },
-    {
-      "en": "divorced",
-      "target": "boşanmış",
-      "level": "a2"
-    },
-    {
-      "en": "stepfather",
-      "target": "üvey baba",
-      "level": "a2",
-      "note": "üvey means step-: üvey anne, üvey kardeş"
-    },
-    {
-      "en": "nephew / niece",
-      "target": "yeğen",
-      "level": "a1"
-    },
-    {
-      "en": "snail",
-      "target": "salyangoz",
-      "level": "b1"
-    },
-    {
-      "en": "brown hair",
-      "target": "kahverengi saç",
-      "level": "a1"
-    },
-    {
-      "en": "fortunately",
-      "target": "neyse ki",
-      "level": "a2"
-    },
-    {
       "en": "a few / some",
       "target": "birkaç",
       "level": "a1"
@@ -7234,12 +4652,6 @@
       "level": "a1"
     },
     {
-      "en": "good morning, everyone",
-      "target": "herkese günaydın",
-      "level": "a1",
-      "exampleSubject": "günaydın"
-    },
-    {
       "en": "every night",
       "target": "her gece",
       "level": "a1"
@@ -7250,18 +4662,8 @@
       "level": "a1"
     },
     {
-      "en": "to be on holiday",
-      "target": "tatilde olmak",
-      "level": "a1"
-    },
-    {
       "en": "normally",
       "target": "normalde",
-      "level": "a1"
-    },
-    {
-      "en": "normal / usual",
-      "target": "normal",
       "level": "a1"
     },
     {
@@ -7289,11 +4691,6 @@
       "note": "also written hala, which also means aunt"
     },
     {
-      "en": "between / among",
-      "target": "arasında",
-      "level": "a2"
-    },
-    {
       "en": "where to?",
       "target": "nereye?",
       "level": "a1"
@@ -7312,15 +4709,6 @@
       "en": "from there",
       "target": "oradan",
       "level": "a1"
-    },
-    {
-      "en": "welcome to the team",
-      "target": "takıma hoş geldin",
-      "level": "a1",
-      "tags": [
-        "informal"
-      ],
-      "exampleSubject": "hoş geldin"
     },
     {
       "en": "my friends",

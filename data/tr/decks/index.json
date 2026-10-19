@@ -22,7 +22,7 @@
   {
     "deck": "Class",
     "file": "class",
-    "count": 1296
+    "count": 814
   },
   {
     "deck": "Clothing & Colors",
@@ -88,6 +88,11 @@
     "deck": "Habitual (Geniş Zaman)",
     "file": "habitual-genis",
     "count": 60
+  },
+  {
+    "deck": "Harry Potter & the Philosopher's Stone",
+    "file": "harry-potter-philosophers-stone",
+    "count": 125
   },
   {
     "deck": "Hobbies & Free Time",
